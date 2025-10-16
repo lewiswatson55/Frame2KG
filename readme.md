@@ -4,6 +4,7 @@ Frame2KG aggregates the data, models, and tooling introduced in *Frame2KG-YC2: A
 
 ## Project Resources
 - Dataset: Frame2KG-YC2 synthetic corpus ([hidden for anonymous review](https://hf.co))
+- Synthetic Dataset Creation Scripts ([Dataset Generation](https://anonymous.4open.science/r/Frame2KG/DatasetGeneration/readme.md)) 
 - Training pipeline: Frame2KG-Trainer for Qwen2.5-VL LoRA adapters ([Frame2KG Trainer](https://anonymous.4open.science/r/frame2kg-trainer/))
 - Evaluation toolkit: Deterministic frame2kg-eval matcher and metrics ([Anonymous access](https://anonymous.4open.science/r/frame2kg_eval_toolkit/))
 - Adapters: Released LoRA checkpoints (3B/7B; QKVO ± GateProj) ([hidden for anonymous review]((https://hf.co)))
