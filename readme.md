@@ -4,10 +4,10 @@ Frame2KG aggregates the data, models, and tooling introduced in *Frame2KG-YC2: A
 
 ## Project Resources
 - Dataset: Frame2KG-YC2 synthetic corpus ([hidden for anonymous review](https://hf.co))
-- Training pipeline: Frame2KG-Trainer for Qwen2.5-VL LoRA adapters ([coming soon](https://example.com/))
+- Training pipeline: Frame2KG-Trainer for Qwen2.5-VL LoRA adapters ([Frame2KG Trainer](https://anonymous.4open.science/r/frame2kg-trainer/))
 - Evaluation toolkit: Deterministic frame2kg-eval matcher and metrics ([Anonymous access](https://anonymous.4open.science/r/frame2kg_eval_toolkit/))
 - Adapters: Released LoRA checkpoints (3B/7B; QKVO ± GateProj) ([hidden for anonymous review]((https://hf.co)))
-- Paper: Frame2KG baseline reports and comparison results ([coming soon]())
+- Paper: Frame2KG baseline reports and comparison results ([coming soon](#))
 
 > Note: Resources marked "hidden for anonymous review" are hosted on huggingface and cannot be anonymously accessed.
 
