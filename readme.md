@@ -11,7 +11,7 @@ Frame2KG aggregates the data, models, and tooling introduced in *Frame2KG-YC2: A
 - Ablations: Effect of adding MLP gating (GateProj/Up/Down) on Node/Edge F1µ and IoU ([read the ablation summary](https://anonymous.4open.science/r/Frame2KG/Ablation/effect_of_adding_gate.md))
 - Paper: Frame2KG baseline reports and comparison results ([coming soon](#))
 
-> Note: All resources have been anonomised. Adapters and Dataset will be hosted on Huggingface but in order to annonomise we provide direct download links preserving author anonymisation. 
+> Note: All resources have been anonomised. Adapters and Dataset will be hosted on Huggingface but in order to annonomise we provide direct download links preserving author anonymisation. If asked for a password use `Frame2KG`.
 
 ## Citing
 If you use these resources, please cite the Frame2KG-YC2 paper (coming soon).
