@@ -87,14 +87,20 @@
 
 ## A5. Matcher sensitivity to IoU gate and blend weight
 
-| Model                     | τ/α       | Node F1_μ | Edge F1_μ | Comb. F1 | n   |
-|---------------------------|-----------|-----------|-----------|----------|-----|
-| 3B--QKVO-Gate (final)     | **0.3/0.7** | **0.650** | **0.238** | **0.444** | 100 |
-|                           | 0.3/0.6   | 0.650     | 0.236     | 0.443    | 100 |
-| 7B--QKVO-Gate (step1k)    | **0.3/0.7** | **0.664** | **0.294** | **0.479** |  99 |
-|                           | 0.3/0.6   | 0.664     | 0.294     | 0.479    |  99 |
+| Model                      | τ/α         | Node F1_μ | Edge F1_μ | Comb. F1 |
+|---------------------------|-------------|-----------|-----------|----------|
+| **3B--QKVO-Gate (final)** | **0.3/0.5** | **0.668** | **0.236** | **0.452** |
+|                           | **0.3/0.7** | **0.668** | 0.234     | 0.451    |
+|                           | 0.3/0.85    | 0.668     | 0.226     | 0.447    |
+|                           | 0.5/0.5     | 0.479     | 0.129     | 0.304    |
+|                           | 0.5/0.7     | 0.479     | 0.127     | 0.303    |
+| **7B--QKVO-Gate (step1k)**| **0.3/0.5** | **0.674** | **0.282** | **0.478** |
+|                           | **0.3/0.7** | **0.674** | **0.282** | **0.478** |
+|                           | 0.3/0.85    | 0.674     | 0.280     | 0.477    |
+|                           | 0.5/0.5     | 0.489     | 0.189     | 0.339    |
+|                           | 0.5/0.7     | 0.489     | 0.189     | 0.339    |
 
-**Notes.** τ is the IoU gate for stage-1 node alignment; α is the blend weight between localisation and text similarity in stage-2. All other eval settings frozen.
+**Notes.** τ is the IoU gate for stage-1 node alignment; α is the blend weight between localisation and text similarity in stage-2. Top-5 settings per model shown from the default sweep (τ∈{0.3,0.5,0.7}, α∈{0.5,0.7,0.85}). All other eval settings frozen. For 7B, α=0.5 and α=0.7 tie on Combined F1 at τ=0.3.
 
 ---
 
