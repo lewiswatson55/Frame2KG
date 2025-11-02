@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken_wings",
+      "target": "plate"
+    },
+    {
+      "predicate": "on",
+      "source": "carrot_strips",
+      "target": "plate"
+    },
+    {
+      "predicate": "on",
+      "source": "celery_strips",
+      "target": "plate"
+    },
+    {
+      "predicate": "next_to",
+      "source": "carrot_strips",
+      "target": "celery_strips"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "plate",
+      "target": "tablecloth"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "orange sauced",
+        "size": "large"
+      },
+      "id": "chicken_wings",
+      "label": "Chicken Wings",
+      "location": "0.15,0.15,0.85,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate",
+      "label": "Plate",
+      "location": "0.0,0.4,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green",
+        "size": "small"
+      },
+      "id": "celery_strips",
+      "label": "Celery Strips",
+      "location": "0.0,0.3,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange",
+        "size": "small"
+      },
+      "id": "carrot_strips",
+      "label": "Carrot Strips",
+      "location": "0.0,0.5,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige fabric",
+        "size": "large"
+      },
+      "id": "tablecloth",
+      "label": "Tablecloth",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken_pieces_top",
+      "target": "plate"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken_pieces_bottom",
+      "target": "plate"
+    },
+    {
+      "predicate": "next_to",
+      "source": "dip_bowl",
+      "target": "chicken_pieces_bottom"
+    },
+    {
+      "predicate": "left_of",
+      "source": "raw_chicken_sign",
+      "target": "chicken_pieces_top"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken_pieces_top",
+      "label": "fried chicken pieces",
+      "location": "0.35,0.05,0.65,0.28,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "chicken_pieces_bottom",
+      "label": "fried chicken pieces",
+      "location": "0.45,0.35,0.75,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate",
+      "label": "plate",
+      "location": "0.35,0.28,0.75,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red circle with white line through it",
+        "size": "medium"
+      },
+      "id": "raw_chicken_sign",
+      "label": "raw chicken sign",
+      "location": "0.05,0.35,0.35,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy",
+        "size": "small"
+      },
+      "id": "dip_bowl",
+      "label": "dipping sauce bowl",
+      "location": "0.55,0.75,0.65,0.85,0.8"
+    }
+  ]
+}

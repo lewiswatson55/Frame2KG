@@ -1,0 +1,123 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "cup1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "cup1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "powder1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "cloth1"
+    },
+    {
+      "predicate": "on",
+      "source": "whisk1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl2",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "cloth1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "whisk1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.5,0.0,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "cup1",
+      "label": "Measuring cup",
+      "location": "0.45,0.0,0.75,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white granular",
+        "size": "small"
+      },
+      "id": "powder1",
+      "label": "Sugar",
+      "location": "0.5,0.1,0.65,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "Mixing bowl",
+      "location": "0.3,0.2,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "whisk1",
+      "label": "Whisk",
+      "location": "0.0,0.4,0.4,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl2",
+      "label": "Glass bowl",
+      "location": "0.0,0.0,0.5,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white cloth",
+        "size": "medium"
+      },
+      "id": "cloth1",
+      "label": "Cloth",
+      "location": "0.2,0.6,0.8,0.9,0.8"
+    }
+  ]
+}

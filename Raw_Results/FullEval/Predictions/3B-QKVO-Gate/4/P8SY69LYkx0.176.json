@@ -1,0 +1,174 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese_block1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spatula1",
+      "target": "cheese_block1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "cutting_board1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "stove1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "clock1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "rack1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "behind",
+      "source": "vegetables_basket1",
+      "target": "person1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "vegetables_basket1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "board1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "board1",
+      "target": "rack1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white chef coat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.35,0.05,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.47,0.65,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.35,0.75,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cheese block",
+        "size": "small"
+      },
+      "id": "cheese_block1",
+      "label": "cheese block",
+      "location": "0.45,0.80,0.55,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal spatula",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.40,0.80,0.50,0.90,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.00,0.40,0.40,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal shelves with jars",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "wall shelf",
+      "location": "0.00,0.00,1.00,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame",
+        "size": "small"
+      },
+      "id": "clock1",
+      "label": "clock",
+      "location": "0.75,0.00,0.85,0.15,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal rack",
+        "size": "large"
+      },
+      "id": "rack1",
+      "label": "oven rack",
+      "location": "0.80,0.10,1.00,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "vegetables_basket1",
+      "label": "vegetable basket",
+      "location": "0.30,0.40,0.45,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate of bread rolls",
+      "location": "0.60,0.40,0.75,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.75,0.45,0.90,0.60,0.8"
+    }
+  ]
+}

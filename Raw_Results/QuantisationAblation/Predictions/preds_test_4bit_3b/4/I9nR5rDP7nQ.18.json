@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_lemons",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "grinder",
+      "target": "counter"
+    },
+    {
+      "predicate": "next_to",
+      "source": "utensil_holder",
+      "target": "grinder"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.0,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "grinder",
+      "label": "pepper grinder",
+      "location": "0.37,0.14,0.46,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "utensil_holder",
+      "label": "utensil holder",
+      "location": "0.25,0.0,0.45,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue ceramic",
+        "size": "small"
+      },
+      "id": "bowl_lemons",
+      "label": "bowl of lemons",
+      "location": "0.65,0.65,0.75,0.8,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "dark stone",
+        "size": "large"
+      },
+      "id": "counter",
+      "label": "kitchen counter",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey metal",
+        "size": "large"
+      },
+      "id": "shelf",
+      "label": "wall shelf",
+      "location": "0.0,0.0,1.0,0.25,0.7"
+    }
+  ]
+}

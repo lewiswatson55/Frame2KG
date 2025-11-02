@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "flour1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cloth1",
+      "target": "board1"
+    },
+    {
+      "predicate": "behind",
+      "source": "person1",
+      "target": "board1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "spiral1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red shirt blue jeans",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.0,0.0,0.45,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.3,0.2,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "flour1",
+      "label": "Flour Pile",
+      "location": "0.45,0.35,0.6,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink spiral",
+        "size": "small"
+      },
+      "id": "spiral1",
+      "label": "Spiral Ribbon",
+      "location": "0.75,0.5,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "colorful patterned cloth",
+        "size": "small"
+      },
+      "id": "cloth1",
+      "label": "Cloth",
+      "location": "0.0,0.8,0.3,1.0,0.7"
+    }
+  ]
+}

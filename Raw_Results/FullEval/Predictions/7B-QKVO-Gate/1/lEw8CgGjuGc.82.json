@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "knob1"
+    },
+    {
+      "predicate": "on",
+      "source": "knob1",
+      "target": "panel1"
+    },
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "panel1"
+    },
+    {
+      "predicate": "on",
+      "source": "text2",
+      "target": "panel1"
+    },
+    {
+      "predicate": "on",
+      "source": "text3",
+      "target": "panel1"
+    },
+    {
+      "predicate": "on",
+      "source": "icon1",
+      "target": "panel1"
+    },
+    {
+      "predicate": "on",
+      "source": "icon2",
+      "target": "panel1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.58,0.0,1.0,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "knob1",
+      "label": "Knob",
+      "location": "0.47,0.36,0.75,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "large"
+      },
+      "id": "panel1",
+      "label": "Control Panel",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white uppercase letters on black background",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Text 'OUTDOOR USE ONLY'",
+      "location": "0.0,0.0,0.5,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white uppercase letters on black background",
+        "size": "small"
+      },
+      "id": "text2",
+      "label": "Text 'OFF HIGH LOW'",
+      "location": "0.4,0.2,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white lowercase letters on black background",
+        "size": "small"
+      },
+      "id": "text3",
+      "label": "Text 'IGNITE ASSISTANCE'",
+      "location": "0.0,0.8,0.5,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue flame icon",
+        "size": "small"
+      },
+      "id": "icon1",
+      "label": "Icon 'IGNITE'",
+      "location": "0.3,0.4,0.4,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white flame icon",
+        "size": "small"
+      },
+      "id": "icon2",
+      "label": "Icon 'HIGH LOW'",
+      "location": "0.4,0.4,0.5,0.5,0.8"
+    }
+  ]
+}

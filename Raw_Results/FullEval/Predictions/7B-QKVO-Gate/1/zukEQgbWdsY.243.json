@@ -1,0 +1,150 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "window"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle2",
+      "target": "countertop"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "shelf",
+      "target": "cabinet"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red hair beard black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark hair black t-shirt",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.65,0.1,0.97,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove",
+      "label": "gas stove",
+      "location": "0.0,0.7,0.4,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.75,0.2,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.0,0.6,0.3,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "window",
+      "label": "sliding door window",
+      "location": "0.0,0.0,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "kitchen cabinet",
+      "location": "0.7,0.0,1.0,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottle",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "oil bottle",
+      "location": "0.85,0.2,0.9,0.4,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "plastic container",
+        "size": "small"
+      },
+      "id": "bottle2",
+      "label": "container",
+      "location": "0.9,0.2,0.95,0.4,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "metal shelf",
+        "size": "medium"
+      },
+      "id": "shelf",
+      "label": "shelf",
+      "location": "0.8,0.0,1.0,0.3,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text",
+        "size": "small"
+      },
+      "id": "logo",
+      "label": "TASTED logo",
+      "location": "0.85,0.85,1.0,1.0,0.9"
+    }
+  ]
+}

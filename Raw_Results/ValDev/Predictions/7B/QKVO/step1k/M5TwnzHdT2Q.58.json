@@ -1,0 +1,46 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in",
+      "source": "bread1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.0,1.0,0.5,0.8"
+    },
+    {
+      "id": "pan1",
+      "label": "cast iron pan",
+      "location": "0.3,0.1,0.9,0.6,0.7"
+    },
+    {
+      "id": "bread1",
+      "label": "slice of bread",
+      "location": "0.45,0.2,0.9,0.4,0.8"
+    },
+    {
+      "id": "plate1",
+      "label": "white plate",
+      "location": "0.3,0.5,1.0,1.0,0.8"
+    },
+    {
+      "id": "cheese1",
+      "label": "shredded cheese",
+      "location": "0.4,0.5,1.0,1.0,0.8"
+    }
+  ]
+}

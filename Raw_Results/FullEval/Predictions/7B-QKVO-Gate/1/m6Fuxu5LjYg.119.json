@@ -1,0 +1,103 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "box1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "spoon1",
+      "target": "flour1"
+    },
+    {
+      "predicate": "includes",
+      "source": "flour1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "logo1",
+      "target": "text1"
+    },
+    {
+      "predicate": "above",
+      "source": "nutrition_labels1",
+      "target": "text1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "beige cardboard",
+        "size": "large"
+      },
+      "id": "box1",
+      "label": "Gluten Free Rice Flour Blend Box",
+      "location": "0.35,0.0,0.98,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red oval",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Betty Crocker Logo",
+      "location": "0.75,0.0,0.96,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue cursive",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Gluten Free Text",
+      "location": "0.45,0.2,0.95,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "medium"
+      },
+      "id": "flour1",
+      "label": "Rice Flour",
+      "location": "0.45,0.5,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown ceramic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.45,0.5,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.45,0.45,0.9,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow labels",
+        "size": "small"
+      },
+      "id": "nutrition_labels1",
+      "label": "Nutrition Labels",
+      "location": "0.4,0.0,0.7,0.15,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey stone",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

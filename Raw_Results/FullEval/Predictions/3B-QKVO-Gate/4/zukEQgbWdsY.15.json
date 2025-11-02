@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "pan2",
+      "target": "stove"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "knife_block",
+      "target": "blender"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bowl_green",
+      "target": "blender"
+    },
+    {
+      "predicate": "behind",
+      "source": "utensils_bottle",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt with pig graphic",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.05,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark jacket",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.0,0.0,0.4,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.35,0.6,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black cast iron",
+        "size": "small"
+      },
+      "id": "pan2",
+      "label": "frying pan",
+      "location": "0.55,0.6,0.75,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "gas stove",
+      "location": "0.2,0.6,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "kitchen shelf",
+      "location": "0.2,0.0,0.8,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottles",
+        "size": "small"
+      },
+      "id": "utensils_bottle",
+      "label": "oil bottles",
+      "location": "0.3,0.3,0.5,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden block with knives",
+        "size": "small"
+      },
+      "id": "knife_block",
+      "label": "knife block",
+      "location": "0.7,0.4,0.8,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "medium"
+      },
+      "id": "blender",
+      "label": "blender",
+      "location": "0.8,0.4,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "bowl_green",
+      "label": "bowl of greens",
+      "location": "0.7,0.5,0.8,0.6,0.7"
+    }
+  ]
+}

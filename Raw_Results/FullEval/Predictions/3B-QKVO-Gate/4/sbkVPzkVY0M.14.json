@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "smoked_salmon1",
+      "target": "bread_base"
+    },
+    {
+      "predicate": "on",
+      "source": "red_caviar1",
+      "target": "smoked_salmon1"
+    },
+    {
+      "predicate": "on",
+      "source": "black_caviar1",
+      "target": "smoked_salmon1"
+    },
+    {
+      "predicate": "on",
+      "source": "green_chives1",
+      "target": "smoked_salmon1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_base",
+      "target": "plate"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate",
+      "label": "Plate",
+      "location": "0.0,0.65,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown crust",
+        "size": "medium"
+      },
+      "id": "bread_base",
+      "label": "Bread base",
+      "location": "0.0,0.7,1.0,0.98,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink orange",
+        "size": "medium"
+      },
+      "id": "smoked_salmon1",
+      "label": "Smoked salmon slices",
+      "location": "0.05,0.1,0.95,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red",
+        "size": "small"
+      },
+      "id": "red_caviar1",
+      "label": "Red caviar",
+      "location": "0.45,0.3,0.6,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark purple",
+        "size": "small"
+      },
+      "id": "black_caviar1",
+      "label": "Black caviar",
+      "location": "0.3,0.3,0.45,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green flecks",
+        "size": "small"
+      },
+      "id": "green_chives1",
+      "label": "Chives",
+      "location": "0.2,0.2,0.8,0.6,0.9"
+    }
+  ]
+}

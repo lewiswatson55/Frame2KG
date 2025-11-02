@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "powder1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "medium"
+      },
+      "id": "powder1",
+      "label": "flour pile",
+      "location": "0.1,0.3,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black cursive font",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "watermark text",
+      "location": "0.6,0.75,0.95,0.95,0.8"
+    }
+  ]
+}

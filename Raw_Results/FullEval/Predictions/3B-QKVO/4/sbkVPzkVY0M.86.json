@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bun1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bun1",
+      "target": "container1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "container1",
+      "target": "salad1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink sugar-coated",
+        "size": "medium"
+      },
+      "id": "bun1",
+      "label": "sugar bun",
+      "location": "0.35,0.45,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "small"
+      },
+      "id": "container1",
+      "label": "paper container",
+      "location": "0.0,0.2,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "salad1",
+      "label": "salad",
+      "location": "0.7,0.2,1.0,0.6,0.8"
+    }
+  ]
+}

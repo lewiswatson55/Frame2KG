@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "flour1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "microwave1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.35,0.05,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown powder",
+        "size": "medium"
+      },
+      "id": "flour1",
+      "label": "dry flour mixture",
+      "location": "0.45,0.45,0.65,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave oven",
+      "location": "0.75,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "kitchen countertop",
+      "location": "0.0,0.7,1.0,1.0,0.7"
+    }
+  ]
+}

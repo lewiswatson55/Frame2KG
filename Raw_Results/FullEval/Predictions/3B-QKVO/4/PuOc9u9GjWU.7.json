@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "fork1",
+      "target": "onion_rings1"
+    },
+    {
+      "predicate": "in",
+      "source": "ketchup1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "onion_rings1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "onion_rings1",
+      "label": "Onion Rings",
+      "location": "0.35,0.15,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "fork1",
+      "label": "Fork",
+      "location": "0.00,0.10,0.40,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Bowl of Ketchup",
+      "location": "0.15,0.20,0.45,0.60,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "red liquid",
+        "size": "small"
+      },
+      "id": "ketchup1",
+      "label": "Ketchup",
+      "location": "0.20,0.25,0.45,0.55,0.8"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in",
+      "source": "toast1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in",
+      "source": "cheese1",
+      "target": "toast1"
+    },
+    {
+      "predicate": "in",
+      "source": "toast2",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in",
+      "source": "cheese2",
+      "target": "toast2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black cast iron",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.15,0.3,0.85,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread",
+        "size": "small"
+      },
+      "id": "toast1",
+      "label": "bread slice",
+      "location": "0.4,0.45,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange shredded",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "shredded cheese",
+      "location": "0.45,0.45,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread",
+        "size": "small"
+      },
+      "id": "toast2",
+      "label": "bread slice",
+      "location": "0.6,0.45,0.8,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange shredded",
+        "size": "small"
+      },
+      "id": "cheese2",
+      "label": "shredded cheese",
+      "location": "0.65,0.45,0.8,0.6,0.8"
+    }
+  ]
+}

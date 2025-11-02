@@ -1,0 +1,126 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "fork1"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "fork1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "utensil_holder1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "above",
+      "source": "microwave1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "dishwasher1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "maroon top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "fork1",
+      "label": "fork",
+      "location": "0.47,0.15,0.55,0.35,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "pancake1",
+      "label": "pancake slice",
+      "location": "0.50,0.10,0.60,0.20,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "black stainless steel",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.3,0.4,0.7,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet_left",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.3,0.3,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet_right",
+      "label": "kitchen cabinet",
+      "location": "0.7,0.0,1.0,0.3,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "utensil_holder1",
+      "label": "utensil holder",
+      "location": "0.80,0.35,0.90,0.50,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.70,0.30,0.85,0.50,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave",
+      "location": "0.0,0.0,0.3,0.2,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "dishwasher1",
+      "label": "dishwasher",
+      "location": "0.6,0.6,1.0,1.0,0.85"
+    }
+  ]
+}

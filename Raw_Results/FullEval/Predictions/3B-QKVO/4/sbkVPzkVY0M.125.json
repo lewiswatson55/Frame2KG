@@ -1,0 +1,210 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "burner1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plant1",
+      "target": "frame1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "frame1",
+      "target": "painting1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "painting1",
+      "target": "frame2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "food processor",
+      "location": "0.4,0.55,0.5,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl of green apples",
+      "location": "0.0,0.5,0.15,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar with yellow contents",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "jar of spices",
+      "location": "0.2,0.5,0.25,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass bottle with red liquid",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "bottle of sauce",
+      "location": "0.6,0.5,0.65,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.65,0.6,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with red tomatoes",
+        "size": "small"
+      },
+      "id": "tomato1",
+      "label": "plate of tomatoes",
+      "location": "0.75,0.75,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.75,0.75,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red silicone",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.8,0.75,0.95,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.0,0.75,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "burner1",
+      "label": "hot plate burner",
+      "location": "0.6,0.6,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "small"
+      },
+      "id": "frame1",
+      "label": "picture frame",
+      "location": "0.0,0.45,0.15,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green plant",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "potted plant",
+      "location": "0.15,0.45,0.2,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "small"
+      },
+      "id": "painting1",
+      "label": "abstract painting",
+      "location": "0.55,0.0,0.75,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "small"
+      },
+      "id": "frame2",
+      "label": "abstract painting",
+      "location": "0.75,0.0,0.95,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light grey laminate",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "kitchen countertop",
+      "location": "0.0,0.4,1.0,0.6,0.8"
+    }
+  ]
+}

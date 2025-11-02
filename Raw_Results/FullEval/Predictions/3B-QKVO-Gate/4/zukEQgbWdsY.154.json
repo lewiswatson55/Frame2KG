@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "towel1"
+    },
+    {
+      "predicate": "on",
+      "source": "towel1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "board1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.45,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.1,0.3,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "raw chicken pieces",
+      "location": "0.3,0.5,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark blue cloth",
+        "size": "small"
+      },
+      "id": "towel1",
+      "label": "kitchen towel",
+      "location": "0.4,0.0,0.7,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.3,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    }
+  ]
+}

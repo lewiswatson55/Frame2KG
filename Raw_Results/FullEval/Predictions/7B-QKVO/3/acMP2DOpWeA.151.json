@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "stars1",
+      "target": "background"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white sans-serif",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Text 'Thanks for watching'",
+      "location": "0.35,0.45,0.65,0.55,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "small white sparkles",
+        "size": "small"
+      },
+      "id": "stars1",
+      "label": "Stars",
+      "location": "0.75,0.1,1.0,0.9,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "black",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.99"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_spice1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_salt1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in",
+      "source": "bag_meat1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "plate1",
+      "target": "board1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bowl_spice1",
+      "target": "bowl_salt1"
+    },
+    {
+      "predicate": "behind",
+      "source": "tray1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "White Plate",
+      "location": "0.05,0.48,0.63,0.79,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Wooden Cutting Board",
+      "location": "0.25,0.25,0.98,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "small"
+      },
+      "id": "bag_meat1",
+      "label": "Meat Bag",
+      "location": "0.35,0.05,0.75,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl_spice1",
+      "label": "Spice Bowl",
+      "location": "0.75,0.35,0.85,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl_salt1",
+      "label": "Salt Bowl",
+      "location": "0.85,0.35,0.95,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "Knife",
+      "location": "0.60,0.15,0.98,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "grill1",
+      "label": "Grill",
+      "location": "0.50,0.75,1.00,1.00,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.00,0.00,1.00,1.00,0.7"
+    }
+  ]
+}

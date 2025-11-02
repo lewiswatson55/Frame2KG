@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "mixer1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "towel1",
+      "target": "mixer1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "mixer1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "large"
+      },
+      "id": "mixer1",
+      "label": "Food Processor",
+      "location": "0.35,0.4,0.98,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Blender Bowl",
+      "location": "0.4,0.45,0.9,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.6,0.0,0.9,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red striped fabric",
+        "size": "medium"
+      },
+      "id": "towel1",
+      "label": "Towel",
+      "location": "0.6,0.2,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "Kitchen Cabinet",
+      "location": "0.0,0.0,0.4,1.0,0.7"
+    }
+  ]
+}

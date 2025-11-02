@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in",
+      "source": "egg1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "trivet1"
+    },
+    {
+      "predicate": "on",
+      "source": "trivet1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "spatula1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.05,0.35,0.85,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow liquid",
+        "size": "medium"
+      },
+      "id": "egg1",
+      "label": "eggs",
+      "location": "0.45,0.0,0.75,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.6,0.0,0.9,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange silicone",
+        "size": "small"
+      },
+      "id": "trivet1",
+      "label": "silicone trivet",
+      "location": "0.6,0.2,0.9,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.75,0.45,0.95,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.0,0.0,0.3,0.2,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove top",
+      "location": "0.0,0.0,0.3,0.3,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow wood",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.3,1.0,1.0,0.6"
+    }
+  ]
+}

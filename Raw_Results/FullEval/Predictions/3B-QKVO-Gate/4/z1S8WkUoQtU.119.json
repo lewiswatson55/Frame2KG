@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "batter1"
+    },
+    {
+      "predicate": "in",
+      "source": "batter1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.53,0.0,0.98,0.46,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.6,0.1,0.75,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "Mixing Bowl",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellowish creamy",
+        "size": "large"
+      },
+      "id": "batter1",
+      "label": "Batter",
+      "location": "0.0,0.2,1.0,1.0,0.85"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "arm1",
+      "target": "food1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in",
+      "source": "food1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "behind",
+      "source": "tile_wall1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin",
+        "size": "large"
+      },
+      "id": "arm1",
+      "label": "human arm",
+      "location": "0.35,0.0,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.4,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crumbly",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "breaded food piece",
+      "location": "0.2,0.5,0.5,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.4,0.3,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange sauce",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "glass baking tray",
+      "location": "0.6,0.4,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white tiled",
+        "size": "large"
+      },
+      "id": "tile_wall1",
+      "label": "tiled wall",
+      "location": "0.0,0.0,1.0,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    }
+  ]
+}

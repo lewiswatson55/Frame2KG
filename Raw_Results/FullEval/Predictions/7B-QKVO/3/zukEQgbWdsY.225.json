@@ -1,0 +1,173 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "blender1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle2",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle3",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "glass1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "behind",
+      "source": "fridge1",
+      "target": "person2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "door1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.0,0.48,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt with pig graphic",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.47,0.0,0.95,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with green mixture",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.65,0.6,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with green leaves",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl of greens",
+      "location": "0.8,0.6,0.98,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark glass bottle",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "bottle",
+      "location": "0.85,0.2,0.9,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark glass bottle",
+        "size": "small"
+      },
+      "id": "bottle2",
+      "label": "bottle",
+      "location": "0.9,0.2,0.95,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark glass bottle",
+        "size": "small"
+      },
+      "id": "bottle3",
+      "label": "bottle",
+      "location": "0.95,0.2,1.0,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar with blue lid",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "jar",
+      "location": "0.85,0.0,0.95,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic bowl with white powder",
+        "size": "small"
+      },
+      "id": "glass1",
+      "label": "bowl",
+      "location": "0.5,0.75,0.6,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel countertop",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden cabinet",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.7,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel refrigerator",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.5,0.0,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green metal door",
+        "size": "large"
+      },
+      "id": "door1",
+      "label": "door",
+      "location": "0.0,0.0,0.4,1.0,0.8"
+    }
+  ]
+}

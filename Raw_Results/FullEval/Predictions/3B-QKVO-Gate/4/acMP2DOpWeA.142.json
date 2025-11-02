@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "butter1",
+      "target": "pancake_stack"
+    },
+    {
+      "predicate": "on",
+      "source": "syrup_stream",
+      "target": "pancake_stack"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake_stack",
+      "target": "plate"
+    },
+    {
+      "predicate": "on",
+      "source": "plate",
+      "target": "tablecloth"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fork",
+      "target": "plate"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife",
+      "target": "plate"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "medium"
+      },
+      "id": "pancake_stack",
+      "label": "stack of pancakes",
+      "location": "0.15,0.3,0.85,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "butter1",
+      "label": "piece of butter",
+      "location": "0.45,0.1,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "amber liquid stream",
+        "size": "small"
+      },
+      "id": "syrup_stream",
+      "label": "maple syrup stream",
+      "location": "0.4,0.2,0.7,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate",
+      "label": "plate",
+      "location": "0.1,0.2,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "fork",
+      "label": "fork",
+      "location": "0.7,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade wooden handle",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.6,0.0,1.0,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange plaid fabric",
+        "size": "large"
+      },
+      "id": "tablecloth",
+      "label": "tablecloth",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    }
+  ]
+}

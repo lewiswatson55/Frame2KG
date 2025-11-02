@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "milk_stream",
+      "target": "bowl"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "hand",
+      "target": "bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl",
+      "target": "table"
+    },
+    {
+      "predicate": "next_to",
+      "source": "board",
+      "target": "bowl"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "large"
+      },
+      "id": "bowl",
+      "label": "mixing bowl",
+      "location": "0.15,0.05,0.85,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white liquid",
+        "size": "medium"
+      },
+      "id": "milk_stream",
+      "label": "milk stream",
+      "location": "0.45,0.0,0.65,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand",
+      "label": "human hand",
+      "location": "0.0,0.0,0.4,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "wooden table",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green wood",
+        "size": "medium"
+      },
+      "id": "board",
+      "label": "cutting board",
+      "location": "0.0,0.5,0.3,0.8,0.8"
+    }
+  ]
+}

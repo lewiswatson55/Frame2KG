@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "cap1"
+    },
+    {
+      "predicate": "cutting",
+      "source": "scissors1",
+      "target": "cap1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle2",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "behind",
+      "source": "bag1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "box1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bottle2",
+      "target": "bottle1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-colored",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.68,0.45,0.97,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "cap1",
+      "label": "Plastic Cap",
+      "location": "0.30,0.70,0.45,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "scissors1",
+      "label": "Scissors",
+      "location": "0.35,0.55,0.60,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "large"
+      },
+      "id": "bottle1",
+      "label": "Bottle",
+      "location": "0.50,0.05,0.75,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "large"
+      },
+      "id": "bottle2",
+      "label": "Bottle",
+      "location": "0.00,0.10,0.25,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "bag1",
+      "label": "Plastic Bag",
+      "location": "0.20,0.00,0.50,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown cardboard",
+        "size": "small"
+      },
+      "id": "box1",
+      "label": "Box",
+      "location": "0.60,0.00,0.80,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.00,0.00,1.00,1.00,0.7"
+    }
+  ]
+}

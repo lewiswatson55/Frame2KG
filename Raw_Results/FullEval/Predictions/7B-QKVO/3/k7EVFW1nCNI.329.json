@@ -1,0 +1,216 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "red_bowl",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "mug_collection",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "vase_with_roses",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "red_tumbler",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "soap_dispenser",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "stove",
+      "target": "countertop"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "microwave",
+      "target": "cabinet_upper_left"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sink",
+      "target": "dishwasher"
+    },
+    {
+      "predicate": "left_of",
+      "source": "vase_with_roses",
+      "target": "red_tumbler"
+    },
+    {
+      "predicate": "right_of",
+      "source": "red_tumbler",
+      "target": "soap_dispenser"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet_lower_right",
+      "target": "stove"
+    },
+    {
+      "predicate": "above",
+      "source": "microwave",
+      "target": "stove"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white lace top",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.05,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.0,0.4,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove",
+      "label": "electric stove",
+      "location": "0.6,0.4,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "microwave",
+      "label": "microwave oven",
+      "location": "0.7,0.0,0.95,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "large"
+      },
+      "id": "cabinet_upper_left",
+      "label": "upper cabinet",
+      "location": "0.0,0.0,0.4,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "large"
+      },
+      "id": "cabinet_lower_right",
+      "label": "lower cabinet",
+      "location": "0.6,0.5,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass vase with red roses",
+        "size": "small"
+      },
+      "id": "vase_with_roses",
+      "label": "flower vase",
+      "location": "0.05,0.3,0.2,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "small"
+      },
+      "id": "red_bowl",
+      "label": "red bowl",
+      "location": "0.5,0.4,0.6,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "multicolored mugs",
+        "size": "small"
+      },
+      "id": "mug_collection",
+      "label": "mug collection",
+      "location": "0.55,0.45,0.65,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with red liquid",
+        "size": "small"
+      },
+      "id": "red_tumbler",
+      "label": "red tumbler",
+      "location": "0.2,0.45,0.25,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent bottle with white pump",
+        "size": "small"
+      },
+      "id": "soap_dispenser",
+      "label": "soap dispenser",
+      "location": "0.25,0.45,0.3,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender base",
+      "location": "0.6,0.7,0.75,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.3,0.7,0.6,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver stainless steel",
+        "size": "large"
+      },
+      "id": "dishwasher",
+      "label": "dishwasher",
+      "location": "0.0,0.6,0.3,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "sink",
+      "label": "sink",
+      "location": "0.3,0.5,0.45,0.7,0.9"
+    }
+  ]
+}

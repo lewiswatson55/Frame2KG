@@ -1,0 +1,145 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "wok1",
+      "target": "hotplate1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "wok1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "above",
+      "source": "hood1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "cabinets1",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow chef coat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.15,0.05,0.48,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate of pasta",
+      "location": "0.30,0.75,0.60,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "wok1",
+      "label": "wok",
+      "location": "0.60,0.70,0.90,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "hotplate1",
+      "label": "hot plate",
+      "location": "0.50,0.75,0.90,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.40,0.40,0.80,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metallic",
+        "size": "large"
+      },
+      "id": "hood1",
+      "label": "vent hood",
+      "location": "0.20,0.00,0.80,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white painted wood",
+        "size": "large"
+      },
+      "id": "cabinets1",
+      "label": "kitchen cabinets",
+      "location": "0.00,0.00,0.30,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white marble",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.00,0.70,1.00,1.00,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.45,0.80,0.55,0.95,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl",
+      "location": "0.00,0.80,0.20,0.95,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey stone",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.00,0.00,1.00,1.00,0.8"
+    }
+  ]
+}

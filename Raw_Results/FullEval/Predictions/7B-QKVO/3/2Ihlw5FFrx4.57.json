@@ -1,0 +1,156 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "table"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl3",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "vase1",
+      "target": "table"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "behind",
+      "source": "screen1",
+      "target": "table"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "person2",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "short brown hair teal shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.18,0.47,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "long dark hair green dress",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.53,0.18,0.95,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "kitchen table",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.15,0.65,0.45,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass white contents",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.35,0.7,0.45,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass red contents",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "glass bowl",
+      "location": "0.45,0.7,0.55,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass green leafy contents",
+        "size": "small"
+      },
+      "id": "bowl3",
+      "label": "glass bowl",
+      "location": "0.55,0.7,0.65,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic with vegetables",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "tray of food",
+      "location": "0.45,0.6,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metallic",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "metal vase",
+      "location": "0.55,0.6,0.6,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink purple blurred background",
+        "size": "large"
+      },
+      "id": "screen1",
+      "label": "background screen",
+      "location": "0.0,0.0,1.0,0.6,0.7"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "brick_wall"
+    },
+    {
+      "predicate": "on",
+      "source": "pie1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "table1"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf1",
+      "target": "person1"
+    },
+    {
+      "predicate": "above",
+      "source": "hanging_pots1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "logo1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "logo2",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "logo3",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue red plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.45,0.2,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.05,0.05,0.45,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crust",
+        "size": "small"
+      },
+      "id": "pie1",
+      "label": "vegan pie",
+      "location": "0.05,0.3,0.45,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "kitchen table",
+      "location": "0.0,0.5,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey brick",
+        "size": "large"
+      },
+      "id": "brick_wall",
+      "label": "brick wall",
+      "location": "0.0,0.0,1.0,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic",
+        "size": "small"
+      },
+      "id": "hanging_pots1",
+      "label": "hanging pots",
+      "location": "0.4,0.05,0.7,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.3,0.2,0.7,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent",
+        "size": "medium"
+      },
+      "id": "logo1",
+      "label": "Hungry logo",
+      "location": "0.7,0.0,1.0,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange text on white",
+        "size": "small"
+      },
+      "id": "logo2",
+      "label": "Brothers Green logo",
+      "location": "0.0,0.0,0.3,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown text on orange",
+        "size": "small"
+      },
+      "id": "logo3",
+      "label": "Eat My Vegan logo",
+      "location": "0.0,0.2,0.3,0.4,0.8"
+    }
+  ]
+}

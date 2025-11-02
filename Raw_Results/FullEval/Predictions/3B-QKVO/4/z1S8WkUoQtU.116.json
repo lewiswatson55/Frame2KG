@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall_art"
+    },
+    {
+      "predicate": "on",
+      "source": "vase1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "vase1",
+      "target": "lamp1"
+    },
+    {
+      "predicate": "behind",
+      "source": "wall_art",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "dark hair pink shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.0,0.6,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame grey background",
+        "size": "medium"
+      },
+      "id": "wall_art",
+      "label": "painting",
+      "location": "0.0,0.0,0.4,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "decorative vase",
+      "location": "0.75,0.4,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black glass",
+        "size": "medium"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.6,0.6,0.95,0.95,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white lampshade",
+        "size": "small"
+      },
+      "id": "lamp1",
+      "label": "floor lamp",
+      "location": "0.0,0.0,0.2,0.2,0.6"
+    }
+  ]
+}

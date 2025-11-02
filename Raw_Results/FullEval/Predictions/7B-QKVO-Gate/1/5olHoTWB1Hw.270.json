@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "on",
+      "source": "bag1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "box1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "behind",
+      "source": "fork1",
+      "target": "bag1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "beige green red text",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "seasoned croutons bag",
+      "location": "0.05,0.1,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.4,0.6,0.9,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "plastic bowl",
+      "location": "0.0,0.3,0.3,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white cardboard",
+        "size": "large"
+      },
+      "id": "box1",
+      "label": "cardboard box",
+      "location": "0.5,0.5,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "fork1",
+      "label": "metal fork",
+      "location": "0.6,0.0,0.9,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "countertop",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

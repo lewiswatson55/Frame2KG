@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "cloth1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "onion1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "person1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.35,0.15,0.98,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "wooden cutting board",
+      "location": "0.2,0.45,0.98,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink white rings",
+        "size": "small"
+      },
+      "id": "onion1",
+      "label": "chopped onion",
+      "location": "0.75,0.45,0.98,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red shirt blue pants",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person torso",
+      "location": "0.0,0.0,0.4,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "multicolored patterned fabric",
+        "size": "large"
+      },
+      "id": "cloth1",
+      "label": "tablecloth",
+      "location": "0.0,0.6,1.0,1.0,0.6"
+    }
+  ]
+}

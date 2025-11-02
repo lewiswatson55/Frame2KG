@@ -1,0 +1,179 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bag1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "mug1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "plate1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "mug1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "plate1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "behind",
+      "source": "microwave1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "above",
+      "source": "stove",
+      "target": "countertop"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.05,0.48,0.30,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "sugar bowl",
+      "location": "0.16,0.75,0.35,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue plastic",
+        "size": "small"
+      },
+      "id": "container1",
+      "label": "egg carton",
+      "location": "0.35,0.75,0.55,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "small"
+      },
+      "id": "container2",
+      "label": "salt container",
+      "location": "0.55,0.75,0.75,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "plate of onions",
+      "location": "0.30,0.45,0.60,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white cardboard",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "Panko bag",
+      "location": "0.50,0.05,0.80,0.50,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "mug1",
+      "label": "coffee mug",
+      "location": "0.35,0.15,0.45,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic white",
+        "size": "medium"
+      },
+      "id": "jar1",
+      "label": "mayonnaise jar",
+      "location": "0.20,0.15,0.30,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "stovetop",
+      "location": "0.75,0.30,1.00,0.70,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.75,0.25,0.95,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinets1",
+      "label": "kitchen cabinets",
+      "location": "0.00,0.00,1.00,0.30,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metallic",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave",
+      "location": "0.60,0.00,0.80,0.30,0.9"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinets"
+    },
+    {
+      "predicate": "on",
+      "source": "sink",
+      "target": "countertop"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "faucet",
+      "target": "sink"
+    },
+    {
+      "predicate": "next_to",
+      "source": "vase",
+      "target": "pepper_mill"
+    },
+    {
+      "predicate": "on",
+      "source": "soap_dispenser",
+      "target": "sink"
+    },
+    {
+      "predicate": "on",
+      "source": "oil_bottle",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "red_towel",
+      "target": "countertop"
+    },
+    {
+      "predicate": "above",
+      "source": "microwave",
+      "target": "stove"
+    },
+    {
+      "predicate": "right_of",
+      "source": "stove",
+      "target": "sink"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blonde hair colorful patterned shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "large"
+      },
+      "id": "cabinets",
+      "label": "kitchen cabinets",
+      "location": "0.0,0.0,1.0,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black granite",
+        "size": "medium"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.4,1.0,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "sink",
+      "label": "sink",
+      "location": "0.2,0.4,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "faucet",
+      "label": "faucet",
+      "location": "0.3,0.3,0.4,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass red flowers",
+        "size": "small"
+      },
+      "id": "vase",
+      "label": "flower vase",
+      "location": "0.0,0.4,0.15,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "pepper_mill",
+      "label": "pepper mill",
+      "location": "0.15,0.4,0.2,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "soap_dispenser",
+      "label": "soap dispenser",
+      "location": "0.25,0.5,0.3,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "oil_bottle",
+      "label": "olive oil bottle",
+      "location": "0.6,0.5,0.65,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove",
+      "label": "stove",
+      "location": "0.7,0.5,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "microwave",
+      "label": "microwave",
+      "location": "0.7,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red cloth",
+        "size": "small"
+      },
+      "id": "red_towel",
+      "label": "towel",
+      "location": "0.3,0.6,0.4,0.75,0.8"
+    }
+  ]
+}

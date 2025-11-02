@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned blurred",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.05,0.05,0.45,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.30,0.10,0.95,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade wooden handle",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.20,0.00,0.60,0.50,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crispy",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "fried chicken pieces",
+      "location": "0.40,0.50,0.80,0.90,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood grain",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "wooden table",
+      "location": "0.00,0.60,1.00,1.00,0.9"
+    }
+  ]
+}

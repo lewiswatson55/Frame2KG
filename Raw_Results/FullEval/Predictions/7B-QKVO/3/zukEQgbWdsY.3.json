@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "sandwich1",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "sandwich2",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_dip",
+      "target": "board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_salt",
+      "target": "bowl_spice"
+    },
+    {
+      "predicate": "behind",
+      "source": "bottle_oil",
+      "target": "board"
+    },
+    {
+      "predicate": "left_of",
+      "source": "knife",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "sandwich2",
+      "target": "sandwich1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "toasted brown bread with lettuce tomato bacon",
+        "size": "medium"
+      },
+      "id": "sandwich1",
+      "label": "Sandwich",
+      "location": "0.45,0.38,0.75,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted brown bread with lettuce tomato bacon",
+        "size": "medium"
+      },
+      "id": "sandwich2",
+      "label": "Sandwich",
+      "location": "0.75,0.35,0.95,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic bowl green dip",
+        "size": "small"
+      },
+      "id": "bowl_dip",
+      "label": "Dipping Bowl",
+      "location": "0.35,0.25,0.55,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass bowl white salt",
+        "size": "small"
+      },
+      "id": "bowl_salt",
+      "label": "Salt Bowl",
+      "location": "0.55,0.15,0.65,0.25,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass bowl black pepper",
+        "size": "small"
+      },
+      "id": "bowl_spice",
+      "label": "Spice Bowl",
+      "location": "0.65,0.15,0.75,0.25,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass bottle yellow liquid",
+        "size": "medium"
+      },
+      "id": "bottle_oil",
+      "label": "Oil Bottle",
+      "location": "0.1,0.0,0.3,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden handle metal blade",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "Knife",
+      "location": "0.0,0.5,0.2,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "Cutting Board",
+      "location": "0.0,0.3,1.0,0.8,0.9"
+    }
+  ]
+}

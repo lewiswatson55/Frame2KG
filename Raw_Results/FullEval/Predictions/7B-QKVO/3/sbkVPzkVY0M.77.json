@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "meat1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "blender1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt floral sleeves",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.45,0.0,1.0,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw",
+        "size": "small"
+      },
+      "id": "meat1",
+      "label": "Raw Meat",
+      "location": "0.53,0.27,0.68,0.45,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "Blender Base",
+      "location": "0.0,0.5,0.2,1.0,0.85"
+    }
+  ]
+}

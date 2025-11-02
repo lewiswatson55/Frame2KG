@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "jacket1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "fruit_basket1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "above",
+      "source": "hood1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fruit_basket1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow chef jacket",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "hood1",
+      "label": "kitchen hood",
+      "location": "0.0,0.0,1.0,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.4,0.5,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl of eggs",
+      "location": "0.35,0.75,0.45,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.5,0.75,0.8,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green yellow",
+        "size": "small"
+      },
+      "id": "fruit_basket1",
+      "label": "fruit basket",
+      "location": "0.8,0.75,1.0,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.7,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow fabric",
+        "size": "medium"
+      },
+      "id": "jacket1",
+      "label": "chef jacket",
+      "location": "0.35,0.0,0.65,0.6,0.9"
+    }
+  ]
+}

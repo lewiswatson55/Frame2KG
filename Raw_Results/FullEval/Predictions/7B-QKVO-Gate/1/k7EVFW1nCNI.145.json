@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "potatoes1",
+      "target": "processor1"
+    },
+    {
+      "predicate": "on",
+      "source": "processor1",
+      "target": "base1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "large"
+      },
+      "id": "processor1",
+      "label": "Food Processor",
+      "location": "0.35,0.0,0.98,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "base1",
+      "label": "Base Unit",
+      "location": "0.0,0.7,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "potatoes1",
+      "label": "Potato Cubes",
+      "location": "0.3,0.4,0.9,0.9,0.85"
+    }
+  ]
+}

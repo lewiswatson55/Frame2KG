@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "milk_stream",
+      "target": "bowl"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "jug",
+      "target": "bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl",
+      "target": "stove"
+    },
+    {
+      "predicate": "next_to",
+      "source": "rack",
+      "target": "bowl"
+    },
+    {
+      "predicate": "behind",
+      "source": "utensil",
+      "target": "bowl"
+    },
+    {
+      "predicate": "left_of",
+      "source": "box",
+      "target": "rack"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "Stovetop",
+      "location": "0.0,0.65,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "jug",
+      "label": "Jug of milk",
+      "location": "0.7,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "bowl",
+      "label": "Mixing bowl",
+      "location": "0.1,0.3,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white liquid",
+        "size": "small"
+      },
+      "id": "milk_stream",
+      "label": "Milk stream",
+      "location": "0.5,0.2,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cardboard",
+        "size": "small"
+      },
+      "id": "box",
+      "label": "Cardboard box",
+      "location": "0.0,0.0,0.2,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "rack",
+      "label": "Dish rack",
+      "location": "0.0,0.0,0.5,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "utensil",
+      "label": "Utensils",
+      "location": "0.4,0.0,0.6,0.3,0.6"
+    }
+  ]
+}

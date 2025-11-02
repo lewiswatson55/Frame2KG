@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "box1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "box1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "box1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white cardboard with red and blue text",
+        "size": "large"
+      },
+      "id": "box1",
+      "label": "Gluten Free Rice Flour Blend Box",
+      "location": "0.05,0.0,0.95,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown ceramic bowl with white rice flour",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Bowl of Rice Flour",
+      "location": "0.3,0.45,0.7,0.85,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.6,0.0,1.0,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey speckled surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "flour1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "towel1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "chair1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned hands",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "hands",
+      "location": "0.75,0.3,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green silicone",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "silicone spatula",
+      "location": "0.4,0.2,0.6,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass mixing bowl",
+      "location": "0.1,0.1,0.9,0.8,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "medium"
+      },
+      "id": "flour1",
+      "label": "flour",
+      "location": "0.2,0.3,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "speckled granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "granite countertop",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light grey cloth",
+        "size": "small"
+      },
+      "id": "towel1",
+      "label": "kitchen towel",
+      "location": "0.0,0.6,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "chair1",
+      "label": "wooden chair back",
+      "location": "0.0,0.0,0.5,0.5,0.8"
+    }
+  ]
+}

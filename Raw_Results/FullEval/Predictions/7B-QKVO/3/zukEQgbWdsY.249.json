@@ -1,0 +1,159 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "window1"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottles1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinets1",
+      "target": "window1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "car1",
+      "target": "window1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "grey shirt red beard",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.6,0.98,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt grey pig graphic",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.4,0.05,0.95,0.98,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "glass frame",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.0,0.0,0.5,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cabinets1",
+      "label": "kitchen cabinets",
+      "location": "0.5,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "medium"
+      },
+      "id": "oven1",
+      "label": "oven",
+      "location": "0.5,0.2,0.7,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.8,0.6,0.95,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.0,0.7,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bottles1",
+      "label": "bottles",
+      "location": "0.75,0.2,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white tiled",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.75,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver car",
+        "size": "medium"
+      },
+      "id": "car1",
+      "label": "car",
+      "location": "0.0,0.3,0.5,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.6,0.6,0.75,0.8,0.8"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "cheese_cubes"
+    },
+    {
+      "predicate": "in",
+      "source": "cheese_cubes",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "includes",
+      "source": "plate1",
+      "target": "cheese_shreds"
+    },
+    {
+      "predicate": "supports",
+      "source": "plate1",
+      "target": "cheese_cubes"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.45,0.0,0.65,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cubed cheese",
+        "size": "small"
+      },
+      "id": "cheese_cubes",
+      "label": "chopped cheese cubes",
+      "location": "0.55,0.0,1.0,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.0,0.1,0.6,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.6,0.2,1.0,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "shredded yellow",
+        "size": "small"
+      },
+      "id": "cheese_shreds",
+      "label": "shredded cheese",
+      "location": "0.7,0.5,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey speckled",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    }
+  ]
+}

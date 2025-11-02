@@ -1,0 +1,119 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken2",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken3",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken4",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken5",
+      "target": "background"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chicken1",
+      "target": "chicken2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chicken2",
+      "target": "chicken3"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chicken3",
+      "target": "chicken4"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chicken4",
+      "target": "chicken5"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black outline white fill",
+        "size": "large"
+      },
+      "id": "text1",
+      "label": "Gluten Free KFC Copycat text",
+      "location": "0.0,0.0,1.0,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "gluten-free chicken piece",
+      "location": "0.3,0.6,0.48,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken2",
+      "label": "gluten-free chicken piece",
+      "location": "0.48,0.6,0.63,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken3",
+      "label": "gluten-free chicken piece",
+      "location": "0.63,0.6,0.78,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken4",
+      "label": "gluten-free chicken piece",
+      "location": "0.78,0.6,0.93,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken5",
+      "label": "gluten-free chicken piece",
+      "location": "0.93,0.6,1.0,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light grey",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "grey background",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "pepper_grinder"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper_grinder",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_slices",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lemon",
+      "target": "avocado"
+    },
+    {
+      "predicate": "left_of",
+      "source": "salt_bowl",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "right_of",
+      "source": "pepper_bowl",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "behind",
+      "source": "person1",
+      "target": "cutting_board"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "multicolored plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.65,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "medium"
+      },
+      "id": "cutting_board",
+      "label": "wooden cutting board",
+      "location": "0.3,0.4,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread with cheese",
+        "size": "small"
+      },
+      "id": "bread_slices",
+      "label": "bread slices",
+      "location": "0.4,0.5,0.6,0.7,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "pepper_grinder",
+      "label": "pepper grinder",
+      "location": "0.45,0.1,0.55,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "lemon",
+      "label": "lemon half",
+      "location": "0.2,0.4,0.3,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark brown",
+        "size": "small"
+      },
+      "id": "avocado",
+      "label": "avocado",
+      "location": "0.3,0.3,0.4,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wooden bowl with white salt",
+        "size": "small"
+      },
+      "id": "salt_bowl",
+      "label": "salt bowl",
+      "location": "0.0,0.5,0.2,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wooden bowl with brown salt",
+        "size": "small"
+      },
+      "id": "pepper_bowl",
+      "label": "pepper bowl",
+      "location": "0.15,0.55,0.3,0.7,0.8"
+    }
+  ]
+}

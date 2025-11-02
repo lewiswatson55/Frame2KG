@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "on",
+      "source": "dish1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "dish1",
+      "target": "sink1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "dish1",
+      "label": "glass baking dish",
+      "location": "0.05,0.3,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown sauce",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "baked chicken pieces",
+      "location": "0.1,0.4,0.9,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.6,0.0,1.0,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "kitchen sink",
+      "location": "0.0,0.7,0.5,1.0,0.7"
+    }
+  ]
+}

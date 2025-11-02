@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hands1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "on",
+      "source": "spoon1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in",
+      "source": "mixture1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "table1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hands1",
+      "label": "Hands",
+      "location": "0.05,0.0,0.48,0.36,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with red label",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "Bottle",
+      "location": "0.27,0.15,0.45,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.25,0.35,0.55,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.45,0.1,0.95,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow creamy",
+        "size": "medium"
+      },
+      "id": "mixture1",
+      "label": "Mixture",
+      "location": "0.5,0.2,0.9,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.5,1.0,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table",
+      "location": "0.0,0.8,1.0,1.0,0.9"
+    }
+  ]
+}

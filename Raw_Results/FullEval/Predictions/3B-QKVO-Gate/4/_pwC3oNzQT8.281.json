@@ -1,0 +1,133 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person_hand",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "baking_dish"
+    },
+    {
+      "predicate": "left_of",
+      "source": "pan1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "baking_dish",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "baking_dish",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "stove"
+    },
+    {
+      "predicate": "behind",
+      "source": "tile_wall",
+      "target": "countertop"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person_hand",
+      "label": "hand",
+      "location": "0.65,0.05,0.98,0.35,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.40,0.30,0.75,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "baking_dish",
+      "label": "baking dish",
+      "location": "0.60,0.45,0.98,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.00,0.60,0.50,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "tray1",
+      "label": "aluminum tray",
+      "location": "0.40,0.60,0.75,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.00,0.30,1.00,0.60,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic tiles",
+        "size": "large"
+      },
+      "id": "tile_wall",
+      "label": "tiled wall",
+      "location": "0.00,0.00,1.00,0.50,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "stove",
+      "location": "0.00,0.60,0.30,1.00,0.7"
+    }
+  ]
+}

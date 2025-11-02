@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "text_music",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "text_artist",
+      "target": "background"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "star1",
+      "target": "logo1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black text on pink gradient background",
+        "size": "large"
+      },
+      "id": "logo1",
+      "label": "POPSUGAR logo",
+      "location": "0.35,0.45,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white star graphic",
+        "size": "medium"
+      },
+      "id": "star1",
+      "label": "star graphic",
+      "location": "0.48,0.45,0.52,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink gradient",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "gradient background",
+      "location": "0.0,0.0,1.0,1.0,0.99"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "small"
+      },
+      "id": "text_music",
+      "label": "featured music text",
+      "location": "0.05,0.75,0.95,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "small"
+      },
+      "id": "text_artist",
+      "label": "artist text",
+      "location": "0.05,0.85,0.95,0.95,0.9"
+    }
+  ]
+}

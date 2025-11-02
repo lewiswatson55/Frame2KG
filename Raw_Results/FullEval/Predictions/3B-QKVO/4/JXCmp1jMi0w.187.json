@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "egg1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "includes",
+      "source": "tray1",
+      "target": "chicken1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.05,0.45,0.30,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "plastic bowl",
+      "location": "0.05,0.05,0.95,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow liquid",
+        "size": "small"
+      },
+      "id": "egg1",
+      "label": "egg yolk",
+      "location": "0.25,0.20,0.75,0.60,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.00,0.50,0.50,1.00,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "metal tray",
+      "location": "0.50,0.40,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white breaded",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "breaded chicken pieces",
+      "location": "0.60,0.30,1.00,0.90,0.9"
+    }
+  ]
+}

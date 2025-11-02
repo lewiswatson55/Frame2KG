@@ -1,0 +1,67 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "sparkles1",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "sparkles2",
+      "target": "background"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sparkles1",
+      "target": "text1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "sparkles2",
+      "target": "text1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white sans-serif",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Text 'Thanks for watching'",
+      "location": "0.35,0.48,0.65,0.57,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white glittering",
+        "size": "large"
+      },
+      "id": "sparkles1",
+      "label": "Sparkle trail",
+      "location": "0.5,0.3,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white glittering",
+        "size": "small"
+      },
+      "id": "sparkles2",
+      "label": "Small sparkles",
+      "location": "0.0,0.0,0.5,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

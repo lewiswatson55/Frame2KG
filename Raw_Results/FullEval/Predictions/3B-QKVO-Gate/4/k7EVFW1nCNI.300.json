@@ -1,0 +1,187 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "food_processor",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "vase_flowers",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "red_cup",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "towel_red",
+      "target": "countertop"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "faucet",
+      "target": "sink"
+    },
+    {
+      "predicate": "next_to",
+      "source": "stove",
+      "target": "microwave"
+    },
+    {
+      "predicate": "above",
+      "source": "cabinets_upper",
+      "target": "countertop"
+    },
+    {
+      "predicate": "above",
+      "source": "cabinets_lower",
+      "target": "countertop"
+    },
+    {
+      "predicate": "left_of",
+      "source": "dishwasher",
+      "target": "countertop"
+    },
+    {
+      "predicate": "right_of",
+      "source": "oven",
+      "target": "stove"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white lace top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.85,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with red flowers",
+        "size": "small"
+      },
+      "id": "vase_flowers",
+      "label": "flower vase",
+      "location": "0.05,0.4,0.25,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "red_cup",
+      "label": "cup",
+      "location": "0.25,0.6,0.35,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "food_processor",
+      "label": "food processor",
+      "location": "0.65,0.75,0.9,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black stainless steel",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "stove",
+      "location": "0.75,0.4,1.0,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "microwave",
+      "label": "microwave",
+      "location": "0.75,0.0,1.0,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "sink",
+      "label": "kitchen sink",
+      "location": "0.3,0.3,0.5,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "faucet",
+      "label": "faucet",
+      "location": "0.35,0.3,0.45,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "dishwasher",
+      "label": "dishwasher",
+      "location": "0.0,0.6,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "cabinets_upper",
+      "label": "upper cabinets",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "cabinets_lower",
+      "label": "lower cabinets",
+      "location": "0.0,0.3,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red cloth",
+        "size": "small"
+      },
+      "id": "towel_red",
+      "label": "towel",
+      "location": "0.6,0.7,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "oven",
+      "label": "oven",
+      "location": "0.7,0.6,0.9,0.9,0.8"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife_block1",
+      "target": "jug1"
+    },
+    {
+      "predicate": "behind",
+      "source": "window1",
+      "target": "person1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "plant1",
+      "target": "window1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "logo1",
+      "target": "window1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink shirt blue apron black hair glasses",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.05,0.75,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic red rim",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.45,0.6,0.6,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.4,0.75,0.9,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "medium"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.7,0.75,0.95,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver stainless steel",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "kitchen countertop",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden handle black blades",
+        "size": "small"
+      },
+      "id": "knife_block1",
+      "label": "knife block",
+      "location": "0.0,0.6,0.15,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "jug1",
+      "label": "glass jug",
+      "location": "0.1,0.6,0.25,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves white pot",
+        "size": "medium"
+      },
+      "id": "plant1",
+      "label": "potted plant",
+      "location": "0.0,0.0,0.3,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame yellow curtains",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.0,0.0,1.0,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red black graphic",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "MasterChef logo",
+      "location": "0.8,0.0,1.0,0.2,0.8"
+    }
+  ]
+}

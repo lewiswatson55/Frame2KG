@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "meat1"
+    },
+    {
+      "predicate": "on",
+      "source": "meat1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "table1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.65,0.45,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw",
+        "size": "small"
+      },
+      "id": "meat1",
+      "label": "Raw Meat Piece",
+      "location": "0.35,0.35,0.75,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood grain",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Wooden Table",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

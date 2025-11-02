@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "background1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "p1",
+      "target": "background1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "s1",
+      "target": "background1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "p1",
+      "target": "s1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue circular logo with white text",
+        "size": "medium"
+      },
+      "id": "logo1",
+      "label": "Rajshri Food Logo",
+      "location": "0.45,0.05,0.55,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with golden brown fritters",
+        "size": "small"
+      },
+      "id": "p1",
+      "label": "Pakoda - Potato & Onion Fritters",
+      "location": "0.05,0.6,0.48,0.97,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with golden brown pastries",
+        "size": "small"
+      },
+      "id": "s1",
+      "label": "Samosa",
+      "location": "0.52,0.6,0.95,0.97,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blurred mix of spices and nuts",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "Spice Background",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "behind",
+      "source": "player_group1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "player_group1",
+      "target": "player_group2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "player_group2",
+      "target": "player_group1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "purple and green uniform",
+        "size": "large"
+      },
+      "id": "player_group1",
+      "label": "Seattle Seahawks players",
+      "location": "0.05,0.0,0.45,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white and purple uniform",
+        "size": "large"
+      },
+      "id": "player_group2",
+      "label": "New England Patriots players",
+      "location": "0.55,0.0,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "small"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.3,0.2,0.4,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange fried chicken on white plate",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "fried chicken piece",
+      "location": "0.3,0.3,0.45,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.35,0.35,0.45,0.45,0.9"
+    }
+  ]
+}

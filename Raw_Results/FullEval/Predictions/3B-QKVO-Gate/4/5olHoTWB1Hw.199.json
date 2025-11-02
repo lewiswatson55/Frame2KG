@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pasta1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "tray1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "tray1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow cooked",
+        "size": "large"
+      },
+      "id": "pasta1",
+      "label": "elbow macaroni",
+      "location": "0.05,0.15,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "baking tray",
+      "location": "0.0,0.3,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.0,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.7,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

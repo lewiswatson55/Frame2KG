@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "noodles1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "hand1",
+      "target": "noodles1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "noodle_strands1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white glossy",
+        "size": "medium"
+      },
+      "id": "noodles1",
+      "label": "pasta noodles",
+      "location": "0.05,0.3,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "bowl",
+      "location": "0.0,0.4,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.6,0.0,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink skin tone",
+        "size": "small"
+      },
+      "id": "noodle_strands1",
+      "label": "noodle strands",
+      "location": "0.6,0.0,1.0,0.7,0.7"
+    }
+  ]
+}

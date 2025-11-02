@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "tongs1"
+    },
+    {
+      "predicate": "in",
+      "source": "tongs1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl1",
+      "target": "salad1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "container1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.05,0.15,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "medium"
+      },
+      "id": "tongs1",
+      "label": "kitchen tongs",
+      "location": "0.3,0.0,0.6,0.4,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "salad1",
+      "label": "salad",
+      "location": "0.2,0.2,0.8,0.6,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.0,0.0,0.3,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "container1",
+      "label": "measuring cup",
+      "location": "0.0,0.75,0.2,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood grain",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "wooden table",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    }
+  ]
+}

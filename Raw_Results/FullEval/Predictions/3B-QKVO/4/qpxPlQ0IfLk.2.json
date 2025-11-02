@@ -1,0 +1,126 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "person1",
+      "target": "skateboard1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "behind",
+      "source": "tree1",
+      "target": "building1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "fence1",
+      "target": "building1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "pipe1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "wire1",
+      "target": "pole1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "dark jacket and jeans",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.45,0.38,0.57,0.69,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "skateboard1",
+      "label": "skateboard",
+      "location": "0.48,0.62,0.52,0.65,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light grey concrete",
+        "size": "large"
+      },
+      "id": "road1",
+      "label": "pavement road",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "fence1",
+      "label": "wooden fence",
+      "location": "0.0,0.0,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white brick",
+        "size": "large"
+      },
+      "id": "building1",
+      "label": "apartment building",
+      "location": "0.4,0.1,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "bare leafless branches",
+        "size": "large"
+      },
+      "id": "tree1",
+      "label": "leafless tree",
+      "location": "0.45,0.0,0.6,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue green graffiti",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "graffiti wall",
+      "location": "0.65,0.0,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "medium"
+      },
+      "id": "pipe1",
+      "label": "metal pipe",
+      "location": "0.7,0.5,0.9,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black wire",
+        "size": "medium"
+      },
+      "id": "wire1",
+      "label": "power line",
+      "location": "0.3,0.0,0.7,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "pole1",
+      "label": "utility pole",
+      "location": "0.35,0.0,0.4,0.6,0.7"
+    }
+  ]
+}

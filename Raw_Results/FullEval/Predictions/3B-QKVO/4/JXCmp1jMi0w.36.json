@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "bowl1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "on",
+      "source": "bag1",
+      "target": "table1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "plastic bag",
+      "location": "0.05,0.3,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white liquid",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.4,0.0,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden handle yellow silicone head",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.0,0.2,0.4,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.3,0.0,0.7,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.8,1.0,1.0,0.6"
+    }
+  ]
+}

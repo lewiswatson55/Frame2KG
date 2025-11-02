@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "wine_glass_rack1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "on",
+      "source": "soap_dispenser1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "dish_soap1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fridge1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "brick_wall1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black chef jacket",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.98,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "medium"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.4,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "wine_glass_rack1",
+      "label": "wine glass rack",
+      "location": "0.1,0.2,0.3,0.6,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "soap_dispenser1",
+      "label": "soap dispenser",
+      "location": "0.3,0.6,0.4,0.8,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "purple bottle",
+        "size": "small"
+      },
+      "id": "dish_soap1",
+      "label": "dish soap",
+      "location": "0.35,0.6,0.45,0.8,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "grey stone",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.8,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red brick",
+        "size": "large"
+      },
+      "id": "brick_wall1",
+      "label": "brick wall",
+      "location": "0.5,0.0,0.8,0.6,0.6"
+    }
+  ]
+}

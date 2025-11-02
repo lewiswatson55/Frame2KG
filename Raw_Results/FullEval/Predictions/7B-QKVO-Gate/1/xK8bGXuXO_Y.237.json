@@ -1,0 +1,102 @@
+{
+  "edges": [
+    {
+      "predicate": "includes",
+      "source": "recipe1",
+      "target": "ingredients1"
+    },
+    {
+      "predicate": "includes",
+      "source": "recipe1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "onion1",
+      "target": "recipe1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red text",
+        "size": "large"
+      },
+      "id": "title1",
+      "label": "Onion Rings Title",
+      "location": "0.45,0.0,0.98,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink faded text",
+        "size": "medium"
+      },
+      "id": "subtitle1",
+      "label": "Subtitle Text",
+      "location": "0.0,0.0,0.6,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black bold font",
+        "size": "small"
+      },
+      "id": "time1",
+      "label": "Preparation Time",
+      "location": "0.0,0.3,0.3,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black bold font",
+        "size": "small"
+      },
+      "id": "time2",
+      "label": "Cooking Time",
+      "location": "0.3,0.3,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black bold font",
+        "size": "small"
+      },
+      "id": "serves1",
+      "label": "Serves",
+      "location": "0.6,0.3,0.9,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black bold font",
+        "size": "medium"
+      },
+      "id": "ingredients1",
+      "label": "Ingredients List",
+      "location": "0.0,0.4,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green italic font",
+        "size": "small"
+      },
+      "id": "other1",
+      "label": "Other Ingredients",
+      "location": "0.0,0.8,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white liquid",
+        "size": "medium"
+      },
+      "id": "oil1",
+      "label": "Oil",
+      "location": "0.5,0.8,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown translucent",
+        "size": "medium"
+      },
+      "id": "onion1",
+      "label": "Onion Rings Bag",
+      "location": "0.4,0.4,0.8,0.8,0.8"
+    }
+  ]
+}

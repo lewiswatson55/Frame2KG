@@ -1,0 +1,239 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl3",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar2",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar3",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife_block1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "microwave1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sink1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "above",
+      "source": "rack1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "utensils1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "fridge1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt black apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.45,0.18,0.60,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.52,0.45,0.60,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "kitchen island",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.2,0.4,0.4,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal rack",
+        "size": "medium"
+      },
+      "id": "rack1",
+      "label": "hanging utensil rack",
+      "location": "0.0,0.0,0.6,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "small"
+      },
+      "id": "utensils1",
+      "label": "spoons",
+      "location": "0.2,0.1,0.4,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.75,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave",
+      "location": "0.75,0.1,0.9,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.5,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "jar",
+      "location": "0.6,0.6,0.65,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass",
+        "size": "small"
+      },
+      "id": "jar2",
+      "label": "jar",
+      "location": "0.65,0.6,0.7,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass",
+        "size": "small"
+      },
+      "id": "jar3",
+      "label": "jar",
+      "location": "0.7,0.6,0.75,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "knife_block1",
+      "label": "knife block",
+      "location": "0.75,0.6,0.8,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.0,0.5,0.2,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl",
+      "location": "0.1,0.7,0.2,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "bowl",
+      "location": "0.2,0.7,0.3,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl3",
+      "label": "bowl",
+      "location": "0.3,0.7,0.4,0.8,0.7"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "bowl1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "in",
+      "source": "leaves1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "mixer1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "grey floral shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.0,0.0,0.5,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.3,0.1,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy sauce",
+        "size": "medium"
+      },
+      "id": "sauce1",
+      "label": "sauce",
+      "location": "0.4,0.1,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "medium"
+      },
+      "id": "bowl2",
+      "label": "glass bowl",
+      "location": "0.2,0.4,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "leaves1",
+      "label": "lettuce leaves",
+      "location": "0.3,0.5,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.4,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "cream ceramic",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "ceramic jar",
+      "location": "0.8,0.4,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "mixer1",
+      "label": "stand mixer",
+      "location": "0.6,0.0,1.0,0.4,0.8"
+    }
+  ]
+}

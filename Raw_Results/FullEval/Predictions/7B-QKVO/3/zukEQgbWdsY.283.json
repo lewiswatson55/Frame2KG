@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "pig_icon",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "tasted_text",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red beard, grey shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.0,0.0,0.5,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt with pig graphic",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.3,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey silhouette on black shirt",
+        "size": "small"
+      },
+      "id": "pig_icon",
+      "label": "pig icon",
+      "location": "0.45,0.4,0.75,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text",
+        "size": "small"
+      },
+      "id": "tasted_text",
+      "label": "TASTED logo",
+      "location": "0.85,0.75,1.0,1.0,0.8"
+    }
+  ]
+}

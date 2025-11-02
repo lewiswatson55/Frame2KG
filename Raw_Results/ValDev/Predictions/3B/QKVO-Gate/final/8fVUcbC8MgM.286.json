@@ -1,0 +1,127 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "cloth1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "lemon1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl2",
+      "target": "lemon1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white t-shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.05,0.0,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "wooden bowl",
+      "location": "0.45,0.3,0.75,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "rectangular plate",
+      "location": "0.2,0.35,0.8,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow fruit",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "lemon",
+      "location": "0.8,0.45,0.95,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "ceramic beige with blue stripe",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "ceramic jar",
+      "location": "0.75,0.1,0.95,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "red bowl",
+      "location": "0.85,0.6,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white fabric with floral pattern",
+        "size": "medium"
+      },
+      "id": "cloth1",
+      "label": "cloth",
+      "location": "0.0,0.3,0.4,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "cabinet",
+      "location": "0.0,0.0,0.5,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.3,1.0,1.0,0.7"
+    }
+  ]
+}

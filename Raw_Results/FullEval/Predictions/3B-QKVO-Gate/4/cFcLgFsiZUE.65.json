@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "display1",
+      "target": "device1"
+    },
+    {
+      "predicate": "on",
+      "source": "button5",
+      "target": "device1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "buttonstart",
+      "target": "button5"
+    },
+    {
+      "predicate": "right_of",
+      "source": "buttonkitchen_timer",
+      "target": "buttonstart"
+    },
+    {
+      "predicate": "right_of",
+      "source": "buttonoven_light",
+      "target": "buttonkitchen_timer"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "large"
+      },
+      "id": "device1",
+      "label": "microwave control panel",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green digital display",
+        "size": "medium"
+      },
+      "id": "display1",
+      "label": "digital timer display",
+      "location": "0.3,0.2,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "button5",
+      "label": "number 5 button",
+      "location": "0.45,0.75,0.55,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "small"
+      },
+      "id": "buttonstart",
+      "label": "start button",
+      "location": "0.6,0.7,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "gray text on black background",
+        "size": "small"
+      },
+      "id": "buttonkitchen_timer",
+      "label": "kitchen timer button",
+      "location": "0.8,0.2,0.95,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "gray text on black background",
+        "size": "small"
+      },
+      "id": "buttonoven_light",
+      "label": "oven light button",
+      "location": "0.8,0.5,0.95,0.8,0.8"
+    }
+  ]
+}

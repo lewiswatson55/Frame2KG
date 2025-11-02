@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "casserole1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "on",
+      "source": "spoon1",
+      "target": "casserole1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown breadcrumb topping",
+        "size": "large"
+      },
+      "id": "casserole1",
+      "label": "Macaroni and Cheese Casserole",
+      "location": "0.00,0.00,1.00,1.00,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "dark metal",
+        "size": "medium"
+      },
+      "id": "dish1",
+      "label": "Baking Dish",
+      "location": "0.00,0.00,0.30,0.40,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Serving Spoon",
+      "location": "0.00,0.70,0.30,1.00,0.60"
+    }
+  ]
+}

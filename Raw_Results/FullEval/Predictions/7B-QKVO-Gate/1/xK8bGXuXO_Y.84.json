@@ -1,0 +1,128 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "jar1",
+      "target": "bowl_large"
+    },
+    {
+      "predicate": "next_to",
+      "source": "board1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cup1",
+      "target": "cup2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "cup3",
+      "target": "cup2"
+    },
+    {
+      "predicate": "on",
+      "source": "cup1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "cup2",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "cup3",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_large",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "table1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.25,0.18,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "jar1",
+      "label": "glass jar",
+      "location": "0.15,0.0,0.45,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "bowl_large",
+      "label": "mixing bowl",
+      "location": "0.45,0.1,0.95,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.6,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "cup1",
+      "label": "measuring cup",
+      "location": "0.2,0.75,0.4,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "cup2",
+      "label": "measuring cup",
+      "location": "0.4,0.75,0.6,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "cup3",
+      "label": "measuring cup",
+      "location": "0.6,0.75,0.8,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    }
+  ]
+}

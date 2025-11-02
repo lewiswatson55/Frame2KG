@@ -1,0 +1,177 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "hotplate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lettuce1",
+      "target": "tomatoes1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread_slices1",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "behind",
+      "source": "framed_art1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "framed_art2",
+      "target": "person1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.27,0.45,0.35,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "hotplate1",
+      "label": "hot plate",
+      "location": "0.65,0.6,0.75,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.65,0.55,0.85,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce",
+      "location": "0.75,0.75,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red sliced",
+        "size": "small"
+      },
+      "id": "tomatoes1",
+      "label": "tomato slices",
+      "location": "0.85,0.75,0.95,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread",
+        "size": "small"
+      },
+      "id": "bread_slices1",
+      "label": "bread slices",
+      "location": "0.45,0.75,0.55,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cheese",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "cheese",
+      "location": "0.55,0.75,0.6,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.3,0.7,0.35,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "basket1",
+      "label": "fruit basket",
+      "location": "0.0,0.4,0.15,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey frame",
+        "size": "medium"
+      },
+      "id": "framed_art1",
+      "label": "artwork",
+      "location": "0.0,0.2,0.2,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey frame",
+        "size": "medium"
+      },
+      "id": "framed_art2",
+      "label": "artwork",
+      "location": "0.8,0.2,1.0,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light grey",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,1.0,0.4,0.7"
+    }
+  ]
+}

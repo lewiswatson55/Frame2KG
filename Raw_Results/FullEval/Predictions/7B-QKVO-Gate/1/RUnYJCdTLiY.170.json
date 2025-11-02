@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "butter1"
+    },
+    {
+      "predicate": "on",
+      "source": "butter1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "microwave1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sink1",
+      "target": "microwave1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "utensil_holder1",
+      "target": "microwave1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "tomato1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "tomato1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "purple shirt white apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.7,0.4,0.95,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "butter1",
+      "label": "butter",
+      "location": "0.25,0.75,0.35,0.85,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave oven",
+      "location": "0.3,0.2,0.6,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "kitchen sink",
+      "location": "0.6,0.2,0.9,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,1.0,0.3,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "metal container with utensils",
+        "size": "small"
+      },
+      "id": "utensil_holder1",
+      "label": "utensil holder",
+      "location": "0.1,0.1,0.2,0.3,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "red",
+        "size": "small"
+      },
+      "id": "tomato1",
+      "label": "tomato",
+      "location": "0.45,0.75,0.55,0.85,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.55,0.7,0.9,0.95,0.6"
+    }
+  ]
+}

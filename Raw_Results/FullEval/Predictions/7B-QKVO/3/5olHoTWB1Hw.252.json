@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "pasta1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand1",
+      "target": "pasta1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bag1",
+      "target": "pasta1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "paper_towel1",
+      "target": "pasta1"
+    },
+    {
+      "predicate": "behind",
+      "source": "stove1",
+      "target": "pasta1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "Stove Top",
+      "location": "0.0,0.0,0.5,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "baking_pan1",
+      "label": "Baking Pan",
+      "location": "0.0,0.2,1.0,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white pasta with yellow cheese",
+        "size": "large"
+      },
+      "id": "pasta1",
+      "label": "Pasta Dish",
+      "location": "0.0,0.2,1.0,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow shredded",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "Shredded Cheese",
+      "location": "0.0,0.2,1.0,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.6,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic bag",
+        "size": "small"
+      },
+      "id": "bag1",
+      "label": "Plastic Bag",
+      "location": "0.8,0.7,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "small"
+      },
+      "id": "paper_towel1",
+      "label": "Paper Towel Roll",
+      "location": "0.0,0.6,0.2,1.0,0.8"
+    }
+  ]
+}

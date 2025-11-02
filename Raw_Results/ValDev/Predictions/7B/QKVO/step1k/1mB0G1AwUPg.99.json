@@ -1,0 +1,160 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "container1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf1",
+      "target": "board1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "sprayer1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "towel1",
+      "target": "sprayer1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white sweater",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.15,0.1,0.48,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.47,0.1,0.83,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "chalkboard menu",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.0,0.6,0.2,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "small bowl",
+      "location": "0.6,0.7,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "container1",
+      "label": "plastic container",
+      "location": "0.2,0.7,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.8,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread loaves",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "bread shelf",
+      "location": "0.3,0.3,0.7,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper towels",
+        "size": "small"
+      },
+      "id": "towel1",
+      "label": "paper towel roll",
+      "location": "0.2,0.4,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "sprayer1",
+      "label": "spray bottle",
+      "location": "0.0,0.4,0.1,0.6,0.8"
+    }
+  ]
+}

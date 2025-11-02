@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "fruit_bowl",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "dip_bowl",
+      "target": "table"
+    },
+    {
+      "predicate": "next_to",
+      "source": "wine_glass",
+      "target": "bread_slice"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "play_button",
+      "target": "fruit_bowl"
+    },
+    {
+      "predicate": "right_of",
+      "source": "jar_peaches",
+      "target": "fruit_bowl"
+    },
+    {
+      "predicate": "left_of",
+      "source": "steak_plate",
+      "target": "play_button"
+    },
+    {
+      "predicate": "right_of",
+      "source": "tortilla_stack",
+      "target": "play_button"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue ceramic",
+        "size": "medium"
+      },
+      "id": "fruit_bowl",
+      "label": "Fruit Bowl",
+      "location": "0.35,0.45,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "dip_bowl",
+      "label": "Dip Bowl",
+      "location": "0.45,0.45,0.60,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark brown glass",
+        "size": "small"
+      },
+      "id": "wine_glass",
+      "label": "Wine Glass",
+      "location": "0.65,0.05,0.75,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "bread_slice",
+      "label": "Bread Slice",
+      "location": "0.75,0.10,0.90,0.30,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal lid",
+        "size": "medium"
+      },
+      "id": "jar_peaches",
+      "label": "Jar of Peaches",
+      "location": "0.85,0.45,0.98,0.75,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with grilled steak",
+        "size": "medium"
+      },
+      "id": "steak_plate",
+      "label": "Steak Plate",
+      "location": "0.20,0.75,0.45,0.95,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "large"
+      },
+      "id": "play_button",
+      "label": "Play Button",
+      "location": "0.40,0.70,0.60,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown tortillas",
+        "size": "medium"
+      },
+      "id": "tortilla_stack",
+      "label": "Tortilla Stack",
+      "location": "0.80,0.75,0.98,0.95,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "green surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "Table Surface",
+      "location": "0.00,0.00,1.00,1.00,0.6"
+    }
+  ]
+}

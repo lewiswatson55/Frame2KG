@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "rice1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "whisk1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "spoon1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "scale1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinets1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "stove1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "purple shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.05,0.0,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.3,0.2,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white granular",
+        "size": "small"
+      },
+      "id": "rice1",
+      "label": "Rice",
+      "location": "0.45,0.35,0.65,0.55,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "metal wire",
+        "size": "small"
+      },
+      "id": "whisk1",
+      "label": "Whisk",
+      "location": "0.1,0.5,0.3,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wooden",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Wooden Spoon",
+      "location": "0.25,0.55,0.4,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "Stove",
+      "location": "0.0,0.0,0.3,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinets1",
+      "label": "Cabinets",
+      "location": "0.3,0.0,0.7,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "Small Bowl",
+      "location": "0.75,0.2,0.95,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "scale1",
+      "label": "Scale",
+      "location": "0.4,0.7,0.6,0.9,0.8"
+    }
+  ]
+}

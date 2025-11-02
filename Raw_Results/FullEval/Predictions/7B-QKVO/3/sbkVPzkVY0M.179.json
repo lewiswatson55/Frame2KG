@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "meat1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "meat1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spoon1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red silicone",
+        "size": "medium"
+      },
+      "id": "spoon1",
+      "label": "Silicone Spoon",
+      "location": "0.05,0.0,0.45,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw",
+        "size": "small"
+      },
+      "id": "meat1",
+      "label": "Raw Meat Ball",
+      "location": "0.3,0.4,0.5,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "Frying Pan",
+      "location": "0.0,0.5,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.45,0.0,0.8,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black glass",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "Stovetop",
+      "location": "0.0,0.4,1.0,0.8,0.8"
+    }
+  ]
+}

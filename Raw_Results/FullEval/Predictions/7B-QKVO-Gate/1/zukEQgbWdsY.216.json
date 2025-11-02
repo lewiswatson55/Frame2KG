@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "cup1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "cup1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "blender1",
+      "target": "backsplash1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plant1",
+      "target": "knife_block1"
+    },
+    {
+      "predicate": "on",
+      "source": "plant1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife_block1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.0,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with yellow liquid",
+        "size": "small"
+      },
+      "id": "cup1",
+      "label": "Measuring cup",
+      "location": "0.4,0.0,0.7,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green blended mixture",
+        "size": "large"
+      },
+      "id": "blender1",
+      "label": "Blender jar",
+      "location": "0.3,0.3,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown tiled",
+        "size": "large"
+      },
+      "id": "backsplash1",
+      "label": "Tiled backsplash",
+      "location": "0.0,0.0,1.0,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark brown wood",
+        "size": "medium"
+      },
+      "id": "knife_block1",
+      "label": "Knife block",
+      "location": "0.6,0.3,0.8,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves in pink pot",
+        "size": "medium"
+      },
+      "id": "plant1",
+      "label": "Potted plant",
+      "location": "0.8,0.3,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.5,1.0,1.0,0.7"
+    }
+  ]
+}

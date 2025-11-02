@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "onion1"
+    },
+    {
+      "predicate": "on",
+      "source": "onion1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "cloth1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl3",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "hands",
+      "location": "0.45,0.0,0.95,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple",
+        "size": "small"
+      },
+      "id": "onion1",
+      "label": "red onion",
+      "location": "0.6,0.15,0.75,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "wooden cutting board",
+      "location": "0.2,0.2,1.0,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "white bowl",
+      "location": "0.0,0.5,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl2",
+      "label": "white bowl",
+      "location": "0.3,0.5,0.6,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl3",
+      "label": "white bowl",
+      "location": "0.6,0.5,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "multicolored patterned fabric",
+        "size": "large"
+      },
+      "id": "cloth1",
+      "label": "tablecloth",
+      "location": "0.0,0.4,1.0,1.0,0.7"
+    }
+  ]
+}

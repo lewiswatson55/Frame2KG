@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "rolling_pin1"
+    },
+    {
+      "predicate": "on",
+      "source": "rolling_pin1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tongs1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.35,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige wood",
+        "size": "medium"
+      },
+      "id": "rolling_pin1",
+      "label": "rolling pin",
+      "location": "0.45,0.3,0.68,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.0,0.6,0.6,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "kitchen tongs",
+      "location": "0.6,0.6,0.75,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.0,1.0,0.3,0.6"
+    }
+  ]
+}

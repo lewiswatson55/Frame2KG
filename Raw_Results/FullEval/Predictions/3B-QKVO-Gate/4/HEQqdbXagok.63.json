@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "mayo1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.05,0.0,0.95,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "raw chicken pieces",
+      "location": "0.3,0.2,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy",
+        "size": "small"
+      },
+      "id": "mayo1",
+      "label": "mayonnaise",
+      "location": "0.4,0.1,0.6,0.5,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood grain",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "wooden table",
+      "location": "0.0,0.8,1.0,1.0,0.7"
+    }
+  ]
+}

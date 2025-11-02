@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "panel1",
+      "target": "background"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "face1",
+      "target": "panel1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red glossy",
+        "size": "large"
+      },
+      "id": "panel1",
+      "label": "Red Panel",
+      "location": "0.35,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black silhouette",
+        "size": "medium"
+      },
+      "id": "face1",
+      "label": "Black Face Silhouette",
+      "location": "0.45,0.1,0.75,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white gradient",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "White Gradient Background",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

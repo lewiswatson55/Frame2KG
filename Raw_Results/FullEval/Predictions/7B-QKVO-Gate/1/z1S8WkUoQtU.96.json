@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "painting1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "vase1",
+      "target": "person1"
+    },
+    {
+      "predicate": "on",
+      "source": "utensil1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "painting1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "on",
+      "source": "painting2",
+      "target": "wall1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "painting1",
+      "target": "painting2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "dark hair pink shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame",
+        "size": "medium"
+      },
+      "id": "painting1",
+      "label": "framed painting",
+      "location": "0.1,0.05,0.4,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame",
+        "size": "medium"
+      },
+      "id": "painting2",
+      "label": "framed painting",
+      "location": "0.45,0.05,0.75,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "orange ceramic",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "vase",
+      "location": "0.75,0.3,0.95,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic",
+        "size": "small"
+      },
+      "id": "utensil1",
+      "label": "utensils icon",
+      "location": "0.0,0.0,0.1,0.15,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.7,1.0,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "white smooth",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.0,0.0,1.0,1.0,0.5"
+    }
+  ]
+}

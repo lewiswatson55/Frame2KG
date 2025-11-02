@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "stripes1"
+    },
+    {
+      "predicate": "on",
+      "source": "stripes1",
+      "target": "background1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink gradient",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "white sans-serif",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Text 'Thank You For Watching'",
+      "location": "0.35,0.45,0.65,0.55,0.97"
+    },
+    {
+      "attributes": {
+        "appearance": "light pink vertical stripes",
+        "size": "small"
+      },
+      "id": "stripes1",
+      "label": "Stripes",
+      "location": "0.0,0.0,0.2,1.0,0.95"
+    }
+  ]
+}

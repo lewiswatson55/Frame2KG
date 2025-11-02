@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "tomato_slices",
+      "target": "plate"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon_strips",
+      "target": "plate"
+    },
+    {
+      "predicate": "next_to",
+      "source": "glass_bowl",
+      "target": "plate"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text_overlay",
+      "target": "plate"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red juicy",
+        "size": "medium"
+      },
+      "id": "tomato_slices",
+      "label": "sliced tomato",
+      "location": "0.05,0.35,0.48,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "crispy brown",
+        "size": "small"
+      },
+      "id": "bacon_strips",
+      "label": "bacon strips",
+      "location": "0.55,0.35,0.95,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate",
+      "label": "plate",
+      "location": "0.0,0.3,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "glass_bowl",
+      "label": "glass bowl",
+      "location": "0.0,0.75,0.5,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on white background",
+        "size": "small"
+      },
+      "id": "text_overlay",
+      "label": "text overlay",
+      "location": "0.75,0.0,1.0,0.15,0.9"
+    }
+  ]
+}

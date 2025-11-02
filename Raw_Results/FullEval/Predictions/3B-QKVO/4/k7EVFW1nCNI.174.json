@@ -1,0 +1,192 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "mug1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "saltshaker1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "oilbottle1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "towel1",
+      "target": "oven1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "faucet1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sink1",
+      "target": "cabinet_left"
+    },
+    {
+      "predicate": "above",
+      "source": "microwave1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cabinet_left",
+      "target": "cabinet_right"
+    },
+    {
+      "predicate": "right_of",
+      "source": "cabinet_right",
+      "target": "cabinet_left"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white lace dress",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.0,0.6,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.45,0.3,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "turquoise ceramic",
+        "size": "small"
+      },
+      "id": "pot1",
+      "label": "pot",
+      "location": "0.8,0.45,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic white base",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "food processor",
+      "location": "0.4,0.6,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red cloth",
+        "size": "small"
+      },
+      "id": "towel1",
+      "label": "kitchen towel",
+      "location": "0.55,0.55,0.7,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "faucet1",
+      "label": "faucet",
+      "location": "0.0,0.0,0.2,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.3,1.0,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "large"
+      },
+      "id": "cabinet_left",
+      "label": "cabinet",
+      "location": "0.0,0.0,0.3,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "large"
+      },
+      "id": "cabinet_right",
+      "label": "cabinet",
+      "location": "0.7,0.0,1.0,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black glass",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave",
+      "location": "0.6,0.0,1.0,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic red handle",
+        "size": "small"
+      },
+      "id": "mug1",
+      "label": "coffee mug",
+      "location": "0.45,0.25,0.55,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottle black cap",
+        "size": "small"
+      },
+      "id": "oilbottle1",
+      "label": "oil bottle",
+      "location": "0.55,0.25,0.6,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottle red liquid",
+        "size": "small"
+      },
+      "id": "saltshaker1",
+      "label": "salt shaker",
+      "location": "0.6,0.25,0.65,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white sink stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.0,0.0,0.3,0.3,0.7"
+    }
+  ]
+}

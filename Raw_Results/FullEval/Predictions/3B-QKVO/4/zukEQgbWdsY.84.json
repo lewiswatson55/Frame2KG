@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "fish1",
+      "target": "board1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hands1",
+      "target": "fish1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "board1"
+    },
+    {
+      "predicate": "behind",
+      "source": "oven1",
+      "target": "board1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bag1",
+      "target": "board1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "stove1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.05,0.45,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw fish",
+        "size": "medium"
+      },
+      "id": "fish1",
+      "label": "raw fish fillet",
+      "location": "0.35,0.6,0.75,0.75,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hands1",
+      "label": "human hands",
+      "location": "0.45,0.2,0.75,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.6,0.0,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic bag",
+        "size": "small"
+      },
+      "id": "bag1",
+      "label": "plastic bag",
+      "location": "0.0,0.3,0.3,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "oven1",
+      "label": "oven",
+      "location": "0.0,0.0,0.4,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.5,0.7,1.0,1.0,0.8"
+    }
+  ]
+}

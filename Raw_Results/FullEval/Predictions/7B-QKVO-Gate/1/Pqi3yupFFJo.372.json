@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "tongs1"
+    },
+    {
+      "predicate": "holding",
+      "source": "tongs1",
+      "target": "onion_ring1"
+    },
+    {
+      "predicate": "in",
+      "source": "onion_ring1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in",
+      "source": "onion_ring2",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in",
+      "source": "onion_ring3",
+      "target": "pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "grate1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.05,0.0,0.45,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "kitchen tongs",
+      "location": "0.1,0.1,0.6,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "onion_ring1",
+      "label": "onion ring",
+      "location": "0.2,0.2,0.4,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "onion_ring2",
+      "label": "onion ring",
+      "location": "0.4,0.2,0.6,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "onion_ring3",
+      "label": "onion ring",
+      "location": "0.3,0.4,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.0,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "grate1",
+      "label": "stove grate",
+      "location": "0.7,0.0,1.0,0.8,0.8"
+    }
+  ]
+}

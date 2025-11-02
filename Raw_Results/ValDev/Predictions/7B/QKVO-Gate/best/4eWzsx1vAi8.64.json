@@ -1,0 +1,100 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "vase1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "teapot1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "pitcher1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "vase1",
+      "target": "teapot1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "teapot1",
+      "target": "pitcher1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "pitcher1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "grey lace top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "wall shelf",
+      "location": "0.1,0.0,0.9,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "ceramic vase",
+      "location": "0.25,0.2,0.35,0.35,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "blue patterned",
+        "size": "small"
+      },
+      "id": "teapot1",
+      "label": "teapot",
+      "location": "0.35,0.05,0.45,0.15,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metallic",
+        "size": "small"
+      },
+      "id": "pitcher1",
+      "label": "metal pitcher",
+      "location": "0.45,0.05,0.55,0.15,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "brown ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "decorative plate",
+      "location": "0.4,0.2,0.5,0.3,0.6"
+    }
+  ]
+}

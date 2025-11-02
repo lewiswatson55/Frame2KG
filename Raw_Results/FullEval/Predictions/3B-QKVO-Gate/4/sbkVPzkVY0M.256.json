@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "bun1"
+    },
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "mayo1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "lettuce1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.05,0.0,0.95,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "fried chicken piece",
+      "location": "0.6,0.1,0.95,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "large"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaf",
+      "location": "0.3,0.5,0.95,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown toasted",
+        "size": "medium"
+      },
+      "id": "bun1",
+      "label": "burger bun bottom",
+      "location": "0.2,0.6,0.8,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beef patty with yellow sauce",
+        "size": "small"
+      },
+      "id": "patty1",
+      "label": "burger patty",
+      "location": "0.3,0.6,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow creamy",
+        "size": "small"
+      },
+      "id": "mayo1",
+      "label": "mayonnaise spread",
+      "location": "0.35,0.65,0.65,0.8,0.8"
+    }
+  ]
+}

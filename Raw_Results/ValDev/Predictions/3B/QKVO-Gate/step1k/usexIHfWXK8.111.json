@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "pepper1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pepper1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "bowl2",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.58,0.37,0.96,0.84,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic with red label",
+        "size": "small"
+      },
+      "id": "pepper1",
+      "label": "Ground Black Pepper Packet",
+      "location": "0.52,0.25,0.75,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.05,0.0,0.6,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "raw pink",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "Raw Chicken Pieces",
+      "location": "0.1,0.05,0.55,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "medium"
+      },
+      "id": "bowl2",
+      "label": "Glass Bowl",
+      "location": "0.6,0.0,1.0,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Wooden Cutting Board",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    }
+  ]
+}

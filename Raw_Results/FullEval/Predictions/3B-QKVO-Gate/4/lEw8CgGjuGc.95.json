@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "oil1",
+      "target": "grate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cloth1",
+      "target": "grate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "grate1",
+      "label": "Grill grate",
+      "location": "0.0,0.3,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "shiny liquid",
+        "size": "small"
+      },
+      "id": "oil1",
+      "label": "Cooking oil",
+      "location": "0.4,0.4,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white fabric",
+        "size": "medium"
+      },
+      "id": "cloth1",
+      "label": "Cloth",
+      "location": "0.0,0.0,0.3,0.3,0.7"
+    }
+  ]
+}

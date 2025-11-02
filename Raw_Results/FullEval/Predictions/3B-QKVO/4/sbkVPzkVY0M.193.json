@@ -1,0 +1,357 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "burner1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate2",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "basket1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar2",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle3",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle4",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "spice_rack1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "basket1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "jar1",
+      "target": "jar2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bottle3",
+      "target": "bottle4"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet_left1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet_right1",
+      "target": "person1"
+    },
+    {
+      "predicate": "above",
+      "source": "frame1",
+      "target": "person1"
+    },
+    {
+      "predicate": "above",
+      "source": "frame2",
+      "target": "person1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce_plate",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato_plate",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_plate",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "toast_bowl",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "fruit_bowl",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "plant_pot",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "rack_shelf",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "utensil_holder",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board",
+      "target": "table1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.25,0.0,0.75,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.45,0.6,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "burner1",
+      "label": "hot plate burner",
+      "location": "0.45,0.75,0.65,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate of toast",
+      "location": "0.05,0.75,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate2",
+      "label": "plate of lettuce",
+      "location": "0.6,0.75,0.85,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden bowl with green apples",
+        "size": "small"
+      },
+      "id": "basket1",
+      "label": "bowl of apples",
+      "location": "0.0,0.5,0.2,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar with yellow liquid",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "sauce bottle",
+      "location": "0.2,0.5,0.25,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar with brown powder",
+        "size": "small"
+      },
+      "id": "jar2",
+      "label": "seasoning jar",
+      "location": "0.25,0.5,0.3,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow glass",
+        "size": "small"
+      },
+      "id": "bottle3",
+      "label": "pepper mill",
+      "location": "0.85,0.5,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow glass",
+        "size": "small"
+      },
+      "id": "bottle4",
+      "label": "salt shaker",
+      "location": "0.9,0.5,0.95,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden rack with bottles",
+        "size": "small"
+      },
+      "id": "spice_rack1",
+      "label": "spice rack",
+      "location": "0.6,0.5,0.7,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "medium"
+      },
+      "id": "frame1",
+      "label": "picture frame",
+      "location": "0.0,0.4,0.2,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "medium"
+      },
+      "id": "frame2",
+      "label": "picture frame",
+      "location": "0.75,0.2,0.95,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "cabinet_left1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.3,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "cabinet_right1",
+      "label": "kitchen cabinet",
+      "location": "0.7,0.0,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white marble",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden cutting board",
+        "size": "large"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.0,0.7,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden bowl with fruit",
+        "size": "small"
+      },
+      "id": "fruit_bowl",
+      "label": "fruit bowl",
+      "location": "0.0,0.5,0.2,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green plant",
+        "size": "small"
+      },
+      "id": "plant_pot",
+      "label": "plant pot",
+      "location": "0.1,0.4,0.2,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal shelf with fruits",
+        "size": "small"
+      },
+      "id": "rack_shelf",
+      "label": "shelf",
+      "location": "0.4,0.4,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden tray with utensils",
+        "size": "small"
+      },
+      "id": "utensil_holder",
+      "label": "utensil holder",
+      "location": "0.6,0.5,0.7,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "lettuce_plate",
+      "label": "plate of lettuce",
+      "location": "0.6,0.75,0.85,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "tomato_plate",
+      "label": "plate of tomatoes",
+      "location": "0.7,0.75,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread with spread",
+        "size": "small"
+      },
+      "id": "bread_plate",
+      "label": "plate of toast",
+      "location": "0.05,0.75,0.3,0.9,0.8"
+    }
+  ]
+}

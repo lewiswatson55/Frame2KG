@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand_left",
+      "target": "egg_shell"
+    },
+    {
+      "predicate": "in",
+      "source": "egg_yolk",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table_surface"
+    },
+    {
+      "predicate": "next_to",
+      "source": "hand_right",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "orange ceramic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.15,0.1,0.85,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow liquid",
+        "size": "small"
+      },
+      "id": "egg_yolk",
+      "label": "Egg Yolk",
+      "location": "0.45,0.35,0.6,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand_left",
+      "label": "Hand",
+      "location": "0.0,0.0,0.3,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand_right",
+      "label": "Hand",
+      "location": "0.6,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black surface",
+        "size": "large"
+      },
+      "id": "table_surface",
+      "label": "Table Surface",
+      "location": "0.0,0.7,1.0,1.0,0.9"
+    }
+  ]
+}

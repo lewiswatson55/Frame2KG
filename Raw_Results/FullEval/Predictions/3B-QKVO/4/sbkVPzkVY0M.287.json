@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "background"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink gradient",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Text Overlay",
+      "location": "0.6,0.7,0.4,0.3,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "silver logo",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Logo",
+      "location": "0.5,0.4,0.3,0.2,0.85"
+    }
+  ]
+}

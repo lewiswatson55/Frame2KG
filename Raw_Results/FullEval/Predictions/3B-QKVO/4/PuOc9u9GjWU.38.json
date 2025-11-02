@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "food1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "food2",
+      "target": "food1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white glossy",
+        "size": "medium"
+      },
+      "id": "food1",
+      "label": "raw squid rings",
+      "location": "0.35,0.45,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pinkish red",
+        "size": "small"
+      },
+      "id": "food2",
+      "label": "red onion slices",
+      "location": "0.0,0.0,0.3,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

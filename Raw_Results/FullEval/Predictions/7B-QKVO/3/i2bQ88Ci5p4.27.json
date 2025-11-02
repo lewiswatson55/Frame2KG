@@ -1,0 +1,109 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "cutting",
+      "source": "knife1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken2",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken3",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "hand1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "hand2",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "hands",
+      "location": "0.45,0.0,0.98,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver blade",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.3,0.2,0.6,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "raw chicken piece",
+      "location": "0.35,0.45,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "medium"
+      },
+      "id": "chicken2",
+      "label": "raw chicken piece",
+      "location": "0.2,0.4,0.4,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "medium"
+      },
+      "id": "chicken3",
+      "label": "raw chicken piece",
+      "location": "0.5,0.3,0.8,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark speckled surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    }
+  ]
+}

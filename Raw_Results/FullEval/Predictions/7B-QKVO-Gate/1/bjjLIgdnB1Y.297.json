@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula1",
+      "target": "pancake1"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chair1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "behind",
+      "source": "bowl1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "griddle1",
+      "target": "floor1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black pants beige shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.47,0.0,0.53,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue batter",
+        "size": "small"
+      },
+      "id": "pancake1",
+      "label": "pancake batter",
+      "location": "0.48,0.25,0.52,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "griddle1",
+      "label": "griddle",
+      "location": "0.0,0.3,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "medium"
+      },
+      "id": "chair1",
+      "label": "chair",
+      "location": "0.7,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.75,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "floor1",
+      "label": "hardwood floor",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    }
+  ]
+}

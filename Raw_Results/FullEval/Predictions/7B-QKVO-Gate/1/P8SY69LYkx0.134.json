@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "hands1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tongs1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cloth1",
+      "target": "tongs1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bag1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white latex",
+        "size": "medium"
+      },
+      "id": "hands1",
+      "label": "gloved hands",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.25,0.2,0.75,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "kitchen tongs",
+      "location": "0.0,0.55,0.3,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow fabric",
+        "size": "small"
+      },
+      "id": "cloth1",
+      "label": "dish towel",
+      "location": "0.0,0.75,0.2,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "medium"
+      },
+      "id": "bag1",
+      "label": "ziplock bag",
+      "location": "0.6,0.7,1.0,0.95,0.8"
+    }
+  ]
+}

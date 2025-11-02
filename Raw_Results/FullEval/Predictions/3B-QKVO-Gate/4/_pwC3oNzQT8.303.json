@@ -1,0 +1,117 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl1",
+      "target": "backsplash1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "blender1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "includes",
+      "source": "dish1",
+      "target": "food1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl1",
+      "target": "dish1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "Stove",
+      "location": "0.0,0.65,0.35,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "Frying Pan",
+      "location": "0.05,0.7,0.45,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.35,0.45,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "Blender",
+      "location": "0.65,0.1,0.9,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar with white contents",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "Jar",
+      "location": "0.9,0.1,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "dish1",
+      "label": "Baking Dish",
+      "location": "0.6,0.5,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "Food Pieces",
+      "location": "0.65,0.55,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark skin",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.8,0.5,0.95,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white tile patterned",
+        "size": "large"
+      },
+      "id": "backsplash1",
+      "label": "Tile Backsplash",
+      "location": "0.0,0.0,1.0,0.6,0.7"
+    }
+  ]
+}

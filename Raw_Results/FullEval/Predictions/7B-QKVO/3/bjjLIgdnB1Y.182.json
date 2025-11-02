@@ -1,0 +1,192 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake_griddle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "can1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "utensil_holder1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "mixing_bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "sink1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fridge1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "window1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "window2",
+      "target": "cabinet1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "wearing green top and black apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.05,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass bowl with yellow batter",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.45,0.55,0.60,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green silicone spatula",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "silicone spatula",
+      "location": "0.48,0.50,0.55,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal griddle",
+        "size": "medium"
+      },
+      "id": "pancake_griddle1",
+      "label": "pancake griddle",
+      "location": "0.60,0.60,0.90,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow canister",
+        "size": "small"
+      },
+      "id": "can1",
+      "label": "cooking spray can",
+      "location": "0.20,0.70,0.28,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic bottle with blue cap",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "syrup bottle",
+      "location": "0.10,0.75,0.20,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden utensil holder",
+        "size": "small"
+      },
+      "id": "utensil_holder1",
+      "label": "utensil holder",
+      "location": "0.70,0.45,0.75,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic bowl",
+        "size": "small"
+      },
+      "id": "mixing_bowl1",
+      "label": "mixing bowl",
+      "location": "0.00,0.80,0.10,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel sink",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "kitchen sink",
+      "location": "0.75,0.40,0.95,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown granite countertop",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.00,0.50,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver stainless steel refrigerator",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.20,0.00,0.40,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood cabinets",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.40,0.00,0.80,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white blinds window frame",
+        "size": "medium"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.00,0.00,0.20,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white blinds window frame",
+        "size": "medium"
+      },
+      "id": "window2",
+      "label": "window",
+      "location": "0.80,0.00,1.00,0.40,0.8"
+    }
+  ]
+}

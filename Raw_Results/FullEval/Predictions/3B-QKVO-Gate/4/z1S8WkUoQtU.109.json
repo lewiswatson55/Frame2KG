@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "fork1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "painting1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "sculpture1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "utensils_icon",
+      "target": "painting1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink shirt,long dark hair",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.0,0.6,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "fork1",
+      "label": "fork",
+      "location": "0.45,0.75,0.55,0.9,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "medium"
+      },
+      "id": "sculpture1",
+      "label": "ceramic sculpture",
+      "location": "0.75,0.3,0.95,0.8,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame",
+        "size": "medium"
+      },
+      "id": "painting1",
+      "label": "abstract painting",
+      "location": "0.0,0.1,0.3,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden utensils icon",
+        "size": "small"
+      },
+      "id": "utensils_icon",
+      "label": "utensil icons",
+      "location": "0.0,0.0,0.1,0.1,0.7"
+    }
+  ]
+}

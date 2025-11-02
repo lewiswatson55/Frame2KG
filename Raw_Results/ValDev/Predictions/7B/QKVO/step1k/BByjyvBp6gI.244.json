@@ -1,0 +1,56 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "macaroni1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.3,0.4,0.7,0.8"
+    },
+    {
+      "id": "spatula1",
+      "label": "Red Spatula",
+      "location": "0.1,0.3,0.6,0.6,0.9"
+    },
+    {
+      "id": "pan1",
+      "label": "Aluminum Pan",
+      "location": "0.0,0.0,0.7,1.0,0.9"
+    },
+    {
+      "id": "macaroni1",
+      "label": "Macaroni Pasta",
+      "location": "0.05,0.2,0.65,0.8,0.9"
+    },
+    {
+      "id": "cheese1",
+      "label": "Cheese Sauce",
+      "location": "0.05,0.2,0.65,0.8,0.9"
+    },
+    {
+      "id": "pan2",
+      "label": "Empty Aluminum Pan",
+      "location": "0.7,0.0,1.0,1.0,0.9"
+    }
+  ]
+}

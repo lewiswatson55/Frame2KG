@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "meat1",
+      "target": "ground1"
+    },
+    {
+      "predicate": "on",
+      "source": "herb1",
+      "target": "meat1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red raw",
+        "size": "large"
+      },
+      "id": "meat1",
+      "label": "raw meat",
+      "location": "0.5,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "herb1",
+      "label": "chopped herbs",
+      "location": "0.6,0.3,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown dirt",
+        "size": "medium"
+      },
+      "id": "ground1",
+      "label": "soil",
+      "location": "0.0,0.4,1.0,1.0,0.7"
+    }
+  ]
+}

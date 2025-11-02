@@ -1,0 +1,86 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "onion1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "onion1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "onion2",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "onion3",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl1",
+      "target": "onion1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "onion2",
+      "target": "onion1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "onion3",
+      "target": "onion1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink skin",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.45,0.0,0.95,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple outer layer white inner flesh",
+        "size": "large"
+      },
+      "id": "onion1",
+      "label": "red onion half",
+      "location": "0.6,0.2,0.95,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "purple outer layer white inner flesh",
+        "size": "small"
+      },
+      "id": "onion2",
+      "label": "red onion slice",
+      "location": "0.5,0.6,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "purple outer layer white inner flesh",
+        "size": "small"
+      },
+      "id": "onion3",
+      "label": "red onion slice",
+      "location": "0.4,0.6,0.7,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.0,0.6,0.5,1.0,0.9"
+    }
+  ]
+}

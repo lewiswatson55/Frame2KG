@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "flour1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "hand1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl2",
+      "target": "dish1"
+    },
+    {
+      "predicate": "on",
+      "source": "dish1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.35,0.25,0.75,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "bowl2",
+      "label": "mixing bowl",
+      "location": "0.0,0.4,0.6,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "dish1",
+      "label": "glass baking dish",
+      "location": "0.7,0.1,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.4,0.0,0.8,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "raw chicken pieces",
+      "location": "0.45,0.3,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow liquid",
+        "size": "medium"
+      },
+      "id": "flour1",
+      "label": "flour mixture",
+      "location": "0.0,0.5,0.6,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black speckled",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

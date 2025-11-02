@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "tomato_slices",
+      "target": "plate"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bacon_pieces",
+      "target": "plate"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text_overlay",
+      "target": "plate"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red glossy",
+        "size": "medium"
+      },
+      "id": "tomato_slices",
+      "label": "Tomato slices",
+      "location": "0.05,0.3,0.48,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw",
+        "size": "small"
+      },
+      "id": "bacon_pieces",
+      "label": "Bacon pieces",
+      "location": "0.52,0.3,0.95,0.76,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate",
+      "label": "Plate",
+      "location": "0.0,0.3,0.5,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on white background",
+        "size": "large"
+      },
+      "id": "text_overlay",
+      "label": "Text overlay",
+      "location": "0.5,0.0,1.0,1.0,0.9"
+    }
+  ]
+}

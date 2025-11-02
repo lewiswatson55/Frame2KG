@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "squid1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife1",
+      "target": "squid1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white glossy",
+        "size": "medium"
+      },
+      "id": "squid1",
+      "label": "squid slices",
+      "location": "0.35,0.2,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal blade",
+        "size": "large"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.0,0.0,0.4,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    }
+  ]
+}

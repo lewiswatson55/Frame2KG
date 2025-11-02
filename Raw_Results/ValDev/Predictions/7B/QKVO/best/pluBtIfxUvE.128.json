@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "on",
+      "source": "herb1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato1",
+      "target": "dish1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow creamy sauce with red tomato pieces",
+        "size": "large"
+      },
+      "id": "dish1",
+      "label": "curry dish",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.7,0.0,1.0,0.3,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "herb1",
+      "label": "herbs",
+      "location": "0.4,0.6,0.6,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red",
+        "size": "small"
+      },
+      "id": "tomato1",
+      "label": "tomato pieces",
+      "location": "0.1,0.0,0.9,0.5,0.8"
+    }
+  ]
+}

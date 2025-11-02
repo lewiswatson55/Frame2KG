@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "hand1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "flour1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "potato1",
+      "target": "board1"
+    },
+    {
+      "predicate": "behind",
+      "source": "pot1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown skin",
+        "size": "large"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.35,0.0,0.98,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "flour1",
+      "label": "flour",
+      "location": "0.4,0.6,0.9,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple",
+        "size": "small"
+      },
+      "id": "potato1",
+      "label": "potato",
+      "location": "0.0,0.0,0.3,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.8,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

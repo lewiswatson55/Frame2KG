@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "squid_rings1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "flour_spray1",
+      "target": "squid_rings1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "flour_spray1",
+      "target": "squid_rings1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white with black specks",
+        "size": "medium"
+      },
+      "id": "squid_rings1",
+      "label": "raw squid rings",
+      "location": "0.05,0.15,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange plastic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plastic plate",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "flour_spray1",
+      "label": "flour spray",
+      "location": "0.6,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

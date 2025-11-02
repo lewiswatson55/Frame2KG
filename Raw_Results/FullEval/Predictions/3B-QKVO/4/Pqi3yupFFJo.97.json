@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "bag1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "countertop1",
+      "target": "window1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue plastic bag with red text and fried chicken image",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "Panko Bread Crumbs Bag",
+      "location": "0.05,0.05,0.45,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic bowl with bread crumbs",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Bowl of Bread Crumbs",
+      "location": "0.45,0.35,0.75,0.65,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite countertop",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "glass window with light reflection",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "Window",
+      "location": "0.4,0.0,0.6,0.6,0.7"
+    }
+  ]
+}

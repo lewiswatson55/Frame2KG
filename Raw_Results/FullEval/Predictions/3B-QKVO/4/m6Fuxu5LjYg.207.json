@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "oil1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in",
+      "source": "fish1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "in",
+      "source": "fish2",
+      "target": "oil1"
+    },
+    {
+      "predicate": "in",
+      "source": "fish3",
+      "target": "oil1"
+    },
+    {
+      "predicate": "holding",
+      "source": "tongs1",
+      "target": "fish4"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown batter",
+        "size": "medium"
+      },
+      "id": "fish1",
+      "label": "fried fish piece",
+      "location": "0.2,0.3,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white flour-coated",
+        "size": "small"
+      },
+      "id": "fish2",
+      "label": "floured fish piece",
+      "location": "0.6,0.1,0.9,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white flour-coated",
+        "size": "small"
+      },
+      "id": "fish3",
+      "label": "floured fish piece",
+      "location": "0.5,0.2,0.8,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green skin",
+        "size": "medium"
+      },
+      "id": "fish4",
+      "label": "raw fish",
+      "location": "0.3,0.4,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "tongs",
+      "location": "0.8,0.0,1.0,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow liquid",
+        "size": "large"
+      },
+      "id": "oil1",
+      "label": "cooking oil",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

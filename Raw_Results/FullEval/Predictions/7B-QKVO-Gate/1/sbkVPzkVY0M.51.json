@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl1",
+      "target": "meat1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl1",
+      "target": "pot1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.0,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.3,0.2,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red minced meat",
+        "size": "small"
+      },
+      "id": "meat1",
+      "label": "Ground Chuck",
+      "location": "0.4,0.3,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "Cooking Pot",
+      "location": "0.6,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

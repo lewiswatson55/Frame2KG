@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "includes",
+      "source": "plate1",
+      "target": "lobster1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "paper plate",
+      "location": "0.05,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red raw",
+        "size": "medium"
+      },
+      "id": "lobster1",
+      "label": "lobster pieces",
+      "location": "0.1,0.1,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "plastic bowl",
+      "location": "0.6,0.0,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "metal spoon",
+      "location": "0.75,0.05,0.95,0.35,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "wooden table",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

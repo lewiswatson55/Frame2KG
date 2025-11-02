@@ -1,0 +1,201 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl3",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "box1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "vase1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "mug1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "kettle1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "fridge1",
+      "target": "cabinet1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white lace top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "salad bowl",
+      "location": "0.45,0.7,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with croutons",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "crouton bowl",
+      "location": "0.25,0.75,0.35,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic tongs",
+        "size": "medium"
+      },
+      "id": "bowl3",
+      "label": "mixed greens bowl",
+      "location": "0.65,0.6,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.75,0.2,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "mug1",
+      "label": "mug",
+      "location": "0.75,0.2,0.8,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "dishwasher1",
+      "label": "dishwasher",
+      "location": "0.0,0.3,0.3,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "glass vase with red roses",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "flower vase",
+      "location": "0.2,0.1,0.3,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave",
+      "location": "0.8,0.0,1.0,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "kettle1",
+      "label": "electric kettle",
+      "location": "0.6,0.4,0.7,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black cardboard",
+        "size": "small"
+      },
+      "id": "box1",
+      "label": "cardboard box",
+      "location": "0.0,0.8,0.15,0.95,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "spoon",
+      "location": "0.45,0.5,0.55,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "cabinets",
+      "location": "0.0,0.0,1.0,0.2,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.2,0.8,0.9"
+    }
+  ]
+}

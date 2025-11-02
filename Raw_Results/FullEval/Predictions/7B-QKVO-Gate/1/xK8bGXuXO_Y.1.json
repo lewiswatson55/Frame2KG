@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "rings1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sauce1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "rings1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text2",
+      "target": "rings1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red script",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Onion Rings Text",
+      "location": "0.35,0.0,0.65,0.2,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.48,0.47,0.72,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden fried",
+        "size": "medium"
+      },
+      "id": "rings1",
+      "label": "Onion Rings",
+      "location": "0.5,0.3,0.8,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red sauce",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "Sauce Bowl",
+      "location": "0.45,0.6,0.6,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red script",
+        "size": "small"
+      },
+      "id": "text2",
+      "label": "Snacks By Tarla Dalal Text",
+      "location": "0.4,0.8,0.6,0.95,0.9"
+    }
+  ]
+}

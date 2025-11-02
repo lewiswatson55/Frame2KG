@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "towel1"
+    },
+    {
+      "predicate": "on",
+      "source": "towel1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bag1",
+      "target": "towel1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.35,0.15,0.65,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white textured",
+        "size": "large"
+      },
+      "id": "towel1",
+      "label": "paper towel",
+      "location": "0.30,0.30,0.70,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange patterned plastic",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "plastic bag",
+      "location": "0.00,0.00,0.40,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood grain",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "wooden table",
+      "location": "0.00,0.60,1.00,1.00,0.6"
+    }
+  ]
+}

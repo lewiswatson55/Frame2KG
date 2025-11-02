@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "object3"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand2",
+      "target": "object3"
+    },
+    {
+      "predicate": "on",
+      "source": "object3",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "scissors",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle_red",
+      "target": "object3"
+    },
+    {
+      "predicate": "behind",
+      "source": "bag_white",
+      "target": "object3"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "left hand",
+      "location": "0.45,0.1,0.98,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand2",
+      "label": "right hand",
+      "location": "0.0,0.4,0.5,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "object3",
+      "label": "plastic bottle cap",
+      "location": "0.3,0.3,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "large"
+      },
+      "id": "bottle_red",
+      "label": "red bottle",
+      "location": "0.0,0.2,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver blades black handles",
+        "size": "small"
+      },
+      "id": "scissors",
+      "label": "scissors",
+      "location": "0.75,0.5,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "bag_white",
+      "label": "plastic bag",
+      "location": "0.2,0.0,0.6,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark speckled granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

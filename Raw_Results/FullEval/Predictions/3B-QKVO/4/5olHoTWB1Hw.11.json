@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "bag1",
+      "target": "bag2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bag3",
+      "target": "bag4"
+    },
+    {
+      "predicate": "left_of",
+      "source": "box1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bag5",
+      "target": "bag4"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red plastic bag with yellow cheese image",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "Sharp Cheddar Bag",
+      "location": "0.05,0.05,0.60,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic bag with green lettuce image",
+        "size": "large"
+      },
+      "id": "bag2",
+      "label": "Tex-Mex Bag",
+      "location": "0.50,0.10,0.98,0.80,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white cardboard box with blue label",
+        "size": "small"
+      },
+      "id": "box1",
+      "label": "Butter Box",
+      "location": "0.20,0.70,0.45,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown paper bag with red text",
+        "size": "medium"
+      },
+      "id": "bag3",
+      "label": "Heritage Bag",
+      "location": "0.00,0.00,0.30,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic bag with white text",
+        "size": "medium"
+      },
+      "id": "bag4",
+      "label": "Cheese Bag",
+      "location": "0.30,0.00,0.60,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown paper bag with purple text",
+        "size": "medium"
+      },
+      "id": "bag5",
+      "label": "New Leaf Bag",
+      "location": "0.60,0.00,0.90,0.30,0.8"
+    }
+  ]
+}

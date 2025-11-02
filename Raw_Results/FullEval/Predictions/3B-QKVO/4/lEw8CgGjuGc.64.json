@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "salad1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "salad1",
+      "target": "background1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "large"
+      },
+      "id": "salad1",
+      "label": "Salad",
+      "location": "0.0,0.35,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.0,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blurred green foliage",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "Background foliage",
+      "location": "0.0,0.0,1.0,0.6,0.7"
+    }
+  ]
+}

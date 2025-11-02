@@ -1,0 +1,205 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fridge1",
+      "target": "window1"
+    },
+    {
+      "predicate": "behind",
+      "source": "plant1",
+      "target": "window1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "utensil_holder1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "fruit_basket1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "cabinet1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "above",
+      "source": "sign1",
+      "target": "fridge1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink shirt blue apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.45,0.05,0.75,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.35,0.60,0.45,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.25,0.55,0.45,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade yellow handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.05,0.50,0.20,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "medium"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.75,0.60,0.95,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.50,0.60,0.90,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.40,0.00,0.60,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottles",
+        "size": "small"
+      },
+      "id": "utensil_holder1",
+      "label": "utensil holder",
+      "location": "0.55,0.00,0.65,0.20,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.60,0.00,1.00,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow fabric",
+        "size": "medium"
+      },
+      "id": "curtain1",
+      "label": "curtains",
+      "location": "0.10,0.00,0.40,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "medium"
+      },
+      "id": "plant1",
+      "label": "potted plant",
+      "location": "0.00,0.00,0.20,0.50,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass window",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.10,0.00,0.40,0.60,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.00,0.50,1.00,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden basket with fruits",
+        "size": "small"
+      },
+      "id": "fruit_basket1",
+      "label": "fruit basket",
+      "location": "0.70,0.40,0.85,0.55,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black red white",
+        "size": "small"
+      },
+      "id": "sign1",
+      "label": "Master Chef sign",
+      "location": "0.75,0.00,0.95,0.20,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.00,0.00,1.00,1.00,0.8"
+    }
+  ]
+}

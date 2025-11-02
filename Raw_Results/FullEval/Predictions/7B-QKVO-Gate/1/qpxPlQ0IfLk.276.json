@@ -1,0 +1,173 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "cup1",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "utensils1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottles1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "logo1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "logo2",
+      "target": "logo1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "logo3",
+      "target": "logo2"
+    },
+    {
+      "predicate": "above",
+      "source": "logo4",
+      "target": "logo1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue red plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.5,0.1,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with green liquid",
+        "size": "small"
+      },
+      "id": "blender1",
+      "label": "blender jar",
+      "location": "0.45,0.6,0.57,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "plate of food",
+      "location": "0.0,0.7,0.3,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "cup1",
+      "label": "orange juice cup",
+      "location": "0.0,0.8,0.2,0.95,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden utensils",
+        "size": "medium"
+      },
+      "id": "utensils1",
+      "label": "cutting board",
+      "location": "0.3,0.4,0.6,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottles",
+        "size": "small"
+      },
+      "id": "bottles1",
+      "label": "bottles",
+      "location": "0.4,0.2,0.6,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black shelf with jars",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "kitchen shelf",
+      "location": "0.3,0.2,0.7,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey brick wall",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "brick wall",
+      "location": "0.0,0.0,1.0,0.5,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "teal graphic",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Hungry logo",
+      "location": "0.8,0.0,1.0,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "teal graphic",
+        "size": "small"
+      },
+      "id": "logo2",
+      "label": "Brothers Green logo",
+      "location": "0.0,0.0,0.2,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "teal graphic",
+        "size": "small"
+      },
+      "id": "logo3",
+      "label": "Eat My Vegan logo",
+      "location": "0.0,0.2,0.2,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "teal graphic",
+        "size": "small"
+      },
+      "id": "logo4",
+      "label": "Bites & Booze logo",
+      "location": "0.0,0.4,0.2,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey surface",
+        "size": "large"
+      },
+      "id": "counter",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.6"
+    }
+  ]
+}

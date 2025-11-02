@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand_left",
+      "target": "bowl"
+    },
+    {
+      "predicate": "in",
+      "source": "flour",
+      "target": "bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spatula",
+      "target": "bowl"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl",
+      "label": "glass bowl",
+      "location": "0.15,0.30,0.85,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "medium"
+      },
+      "id": "flour",
+      "label": "flour mixture",
+      "location": "0.20,0.40,0.80,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand_left",
+      "label": "left hand",
+      "location": "0.00,0.60,0.30,0.95,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand_right",
+      "label": "right hand",
+      "location": "0.60,0.00,1.00,0.30,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "spatula",
+      "label": "plastic spatula",
+      "location": "0.40,0.30,0.70,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark speckled surface",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.00,0.00,1.00,1.00,0.9"
+    }
+  ]
+}

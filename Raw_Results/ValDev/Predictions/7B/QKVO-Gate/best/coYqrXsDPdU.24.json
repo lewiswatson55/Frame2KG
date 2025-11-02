@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "liquid1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "on",
+      "source": "butter1",
+      "target": "liquid1"
+    },
+    {
+      "predicate": "on",
+      "source": "butter2",
+      "target": "liquid1"
+    },
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "liquid1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.05,0.0,0.95,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden yellow translucent",
+        "size": "medium"
+      },
+      "id": "liquid1",
+      "label": "liquid",
+      "location": "0.1,0.1,0.9,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "pale yellow solid",
+        "size": "small"
+      },
+      "id": "butter1",
+      "label": "butter cube",
+      "location": "0.05,0.6,0.3,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pale yellow solid",
+        "size": "small"
+      },
+      "id": "butter2",
+      "label": "butter cube",
+      "location": "0.4,0.2,0.6,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "wooden spatula",
+      "location": "0.3,0.1,0.7,0.5,0.8"
+    }
+  ]
+}

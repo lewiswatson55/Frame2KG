@@ -1,0 +1,164 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "cloth"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "window"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop",
+      "target": "plate1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop",
+      "target": "bottle_group"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet",
+      "target": "person2"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "oven",
+      "target": "cabinet"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt with graphic",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.47,0.05,0.96,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.10,0.65,0.40,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black cast iron",
+        "size": "large"
+      },
+      "id": "cast_iron_pan",
+      "label": "cast iron skillet",
+      "location": "0.20,0.75,0.60,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.00,0.60,1.00,1.00,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bowl with greens",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl of salad",
+      "location": "0.80,0.70,0.95,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with meat slices",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate of meat slices",
+      "location": "0.75,0.80,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "colorful bottles",
+        "size": "small"
+      },
+      "id": "bottle_group",
+      "label": "bottles on shelf",
+      "location": "0.75,0.00,1.00,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "kitchen cabinet",
+      "location": "0.60,0.00,1.00,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "oven",
+      "label": "built-in oven",
+      "location": "0.55,0.10,0.75,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "window",
+      "label": "glass window",
+      "location": "0.00,0.00,0.50,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue cloth",
+        "size": "small"
+      },
+      "id": "cloth",
+      "label": "cloth",
+      "location": "0.15,0.50,0.30,0.70,0.7"
+    }
+  ]
+}

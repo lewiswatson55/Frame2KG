@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "batter1"
+    },
+    {
+      "predicate": "on",
+      "source": "batter1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "medium"
+      },
+      "id": "batter1",
+      "label": "flour mixture",
+      "location": "0.05,0.1,0.95,0.8,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.0,0.3,0.6,0.7,0.8"
+    }
+  ]
+}

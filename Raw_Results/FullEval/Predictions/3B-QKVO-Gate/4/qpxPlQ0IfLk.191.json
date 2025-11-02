@@ -1,0 +1,191 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "mayo1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "mustard1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "tongs1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chair1",
+      "target": "table1"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf1",
+      "target": "person1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "shelf1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue red plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.05,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.30,0.40,0.45,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce",
+      "location": "0.55,0.60,0.70,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "mayo1",
+      "label": "mayonnaise bottle",
+      "location": "0.45,0.65,0.50,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "mustard1",
+      "label": "mustard bottle",
+      "location": "0.50,0.65,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "kitchen tongs",
+      "location": "0.45,0.75,0.60,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.75,0.75,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.00,0.60,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey brick",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "brick wall",
+      "location": "0.00,0.00,1.00,0.60,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden shelf",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.00,0.00,1.00,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal frame",
+        "size": "small"
+      },
+      "id": "frame1",
+      "label": "picture frame",
+      "location": "0.85,0.10,0.95,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "table1",
+      "label": "bar table",
+      "location": "0.05,0.30,0.25,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal frame",
+        "size": "small"
+      },
+      "id": "chair1",
+      "label": "bar stool",
+      "location": "0.15,0.35,0.25,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.75,0.75,1.00,1.00,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark green glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "oil bottle",
+      "location": "0.45,0.45,0.50,0.65,0.8"
+    }
+  ]
+}

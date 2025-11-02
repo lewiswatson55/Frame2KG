@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "fork1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall_art1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "vase1",
+      "target": "wall_art1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "dark hair red shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.0,0.6,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "fork1",
+      "label": "fork",
+      "location": "0.48,0.75,0.53,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame abstract art",
+        "size": "medium"
+      },
+      "id": "wall_art1",
+      "label": "abstract painting",
+      "location": "0.0,0.1,0.3,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "medium"
+      },
+      "id": "vase1",
+      "label": "ceramic vase",
+      "location": "0.75,0.4,0.95,0.9,0.8"
+    }
+  ]
+}

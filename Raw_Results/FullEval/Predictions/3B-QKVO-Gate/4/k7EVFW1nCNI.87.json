@@ -1,0 +1,145 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "tongs1"
+    },
+    {
+      "predicate": "on",
+      "source": "food_processor1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinets1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "microwave1",
+      "target": "cabinets1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sink1",
+      "target": "vase1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "dishwasher1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "stove1",
+      "target": "sink1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white lace top",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "microwave1",
+      "label": "microwave oven",
+      "location": "0.70,0.05,0.95,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "kitchen sink",
+      "location": "0.25,0.25,0.45,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with red roses",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "flower vase",
+      "location": "0.05,0.30,0.20,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "tongs",
+      "location": "0.45,0.20,0.60,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "food_processor1",
+      "label": "food processor",
+      "location": "0.60,0.60,0.80,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.70,0.45,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.30,0.75,0.70,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.00,0.40,1.00,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "large"
+      },
+      "id": "cabinets1",
+      "label": "kitchen cabinets",
+      "location": "0.00,0.00,1.00,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "dishwasher1",
+      "label": "dishwasher",
+      "location": "0.00,0.60,0.30,1.00,0.8"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "onion1",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "onion2",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "onion3",
+      "target": "board"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "knife",
+      "target": "onion1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "container1",
+      "target": "onion2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "container1",
+      "target": "onion3"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "purple skin white pith",
+        "size": "medium"
+      },
+      "id": "onion1",
+      "label": "red onion half",
+      "location": "0.45,0.15,0.78,0.60,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "purple skin white pith",
+        "size": "medium"
+      },
+      "id": "onion2",
+      "label": "red onion half",
+      "location": "0.55,0.35,0.85,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "purple skin white pith",
+        "size": "small"
+      },
+      "id": "onion3",
+      "label": "red onion slice",
+      "location": "0.60,0.60,0.80,0.80,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "container1",
+      "label": "glass container",
+      "location": "0.00,0.50,0.40,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade wood handle",
+        "size": "medium"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.00,0.70,0.60,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "cutting board",
+      "location": "0.00,0.30,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black red white logo",
+        "size": "small"
+      },
+      "id": "logo",
+      "label": "MasterChef logo",
+      "location": "0.80,0.05,0.95,0.25,0.9"
+    }
+  ]
+}

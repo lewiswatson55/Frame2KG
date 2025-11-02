@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spaghetti1"
+    },
+    {
+      "predicate": "in",
+      "source": "spaghetti1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown skin",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.45,0.0,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow pasta",
+        "size": "small"
+      },
+      "id": "spaghetti1",
+      "label": "Spaghetti",
+      "location": "0.3,0.3,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey speckled",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.8,1.0,1.0,0.7"
+    }
+  ]
+}

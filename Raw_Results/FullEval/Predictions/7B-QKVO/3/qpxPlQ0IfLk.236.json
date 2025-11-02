@@ -1,0 +1,127 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "cutting",
+      "source": "knife1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "lemon1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "behind",
+      "source": "jar1",
+      "target": "board1"
+    },
+    {
+      "predicate": "behind",
+      "source": "jar2",
+      "target": "board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "logo1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.58,0.03,0.97,0.46,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic blade black handle",
+        "size": "large"
+      },
+      "id": "knife1",
+      "label": "Knife",
+      "location": "0.30,0.20,0.80,0.50,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crust white interior",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "Bread Slice",
+      "location": "0.60,0.45,0.80,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.00,0.30,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow rind",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "Lemon Half",
+      "location": "0.20,0.05,0.40,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Small Bowl",
+      "location": "0.00,0.60,0.30,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass yellow label",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "Jar of Mustard",
+      "location": "0.00,0.00,0.20,0.20,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "jar2",
+      "label": "Green Jar",
+      "location": "0.40,0.00,0.60,0.20,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Logo",
+      "location": "0.00,0.00,0.20,0.15,0.8"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "flour1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "flour1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.35,0.25,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "large"
+      },
+      "id": "flour1",
+      "label": "flour",
+      "location": "0.1,0.4,0.9,0.98,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "raw pink",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "chicken piece",
+      "location": "0.6,0.2,0.9,0.5,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "orange floral pattern",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "decorative plate",
+      "location": "0.0,0.0,1.0,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "plastic bowl",
+      "location": "0.0,0.0,0.3,0.3,0.7"
+    }
+  ]
+}

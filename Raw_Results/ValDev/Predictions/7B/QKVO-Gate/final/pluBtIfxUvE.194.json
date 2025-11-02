@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "lobster1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in",
+      "source": "sauce1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Paper Plate",
+      "location": "0.05,0.05,0.68,0.94,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red meat",
+        "size": "medium"
+      },
+      "id": "lobster1",
+      "label": "Lobster Meat",
+      "location": "0.1,0.1,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.63,0.05,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow creamy",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "Sauce",
+      "location": "0.65,0.1,0.95,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.75,0.1,0.95,0.6,0.9"
+    }
+  ]
+}

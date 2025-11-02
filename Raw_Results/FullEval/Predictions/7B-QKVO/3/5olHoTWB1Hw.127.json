@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "hand1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "grate1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.45,0.0,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.1,0.3,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal blade",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "Knife",
+      "location": "0.0,0.5,0.2,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "Stove",
+      "location": "0.0,0.0,0.5,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic black",
+        "size": "medium"
+      },
+      "id": "grate1",
+      "label": "Grill Grate",
+      "location": "0.0,0.0,0.5,0.2,0.7"
+    }
+  ]
+}

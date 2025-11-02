@@ -1,0 +1,127 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "glass1"
+    },
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "holding",
+      "source": "person2",
+      "target": "glass2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "fridge1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "on",
+      "source": "can1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "behind",
+      "source": "fridge1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "fridge1",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt glasses",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black jacket braid hair",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.47,0.06,0.95,0.94,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.45,0.05,0.98,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.5,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass yellow liquid",
+        "size": "small"
+      },
+      "id": "glass1",
+      "label": "glass of drink",
+      "location": "0.05,0.75,0.25,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange fried",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "fried chicken piece",
+      "location": "0.45,0.75,0.55,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic white beverage",
+        "size": "small"
+      },
+      "id": "glass2",
+      "label": "plastic cup",
+      "location": "0.75,0.75,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow can",
+        "size": "small"
+      },
+      "id": "can1",
+      "label": "beverage can",
+      "location": "0.85,0.85,0.98,0.98,0.8"
+    }
+  ]
+}

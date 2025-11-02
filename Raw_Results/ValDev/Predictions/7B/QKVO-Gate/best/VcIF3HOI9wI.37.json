@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tomato1",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "lettuce1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce head",
+      "location": "0.15,0.05,0.85,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "large"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.45,0.0,1.0,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "red smooth",
+        "size": "small"
+      },
+      "id": "tomato1",
+      "label": "Tomato",
+      "location": "0.0,0.7,0.3,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pale yellow",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "Cheese wedge",
+      "location": "0.0,0.8,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting board",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    }
+  ]
+}

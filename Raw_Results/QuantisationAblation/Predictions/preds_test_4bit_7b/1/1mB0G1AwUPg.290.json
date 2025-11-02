@@ -1,0 +1,132 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "chalkboard"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "chalkboard"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "pot",
+      "target": "counter"
+    },
+    {
+      "predicate": "behind",
+      "source": "bread_rack",
+      "target": "person2"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "sign",
+      "target": "chalkboard"
+    },
+    {
+      "predicate": "left_of",
+      "source": "paper_towel_stack",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "mixing_bowl",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt,tattooed arms",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.0,0.48,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white sweater,long hair",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.47,0.0,0.96,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "bowl",
+      "label": "metal bowl",
+      "location": "0.3,0.6,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "pot",
+      "label": "cooking pot",
+      "location": "0.8,0.5,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "chalkboard",
+      "label": "chalkboard menu",
+      "location": "0.0,0.0,1.0,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden rack with bread loaves",
+        "size": "medium"
+      },
+      "id": "bread_rack",
+      "label": "bread rack",
+      "location": "0.5,0.2,1.0,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "small"
+      },
+      "id": "sign",
+      "label": "menu sign",
+      "location": "0.5,0.0,0.7,0.2,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "stack of white paper towels",
+        "size": "small"
+      },
+      "id": "paper_towel_stack",
+      "label": "paper towel stack",
+      "location": "0.0,0.6,0.1,0.9,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "mixing_bowl",
+      "label": "mixing bowl",
+      "location": "0.7,0.7,0.9,0.9,0.6"
+    }
+  ]
+}

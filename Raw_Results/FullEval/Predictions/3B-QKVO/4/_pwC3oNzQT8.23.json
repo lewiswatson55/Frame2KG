@@ -1,0 +1,103 @@
+{
+  "edges": [
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "hat1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cabinet1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black chef coat and black and white checkered hat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.53,0.04,0.98,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white tile with beige diamond pattern",
+        "size": "medium"
+      },
+      "id": "tile_wall1",
+      "label": "tiled wall",
+      "location": "0.0,0.0,0.5,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden frame",
+        "size": "small"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.3,0.0,0.6,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "beige countertop",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bowl with rice",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl of rice",
+      "location": "0.4,0.7,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal pot",
+        "size": "medium"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.0,0.8,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal stove top",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.8,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black and white checkered fabric",
+        "size": "small"
+      },
+      "id": "hat1",
+      "label": "chef hat",
+      "location": "0.55,0.0,0.85,0.25,0.9"
+    }
+  ]
+}

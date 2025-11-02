@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "onion1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "onion2",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "onion3",
+      "target": "board1"
+    },
+    {
+      "predicate": "in",
+      "source": "onion4",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl1",
+      "target": "onion1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "logo1",
+      "target": "onion1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink translucent",
+        "size": "medium"
+      },
+      "id": "onion1",
+      "label": "whole onion",
+      "location": "0.56,0.18,0.79,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white translucent",
+        "size": "small"
+      },
+      "id": "onion2",
+      "label": "sliced onion ring",
+      "location": "0.60,0.45,0.80,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white translucent",
+        "size": "small"
+      },
+      "id": "onion3",
+      "label": "sliced onion ring",
+      "location": "0.45,0.55,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink translucent",
+        "size": "small"
+      },
+      "id": "onion4",
+      "label": "chopped onions",
+      "location": "0.05,0.55,0.45,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.00,0.55,0.50,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver blade",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.40,0.75,0.90,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.00,0.30,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red black white graphic",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "MasterChef logo",
+      "location": "0.85,0.00,1.00,0.20,0.9"
+    }
+  ]
+}

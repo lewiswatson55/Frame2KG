@@ -1,0 +1,197 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "tongs1"
+    },
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "tongs1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "grill1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread1",
+      "target": "grill1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife1",
+      "target": "butter1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "butter1",
+      "target": "mustard1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "mustard1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf1",
+      "target": "person1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "pans1",
+      "target": "rack1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "brick_wall1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "blender1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "board1",
+      "target": "grill1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue red plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "tongs",
+      "location": "0.47,0.45,0.55,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "lettuce",
+      "location": "0.48,0.5,0.6,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "grill1",
+      "label": "grill",
+      "location": "0.4,0.7,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crust",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "baguette slices",
+      "location": "0.3,0.75,0.45,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.15,0.75,0.3,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic jar",
+        "size": "small"
+      },
+      "id": "mustard1",
+      "label": "mustard bottle",
+      "location": "0.05,0.7,0.1,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar",
+        "size": "small"
+      },
+      "id": "butter1",
+      "label": "butter container",
+      "location": "0.1,0.7,0.15,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "oil1",
+      "label": "oil bottle",
+      "location": "0.15,0.7,0.2,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.0,0.0,0.6,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "rack1",
+      "label": "pan rack",
+      "location": "0.5,0.0,0.8,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey brick",
+        "size": "large"
+      },
+      "id": "brick_wall1",
+      "label": "brick wall",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.0,0.5,0.2,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.7,0.75,0.9,0.9,0.7"
+    }
+  ]
+}

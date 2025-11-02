@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "cup1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "cup1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "liquid1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "whisk1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "spoon1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "whisk1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "maroon shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.45,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "cup1",
+      "label": "Measuring cup",
+      "location": "0.3,0.0,0.7,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white liquid",
+        "size": "small"
+      },
+      "id": "liquid1",
+      "label": "Liquid stream",
+      "location": "0.4,0.1,0.6,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "Mixing bowl",
+      "location": "0.3,0.2,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "whisk1",
+      "label": "Whisk",
+      "location": "0.0,0.5,0.3,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden handle",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Wooden spoon",
+      "location": "0.2,0.5,0.4,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting board",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "Kitchen cabinet",
+      "location": "0.0,0.0,0.5,0.5,0.8"
+    }
+  ]
+}

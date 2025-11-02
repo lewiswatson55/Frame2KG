@@ -1,0 +1,208 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "hand_tongs"
+    },
+    {
+      "predicate": "on",
+      "source": "vase_flowers",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "red_mug",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "white_cup",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "soap_bottle",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "sink",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "red_bowl",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "mugs",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "plate",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "stove",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "blender",
+      "target": "countertop"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "microwave",
+      "target": "cabinets"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinets"
+    },
+    {
+      "predicate": "next_to",
+      "source": "vase_flowers",
+      "target": "sink"
+    },
+    {
+      "predicate": "left_of",
+      "source": "red_mug",
+      "target": "red_bowl"
+    },
+    {
+      "predicate": "right_of",
+      "source": "mugs",
+      "target": "red_bowl"
+    },
+    {
+      "predicate": "above",
+      "source": "microwave",
+      "target": "stove"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light blue lace top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with red flowers",
+        "size": "small"
+      },
+      "id": "vase_flowers",
+      "label": "flower vase",
+      "location": "0.05,0.4,0.25,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "small"
+      },
+      "id": "red_mug",
+      "label": "coffee mug",
+      "location": "0.25,0.5,0.35,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "white_cup",
+      "label": "coffee cup",
+      "location": "0.35,0.5,0.45,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic with green liquid",
+        "size": "small"
+      },
+      "id": "soap_bottle",
+      "label": "soap bottle",
+      "location": "0.45,0.5,0.55,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "sink",
+      "label": "kitchen sink",
+      "location": "0.3,0.45,0.5,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "red_bowl",
+      "label": "bowl",
+      "location": "0.6,0.5,0.7,0.65,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stacked white ceramic",
+        "size": "small"
+      },
+      "id": "mugs",
+      "label": "coffee mugs",
+      "location": "0.7,0.5,0.8,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with food",
+        "size": "small"
+      },
+      "id": "plate",
+      "label": "plate",
+      "location": "0.8,0.55,0.9,0.65,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "stove",
+      "location": "0.7,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bowl with yellow mixture",
+        "size": "small"
+      },
+      "id": "blender",
+      "label": "mixer",
+      "location": "0.8,0.75,0.95,0.95,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "microwave",
+      "label": "microwave oven",
+      "location": "0.75,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "large"
+      },
+      "id": "cabinets",
+      "label": "kitchen cabinets",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "wine_glass_holder",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "on",
+      "source": "coffee_machine",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "poster1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fridge1",
+      "target": "door1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black jacket",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.05,0.4,0.98,0.97,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "wine_glass_holder",
+      "label": "wine glass holder",
+      "location": "0.1,0.2,0.3,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "coffee_machine",
+      "label": "coffee machine",
+      "location": "0.3,0.2,0.5,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "plastic bottle",
+      "location": "0.4,0.4,0.5,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "orange red",
+        "size": "large"
+      },
+      "id": "poster1",
+      "label": "food poster",
+      "location": "0.5,0.0,0.9,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.8,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white painted",
+        "size": "large"
+      },
+      "id": "door1",
+      "label": "door",
+      "location": "0.9,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden countertop",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.3,1.0,0.6,0.7"
+    }
+  ]
+}

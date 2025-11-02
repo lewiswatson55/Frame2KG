@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "tongs1",
+      "target": "grate1"
+    },
+    {
+      "predicate": "on",
+      "source": "grate1",
+      "target": "grill1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "grill1",
+      "label": "Grill",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "grate1",
+      "label": "Grill grate",
+      "location": "0.0,0.0,1.0,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "Tongs",
+      "location": "0.4,0.3,0.7,0.8,0.9"
+    }
+  ]
+}

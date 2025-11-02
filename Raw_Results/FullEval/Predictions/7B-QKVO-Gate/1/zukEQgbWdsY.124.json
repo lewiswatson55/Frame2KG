@@ -1,0 +1,278 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "pan2",
+      "target": "stove"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "window"
+    },
+    {
+      "predicate": "behind",
+      "source": "window",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "window",
+      "target": "person2"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "oven",
+      "target": "cabinet"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle_group",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "plate",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "meat",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "jar",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "canister",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "mixer",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "wine_bottle",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "glass",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "sink",
+      "target": "counter"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cutting_board",
+      "target": "pan1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "plate",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.65,0.0,0.98,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.05,0.7,0.45,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black cast iron",
+        "size": "medium"
+      },
+      "id": "pan2",
+      "label": "cast iron skillet",
+      "location": "0.3,0.75,0.7,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white glass",
+        "size": "small"
+      },
+      "id": "bowl",
+      "label": "bowl",
+      "location": "0.8,0.75,0.95,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.0,0.6,0.3,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "raw red meat slices",
+        "size": "small"
+      },
+      "id": "meat",
+      "label": "meat slices",
+      "location": "0.05,0.65,0.3,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "window",
+      "label": "sliding glass door",
+      "location": "0.0,0.0,0.6,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "kitchen cabinet",
+      "location": "0.7,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "oven",
+      "label": "oven",
+      "location": "0.7,0.2,0.9,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass bottles",
+        "size": "small"
+      },
+      "id": "bottle_group",
+      "label": "olive oil bottles",
+      "location": "0.85,0.0,0.98,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark grey",
+        "size": "small"
+      },
+      "id": "canister",
+      "label": "canister",
+      "location": "0.85,0.2,0.9,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "small"
+      },
+      "id": "mixer",
+      "label": "stand mixer",
+      "location": "0.8,0.2,0.9,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark glass",
+        "size": "small"
+      },
+      "id": "wine_bottle",
+      "label": "wine bottle",
+      "location": "0.9,0.3,0.95,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.3,0.5,0.4,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text",
+        "size": "small"
+      },
+      "id": "logo",
+      "label": "TASTED logo",
+      "location": "0.85,0.8,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey stone",
+        "size": "large"
+      },
+      "id": "counter",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "sink",
+      "label": "sink",
+      "location": "0.8,0.6,0.9,0.7,0.7"
+    }
+  ]
+}

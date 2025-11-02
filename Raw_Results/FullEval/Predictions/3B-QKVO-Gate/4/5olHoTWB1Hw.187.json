@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "basket1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "basket1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic with black rim",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.15,0.30,0.85,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange shredded cheese",
+        "size": "medium"
+      },
+      "id": "cheese1",
+      "label": "shredded cheese",
+      "location": "0.40,0.40,0.75,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal spatula with red handle",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.60,0.00,1.00,0.30,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "skin-toned hand",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.80,0.00,1.00,0.20,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic basket with yellow contents",
+        "size": "medium"
+      },
+      "id": "basket1",
+      "label": "basket",
+      "location": "0.00,0.00,0.30,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden countertop",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.00,0.70,1.00,1.00,0.9"
+    }
+  ]
+}

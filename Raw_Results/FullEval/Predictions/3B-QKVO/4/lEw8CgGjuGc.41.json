@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "mixture1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in",
+      "source": "cheese1",
+      "target": "mixture1"
+    },
+    {
+      "predicate": "in",
+      "source": "meat1",
+      "target": "mixture1"
+    },
+    {
+      "predicate": "includes",
+      "source": "board1",
+      "target": "mixture1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "wooden cutting board",
+      "location": "0.0,0.65,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white crumbly",
+        "size": "medium"
+      },
+      "id": "mixture1",
+      "label": "ground mixture",
+      "location": "0.0,0.3,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white crumbly",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "cheese crumbs",
+      "location": "0.4,0.4,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pinkish-red minced",
+        "size": "small"
+      },
+      "id": "meat1",
+      "label": "minced meat",
+      "location": "0.0,0.0,0.5,0.3,0.8"
+    }
+  ]
+}

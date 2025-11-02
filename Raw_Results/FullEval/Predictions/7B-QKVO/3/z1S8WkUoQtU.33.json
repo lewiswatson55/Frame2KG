@@ -1,0 +1,66 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.35,0.0,0.98,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.45,0.05,0.95,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.45,0.0,0.95,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl2",
+      "label": "Glass Bowl",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table",
+      "location": "0.0,0.0,1.0,0.5,0.6"
+    }
+  ]
+}

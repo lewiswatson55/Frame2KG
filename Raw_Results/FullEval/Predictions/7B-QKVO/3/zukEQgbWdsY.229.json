@@ -1,0 +1,117 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "fork1"
+    },
+    {
+      "predicate": "on",
+      "source": "fork1",
+      "target": "avocado1"
+    },
+    {
+      "predicate": "on",
+      "source": "avocado1",
+      "target": "toast1"
+    },
+    {
+      "predicate": "on",
+      "source": "toast1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "toast2",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "hands",
+      "location": "0.35,0.0,0.65,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "fork1",
+      "label": "fork",
+      "location": "0.48,0.15,0.57,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green creamy",
+        "size": "small"
+      },
+      "id": "avocado1",
+      "label": "avocado spread",
+      "location": "0.55,0.35,0.65,0.45,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread",
+        "size": "small"
+      },
+      "id": "toast1",
+      "label": "toasted bread slice",
+      "location": "0.45,0.45,0.65,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread",
+        "size": "small"
+      },
+      "id": "toast2",
+      "label": "toasted bread slice",
+      "location": "0.55,0.35,0.75,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.3,0.4,0.8,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl of red pepper slices",
+      "location": "0.0,0.6,0.2,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate of red pepper slices",
+      "location": "0.0,0.5,0.2,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "device1",
+      "label": "kitchen appliance",
+      "location": "0.4,0.0,0.8,0.3,0.8"
+    }
+  ]
+}

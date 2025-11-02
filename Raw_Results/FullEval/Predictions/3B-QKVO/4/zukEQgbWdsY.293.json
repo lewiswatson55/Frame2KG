@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "avocado1",
+      "target": "banner"
+    },
+    {
+      "predicate": "on",
+      "source": "grapes1",
+      "target": "banner"
+    },
+    {
+      "predicate": "left_of",
+      "source": "snake1",
+      "target": "drink1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "woman1",
+      "target": "man1"
+    },
+    {
+      "predicate": "above",
+      "source": "text1",
+      "target": "woman1"
+    },
+    {
+      "predicate": "below",
+      "source": "text2",
+      "target": "man1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "grapes1",
+      "target": "man1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown skin",
+        "size": "medium"
+      },
+      "id": "snake1",
+      "label": "snake head",
+      "location": "0.05,0.05,0.35,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red wine glass with bacon garnish",
+        "size": "small"
+      },
+      "id": "drink1",
+      "label": "wine cocktail",
+      "location": "0.45,0.05,0.75,0.35,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "green half",
+        "size": "small"
+      },
+      "id": "avocado1",
+      "label": "avocado slice",
+      "location": "0.75,0.05,0.95,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple grapes",
+        "size": "small"
+      },
+      "id": "grapes1",
+      "label": "grape cluster",
+      "location": "0.65,0.6,0.85,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blackboard background",
+        "size": "large"
+      },
+      "id": "banner",
+      "label": "chalkboard banner",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "medium"
+      },
+      "id": "woman1",
+      "label": "woman face",
+      "location": "0.05,0.5,0.35,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "medium"
+      },
+      "id": "man1",
+      "label": "man cooking",
+      "location": "0.45,0.5,0.75,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow text",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "TASTED",
+      "location": "0.2,0.3,0.5,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red text",
+        "size": "small"
+      },
+      "id": "text2",
+      "label": "SUBSCRIBE",
+      "location": "0.5,0.3,0.7,0.45,0.8"
+    }
+  ]
+}

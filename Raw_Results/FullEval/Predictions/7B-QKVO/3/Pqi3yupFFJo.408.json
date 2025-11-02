@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in",
+      "source": "sour_cream1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "behind",
+      "source": "window1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.35,0.48,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Small Bowl",
+      "location": "0.45,0.55,0.60,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white tub red lid",
+        "size": "medium"
+      },
+      "id": "sour_cream1",
+      "label": "Sour Cream Tub",
+      "location": "0.40,0.20,0.60,0.50,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown glass",
+        "size": "medium"
+      },
+      "id": "jar1",
+      "label": "Jar of Sauce",
+      "location": "0.65,0.10,0.85,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood frame",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "Window",
+      "location": "0.00,0.00,1.00,0.20,0.7"
+    }
+  ]
+}

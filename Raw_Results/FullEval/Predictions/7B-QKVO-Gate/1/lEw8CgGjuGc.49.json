@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl2",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl3",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.45,0.0,0.98,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.3,0.3,0.7,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "glass bowl",
+      "location": "0.0,0.2,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl3",
+      "label": "glass bowl",
+      "location": "0.7,0.2,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood grain",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "wooden table",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    }
+  ]
+}

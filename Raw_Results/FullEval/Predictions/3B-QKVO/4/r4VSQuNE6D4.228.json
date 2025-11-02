@@ -1,0 +1,145 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "bottle1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plant1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "window_left1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "window_right1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "grey t-shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.45,0.05,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "sauce bottle",
+      "location": "0.53,0.37,0.68,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.25,0.0,0.55,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "kitchen table",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "decorative bowl",
+      "location": "0.15,0.55,0.45,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green foliage red flowers",
+        "size": "medium"
+      },
+      "id": "plant1",
+      "label": "decorative plant",
+      "location": "0.25,0.1,0.5,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plate with pancakes",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "plate of pancakes",
+      "location": "0.6,0.6,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "fork1",
+      "label": "fork",
+      "location": "0.45,0.7,0.55,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.4,0.7,0.5,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame glass",
+        "size": "large"
+      },
+      "id": "window_left1",
+      "label": "window",
+      "location": "0.0,0.0,0.25,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame glass",
+        "size": "large"
+      },
+      "id": "window_right1",
+      "label": "window",
+      "location": "0.75,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

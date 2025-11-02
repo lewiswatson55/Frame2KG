@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "onion1"
+    },
+    {
+      "predicate": "cutting",
+      "source": "knife1",
+      "target": "onion1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "onion1",
+      "target": "onion_slice1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink purple",
+        "size": "small"
+      },
+      "id": "onion1",
+      "label": "red onion slice",
+      "location": "0.45,0.2,0.75,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "knife1",
+      "label": "knife blade",
+      "location": "0.5,0.2,1.0,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink purple",
+        "size": "small"
+      },
+      "id": "onion_slice1",
+      "label": "red onion slice",
+      "location": "0.0,0.7,0.4,1.0,0.8"
+    }
+  ]
+}

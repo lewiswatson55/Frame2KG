@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle2",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "mustard_bottle",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "rice_bowl",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "lemon",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "avocado",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "knife",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "board",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "towel",
+      "target": "table"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "bottle2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "mustard_bottle",
+      "target": "rice_bowl"
+    },
+    {
+      "predicate": "right_of",
+      "source": "rice_bowl",
+      "target": "mustard_bottle"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "lemon",
+      "target": "rice_bowl"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "avocado",
+      "target": "rice_bowl"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "bottle1",
+      "label": "olive oil bottle",
+      "location": "0.65,0.05,0.78,0.9,0.9"
+    },
+    {
+      "id": "bottle2",
+      "label": "green glass bottle",
+      "location": "0.48,0.05,0.63,0.9,0.9"
+    },
+    {
+      "id": "mustard_bottle",
+      "label": "Dijon mustard bottle",
+      "location": "0.35,0.2,0.45,0.8,0.9"
+    },
+    {
+      "id": "rice_bowl",
+      "label": "glass bowl of rice",
+      "location": "0.45,0.5,0.55,0.75,0.9"
+    },
+    {
+      "id": "lemon",
+      "label": "yellow lemon",
+      "location": "0.55,0.6,0.65,0.75,0.9"
+    },
+    {
+      "id": "avocado",
+      "label": "black avocado",
+      "location": "0.65,0.6,0.75,0.75,0.9"
+    },
+    {
+      "id": "knife",
+      "label": "metal knife",
+      "location": "0.0,0.7,0.4,0.9,0.9"
+    },
+    {
+      "id": "spatula",
+      "label": "wooden spatula",
+      "location": "0.0,0.75,0.4,0.95,0.9"
+    },
+    {
+      "id": "board",
+      "label": "cutting board",
+      "location": "0.0,0.7,0.4,0.9,0.9"
+    },
+    {
+      "id": "towel",
+      "label": "white cloth towel",
+      "location": "0.75,0.6,0.95,0.9,0.9"
+    },
+    {
+      "id": "table",
+      "label": "dark wooden table",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

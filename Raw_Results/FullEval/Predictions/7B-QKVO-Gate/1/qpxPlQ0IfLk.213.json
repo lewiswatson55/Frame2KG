@@ -1,0 +1,216 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "tongs1"
+    },
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "tongs1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "grill1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread1",
+      "target": "grill1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "lemon1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "spice_rack1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "pan1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "behind",
+      "source": "stool1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "stool1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue red plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.0,0.65,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.47,0.45,0.55,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "tongs",
+      "location": "0.45,0.4,0.55,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "grill1",
+      "label": "gas grill",
+      "location": "0.4,0.6,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crust",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "bread slice",
+      "location": "0.7,0.75,0.85,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.7,0.7,0.9,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver blade black handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.2,0.7,0.3,0.8,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "bottles",
+      "location": "0.0,0.6,0.2,0.9,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic green liquid",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.0,0.5,0.2,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "lemon",
+      "location": "0.15,0.7,0.2,0.8,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jars multicolored",
+        "size": "small"
+      },
+      "id": "spice_rack1",
+      "label": "spice rack",
+      "location": "0.2,0.2,0.4,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.0,0.0,0.6,0.3,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "grey brick",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "brick wall",
+      "location": "0.0,0.0,1.0,1.0,0.5"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "hanging pan",
+      "location": "0.5,0.0,0.8,0.2,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "small"
+      },
+      "id": "stool1",
+      "label": "bar stool",
+      "location": "0.2,0.3,0.3,0.6,0.6"
+    }
+  ]
+}

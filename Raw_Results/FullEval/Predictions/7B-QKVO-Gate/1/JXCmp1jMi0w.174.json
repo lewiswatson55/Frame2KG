@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "whisk1"
+    },
+    {
+      "predicate": "on",
+      "source": "bag1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "table1"
+    },
+    {
+      "predicate": "in",
+      "source": "dough1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bag1",
+      "target": "tray1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green white striped shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.0,0.0,0.5,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "whisk1",
+      "label": "whisk",
+      "location": "0.3,0.0,0.6,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown paper with red logo",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "paper bag",
+      "location": "0.5,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "baking tray",
+      "location": "0.0,0.6,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white flour-coated",
+        "size": "small"
+      },
+      "id": "dough1",
+      "label": "dough pieces",
+      "location": "0.05,0.65,0.55,0.85,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.8,1.0,1.0,0.7"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread2",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread3",
+      "target": "bread1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bread4",
+      "target": "bread1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bread5",
+      "target": "bread1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.45,0.0,0.65,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "Bottle",
+      "location": "0.57,0.0,0.63,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown toasted",
+        "size": "medium"
+      },
+      "id": "bread1",
+      "label": "Bread Slice",
+      "location": "0.35,0.5,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white spread with yellow drizzle",
+        "size": "medium"
+      },
+      "id": "bread2",
+      "label": "Bread Slice",
+      "location": "0.25,0.45,0.55,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "bread3",
+      "label": "Bread Slice",
+      "location": "0.05,0.4,0.25,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white spread with yellow drizzle",
+        "size": "small"
+      },
+      "id": "bread4",
+      "label": "Bread Slice",
+      "location": "0.2,0.35,0.4,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread",
+        "size": "small"
+      },
+      "id": "bread5",
+      "label": "Bread Slice",
+      "location": "0.6,0.45,0.8,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "sauce1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "logo1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.05,0.3,0.98,0.97,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce",
+      "location": "0.05,0.4,0.6,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white grilled",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "Grilled Chicken",
+      "location": "0.2,0.45,0.9,0.9,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "creamy green",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "Sauce Drizzle",
+      "location": "0.2,0.4,0.9,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "crispy brown",
+        "size": "small"
+      },
+      "id": "bacon1",
+      "label": "Bacon Bits",
+      "location": "0.1,0.5,0.3,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "Oil Bottle",
+      "location": "0.5,0.0,0.7,0.5,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Logo",
+      "location": "0.0,0.0,0.2,0.15,0.8"
+    }
+  ]
+}

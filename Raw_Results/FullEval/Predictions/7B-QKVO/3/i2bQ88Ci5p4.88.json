@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "rack1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.35,0.05,0.65,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "Bowl of Flour",
+      "location": "0.2,0.1,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "raw pinkish",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "Chicken Piece",
+      "location": "0.4,0.3,0.6,0.5,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "black speckled",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.6,0.7,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "rack1",
+      "label": "Cooling Rack",
+      "location": "0.8,0.0,1.0,0.5,0.7"
+    }
+  ]
+}

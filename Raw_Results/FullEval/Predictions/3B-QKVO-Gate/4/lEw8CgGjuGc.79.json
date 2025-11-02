@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "knob1"
+    },
+    {
+      "predicate": "on",
+      "source": "text_outdoor_use_only",
+      "target": "panel1"
+    },
+    {
+      "predicate": "on",
+      "source": "text_ignition_burner",
+      "target": "panel1"
+    },
+    {
+      "predicate": "on",
+      "source": "text_high",
+      "target": "knob1"
+    },
+    {
+      "predicate": "on",
+      "source": "text_low",
+      "target": "knob1"
+    },
+    {
+      "predicate": "on",
+      "source": "icon_flame",
+      "target": "knob1"
+    },
+    {
+      "predicate": "on",
+      "source": "icon_water",
+      "target": "knob1"
+    },
+    {
+      "predicate": "on",
+      "source": "icon_lightning",
+      "target": "knob1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "large"
+      },
+      "id": "panel1",
+      "label": "control panel",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "knob1",
+      "label": "knob",
+      "location": "0.35,0.2,0.65,0.7,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.75,0.4,1.0,0.8,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "small"
+      },
+      "id": "text_outdoor_use_only",
+      "label": "outdoor use only text",
+      "location": "0.0,0.0,0.4,0.2,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "small"
+      },
+      "id": "text_ignition_burner",
+      "label": "ignition burner text",
+      "location": "0.4,0.0,0.8,0.15,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "small"
+      },
+      "id": "text_high",
+      "label": "high text",
+      "location": "0.35,0.45,0.5,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "small"
+      },
+      "id": "text_low",
+      "label": "low text",
+      "location": "0.35,0.6,0.5,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white icon",
+        "size": "small"
+      },
+      "id": "icon_flame",
+      "label": "flame icon",
+      "location": "0.55,0.15,0.6,0.2,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white icon",
+        "size": "small"
+      },
+      "id": "icon_water",
+      "label": "water droplet icon",
+      "location": "0.2,0.45,0.3,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white icon",
+        "size": "small"
+      },
+      "id": "icon_lightning",
+      "label": "lightning bolt icon",
+      "location": "0.65,0.05,0.75,0.15,0.9"
+    }
+  ]
+}

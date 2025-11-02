@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "food1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "in",
+      "source": "basket1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "on",
+      "source": "basket1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "in",
+      "source": "oil1",
+      "target": "tray1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown bubbly",
+        "size": "medium"
+      },
+      "id": "food1",
+      "label": "fried food pieces",
+      "location": "0.15,0.3,0.85,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "bubbling golden yellow",
+        "size": "large"
+      },
+      "id": "oil1",
+      "label": "hot oil",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal mesh",
+        "size": "medium"
+      },
+      "id": "basket1",
+      "label": "metal basket",
+      "location": "0.0,0.6,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "deep fryer tray",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

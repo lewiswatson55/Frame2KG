@@ -1,0 +1,127 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "blender1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "plate1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "behind",
+      "source": "framed_art1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "framed_art2",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.05,0.75,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red silicone head",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.45,0.6,0.65,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.6,0.6,0.9,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.2,0.5,0.3,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with green olives",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.3,0.75,0.4,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic with red tomatoes and lettuce",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate of vegetables",
+      "location": "0.7,0.75,0.9,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey stone",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "kitchen countertop",
+      "location": "0.0,0.4,1.0,0.6,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame with pink graffiti",
+        "size": "medium"
+      },
+      "id": "framed_art1",
+      "label": "framed art",
+      "location": "0.6,0.0,0.8,0.3,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame with colorful abstract",
+        "size": "medium"
+      },
+      "id": "framed_art2",
+      "label": "framed art",
+      "location": "0.8,0.0,1.0,0.3,0.6"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "pancake_stack"
+    },
+    {
+      "predicate": "on",
+      "source": "url_text",
+      "target": "pancake_stack"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "large"
+      },
+      "id": "pancake_stack",
+      "label": "stack of pancakes",
+      "location": "0.0,0.35,1.0,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on blue background",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "overlay text",
+      "location": "0.0,0.0,1.0,0.4,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "small"
+      },
+      "id": "url_text",
+      "label": "URL text",
+      "location": "0.0,0.4,1.0,0.6,0.95"
+    }
+  ]
+}

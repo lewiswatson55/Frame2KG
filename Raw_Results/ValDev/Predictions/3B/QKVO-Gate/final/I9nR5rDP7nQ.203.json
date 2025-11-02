@@ -1,0 +1,206 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife_block1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "fruit_bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "salt_shaker1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper_shaker1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_stack1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fridge1",
+      "target": "oven1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "microwave1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "above",
+      "source": "shelf1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "utensil_rack1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "oven1",
+      "target": "fridge1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt black apron",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.1,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.75,0.1,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "oven1",
+      "label": "oven",
+      "location": "0.75,0.4,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver stainless steel",
+        "size": "small"
+      },
+      "id": "microwave1",
+      "label": "microwave",
+      "location": "0.75,0.2,0.95,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "kitchen countertop",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.3,0.7,0.5,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade wooden handle",
+        "size": "small"
+      },
+      "id": "knife_block1",
+      "label": "knife block",
+      "location": "0.45,0.7,0.55,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue ceramic",
+        "size": "small"
+      },
+      "id": "salt_shaker1",
+      "label": "salt shaker",
+      "location": "0.6,0.75,0.65,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue ceramic",
+        "size": "small"
+      },
+      "id": "pepper_shaker1",
+      "label": "pepper shaker",
+      "location": "0.65,0.75,0.7,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate_stack1",
+      "label": "stack of plates",
+      "location": "0.8,0.7,0.95,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "mixed fruits",
+        "size": "small"
+      },
+      "id": "fruit_bowl1",
+      "label": "fruit bowl",
+      "location": "0.5,0.75,0.7,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.45,0.45,0.55,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.0,0.4,0.4,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal rack with utensils",
+        "size": "medium"
+      },
+      "id": "utensil_rack1",
+      "label": "utensil rack",
+      "location": "0.0,0.0,0.4,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jars on shelf",
+        "size": "small"
+      },
+      "id": "shelf1",
+      "label": "wall shelf",
+      "location": "0.2,0.0,0.8,0.2,0.9"
+    }
+  ]
+}

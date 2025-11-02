@@ -1,0 +1,178 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "ladle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "spoon1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula2",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "dishwasher1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "purple top white apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.45,0.35,0.8,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black handle metal blade",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.45,0.25,0.6,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "wooden spoon",
+      "location": "0.3,0.6,0.4,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal black",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.4,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "ladle1",
+      "label": "ladle",
+      "location": "0.15,0.6,0.25,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.3,0.5,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "bowl2",
+      "label": "wooden bowl",
+      "location": "0.75,0.5,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "spatula2",
+      "label": "slotted spatula",
+      "location": "0.65,0.5,0.75,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.0,0.3,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "dishwasher1",
+      "label": "dishwasher",
+      "location": "0.7,0.0,1.0,0.5,0.7"
+    }
+  ]
+}

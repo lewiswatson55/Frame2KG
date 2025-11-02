@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "play_icon",
+      "target": "text1"
+    },
+    {
+      "predicate": "below",
+      "source": "text2",
+      "target": "text1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green bold",
+        "size": "large"
+      },
+      "id": "text1",
+      "label": "howdini text",
+      "location": "0.05,0.3,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white triangle on green circle",
+        "size": "small"
+      },
+      "id": "play_icon",
+      "label": "play icon",
+      "location": "0.47,0.45,0.53,0.52,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey small font",
+        "size": "medium"
+      },
+      "id": "text2",
+      "label": "website URL",
+      "location": "0.2,0.65,0.8,0.75,0.8"
+    }
+  ]
+}

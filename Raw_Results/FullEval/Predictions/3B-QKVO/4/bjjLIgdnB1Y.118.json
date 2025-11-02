@@ -1,0 +1,202 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "on",
+      "source": "can1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "griddle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "mixer1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "stand_mixer1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "cake_stand1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "window1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "sink1",
+      "target": "window1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown hair, green top, black apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.15,0.0,0.45,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic with white liquid",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "measuring cup",
+      "location": "0.3,0.4,0.4,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow liquid",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.25,0.6,0.45,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "medium"
+      },
+      "id": "bowl2",
+      "label": "mixing bowl",
+      "location": "0.45,0.6,0.65,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "griddle1",
+      "label": "griddle",
+      "location": "0.6,0.6,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black motor silver body",
+        "size": "medium"
+      },
+      "id": "mixer1",
+      "label": "stand mixer",
+      "location": "0.55,0.2,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "stand_mixer1",
+      "label": "stand mixer",
+      "location": "0.65,0.2,0.75,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden stand with cake",
+        "size": "small"
+      },
+      "id": "cake_stand1",
+      "label": "cake stand",
+      "location": "0.75,0.1,0.85,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade on granite countertop",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.8,0.5,0.9,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.2,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinets",
+      "location": "0.4,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass window with blinds",
+        "size": "medium"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.8,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "granite countertop",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel sink",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.75,0.4,1.0,0.6,0.8"
+    }
+  ]
+}

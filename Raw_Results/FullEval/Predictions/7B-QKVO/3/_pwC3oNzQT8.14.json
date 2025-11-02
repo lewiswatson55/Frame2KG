@@ -1,0 +1,127 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "toilet_paper_holder",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "toilet_paper_holder",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "stove1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "behind",
+      "source": "tile_wall",
+      "target": "countertop"
+    },
+    {
+      "predicate": "right_of",
+      "source": "text_overlay",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black chef coat and checkered hat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.53,0.04,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic tiles",
+        "size": "medium"
+      },
+      "id": "tile_wall",
+      "label": "wall tiles",
+      "location": "0.0,0.0,0.5,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.5,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white marble",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass bowl with food",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.35,0.6,0.55,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.1,0.75,0.4,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black stove top",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.7,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "toilet_paper_holder",
+      "label": "toilet paper holder",
+      "location": "0.5,0.1,0.6,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey text",
+        "size": "medium"
+      },
+      "id": "text_overlay",
+      "label": "watermark text",
+      "location": "0.5,0.7,1.0,1.0,0.9"
+    }
+  ]
+}

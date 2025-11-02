@@ -1,0 +1,56 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "pepper_mill"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato_slices",
+      "target": "lettuce"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce",
+      "target": "bread"
+    },
+    {
+      "predicate": "on",
+      "source": "bread",
+      "target": "cutting_board"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "person1",
+      "label": "Person",
+      "location": "0.45,0.0,1.0,0.6,0.9"
+    },
+    {
+      "id": "pepper_mill",
+      "label": "Pepper Mill",
+      "location": "0.6,0.0,0.8,0.3,0.8"
+    },
+    {
+      "id": "tomato_slices",
+      "label": "Tomato Slices",
+      "location": "0.5,0.4,0.7,0.6,0.9"
+    },
+    {
+      "id": "lettuce",
+      "label": "Lettuce Leaves",
+      "location": "0.45,0.45,0.75,0.65,0.9"
+    },
+    {
+      "id": "bread",
+      "label": "Bread Slice",
+      "location": "0.45,0.45,0.75,0.65,0.9"
+    },
+    {
+      "id": "cutting_board",
+      "label": "Cutting Board",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    }
+  ]
+}

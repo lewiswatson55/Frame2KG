@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in",
+      "source": "patty1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "supports",
+      "source": "stove1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.0,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black non-stick",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "Frying Pan",
+      "location": "0.1,0.4,0.8,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red raw meat",
+        "size": "small"
+      },
+      "id": "patty1",
+      "label": "Raw Patty",
+      "location": "0.35,0.55,0.65,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "Spatula",
+      "location": "0.6,0.4,1.0,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "Stovetop Burner",
+      "location": "0.2,0.75,0.8,1.0,0.9"
+    }
+  ]
+}

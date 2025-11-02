@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "bowl_flour"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_flour",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_white",
+      "target": "bowl_flour"
+    },
+    {
+      "predicate": "behind",
+      "source": "tray_bread",
+      "target": "bowl_flour"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "bowl_flour",
+      "label": "mixing bowl",
+      "location": "0.35,0.25,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.45,0.0,0.65,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "raw chicken piece",
+      "location": "0.55,0.25,0.75,0.45,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl_white",
+      "label": "empty bowl",
+      "location": "0.45,0.75,0.98,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "tray_bread",
+      "label": "bread tray",
+      "location": "0.0,0.0,0.5,0.3,0.7"
+    }
+  ]
+}

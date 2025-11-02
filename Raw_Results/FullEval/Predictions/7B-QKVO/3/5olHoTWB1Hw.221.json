@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "fork1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "on",
+      "source": "dish1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "behind",
+      "source": "stove1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "mixer1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bag1",
+      "target": "dish1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow cheesy pasta with chicken pieces",
+        "size": "large"
+      },
+      "id": "dish1",
+      "label": "casserole dish",
+      "location": "0.05,0.3,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "fork1",
+      "label": "spatula",
+      "location": "0.45,0.1,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "sauce bottle",
+      "location": "0.8,0.0,0.95,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.0,0.0,0.3,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "mixer1",
+      "label": "stand mixer",
+      "location": "0.2,0.0,0.4,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper bag",
+        "size": "small"
+      },
+      "id": "bag1",
+      "label": "paper bag",
+      "location": "0.8,0.2,0.98,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.7,1.0,1.0,0.6"
+    }
+  ]
+}

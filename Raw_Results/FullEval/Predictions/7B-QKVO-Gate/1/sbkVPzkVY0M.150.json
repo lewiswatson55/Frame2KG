@@ -1,0 +1,234 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "hotplate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "hotplate1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "fruit_bowl1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper_grinder1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper_grinder2",
+      "target": "counter1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "framed_art1",
+      "target": "framed_art2"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf1",
+      "target": "person1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "counter1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.24,0.55,0.35,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "hotplate1",
+      "label": "hot plate",
+      "location": "0.6,0.65,0.75,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black non-stick",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.65,0.6,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce",
+      "location": "0.75,0.75,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red sliced",
+        "size": "small"
+      },
+      "id": "tomato1",
+      "label": "tomato slices",
+      "location": "0.8,0.75,0.95,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white block",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "cheese",
+      "location": "0.6,0.75,0.65,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown glass",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "spice jar",
+      "location": "0.1,0.75,0.15,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.15,0.75,0.25,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "fruit_bowl1",
+      "label": "basket of limes",
+      "location": "0.0,0.5,0.2,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "pepper_grinder1",
+      "label": "pepper grinder",
+      "location": "0.9,0.55,0.95,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "pepper_grinder2",
+      "label": "pepper grinder",
+      "location": "0.95,0.55,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver frame",
+        "size": "medium"
+      },
+      "id": "framed_art1",
+      "label": "framed art",
+      "location": "0.0,0.3,0.2,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver frame",
+        "size": "medium"
+      },
+      "id": "framed_art2",
+      "label": "framed art",
+      "location": "0.8,0.2,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "fruit shelf",
+      "location": "0.4,0.2,0.6,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "kitchen table",
+      "location": "0.0,0.7,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey stone",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.4,1.0,0.7,0.9"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "avocado1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "lemon1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "avocado1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "salt_bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "behind",
+      "source": "jar1",
+      "target": "board1"
+    },
+    {
+      "predicate": "behind",
+      "source": "can1",
+      "target": "board1"
+    },
+    {
+      "predicate": "behind",
+      "source": "bottle1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.58,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black handle metal blade",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "Knife",
+      "location": "0.35,0.15,0.75,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark green",
+        "size": "small"
+      },
+      "id": "avocado1",
+      "label": "Avocado Halves",
+      "location": "0.3,0.6,0.6,0.85,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow rind",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "Lemon Half",
+      "location": "0.45,0.5,0.55,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "salt_bowl1",
+      "label": "Salt Bowl",
+      "location": "0.0,0.75,0.2,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar white contents",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Bowl of Cheese",
+      "location": "0.2,0.4,0.35,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue yellow label",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "Jar of Mustard",
+      "location": "0.3,0.0,0.4,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver blue label",
+        "size": "small"
+      },
+      "id": "can1",
+      "label": "Can of Olive Oil",
+      "location": "0.4,0.0,0.5,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "Glass Bottle",
+      "location": "0.0,0.0,0.2,0.4,0.8"
+    }
+  ]
+}

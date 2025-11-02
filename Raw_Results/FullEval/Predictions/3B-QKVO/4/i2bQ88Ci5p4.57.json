@@ -1,0 +1,66 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "butter1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.58,0.37,0.96,0.84,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow creamy",
+        "size": "small"
+      },
+      "id": "butter1",
+      "label": "Butter block",
+      "location": "0.45,0.15,0.85,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "Cooking pot",
+      "location": "0.15,0.55,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "Stovetop",
+      "location": "0.0,0.0,0.5,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.5,0.0,1.0,0.6,0.7"
+    }
+  ]
+}

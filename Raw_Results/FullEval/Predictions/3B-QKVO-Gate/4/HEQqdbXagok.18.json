@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken_wings1",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "knife",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl",
+      "target": "chicken_wings1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "raw pinkish white",
+        "size": "medium"
+      },
+      "id": "chicken_wings1",
+      "label": "Raw Chicken Wings",
+      "location": "0.35,0.15,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood grain",
+        "size": "large"
+      },
+      "id": "cutting_board",
+      "label": "Wooden Cutting Board",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal blade",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "Knife",
+      "location": "0.0,0.6,0.4,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl",
+      "label": "Bowl",
+      "location": "0.1,0.0,0.5,0.3,0.85"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "left_of",
+      "source": "knob_left",
+      "target": "knob_right"
+    },
+    {
+      "predicate": "next_to",
+      "source": "switch",
+      "target": "knob_right"
+    },
+    {
+      "predicate": "on",
+      "source": "indicator",
+      "target": "switch"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "indicator",
+      "target": "knob_right"
+    },
+    {
+      "predicate": "right_of",
+      "source": "panel",
+      "target": "knob_right"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "large"
+      },
+      "id": "panel",
+      "label": "control panel",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "knob_left",
+      "label": "dial knob",
+      "location": "0.05,0.3,0.48,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "knob_right",
+      "label": "dial knob",
+      "location": "0.35,0.3,0.75,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "switch",
+      "label": "toggle switch",
+      "location": "0.45,0.0,0.65,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red dot",
+        "size": "small"
+      },
+      "id": "indicator",
+      "label": "indicator light",
+      "location": "0.0,0.8,0.2,1.0,0.8"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "background1"
+    },
+    {
+      "predicate": "on",
+      "source": "text2",
+      "target": "background1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.99"
+    },
+    {
+      "attributes": {
+        "appearance": "red gradient white outline text",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Text 'For Pancake Patterns Visit:'",
+      "location": "0.05,0.35,0.95,0.48,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on red background",
+        "size": "medium"
+      },
+      "id": "text2",
+      "label": "URL Text",
+      "location": "0.05,0.52,0.95,0.75,0.9"
+    }
+  ]
+}

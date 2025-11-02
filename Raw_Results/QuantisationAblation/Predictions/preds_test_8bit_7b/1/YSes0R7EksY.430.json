@@ -1,0 +1,211 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar2",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar3",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar4",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar5",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar6",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "book_stack",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "lamp1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "sign1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "behind",
+      "source": "board1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "board1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black chef coat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.0,0.0,0.5,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plaid shirt",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.5,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey wood",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "wooden shelf",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar with colorful candies",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "jar of candy",
+      "location": "0.15,0.05,0.25,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar with nuts",
+        "size": "small"
+      },
+      "id": "jar2",
+      "label": "jar of peanuts",
+      "location": "0.25,0.1,0.35,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "pink ceramic container",
+        "size": "small"
+      },
+      "id": "jar3",
+      "label": "ceramic container",
+      "location": "0.35,0.1,0.45,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar with dried fruit",
+        "size": "small"
+      },
+      "id": "jar4",
+      "label": "jar of dried fruit",
+      "location": "0.45,0.1,0.55,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic canisters",
+        "size": "small"
+      },
+      "id": "jar5",
+      "label": "canisters",
+      "location": "0.55,0.1,0.65,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar with seeds",
+        "size": "small"
+      },
+      "id": "jar6",
+      "label": "jar of seeds",
+      "location": "0.65,0.1,0.75,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white countertop",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stacked books",
+        "size": "small"
+      },
+      "id": "book_stack",
+      "label": "books",
+      "location": "0.7,0.6,0.9,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow bulb lamp",
+        "size": "small"
+      },
+      "id": "lamp1",
+      "label": "table lamp",
+      "location": "0.75,0.5,0.85,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey letters",
+        "size": "medium"
+      },
+      "id": "sign1",
+      "label": "word sign",
+      "location": "0.2,0.0,0.8,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden board",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.4,0.3,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey wall",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

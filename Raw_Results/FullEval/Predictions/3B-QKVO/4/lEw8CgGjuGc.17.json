@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "burger1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "bun1",
+      "target": "plate2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "plate2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "plate1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "behind",
+      "source": "tray1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown meat patty with lettuce and tomato slices",
+        "size": "medium"
+      },
+      "id": "burger1",
+      "label": "burger",
+      "location": "0.05,0.6,0.45,0.98,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white bun with lettuce and tomato slices",
+        "size": "medium"
+      },
+      "id": "bun1",
+      "label": "burger bun",
+      "location": "0.75,0.3,1.0,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic plate with red rim",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.4,0.6,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic plate with green garnish",
+        "size": "medium"
+      },
+      "id": "plate2",
+      "label": "plate",
+      "location": "0.6,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal tray with raw burger patties",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "tray",
+      "location": "0.0,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red bowl with yellow sauce",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl",
+      "location": "0.0,0.4,0.3,0.7,0.8"
+    }
+  ]
+}

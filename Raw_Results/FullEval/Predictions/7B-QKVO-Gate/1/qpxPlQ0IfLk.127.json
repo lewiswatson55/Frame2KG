@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "tube1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "container1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "container1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.45,0.3,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "tube1",
+      "label": "Anchovy Paste Tube",
+      "location": "0.3,0.4,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "Bottle",
+      "location": "0.1,0.3,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue plastic",
+        "size": "small"
+      },
+      "id": "container1",
+      "label": "Container",
+      "location": "0.2,0.6,0.4,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    }
+  ]
+}

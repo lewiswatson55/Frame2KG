@@ -1,0 +1,233 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife"
+    },
+    {
+      "predicate": "on",
+      "source": "knife",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate_with_bacon",
+      "target": "sandwich_plate"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle_of_oil",
+      "target": "sandwich_plate"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "stove",
+      "target": "oven"
+    },
+    {
+      "predicate": "left_of",
+      "source": "pan",
+      "target": "skillet"
+    },
+    {
+      "predicate": "behind",
+      "source": "wine_bottles",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "blender",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "herbs",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "toaster",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "plates",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "jars",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "plant",
+      "target": "shelf"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "grey shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.0,0.75,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove",
+      "label": "gas stove",
+      "location": "0.0,0.6,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "oven",
+      "label": "double oven",
+      "location": "0.0,0.0,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black cast iron",
+        "size": "medium"
+      },
+      "id": "skillet",
+      "label": "skillet",
+      "location": "0.3,0.7,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "pan",
+      "label": "frying pan",
+      "location": "0.0,0.7,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.0,0.7,0.2,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "kitchen knife",
+      "location": "0.45,0.4,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "small"
+      },
+      "id": "plate_with_bacon",
+      "label": "plate of bacon",
+      "location": "0.5,0.6,0.6,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "bread lettuce tomato",
+        "size": "medium"
+      },
+      "id": "sandwich_plate",
+      "label": "sandwich plate",
+      "location": "0.6,0.6,0.8,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottle",
+        "size": "small"
+      },
+      "id": "bottle_of_oil",
+      "label": "oil bottle",
+      "location": "0.7,0.6,0.8,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green plastic",
+        "size": "medium"
+      },
+      "id": "blender",
+      "label": "stand blender",
+      "location": "0.6,0.3,0.75,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "herbs",
+      "label": "herb container",
+      "location": "0.75,0.3,0.85,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic grey",
+        "size": "small"
+      },
+      "id": "toaster",
+      "label": "toaster",
+      "location": "0.8,0.3,0.9,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue ceramic",
+        "size": "small"
+      },
+      "id": "plates",
+      "label": "stacked plates",
+      "location": "0.8,0.1,0.9,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jars",
+        "size": "small"
+      },
+      "id": "jars",
+      "label": "storage jars",
+      "location": "0.7,0.0,0.9,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "assorted glass bottles",
+        "size": "medium"
+      },
+      "id": "wine_bottles",
+      "label": "wine bottles",
+      "location": "0.3,0.3,0.5,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green grass",
+        "size": "small"
+      },
+      "id": "plant",
+      "label": "potted plant",
+      "location": "0.9,0.1,1.0,0.3,0.7"
+    }
+  ]
+}

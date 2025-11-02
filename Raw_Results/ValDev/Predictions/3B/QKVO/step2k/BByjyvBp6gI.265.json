@@ -1,0 +1,194 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "pasta1"
+    },
+    {
+      "predicate": "in",
+      "source": "pasta1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray2",
+      "target": "tray3"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray4",
+      "target": "tray5"
+    },
+    {
+      "predicate": "includes",
+      "source": "tray1",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "includes",
+      "source": "tray2",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "includes",
+      "source": "tray3",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "includes",
+      "source": "tray4",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "includes",
+      "source": "tray5",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "above",
+      "source": "bowl1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl1",
+      "target": "tray2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bowl2",
+      "target": "tray2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bowl3",
+      "target": "tray3"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bowl4",
+      "target": "tray4"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bowl5",
+      "target": "tray5"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.0,0.0,0.3,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "plastic bowl",
+      "location": "0.0,0.0,0.6,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "aluminum tray",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow shredded",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "shredded cheese",
+      "location": "0.2,0.4,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tray2",
+      "label": "aluminum tray",
+      "location": "0.0,0.3,0.4,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tray3",
+      "label": "aluminum tray",
+      "location": "0.4,0.3,0.8,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tray4",
+      "label": "aluminum tray",
+      "location": "0.8,0.3,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tray5",
+      "label": "aluminum tray",
+      "location": "0.0,0.8,0.4,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl2",
+      "label": "ceramic bowl",
+      "location": "0.4,0.0,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl3",
+      "label": "ceramic bowl",
+      "location": "0.6,0.0,0.8,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl4",
+      "label": "ceramic bowl",
+      "location": "0.8,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl5",
+      "label": "ceramic bowl",
+      "location": "0.0,0.3,0.2,0.6,0.8"
+    }
+  ]
+}

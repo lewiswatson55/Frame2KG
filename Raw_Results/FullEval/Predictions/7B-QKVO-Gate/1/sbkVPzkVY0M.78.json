@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "meat1"
+    },
+    {
+      "predicate": "on",
+      "source": "meat1",
+      "target": "hands1"
+    },
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "shirt1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "blender1",
+      "target": "hands1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt with floral sleeves",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.35,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red raw meat",
+        "size": "small"
+      },
+      "id": "meat1",
+      "label": "Raw Meat",
+      "location": "0.48,0.36,0.72,0.58,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hands1",
+      "label": "Hands",
+      "location": "0.35,0.15,0.85,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "Blender",
+      "location": "0.0,0.6,0.2,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white cotton",
+        "size": "medium"
+      },
+      "id": "shirt1",
+      "label": "Shirt",
+      "location": "0.0,0.0,0.3,0.4,0.7"
+    }
+  ]
+}

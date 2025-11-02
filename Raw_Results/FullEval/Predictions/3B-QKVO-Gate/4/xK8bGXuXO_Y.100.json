@@ -1,0 +1,225 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "red_bowl1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl1",
+      "target": "glass_bowl1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "pitcher1",
+      "target": "glass_bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "person1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "includes",
+      "source": "glass_bowl1",
+      "target": "flour1"
+    },
+    {
+      "predicate": "includes",
+      "source": "small_cups1",
+      "target": "salt1"
+    },
+    {
+      "predicate": "includes",
+      "source": "small_cups1",
+      "target": "pepper1"
+    },
+    {
+      "predicate": "includes",
+      "source": "small_cups1",
+      "target": "sugar1"
+    },
+    {
+      "predicate": "includes",
+      "source": "small_cups1",
+      "target": "milk1"
+    },
+    {
+      "predicate": "includes",
+      "source": "small_cups1",
+      "target": "egg1"
+    },
+    {
+      "predicate": "includes",
+      "source": "small_cups1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "includes",
+      "source": "small_cups1",
+      "target": "chocolate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue apron pink pants",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.05,0.0,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass white flour",
+        "size": "medium"
+      },
+      "id": "glass_bowl1",
+      "label": "mixing bowl",
+      "location": "0.30,0.25,0.60,0.45,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "flour1",
+      "label": "flour",
+      "location": "0.35,0.30,0.55,0.40,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass white milk",
+        "size": "medium"
+      },
+      "id": "pitcher1",
+      "label": "jug of milk",
+      "location": "0.70,0.30,0.90,0.60,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.20,0.40,0.80,0.60,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.15,0.45,0.30,0.55,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "red_bowl1",
+      "label": "bowl",
+      "location": "0.00,0.45,0.20,0.65,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "spoon",
+      "location": "0.20,0.10,0.40,0.25,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass salt",
+        "size": "small"
+      },
+      "id": "small_cups1",
+      "label": "small cups",
+      "location": "0.45,0.60,0.85,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white granules",
+        "size": "small"
+      },
+      "id": "salt1",
+      "label": "salt",
+      "location": "0.48,0.62,0.52,0.68,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "white granules",
+        "size": "small"
+      },
+      "id": "pepper1",
+      "label": "pepper",
+      "location": "0.52,0.62,0.56,0.68,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "white granules",
+        "size": "small"
+      },
+      "id": "sugar1",
+      "label": "sugar",
+      "location": "0.56,0.62,0.60,0.68,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "white liquid",
+        "size": "small"
+      },
+      "id": "milk1",
+      "label": "milk",
+      "location": "0.60,0.62,0.64,0.68,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow yolk white liquid",
+        "size": "small"
+      },
+      "id": "egg1",
+      "label": "egg",
+      "location": "0.64,0.62,0.68,0.68,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "brown oil",
+        "size": "small"
+      },
+      "id": "oil1",
+      "label": "oil",
+      "location": "0.68,0.62,0.72,0.68,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "dark chocolate",
+        "size": "small"
+      },
+      "id": "chocolate1",
+      "label": "chocolate chips",
+      "location": "0.72,0.62,0.76,0.68,0.6"
+    }
+  ]
+}

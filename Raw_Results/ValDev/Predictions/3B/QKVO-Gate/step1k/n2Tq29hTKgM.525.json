@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "griddle"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake2",
+      "target": "griddle"
+    },
+    {
+      "predicate": "on",
+      "source": "spaghetti1",
+      "target": "foil1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pancake1",
+      "target": "pancake2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "spaghetti1",
+      "target": "griddle"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "griddle",
+      "label": "Griddle",
+      "location": "0.05,0.3,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white batter",
+        "size": "small"
+      },
+      "id": "pancake1",
+      "label": "Pancake",
+      "location": "0.45,0.35,0.65,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white batter",
+        "size": "small"
+      },
+      "id": "pancake2",
+      "label": "Pancake",
+      "location": "0.7,0.2,0.9,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow pasta",
+        "size": "medium"
+      },
+      "id": "spaghetti1",
+      "label": "Spaghetti",
+      "location": "0.1,0.7,0.6,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver foil",
+        "size": "medium"
+      },
+      "id": "foil1",
+      "label": "Aluminum Foil",
+      "location": "0.1,0.75,0.6,0.95,0.8"
+    }
+  ]
+}

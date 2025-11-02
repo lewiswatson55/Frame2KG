@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "salt1"
+    },
+    {
+      "predicate": "behind",
+      "source": "jar1",
+      "target": "board1"
+    },
+    {
+      "predicate": "behind",
+      "source": "can1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "logo1",
+      "target": "table1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.5,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black handle metal blade",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "Knife",
+      "location": "0.3,0.4,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table",
+      "location": "0.0,0.5,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "salt1",
+      "label": "Salt Bowl",
+      "location": "0.0,0.7,0.2,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.2,0.7,0.4,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue plastic",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "Jar",
+      "location": "0.3,0.0,0.45,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red blue can",
+        "size": "small"
+      },
+      "id": "can1",
+      "label": "Can",
+      "location": "0.7,0.6,0.9,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey fish logo",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Logo",
+      "location": "0.0,0.0,0.2,0.2,0.6"
+    }
+  ]
+}

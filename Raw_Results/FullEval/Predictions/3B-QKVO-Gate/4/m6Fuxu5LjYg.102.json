@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand_left",
+      "target": "squid_piece"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand_right",
+      "target": "squid_piece"
+    },
+    {
+      "predicate": "on",
+      "source": "squid_piece",
+      "target": "board"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand_left",
+      "label": "left hand",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand_right",
+      "label": "right hand",
+      "location": "0.7,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white glossy",
+        "size": "large"
+      },
+      "id": "squid_piece",
+      "label": "raw squid piece",
+      "location": "0.1,0.1,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood grain",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "wooden cutting board",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    }
+  ]
+}

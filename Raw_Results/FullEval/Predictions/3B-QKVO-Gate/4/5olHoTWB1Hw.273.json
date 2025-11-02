@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "on",
+      "source": "bag1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "knife1",
+      "target": "bag1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow red green packaging",
+        "size": "medium"
+      },
+      "id": "bag1",
+      "label": "croutons bag",
+      "location": "0.05,0.3,0.6,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone blurred",
+        "size": "large"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.4,0.4,0.9,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl",
+      "location": "0.0,0.6,0.2,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.7,0.5,1.0,0.9,0.8"
+    }
+  ]
+}

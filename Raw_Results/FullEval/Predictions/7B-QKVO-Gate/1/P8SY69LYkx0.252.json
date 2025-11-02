@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "shape1"
+    },
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "shape2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "shape3",
+      "target": "shape1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "shape4",
+      "target": "shape2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green and white gradient",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Method logo text",
+      "location": "0.25,0.3,0.75,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red",
+        "size": "large"
+      },
+      "id": "shape1",
+      "label": "Red triangle shape",
+      "location": "0.0,0.0,0.5,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white",
+        "size": "large"
+      },
+      "id": "shape2",
+      "label": "White triangle shape",
+      "location": "0.5,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red",
+        "size": "large"
+      },
+      "id": "shape3",
+      "label": "Red triangle shape",
+      "location": "0.0,0.5,0.5,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white",
+        "size": "large"
+      },
+      "id": "shape4",
+      "label": "White triangle shape",
+      "location": "0.5,0.5,1.0,1.0,0.8"
+    }
+  ]
+}

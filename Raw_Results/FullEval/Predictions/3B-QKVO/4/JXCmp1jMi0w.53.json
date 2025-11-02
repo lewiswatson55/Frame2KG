@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "fish_fillets"
+    },
+    {
+      "predicate": "in",
+      "source": "fish_fillets",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "plastic_bag1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.1,0.2,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white raw fish",
+        "size": "small"
+      },
+      "id": "fish_fillets",
+      "label": "fish fillets",
+      "location": "0.2,0.3,0.8,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "large"
+      },
+      "id": "plastic_bag1",
+      "label": "plastic bag",
+      "location": "0.0,0.2,0.4,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.0,0.0,0.5,0.3,0.7"
+    }
+  ]
+}

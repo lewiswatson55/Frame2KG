@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "rice1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "lemon1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.35,0.28,0.67,0.64,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white granular",
+        "size": "small"
+      },
+      "id": "rice1",
+      "label": "rice",
+      "location": "0.38,0.32,0.65,0.60,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal blade",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.65,0.55,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow citrus",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "lemon",
+      "location": "0.05,0.05,0.25,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "wooden table",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

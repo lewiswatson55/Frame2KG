@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "hand1",
+      "target": "dough1"
+    },
+    {
+      "predicate": "on",
+      "source": "dough1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "crumb1",
+      "target": "dough1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white smooth",
+        "size": "small"
+      },
+      "id": "dough1",
+      "label": "dough ball",
+      "location": "0.45,0.25,0.75,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood grain",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "wooden cutting board",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "crumb1",
+      "label": "garlic crumbs",
+      "location": "0.6,0.6,0.8,0.8,0.7"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "patty2",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "patty3",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "board",
+      "target": "countertop"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand",
+      "target": "bowl"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl",
+      "target": "board"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white glove",
+        "size": "medium"
+      },
+      "id": "hand",
+      "label": "gloved hand",
+      "location": "0.45,0.0,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl",
+      "label": "glass bowl",
+      "location": "0.0,0.0,0.4,0.7,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw ground meat with green herbs",
+        "size": "small"
+      },
+      "id": "patty1",
+      "label": "raw burger patty",
+      "location": "0.35,0.35,0.55,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw ground meat with green herbs",
+        "size": "small"
+      },
+      "id": "patty2",
+      "label": "raw burger patty",
+      "location": "0.55,0.35,0.75,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw ground meat with green herbs",
+        "size": "small"
+      },
+      "id": "patty3",
+      "label": "raw burger patty",
+      "location": "0.5,0.55,0.75,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "cutting board",
+      "location": "0.0,0.4,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    }
+  ]
+}

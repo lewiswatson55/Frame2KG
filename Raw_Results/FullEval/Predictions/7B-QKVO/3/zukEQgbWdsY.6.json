@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "object1",
+      "target": "cloth1"
+    },
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "cloth1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "object1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "object1",
+      "target": "bottle1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white plastic with red center",
+        "size": "medium"
+      },
+      "id": "object1",
+      "label": "spinning disc",
+      "location": "0.35,0.2,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with yellow liquid",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "glass bottle",
+      "location": "0.05,0.0,0.25,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange fabric",
+        "size": "large"
+      },
+      "id": "cloth1",
+      "label": "orange cloth",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.5,0.5,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.0,1.0,0.2,0.6"
+    }
+  ]
+}

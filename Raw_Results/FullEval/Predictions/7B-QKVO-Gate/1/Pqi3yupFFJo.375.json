@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "onion_rings",
+      "target": "frying_pan"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sour_cream_container",
+      "target": "onion_rings"
+    },
+    {
+      "predicate": "next_to",
+      "source": "hot_sauce_bottle",
+      "target": "sour_cream_container"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl",
+      "target": "sour_cream_container"
+    },
+    {
+      "predicate": "behind",
+      "source": "stove",
+      "target": "onion_rings"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "frying_pan",
+      "label": "Frying Pan",
+      "location": "0.05,0.0,0.95,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "medium"
+      },
+      "id": "onion_rings",
+      "label": "Onion Rings",
+      "location": "0.35,0.1,0.65,0.35,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl",
+      "label": "Bowl of Sour Cream",
+      "location": "0.0,0.4,0.3,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "sour_cream_container",
+      "label": "Sour Cream Container",
+      "location": "0.3,0.3,0.5,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass red label",
+        "size": "small"
+      },
+      "id": "hot_sauce_bottle",
+      "label": "Hot Sauce Bottle",
+      "location": "0.6,0.3,0.75,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "Stove Top",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

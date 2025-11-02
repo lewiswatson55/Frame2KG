@@ -1,0 +1,151 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "whisk1"
+    },
+    {
+      "predicate": "in",
+      "source": "whisk1",
+      "target": "bowl3"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl3",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl4",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "spraycan1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "jug1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl4",
+      "target": "bowl3"
+    },
+    {
+      "predicate": "left_of",
+      "source": "jug1",
+      "target": "spraycan1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "window1",
+      "target": "cabinet1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown hair black apron green top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.15,0.0,0.6,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "whisk1",
+      "label": "whisk",
+      "location": "0.37,0.55,0.45,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass white batter",
+        "size": "medium"
+      },
+      "id": "bowl3",
+      "label": "mixing bowl",
+      "location": "0.45,0.6,0.6,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass yellow liquid",
+        "size": "small"
+      },
+      "id": "bowl4",
+      "label": "measuring cup",
+      "location": "0.3,0.65,0.4,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow red label",
+        "size": "small"
+      },
+      "id": "spraycan1",
+      "label": "cooking spray can",
+      "location": "0.2,0.6,0.25,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic blue cap",
+        "size": "small"
+      },
+      "id": "jug1",
+      "label": "syrup bottle",
+      "location": "0.05,0.7,0.15,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black non-stick",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "griddle",
+      "location": "0.6,0.6,0.95,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinets",
+      "location": "0.0,0.0,1.0,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white blinds",
+        "size": "medium"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.8,0.0,1.0,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "speckled granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.7"
+    }
+  ]
+}

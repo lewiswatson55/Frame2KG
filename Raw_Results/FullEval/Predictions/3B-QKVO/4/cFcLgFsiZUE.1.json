@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "jersey1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "crowd1"
+    },
+    {
+      "predicate": "behind",
+      "source": "crowd1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blonde hair, blue jersey",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.15,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue and green striped",
+        "size": "medium"
+      },
+      "id": "jersey1",
+      "label": "football jersey",
+      "location": "0.18,0.3,0.62,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green and purple blurred",
+        "size": "large"
+      },
+      "id": "crowd1",
+      "label": "fan crowd",
+      "location": "0.0,0.0,1.0,0.4,0.6"
+    }
+  ]
+}

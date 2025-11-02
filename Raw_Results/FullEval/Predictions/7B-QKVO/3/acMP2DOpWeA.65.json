@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "milk_stream1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "jug1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl1",
+      "target": "egg_mixture1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.15,0.1,0.85,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow liquid",
+        "size": "medium"
+      },
+      "id": "egg_mixture1",
+      "label": "beaten egg mixture",
+      "location": "0.3,0.4,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white liquid",
+        "size": "small"
+      },
+      "id": "milk_stream1",
+      "label": "stream of milk",
+      "location": "0.6,0.0,0.9,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "jug1",
+      "label": "metal jug",
+      "location": "0.6,0.0,0.9,0.3,0.8"
+    }
+  ]
+}

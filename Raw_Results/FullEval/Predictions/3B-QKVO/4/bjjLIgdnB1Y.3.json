@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "syrup1",
+      "target": "pancake_stack"
+    },
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "pancake_stack"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "pancake_stack"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "large"
+      },
+      "id": "pancake_stack",
+      "label": "stack of pancakes",
+      "location": "0.05,0.0,0.95,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glossy",
+        "size": "small"
+      },
+      "id": "syrup1",
+      "label": "syrup drizzle",
+      "location": "0.3,0.4,0.7,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white bold text",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "title 'Pancakes'",
+      "location": "0.3,0.0,0.7,0.2,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "small"
+      },
+      "id": "text2",
+      "label": "website link 'Joy of Baking.com'",
+      "location": "0.5,0.8,0.9,0.95,0.8"
+    }
+  ]
+}

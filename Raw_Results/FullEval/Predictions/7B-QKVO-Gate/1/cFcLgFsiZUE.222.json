@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "dog"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "plate",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "blender",
+      "target": "countertop"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "cabinets"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt with black polka dots",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.05,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black chef coat",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.52,0.05,0.97,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige fluffy",
+        "size": "small"
+      },
+      "id": "dog",
+      "label": "poodle",
+      "location": "0.26,0.25,0.45,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange sauce",
+        "size": "small"
+      },
+      "id": "bowl",
+      "label": "sauce bowl",
+      "location": "0.15,0.75,0.25,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with orange wings",
+        "size": "medium"
+      },
+      "id": "plate",
+      "label": "plate of chicken wings",
+      "location": "0.30,0.70,0.60,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "fridge",
+      "label": "refrigerator",
+      "location": "0.00,0.00,0.30,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinets",
+      "label": "kitchen cabinets",
+      "location": "0.40,0.00,1.00,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "blender",
+      "label": "stand blender",
+      "location": "0.45,0.25,0.55,0.45,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.00,0.60,1.00,1.00,0.7"
+    }
+  ]
+}

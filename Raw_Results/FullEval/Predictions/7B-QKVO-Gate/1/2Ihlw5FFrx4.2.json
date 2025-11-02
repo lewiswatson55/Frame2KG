@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "tv_screen"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "tv_screen"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "vase1",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "book1",
+      "target": "table"
+    },
+    {
+      "predicate": "behind",
+      "source": "window1",
+      "target": "person2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person1",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "short brown hair teal shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Nancy Einhart",
+      "location": "0.05,0.18,0.43,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "long brown hair green dress",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "Lauren Bradshaw",
+      "location": "0.57,0.18,0.95,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "purple screen with POPSUGAR logo",
+        "size": "large"
+      },
+      "id": "tv_screen",
+      "label": "TV Screen",
+      "location": "0.15,0.05,0.85,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "Table",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic with lettuce and tomato slices",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "Plate of Food",
+      "location": "0.3,0.6,0.6,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metallic",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "Vase",
+      "location": "0.5,0.6,0.6,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green cover",
+        "size": "small"
+      },
+      "id": "book1",
+      "label": "Book",
+      "location": "0.0,0.75,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink frame",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "Wall",
+      "location": "0.0,0.0,1.0,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "chair1",
+      "label": "Chair",
+      "location": "0.8,0.4,1.0,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass",
+        "size": "medium"
+      },
+      "id": "window1",
+      "label": "Window",
+      "location": "0.6,0.0,0.8,0.4,0.7"
+    }
+  ]
+}

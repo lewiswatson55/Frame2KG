@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "oil1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in",
+      "source": "ring1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "in",
+      "source": "ring2",
+      "target": "oil1"
+    },
+    {
+      "predicate": "in",
+      "source": "ring3",
+      "target": "oil1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "bubbling yellowish liquid",
+        "size": "medium"
+      },
+      "id": "oil1",
+      "label": "cooking oil",
+      "location": "0.0,0.0,1.0,1.0,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "ring1",
+      "label": "fried ring",
+      "location": "0.6,0.0,1.0,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "ring2",
+      "label": "fried ring",
+      "location": "0.0,0.4,0.5,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "ring3",
+      "label": "fried ring",
+      "location": "0.2,0.6,0.8,1.0,0.9"
+    }
+  ]
+}

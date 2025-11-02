@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "dish1",
+      "target": "rack1"
+    },
+    {
+      "predicate": "on",
+      "source": "rack1",
+      "target": "oven1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown cheese topping",
+        "size": "large"
+      },
+      "id": "dish1",
+      "label": "baked casserole",
+      "location": "0.05,0.05,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "rack1",
+      "label": "glass rack",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark metal interior",
+        "size": "large"
+      },
+      "id": "oven1",
+      "label": "oven interior",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "herbs1",
+      "target": "meat1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "herbs1",
+      "target": "egg1"
+    },
+    {
+      "predicate": "behind",
+      "source": "egg1",
+      "target": "herbs1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green chopped",
+        "size": "large"
+      },
+      "id": "herbs1",
+      "label": "chopped herbs",
+      "location": "0.0,0.45,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw",
+        "size": "medium"
+      },
+      "id": "meat1",
+      "label": "ground meat",
+      "location": "0.3,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white smooth",
+        "size": "small"
+      },
+      "id": "egg1",
+      "label": "egg",
+      "location": "0.45,0.2,0.75,0.5,0.85"
+    }
+  ]
+}

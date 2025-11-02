@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "on",
+      "source": "bag1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cup1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "oven1",
+      "target": "bag1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "red bowl",
+      "location": "0.00,0.35,0.20,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "cup1",
+      "label": "ceramic cup",
+      "location": "0.65,0.60,0.90,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow green packaging",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "bag of chips",
+      "location": "0.05,0.10,0.95,0.80,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.40,0.60,0.80,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "oven1",
+      "label": "stove top oven",
+      "location": "0.00,0.00,0.50,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "kitchen countertop",
+      "location": "0.00,0.30,1.00,1.00,0.6"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "edges": [
+    {
+      "predicate": "includes",
+      "source": "ingredients_list",
+      "target": "onions"
+    },
+    {
+      "predicate": "includes",
+      "source": "ingredients_list",
+      "target": "refined_flour"
+    },
+    {
+      "predicate": "includes",
+      "source": "ingredients_list",
+      "target": "cornstarch"
+    },
+    {
+      "predicate": "includes",
+      "source": "ingredients_list",
+      "target": "buttermilk"
+    },
+    {
+      "predicate": "includes",
+      "source": "ingredients_list",
+      "target": "pepper_powder"
+    },
+    {
+      "predicate": "includes",
+      "source": "ingredients_list",
+      "target": "soda_bicarbonate"
+    },
+    {
+      "predicate": "includes",
+      "source": "ingredients_list",
+      "target": "salt"
+    },
+    {
+      "predicate": "includes",
+      "source": "ingredients_list",
+      "target": "oil"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red text on white background",
+        "size": "large"
+      },
+      "id": "title_text",
+      "label": "Title Text",
+      "location": "0.35,0.0,0.65,0.18,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on white background",
+        "size": "medium"
+      },
+      "id": "ingredients_list",
+      "label": "Ingredients List",
+      "location": "0.0,0.18,1.0,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "small"
+      },
+      "id": "time_text",
+      "label": "Time Text",
+      "location": "0.45,0.0,0.55,0.1,0.9"
+    }
+  ]
+}

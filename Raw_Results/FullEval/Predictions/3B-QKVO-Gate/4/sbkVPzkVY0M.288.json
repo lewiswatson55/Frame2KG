@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "text2",
+      "target": "background"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text3",
+      "target": "background"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink gradient",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "pink gradient text",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Popsugar logo",
+      "location": "0.2,0.4,0.8,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "small"
+      },
+      "id": "text2",
+      "label": "Text overlay",
+      "location": "0.7,0.75,0.95,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark pink text",
+        "size": "small"
+      },
+      "id": "text3",
+      "label": "Footer text",
+      "location": "0.7,0.9,0.95,1.0,0.8"
+    }
+  ]
+}

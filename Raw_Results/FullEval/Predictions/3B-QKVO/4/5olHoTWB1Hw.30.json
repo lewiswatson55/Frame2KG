@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "colander1"
+    },
+    {
+      "predicate": "on",
+      "source": "colander1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "large"
+      },
+      "id": "colander1",
+      "label": "colander",
+      "location": "0.05,0.0,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown skin",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.6,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.7,1.0,1.0,0.7"
+    }
+  ]
+}

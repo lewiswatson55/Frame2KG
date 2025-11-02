@@ -1,0 +1,66 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "logo1",
+      "target": "text_list1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "saucepan",
+      "location": "0.35,0.15,0.98,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "spoon1",
+      "label": "ladle",
+      "location": "0.45,0.0,0.75,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.75,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red text on white background",
+        "size": "small"
+      },
+      "id": "text_list1",
+      "label": "recipe list",
+      "location": "0.0,0.0,0.4,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black and orange graphic",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "logo",
+      "location": "0.0,0.7,0.2,1.0,0.9"
+    }
+  ]
+}

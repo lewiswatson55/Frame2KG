@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "logo1",
+      "target": "chicken1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "large"
+      },
+      "id": "chicken1",
+      "label": "roasted chicken",
+      "location": "0.05,0.05,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black silhouette",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "chef silhouette",
+      "location": "0.75,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Chef Ricardo logo",
+      "location": "0.45,0.75,0.95,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "wooden table",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

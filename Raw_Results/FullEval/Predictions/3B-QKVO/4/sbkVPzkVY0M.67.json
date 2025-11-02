@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "hands",
+      "location": "0.35,0.0,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue plastic",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "water bottle",
+      "location": "0.75,0.4,0.95,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white painted wall",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

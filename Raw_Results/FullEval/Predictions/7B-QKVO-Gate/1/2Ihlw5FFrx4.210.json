@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "background1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "background1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black orange gradient",
+        "size": "large"
+      },
+      "id": "logo1",
+      "label": "POPSUGAR logo",
+      "location": "0.35,0.25,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink purple gradient",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "gradient background",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white sans-serif",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Featured Music text",
+      "location": "0.0,0.75,1.0,0.95,0.9"
+    }
+  ]
+}

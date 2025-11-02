@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "tongs1"
+    },
+    {
+      "predicate": "in",
+      "source": "tongs1",
+      "target": "skillet1"
+    },
+    {
+      "predicate": "on",
+      "source": "skillet1",
+      "target": "rack1"
+    },
+    {
+      "predicate": "on",
+      "source": "rack1",
+      "target": "oven1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray1",
+      "target": "skillet1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "oven1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "oven1",
+      "label": "oven",
+      "location": "0.0,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "rack1",
+      "label": "oven rack",
+      "location": "0.0,0.0,0.7,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black cast iron",
+        "size": "medium"
+      },
+      "id": "skillet1",
+      "label": "skillet",
+      "location": "0.05,0.3,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "chicken pieces",
+      "location": "0.1,0.4,0.5,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "wooden cabinet",
+      "location": "0.6,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "baking tray",
+      "location": "0.4,0.5,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.5,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "tongs",
+      "location": "0.45,0.0,0.8,0.3,0.8"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "food1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "food2",
+      "target": "rack1"
+    },
+    {
+      "predicate": "includes",
+      "source": "rack1",
+      "target": "food2"
+    },
+    {
+      "predicate": "in",
+      "source": "oil1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "food1",
+      "label": "fried food",
+      "location": "0.35,0.48,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellowish golden",
+        "size": "small"
+      },
+      "id": "food2",
+      "label": "fried piece",
+      "location": "0.3,0.05,0.7,0.35,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "rack1",
+      "label": "drain rack",
+      "location": "0.2,0.0,0.8,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "bubbling yellow liquid",
+        "size": "large"
+      },
+      "id": "oil1",
+      "label": "cooking oil",
+      "location": "0.0,0.3,1.0,0.8,0.9"
+    }
+  ]
+}

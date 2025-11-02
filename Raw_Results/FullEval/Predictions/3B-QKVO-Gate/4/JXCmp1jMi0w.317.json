@@ -1,0 +1,210 @@
+{
+  "edges": [
+    {
+      "predicate": "includes",
+      "source": "banner1",
+      "target": "cake1"
+    },
+    {
+      "predicate": "includes",
+      "source": "banner1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "includes",
+      "source": "banner1",
+      "target": "cocktail1"
+    },
+    {
+      "predicate": "includes",
+      "source": "banner1",
+      "target": "woman1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "recipes_button",
+      "target": "menu_button"
+    },
+    {
+      "predicate": "next_to",
+      "source": "menu_button",
+      "target": "grocery_button"
+    },
+    {
+      "predicate": "next_to",
+      "source": "grocery_button",
+      "target": "recipe_box_button"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cookbooks_button",
+      "target": "contact_button"
+    },
+    {
+      "predicate": "next_to",
+      "source": "about_button",
+      "target": "contact_button"
+    },
+    {
+      "predicate": "below",
+      "source": "gallery1",
+      "target": "banner1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "ad1",
+      "target": "gallery1"
+    },
+    {
+      "predicate": "above",
+      "source": "ad1",
+      "target": "pizza_ad1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink circular text",
+        "size": "large"
+      },
+      "id": "banner1",
+      "label": "Divas Can Cook banner",
+      "location": "0.05,0.0,0.95,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown cake slice",
+        "size": "small"
+      },
+      "id": "cake1",
+      "label": "cake slice photo",
+      "location": "0.27,0.14,0.36,0.28,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "fried chicken plate",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "fried chicken photo",
+      "location": "0.42,0.14,0.52,0.28,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red cocktail with strawberries",
+        "size": "small"
+      },
+      "id": "cocktail1",
+      "label": "cocktail photo",
+      "location": "0.57,0.14,0.67,0.28,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black and white portrait",
+        "size": "medium"
+      },
+      "id": "woman1",
+      "label": "woman's portrait",
+      "location": "0.72,0.05,0.9,0.35,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green text on black background",
+        "size": "small"
+      },
+      "id": "home_button",
+      "label": "Home button",
+      "location": "0.05,0.45,0.15,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on pink background",
+        "size": "small"
+      },
+      "id": "recipes_button",
+      "label": "Recipes button",
+      "location": "0.15,0.45,0.25,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on pink background",
+        "size": "small"
+      },
+      "id": "menu_button",
+      "label": "Menu Planning 101 button",
+      "location": "0.25,0.45,0.35,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on pink background",
+        "size": "small"
+      },
+      "id": "grocery_button",
+      "label": "Grocery Coupons button",
+      "location": "0.35,0.45,0.45,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on pink background",
+        "size": "small"
+      },
+      "id": "recipe_box_button",
+      "label": "Recipe Box button",
+      "location": "0.45,0.45,0.55,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on pink background",
+        "size": "small"
+      },
+      "id": "cookbooks_button",
+      "label": "Cookbooks button",
+      "location": "0.55,0.45,0.65,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on pink background",
+        "size": "small"
+      },
+      "id": "contact_button",
+      "label": "Contact button",
+      "location": "0.65,0.45,0.75,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on pink background",
+        "size": "small"
+      },
+      "id": "about_button",
+      "label": "About DCC button",
+      "location": "0.75,0.45,0.85,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "colorful food photos",
+        "size": "medium"
+      },
+      "id": "gallery1",
+      "label": "Food gallery",
+      "location": "0.05,0.55,0.5,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange circular ad",
+        "size": "medium"
+      },
+      "id": "ad1",
+      "label": "AT&T wireless ad",
+      "location": "0.5,0.55,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow pizza ad",
+        "size": "medium"
+      },
+      "id": "pizza_ad1",
+      "label": "Pizza ad",
+      "location": "0.9,0.55,1.0,0.9,0.8"
+    }
+  ]
+}

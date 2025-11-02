@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "frame1",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "vase1",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "painting1",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "painting2",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle2",
+      "target": "shelf"
+    },
+    {
+      "predicate": "left_of",
+      "source": "curtain_left",
+      "target": "person"
+    },
+    {
+      "predicate": "right_of",
+      "source": "curtain_right",
+      "target": "person"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "grey hair, dark grey hoodie",
+        "size": "large"
+      },
+      "id": "person",
+      "label": "man",
+      "location": "0.35,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden frame",
+        "size": "medium"
+      },
+      "id": "frame1",
+      "label": "picture frame",
+      "location": "0.0,0.0,0.4,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange wood",
+        "size": "small"
+      },
+      "id": "frame2",
+      "label": "picture frame",
+      "location": "0.0,0.3,0.4,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green landscape",
+        "size": "small"
+      },
+      "id": "painting1",
+      "label": "painting",
+      "location": "0.0,0.3,0.4,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue glass",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "vase",
+      "location": "0.3,0.4,0.45,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "shelf",
+      "label": "shelf",
+      "location": "0.0,0.6,0.6,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "bottle",
+      "location": "0.2,0.6,0.3,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "bottle2",
+      "label": "bottle",
+      "location": "0.3,0.6,0.4,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "beige striped",
+        "size": "large"
+      },
+      "id": "curtain_left",
+      "label": "curtain",
+      "location": "0.6,0.0,0.8,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green striped",
+        "size": "large"
+      },
+      "id": "curtain_right",
+      "label": "curtain",
+      "location": "0.8,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

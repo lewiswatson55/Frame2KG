@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "patty2",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "patty3",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "paper_towel",
+      "target": "board"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand",
+      "target": "patty1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl",
+      "target": "patty1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "towel",
+      "target": "board"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand",
+      "label": "human hand",
+      "location": "0.45,0.0,0.75,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl",
+      "label": "glass bowl",
+      "location": "0.0,0.0,0.3,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "cutting board",
+      "location": "0.0,0.3,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "red minced meat with green herbs",
+        "size": "small"
+      },
+      "id": "patty1",
+      "label": "raw burger patty",
+      "location": "0.35,0.35,0.55,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red minced meat with green herbs",
+        "size": "small"
+      },
+      "id": "patty2",
+      "label": "raw burger patty",
+      "location": "0.55,0.35,0.75,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red minced meat with green herbs",
+        "size": "small"
+      },
+      "id": "patty3",
+      "label": "raw burger patty",
+      "location": "0.5,0.55,0.8,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "medium"
+      },
+      "id": "paper_towel",
+      "label": "paper towel",
+      "location": "0.2,0.4,0.8,0.8,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white cloth",
+        "size": "small"
+      },
+      "id": "towel",
+      "label": "kitchen towel",
+      "location": "0.85,0.8,1.0,1.0,0.8"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinets"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "mixer1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "coffee_press1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "microwave1",
+      "target": "cabinet_left"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fridge1",
+      "target": "cabinet_right"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cabinet_left",
+      "target": "cabinet_right"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light blonde hair, white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "dark brown wood",
+        "size": "large"
+      },
+      "id": "cabinets",
+      "label": "kitchen cabinets",
+      "location": "0.0,0.0,1.0,0.4,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.4,1.0,0.7,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "blender1",
+      "label": "personal blender",
+      "location": "0.15,0.45,0.25,0.65,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "small"
+      },
+      "id": "mixer1",
+      "label": "stand mixer",
+      "location": "0.25,0.45,0.35,0.65,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "coffee_press1",
+      "label": "coffee press",
+      "location": "0.05,0.45,0.15,0.65,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave",
+      "location": "0.65,0.25,0.95,0.55,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "white refrigerator",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.65,0.45,0.95,0.85,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet_left",
+      "label": "upper cabinet left",
+      "location": "0.0,0.0,0.3,0.4,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet_right",
+      "label": "upper cabinet right",
+      "location": "0.7,0.0,1.0,0.4,0.80"
+    }
+  ]
+}

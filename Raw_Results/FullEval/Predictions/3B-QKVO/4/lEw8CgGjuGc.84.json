@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "hand1",
+      "target": "burner1"
+    },
+    {
+      "predicate": "on",
+      "source": "burner1",
+      "target": "grill1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "large"
+      },
+      "id": "burner1",
+      "label": "Grill Burner",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "grill1",
+      "label": "Grill",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "oil1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "donut1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "on",
+      "source": "donut2",
+      "target": "oil1"
+    },
+    {
+      "predicate": "on",
+      "source": "donut3",
+      "target": "oil1"
+    },
+    {
+      "predicate": "holding",
+      "source": "spatula1",
+      "target": "donut1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spatula1",
+      "target": "spatula2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "logo1",
+      "target": "spatula2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.0,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "donut1",
+      "label": "fried doughnut",
+      "location": "0.4,0.3,0.6,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "donut2",
+      "label": "fried doughnut",
+      "location": "0.7,0.3,0.9,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "donut3",
+      "label": "fried doughnut",
+      "location": "0.2,0.6,0.4,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear bubbling",
+        "size": "medium"
+      },
+      "id": "oil1",
+      "label": "cooking oil",
+      "location": "0.0,0.4,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "metal spatula",
+      "location": "0.0,0.0,0.5,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "spatula2",
+      "label": "metal spatula",
+      "location": "0.4,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white red black",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "MasterChef logo",
+      "location": "0.8,0.0,1.0,0.2,0.9"
+    }
+  ]
+}

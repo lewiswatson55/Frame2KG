@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "lettuce1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "board1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "wall1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue and beige stripes",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "Background Stripes",
+      "location": "0.0,0.0,1.0,0.65,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "black granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.75,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Mixing Bowl",
+      "location": "0.45,0.75,0.95,0.98,0.93"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce Leaves",
+      "location": "0.55,0.78,0.9,0.95,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "small"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.85,0.4,0.98,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "white tile",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "Tiled Wall",
+      "location": "0.0,0.65,1.0,0.8,0.85"
+    }
+  ]
+}

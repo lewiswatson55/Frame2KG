@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "in",
+      "source": "mixture1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "towel1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "blender1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white long-sleeve shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.0,0.5,0.6,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic lid white base",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "Blender",
+      "location": "0.3,0.1,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige creamy liquid",
+        "size": "small"
+      },
+      "id": "mixture1",
+      "label": "Mixture",
+      "location": "0.4,0.2,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red striped fabric",
+        "size": "medium"
+      },
+      "id": "towel1",
+      "label": "Towel",
+      "location": "0.7,0.2,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "Cabinet",
+      "location": "0.0,0.0,0.3,1.0,0.7"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_slices",
+      "target": "plate"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon_slices",
+      "target": "plate"
+    },
+    {
+      "predicate": "on",
+      "source": "salt_shaker",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper_shaker",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "blender",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board",
+      "target": "counter"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "window"
+    },
+    {
+      "predicate": "behind",
+      "source": "bottles",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt with white graphic",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.0,0.48,0.96,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black shirt with white graphic",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.35,0.0,0.95,0.95,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper plate",
+        "size": "medium"
+      },
+      "id": "plate",
+      "label": "plate",
+      "location": "0.25,0.65,0.55,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread slices",
+        "size": "small"
+      },
+      "id": "bread_slices",
+      "label": "bread slices",
+      "location": "0.3,0.7,0.5,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "raw red strips",
+        "size": "small"
+      },
+      "id": "bacon_slices",
+      "label": "bacon slices",
+      "location": "0.4,0.75,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with white powder",
+        "size": "small"
+      },
+      "id": "salt_shaker",
+      "label": "salt shaker",
+      "location": "0.45,0.65,0.5,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with black pepper",
+        "size": "small"
+      },
+      "id": "pepper_shaker",
+      "label": "pepper shaker",
+      "location": "0.5,0.65,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green smoothie in plastic container",
+        "size": "medium"
+      },
+      "id": "blender",
+      "label": "blender",
+      "location": "0.65,0.5,0.85,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden cutting board",
+        "size": "medium"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.75,0.75,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel countertop",
+        "size": "large"
+      },
+      "id": "counter",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottles on shelf",
+        "size": "medium"
+      },
+      "id": "bottles",
+      "label": "bottles",
+      "location": "0.8,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bowl with green liquid",
+        "size": "small"
+      },
+      "id": "jar",
+      "label": "jar",
+      "location": "0.85,0.55,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel window frame",
+        "size": "large"
+      },
+      "id": "window",
+      "label": "window",
+      "location": "0.0,0.0,0.5,0.6,0.7"
+    }
+  ]
+}

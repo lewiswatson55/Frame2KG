@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "fish_piece"
+    },
+    {
+      "predicate": "on",
+      "source": "knife",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "fish_piece",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fish_piece",
+      "target": "knife"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light brown wood grain",
+        "size": "large"
+      },
+      "id": "cutting_board",
+      "label": "wooden cutting board",
+      "location": "0.0,0.35,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal blade",
+        "size": "medium"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.4,0.0,0.8,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white flesh",
+        "size": "small"
+      },
+      "id": "fish_piece",
+      "label": "raw fish piece",
+      "location": "0.45,0.3,0.75,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.6,0.2,1.0,0.8,0.9"
+    }
+  ]
+}

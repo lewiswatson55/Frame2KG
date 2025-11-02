@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "display1",
+      "target": "panel"
+    },
+    {
+      "predicate": "left_of",
+      "source": "button5",
+      "target": "buttonstart"
+    },
+    {
+      "predicate": "right_of",
+      "source": "buttoncooktime",
+      "target": "buttonstart"
+    },
+    {
+      "predicate": "next_to",
+      "source": "buttonovenlight",
+      "target": "buttonstart"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "large"
+      },
+      "id": "panel",
+      "label": "microwave panel",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green digital",
+        "size": "medium"
+      },
+      "id": "display1",
+      "label": "digital display",
+      "location": "0.05,0.3,0.85,0.7,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "grey plastic",
+        "size": "small"
+      },
+      "id": "button5",
+      "label": "number 5 button",
+      "location": "0.6,0.75,0.75,0.9,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "grey plastic",
+        "size": "small"
+      },
+      "id": "buttonstart",
+      "label": "start button",
+      "location": "0.75,0.75,0.9,0.9,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "grey plastic",
+        "size": "small"
+      },
+      "id": "buttoncooktime",
+      "label": "cook time button",
+      "location": "0.85,0.4,1.0,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "grey plastic",
+        "size": "small"
+      },
+      "id": "buttonovenlight",
+      "label": "oven light button",
+      "location": "0.85,0.6,1.0,0.8,0.85"
+    }
+  ]
+}

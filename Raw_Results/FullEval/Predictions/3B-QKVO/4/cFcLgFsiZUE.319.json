@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "dog1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "dog1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "behind",
+      "source": "coffee_machine1",
+      "target": "person1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "coffee_machine1",
+      "target": "cabinet1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blonde hair white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.0,0.6,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white fluffy",
+        "size": "medium"
+      },
+      "id": "dog1",
+      "label": "dog",
+      "location": "0.4,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "coffee_machine1",
+      "label": "coffee machine",
+      "location": "0.0,0.3,0.2,0.6,0.6"
+    }
+  ]
+}

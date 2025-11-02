@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "batter1"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula1",
+      "target": "batter1"
+    },
+    {
+      "predicate": "in",
+      "source": "batter1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown skin",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.05,0.0,0.48,0.73,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "raw pink",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "raw chicken piece",
+      "location": "0.36,0.15,0.65,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy",
+        "size": "large"
+      },
+      "id": "batter1",
+      "label": "batter",
+      "location": "0.0,0.3,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "metal spatula",
+      "location": "0.4,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.5,1.0,1.0,0.7"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "liquid1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "ceramic bowl",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark brown liquid",
+        "size": "small"
+      },
+      "id": "liquid1",
+      "label": "soy sauce",
+      "location": "0.4,0.05,0.6,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "metal pan",
+      "location": "0.0,0.3,1.0,1.0,0.7"
+    }
+  ]
+}

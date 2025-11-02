@@ -1,0 +1,220 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "griddle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "can1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "mixing_bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "utensil_holder1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fridge1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "sink1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "window1",
+      "target": "fridge1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown hair, green top, black apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.4,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinets",
+      "location": "0.4,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.75,0.3,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass with white liquid",
+        "size": "small"
+      },
+      "id": "mixing_bowl1",
+      "label": "mixing bowl",
+      "location": "0.25,0.6,0.45,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.45,0.6,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "pancake1",
+      "label": "pancakes",
+      "location": "0.5,0.65,0.6,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "griddle1",
+      "label": "griddle",
+      "location": "0.6,0.55,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow metal",
+        "size": "small"
+      },
+      "id": "can1",
+      "label": "spray can",
+      "location": "0.15,0.6,0.25,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "jar",
+      "location": "0.2,0.75,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.7,0.5,0.8,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden handle",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.4,0.6,0.5,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "utensil_holder1",
+      "label": "utensil holder",
+      "location": "0.8,0.2,0.9,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl",
+      "location": "0.5,0.2,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass window",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.0,0.0,0.2,0.5,0.8"
+    }
+  ]
+}

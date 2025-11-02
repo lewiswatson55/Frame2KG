@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato1",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon1",
+      "target": "tomato1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "bacon1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown whole grain",
+        "size": "medium"
+      },
+      "id": "bread1",
+      "label": "slice of bread",
+      "location": "0.35,0.65,0.98,0.94,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white feta cheese",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "feta cream cheese slice",
+      "location": "0.40,0.70,0.75,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red juicy",
+        "size": "medium"
+      },
+      "id": "tomato1",
+      "label": "tomato slices",
+      "location": "0.35,0.60,0.98,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "crispy brown",
+        "size": "medium"
+      },
+      "id": "bacon1",
+      "label": "bacon strips",
+      "location": "0.35,0.50,0.98,0.70,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "large"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.30,0.20,0.98,0.60,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "wooden cutting board",
+      "location": "0.00,0.50,1.00,1.00,0.9"
+    }
+  ]
+}

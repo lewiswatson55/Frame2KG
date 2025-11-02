@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spatula"
+    },
+    {
+      "predicate": "in",
+      "source": "spatula",
+      "target": "bowl"
+    },
+    {
+      "predicate": "in",
+      "source": "flour",
+      "target": "bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl",
+      "target": "towel"
+    },
+    {
+      "predicate": "on",
+      "source": "towel",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "countertop",
+      "target": "kitchen_area"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl",
+      "label": "glass bowl",
+      "location": "0.05,0.15,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "medium"
+      },
+      "id": "flour",
+      "label": "flour mixture",
+      "location": "0.1,0.3,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green silicone",
+        "size": "small"
+      },
+      "id": "spatula",
+      "label": "spatula",
+      "location": "0.45,0.1,0.6,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.5,0.0,0.9,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "gray cloth",
+        "size": "medium"
+      },
+      "id": "towel",
+      "label": "cloth towel",
+      "location": "0.0,0.6,0.5,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "black fabric",
+        "size": "large"
+      },
+      "id": "kitchen_area",
+      "label": "kitchen area",
+      "location": "0.7,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

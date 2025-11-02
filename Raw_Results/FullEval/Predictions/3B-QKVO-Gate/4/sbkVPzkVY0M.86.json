@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bun1",
+      "target": "paper_towel1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lettuce1",
+      "target": "bun1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "bun1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light brown toasted",
+        "size": "medium"
+      },
+      "id": "bun1",
+      "label": "Burger Bun",
+      "location": "0.35,0.45,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "small"
+      },
+      "id": "paper_towel1",
+      "label": "Paper Towel",
+      "location": "0.2,0.3,0.4,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce",
+      "location": "0.7,0.3,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "Text Overlay",
+      "location": "0.75,0.8,0.95,0.95,0.9"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "bowl1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "celery1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken_bites1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "dip1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "celery1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black ceramic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Bowl of dip",
+      "location": "0.05,0.05,0.35,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green",
+        "size": "small"
+      },
+      "id": "celery1",
+      "label": "Celery sticks",
+      "location": "0.25,0.0,0.65,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red sauce-coated",
+        "size": "large"
+      },
+      "id": "chicken_bites1",
+      "label": "Chicken bites",
+      "location": "0.1,0.3,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl2",
+      "label": "Bowl of chips",
+      "location": "0.65,0.0,0.95,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.0,0.3,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy",
+        "size": "small"
+      },
+      "id": "dip1",
+      "label": "Dip",
+      "location": "0.05,0.05,0.3,0.3,0.6"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "whippedcream1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula1",
+      "target": "whippedcream1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "bottle1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.05,0.45,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy",
+        "size": "medium"
+      },
+      "id": "whippedcream1",
+      "label": "whipped cream",
+      "location": "0.1,0.5,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red silicone",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.3,0.2,0.6,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.0,0.0,0.3,0.2,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic red cap",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "bottle",
+      "location": "0.6,0.0,0.9,0.2,0.6"
+    }
+  ]
+}

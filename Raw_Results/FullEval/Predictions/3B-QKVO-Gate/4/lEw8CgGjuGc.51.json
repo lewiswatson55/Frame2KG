@@ -1,0 +1,89 @@
+{
+  "edges": [
+    {
+      "predicate": "pouring_into",
+      "source": "bowl1",
+      "target": "mixture1"
+    },
+    {
+      "predicate": "includes",
+      "source": "mixture1",
+      "target": "herbs1"
+    },
+    {
+      "predicate": "includes",
+      "source": "mixture1",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "on",
+      "source": "herbs1",
+      "target": "cheese1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown ceramic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "bowl",
+      "location": "0.45,0.0,0.75,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green chopped",
+        "size": "large"
+      },
+      "id": "herbs1",
+      "label": "chopped herbs",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white shredded",
+        "size": "large"
+      },
+      "id": "cheese1",
+      "label": "shredded cheese",
+      "location": "0.6,0.3,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red chunky",
+        "size": "medium"
+      },
+      "id": "meat1",
+      "label": "ground meat",
+      "location": "0.0,0.3,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red liquid",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "tomato sauce",
+      "location": "0.4,0.0,0.6,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red liquid",
+        "size": "small"
+      },
+      "id": "sauce2",
+      "label": "tomato sauce stream",
+      "location": "0.45,0.0,0.55,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red liquid",
+        "size": "small"
+      },
+      "id": "sauce3",
+      "label": "tomato sauce stream",
+      "location": "0.55,0.0,0.65,0.4,0.7"
+    }
+  ]
+}

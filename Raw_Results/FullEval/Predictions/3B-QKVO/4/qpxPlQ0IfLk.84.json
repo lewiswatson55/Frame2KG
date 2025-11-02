@@ -1,0 +1,137 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "lemon1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "avocado1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "jar1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bowl1",
+      "target": "lemon1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "knife1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "large"
+      },
+      "id": "blender1",
+      "label": "Blender",
+      "location": "0.15,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green metal can",
+        "size": "medium"
+      },
+      "id": "olive_oil1",
+      "label": "Olive Oil Can",
+      "location": "0.0,0.0,0.2,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark green skin",
+        "size": "medium"
+      },
+      "id": "avocado1",
+      "label": "Avocado",
+      "location": "0.1,0.3,0.3,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "Lemon",
+      "location": "0.4,0.4,0.5,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic with blue lid",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "Mayonnaise Jar",
+      "location": "0.35,0.2,0.5,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown glass with yellow label",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "Mustard Bottle",
+      "location": "0.55,0.1,0.7,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with white rice",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Rice Bowl",
+      "location": "0.5,0.45,0.7,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "Knife",
+      "location": "0.6,0.6,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "onion1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "onion1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.0,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow papery",
+        "size": "small"
+      },
+      "id": "onion1",
+      "label": "onion",
+      "location": "0.45,0.3,0.85,0.7,0.8"
+    }
+  ]
+}

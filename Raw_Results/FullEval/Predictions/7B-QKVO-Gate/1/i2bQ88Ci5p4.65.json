@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "sauce1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "sauce1"
+    },
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "panel1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "list1",
+      "target": "panel1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "orange gradient",
+        "size": "large"
+      },
+      "id": "panel1",
+      "label": "Panel",
+      "location": "0.0,0.0,0.45,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on orange background",
+        "size": "medium"
+      },
+      "id": "list1",
+      "label": "Recipe List",
+      "location": "0.0,0.0,0.38,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black and white graphic",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Logo",
+      "location": "0.0,0.6,0.2,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "Pot",
+      "location": "0.3,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red liquid",
+        "size": "medium"
+      },
+      "id": "sauce1",
+      "label": "Sauce",
+      "location": "0.35,0.3,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "Spatula",
+      "location": "0.4,0.6,0.95,0.9,0.8"
+    }
+  ]
+}

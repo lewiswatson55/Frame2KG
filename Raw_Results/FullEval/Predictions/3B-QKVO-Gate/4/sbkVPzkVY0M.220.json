@@ -1,0 +1,230 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "hotplate"
+    },
+    {
+      "predicate": "on",
+      "source": "hotplate",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce_plate",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato_plate",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle2",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "jar_set",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "plant_pot",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "frame_left",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "frame_right",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fruit_bowl",
+      "target": "frame_left"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet_left",
+      "target": "countertop"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet_right",
+      "target": "countertop"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cabinet_left",
+      "target": "cabinet_right"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.45,0.55,0.75,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "hotplate",
+      "label": "electric hot plate",
+      "location": "0.45,0.75,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "lettuce_plate",
+      "label": "plate of lettuce",
+      "location": "0.75,0.75,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "tomato_plate",
+      "label": "plate of tomatoes",
+      "location": "0.6,0.75,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red silicone handle",
+        "size": "small"
+      },
+      "id": "spatula",
+      "label": "spatula",
+      "location": "0.4,0.75,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass yellow liquid",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "sauce bottle",
+      "location": "0.3,0.75,0.35,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark glass red cap",
+        "size": "small"
+      },
+      "id": "bottle2",
+      "label": "seasoning bottle",
+      "location": "0.35,0.75,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jars wooden lid",
+        "size": "small"
+      },
+      "id": "jar_set",
+      "label": "spice jars",
+      "location": "0.7,0.5,0.85,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves brown pot",
+        "size": "small"
+      },
+      "id": "plant_pot",
+      "label": "potted plant",
+      "location": "0.0,0.3,0.15,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden bowl green apples",
+        "size": "small"
+      },
+      "id": "fruit_bowl",
+      "label": "fruit bowl",
+      "location": "0.0,0.5,0.15,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame photo",
+        "size": "small"
+      },
+      "id": "frame_left",
+      "label": "photo frame",
+      "location": "0.0,0.4,0.15,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame photo",
+        "size": "small"
+      },
+      "id": "frame_right",
+      "label": "photo frame",
+      "location": "0.75,0.1,0.9,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.0,0.5,1.0,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "large"
+      },
+      "id": "cabinet_left",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.3,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "large"
+      },
+      "id": "cabinet_right",
+      "label": "kitchen cabinet",
+      "location": "0.7,0.0,1.0,0.5,0.9"
+    }
+  ]
+}

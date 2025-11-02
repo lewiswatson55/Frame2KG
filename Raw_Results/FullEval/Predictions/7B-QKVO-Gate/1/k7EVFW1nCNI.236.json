@@ -1,0 +1,178 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "package1"
+    },
+    {
+      "predicate": "on",
+      "source": "sink1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "vase1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "soap1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "mug1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "microwave1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "faucet1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "stove1",
+      "target": "cabinet1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white lace top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "package1",
+      "label": "package",
+      "location": "0.47,0.45,0.58,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass vase with red roses",
+        "size": "medium"
+      },
+      "id": "vase1",
+      "label": "flower vase",
+      "location": "0.05,0.35,0.25,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "water bottle",
+      "location": "0.25,0.55,0.35,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "soap1",
+      "label": "soap dispenser",
+      "location": "0.35,0.55,0.45,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver stainless steel",
+        "size": "large"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.20,0.50,0.40,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.00,0.50,1.00,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "mug1",
+      "label": "mug",
+      "location": "0.60,0.55,0.68,0.70,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with yellow contents",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "jar",
+      "location": "0.68,0.55,0.75,0.70,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave",
+      "location": "0.75,0.05,0.95,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.70,0.60,1.00,1.00,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.00,0.00,1.00,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "faucet1",
+      "label": "faucet",
+      "location": "0.35,0.30,0.45,0.60,0.7"
+    }
+  ]
+}

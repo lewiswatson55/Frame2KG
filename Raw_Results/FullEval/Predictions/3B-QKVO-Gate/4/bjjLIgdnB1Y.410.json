@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "cake1"
+    },
+    {
+      "predicate": "on",
+      "source": "cake1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "towel1"
+    },
+    {
+      "predicate": "on",
+      "source": "towel1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.65,0.15,0.98,0.45,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow sponge-like",
+        "size": "small"
+      },
+      "id": "cake1",
+      "label": "sponge cake",
+      "location": "0.35,0.35,0.65,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.25,0.25,0.75,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white cloth",
+        "size": "medium"
+      },
+      "id": "towel1",
+      "label": "kitchen towel",
+      "location": "0.2,0.2,0.8,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.0,0.6,0.4,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "green plastic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.0,0.0,0.3,0.2,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "watermark text",
+      "location": "0.4,0.8,0.9,0.95,0.9"
+    }
+  ]
+}

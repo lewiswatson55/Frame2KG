@@ -1,0 +1,206 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person2",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "utensil_holder",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bottle_shelf",
+      "target": "person2"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop",
+      "target": "plate_with_meat"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop",
+      "target": "bowl_with_vegetables"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop",
+      "target": "bottle_group"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop",
+      "target": "sink"
+    },
+    {
+      "predicate": "includes",
+      "source": "stove",
+      "target": "pan1"
+    },
+    {
+      "predicate": "includes",
+      "source": "stove",
+      "target": "cast_iron_pan"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt with pig graphic",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.48,0.05,0.76,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "stovetop",
+      "location": "0.0,0.6,0.5,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic",
+        "size": "small"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.05,0.65,0.35,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black cast iron",
+        "size": "medium"
+      },
+      "id": "cast_iron_pan",
+      "label": "cast iron skillet",
+      "location": "0.35,0.75,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bowl with green herbs",
+        "size": "small"
+      },
+      "id": "bowl_with_vegetables",
+      "label": "bowl of vegetables",
+      "location": "0.8,0.7,0.95,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with raw meat slices",
+        "size": "small"
+      },
+      "id": "plate_with_meat",
+      "label": "plate of meat",
+      "location": "0.75,0.8,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottles on shelf",
+        "size": "medium"
+      },
+      "id": "bottle_shelf",
+      "label": "bottle shelf",
+      "location": "0.75,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel oven",
+        "size": "medium"
+      },
+      "id": "oven",
+      "label": "oven",
+      "location": "0.55,0.1,0.75,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass window",
+        "size": "large"
+      },
+      "id": "window",
+      "label": "window",
+      "location": "0.0,0.0,0.5,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden cabinet",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "kitchen cabinet",
+      "location": "0.75,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden utensils holder",
+        "size": "small"
+      },
+      "id": "utensil_holder",
+      "label": "utensil holder",
+      "location": "0.0,0.4,0.2,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass bottle group",
+        "size": "small"
+      },
+      "id": "bottle_group",
+      "label": "bottles",
+      "location": "0.8,0.6,0.95,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text",
+        "size": "small"
+      },
+      "id": "logo",
+      "label": "Tasted logo",
+      "location": "0.85,0.8,1.0,1.0,0.9"
+    }
+  ]
+}

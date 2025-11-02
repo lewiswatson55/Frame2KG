@@ -1,0 +1,132 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "bag1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bag2",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bag3",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "sauce1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red crispy",
+        "size": "large"
+      },
+      "id": "chicken1",
+      "label": "fried chicken",
+      "location": "0.15,0.45,0.85,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic with red sauce",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "hot sauce bottle",
+      "location": "0.55,0.15,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "ceramic bowl",
+      "location": "0.45,0.65,0.65,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "wooden board",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic bag with red text",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "plastic bag",
+      "location": "0.0,0.0,0.4,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic bag with green text",
+        "size": "large"
+      },
+      "id": "bag2",
+      "label": "plastic bag",
+      "location": "0.4,0.0,0.8,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic bag with white text",
+        "size": "large"
+      },
+      "id": "bag3",
+      "label": "plastic bag",
+      "location": "0.8,0.0,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "sauce container",
+      "location": "0.5,0.7,0.6,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green pepper pieces",
+        "size": "small"
+      },
+      "id": "pepper1",
+      "label": "pepper pieces",
+      "location": "0.75,0.85,0.9,0.95,0.8"
+    }
+  ]
+}

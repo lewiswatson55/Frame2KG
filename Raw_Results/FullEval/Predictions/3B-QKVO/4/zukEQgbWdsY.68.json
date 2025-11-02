@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "tray1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pot1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "ring1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.35,0.0,1.0,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.48,0.3,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.0,0.4,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "tray of fish",
+      "location": "0.0,0.2,0.5,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "pot",
+      "location": "0.5,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Tasted logo",
+      "location": "0.8,0.8,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "gold metal",
+        "size": "small"
+      },
+      "id": "ring1",
+      "label": "ring",
+      "location": "0.55,0.45,0.6,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    }
+  ]
+}

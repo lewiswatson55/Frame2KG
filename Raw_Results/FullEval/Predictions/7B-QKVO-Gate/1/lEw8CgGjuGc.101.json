@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "grill"
+    },
+    {
+      "predicate": "on",
+      "source": "patty2",
+      "target": "grill"
+    },
+    {
+      "predicate": "next_to",
+      "source": "patty1",
+      "target": "patty2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown raw meat with green herbs",
+        "size": "medium"
+      },
+      "id": "patty1",
+      "label": "beef patty",
+      "location": "0.35,0.4,0.68,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown raw meat with green herbs",
+        "size": "medium"
+      },
+      "id": "patty2",
+      "label": "beef patty",
+      "location": "0.0,0.0,0.4,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal bars",
+        "size": "large"
+      },
+      "id": "grill",
+      "label": "grill grate",
+      "location": "0.0,0.3,1.0,1.0,0.8"
+    }
+  ]
+}

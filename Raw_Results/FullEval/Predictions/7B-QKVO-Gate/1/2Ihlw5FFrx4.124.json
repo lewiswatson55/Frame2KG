@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "spread1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato1",
+      "target": "spread1"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon1",
+      "target": "tomato1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "bacon1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "lettuce1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "wooden cutting board",
+      "location": "0.0,0.65,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown whole grain",
+        "size": "medium"
+      },
+      "id": "bread1",
+      "label": "slice of bread",
+      "location": "0.05,0.7,0.95,0.98,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy",
+        "size": "small"
+      },
+      "id": "spread1",
+      "label": "cream cheese spread",
+      "location": "0.1,0.73,0.9,0.84,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red juicy",
+        "size": "medium"
+      },
+      "id": "tomato1",
+      "label": "sliced tomato",
+      "location": "0.1,0.6,0.9,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "crispy brown",
+        "size": "small"
+      },
+      "id": "bacon1",
+      "label": "bacon strips",
+      "location": "0.15,0.45,0.85,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "leaf lettuce",
+      "location": "0.1,0.2,0.9,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.0,0.0,0.4,0.3,0.8"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "handle1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black non-stick interior silver exterior",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "griddle pan",
+      "location": "0.05,0.05,0.98,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey silicone grip black plastic",
+        "size": "medium"
+      },
+      "id": "handle1",
+      "label": "pan handle",
+      "location": "0.00,0.10,0.40,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white smooth surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.00,0.00,1.00,1.00,0.7"
+    }
+  ]
+}

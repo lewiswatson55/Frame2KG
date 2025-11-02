@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "lettuce1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "croutons1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "fork1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "fork1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "person1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "salad bowl",
+      "location": "0.05,0.3,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.2,0.4,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "croutons1",
+      "label": "croutons",
+      "location": "0.3,0.5,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "fork1",
+      "label": "fork",
+      "location": "0.4,0.0,0.6,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.7,0.0,1.0,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood grain",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "wooden table",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "gray floral patterned shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person torso",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "meat1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "meat1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "small"
+      },
+      "id": "meat1",
+      "label": "raw meat slice",
+      "location": "0.3,0.45,0.6,0.75,0.88"
+    }
+  ]
+}

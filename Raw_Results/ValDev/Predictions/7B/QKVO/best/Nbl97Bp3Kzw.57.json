@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "sign1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "candle_holder1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "in",
+      "source": "candles1",
+      "target": "candle_holder1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "shelf1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "wooden brown frame green text",
+        "size": "medium"
+      },
+      "id": "sign1",
+      "label": "restaurant sign",
+      "location": "0.05,0.15,0.95,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white painted wood",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "candle_holder1",
+      "label": "glass candle holder",
+      "location": "0.03,0.65,0.25,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wax",
+        "size": "small"
+      },
+      "id": "candles1",
+      "label": "candles",
+      "location": "0.05,0.68,0.23,0.82,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black cap red shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "person head",
+      "location": "0.75,0.0,1.0,1.0,0.9"
+    }
+  ]
+}

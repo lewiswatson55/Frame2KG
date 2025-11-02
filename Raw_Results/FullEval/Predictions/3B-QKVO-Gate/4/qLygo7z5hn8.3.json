@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "play_icon",
+      "target": "text1"
+    },
+    {
+      "predicate": "below",
+      "source": "tagline_text",
+      "target": "text1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green gradient",
+        "size": "large"
+      },
+      "id": "text1",
+      "label": "Howdini logo text",
+      "location": "0.15,0.35,0.85,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white play symbol",
+        "size": "small"
+      },
+      "id": "play_icon",
+      "label": "Play icon",
+      "location": "0.45,0.45,0.55,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey text",
+        "size": "medium"
+      },
+      "id": "tagline_text",
+      "label": "Tagline text",
+      "location": "0.3,0.65,0.7,0.75,0.8"
+    }
+  ]
+}

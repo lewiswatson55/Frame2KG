@@ -1,0 +1,150 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "whisk1"
+    },
+    {
+      "predicate": "in",
+      "source": "whisk1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "butter1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "spatula1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bowl2",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "measuring_cup1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "tray1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "purple shirt white apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Mixing Bowl",
+      "location": "0.3,0.2,0.7,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal handle black head",
+        "size": "small"
+      },
+      "id": "whisk1",
+      "label": "Whisk",
+      "location": "0.6,0.2,0.9,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.2,0.3,0.3,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow butter",
+        "size": "small"
+      },
+      "id": "butter1",
+      "label": "Butter",
+      "location": "0.25,0.35,0.3,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "Baking Tray",
+      "location": "0.0,0.4,0.2,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "measuring_cup1",
+      "label": "Measuring Cup",
+      "location": "0.0,0.7,0.2,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "Spatula",
+      "location": "0.3,0.6,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal slotted",
+        "size": "medium"
+      },
+      "id": "spatula2",
+      "label": "Serving Spatula",
+      "location": "0.7,0.5,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark red ceramic",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "Small Bowl",
+      "location": "0.8,0.3,0.95,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "Cabinet",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

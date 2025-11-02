@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "display1",
+      "target": "panel1"
+    },
+    {
+      "predicate": "on",
+      "source": "button1",
+      "target": "panel1"
+    },
+    {
+      "predicate": "on",
+      "source": "button2",
+      "target": "panel1"
+    },
+    {
+      "predicate": "on",
+      "source": "indicator1",
+      "target": "panel1"
+    },
+    {
+      "predicate": "on",
+      "source": "knob1",
+      "target": "panel1"
+    },
+    {
+      "predicate": "on",
+      "source": "sensor1",
+      "target": "panel1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "finger1",
+      "target": "panel1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "panel1",
+      "label": "control panel",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue LED",
+        "size": "medium"
+      },
+      "id": "display1",
+      "label": "digital display",
+      "location": "0.35,0.1,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "button1",
+      "label": "up arrow button",
+      "location": "0.27,0.05,0.33,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "button2",
+      "label": "down arrow button",
+      "location": "0.27,0.2,0.33,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red LED",
+        "size": "small"
+      },
+      "id": "indicator1",
+      "label": "power indicator light",
+      "location": "0.3,0.45,0.35,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "knob1",
+      "label": "dial knob",
+      "location": "0.45,0.45,0.55,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green LED",
+        "size": "small"
+      },
+      "id": "sensor1",
+      "label": "temperature sensor",
+      "location": "0.6,0.45,0.68,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "finger1",
+      "label": "finger",
+      "location": "0.75,0.1,1.0,0.4,0.7"
+    }
+  ]
+}

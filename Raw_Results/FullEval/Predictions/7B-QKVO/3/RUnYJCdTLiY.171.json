@@ -1,0 +1,131 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "butter1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sink1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "utensil_holder1",
+      "target": "knife_block1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "tomato_bowl1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "mixing_bowl1",
+      "target": "tomato_bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "purple shirt white apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "griddle pan",
+      "location": "0.05,0.45,0.5,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "butter1",
+      "label": "stick of butter",
+      "location": "0.3,0.45,0.4,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black glass",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.5,0.4,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.2,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "kitchen sink",
+      "location": "0.75,0.1,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "utensil_holder1",
+      "label": "utensil holder",
+      "location": "0.1,0.05,0.2,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "knife_block1",
+      "label": "knife block",
+      "location": "0.2,0.05,0.3,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "tomato_bowl1",
+      "label": "small bowl",
+      "location": "0.5,0.6,0.6,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "mixing_bowl1",
+      "label": "glass mixing bowl",
+      "location": "0.6,0.6,1.0,1.0,0.8"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bottle1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "includes",
+      "source": "blender1",
+      "target": "fruit1"
+    },
+    {
+      "predicate": "includes",
+      "source": "blender1",
+      "target": "candle1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "text1",
+      "target": "text2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.65,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown glass bottle with green label",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "cayenne pepper bottle",
+      "location": "0.78,0.0,0.93,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "mixing bowl",
+      "location": "0.35,0.35,0.65,0.75,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white candle",
+        "size": "small"
+      },
+      "id": "candle1",
+      "label": "candle",
+      "location": "0.45,0.45,0.55,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green grapes",
+        "size": "small"
+      },
+      "id": "fruit1",
+      "label": "grapes",
+      "location": "0.35,0.65,0.65,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on white background",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "ingredients text",
+      "location": "0.0,0.8,0.3,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on white background",
+        "size": "small"
+      },
+      "id": "text2",
+      "label": "pinch cayenne pepper text",
+      "location": "0.3,0.8,0.6,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey surface",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "countertop",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

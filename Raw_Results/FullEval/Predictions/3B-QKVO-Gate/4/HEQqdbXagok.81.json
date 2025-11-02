@@ -1,0 +1,53 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "mixture1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "whisk1",
+      "target": "mixture1"
+    },
+    {
+      "predicate": "stirring",
+      "source": "whisk1",
+      "target": "mixture1"
+    },
+    {
+      "predicate": "in",
+      "source": "whisk1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.05,0.0,0.95,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy",
+        "size": "medium"
+      },
+      "id": "mixture1",
+      "label": "cream mixture",
+      "location": "0.1,0.1,0.9,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "small"
+      },
+      "id": "whisk1",
+      "label": "whisk",
+      "location": "0.6,0.0,1.0,0.4,0.6"
+    }
+  ]
+}

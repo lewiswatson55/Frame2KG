@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "display1",
+      "target": "panel1"
+    },
+    {
+      "predicate": "on",
+      "source": "button1",
+      "target": "panel1"
+    },
+    {
+      "predicate": "on",
+      "source": "button2",
+      "target": "panel1"
+    },
+    {
+      "predicate": "on",
+      "source": "button3",
+      "target": "panel1"
+    },
+    {
+      "predicate": "on",
+      "source": "button4",
+      "target": "panel1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "button5",
+      "target": "button4"
+    },
+    {
+      "predicate": "left_of",
+      "source": "button6",
+      "target": "button5"
+    },
+    {
+      "predicate": "right_of",
+      "source": "button7",
+      "target": "button5"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "large"
+      },
+      "id": "panel1",
+      "label": "microwave panel",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green LED",
+        "size": "medium"
+      },
+      "id": "display1",
+      "label": "digital display",
+      "location": "0.1,0.3,0.8,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange LED",
+        "size": "small"
+      },
+      "id": "indicator1",
+      "label": "indicator light",
+      "location": "0.0,0.6,0.2,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "small"
+      },
+      "id": "button1",
+      "label": "COOK TIME button",
+      "location": "0.8,0.2,0.95,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "small"
+      },
+      "id": "button2",
+      "label": "KITCHEN TIMER ON/OFF button",
+      "location": "0.8,0.4,0.95,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "small"
+      },
+      "id": "button3",
+      "label": "START button",
+      "location": "0.8,0.6,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "small"
+      },
+      "id": "button4",
+      "label": "OVEN LIGHT button",
+      "location": "0.8,0.75,0.95,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "gray plastic",
+        "size": "small"
+      },
+      "id": "button5",
+      "label": "number 5 button",
+      "location": "0.4,0.8,0.5,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "gray plastic",
+        "size": "small"
+      },
+      "id": "button6",
+      "label": "number 6 button",
+      "location": "0.5,0.8,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "gray plastic",
+        "size": "small"
+      },
+      "id": "button7",
+      "label": "number 7 button",
+      "location": "0.6,0.8,0.7,0.9,0.8"
+    }
+  ]
+}

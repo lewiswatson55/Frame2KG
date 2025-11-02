@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "herb1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "herb2",
+      "target": "plate2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "plate2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "ceramic plate",
+      "location": "0.05,0.6,0.45,0.98,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate2",
+      "label": "ceramic plate",
+      "location": "0.35,0.6,0.95,0.98,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "herb1",
+      "label": "herb sprig",
+      "location": "0.0,0.0,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "herb2",
+      "label": "herb sprig",
+      "location": "0.4,0.0,0.95,0.6,0.8"
+    }
+  ]
+}

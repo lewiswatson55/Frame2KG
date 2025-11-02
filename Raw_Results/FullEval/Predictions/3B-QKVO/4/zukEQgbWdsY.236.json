@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in",
+      "source": "sauce1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cloth1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "oven1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.05,0.05,0.45,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.30,0.15,0.70,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted brown bread",
+        "size": "medium"
+      },
+      "id": "bread1",
+      "label": "bread slices",
+      "location": "0.35,0.45,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.20,0.30,0.80,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl of sauce",
+      "location": "0.10,0.70,0.30,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green creamy",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "avocado spread",
+      "location": "0.15,0.75,0.30,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red fabric",
+        "size": "small"
+      },
+      "id": "cloth1",
+      "label": "kitchen towel",
+      "location": "0.00,0.60,0.20,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "oven1",
+      "label": "oven",
+      "location": "0.30,0.00,0.70,0.30,0.8"
+    }
+  ]
+}

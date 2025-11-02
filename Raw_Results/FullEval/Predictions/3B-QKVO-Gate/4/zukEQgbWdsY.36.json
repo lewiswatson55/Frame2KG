@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand_left",
+      "target": "pan1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand_right",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black cast iron",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "cast iron skillet",
+      "location": "0.05,0.3,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal grate",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "gas stove burner",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand_left",
+      "label": "left hand",
+      "location": "0.4,0.0,0.6,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand_right",
+      "label": "right hand",
+      "location": "0.7,0.0,1.0,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "TASTED logo",
+      "location": "0.75,0.75,0.95,0.95,0.6"
+    }
+  ]
+}

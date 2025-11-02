@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "mixture1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "metal pot",
+      "location": "0.05,0.0,0.95,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow creamy liquid with black specks",
+        "size": "medium"
+      },
+      "id": "mixture1",
+      "label": "liquid mixture",
+      "location": "0.05,0.0,0.95,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black surface",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.0,0.8,1.0,1.0,0.6"
+    }
+  ]
+}

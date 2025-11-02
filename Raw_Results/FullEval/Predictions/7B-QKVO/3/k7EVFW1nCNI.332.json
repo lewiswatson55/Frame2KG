@@ -1,0 +1,211 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "vase1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "soap1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "knife_block1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "mug1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "microwave1",
+      "target": "cabinets1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "faucet1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "dishwasher1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "right_of",
+      "source": "stove1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cutting_board1",
+      "target": "blender1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white lace top",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass vase with red roses",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "flower vase",
+      "location": "0.15,0.25,0.25,0.45,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic bottle",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "bottle",
+      "location": "0.25,0.35,0.3,0.45,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass soap dispenser",
+        "size": "small"
+      },
+      "id": "soap1",
+      "label": "soap dispenser",
+      "location": "0.3,0.35,0.35,0.45,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black handle knife block",
+        "size": "small"
+      },
+      "id": "knife_block1",
+      "label": "knife block",
+      "location": "0.3,0.45,0.35,0.55,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden cutting board",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.4,0.75,0.6,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic blender",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.6,0.75,0.75,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green ceramic pot",
+        "size": "small"
+      },
+      "id": "pot1",
+      "label": "pot",
+      "location": "0.8,0.6,0.9,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic mug",
+        "size": "small"
+      },
+      "id": "mug1",
+      "label": "mug",
+      "location": "0.7,0.5,0.75,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal stove",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.7,0.5,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black microwave",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave",
+      "location": "0.75,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver stainless steel sink",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.3,0.3,0.45,0.45,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic faucet",
+        "size": "small"
+      },
+      "id": "faucet1",
+      "label": "faucet",
+      "location": "0.35,0.2,0.45,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white cabinets",
+        "size": "large"
+      },
+      "id": "cabinets1",
+      "label": "kitchen cabinets",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel appliance",
+        "size": "large"
+      },
+      "id": "dishwasher1",
+      "label": "dishwasher",
+      "location": "0.0,0.6,0.3,1.0,0.8"
+    }
+  ]
+}

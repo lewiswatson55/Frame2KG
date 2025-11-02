@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "meat1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "tongs1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "cup1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bag1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cloth1",
+      "target": "board1"
+    },
+    {
+      "predicate": "behind",
+      "source": "stove1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white coat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.35,0.0,0.98,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.2,0.2,0.6,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red minced",
+        "size": "small"
+      },
+      "id": "meat1",
+      "label": "ground meat",
+      "location": "0.25,0.25,0.55,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "metal tongs",
+      "location": "0.0,0.45,0.3,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "cup1",
+      "label": "measuring cup",
+      "location": "0.7,0.5,0.9,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "medium"
+      },
+      "id": "bag1",
+      "label": "ziplock bag",
+      "location": "0.6,0.6,0.95,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cloth",
+        "size": "small"
+      },
+      "id": "cloth1",
+      "label": "kitchen towel",
+      "location": "0.0,0.6,0.2,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove burner",
+      "location": "0.0,0.0,0.3,0.3,0.6"
+    }
+  ]
+}

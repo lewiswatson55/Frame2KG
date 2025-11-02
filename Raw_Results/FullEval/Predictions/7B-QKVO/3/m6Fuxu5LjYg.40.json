@@ -1,0 +1,86 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken2",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken3",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken4",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chicken1",
+      "target": "chicken2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chicken2",
+      "target": "chicken3"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chicken3",
+      "target": "chicken4"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "fried chicken piece",
+      "location": "0.05,0.18,0.60,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken2",
+      "label": "fried chicken piece",
+      "location": "0.35,0.05,0.75,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken3",
+      "label": "fried chicken piece",
+      "location": "0.60,0.20,0.95,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken4",
+      "label": "fried chicken piece",
+      "location": "0.45,0.50,0.90,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

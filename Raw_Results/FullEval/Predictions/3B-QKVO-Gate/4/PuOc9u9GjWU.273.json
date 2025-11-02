@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "background1"
+    },
+    {
+      "predicate": "on",
+      "source": "stripes1",
+      "target": "background1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "stripes1",
+      "target": "text1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "solid pink",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "pink background",
+      "location": "0.0,0.0,1.0,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on purple bar",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "thank you message",
+      "location": "0.35,0.45,0.65,0.55,0.97"
+    },
+    {
+      "attributes": {
+        "appearance": "vertical stripes of pink and beige",
+        "size": "small"
+      },
+      "id": "stripes1",
+      "label": "horizontal stripes",
+      "location": "0.0,0.0,0.2,1.0,0.85"
+    }
+  ]
+}

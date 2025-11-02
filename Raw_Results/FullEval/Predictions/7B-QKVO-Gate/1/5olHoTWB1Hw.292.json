@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl1",
+      "target": "food1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "package1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "plate1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green plastic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.15,0.1,0.85,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crumbly",
+        "size": "medium"
+      },
+      "id": "food1",
+      "label": "crumb mixture",
+      "location": "0.3,0.4,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "spoon",
+      "location": "0.6,0.0,0.9,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.6,0.3,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow orange packaging",
+        "size": "medium"
+      },
+      "id": "package1",
+      "label": "snack package",
+      "location": "0.0,0.0,0.4,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "baking pan",
+      "location": "0.0,0.3,0.4,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "green ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.7,0.0,1.0,0.2,0.6"
+    }
+  ]
+}

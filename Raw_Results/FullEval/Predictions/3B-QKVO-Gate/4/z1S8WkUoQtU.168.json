@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "painting1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "vase1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "sofa1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "fork_icon1",
+      "target": "painting1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "spoon_icon1",
+      "target": "painting1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink shirt,long brown hair",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.25,0.0,0.75,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "medium"
+      },
+      "id": "vase1",
+      "label": "decorative vase",
+      "location": "0.75,0.3,0.95,0.8,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "brown leather",
+        "size": "large"
+      },
+      "id": "sofa1",
+      "label": "couch",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "gray frame",
+        "size": "medium"
+      },
+      "id": "painting1",
+      "label": "abstract painting",
+      "location": "0.1,0.0,0.4,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow icon",
+        "size": "small"
+      },
+      "id": "fork_icon1",
+      "label": "fork icon",
+      "location": "0.0,0.0,0.1,0.1,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow icon",
+        "size": "small"
+      },
+      "id": "spoon_icon1",
+      "label": "spoon icon",
+      "location": "0.1,0.0,0.2,0.1,0.6"
+    }
+  ]
+}

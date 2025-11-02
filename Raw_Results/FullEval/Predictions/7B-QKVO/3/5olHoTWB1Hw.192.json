@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "in",
+      "source": "cheese1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "rack1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "medium"
+      },
+      "id": "bag1",
+      "label": "plastic bag",
+      "location": "0.35,0.05,0.98,0.65,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow shredded",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "shredded cheese",
+      "location": "0.4,0.1,0.9,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.2,0.1,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.0,0.0,0.5,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.75,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal bars",
+        "size": "medium"
+      },
+      "id": "rack1",
+      "label": "oven rack",
+      "location": "0.0,0.0,0.4,0.3,0.7"
+    }
+  ]
+}

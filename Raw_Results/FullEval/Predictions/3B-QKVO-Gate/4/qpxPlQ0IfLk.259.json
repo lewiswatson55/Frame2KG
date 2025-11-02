@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "dressing1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "behind",
+      "source": "pot1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "logo1",
+      "target": "pot1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.05,0.35,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grilled pinkish white",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "Chicken slices",
+      "location": "0.2,0.4,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce leaves",
+      "location": "0.1,0.3,0.7,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "creamy yellow",
+        "size": "small"
+      },
+      "id": "dressing1",
+      "label": "Dressing drizzle",
+      "location": "0.2,0.4,0.6,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Wooden bowl",
+      "location": "0.85,0.4,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "Cooking pot",
+      "location": "0.5,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Hungry logo",
+      "location": "0.0,0.0,0.3,0.2,0.7"
+    }
+  ]
+}

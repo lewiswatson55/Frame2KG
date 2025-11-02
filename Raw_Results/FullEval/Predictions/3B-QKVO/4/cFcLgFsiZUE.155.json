@@ -1,0 +1,126 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "chicken_piece"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_of_chicken",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_of_sauce",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fridge",
+      "target": "cabinet_left"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet_right"
+    },
+    {
+      "predicate": "behind",
+      "source": "stove",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blonde hair white shirt black apron",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.05,0.48,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black chef coat glasses beard",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.48,0.05,0.95,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate_of_chicken",
+      "label": "plate of chicken wings",
+      "location": "0.35,0.75,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl_of_sauce",
+      "label": "sauce bowl",
+      "location": "0.25,0.8,0.35,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "fridge",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.3,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet_left",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.2,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark brown wood",
+        "size": "large"
+      },
+      "id": "cabinet_right",
+      "label": "kitchen cabinet",
+      "location": "0.6,0.0,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "medium"
+      },
+      "id": "mixer",
+      "label": "stand mixer",
+      "location": "0.45,0.2,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic",
+        "size": "medium"
+      },
+      "id": "stove",
+      "label": "stovetop",
+      "location": "0.8,0.6,1.0,0.9,0.8"
+    }
+  ]
+}

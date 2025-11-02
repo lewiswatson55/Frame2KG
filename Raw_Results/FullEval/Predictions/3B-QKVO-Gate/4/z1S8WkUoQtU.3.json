@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "tablecloth1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "tablecloth1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl3",
+      "target": "tablecloth1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "behind",
+      "source": "chair1",
+      "target": "tablecloth1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.45,0.0,0.75,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic with floral pattern",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.15,0.4,0.45,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl2",
+      "label": "Bowl",
+      "location": "0.5,0.5,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl3",
+      "label": "Bowl",
+      "location": "0.8,0.45,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "multicolored dotted fabric",
+        "size": "large"
+      },
+      "id": "tablecloth1",
+      "label": "Tablecloth",
+      "location": "0.0,0.5,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "chair1",
+      "label": "Chair",
+      "location": "0.6,0.0,1.0,0.5,0.6"
+    }
+  ]
+}

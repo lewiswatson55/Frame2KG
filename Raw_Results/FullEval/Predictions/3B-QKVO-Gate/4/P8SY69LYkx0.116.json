@@ -1,0 +1,123 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "gloved_hand1",
+      "target": "bowl"
+    },
+    {
+      "predicate": "holding",
+      "source": "gloved_hand2",
+      "target": "bowl"
+    },
+    {
+      "predicate": "in",
+      "source": "meat_mix",
+      "target": "bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "tongs",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "cloth",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "ziplock_bag",
+      "target": "board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tongs",
+      "target": "bowl"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cloth",
+      "target": "bowl"
+    },
+    {
+      "predicate": "right_of",
+      "source": "ziplock_bag",
+      "target": "bowl"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white latex",
+        "size": "medium"
+      },
+      "id": "gloved_hand1",
+      "label": "Gloved Hand",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white latex",
+        "size": "medium"
+      },
+      "id": "gloved_hand2",
+      "label": "Gloved Hand",
+      "location": "0.55,0.0,0.95,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl",
+      "label": "Glass Bowl",
+      "location": "0.3,0.2,0.7,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red minced meat with green herbs",
+        "size": "medium"
+      },
+      "id": "meat_mix",
+      "label": "Meat Mixture",
+      "location": "0.35,0.3,0.65,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "tongs",
+      "label": "Metal Tongs",
+      "location": "0.0,0.4,0.3,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow fabric",
+        "size": "small"
+      },
+      "id": "cloth",
+      "label": "Cloth",
+      "location": "0.0,0.7,0.2,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "medium"
+      },
+      "id": "ziplock_bag",
+      "label": "Ziplock Bag",
+      "location": "0.7,0.7,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "Cutting Board",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    }
+  ]
+}

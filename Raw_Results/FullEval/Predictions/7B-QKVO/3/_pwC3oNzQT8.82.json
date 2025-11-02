@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "on",
+      "source": "dish1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "spatula1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "logo1",
+      "target": "dish1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown seasoned",
+        "size": "large"
+      },
+      "id": "chicken1",
+      "label": "raw chicken pieces",
+      "location": "0.35,0.05,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "dish1",
+      "label": "glass baking dish",
+      "location": "0.3,0.0,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.0,0.0,0.4,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "metal spatula",
+      "location": "0.0,0.6,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white marble",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "marble countertop",
+      "location": "0.0,0.5,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black white text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Chef Ricardo logo",
+      "location": "0.6,0.75,1.0,1.0,0.9"
+    }
+  ]
+}

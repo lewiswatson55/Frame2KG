@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in",
+      "source": "sauce1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.35,0.4,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "creamy sauce",
+      "location": "0.38,0.45,0.62,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "wooden cutting board",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "granite countertop",
+      "location": "0.0,0.0,1.0,0.4,0.8"
+    }
+  ]
+}

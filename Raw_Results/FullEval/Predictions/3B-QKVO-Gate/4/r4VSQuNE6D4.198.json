@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "handle1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stovetop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.05,0.05,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "handle1",
+      "label": "pan handle",
+      "location": "0.0,0.0,0.3,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "pancake1",
+      "label": "pancake",
+      "location": "0.45,0.25,0.75,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white glossy",
+        "size": "large"
+      },
+      "id": "stovetop1",
+      "label": "stovetop",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

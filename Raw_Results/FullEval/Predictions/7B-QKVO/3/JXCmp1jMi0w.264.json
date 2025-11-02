@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "tongs1",
+      "target": "chicken_piece1"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken_pieces1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "stove1",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "tongs1",
+      "label": "Tongs",
+      "location": "0.35,0.0,0.65,0.25,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "chicken_piece1",
+      "label": "Fried Chicken Piece",
+      "location": "0.48,0.0,0.75,0.25,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "chicken_pieces1",
+      "label": "Fried Chicken Pieces",
+      "location": "0.4,0.3,0.8,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black non-stick",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "Cooking Pot",
+      "location": "0.0,0.2,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "Stovetop",
+      "location": "0.0,0.8,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white painted",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "Wall",
+      "location": "0.0,0.0,0.3,1.0,0.7"
+    }
+  ]
+}

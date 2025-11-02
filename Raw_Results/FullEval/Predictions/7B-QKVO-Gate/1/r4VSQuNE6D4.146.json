@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "syringe1"
+    },
+    {
+      "predicate": "on",
+      "source": "syringe1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "drip1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "pan1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black non-stick",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.05,0.05,0.98,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "syringe1",
+      "label": "syringe",
+      "location": "0.67,0.0,0.94,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pale yellow liquid",
+        "size": "small"
+      },
+      "id": "drip1",
+      "label": "liquid drip",
+      "location": "0.55,0.45,0.65,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.65,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

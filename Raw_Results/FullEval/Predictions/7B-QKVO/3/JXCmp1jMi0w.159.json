@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "on",
+      "source": "shoes1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "towel1",
+      "target": "table1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "table1",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green and white striped shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.0,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige paper bag with pink label",
+        "size": "medium"
+      },
+      "id": "bag1",
+      "label": "paper bag",
+      "location": "0.3,0.4,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.6,0.2,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink plastic",
+        "size": "small"
+      },
+      "id": "shoes1",
+      "label": "shoe box",
+      "location": "0.75,0.2,0.95,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white cloth",
+        "size": "small"
+      },
+      "id": "towel1",
+      "label": "towel",
+      "location": "0.7,0.4,0.9,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white painted",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.6,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

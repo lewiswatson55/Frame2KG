@@ -1,0 +1,117 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "fork"
+    },
+    {
+      "predicate": "holding",
+      "source": "person2",
+      "target": "spoon"
+    },
+    {
+      "predicate": "in",
+      "source": "lettuce",
+      "target": "bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl",
+      "target": "counter"
+    },
+    {
+      "predicate": "behind",
+      "source": "bread_rack",
+      "target": "person2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pot",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.0,0.48,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white sweater",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.37,0.0,0.96,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "bowl",
+      "label": "mixing bowl",
+      "location": "0.25,0.6,0.75,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce",
+      "label": "salad greens",
+      "location": "0.3,0.7,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "small"
+      },
+      "id": "fork",
+      "label": "fork",
+      "location": "0.1,0.6,0.4,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "small"
+      },
+      "id": "spoon",
+      "label": "spoon",
+      "location": "0.45,0.4,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread loaves",
+        "size": "medium"
+      },
+      "id": "bread_rack",
+      "label": "bread rack",
+      "location": "0.4,0.1,0.9,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "pot",
+      "label": "cooking pot",
+      "location": "0.8,0.6,1.0,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "counter",
+      "label": "countertop",
+      "location": "0.0,0.8,1.0,1.0,0.7"
+    }
+  ]
+}

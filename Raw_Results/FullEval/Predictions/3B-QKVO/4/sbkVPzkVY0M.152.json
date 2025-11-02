@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "burger1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "tomato1"
+    },
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "bun1"
+    },
+    {
+      "predicate": "on",
+      "source": "bun1",
+      "target": "table1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cup1",
+      "target": "burger1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown bread with green lettuce red tomato yellow cheese brown patty",
+        "size": "large"
+      },
+      "id": "burger1",
+      "label": "Hamburger",
+      "location": "0.35,0.0,1.0,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce",
+      "location": "0.4,0.1,0.7,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "red slice",
+        "size": "small"
+      },
+      "id": "tomato1",
+      "label": "Tomato Slice",
+      "location": "0.5,0.2,0.9,0.5,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow melted",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "Cheese Slice",
+      "location": "0.5,0.3,0.9,0.6,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "brown grilled",
+        "size": "medium"
+      },
+      "id": "patty1",
+      "label": "Patty",
+      "location": "0.45,0.45,0.9,0.8,0.92"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown soft",
+        "size": "large"
+      },
+      "id": "bun1",
+      "label": "Bun",
+      "location": "0.3,0.6,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table",
+      "location": "0.0,0.6,1.0,1.0,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "cup1",
+      "label": "Cup",
+      "location": "0.2,0.0,0.5,0.3,0.80"
+    }
+  ]
+}

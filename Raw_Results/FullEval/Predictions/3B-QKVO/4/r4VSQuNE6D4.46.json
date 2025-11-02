@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "bowl1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "on",
+      "source": "paper1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "in",
+      "source": "drain1",
+      "target": "sink1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "sauce bottle",
+      "location": "0.3,0.4,0.45,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "large"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.2,0.45,0.6,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "medium"
+      },
+      "id": "paper1",
+      "label": "paper towel",
+      "location": "0.0,0.7,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "drain1",
+      "label": "sink drain",
+      "location": "0.75,0.6,0.95,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

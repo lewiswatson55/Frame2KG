@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "herb1",
+      "target": "board1"
+    },
+    {
+      "predicate": "cutting",
+      "source": "knife1",
+      "target": "herb1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "metallic silver blade",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "Knife",
+      "location": "0.35,0.0,0.98,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "large"
+      },
+      "id": "herb1",
+      "label": "Herbs",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.5,1.0,1.0,0.6"
+    }
+  ]
+}

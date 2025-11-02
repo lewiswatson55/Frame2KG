@@ -1,0 +1,109 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "plate1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "person1",
+      "target": "field1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person2",
+      "target": "person3"
+    },
+    {
+      "predicate": "right_of",
+      "source": "person4",
+      "target": "person3"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person2",
+      "target": "person1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person3",
+      "target": "person1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person4",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white uniform",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "football player",
+      "location": "0.35,0.15,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange crispy",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "chicken wing",
+      "location": "0.45,0.25,0.58,0.38,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.42,0.22,0.55,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green turf",
+        "size": "large"
+      },
+      "id": "field1",
+      "label": "football field",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple uniform",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "football player",
+      "location": "0.0,0.0,0.2,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple uniform",
+        "size": "medium"
+      },
+      "id": "person3",
+      "label": "football player",
+      "location": "0.3,0.0,0.5,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple uniform",
+        "size": "medium"
+      },
+      "id": "person4",
+      "label": "football player",
+      "location": "0.7,0.0,1.0,0.4,0.8"
+    }
+  ]
+}

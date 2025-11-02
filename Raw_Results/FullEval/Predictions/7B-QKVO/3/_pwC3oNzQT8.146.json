@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "on",
+      "source": "sauce1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "pouring_on",
+      "source": "hand1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "sauce1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "logo1",
+      "target": "dish1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "dish1",
+      "label": "glass baking dish",
+      "location": "0.05,0.3,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "raw seasoned",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "raw chicken pieces",
+      "location": "0.1,0.4,0.9,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange liquid",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "marinade sauce",
+      "location": "0.4,0.0,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.45,0.0,0.65,0.3,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black silhouette",
+        "size": "medium"
+      },
+      "id": "logo1",
+      "label": "Chef Ricardo logo",
+      "location": "0.5,0.75,0.95,0.95,0.9"
+    }
+  ]
+}

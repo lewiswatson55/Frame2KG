@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "fan1",
+      "target": "panel1"
+    },
+    {
+      "predicate": "on",
+      "source": "panel1",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "medium"
+      },
+      "id": "fan1",
+      "label": "ventilation fan",
+      "location": "0.35,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey plastic",
+        "size": "large"
+      },
+      "id": "panel1",
+      "label": "metal panel",
+      "location": "0.4,0.0,0.6,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white smooth",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

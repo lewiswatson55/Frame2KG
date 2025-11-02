@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "dog1"
+    },
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "mixer1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "microwave1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "dog1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blonde hair white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.0,0.6,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white fluffy fur",
+        "size": "medium"
+      },
+      "id": "dog1",
+      "label": "small dog",
+      "location": "0.4,0.3,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange plastic",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "spoon",
+      "location": "0.2,0.5,0.4,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red black plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.0,0.3,0.2,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "medium"
+      },
+      "id": "mixer1",
+      "label": "stand mixer",
+      "location": "0.15,0.3,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black glass",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave",
+      "location": "0.7,0.4,0.95,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "beige granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,0.8,0.7"
+    }
+  ]
+}

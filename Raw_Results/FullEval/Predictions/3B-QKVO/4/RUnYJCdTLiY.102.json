@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "rice1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "whisk1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "towel1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "measuring_cup1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "oven1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinets1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "maroon long-sleeve shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.05,0.0,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.35,0.25,0.75,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white granular",
+        "size": "small"
+      },
+      "id": "rice1",
+      "label": "rice",
+      "location": "0.45,0.45,0.75,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal wire",
+        "size": "small"
+      },
+      "id": "whisk1",
+      "label": "whisk",
+      "location": "0.1,0.6,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown cloth",
+        "size": "small"
+      },
+      "id": "towel1",
+      "label": "kitchen towel",
+      "location": "0.2,0.6,0.4,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic with red liquid",
+        "size": "small"
+      },
+      "id": "measuring_cup1",
+      "label": "measuring cup",
+      "location": "0.6,0.7,0.8,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "bowl",
+      "location": "0.8,0.3,0.98,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "oven1",
+      "label": "stove",
+      "location": "0.0,0.0,0.3,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "cabinets1",
+      "label": "cabinets",
+      "location": "0.3,0.0,0.7,0.4,0.8"
+    }
+  ]
+}

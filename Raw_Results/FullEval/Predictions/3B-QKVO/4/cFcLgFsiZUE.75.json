@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken_wings",
+      "target": "griddle"
+    },
+    {
+      "predicate": "in",
+      "source": "griddle",
+      "target": "pan"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken_wings",
+      "label": "chicken wings",
+      "location": "0.15,0.1,0.85,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "griddle",
+      "label": "griddle pan",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "pan",
+      "label": "cooking pan",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

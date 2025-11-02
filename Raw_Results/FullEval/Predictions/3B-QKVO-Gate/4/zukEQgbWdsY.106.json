@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "meat_slices",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "salt_bowl",
+      "target": "pepper_bowl"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person_hand",
+      "target": "pan"
+    },
+    {
+      "predicate": "holding",
+      "source": "person_hand",
+      "target": "cloth"
+    },
+    {
+      "predicate": "on",
+      "source": "pan",
+      "target": "stove"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cutting_board",
+      "target": "pan"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "medium"
+      },
+      "id": "meat_slices",
+      "label": "raw meat slices",
+      "location": "0.05,0.48,0.6,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.0,0.35,0.6,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal blade black handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.1,0.4,0.5,0.55,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass white salt",
+        "size": "small"
+      },
+      "id": "salt_bowl",
+      "label": "salt bowl",
+      "location": "0.45,0.35,0.55,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass green pepper",
+        "size": "small"
+      },
+      "id": "pepper_bowl",
+      "label": "pepper bowl",
+      "location": "0.55,0.35,0.65,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "large"
+      },
+      "id": "pan",
+      "label": "frying pan",
+      "location": "0.4,0.45,0.95,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "gas stove",
+      "location": "0.0,0.75,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark blue fabric",
+        "size": "small"
+      },
+      "id": "cloth",
+      "label": "kitchen towel",
+      "location": "0.7,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "person_hand",
+      "label": "hand",
+      "location": "0.7,0.0,1.0,0.4,0.85"
+    }
+  ]
+}

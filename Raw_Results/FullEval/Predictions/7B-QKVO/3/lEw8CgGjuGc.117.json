@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "top_bun"
+    },
+    {
+      "predicate": "on",
+      "source": "top_bun",
+      "target": "burger_patty"
+    },
+    {
+      "predicate": "on",
+      "source": "burger_patty",
+      "target": "bottom_bun"
+    },
+    {
+      "predicate": "on",
+      "source": "bottom_bun",
+      "target": "lettuce"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce",
+      "target": "plate"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tomato_slice",
+      "target": "burger_patty"
+    },
+    {
+      "predicate": "behind",
+      "source": "ketchup_squeeze",
+      "target": "plate"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "plate",
+      "target": "tray_with_burger"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown toasted",
+        "size": "small"
+      },
+      "id": "top_bun",
+      "label": "Bread Bun Top",
+      "location": "0.3,0.1,0.7,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce",
+      "label": "Lettuce Leaf",
+      "location": "0.1,0.5,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown grilled",
+        "size": "medium"
+      },
+      "id": "burger_patty",
+      "label": "Burger Patty",
+      "location": "0.2,0.4,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red juicy",
+        "size": "small"
+      },
+      "id": "tomato_slice",
+      "label": "Tomato Slice",
+      "location": "0.3,0.4,0.7,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate",
+      "label": "Plate",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "ketchup_squeeze",
+      "label": "Ketchup Bottle",
+      "location": "0.7,0.0,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "tray_with_burger",
+      "label": "Tray of Burger Patties",
+      "location": "0.0,0.0,0.4,0.4,0.8"
+    }
+  ]
+}

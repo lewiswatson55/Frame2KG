@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "saucepan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pot1",
+      "target": "saucepan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.05,0.35,0.28,0.64,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "metal spatula",
+      "location": "0.07,0.38,0.35,0.55,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.15,0.45,0.75,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red enamel",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.25,0.0,0.75,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "saucepan1",
+      "label": "saucepan",
+      "location": "0.75,0.15,0.98,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.45,1.0,1.0,0.9"
+    }
+  ]
+}

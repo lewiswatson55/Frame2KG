@@ -1,0 +1,239 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle2",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "avocado1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "lemon1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "tongs1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "grill1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "stool1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "above",
+      "source": "pan_hanger1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "board1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "book_stack1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue red plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.45,0.05,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.15,0.35,0.35,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "jar of mustard",
+      "location": "0.45,0.65,0.55,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "olive oil bottle",
+      "location": "0.4,0.55,0.45,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark green glass",
+        "size": "small"
+      },
+      "id": "bottle2",
+      "label": "herbal tea bottle",
+      "location": "0.45,0.55,0.5,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "small"
+      },
+      "id": "avocado1",
+      "label": "avocado",
+      "location": "0.5,0.7,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "lemon",
+      "location": "0.55,0.75,0.6,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "chef knife",
+      "location": "0.5,0.75,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "metal tongs",
+      "location": "0.45,0.75,0.5,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "slice of bread",
+      "location": "0.6,0.75,0.65,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "grill1",
+      "label": "griddle",
+      "location": "0.75,0.7,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.4,0.2,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "small"
+      },
+      "id": "stool1",
+      "label": "bar stool",
+      "location": "0.2,0.4,0.3,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "wall shelf",
+      "location": "0.0,0.0,1.0,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "pan_hanger1",
+      "label": "hanging pans",
+      "location": "0.6,0.0,0.9,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stacked books",
+        "size": "medium"
+      },
+      "id": "book_stack1",
+      "label": "book stack",
+      "location": "0.85,0.3,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "medium"
+      },
+      "id": "countertop1",
+      "label": "kitchen countertop",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    }
+  ]
+}

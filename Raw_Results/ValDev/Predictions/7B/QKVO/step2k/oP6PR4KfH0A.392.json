@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in",
+      "source": "onion_rings1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "wall1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt with brown hair",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.0,0.0,0.45,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "Stove",
+      "location": "0.3,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "Frying Pan",
+      "location": "0.2,0.3,0.7,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown fried",
+        "size": "small"
+      },
+      "id": "onion_rings1",
+      "label": "Onion Rings",
+      "location": "0.4,0.3,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "corrugated metal",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "Wall",
+      "location": "0.6,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

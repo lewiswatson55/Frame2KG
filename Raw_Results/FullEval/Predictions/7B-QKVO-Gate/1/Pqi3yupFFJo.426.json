@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "sauce1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "surface1"
+    },
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "surface1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "White Bowl",
+      "location": "0.15,0.18,0.63,0.74,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red liquid",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "Red Sauce",
+      "location": "0.30,0.30,0.55,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black smooth",
+        "size": "large"
+      },
+      "id": "surface1",
+      "label": "Black Surface",
+      "location": "0.00,0.00,1.00,1.00,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "ADD MILK Text",
+      "location": "0.30,0.75,0.70,0.95,0.8"
+    }
+  ]
+}

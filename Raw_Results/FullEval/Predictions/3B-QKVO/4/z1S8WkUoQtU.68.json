@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "rolling_pin"
+    },
+    {
+      "predicate": "on",
+      "source": "rolling_pin",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "board",
+      "target": "tablecloth"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl",
+      "target": "tablecloth"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.05,0.0,0.95,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "rolling_pin",
+      "label": "wooden rolling pin",
+      "location": "0.0,0.3,1.0,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white striped fabric",
+        "size": "large"
+      },
+      "id": "tablecloth",
+      "label": "tablecloth",
+      "location": "0.0,0.5,1.0,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl",
+      "label": "glass bowl",
+      "location": "0.0,0.6,0.8,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "cutting board",
+      "location": "0.0,0.3,1.0,0.6,0.7"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "includes",
+      "source": "tray1",
+      "target": "pasta1"
+    },
+    {
+      "predicate": "on",
+      "source": "pasta1",
+      "target": "tray2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cheese1",
+      "target": "tray3"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cheese2",
+      "target": "tray4"
+    },
+    {
+      "predicate": "left_of",
+      "source": "tray2",
+      "target": "tray5"
+    },
+    {
+      "predicate": "right_of",
+      "source": "tray6",
+      "target": "tray2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.0,0.0,0.3,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "aluminum tray",
+      "location": "0.0,0.0,0.7,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white pasta",
+        "size": "large"
+      },
+      "id": "pasta1",
+      "label": "elbow macaroni",
+      "location": "0.0,0.2,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver foil",
+        "size": "large"
+      },
+      "id": "tray2",
+      "label": "foil baking pan",
+      "location": "0.0,0.4,0.7,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow shredded cheese",
+        "size": "medium"
+      },
+      "id": "cheese1",
+      "label": "shredded cheese",
+      "location": "0.7,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver foil",
+        "size": "medium"
+      },
+      "id": "tray3",
+      "label": "aluminum tray",
+      "location": "0.7,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow shredded cheese",
+        "size": "medium"
+      },
+      "id": "cheese2",
+      "label": "shredded cheese",
+      "location": "0.7,0.3,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver foil",
+        "size": "medium"
+      },
+      "id": "tray4",
+      "label": "aluminum tray",
+      "location": "0.7,0.3,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver foil",
+        "size": "medium"
+      },
+      "id": "tray5",
+      "label": "aluminum tray",
+      "location": "0.0,0.4,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver foil",
+        "size": "medium"
+      },
+      "id": "tray6",
+      "label": "aluminum tray",
+      "location": "0.3,0.4,0.6,0.8,0.8"
+    }
+  ]
+}

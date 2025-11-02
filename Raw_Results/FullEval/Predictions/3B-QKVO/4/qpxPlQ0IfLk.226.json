@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "tongs1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "jar1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar1",
+      "target": "bottle2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "jar1",
+      "target": "bottle3"
+    },
+    {
+      "predicate": "right_of",
+      "source": "person1",
+      "target": "chicken1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "tongs1",
+      "label": "metal tongs",
+      "location": "0.45,0.0,0.75,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown grilled",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "grilled chicken piece",
+      "location": "0.48,0.15,0.65,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue plastic",
+        "size": "large"
+      },
+      "id": "bottle1",
+      "label": "sauce bottle",
+      "location": "0.0,0.2,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "medium"
+      },
+      "id": "bottle2",
+      "label": "glass bottle",
+      "location": "0.2,0.0,0.4,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "medium"
+      },
+      "id": "jar1",
+      "label": "peanut butter jar",
+      "location": "0.0,0.5,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "bottle3",
+      "label": "bottle cap",
+      "location": "0.4,0.8,0.6,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blurred skin tone",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "hand",
+      "location": "0.6,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

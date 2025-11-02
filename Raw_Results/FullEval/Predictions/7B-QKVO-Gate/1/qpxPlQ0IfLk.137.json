@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hands1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "wearing",
+      "source": "hands1",
+      "target": "bracelet1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar1",
+      "target": "blender1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "large"
+      },
+      "id": "blender1",
+      "label": "Blender Jar",
+      "location": "0.35,0.4,0.98,0.97,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hands1",
+      "label": "Hands",
+      "location": "0.3,0.0,0.9,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown leather",
+        "size": "small"
+      },
+      "id": "bracelet1",
+      "label": "Bracelet",
+      "location": "0.5,0.1,0.7,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "handle1",
+      "label": "Blender Handle",
+      "location": "0.6,0.4,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table Surface",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar with yellow lid",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "Jar",
+      "location": "0.9,0.8,1.0,1.0,0.7"
+    }
+  ]
+}

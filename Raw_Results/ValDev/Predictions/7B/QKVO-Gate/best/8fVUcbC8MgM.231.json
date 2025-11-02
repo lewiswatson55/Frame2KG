@@ -1,0 +1,166 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "rice_bowl",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "spice_shaker",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "wooden_container",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "plastic_bag",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "chopsticks",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "paper_towel_stack",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "white_plate",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "rice_bowl",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "spice_shaker",
+      "target": "wooden_container"
+    },
+    {
+      "predicate": "right_of",
+      "source": "plastic_bag",
+      "target": "spice_shaker"
+    },
+    {
+      "predicate": "right_of",
+      "source": "chopsticks",
+      "target": "plastic_bag"
+    },
+    {
+      "predicate": "behind",
+      "source": "white_plate",
+      "target": "paper_towel_stack"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.45,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "wooden table",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.05,0.05,0.45,0.35,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "spice_shaker",
+      "label": "spice shaker",
+      "location": "0.35,0.45,0.45,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "small"
+      },
+      "id": "wooden_container",
+      "label": "wooden container",
+      "location": "0.25,0.5,0.35,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "medium"
+      },
+      "id": "plastic_bag",
+      "label": "plastic bag",
+      "location": "0.45,0.2,0.75,0.45,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark brown wood",
+        "size": "small"
+      },
+      "id": "chopsticks",
+      "label": "chopsticks",
+      "location": "0.6,0.3,0.8,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "medium"
+      },
+      "id": "paper_towel_stack",
+      "label": "paper towel stack",
+      "location": "0.75,0.3,0.95,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "white_plate",
+      "label": "plate",
+      "location": "0.75,0.2,0.95,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black bowl with white rice",
+        "size": "small"
+      },
+      "id": "rice_bowl",
+      "label": "rice bowl",
+      "location": "0.0,0.4,0.2,0.6,0.7"
+    }
+  ]
+}

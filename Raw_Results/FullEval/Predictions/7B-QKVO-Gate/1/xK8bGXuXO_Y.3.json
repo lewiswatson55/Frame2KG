@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "rings1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "herbs1",
+      "target": "rings1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sauce1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "above",
+      "source": "title1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "below",
+      "source": "subtitle1",
+      "target": "title1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red serif font",
+        "size": "large"
+      },
+      "id": "title1",
+      "label": "Onion Rings Title",
+      "location": "0.35,0.0,0.65,0.2,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden fried",
+        "size": "medium"
+      },
+      "id": "rings1",
+      "label": "Onion Rings",
+      "location": "0.4,0.3,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.35,0.4,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "herbs1",
+      "label": "Herb Sprigs",
+      "location": "0.45,0.45,0.55,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "orange sauce",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "Sauce Packet",
+      "location": "0.3,0.6,0.4,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red serif font",
+        "size": "small"
+      },
+      "id": "subtitle1",
+      "label": "Subtitle Text",
+      "location": "0.4,0.75,0.6,0.9,0.9"
+    }
+  ]
+}

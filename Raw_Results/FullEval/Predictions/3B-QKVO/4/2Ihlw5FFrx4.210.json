@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "text2",
+      "target": "background"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black bold text with white star",
+        "size": "medium"
+      },
+      "id": "logo1",
+      "label": "Popsugar logo",
+      "location": "0.35,0.45,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white sans-serif font",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "Featured Music Text",
+      "location": "0.05,0.8,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white sans-serif font",
+        "size": "small"
+      },
+      "id": "text2",
+      "label": "By Text",
+      "location": "0.05,0.9,0.95,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple gradient",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    }
+  ]
+}

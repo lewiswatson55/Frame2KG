@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "butter1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pan2",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.35,0.0,0.98,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white liquid",
+        "size": "small"
+      },
+      "id": "butter1",
+      "label": "melted butter",
+      "location": "0.47,0.35,0.63,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan2",
+      "label": "frying pan",
+      "location": "0.0,0.0,0.45,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

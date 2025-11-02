@@ -1,0 +1,219 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan2",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "utensils1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "window1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "dark shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.47,0.05,0.95,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.25,0.6,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.3,0.65,0.5,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black cast iron",
+        "size": "small"
+      },
+      "id": "pan2",
+      "label": "skillet",
+      "location": "0.55,0.65,0.75,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.0,0.6,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate of bacon",
+      "location": "0.8,0.75,0.95,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.85,0.7,0.95,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.7,0.6,0.8,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "utensils1",
+      "label": "utensil holder",
+      "location": "0.75,0.6,0.85,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.85,0.5,0.98,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottles",
+        "size": "medium"
+      },
+      "id": "bottles1",
+      "label": "wine bottles",
+      "location": "0.4,0.0,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "oven1",
+      "label": "oven",
+      "location": "0.1,0.1,0.3,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.0,0.0,0.2,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.1,0.7,0.2,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    }
+  ]
+}

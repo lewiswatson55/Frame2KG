@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "paper_towel"
+    },
+    {
+      "predicate": "on",
+      "source": "paper_towel",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "hand1",
+      "target": "lettuce1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "large"
+      },
+      "id": "lettuce1",
+      "label": "Chinese cabbage",
+      "location": "0.05,0.3,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white textured",
+        "size": "medium"
+      },
+      "id": "paper_towel",
+      "label": "paper towel",
+      "location": "0.0,0.6,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "cutting_board",
+      "label": "wooden cutting board",
+      "location": "0.0,0.8,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.75,0.0,1.0,0.4,0.7"
+    }
+  ]
+}

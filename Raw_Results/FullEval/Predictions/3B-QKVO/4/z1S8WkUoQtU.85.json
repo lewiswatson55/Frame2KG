@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "can1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "can1",
+      "target": "background1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red fabric",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "red cloth background",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow metal can with blue label",
+        "size": "medium"
+      },
+      "id": "can1",
+      "label": "soda can",
+      "location": "0.5,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.7,0.4,1.0,1.0,0.7"
+    }
+  ]
+}

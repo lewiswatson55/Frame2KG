@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand2",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.35,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.05,0.4,0.75,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black glass",
+        "size": "small"
+      },
+      "id": "stove1",
+      "label": "electric stove burner",
+      "location": "0.0,0.6,0.5,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "left hand",
+      "location": "0.3,0.1,0.6,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand2",
+      "label": "right hand",
+      "location": "0.4,0.5,0.8,0.9,0.8"
+    }
+  ]
+}

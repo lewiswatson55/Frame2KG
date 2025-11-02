@@ -1,0 +1,81 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "onion_ring1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "in",
+      "source": "onion_ring2",
+      "target": "oil1"
+    },
+    {
+      "predicate": "in",
+      "source": "onion_ring3",
+      "target": "oil1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "colander1",
+      "target": "onion_ring1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "colander1",
+      "target": "onion_ring2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "colander1",
+      "target": "onion_ring3"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver perforated metal",
+        "size": "large"
+      },
+      "id": "colander1",
+      "label": "metal colander",
+      "location": "0.0,0.0,0.5,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "onion_ring1",
+      "label": "onion ring",
+      "location": "0.4,0.6,0.9,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "onion_ring2",
+      "label": "onion ring",
+      "location": "0.7,0.0,1.0,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "onion_ring3",
+      "label": "onion ring",
+      "location": "0.6,0.3,0.9,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark bubbling oil",
+        "size": "large"
+      },
+      "id": "oil1",
+      "label": "cooking oil",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

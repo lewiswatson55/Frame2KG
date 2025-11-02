@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "food1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "counter1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "large"
+      },
+      "id": "blender1",
+      "label": "Food Processor",
+      "location": "0.05,0.0,0.95,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange and white mixture",
+        "size": "medium"
+      },
+      "id": "food1",
+      "label": "Blend Food",
+      "location": "0.1,0.3,0.9,0.7,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "medium"
+      },
+      "id": "counter1",
+      "label": "Counter",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    }
+  ]
+}

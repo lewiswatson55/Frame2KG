@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cabinet1",
+      "target": "window1"
+    },
+    {
+      "predicate": "behind",
+      "source": "plant1",
+      "target": "window1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "shelf1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin short brown hair wearing dark green shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.5,0.0,1.0,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread with lettuce",
+        "size": "small"
+      },
+      "id": "sandwich1",
+      "label": "sandwich",
+      "location": "0.45,0.3,0.75,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.5,0.4,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow wood",
+        "size": "medium"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.3,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown frame glass",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.2,0.0,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green foliage",
+        "size": "medium"
+      },
+      "id": "plant1",
+      "label": "potted plant",
+      "location": "0.25,0.2,0.4,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden shelf with jars and bottles",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.75,0.4,1.0,0.8,0.8"
+    }
+  ]
+}

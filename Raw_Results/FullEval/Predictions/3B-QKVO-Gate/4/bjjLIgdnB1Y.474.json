@@ -1,0 +1,295 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "spray1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "fridge1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "behind",
+      "source": "window1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "syrup_bottle1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "spray1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "towel1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "pancake_stack1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "pancake_stack2"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "utensil_holder1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "kettle1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "mixer1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "figurine1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "sink1",
+      "target": "figurine1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black apron green shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.4,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "wooden cabinets",
+      "location": "0.4,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white blinds",
+        "size": "small"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.8,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.75,0.3,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "griddle1",
+      "label": "electric griddle",
+      "location": "0.5,0.5,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown",
+        "size": "small"
+      },
+      "id": "pancake1",
+      "label": "pancake",
+      "location": "0.6,0.6,0.7,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown",
+        "size": "small"
+      },
+      "id": "pancake_stack1",
+      "label": "stack of pancakes",
+      "location": "0.4,0.6,0.5,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown",
+        "size": "small"
+      },
+      "id": "pancake_stack2",
+      "label": "stack of pancakes",
+      "location": "0.5,0.6,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "spray1",
+      "label": "cooking spray canister",
+      "location": "0.05,0.6,0.15,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "oil bottle",
+      "location": "0.15,0.6,0.25,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "syrup_bottle1",
+      "label": "syrup bottle",
+      "location": "0.0,0.7,0.1,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "small"
+      },
+      "id": "utensil_holder1",
+      "label": "utensil holder",
+      "location": "0.3,0.7,0.4,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red handle silver blade",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.2,0.7,0.3,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white cloth",
+        "size": "small"
+      },
+      "id": "towel1",
+      "label": "towel",
+      "location": "0.3,0.7,0.5,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "pancake_stack2",
+      "label": "stack of pancakes",
+      "location": "0.5,0.6,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "spoon",
+      "location": "0.6,0.4,0.8,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "figurine1",
+      "label": "decorative figurine",
+      "location": "0.75,0.1,0.85,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "kettle1",
+      "label": "kettle",
+      "location": "0.6,0.2,0.7,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "mixer1",
+      "label": "stand mixer",
+      "location": "0.6,0.3,0.7,0.4,0.9"
+    }
+  ]
+}

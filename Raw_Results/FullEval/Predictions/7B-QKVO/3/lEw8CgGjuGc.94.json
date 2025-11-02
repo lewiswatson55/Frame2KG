@@ -1,0 +1,86 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "tray"
+    },
+    {
+      "predicate": "on",
+      "source": "patty2",
+      "target": "tray"
+    },
+    {
+      "predicate": "on",
+      "source": "patty3",
+      "target": "tray"
+    },
+    {
+      "predicate": "on",
+      "source": "patty4",
+      "target": "tray"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "patty1",
+      "target": "patty2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "patty2",
+      "target": "patty3"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "patty3",
+      "target": "patty4"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink raw meat with green herbs and white crumbles",
+        "size": "medium"
+      },
+      "id": "patty1",
+      "label": "raw burger patty",
+      "location": "0.05,0.08,0.47,0.69,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat with green herbs and white crumbles",
+        "size": "medium"
+      },
+      "id": "patty2",
+      "label": "raw burger patty",
+      "location": "0.48,0.08,0.95,0.69,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat with green herbs and white crumbles",
+        "size": "medium"
+      },
+      "id": "patty3",
+      "label": "raw burger patty",
+      "location": "0.05,0.45,0.47,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat with green herbs and white crumbles",
+        "size": "medium"
+      },
+      "id": "patty4",
+      "label": "raw burger patty",
+      "location": "0.48,0.45,0.95,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey metal",
+        "size": "large"
+      },
+      "id": "tray",
+      "label": "metal tray",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

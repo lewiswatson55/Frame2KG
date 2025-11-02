@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "bag1",
+      "target": "sauce1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sauce1",
+      "target": "milk1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "sauce1"
+    },
+    {
+      "predicate": "in",
+      "source": "onion1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "garlic1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent plastic red peppers",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "plastic bag of red peppers",
+      "location": "0.0,0.0,0.5,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red glass bottle with white label",
+        "size": "medium"
+      },
+      "id": "sauce1",
+      "label": "Frank's RedHot sauce bottle",
+      "location": "0.45,0.0,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic carton",
+        "size": "medium"
+      },
+      "id": "milk1",
+      "label": "dairy milk carton",
+      "location": "0.6,0.0,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic bowl with red sauce",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "white bowl with red sauce",
+      "location": "0.3,0.6,0.6,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic bowl with yellow onion slices",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "white bowl with onion slices",
+      "location": "0.7,0.4,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow garlic cloves",
+        "size": "small"
+      },
+      "id": "garlic1",
+      "label": "cloves of garlic",
+      "location": "0.75,0.8,0.9,0.95,0.9"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "mixture1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "surface1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.35,0.1,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.45,0.0,0.65,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pale yellow creamy",
+        "size": "medium"
+      },
+      "id": "mixture1",
+      "label": "Mixture",
+      "location": "0.2,0.2,0.8,0.7,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "red smooth",
+        "size": "large"
+      },
+      "id": "surface1",
+      "label": "Surface",
+      "location": "0.75,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

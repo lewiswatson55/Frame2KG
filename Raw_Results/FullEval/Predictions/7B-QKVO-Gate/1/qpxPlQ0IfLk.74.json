@@ -1,0 +1,219 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "tongs1"
+    },
+    {
+      "predicate": "on",
+      "source": "fish1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "mustard1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lemon1",
+      "target": "mustard1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife1",
+      "target": "lemon1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lettuce1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "griddle1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "lamp1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "above",
+      "source": "shelf1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "behind",
+      "source": "framed_picture1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue red plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.45,0.0,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.03,0.45,0.25,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "oil bottle",
+      "location": "0.25,0.55,0.32,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "mustard1",
+      "label": "mustard jar",
+      "location": "0.32,0.65,0.38,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "lemon",
+      "location": "0.38,0.75,0.45,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.45,0.75,0.55,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread slices",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "bread slices",
+      "location": "0.55,0.75,0.65,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce",
+      "location": "0.75,0.65,0.9,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "griddle1",
+      "label": "griddle",
+      "location": "0.6,0.6,0.95,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.6,0.6,0.95,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "tongs",
+      "location": "0.65,0.6,0.75,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey brick",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "brick wall",
+      "location": "0.0,0.0,1.0,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.0,0.1,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "orange frame",
+        "size": "small"
+      },
+      "id": "framed_picture1",
+      "label": "picture frame",
+      "location": "0.75,0.1,0.9,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "lamp1",
+      "label": "table lamp",
+      "location": "0.9,0.1,1.0,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "raw fish fillet",
+        "size": "small"
+      },
+      "id": "fish1",
+      "label": "fish fillet",
+      "location": "0.65,0.65,0.75,0.75,0.8"
+    }
+  ]
+}

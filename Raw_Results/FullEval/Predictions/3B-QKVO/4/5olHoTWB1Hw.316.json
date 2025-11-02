@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand_left",
+      "target": "cup_green"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand_right",
+      "target": "dish_casserole"
+    },
+    {
+      "predicate": "on",
+      "source": "dish_casserole",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cup_green",
+      "target": "dish_casserole"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand_left",
+      "label": "left hand",
+      "location": "0.05,0.3,0.45,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand_right",
+      "label": "right hand",
+      "location": "0.0,0.3,0.6,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green plastic",
+        "size": "small"
+      },
+      "id": "cup_green",
+      "label": "green cup",
+      "location": "0.0,0.0,0.3,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "dish_casserole",
+      "label": "baking dish",
+      "location": "0.2,0.1,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.7,1.0,1.0,0.8"
+    }
+  ]
+}

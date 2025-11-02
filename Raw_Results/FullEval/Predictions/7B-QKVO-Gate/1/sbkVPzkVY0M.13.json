@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pizza1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "caviar_red1",
+      "target": "pizza1"
+    },
+    {
+      "predicate": "on",
+      "source": "caviar_black1",
+      "target": "pizza1"
+    },
+    {
+      "predicate": "on",
+      "source": "herbs1",
+      "target": "pizza1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "pizza1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.0,0.65,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange smoked salmon",
+        "size": "medium"
+      },
+      "id": "pizza1",
+      "label": "Pizza",
+      "location": "0.0,0.3,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red roe",
+        "size": "small"
+      },
+      "id": "caviar_red1",
+      "label": "Red Caviar",
+      "location": "0.2,0.4,0.4,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black caviar",
+        "size": "small"
+      },
+      "id": "caviar_black1",
+      "label": "Black Caviar",
+      "location": "0.5,0.5,0.7,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green specks",
+        "size": "small"
+      },
+      "id": "herbs1",
+      "label": "Herbs",
+      "location": "0.3,0.4,0.7,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white script",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Text 'Spago'",
+      "location": "0.3,0.3,0.7,0.6,0.9"
+    }
+  ]
+}

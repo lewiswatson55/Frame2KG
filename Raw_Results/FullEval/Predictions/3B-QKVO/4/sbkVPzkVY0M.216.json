@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "paper_towel1"
+    },
+    {
+      "predicate": "on",
+      "source": "paper_towel1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in",
+      "source": "patty1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.0,0.0,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow paper towel",
+        "size": "small"
+      },
+      "id": "paper_towel1",
+      "label": "paper towel",
+      "location": "0.45,0.35,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black non-stick",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.2,0.4,0.8,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown cooked meat",
+        "size": "small"
+      },
+      "id": "patty1",
+      "label": "burger patty",
+      "location": "0.45,0.6,0.6,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop burner",
+      "location": "0.2,0.7,0.8,1.0,0.9"
+    }
+  ]
+}

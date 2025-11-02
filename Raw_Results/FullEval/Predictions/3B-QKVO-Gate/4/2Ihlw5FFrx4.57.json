@@ -1,0 +1,174 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife"
+    },
+    {
+      "predicate": "on",
+      "source": "knife",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "bread",
+      "target": "board"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "board",
+      "target": "tv_screen"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "behind",
+      "source": "tv_screen",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "person2",
+      "target": "person1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_salad",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "vase_flower",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_bacon",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "book",
+      "target": "table"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person1",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "turquoise shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.0,0.15,0.45,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green dress",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.55,0.15,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink purple graphic",
+        "size": "large"
+      },
+      "id": "tv_screen",
+      "label": "TV screen",
+      "location": "0.3,0.0,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board",
+      "label": "cutting board",
+      "location": "0.0,0.6,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl_salad",
+      "label": "salad bowl",
+      "location": "0.3,0.6,0.45,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "vase_flower",
+      "label": "flower vase",
+      "location": "0.45,0.6,0.55,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl_dairy",
+      "label": "dairy bowl",
+      "location": "0.35,0.7,0.45,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black handle silver blade",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.0,0.6,0.2,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown toasted",
+        "size": "small"
+      },
+      "id": "bread",
+      "label": "bread slices",
+      "location": "0.1,0.7,0.3,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal plate red bacon",
+        "size": "small"
+      },
+      "id": "plate_bacon",
+      "label": "bacon plate",
+      "location": "0.45,0.6,0.6,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "paper cover",
+        "size": "medium"
+      },
+      "id": "book",
+      "label": "cookbook",
+      "location": "0.0,0.75,0.2,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "table",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    }
+  ]
+}

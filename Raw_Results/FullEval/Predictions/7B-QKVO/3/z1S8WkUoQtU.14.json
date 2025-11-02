@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "forming",
+      "source": "hand_left",
+      "target": "shape"
+    },
+    {
+      "predicate": "forming",
+      "source": "hand_right",
+      "target": "shape"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "shape",
+      "target": "background"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand_left",
+      "label": "left hand",
+      "location": "0.05,0.0,0.48,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand_right",
+      "label": "right hand",
+      "location": "0.52,0.0,0.95,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink translucent",
+        "size": "large"
+      },
+      "id": "shape",
+      "label": "heart shape",
+      "location": "0.3,0.2,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red blurred",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "red background",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

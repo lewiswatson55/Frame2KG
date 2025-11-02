@@ -1,0 +1,215 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "microwave1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "sink1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "flowers1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "soap1",
+      "target": "flowers1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cloth1",
+      "target": "soap1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "container1",
+      "target": "cloth1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "mug1",
+      "target": "container1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "saltshaker1",
+      "target": "mug1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "peppershaker1",
+      "target": "saltshaker1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white lace top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.47,0.55,0.55,0.65,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white base with red lid",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.45,0.75,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "electric stove",
+      "location": "0.6,0.5,0.95,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "teal ceramic",
+        "size": "small"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.8,0.6,0.9,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave oven",
+      "location": "0.65,0.0,0.95,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.1,0.3,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red roses in glass vase",
+        "size": "small"
+      },
+      "id": "flowers1",
+      "label": "flower bouquet",
+      "location": "0.0,0.3,0.15,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear bottle with red liquid",
+        "size": "small"
+      },
+      "id": "soap1",
+      "label": "hand soap dispenser",
+      "location": "0.15,0.4,0.2,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red cloth",
+        "size": "small"
+      },
+      "id": "cloth1",
+      "label": "dish towel",
+      "location": "0.1,0.6,0.3,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "mug1",
+      "label": "coffee mug",
+      "location": "0.5,0.45,0.6,0.55,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with red cap",
+        "size": "small"
+      },
+      "id": "saltshaker1",
+      "label": "salt shaker",
+      "location": "0.6,0.45,0.65,0.55,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with black cap",
+        "size": "small"
+      },
+      "id": "peppershaker1",
+      "label": "pepper shaker",
+      "location": "0.65,0.45,0.7,0.55,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "container1",
+      "label": "plastic container",
+      "location": "0.2,0.5,0.3,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,0.8,0.7"
+    }
+  ]
+}

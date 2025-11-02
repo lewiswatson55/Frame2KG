@@ -1,0 +1,86 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "logo_text",
+      "target": "person1"
+    },
+    {
+      "predicate": "on",
+      "source": "logo_text",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cityscape"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "cityscape"
+    },
+    {
+      "predicate": "behind",
+      "source": "building_red",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "building_red",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black t-shirt with white graphic",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark green shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.48,0.05,0.93,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green text with red outline",
+        "size": "small"
+      },
+      "id": "logo_text",
+      "label": "DUDE FOOD logo",
+      "location": "0.2,0.3,0.8,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red brick wall",
+        "size": "large"
+      },
+      "id": "building_red",
+      "label": "brick building",
+      "location": "0.6,0.4,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "gray sky with buildings",
+        "size": "large"
+      },
+      "id": "cityscape",
+      "label": "city skyline",
+      "location": "0.0,0.0,1.0,0.4,0.7"
+    }
+  ]
+}

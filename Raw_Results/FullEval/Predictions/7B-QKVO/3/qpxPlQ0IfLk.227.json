@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "tongs1"
+    },
+    {
+      "predicate": "holding",
+      "source": "tongs1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "chicken1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar1",
+      "target": "bottle1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.5,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "Tongs",
+      "location": "0.4,0.0,0.7,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white grilled",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "Grilled Chicken Piece",
+      "location": "0.3,0.2,0.6,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "large"
+      },
+      "id": "bottle1",
+      "label": "Bottle",
+      "location": "0.0,0.0,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue white ceramic",
+        "size": "medium"
+      },
+      "id": "jar1",
+      "label": "Jar",
+      "location": "0.0,0.5,0.3,1.0,0.8"
+    }
+  ]
+}

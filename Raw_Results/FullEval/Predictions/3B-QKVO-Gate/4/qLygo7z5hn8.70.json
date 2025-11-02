@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in",
+      "source": "eggs1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lid1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black non-stick",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.15,0.05,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow liquid",
+        "size": "medium"
+      },
+      "id": "eggs1",
+      "label": "scrambled eggs",
+      "location": "0.3,0.1,0.75,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "lid1",
+      "label": "pan lid",
+      "location": "0.0,0.1,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black glass",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "electric stove top",
+      "location": "0.0,0.0,0.4,0.4,0.7"
+    }
+  ]
+}

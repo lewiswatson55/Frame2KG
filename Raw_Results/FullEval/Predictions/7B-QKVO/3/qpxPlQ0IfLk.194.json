@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "tongs1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "grill1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "behind",
+      "source": "jar1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "grill1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "Tongs",
+      "location": "0.37,0.1,0.63,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "large"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce",
+      "location": "0.0,0.5,0.6,0.9,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "black ribbed",
+        "size": "large"
+      },
+      "id": "grill1",
+      "label": "Grill Pan",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.2,0.6,0.5,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread slices",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "Bread Slices",
+      "location": "0.2,0.25,0.6,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden bowl with white powder",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Salt Bowl",
+      "location": "0.0,0.2,0.2,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "Jar of Mustard",
+      "location": "0.3,0.0,0.5,0.2,0.7"
+    }
+  ]
+}

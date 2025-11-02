@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "in",
+      "source": "sauce1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "sauce1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "behind",
+      "source": "logo1",
+      "target": "dish1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "dish1",
+      "label": "glass baking dish",
+      "location": "0.05,0.3,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange sauce-coated",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "chicken pieces",
+      "location": "0.1,0.4,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown liquid",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "sauce stream",
+      "location": "0.4,0.0,0.9,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin-toned blurred",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.4,0.0,0.9,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.0,0.7,0.6,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white cursive text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Chef Ricardo logo",
+      "location": "0.5,0.7,1.0,1.0,0.9"
+    }
+  ]
+}

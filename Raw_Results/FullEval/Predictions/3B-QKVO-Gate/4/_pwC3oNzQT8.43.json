@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "hat1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "backsplash1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "cabinet1",
+      "target": "backsplash1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "backsplash1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black chef coat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.53,0.04,0.98,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white and black checkered fabric",
+        "size": "small"
+      },
+      "id": "hat1",
+      "label": "chef hat",
+      "location": "0.57,0.00,0.85,0.20,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige ceramic tiles",
+        "size": "medium"
+      },
+      "id": "backsplash1",
+      "label": "tile backsplash",
+      "location": "0.00,0.00,0.60,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "medium"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.00,0.00,0.60,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white laminate surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.00,0.50,1.00,1.00,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass bowl with flour",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.35,0.65,0.55,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal pan",
+        "size": "small"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.20,0.75,0.40,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal stove top",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.00,0.75,0.30,1.00,0.8"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "edges": [
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "hat1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "cup1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "behind",
+      "source": "backsplash1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "cabinet1",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black chef coat and black-and-white checkered hat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.58,0.03,0.97,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic with brown diamond pattern",
+        "size": "medium"
+      },
+      "id": "backsplash1",
+      "label": "tiled backsplash",
+      "location": "0.0,0.4,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "small"
+      },
+      "id": "cabinet1",
+      "label": "wooden cabinet",
+      "location": "0.0,0.0,0.4,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white tile",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "tile wall",
+      "location": "0.0,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white countertop",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "kitchen counter",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass bowl with white flour",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.3,0.6,0.5,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal pan",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.1,0.7,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic cup",
+        "size": "small"
+      },
+      "id": "cup1",
+      "label": "measuring cup",
+      "location": "0.5,0.5,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black and white checkered fabric",
+        "size": "small"
+      },
+      "id": "hat1",
+      "label": "chef hat",
+      "location": "0.6,0.0,0.8,0.2,0.9"
+    }
+  ]
+}

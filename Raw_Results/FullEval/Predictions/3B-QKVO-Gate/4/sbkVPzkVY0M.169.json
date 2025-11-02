@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "behind",
+      "source": "salad1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "supports",
+      "source": "table1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "supports",
+      "source": "table1",
+      "target": "salad1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "medium"
+      },
+      "id": "patty1",
+      "label": "raw beef patty",
+      "location": "0.35,0.45,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "rectangular white plate",
+      "location": "0.0,0.3,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "salad1",
+      "label": "lettuce salad",
+      "location": "0.1,0.0,0.9,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood grain",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "wooden table",
+      "location": "0.0,0.8,1.0,1.0,0.7"
+    }
+  ]
+}

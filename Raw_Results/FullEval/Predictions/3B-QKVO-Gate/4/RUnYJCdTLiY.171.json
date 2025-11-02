@@ -1,0 +1,126 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "utensil_holder1",
+      "target": "cabinet_left1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "sink1",
+      "target": "cabinet_right1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "purple shirt white apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "griddle pan",
+      "location": "0.05,0.45,0.5,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "wooden spatula",
+      "location": "0.3,0.4,0.45,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "ceramic plate",
+      "location": "0.6,0.6,0.75,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.75,0.6,0.95,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver stainless steel",
+        "size": "large"
+      },
+      "id": "sink1",
+      "label": "kitchen sink",
+      "location": "0.7,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet_left1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.2,0.3,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet_right1",
+      "label": "kitchen cabinet",
+      "location": "0.7,0.2,1.0,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal container with utensils",
+        "size": "small"
+      },
+      "id": "utensil_holder1",
+      "label": "utensil holder",
+      "location": "0.2,0.0,0.35,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.6,0.5,1.0,0.8"
+    }
+  ]
+}

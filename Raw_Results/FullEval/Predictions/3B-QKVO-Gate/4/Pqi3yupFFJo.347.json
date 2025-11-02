@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "onion_rings1",
+      "target": "frying_pan1"
+    },
+    {
+      "predicate": "holding",
+      "source": "tongs1",
+      "target": "onion_rings1"
+    },
+    {
+      "predicate": "on",
+      "source": "frying_pan1",
+      "target": "stove_grate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "frying_pan1",
+      "label": "Frying Pan",
+      "location": "0.05,0.05,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown battered",
+        "size": "medium"
+      },
+      "id": "onion_rings1",
+      "label": "Onion Rings",
+      "location": "0.3,0.2,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "Tongs",
+      "location": "0.0,0.0,0.4,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal bars",
+        "size": "medium"
+      },
+      "id": "stove_grate1",
+      "label": "Stove Grate",
+      "location": "0.6,0.0,1.0,0.5,0.8"
+    }
+  ]
+}

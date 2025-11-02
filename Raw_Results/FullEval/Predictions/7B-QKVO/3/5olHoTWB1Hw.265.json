@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bag1",
+      "target": "cabinet1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow green plastic",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "Texas Toast Croutons Bag",
+      "location": "0.35,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.75,0.0,1.0,0.4,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "grey metal",
+        "size": "medium"
+      },
+      "id": "cabinet1",
+      "label": "Kitchen Cabinet Door",
+      "location": "0.7,0.4,1.0,1.0,0.9"
+    }
+  ]
+}

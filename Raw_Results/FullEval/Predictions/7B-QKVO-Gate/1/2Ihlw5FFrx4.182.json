@@ -1,0 +1,160 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "sandwich"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_of_food",
+      "target": "table"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_of_lettuce",
+      "target": "plate_of_food"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "tv_screen"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "tv_screen"
+    },
+    {
+      "predicate": "behind",
+      "source": "office_space",
+      "target": "person2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "towel",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "vase",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "microphone",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "short brown hair teal shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.18,0.43,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "long dark hair green dress",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.55,0.15,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "purple screen with 'POPSUGAR' text",
+        "size": "large"
+      },
+      "id": "tv_screen",
+      "label": "television screen",
+      "location": "0.2,0.0,0.8,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green lettuce red tomato slices",
+        "size": "small"
+      },
+      "id": "plate_of_food",
+      "label": "salad plate",
+      "location": "0.3,0.6,0.5,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass bowl green lettuce",
+        "size": "small"
+      },
+      "id": "bowl_of_lettuce",
+      "label": "bowl of lettuce",
+      "location": "0.35,0.65,0.45,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.1,0.7,0.4,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "striped green white cloth",
+        "size": "small"
+      },
+      "id": "towel",
+      "label": "kitchen towel",
+      "location": "0.0,0.75,0.2,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "vase",
+      "label": "vase",
+      "location": "0.45,0.6,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "microphone",
+      "label": "microphone",
+      "location": "0.7,0.2,0.8,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink walls",
+        "size": "large"
+      },
+      "id": "office_space",
+      "label": "office space",
+      "location": "0.5,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

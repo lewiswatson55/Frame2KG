@@ -1,0 +1,132 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bun_left",
+      "target": "plate"
+    },
+    {
+      "predicate": "on",
+      "source": "patty",
+      "target": "bun_left"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese",
+      "target": "patty"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato_slices",
+      "target": "cheese"
+    },
+    {
+      "predicate": "on",
+      "source": "bun_right",
+      "target": "plate"
+    },
+    {
+      "predicate": "next_to",
+      "source": "salt_shaker",
+      "target": "pepper_jar"
+    },
+    {
+      "predicate": "behind",
+      "source": "person_hand",
+      "target": "plate"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "plate",
+      "target": "salt_shaker"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "plate",
+      "target": "pepper_jar"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate",
+      "label": "Plate",
+      "location": "0.15,0.45,0.85,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown toasted",
+        "size": "medium"
+      },
+      "id": "bun_left",
+      "label": "Burger Bun Top",
+      "location": "0.3,0.5,0.6,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown grilled",
+        "size": "small"
+      },
+      "id": "patty",
+      "label": "Burger Patty",
+      "location": "0.45,0.6,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow melted",
+        "size": "small"
+      },
+      "id": "cheese",
+      "label": "Cheese Slice",
+      "location": "0.45,0.6,0.7,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red juicy",
+        "size": "small"
+      },
+      "id": "tomato_slices",
+      "label": "Tomato Slices",
+      "location": "0.45,0.55,0.7,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown toasted",
+        "size": "medium"
+      },
+      "id": "bun_right",
+      "label": "Burger Bun Bottom",
+      "location": "0.3,0.75,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass white powder",
+        "size": "small"
+      },
+      "id": "salt_shaker",
+      "label": "Salt Shaker",
+      "location": "0.2,0.1,0.3,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark glass",
+        "size": "small"
+      },
+      "id": "pepper_jar",
+      "label": "Pepper Shaker",
+      "location": "0.35,0.1,0.45,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "person_hand",
+      "label": "Hand",
+      "location": "0.4,0.0,0.8,0.3,0.6"
+    }
+  ]
+}

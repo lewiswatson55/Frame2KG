@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "butter1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "butter1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "text1",
+      "target": "pot1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pale yellow",
+        "size": "medium"
+      },
+      "id": "butter1",
+      "label": "stick of butter",
+      "location": "0.35,0.05,0.75,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.48,0.35,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.1,0.4,0.9,0.95,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal coil",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "electric stove burner",
+      "location": "0.0,0.0,0.5,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on red background",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "subscribe text overlay",
+      "location": "0.0,0.85,0.3,1.0,0.9"
+    }
+  ]
+}

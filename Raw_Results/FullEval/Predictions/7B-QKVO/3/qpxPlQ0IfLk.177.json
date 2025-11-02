@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "behind",
+      "source": "bottle1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "bracelet1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin tone shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.45,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce",
+      "location": "0.3,0.3,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "Jar of Mustard",
+      "location": "0.1,0.3,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "Glass Bottle",
+      "location": "0.3,0.0,0.5,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown leather",
+        "size": "small"
+      },
+      "id": "bracelet1",
+      "label": "Bracelet",
+      "location": "0.6,0.4,0.8,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    }
+  ]
+}

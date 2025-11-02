@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.15,0.15,0.85,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden handle with yellow silicone head",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.0,0.3,0.6,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.4,0.0,0.6,0.2,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic wrap",
+        "size": "large"
+      },
+      "id": "wrap1",
+      "label": "plastic wrap",
+      "location": "0.1,0.1,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "wooden tray",
+      "location": "0.0,0.7,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red and white label",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "sauce bottle",
+      "location": "0.0,0.75,0.2,1.0,0.7"
+    }
+  ]
+}

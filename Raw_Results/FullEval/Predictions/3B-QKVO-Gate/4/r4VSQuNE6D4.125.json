@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pancake_dough",
+      "target": "griddle"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bottle",
+      "target": "griddle"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "handle",
+      "target": "pan"
+    },
+    {
+      "predicate": "supports",
+      "source": "stove",
+      "target": "pan"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle",
+      "target": "pan"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan",
+      "label": "Griddle Pan",
+      "location": "0.05,0.05,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "Stovetop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "bottle",
+      "label": "Sauce Bottle",
+      "location": "0.45,0.0,0.6,0.3,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "light beige liquid stream",
+        "size": "medium"
+      },
+      "id": "pancake_dough",
+      "label": "Dough Stream",
+      "location": "0.55,0.1,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black silicone",
+        "size": "medium"
+      },
+      "id": "handle",
+      "label": "Pan Handle",
+      "location": "0.0,0.2,0.4,0.4,0.85"
+    }
+  ]
+}

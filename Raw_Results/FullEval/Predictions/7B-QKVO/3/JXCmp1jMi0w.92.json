@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken2",
+      "target": "tray1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken3",
+      "target": "tray1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken4",
+      "target": "tray1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken5",
+      "target": "tray1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "chicken5"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spoon1",
+      "target": "tray1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "baking tray",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat with red seasoning",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "raw chicken thigh",
+      "location": "0.1,0.2,0.6,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat with red seasoning",
+        "size": "medium"
+      },
+      "id": "chicken2",
+      "label": "raw chicken thigh",
+      "location": "0.4,0.2,0.9,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat with red seasoning",
+        "size": "medium"
+      },
+      "id": "chicken3",
+      "label": "raw chicken thigh",
+      "location": "0.1,0.5,0.6,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat with red seasoning",
+        "size": "medium"
+      },
+      "id": "chicken4",
+      "label": "raw chicken thigh",
+      "location": "0.4,0.5,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat with red seasoning",
+        "size": "small"
+      },
+      "id": "chicken5",
+      "label": "raw chicken drumstick",
+      "location": "0.7,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.7,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "spoon",
+      "location": "0.0,0.0,0.2,0.2,0.7"
+    }
+  ]
+}

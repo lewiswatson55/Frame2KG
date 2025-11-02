@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "rings1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in",
+      "source": "sauce1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "rings1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "rings1",
+      "label": "Onion Rings",
+      "location": "0.35,0.4,0.98,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "White Bowl",
+      "location": "0.07,0.2,0.35,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red liquid",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "Ketchup",
+      "location": "0.15,0.25,0.3,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.0,0.3,1.0,0.98,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood grain",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Wooden Table",
+      "location": "0.0,0.8,1.0,1.0,0.8"
+    }
+  ]
+}

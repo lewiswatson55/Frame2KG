@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "butter1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "paper_towel1",
+      "target": "pot1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pot1",
+      "label": "saucepan",
+      "location": "0.35,0.4,0.98,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red liquid",
+        "size": "small"
+      },
+      "id": "butter1",
+      "label": "butter",
+      "location": "0.45,0.55,0.75,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black coil",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.0,0.0,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "small"
+      },
+      "id": "paper_towel1",
+      "label": "paper towel roll",
+      "location": "0.6,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

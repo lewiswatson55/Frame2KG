@@ -1,0 +1,103 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bun_top"
+    },
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "tomato_slice1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato_slice1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "behind",
+      "source": "bowl1",
+      "target": "burger1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted brown",
+        "size": "small"
+      },
+      "id": "bun_top",
+      "label": "Burger Bun Top",
+      "location": "0.3,0.1,0.7,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown grilled",
+        "size": "medium"
+      },
+      "id": "patty1",
+      "label": "Beef Patty",
+      "location": "0.3,0.4,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red sliced",
+        "size": "small"
+      },
+      "id": "tomato_slice1",
+      "label": "Tomato Slice",
+      "location": "0.3,0.55,0.7,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "large"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce Leaves",
+      "location": "0.2,0.6,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden bowl with yellow food",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Wooden Bowl",
+      "location": "0.6,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "burger with bun bottom",
+        "size": "medium"
+      },
+      "id": "burger1",
+      "label": "Hamburger",
+      "location": "0.2,0.4,0.8,0.8,0.9"
+    }
+  ]
+}

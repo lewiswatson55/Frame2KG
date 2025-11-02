@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "painting1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "vase1",
+      "target": "painting1"
+    },
+    {
+      "predicate": "on",
+      "source": "vase1",
+      "target": "table1"
+    },
+    {
+      "predicate": "behind",
+      "source": "painting1",
+      "target": "table1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown hair red shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.0,0.0,0.5,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame white marble",
+        "size": "medium"
+      },
+      "id": "painting1",
+      "label": "framed painting",
+      "location": "0.3,0.0,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange ceramic",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "ceramic vase",
+      "location": "0.75,0.4,0.95,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "wooden table",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    }
+  ]
+}

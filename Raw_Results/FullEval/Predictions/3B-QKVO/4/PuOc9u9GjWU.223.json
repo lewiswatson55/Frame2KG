@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "rings1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "rings1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "rings1",
+      "label": "Onion rings",
+      "location": "0.05,0.1,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on white background",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "Text overlay",
+      "location": "0.0,0.0,1.0,0.1,0.6"
+    }
+  ]
+}

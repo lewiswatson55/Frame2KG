@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "meat1"
+    },
+    {
+      "predicate": "in",
+      "source": "meat1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "blender1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.45,0.0,1.0,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink minced meat",
+        "size": "small"
+      },
+      "id": "meat1",
+      "label": "Minced Meat",
+      "location": "0.38,0.35,0.62,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.25,0.3,0.75,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "Blender Jar",
+      "location": "0.0,0.0,0.2,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Wooden Table",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    }
+  ]
+}

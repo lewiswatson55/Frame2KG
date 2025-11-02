@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "in",
+      "source": "bread1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread2",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "includes",
+      "source": "plate1",
+      "target": "cheese2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.45,0.05,0.98,0.63,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow shredded",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "Shredded Cheese",
+      "location": "0.45,0.35,0.65,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread",
+        "size": "medium"
+      },
+      "id": "bread1",
+      "label": "Bread Slice",
+      "location": "0.40,0.30,0.70,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "Frying Pan",
+      "location": "0.20,0.20,0.80,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.50,0.55,1.00,1.00,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange shredded",
+        "size": "medium"
+      },
+      "id": "cheese2",
+      "label": "Shredded Cheese",
+      "location": "0.55,0.60,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread",
+        "size": "medium"
+      },
+      "id": "bread2",
+      "label": "Bread Slice",
+      "location": "0.60,0.25,0.90,0.50,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "Stovetop",
+      "location": "0.00,0.00,1.00,1.00,0.6"
+    }
+  ]
+}

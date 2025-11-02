@@ -1,0 +1,46 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hands1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "hands1",
+      "label": "human hands",
+      "location": "0.05,0.0,0.6,0.4,0.8"
+    },
+    {
+      "id": "bottle1",
+      "label": "dark bottle",
+      "location": "0.3,0.2,0.5,0.4,0.7"
+    },
+    {
+      "id": "spoon1",
+      "label": "metal spoon",
+      "location": "0.2,0.3,0.6,0.45,0.7"
+    },
+    {
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.4,0.1,0.9,0.6,0.8"
+    },
+    {
+      "id": "board1",
+      "label": "wooden board",
+      "location": "0.0,0.5,1.0,0.9,0.8"
+    }
+  ]
+}

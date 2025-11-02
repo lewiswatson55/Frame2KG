@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand2",
+      "target": "bag1"
+    },
+    {
+      "predicate": "on",
+      "source": "bag1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl2",
+      "target": "bag1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bag1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "red bowl",
+      "location": "0.00,0.45,0.30,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange plastic",
+        "size": "medium"
+      },
+      "id": "bowl2",
+      "label": "orange bowl",
+      "location": "0.70,0.60,1.00,1.00,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic with green label",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "croutons bag",
+      "location": "0.10,0.10,0.90,0.80,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "left hand",
+      "location": "0.50,0.60,0.80,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "small"
+      },
+      "id": "hand2",
+      "label": "right hand",
+      "location": "0.80,0.00,1.00,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.00,0.50,1.00,1.00,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove top",
+      "location": "0.00,0.00,0.40,0.30,0.7"
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spray_can"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "griddle1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake2",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fridge",
+      "target": "cabinets"
+    },
+    {
+      "predicate": "above",
+      "source": "window1",
+      "target": "sink"
+    },
+    {
+      "predicate": "right_of",
+      "source": "sink",
+      "target": "fridge"
+    },
+    {
+      "predicate": "behind",
+      "source": "figurine1",
+      "target": "sink"
+    },
+    {
+      "predicate": "left_of",
+      "source": "table1",
+      "target": "fridge"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown hair black apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "fridge",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.4,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinets",
+      "label": "kitchen cabinets",
+      "location": "0.4,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "granite countertop",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.2,0.6,0.4,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.45,0.65,0.6,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "pancake1",
+      "label": "pancake",
+      "location": "0.5,0.65,0.55,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "pancake2",
+      "label": "pancake",
+      "location": "0.55,0.65,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "griddle1",
+      "label": "electric griddle",
+      "location": "0.6,0.6,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow spray can",
+        "size": "small"
+      },
+      "id": "spray_can",
+      "label": "cooking spray can",
+      "location": "0.4,0.2,0.5,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottle blue label",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "syrup bottle",
+      "location": "0.0,0.7,0.15,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "spice jar",
+      "location": "0.25,0.75,0.3,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic cow statue",
+        "size": "small"
+      },
+      "id": "figurine1",
+      "label": "cow figurine",
+      "location": "0.75,0.1,0.85,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel sink",
+        "size": "medium"
+      },
+      "id": "sink",
+      "label": "sink",
+      "location": "0.8,0.3,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white blinds",
+        "size": "medium"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.85,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden table",
+        "size": "medium"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.4,0.3,0.7,0.8"
+    }
+  ]
+}

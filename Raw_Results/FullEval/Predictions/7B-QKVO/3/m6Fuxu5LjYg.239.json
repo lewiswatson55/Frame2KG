@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "tongs1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken2",
+      "target": "oil1"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken3",
+      "target": "oil1"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken4",
+      "target": "oil1"
+    },
+    {
+      "predicate": "on",
+      "source": "tongs1",
+      "target": "oil1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "breaded chicken piece",
+      "location": "0.05,0.15,0.60,0.70,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken2",
+      "label": "breaded chicken piece",
+      "location": "0.60,0.15,0.98,0.70,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "chicken3",
+      "label": "breaded chicken piece",
+      "location": "0.00,0.60,0.30,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "chicken4",
+      "label": "breaded chicken piece",
+      "location": "0.30,0.60,0.60,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic blue plastic",
+        "size": "large"
+      },
+      "id": "tongs1",
+      "label": "kitchen tongs",
+      "location": "0.40,0.00,1.00,0.50,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "bubbling dark liquid",
+        "size": "large"
+      },
+      "id": "oil1",
+      "label": "cooking oil",
+      "location": "0.00,0.00,1.00,1.00,0.7"
+    }
+  ]
+}

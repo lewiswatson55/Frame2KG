@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "dressing1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.05,0.3,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce Leaves",
+      "location": "0.05,0.4,0.98,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grilled white",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "Grilled Chicken",
+      "location": "0.1,0.4,0.9,0.7,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "creamy green",
+        "size": "small"
+      },
+      "id": "dressing1",
+      "label": "Dressing Drizzle",
+      "location": "0.1,0.4,0.9,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white shreds",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "Shredded Cheese",
+      "location": "0.1,0.4,0.9,0.7,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table Surface",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.75,0.0,1.0,0.4,0.7"
+    }
+  ]
+}

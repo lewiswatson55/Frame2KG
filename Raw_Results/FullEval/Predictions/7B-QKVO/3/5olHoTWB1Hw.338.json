@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "cheese1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "on",
+      "source": "crumbs1",
+      "target": "cheese1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown baked",
+        "size": "large"
+      },
+      "id": "dish1",
+      "label": "baked dish",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow melted",
+        "size": "medium"
+      },
+      "id": "cheese1",
+      "label": "melted cheese",
+      "location": "0.0,0.3,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crumbly",
+        "size": "small"
+      },
+      "id": "crumbs1",
+      "label": "breadcrumbs",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

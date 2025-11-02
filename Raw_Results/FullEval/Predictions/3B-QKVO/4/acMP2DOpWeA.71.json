@@ -1,0 +1,66 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "flour1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "metal bowl",
+      "location": "0.05,0.0,0.95,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "medium"
+      },
+      "id": "flour1",
+      "label": "flour",
+      "location": "0.3,0.0,0.7,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl2",
+      "label": "glass bowl",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.6,0.0,1.0,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "beige speckled",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    }
+  ]
+}

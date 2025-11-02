@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "tomato1"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon1",
+      "target": "tomato1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato1",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown wood grain",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "wooden cutting board",
+      "location": "0.0,0.65,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "whole wheat brown crust",
+        "size": "medium"
+      },
+      "id": "bread1",
+      "label": "bread slice",
+      "location": "0.05,0.7,0.95,0.98,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "blue cheese spread",
+      "location": "0.1,0.73,0.9,0.84,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red juicy",
+        "size": "medium"
+      },
+      "id": "tomato1",
+      "label": "sliced tomato",
+      "location": "0.1,0.5,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "crispy brown",
+        "size": "small"
+      },
+      "id": "bacon1",
+      "label": "bacon strips",
+      "location": "0.2,0.2,0.8,0.5,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "leaf lettuce",
+      "location": "0.4,0.0,1.0,0.3,0.8"
+    }
+  ]
+}

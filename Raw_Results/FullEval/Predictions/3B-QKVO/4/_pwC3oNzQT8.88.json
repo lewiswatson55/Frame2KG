@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "dish1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pot1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "behind",
+      "source": "tile_wall",
+      "target": "countertop"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl of oatmeal",
+      "location": "0.35,0.45,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "glass baking tray",
+      "location": "0.25,0.65,0.85,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red sauce",
+        "size": "medium"
+      },
+      "id": "dish1",
+      "label": "glass dish of marinated meat",
+      "location": "0.6,0.4,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.0,0.6,0.25,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white tiled",
+        "size": "large"
+      },
+      "id": "tile_wall",
+      "label": "tiled wall",
+      "location": "0.0,0.0,0.5,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "person1",
+      "label": "hand",
+      "location": "0.5,0.0,1.0,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white marble",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    }
+  ]
+}

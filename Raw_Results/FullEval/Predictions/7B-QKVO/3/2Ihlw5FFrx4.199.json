@@ -1,0 +1,132 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person2",
+      "target": "sandwich"
+    },
+    {
+      "predicate": "on",
+      "source": "plate",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "vase",
+      "target": "table"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "tv"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "tv"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "behind",
+      "source": "monitor",
+      "target": "person2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person1",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "short brown hair teal shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Woman",
+      "location": "0.05,0.1,0.48,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "long dark hair green dress",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "Woman",
+      "location": "0.52,0.1,0.95,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink screen",
+        "size": "large"
+      },
+      "id": "tv",
+      "label": "Television Screen",
+      "location": "0.3,0.0,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "Table",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with lettuce and tomato slices",
+        "size": "small"
+      },
+      "id": "plate",
+      "label": "Plate of Food",
+      "location": "0.3,0.65,0.5,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass bowl with red pepper slices",
+        "size": "small"
+      },
+      "id": "bowl",
+      "label": "Bowl of Red Peppers",
+      "location": "0.2,0.65,0.3,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metallic vase with white flower",
+        "size": "small"
+      },
+      "id": "vase",
+      "label": "Flower Vase",
+      "location": "0.45,0.6,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread with lettuce and tomato",
+        "size": "small"
+      },
+      "id": "sandwich",
+      "label": "Sandwich",
+      "location": "0.6,0.45,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame",
+        "size": "medium"
+      },
+      "id": "monitor",
+      "label": "Monitor",
+      "location": "0.75,0.2,0.95,0.5,0.8"
+    }
+  ]
+}

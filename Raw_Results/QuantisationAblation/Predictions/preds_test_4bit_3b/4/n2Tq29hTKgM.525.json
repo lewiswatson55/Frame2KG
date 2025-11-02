@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "griddle"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula1",
+      "target": "griddle"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "griddle"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "food1",
+      "target": "griddle"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "griddle",
+      "label": "electric griddle",
+      "location": "0.05,0.3,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white batter",
+        "size": "small"
+      },
+      "id": "pancake1",
+      "label": "pancake batter",
+      "location": "0.45,0.25,0.65,0.45,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "metal spatula",
+      "location": "0.3,0.15,0.5,0.35,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow shredded",
+        "size": "medium"
+      },
+      "id": "food1",
+      "label": "shredded food",
+      "location": "0.0,0.75,0.5,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.0,0.0,0.3,0.25,0.6"
+    }
+  ]
+}

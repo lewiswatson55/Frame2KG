@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "tomatoes1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "glass1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "bottle1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red sliced",
+        "size": "medium"
+      },
+      "id": "tomatoes1",
+      "label": "sliced tomatoes",
+      "location": "0.05,0.35,0.48,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "crispy brown",
+        "size": "medium"
+      },
+      "id": "bacon1",
+      "label": "bacon strips",
+      "location": "0.6,0.3,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "rectangular plate",
+      "location": "0.0,0.3,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "glass1",
+      "label": "wine glass",
+      "location": "0.0,0.75,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "plastic bottle",
+      "location": "0.6,0.75,1.0,1.0,0.8"
+    }
+  ]
+}

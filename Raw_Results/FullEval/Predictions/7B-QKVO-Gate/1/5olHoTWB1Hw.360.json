@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "food1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "food2",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.35,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow creamy",
+        "size": "medium"
+      },
+      "id": "food1",
+      "label": "Scrambled eggs",
+      "location": "0.4,0.2,0.8,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crispy",
+        "size": "small"
+      },
+      "id": "food2",
+      "label": "Breaded chicken",
+      "location": "0.0,0.0,0.4,0.6,0.7"
+    }
+  ]
+}

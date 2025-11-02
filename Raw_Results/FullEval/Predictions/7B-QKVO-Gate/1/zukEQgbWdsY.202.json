@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "blender1",
+      "target": "base1"
+    },
+    {
+      "predicate": "on",
+      "source": "base1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "measuring_cup1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "behind",
+      "source": "knife_block1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "plant1",
+      "target": "knife_block1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "potted_plant1",
+      "target": "knife_block1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.0,0.48,0.36,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Small bowl",
+      "location": "0.37,0.0,0.55,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "large"
+      },
+      "id": "blender1",
+      "label": "Blender jar",
+      "location": "0.35,0.25,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "base1",
+      "label": "Blender base",
+      "location": "0.35,0.75,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red markings",
+        "size": "small"
+      },
+      "id": "measuring_cup1",
+      "label": "Measuring cup",
+      "location": "0.0,0.8,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black handles",
+        "size": "medium"
+      },
+      "id": "knife_block1",
+      "label": "Knife block",
+      "location": "0.6,0.2,0.8,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "Potted plant",
+      "location": "0.8,0.3,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "potted_plant1",
+      "label": "Potted plant",
+      "location": "0.0,0.2,0.2,0.6,0.8"
+    }
+  ]
+}

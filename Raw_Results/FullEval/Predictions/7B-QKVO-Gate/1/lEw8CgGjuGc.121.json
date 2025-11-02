@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "onion1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "on",
+      "source": "bun_top1",
+      "target": "onion1"
+    },
+    {
+      "predicate": "on",
+      "source": "bun_bottom1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "behind",
+      "source": "tray1",
+      "target": "burger1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown bun",
+        "size": "medium"
+      },
+      "id": "bun_top1",
+      "label": "top bun",
+      "location": "0.35,0.05,0.65,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown patty",
+        "size": "small"
+      },
+      "id": "patty1",
+      "label": "beef patty",
+      "location": "0.35,0.45,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red slice",
+        "size": "small"
+      },
+      "id": "onion1",
+      "label": "red onion ring",
+      "location": "0.45,0.45,0.65,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "lettuce",
+      "location": "0.2,0.6,0.8,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread",
+        "size": "medium"
+      },
+      "id": "bun_bottom1",
+      "label": "bottom bun",
+      "location": "0.2,0.6,0.8,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.5,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal tray",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "tray",
+      "location": "0.0,0.0,1.0,0.3,0.6"
+    }
+  ]
+}

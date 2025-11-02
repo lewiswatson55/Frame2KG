@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "flour1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "whisk1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "whisk1"
+    },
+    {
+      "predicate": "behind",
+      "source": "appliance1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "logo1",
+      "target": "appliance1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.15,0.35,0.85,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "flour1",
+      "label": "flour",
+      "location": "0.2,0.45,0.8,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal wires",
+        "size": "small"
+      },
+      "id": "whisk1",
+      "label": "whisk",
+      "location": "0.0,0.75,0.6,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige plastic",
+        "size": "large"
+      },
+      "id": "appliance1",
+      "label": "kitchen appliance",
+      "location": "0.0,0.0,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red black white graphic",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "logo",
+      "location": "0.75,0.0,1.0,0.25,0.9"
+    }
+  ]
+}

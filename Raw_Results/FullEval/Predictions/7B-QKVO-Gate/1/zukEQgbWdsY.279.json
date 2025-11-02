@@ -1,0 +1,164 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "sandwich"
+    },
+    {
+      "predicate": "holding",
+      "source": "person2",
+      "target": "sandwich"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "blender",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "mug",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "plate",
+      "target": "countertop"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "window",
+      "target": "cabinets"
+    },
+    {
+      "predicate": "behind",
+      "source": "microwave",
+      "target": "person2"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "faucet",
+      "target": "sink"
+    },
+    {
+      "predicate": "left_of",
+      "source": "stove",
+      "target": "countertop"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red hair beard black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "short dark hair black t-shirt",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.47,0.05,0.96,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green bread with lettuce",
+        "size": "small"
+      },
+      "id": "sandwich",
+      "label": "sandwich",
+      "location": "0.30,0.45,0.45,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green mixture",
+        "size": "medium"
+      },
+      "id": "blender",
+      "label": "blender",
+      "location": "0.80,0.45,0.99,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "mug",
+      "label": "glass mug",
+      "location": "0.75,0.75,0.85,0.90,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper plate with red sauce",
+        "size": "small"
+      },
+      "id": "plate",
+      "label": "plate",
+      "location": "0.60,0.85,0.75,0.98,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cabinets",
+      "label": "kitchen cabinets",
+      "location": "0.50,0.00,1.00,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "microwave",
+      "label": "microwave",
+      "location": "0.45,0.15,0.60,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove",
+      "label": "stove",
+      "location": "0.00,0.75,0.30,1.00,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.00,0.60,1.00,1.00,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "large"
+      },
+      "id": "window",
+      "label": "window",
+      "location": "0.00,0.00,0.50,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "faucet",
+      "label": "faucet",
+      "location": "0.60,0.30,0.70,0.45,0.7"
+    }
+  ]
+}

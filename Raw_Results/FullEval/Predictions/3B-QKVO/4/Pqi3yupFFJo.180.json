@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "onion_rings1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "onion_rings2",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "onion_rings3",
+      "target": "plate1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "plate1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.05,0.05,0.48,0.60,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.45,0.15,0.95,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "purple red",
+        "size": "small"
+      },
+      "id": "onion_rings1",
+      "label": "onion rings",
+      "location": "0.10,0.10,0.40,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple red",
+        "size": "small"
+      },
+      "id": "onion_rings2",
+      "label": "onion rings",
+      "location": "0.45,0.20,0.90,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple red",
+        "size": "small"
+      },
+      "id": "onion_rings3",
+      "label": "onion rings",
+      "location": "0.00,0.60,0.50,1.00,0.8"
+    }
+  ]
+}

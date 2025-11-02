@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "sprayer1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "sprayer1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black non-stick",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "griddle pan",
+      "location": "0.05,0.05,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "sprayer1",
+      "label": "spray bottle",
+      "location": "0.65,0.0,0.95,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.7,0.0,1.0,0.4,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white smooth",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    }
+  ]
+}

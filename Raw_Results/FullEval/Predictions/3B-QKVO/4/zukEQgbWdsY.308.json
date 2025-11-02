@@ -1,0 +1,196 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "grape1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "avocado1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "buns1",
+      "target": "board2"
+    },
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "buns1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "woman1",
+      "target": "woman2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "man1",
+      "target": "woman2"
+    },
+    {
+      "predicate": "above",
+      "source": "banner1",
+      "target": "woman1"
+    },
+    {
+      "predicate": "above",
+      "source": "banner2",
+      "target": "woman2"
+    },
+    {
+      "predicate": "below",
+      "source": "banner3",
+      "target": "woman1"
+    },
+    {
+      "predicate": "below",
+      "source": "banner4",
+      "target": "woman2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "banner5",
+      "target": "banner6"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black chalkboard",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "chalkboard",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green half",
+        "size": "small"
+      },
+      "id": "avocado1",
+      "label": "avocado slice",
+      "location": "0.85,0.05,0.97,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple",
+        "size": "medium"
+      },
+      "id": "grape1",
+      "label": "grapes",
+      "location": "0.75,0.6,0.95,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "board2",
+      "label": "cutting board",
+      "location": "0.4,0.5,0.8,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown toasted",
+        "size": "small"
+      },
+      "id": "buns1",
+      "label": "burger buns",
+      "location": "0.45,0.55,0.75,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige grilled",
+        "size": "small"
+      },
+      "id": "patty1",
+      "label": "burger patty",
+      "location": "0.5,0.6,0.7,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "gray and white",
+        "size": "medium"
+      },
+      "id": "woman1",
+      "label": "woman",
+      "location": "0.0,0.6,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red checkered shirt",
+        "size": "medium"
+      },
+      "id": "woman2",
+      "label": "woman",
+      "location": "0.3,0.6,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black and yellow text",
+        "size": "small"
+      },
+      "id": "banner1",
+      "label": "snake wine taste test banner",
+      "location": "0.0,0.0,0.4,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red and yellow text",
+        "size": "small"
+      },
+      "id": "banner2",
+      "label": "drink your bacon banner",
+      "location": "0.4,0.0,0.8,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "medium"
+      },
+      "id": "banner3",
+      "label": "tasted subscribe banner",
+      "location": "0.2,0.3,0.8,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow text",
+        "size": "small"
+      },
+      "id": "banner4",
+      "label": "hot pepper burgers banner",
+      "location": "0.4,0.5,0.8,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow text",
+        "size": "small"
+      },
+      "id": "banner5",
+      "label": "zesty flavor ribbon",
+      "location": "0.7,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow text",
+        "size": "small"
+      },
+      "id": "banner6",
+      "label": "flavor ribbon",
+      "location": "0.7,0.3,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden frame",
+        "size": "large"
+      },
+      "id": "frame1",
+      "label": "frame",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    }
+  ]
+}

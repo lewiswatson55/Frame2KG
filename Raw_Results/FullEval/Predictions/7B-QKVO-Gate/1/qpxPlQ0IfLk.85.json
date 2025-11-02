@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "lemon1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lemon1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "box1",
+      "target": "lemon1"
+    },
+    {
+      "predicate": "behind",
+      "source": "jar1",
+      "target": "lemon1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "logo1",
+      "target": "box1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "medium"
+      },
+      "id": "lemon1",
+      "label": "Lemon",
+      "location": "0.35,0.45,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with white rice",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl of Rice",
+      "location": "0.65,0.35,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal blade",
+        "size": "large"
+      },
+      "id": "knife1",
+      "label": "Knife",
+      "location": "0.2,0.75,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood grain",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Wooden Table",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red cardboard",
+        "size": "small"
+      },
+      "id": "box1",
+      "label": "Cardboard Box",
+      "location": "0.2,0.2,0.4,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "Plastic Jar",
+      "location": "0.45,0.0,0.6,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black and grey graphic",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Hungry Logo",
+      "location": "0.0,0.0,0.2,0.15,0.8"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person_group1",
+      "target": "food_stand"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sign_shake_shack",
+      "target": "food_stand"
+    },
+    {
+      "predicate": "on",
+      "source": "table_green",
+      "target": "food_stand"
+    },
+    {
+      "predicate": "sitting_on",
+      "source": "person_group1",
+      "target": "table_green"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "food_stand",
+      "label": "Food Stand",
+      "location": "0.35,0.05,0.98,0.45,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic green",
+        "size": "medium"
+      },
+      "id": "table_green",
+      "label": "Outdoor Tables",
+      "location": "0.0,0.45,0.6,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "mixed clothing colors",
+        "size": "small"
+      },
+      "id": "person_group1",
+      "label": "People",
+      "location": "0.0,0.45,0.6,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue sign with white text",
+        "size": "medium"
+      },
+      "id": "sign_shake_shack",
+      "label": "Shake Shack Sign",
+      "location": "0.4,0.6,0.7,0.9,0.9"
+    }
+  ]
+}

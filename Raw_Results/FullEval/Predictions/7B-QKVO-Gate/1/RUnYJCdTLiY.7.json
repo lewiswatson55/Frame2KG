@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "herbs1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text2",
+      "target": "board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text3",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "hands",
+      "location": "0.45,0.0,0.98,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "knife1",
+      "label": "kitchen knife",
+      "location": "0.45,0.2,0.95,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "herbs1",
+      "label": "chopped herbs",
+      "location": "0.3,0.4,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.8,0.0,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white cursive",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Laura text",
+      "location": "0.0,0.0,0.5,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white sans-serif",
+        "size": "small"
+      },
+      "id": "text2",
+      "label": "IN THE text",
+      "location": "0.4,0.4,0.6,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white cursive",
+        "size": "medium"
+      },
+      "id": "text3",
+      "label": "Kitchen text",
+      "location": "0.6,0.5,1.0,0.9,0.9"
+    }
+  ]
+}

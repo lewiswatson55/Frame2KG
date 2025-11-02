@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "plate"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken2",
+      "target": "plate"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chicken1",
+      "target": "chicken2"
+    },
+    {
+      "predicate": "behind",
+      "source": "leaves",
+      "target": "plate"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "fried chicken drumstick",
+      "location": "0.05,0.0,0.45,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken2",
+      "label": "fried chicken piece",
+      "location": "0.35,0.2,0.75,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate",
+      "label": "plate",
+      "location": "0.0,0.4,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green blurred",
+        "size": "small"
+      },
+      "id": "leaves",
+      "label": "blurred leaves",
+      "location": "0.6,0.0,1.0,0.4,0.7"
+    }
+  ]
+}

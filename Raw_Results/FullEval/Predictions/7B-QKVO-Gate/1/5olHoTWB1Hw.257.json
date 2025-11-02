@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "cheese1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "on",
+      "source": "dish1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "oven1",
+      "target": "dish1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "dish1",
+      "label": "glass baking dish",
+      "location": "0.05,0.15,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow shredded",
+        "size": "medium"
+      },
+      "id": "cheese1",
+      "label": "shredded cheese",
+      "location": "0.1,0.2,0.9,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "small"
+      },
+      "id": "oven1",
+      "label": "oven control panel",
+      "location": "0.4,0.0,0.6,0.2,0.7"
+    }
+  ]
+}

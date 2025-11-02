@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "flag1",
+      "target": "background1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "flag1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red green yellow black diagonal stripes",
+        "size": "large"
+      },
+      "id": "flag1",
+      "label": "Jamaican flag",
+      "location": "0.05,0.05,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white cursive text",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Chef Ricardo text",
+      "location": "0.6,0.75,0.98,0.98,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red background",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "red border",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

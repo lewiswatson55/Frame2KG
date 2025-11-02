@@ -1,0 +1,145 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "food1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "kettle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife_block1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "backsplash1",
+      "target": "cabinets1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "framed_art1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt black apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.4,0.5,0.6,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "orange food pieces",
+      "location": "0.45,0.6,0.55,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "stand blender",
+      "location": "0.1,0.3,0.2,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "kettle1",
+      "label": "electric kettle",
+      "location": "0.25,0.35,0.3,0.45,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "knife_block1",
+      "label": "knife block",
+      "location": "0.0,0.3,0.1,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.4,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "cabinets1",
+      "label": "kitchen cabinets",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.6,0.5,0.9,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige stone",
+        "size": "medium"
+      },
+      "id": "backsplash1",
+      "label": "backsplash tiles",
+      "location": "0.5,0.3,0.9,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden frame",
+        "size": "small"
+      },
+      "id": "framed_art1",
+      "label": "framed art",
+      "location": "0.75,0.3,0.9,0.5,0.6"
+    }
+  ]
+}

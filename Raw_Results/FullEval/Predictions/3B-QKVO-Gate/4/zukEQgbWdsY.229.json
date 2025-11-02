@@ -1,0 +1,155 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand_left",
+      "target": "spoon"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand_right",
+      "target": "bread_slice"
+    },
+    {
+      "predicate": "on",
+      "source": "avocado_sauce",
+      "target": "bread_slice"
+    },
+    {
+      "predicate": "on",
+      "source": "avocado_sauce",
+      "target": "bread_slice2"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_slice2",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_slice",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bacon_strips",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "behind",
+      "source": "blender_jar",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "toaster_oven",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "right_of",
+      "source": "cable",
+      "target": "toaster_oven"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand_left",
+      "label": "left hand",
+      "location": "0.05,0.3,0.45,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand_right",
+      "label": "right hand",
+      "location": "0.4,0.0,0.6,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spoon",
+      "label": "spoon",
+      "location": "0.5,0.1,0.6,0.3,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "green paste",
+        "size": "small"
+      },
+      "id": "avocado_sauce",
+      "label": "avocado spread",
+      "location": "0.45,0.45,0.6,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread",
+        "size": "small"
+      },
+      "id": "bread_slice",
+      "label": "slice of bread",
+      "location": "0.45,0.45,0.6,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread",
+        "size": "small"
+      },
+      "id": "bread_slice2",
+      "label": "slice of bread",
+      "location": "0.45,0.6,0.6,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.2,0.5,0.8,0.9,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "red raw meat",
+        "size": "medium"
+      },
+      "id": "bacon_strips",
+      "label": "bacon strips",
+      "location": "0.0,0.7,0.3,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "blender_jar",
+      "label": "glass jar",
+      "location": "0.1,0.0,0.3,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "toaster_oven",
+      "label": "toaster oven",
+      "location": "0.4,0.0,0.7,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "cable",
+      "label": "power cable",
+      "location": "0.7,0.2,0.9,0.6,0.8"
+    }
+  ]
+}

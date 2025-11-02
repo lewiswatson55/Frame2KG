@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "grater1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "container1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "board1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white floral patterned shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.05,0.0,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.3,0.6,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow block",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "Cheese Block",
+      "location": "0.45,0.7,0.55,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "grater1",
+      "label": "Grater",
+      "location": "0.6,0.6,0.7,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "container1",
+      "label": "Container",
+      "location": "0.8,0.3,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "Kitchen Cabinet",
+      "location": "0.0,0.0,0.3,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "Shelf",
+      "location": "0.7,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

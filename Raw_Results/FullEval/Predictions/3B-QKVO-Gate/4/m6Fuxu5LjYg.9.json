@@ -1,0 +1,66 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "spatula1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "flour-coated",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "breaded chicken pieces",
+      "location": "0.05,0.05,0.48,0.36,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "metal spatula",
+      "location": "0.37,0.00,0.63,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.00,0.25,0.50,0.60,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "dark hair",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.50,0.00,1.00,1.00,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white painted",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "painting",
+      "location": "0.50,0.00,1.00,0.50,0.8"
+    }
+  ]
+}

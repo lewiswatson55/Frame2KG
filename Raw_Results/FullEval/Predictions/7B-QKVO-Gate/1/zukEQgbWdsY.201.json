@@ -1,0 +1,239 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "pan2",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "plate2",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "blender",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "jar2",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "plant1",
+      "target": "counter"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "oven",
+      "target": "cabinet_left"
+    },
+    {
+      "predicate": "above",
+      "source": "shelf1",
+      "target": "counter"
+    },
+    {
+      "predicate": "includes",
+      "source": "shelf1",
+      "target": "jars1"
+    },
+    {
+      "predicate": "includes",
+      "source": "shelf1",
+      "target": "plates1"
+    },
+    {
+      "predicate": "includes",
+      "source": "shelf1",
+      "target": "plant1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "grey shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.0,0.60,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.60,0.0,0.95,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "oven",
+      "label": "double oven",
+      "location": "0.0,0.0,0.4,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cabinet_left",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.2,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic black",
+        "size": "medium"
+      },
+      "id": "stove",
+      "label": "gas stove",
+      "location": "0.2,0.6,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.25,0.7,0.45,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black cast iron",
+        "size": "small"
+      },
+      "id": "pan2",
+      "label": "skillet",
+      "location": "0.45,0.7,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "plate of food",
+      "location": "0.6,0.6,0.8,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate2",
+      "label": "plate of food",
+      "location": "0.75,0.6,0.95,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.8,0.6,0.9,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "glass jar",
+      "location": "0.5,0.5,0.6,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "jar2",
+      "label": "glass jar",
+      "location": "0.6,0.5,0.7,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "herb plant",
+      "location": "0.85,0.2,0.95,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender",
+      "label": "blender",
+      "location": "0.7,0.4,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "open shelf",
+      "location": "0.2,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "various colored glass",
+        "size": "small"
+      },
+      "id": "jars1",
+      "label": "glass jars",
+      "location": "0.25,0.0,0.75,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue plates",
+        "size": "small"
+      },
+      "id": "plates1",
+      "label": "stacked plates",
+      "location": "0.75,0.0,0.95,0.3,0.7"
+    }
+  ]
+}

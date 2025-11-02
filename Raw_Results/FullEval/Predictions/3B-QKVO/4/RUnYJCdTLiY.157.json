@@ -1,0 +1,141 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "wooden_spoon1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "measuring_spoon1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife_set1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese_block1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "oven1",
+      "target": "table1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "oven1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "maroon shirt white apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.35,0.0,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.45,0.2,0.9,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "metal spatula",
+      "location": "0.6,0.5,0.8,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "medium"
+      },
+      "id": "wooden_spoon1",
+      "label": "wooden spoon",
+      "location": "0.3,0.6,0.45,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "measuring_spoon1",
+      "label": "measuring spoon",
+      "location": "0.05,0.6,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "knife_set1",
+      "label": "knife set",
+      "location": "0.8,0.5,0.95,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.25,0.35,0.35,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow block",
+        "size": "small"
+      },
+      "id": "cheese_block1",
+      "label": "cheese block",
+      "location": "0.28,0.38,0.33,0.43,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "wooden table",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "oven1",
+      "label": "oven",
+      "location": "0.0,0.0,0.3,0.5,0.8"
+    }
+  ]
+}

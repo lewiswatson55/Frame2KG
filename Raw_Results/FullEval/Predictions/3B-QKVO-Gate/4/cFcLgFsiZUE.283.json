@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinets"
+    },
+    {
+      "predicate": "on",
+      "source": "coffee_maker",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "blender",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "jar",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "stove",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fridge",
+      "target": "countertop"
+    },
+    {
+      "predicate": "left_of",
+      "source": "fridge",
+      "target": "cabinets"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "long blonde hair white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.15,0.85,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinets",
+      "label": "kitchen cabinets",
+      "location": "0.0,0.0,1.0,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown granite",
+        "size": "medium"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.4,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver stainless steel",
+        "size": "large"
+      },
+      "id": "fridge",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.2,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic red buttons",
+        "size": "small"
+      },
+      "id": "coffee_maker",
+      "label": "coffee maker",
+      "location": "0.2,0.45,0.3,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic glass jar",
+        "size": "small"
+      },
+      "id": "jar",
+      "label": "spice jar",
+      "location": "0.35,0.45,0.4,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass black base",
+        "size": "medium"
+      },
+      "id": "blender",
+      "label": "blender",
+      "location": "0.4,0.45,0.5,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "medium"
+      },
+      "id": "stove",
+      "label": "stove",
+      "location": "0.7,0.5,1.0,0.8,0.7"
+    }
+  ]
+}

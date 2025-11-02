@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "burger1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "logo1",
+      "target": "burger1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown bun with lettuce tomato cheese patty",
+        "size": "medium"
+      },
+      "id": "burger1",
+      "label": "hamburger",
+      "location": "0.53,0.18,0.97,0.84,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Popsugar logo",
+      "location": "0.75,0.85,0.95,0.98,0.6"
+    }
+  ]
+}

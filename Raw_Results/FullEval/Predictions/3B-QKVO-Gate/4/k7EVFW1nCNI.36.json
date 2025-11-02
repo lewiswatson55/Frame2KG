@@ -1,0 +1,150 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "hand1",
+      "target": "glass_bowl_left"
+    },
+    {
+      "predicate": "next_to",
+      "source": "black_bowl_salt",
+      "target": "black_bowl_pepper_grains"
+    },
+    {
+      "predicate": "left_of",
+      "source": "black_bowl_soy_sauce",
+      "target": "small_glass_bowl_sauce"
+    },
+    {
+      "predicate": "right_of",
+      "source": "small_glass_bowl_sauce",
+      "target": "small_glass_bowl_water"
+    },
+    {
+      "predicate": "behind",
+      "source": "small_glass_bowl_chili_flakes",
+      "target": "small_glass_bowl_black_pepper"
+    },
+    {
+      "predicate": "right_of",
+      "source": "small_glass_bowl_black_pepper",
+      "target": "small_glass_bowl_chili_flakes"
+    },
+    {
+      "predicate": "right_of",
+      "source": "small_glass_bowl_water",
+      "target": "small_glass_bowl_sauce"
+    },
+    {
+      "predicate": "right_of",
+      "source": "large_glass_bowl_rice",
+      "target": "small_glass_bowl_water"
+    },
+    {
+      "predicate": "right_of",
+      "source": "grater",
+      "target": "small_glass_bowl_black_pepper"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned blurred",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.05,0.0,0.45,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "glass_bowl_left",
+      "label": "glass bowl",
+      "location": "0.0,0.2,0.3,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black ceramic",
+        "size": "small"
+      },
+      "id": "black_bowl_salt",
+      "label": "salt bowl",
+      "location": "0.25,0.3,0.45,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black ceramic",
+        "size": "small"
+      },
+      "id": "black_bowl_pepper_grains",
+      "label": "pepper grains bowl",
+      "location": "0.45,0.3,0.65,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "black_bowl_soy_sauce",
+      "label": "soy sauce container",
+      "location": "0.0,0.7,0.3,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with brown liquid",
+        "size": "small"
+      },
+      "id": "small_glass_bowl_sauce",
+      "label": "sauce bowl",
+      "location": "0.25,0.7,0.45,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with yellowish water",
+        "size": "small"
+      },
+      "id": "small_glass_bowl_water",
+      "label": "water bowl",
+      "location": "0.45,0.7,0.65,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with black pepper",
+        "size": "small"
+      },
+      "id": "small_glass_bowl_black_pepper",
+      "label": "black pepper bowl",
+      "location": "0.65,0.2,0.85,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with red chili flakes",
+        "size": "small"
+      },
+      "id": "small_glass_bowl_chili_flakes",
+      "label": "chili flakes bowl",
+      "location": "0.85,0.2,1.0,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with white rice",
+        "size": "large"
+      },
+      "id": "large_glass_bowl_rice",
+      "label": "rice bowl",
+      "location": "0.6,0.4,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal grater",
+        "size": "small"
+      },
+      "id": "grater",
+      "label": "grater",
+      "location": "0.8,0.0,1.0,0.2,0.9"
+    }
+  ]
+}

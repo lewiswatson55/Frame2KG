@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "on",
+      "source": "text_overlay1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.35,0.0,0.65,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pinkish raw meat",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "raw chicken pieces",
+      "location": "0.4,0.3,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.0,0.2,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on white translucent background",
+        "size": "medium"
+      },
+      "id": "text_overlay1",
+      "label": "overlay text",
+      "location": "0.0,0.0,1.0,0.2,0.99"
+    }
+  ]
+}

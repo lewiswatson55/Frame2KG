@@ -1,0 +1,228 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "spray1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "spray1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "griddle1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "above",
+      "source": "window1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "figurine1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "mixer1",
+      "target": "kettle1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "kettle1",
+      "target": "coffee_machine1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "coffee_machine1",
+      "target": "mixer1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife_block1",
+      "target": "figurine1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown hair black apron green shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.25,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "medium"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinets",
+      "location": "0.4,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "granite countertop",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "griddle1",
+      "label": "electric griddle",
+      "location": "0.6,0.6,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown",
+        "size": "small"
+      },
+      "id": "pancake1",
+      "label": "pancakes",
+      "location": "0.65,0.65,0.85,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.4,0.7,0.6,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic red label",
+        "size": "small"
+      },
+      "id": "spray1",
+      "label": "cooking spray canister",
+      "location": "0.05,0.6,0.15,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.1,0.6,0.2,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver blade wooden handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.3,0.75,0.45,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass amber liquid",
+        "size": "small"
+      },
+      "id": "syrup_bottle1",
+      "label": "syrup bottle",
+      "location": "0.0,0.75,0.1,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "figurine1",
+      "label": "cow figurine",
+      "location": "0.75,0.1,0.85,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame blinds",
+        "size": "medium"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.85,0.0,1.0,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.8,0.4,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "kettle1",
+      "label": "electric kettle",
+      "location": "0.6,0.2,0.7,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "coffee_machine1",
+      "label": "coffee machine",
+      "location": "0.5,0.2,0.6,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "mixer1",
+      "label": "stand mixer",
+      "location": "0.6,0.2,0.7,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "knife_block1",
+      "label": "knife block",
+      "location": "0.75,0.3,0.8,0.45,0.9"
+    }
+  ]
+}

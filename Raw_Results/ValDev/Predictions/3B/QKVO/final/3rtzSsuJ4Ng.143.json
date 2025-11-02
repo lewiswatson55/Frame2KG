@@ -1,0 +1,145 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "on",
+      "source": "spoon1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato_slices",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon_slices",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "mustard_sauce",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce_leaf",
+      "target": "plate2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tongs1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "plate1",
+      "target": "plate2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned arms",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.35,0.0,0.65,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.35,0.35,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate2",
+      "label": "plate",
+      "location": "0.65,0.35,0.95,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread",
+        "size": "small"
+      },
+      "id": "sandwich_half1",
+      "label": "sandwich half",
+      "location": "0.05,0.15,0.3,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "tongs",
+      "location": "0.0,0.6,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "spoon",
+      "location": "0.4,0.2,0.5,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red slices",
+        "size": "small"
+      },
+      "id": "tomato_slices",
+      "label": "tomato slices",
+      "location": "0.45,0.45,0.6,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown strips",
+        "size": "small"
+      },
+      "id": "bacon_slices",
+      "label": "bacon slices",
+      "location": "0.45,0.45,0.6,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow liquid",
+        "size": "small"
+      },
+      "id": "mustard_sauce",
+      "label": "mustard sauce",
+      "location": "0.55,0.35,0.7,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce_leaf",
+      "label": "lettuce leaf",
+      "location": "0.75,0.45,0.95,0.7,0.9"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "holding",
+      "source": "person2",
+      "target": "knife1"
+    },
+    {
+      "predicate": "above",
+      "source": "sign1",
+      "target": "board1"
+    },
+    {
+      "predicate": "above",
+      "source": "sign2",
+      "target": "board1"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf2",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt red logo",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white sweater",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.48,0.05,0.76,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "salad bowl",
+      "location": "0.30,0.60,0.70,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.10,0.75,0.20,0.90,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.00,0.70,0.50,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "bread rack",
+      "location": "0.50,0.20,0.90,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "large"
+      },
+      "id": "shelf2",
+      "label": "bread rack",
+      "location": "0.00,0.20,0.50,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black chalkboard",
+        "size": "large"
+      },
+      "id": "sign1",
+      "label": "menu sign",
+      "location": "0.00,0.00,0.30,0.20,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black chalkboard",
+        "size": "large"
+      },
+      "id": "sign2",
+      "label": "menu sign",
+      "location": "0.30,0.00,0.60,0.20,0.8"
+    }
+  ]
+}

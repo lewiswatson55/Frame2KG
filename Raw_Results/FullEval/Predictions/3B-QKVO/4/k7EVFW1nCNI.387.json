@@ -1,0 +1,109 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "tongs1"
+    },
+    {
+      "predicate": "in",
+      "source": "tongs1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl3",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "bowl3"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bowl2",
+      "target": "bowl3"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.0,0.0,0.6,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "salad bowl",
+      "location": "0.45,0.55,0.75,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with brown croutons",
+        "size": "small"
+      },
+      "id": "bowl3",
+      "label": "crouton bowl",
+      "location": "0.0,0.55,0.3,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.3,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with green salad",
+        "size": "large"
+      },
+      "id": "bowl2",
+      "label": "salad bowl",
+      "location": "0.7,0.3,1.0,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "medium"
+      },
+      "id": "tongs1",
+      "label": "tongs",
+      "location": "0.7,0.0,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "wooden table",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    }
+  ]
+}

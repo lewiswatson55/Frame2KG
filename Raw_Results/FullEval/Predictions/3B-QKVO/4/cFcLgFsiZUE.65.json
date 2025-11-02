@@ -1,0 +1,112 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "display1",
+      "target": "panel"
+    },
+    {
+      "predicate": "on",
+      "source": "button1",
+      "target": "panel"
+    },
+    {
+      "predicate": "next_to",
+      "source": "button2",
+      "target": "button3"
+    },
+    {
+      "predicate": "left_of",
+      "source": "button4",
+      "target": "button5"
+    },
+    {
+      "predicate": "right_of",
+      "source": "button6",
+      "target": "button7"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "large"
+      },
+      "id": "panel",
+      "label": "control panel",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green digital",
+        "size": "medium"
+      },
+      "id": "display1",
+      "label": "digital display",
+      "location": "0.2,0.2,0.8,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "button1",
+      "label": "start button",
+      "location": "0.75,0.7,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "button2",
+      "label": "oven light button",
+      "location": "0.7,0.7,0.8,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "gray plastic",
+        "size": "small"
+      },
+      "id": "button3",
+      "label": "kitchen timer button",
+      "location": "0.7,0.6,0.85,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "gray plastic",
+        "size": "small"
+      },
+      "id": "button4",
+      "label": "cook time button",
+      "location": "0.7,0.5,0.85,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "gray plastic",
+        "size": "small"
+      },
+      "id": "button5",
+      "label": "time clock button",
+      "location": "0.7,0.45,0.85,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "gray plastic",
+        "size": "small"
+      },
+      "id": "button6",
+      "label": "oven light button",
+      "location": "0.7,0.35,0.85,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "gray plastic",
+        "size": "small"
+      },
+      "id": "button7",
+      "label": "kitchen timer button",
+      "location": "0.7,0.3,0.85,0.45,0.9"
+    }
+  ]
+}

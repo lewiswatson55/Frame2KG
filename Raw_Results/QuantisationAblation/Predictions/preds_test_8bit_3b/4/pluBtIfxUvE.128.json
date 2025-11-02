@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "eggs1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "herbs1",
+      "target": "eggs1"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon1",
+      "target": "eggs1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow creamy",
+        "size": "large"
+      },
+      "id": "eggs1",
+      "label": "scrambled eggs",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "herbs1",
+      "label": "chives",
+      "location": "0.3,0.4,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "reddish brown crispy",
+        "size": "medium"
+      },
+      "id": "bacon1",
+      "label": "bacon strips",
+      "location": "0.0,0.0,1.0,0.3,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    }
+  ]
+}

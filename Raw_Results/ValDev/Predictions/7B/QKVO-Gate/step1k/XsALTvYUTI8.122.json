@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "cheese1",
+      "target": "sauce1"
+    },
+    {
+      "predicate": "on",
+      "source": "sauce1",
+      "target": "pasta1"
+    },
+    {
+      "predicate": "in",
+      "source": "pasta1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "holding",
+      "source": "spoon1",
+      "target": "cheese1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.05,0.0,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow orange shredded",
+        "size": "medium"
+      },
+      "id": "cheese1",
+      "label": "shredded cheese",
+      "location": "0.1,0.3,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "creamy yellow",
+        "size": "medium"
+      },
+      "id": "sauce1",
+      "label": "white sauce",
+      "location": "0.05,0.4,0.95,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige pasta pieces",
+        "size": "small"
+      },
+      "id": "pasta1",
+      "label": "macaroni pasta",
+      "location": "0.1,0.4,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "spoon1",
+      "label": "metal spoon",
+      "location": "0.6,0.0,0.9,0.5,0.7"
+    }
+  ]
+}

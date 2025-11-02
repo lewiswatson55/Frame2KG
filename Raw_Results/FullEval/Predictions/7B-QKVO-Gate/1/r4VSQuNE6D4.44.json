@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "container1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "liquid1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "in",
+      "source": "drain1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "on",
+      "source": "container1",
+      "target": "sink1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "container1",
+      "label": "measuring cup",
+      "location": "0.35,0.0,0.65,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow liquid",
+        "size": "small"
+      },
+      "id": "liquid1",
+      "label": "batter",
+      "location": "0.4,0.0,0.7,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "large"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.3,0.4,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "sink1",
+      "label": "sink basin",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "drain1",
+      "label": "sink drain",
+      "location": "0.75,0.5,0.95,0.75,0.8"
+    }
+  ]
+}

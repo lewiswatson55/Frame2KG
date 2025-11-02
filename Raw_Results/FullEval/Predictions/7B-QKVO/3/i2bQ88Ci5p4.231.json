@@ -1,0 +1,202 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "cup1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife_block1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "can1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "glass1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "clock1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "window1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "above",
+      "source": "cabinet1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "cup1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "subscribe_button1",
+      "target": "food_image1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "food_image1",
+      "target": "subscribe_button1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black hoodie",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.58,0.05,0.97,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.46,0.0,0.98,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.2,0.0,0.45,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.3,0.6,0.45,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "small"
+      },
+      "id": "knife_block1",
+      "label": "knife block",
+      "location": "0.45,0.45,0.6,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl of dip",
+      "location": "0.0,0.6,0.2,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "cup1",
+      "label": "glass cup",
+      "location": "0.75,0.75,0.85,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic yellow",
+        "size": "small"
+      },
+      "id": "can1",
+      "label": "soda can",
+      "location": "0.85,0.75,0.98,0.95,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "glass1",
+      "label": "glass",
+      "location": "0.0,0.75,0.2,0.95,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red background white text",
+        "size": "small"
+      },
+      "id": "subscribe_button1",
+      "label": "subscribe button",
+      "location": "0.0,0.0,0.3,0.15,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "colorful food image",
+        "size": "small"
+      },
+      "id": "food_image1",
+      "label": "food image",
+      "location": "0.0,0.15,0.3,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black digital display",
+        "size": "small"
+      },
+      "id": "clock1",
+      "label": "clock",
+      "location": "0.7,0.1,0.9,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white blinds",
+        "size": "medium"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.0,0.0,0.3,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.6"
+    }
+  ]
+}

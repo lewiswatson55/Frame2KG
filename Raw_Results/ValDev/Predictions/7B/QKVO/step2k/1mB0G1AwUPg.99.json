@@ -1,0 +1,146 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "on",
+      "source": "spoon1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "container1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "behind",
+      "source": "menu_board1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "menu_board1",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white sweater",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.1,0.48,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.47,0.1,0.95,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.3,0.6,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "metal bowl",
+      "location": "0.0,0.6,0.2,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "small"
+      },
+      "id": "container1",
+      "label": "plastic container",
+      "location": "0.2,0.7,0.35,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.8,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black chalkboard",
+        "size": "large"
+      },
+      "id": "menu_board1",
+      "label": "menu board",
+      "location": "0.0,0.0,1.0,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread loaves",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "bread shelf",
+      "location": "0.3,0.2,0.7,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "spoon",
+      "location": "0.35,0.5,0.45,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light gray countertop",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.7"
+    }
+  ]
+}

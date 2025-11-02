@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "pasta1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper1",
+      "target": "pasta1"
+    },
+    {
+      "predicate": "on",
+      "source": "herb1",
+      "target": "pasta1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow creamy sauce",
+        "size": "large"
+      },
+      "id": "pasta1",
+      "label": "pasta",
+      "location": "0.05,0.05,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "bowl",
+      "location": "0.7,0.0,1.0,0.3,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "red",
+        "size": "small"
+      },
+      "id": "pepper1",
+      "label": "red pepper pieces",
+      "location": "0.4,0.1,0.6,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "herb1",
+      "label": "herbs",
+      "location": "0.3,0.4,0.5,0.6,0.7"
+    }
+  ]
+}

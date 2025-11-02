@@ -1,0 +1,151 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_white_powder",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "mixing_bowl",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "red_bowl",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "whisk",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "glass_jug",
+      "target": "table"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "glass_jug"
+    },
+    {
+      "predicate": "next_to",
+      "source": "small_glass_cups",
+      "target": "glass_jug"
+    },
+    {
+      "predicate": "left_of",
+      "source": "mixing_bowl",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "right_of",
+      "source": "glass_jug",
+      "target": "cutting_board"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue apron red shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.05,0.0,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass white powder",
+        "size": "medium"
+      },
+      "id": "bowl_white_powder",
+      "label": "glass bowl of flour",
+      "location": "0.05,0.45,0.35,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass metal whisk",
+        "size": "medium"
+      },
+      "id": "mixing_bowl",
+      "label": "mixing bowl",
+      "location": "0.25,0.25,0.55,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.35,0.45,0.75,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "red_bowl",
+      "label": "red bowl",
+      "location": "0.0,0.45,0.2,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "small"
+      },
+      "id": "whisk",
+      "label": "whisk",
+      "location": "0.15,0.45,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "glass_jug",
+      "label": "jug",
+      "location": "0.75,0.35,0.95,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.8,0.2,0.95,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass white contents",
+        "size": "small"
+      },
+      "id": "small_glass_cups",
+      "label": "small glass cups",
+      "location": "0.45,0.6,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "table",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    }
+  ]
+}

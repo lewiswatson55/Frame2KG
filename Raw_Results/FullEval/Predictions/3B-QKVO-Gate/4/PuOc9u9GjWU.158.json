@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "oil1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in",
+      "source": "onionrings1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "holding",
+      "source": "tongs1",
+      "target": "onionrings1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.05,0.45,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "bubbling clear",
+        "size": "medium"
+      },
+      "id": "oil1",
+      "label": "cooking oil",
+      "location": "0.05,0.45,0.95,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown battered",
+        "size": "small"
+      },
+      "id": "onionrings1",
+      "label": "onion rings",
+      "location": "0.3,0.6,0.7,0.9,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "tongs1",
+      "label": "kitchen tongs",
+      "location": "0.6,0.2,1.0,0.6,0.8"
+    }
+  ]
+}

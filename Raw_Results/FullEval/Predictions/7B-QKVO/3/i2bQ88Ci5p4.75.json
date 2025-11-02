@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "wine_glasses1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fridge1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "poster1",
+      "target": "fridge1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black jacket",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.75,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "medium"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.18,0.0,0.45,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "wine_glasses1",
+      "label": "wine glasses",
+      "location": "0.25,0.2,0.4,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.4,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic purple cap",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "water bottle",
+      "location": "0.2,0.5,0.3,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel black handle",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.75,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "colorful printed",
+        "size": "medium"
+      },
+      "id": "poster1",
+      "label": "wall poster",
+      "location": "0.6,0.0,0.9,0.4,0.7"
+    }
+  ]
+}

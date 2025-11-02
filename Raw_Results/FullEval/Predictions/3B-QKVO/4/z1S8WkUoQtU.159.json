@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "waffle1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "waffle2",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "waffle3",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "waffle4",
+      "target": "waffle5"
+    },
+    {
+      "predicate": "behind",
+      "source": "background1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "waffle1",
+      "label": "Waffle Piece",
+      "location": "0.0,0.2,0.6,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "waffle2",
+      "label": "Waffle Piece",
+      "location": "0.4,0.2,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "waffle3",
+      "label": "Waffle Piece",
+      "location": "0.5,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "waffle4",
+      "label": "Waffle Piece",
+      "location": "0.0,0.8,0.4,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "waffle5",
+      "label": "Waffle Piece",
+      "location": "0.4,0.8,0.8,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red blurred",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "Background",
+      "location": "0.5,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

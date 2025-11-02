@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bun1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife1",
+      "target": "bun1"
+    },
+    {
+      "predicate": "behind",
+      "source": "container1",
+      "target": "bun1"
+    },
+    {
+      "predicate": "behind",
+      "source": "lettuce1",
+      "target": "bun1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown sesame seed bun",
+        "size": "medium"
+      },
+      "id": "bun1",
+      "label": "burger bun",
+      "location": "0.35,0.45,0.65,0.78,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade with black handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.0,0.6,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic container with yellow liquid",
+        "size": "small"
+      },
+      "id": "container1",
+      "label": "milk container",
+      "location": "0.05,0.2,0.25,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy lettuce",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.6,0.2,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood surface",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    }
+  ]
+}

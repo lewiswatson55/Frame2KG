@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bag1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cabinet1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow plastic packaging with red text",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "Texas Toast Croutons Bag",
+      "location": "0.35,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "Stove",
+      "location": "0.0,0.4,0.3,1.0,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.75,0.0,1.0,0.3,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "white painted wood",
+        "size": "medium"
+      },
+      "id": "cabinet1",
+      "label": "Kitchen Cabinet Door",
+      "location": "0.7,0.5,1.0,1.0,0.80"
+    }
+  ]
+}

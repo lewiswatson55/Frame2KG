@@ -1,0 +1,109 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread2",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread3",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread1",
+      "target": "bread2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread2",
+      "target": "bread3"
+    },
+    {
+      "predicate": "above",
+      "source": "stream1",
+      "target": "bread1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light brown crust, yellow spread",
+        "size": "medium"
+      },
+      "id": "bread1",
+      "label": "slice of bread",
+      "location": "0.45,0.60,0.85,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown crust, yellow spread",
+        "size": "medium"
+      },
+      "id": "bread2",
+      "label": "slice of bread",
+      "location": "0.20,0.45,0.70,0.70,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown crust, yellow spread",
+        "size": "small"
+      },
+      "id": "bread3",
+      "label": "slice of bread",
+      "location": "0.10,0.30,0.40,0.50,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "wooden cutting board",
+      "location": "0.00,0.50,1.00,1.00,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green plastic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl",
+      "location": "0.70,0.00,0.95,0.20,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "gloved hand",
+      "location": "0.30,0.00,0.70,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "thin white liquid stream",
+        "size": "small"
+      },
+      "id": "stream1",
+      "label": "liquid stream",
+      "location": "0.60,0.00,0.70,0.60,0.7"
+    }
+  ]
+}

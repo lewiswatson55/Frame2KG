@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato1",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato2",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon1",
+      "target": "tomato1"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon2",
+      "target": "tomato2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tomato1",
+      "target": "tomato2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "bread1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown crust white spread",
+        "size": "medium"
+      },
+      "id": "bread1",
+      "label": "slice of bread",
+      "location": "0.05,0.48,0.95,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white crumbly",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "feta cream cheese mix",
+      "location": "0.1,0.53,0.9,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red juicy",
+        "size": "medium"
+      },
+      "id": "tomato1",
+      "label": "sliced tomato",
+      "location": "0.2,0.3,0.8,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red juicy",
+        "size": "medium"
+      },
+      "id": "tomato2",
+      "label": "sliced tomato",
+      "location": "0.4,0.2,0.9,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "crispy brown",
+        "size": "small"
+      },
+      "id": "bacon1",
+      "label": "bacon strip",
+      "location": "0.1,0.1,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "crispy brown",
+        "size": "small"
+      },
+      "id": "bacon2",
+      "label": "bacon strip",
+      "location": "0.4,0.1,0.9,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink background white text",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "instruction text",
+      "location": "0.0,0.75,0.4,1.0,0.9"
+    }
+  ]
+}

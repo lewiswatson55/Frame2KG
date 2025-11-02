@@ -1,0 +1,267 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bread_slice"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_slice",
+      "target": "plate"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "stove"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "pan2",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "blender",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "sandwich",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato_slices",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "plant",
+      "target": "counter"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "oven",
+      "target": "cabinet"
+    },
+    {
+      "predicate": "above",
+      "source": "shelf",
+      "target": "counter"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "grey shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.0,0.48,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.47,0.0,0.95,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.03,0.65,0.45,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black cast iron",
+        "size": "medium"
+      },
+      "id": "pan2",
+      "label": "skillet",
+      "location": "0.45,0.65,0.85,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "gas stove",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "board",
+      "label": "cutting board",
+      "location": "0.0,0.6,0.2,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green liquid",
+        "size": "medium"
+      },
+      "id": "blender",
+      "label": "blender",
+      "location": "0.75,0.3,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread with lettuce and tomato",
+        "size": "small"
+      },
+      "id": "sandwich",
+      "label": "sandwich",
+      "location": "0.8,0.6,0.95,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red leafy",
+        "size": "small"
+      },
+      "id": "lettuce",
+      "label": "lettuce",
+      "location": "0.8,0.8,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red slices",
+        "size": "small"
+      },
+      "id": "tomato_slices",
+      "label": "tomato slices",
+      "location": "0.6,0.7,0.75,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic",
+        "size": "small"
+      },
+      "id": "spatula",
+      "label": "spatula",
+      "location": "0.6,0.6,0.7,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl",
+      "label": "bowl",
+      "location": "0.6,0.5,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "plant",
+      "label": "potted plant",
+      "location": "0.85,0.3,0.95,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar with red contents",
+        "size": "small"
+      },
+      "id": "jar",
+      "label": "jar of spices",
+      "location": "0.9,0.0,1.0,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,1.0,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "oven",
+      "label": "oven",
+      "location": "0.0,0.0,0.4,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white tiled",
+        "size": "large"
+      },
+      "id": "backsplash",
+      "label": "tile backsplash",
+      "location": "0.0,0.2,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "counter",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wooden",
+        "size": "medium"
+      },
+      "id": "shelf",
+      "label": "open shelf",
+      "location": "0.0,0.0,1.0,0.2,0.7"
+    }
+  ]
+}

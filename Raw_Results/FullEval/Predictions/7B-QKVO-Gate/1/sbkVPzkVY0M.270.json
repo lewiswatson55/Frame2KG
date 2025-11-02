@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "burger1"
+    },
+    {
+      "predicate": "includes",
+      "source": "burger1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "includes",
+      "source": "burger1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "earring1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown hair, blue patterned shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.0,0.98,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden bun with lettuce",
+        "size": "medium"
+      },
+      "id": "burger1",
+      "label": "burger",
+      "location": "0.25,0.45,0.75,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce",
+      "location": "0.35,0.5,0.65,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red patty",
+        "size": "small"
+      },
+      "id": "patty1",
+      "label": "beef patty",
+      "location": "0.45,0.55,0.65,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "gold stud",
+        "size": "small"
+      },
+      "id": "earring1",
+      "label": "earring",
+      "location": "0.75,0.05,0.85,0.2,0.8"
+    }
+  ]
+}

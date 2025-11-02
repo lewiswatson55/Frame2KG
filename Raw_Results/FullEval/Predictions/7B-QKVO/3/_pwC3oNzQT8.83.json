@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "dish1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "dish2",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "dish1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.15,0.35,0.48,0.67,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange glazed",
+        "size": "large"
+      },
+      "id": "dish1",
+      "label": "rectangular dish",
+      "location": "0.48,0.35,0.95,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown breaded",
+        "size": "large"
+      },
+      "id": "dish2",
+      "label": "rectangular dish",
+      "location": "0.05,0.45,0.55,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "pot1",
+      "label": "metal pot",
+      "location": "0.00,0.60,0.25,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white tiled",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "stovetop",
+      "location": "0.00,0.00,0.30,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "jar1",
+      "label": "ceramic jar",
+      "location": "0.85,0.05,1.00,0.40,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white marble",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.00,0.30,1.00,1.00,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black text",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "watermark text",
+      "location": "0.50,0.75,0.95,0.95,0.9"
+    }
+  ]
+}

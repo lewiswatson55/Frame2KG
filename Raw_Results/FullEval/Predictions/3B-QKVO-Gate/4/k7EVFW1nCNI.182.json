@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "towel1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "above",
+      "source": "microwave1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "vase1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "mug1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white lace dress",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.15,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic with white base",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "food processor",
+      "location": "0.45,0.7,0.65,0.95,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.65,0.3,1.0,0.7,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "teal ceramic",
+        "size": "small"
+      },
+      "id": "pot1",
+      "label": "pot",
+      "location": "0.75,0.55,0.9,0.7,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "red flowers in glass vase",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "flower vase",
+      "location": "0.0,0.3,0.2,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "kitchen sink",
+      "location": "0.2,0.3,0.4,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white wooden",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinets",
+      "location": "0.0,0.0,1.0,0.3,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave oven",
+      "location": "0.6,0.0,1.0,0.3,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "mug1",
+      "label": "mug",
+      "location": "0.45,0.4,0.5,0.5,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "red cloth",
+        "size": "small"
+      },
+      "id": "towel1",
+      "label": "dish towel",
+      "location": "0.4,0.6,0.6,0.8,0.75"
+    }
+  ]
+}

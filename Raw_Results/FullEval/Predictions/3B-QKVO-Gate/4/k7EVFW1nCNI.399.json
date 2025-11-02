@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "lettuce1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "croutons1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "holding",
+      "source": "tongs1",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "salad bowl",
+      "location": "0.05,0.15,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "romaine lettuce",
+      "location": "0.3,0.4,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "croutons1",
+      "label": "croutons",
+      "location": "0.4,0.45,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pale yellow shredded",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "grated cheese",
+      "location": "0.45,0.4,0.6,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "tongs1",
+      "label": "metal tongs",
+      "location": "0.4,0.0,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood grain",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "wooden table",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    }
+  ]
+}

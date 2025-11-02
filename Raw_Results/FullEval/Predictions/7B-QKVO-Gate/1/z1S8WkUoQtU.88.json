@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "bowl1",
+      "target": "cloth1"
+    },
+    {
+      "predicate": "on",
+      "source": "cloth1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl2",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.05,0.48,0.95,0.97,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red fabric",
+        "size": "medium"
+      },
+      "id": "cloth1",
+      "label": "red cloth",
+      "location": "0.3,0.0,0.7,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "plastic bowl",
+      "location": "0.7,0.0,1.0,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.6,1.0,1.0,0.6"
+    }
+  ]
+}

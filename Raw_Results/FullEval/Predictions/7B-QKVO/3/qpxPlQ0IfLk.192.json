@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_slices1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lettuce1",
+      "target": "board1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "salt_bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "oil_container1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "griddle1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.05,0.35,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown grilled",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "grilled chicken piece",
+      "location": "0.40,0.45,0.60,0.60,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted golden brown",
+        "size": "small"
+      },
+      "id": "bread_slices1",
+      "label": "bread slices",
+      "location": "0.60,0.45,0.80,0.60,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.10,0.20,0.90,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden bowl with white salt",
+        "size": "small"
+      },
+      "id": "salt_bowl1",
+      "label": "salt bowl",
+      "location": "0.00,0.45,0.20,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue plastic bottle",
+        "size": "small"
+      },
+      "id": "oil_container1",
+      "label": "oil container",
+      "location": "0.85,0.20,1.00,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "griddle1",
+      "label": "griddle",
+      "location": "0.00,0.70,1.00,1.00,0.8"
+    }
+  ]
+}

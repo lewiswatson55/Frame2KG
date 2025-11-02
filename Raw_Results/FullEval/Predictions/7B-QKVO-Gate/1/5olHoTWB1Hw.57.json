@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "liquid1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "utensil_holder1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spice_container1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "stove1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.05,0.05,0.98,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy",
+        "size": "medium"
+      },
+      "id": "liquid1",
+      "label": "white liquid",
+      "location": "0.15,0.15,0.90,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.0,0.0,1.0,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "utensil_holder1",
+      "label": "utensil holder",
+      "location": "0.0,0.6,0.2,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green plastic",
+        "size": "small"
+      },
+      "id": "spice_container1",
+      "label": "spice container",
+      "location": "0.8,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

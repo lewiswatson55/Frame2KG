@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "grated1"
+    },
+    {
+      "predicate": "in",
+      "source": "grated1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.45,0.0,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow shredded",
+        "size": "small"
+      },
+      "id": "grated1",
+      "label": "grated cheese",
+      "location": "0.3,0.2,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "colander bowl",
+      "location": "0.0,0.0,1.0,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey speckled",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "kitchen countertop",
+      "location": "0.0,0.8,1.0,1.0,0.8"
+    }
+  ]
+}

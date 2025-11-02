@@ -1,0 +1,266 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "hotplate"
+    },
+    {
+      "predicate": "on",
+      "source": "hotplate",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce_plate",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato_plate",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_apples",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "frame_left",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "plant_pot",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "jar_spice1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "jar_spice2",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "oil_bottle",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "salt_shaker",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper_shaker",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spatula",
+      "target": "lettuce_plate"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bread_plate",
+      "target": "sauce_bottle"
+    },
+    {
+      "predicate": "right_of",
+      "source": "seasoning_shaker",
+      "target": "sauce_bottle"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.45,0.55,0.75,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "hotplate",
+      "label": "portable stove",
+      "location": "0.45,0.75,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "lettuce_plate",
+      "label": "plate of lettuce",
+      "location": "0.75,0.75,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "tomato_plate",
+      "label": "plate of tomatoes",
+      "location": "0.85,0.75,0.98,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden bowl with green apples",
+        "size": "small"
+      },
+      "id": "bowl_apples",
+      "label": "bowl of apples",
+      "location": "0.0,0.5,0.2,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame photo",
+        "size": "small"
+      },
+      "id": "frame_left",
+      "label": "photo frame",
+      "location": "0.0,0.4,0.2,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves in pot",
+        "size": "small"
+      },
+      "id": "plant_pot",
+      "label": "potted plant",
+      "location": "0.1,0.3,0.2,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar with yellow spice",
+        "size": "small"
+      },
+      "id": "jar_spice1",
+      "label": "spice jar",
+      "location": "0.25,0.5,0.3,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar with brown spice",
+        "size": "small"
+      },
+      "id": "jar_spice2",
+      "label": "spice jar",
+      "location": "0.3,0.5,0.35,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass bottle",
+        "size": "small"
+      },
+      "id": "oil_bottle",
+      "label": "olive oil bottle",
+      "location": "0.6,0.4,0.65,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow salt shaker",
+        "size": "small"
+      },
+      "id": "salt_shaker",
+      "label": "salt shaker",
+      "location": "0.85,0.5,0.9,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red pepper shaker",
+        "size": "small"
+      },
+      "id": "pepper_shaker",
+      "label": "pepper shaker",
+      "location": "0.85,0.65,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame painting",
+        "size": "medium"
+      },
+      "id": "framed_art1",
+      "label": "framed art",
+      "location": "0.6,0.0,0.8,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame painting",
+        "size": "medium"
+      },
+      "id": "framed_art2",
+      "label": "framed art",
+      "location": "0.8,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "small"
+      },
+      "id": "frame_right",
+      "label": "photo frame",
+      "location": "0.0,0.3,0.2,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.0,0.4,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with bread and sauce",
+        "size": "small"
+      },
+      "id": "bread_plate",
+      "label": "plate of toast",
+      "location": "0.1,0.75,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white container with red lid",
+        "size": "small"
+      },
+      "id": "seasoning_shaker",
+      "label": "seasoning shaker",
+      "location": "0.3,0.75,0.35,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red silicone handle",
+        "size": "small"
+      },
+      "id": "spatula",
+      "label": "spatula",
+      "location": "0.45,0.8,0.6,0.9,0.8"
+    }
+  ]
+}

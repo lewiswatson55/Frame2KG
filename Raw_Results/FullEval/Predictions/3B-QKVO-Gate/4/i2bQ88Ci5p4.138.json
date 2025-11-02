@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "wings1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "celery1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "plate1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "orange sauced",
+        "size": "medium"
+      },
+      "id": "wings1",
+      "label": "chicken wings",
+      "location": "0.15,0.35,0.85,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "rectangular plate",
+      "location": "0.0,0.4,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black bowl with white dip",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "dipping sauce bowl",
+      "location": "0.45,0.1,0.65,0.3,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "green celery sticks",
+        "size": "small"
+      },
+      "id": "celery1",
+      "label": "celery sticks",
+      "location": "0.65,0.15,0.85,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

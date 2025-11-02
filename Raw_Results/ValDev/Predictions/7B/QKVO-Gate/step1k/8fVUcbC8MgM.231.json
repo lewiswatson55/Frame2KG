@@ -1,0 +1,188 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "bowl_large1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_large1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_small1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "rice1",
+      "target": "bowl_small1"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper_grinder1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "paper_towel1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tongs1",
+      "target": "paper_towel1"
+    },
+    {
+      "predicate": "on",
+      "source": "napkin1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "foil_wrap1",
+      "target": "table1"
+    },
+    {
+      "predicate": "behind",
+      "source": "person1",
+      "target": "table1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.45,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "bowl_large1",
+      "label": "mixing bowl",
+      "location": "0.0,0.0,0.5,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "pepper_grinder1",
+      "label": "pepper grinder",
+      "location": "0.3,0.3,0.4,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown ceramic",
+        "size": "small"
+      },
+      "id": "bowl_small1",
+      "label": "small bowl",
+      "location": "0.1,0.4,0.3,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white rice",
+        "size": "small"
+      },
+      "id": "rice1",
+      "label": "rice",
+      "location": "0.1,0.45,0.3,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal spoon",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "spoon",
+      "location": "0.0,0.3,0.15,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper plate",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "paper plate",
+      "location": "0.4,0.6,0.9,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "medium"
+      },
+      "id": "paper_towel1",
+      "label": "paper towel",
+      "location": "0.6,0.5,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "tongs",
+      "location": "0.5,0.3,0.7,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white cloth",
+        "size": "medium"
+      },
+      "id": "napkin1",
+      "label": "napkin",
+      "location": "0.7,0.3,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.6,0.2,0.8,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent foil",
+        "size": "medium"
+      },
+      "id": "foil_wrap1",
+      "label": "aluminum foil",
+      "location": "0.3,0.2,0.7,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

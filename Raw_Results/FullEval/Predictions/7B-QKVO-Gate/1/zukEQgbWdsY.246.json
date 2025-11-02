@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bacon1"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "behind",
+      "source": "appliance1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "board1",
+      "target": "cabinet1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "hands",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red crispy",
+        "size": "small"
+      },
+      "id": "bacon1",
+      "label": "bacon strips",
+      "location": "0.45,0.45,0.7,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown toasted",
+        "size": "medium"
+      },
+      "id": "bread1",
+      "label": "toasted bread slice",
+      "location": "0.4,0.5,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.3,0.4,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic green avocado",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "avocado bowl",
+      "location": "0.0,0.5,0.2,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "appliance1",
+      "label": "kitchen appliance",
+      "location": "0.4,0.0,0.7,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.7,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

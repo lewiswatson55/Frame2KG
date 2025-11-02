@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread2",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread3",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread4",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread1",
+      "target": "bread2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread3",
+      "target": "bread4"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.05,0.0,0.95,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "griddle1",
+      "label": "Griddle",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "Bread Slice",
+      "location": "0.2,0.6,0.4,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread",
+        "size": "small"
+      },
+      "id": "bread2",
+      "label": "Bread Slice",
+      "location": "0.4,0.6,0.6,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread",
+        "size": "small"
+      },
+      "id": "bread3",
+      "label": "Bread Slice",
+      "location": "0.2,0.5,0.4,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread",
+        "size": "small"
+      },
+      "id": "bread4",
+      "label": "Bread Slice",
+      "location": "0.4,0.5,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "Spatula",
+      "location": "0.1,0.2,0.9,0.5,0.8"
+    }
+  ]
+}

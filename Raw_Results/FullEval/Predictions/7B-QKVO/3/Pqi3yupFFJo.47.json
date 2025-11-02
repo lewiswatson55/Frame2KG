@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "onion1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "sliced_onions1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "plate1",
+      "target": "window1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.15,0.35,0.85,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "purple red skin",
+        "size": "medium"
+      },
+      "id": "onion1",
+      "label": "Whole Onion",
+      "location": "0.40,0.10,0.60,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "thin purple rings",
+        "size": "small"
+      },
+      "id": "sliced_onions1",
+      "label": "Sliced Onions",
+      "location": "0.25,0.40,0.75,0.85,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "black granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.00,0.60,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "glass frame",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "Window",
+      "location": "0.00,0.00,1.00,0.30,0.7"
+    }
+  ]
+}

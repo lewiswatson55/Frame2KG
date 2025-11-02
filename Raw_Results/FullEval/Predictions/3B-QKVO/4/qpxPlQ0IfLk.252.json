@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "logo1",
+      "target": "table1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.35,0.05,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce leaves",
+      "location": "0.45,0.45,0.85,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted brown",
+        "size": "medium"
+      },
+      "id": "bread1",
+      "label": "Bread slice",
+      "location": "0.45,0.45,0.85,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.2,0.3,0.8,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table",
+      "location": "0.0,0.3,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden bowl with white salt",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Salt bowl",
+      "location": "0.85,0.4,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white logo",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Hungry logo",
+      "location": "0.0,0.0,0.2,0.2,0.9"
+    }
+  ]
+}

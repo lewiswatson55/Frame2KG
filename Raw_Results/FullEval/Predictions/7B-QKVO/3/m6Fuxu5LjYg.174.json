@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "hand1",
+      "target": "flour1"
+    },
+    {
+      "predicate": "on",
+      "source": "flour1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "large"
+      },
+      "id": "flour1",
+      "label": "Flour",
+      "location": "0.05,0.05,0.95,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.6,0.3,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.0,0.4,1.0,1.0,0.6"
+    }
+  ]
+}

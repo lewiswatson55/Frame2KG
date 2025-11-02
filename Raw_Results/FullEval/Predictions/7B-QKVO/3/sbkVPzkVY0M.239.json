@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "sauce_bottle"
+    },
+    {
+      "predicate": "on",
+      "source": "burger1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "burger2",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spice_shaker",
+      "target": "burger1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "plate1",
+      "target": "spice_shaker"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "plate1",
+      "target": "sauce_bottle"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.35,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.2,0.45,0.75,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden bun with melted yellow cheese",
+        "size": "small"
+      },
+      "id": "burger1",
+      "label": "Cheeseburger",
+      "location": "0.45,0.55,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden bun with grilled patty",
+        "size": "small"
+      },
+      "id": "burger2",
+      "label": "Grilled Burger",
+      "location": "0.3,0.5,0.5,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige plastic bottle",
+        "size": "small"
+      },
+      "id": "sauce_bottle",
+      "label": "Sauce Bottle",
+      "location": "0.3,0.0,0.5,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal shaker with red cap",
+        "size": "small"
+      },
+      "id": "spice_shaker",
+      "label": "Spice Shaker",
+      "location": "0.5,0.1,0.6,0.4,0.9"
+    }
+  ]
+}

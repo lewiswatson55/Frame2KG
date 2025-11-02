@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "flour1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula1",
+      "target": "flour1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spatula1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "dark metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "medium"
+      },
+      "id": "flour1",
+      "label": "flour",
+      "location": "0.0,0.0,1.0,1.0,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "metal spatula",
+      "location": "0.7,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.8,0.0,1.0,0.4,0.7"
+    }
+  ]
+}

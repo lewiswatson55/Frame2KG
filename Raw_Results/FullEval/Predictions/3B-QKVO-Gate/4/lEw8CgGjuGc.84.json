@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "hand1",
+      "target": "grill1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text_overlay1",
+      "target": "grill1"
+    },
+    {
+      "predicate": "includes",
+      "source": "grill1",
+      "target": "knob1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "grill1",
+      "label": "gas grill",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "small"
+      },
+      "id": "text_overlay1",
+      "label": "warning label",
+      "location": "0.0,0.0,0.7,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey plastic",
+        "size": "medium"
+      },
+      "id": "knob1",
+      "label": "control knob",
+      "location": "0.3,0.3,0.7,0.7,0.85"
+    }
+  ]
+}

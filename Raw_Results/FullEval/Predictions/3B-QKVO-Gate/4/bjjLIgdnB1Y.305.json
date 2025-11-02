@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "spatula1",
+      "target": "batter1"
+    },
+    {
+      "predicate": "on",
+      "source": "batter1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text_overlay1",
+      "target": "griddle1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "griddle1",
+      "label": "electric griddle",
+      "location": "0.0,0.05,1.0,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "metal spatula",
+      "location": "0.38,0.0,0.62,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pale yellow liquid",
+        "size": "small"
+      },
+      "id": "batter1",
+      "label": "batter",
+      "location": "0.4,0.2,0.6,0.45,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "medium"
+      },
+      "id": "text_overlay1",
+      "label": "watermark text",
+      "location": "0.6,0.8,1.0,1.0,0.95"
+    }
+  ]
+}

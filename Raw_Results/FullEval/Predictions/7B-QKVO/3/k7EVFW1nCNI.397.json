@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "grater1"
+    },
+    {
+      "predicate": "on",
+      "source": "salad1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "croutons1",
+      "target": "salad1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl2",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl3",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "plate1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.45,0.0,0.65,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic grey",
+        "size": "small"
+      },
+      "id": "grater1",
+      "label": "Grater",
+      "location": "0.57,0.0,0.75,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.25,0.3,0.75,0.75,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "green lettuce with brown croutons",
+        "size": "medium"
+      },
+      "id": "salad1",
+      "label": "Salad",
+      "location": "0.3,0.4,0.7,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown breaded",
+        "size": "small"
+      },
+      "id": "croutons1",
+      "label": "Croutons",
+      "location": "0.4,0.45,0.6,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl2",
+      "label": "Glass Bowl",
+      "location": "0.0,0.2,0.25,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl3",
+      "label": "Glass Bowl",
+      "location": "0.8,0.1,1.0,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.0,0.0,0.5,0.3,0.8"
+    }
+  ]
+}

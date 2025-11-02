@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand_left",
+      "target": "spatula"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand_right",
+      "target": "spatula"
+    },
+    {
+      "predicate": "in",
+      "source": "spatula",
+      "target": "pan"
+    },
+    {
+      "predicate": "on",
+      "source": "batter",
+      "target": "spatula"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "pan",
+      "target": "wall"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand_left",
+      "label": "left hand",
+      "location": "0.05,0.45,0.38,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand_right",
+      "label": "right hand",
+      "location": "0.62,0.45,0.95,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan",
+      "label": "frying pan",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spatula",
+      "label": "spatula",
+      "location": "0.25,0.5,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellowish",
+        "size": "small"
+      },
+      "id": "batter",
+      "label": "batter",
+      "location": "0.3,0.6,0.6,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white painted",
+        "size": "large"
+      },
+      "id": "wall",
+      "label": "wall",
+      "location": "0.9,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

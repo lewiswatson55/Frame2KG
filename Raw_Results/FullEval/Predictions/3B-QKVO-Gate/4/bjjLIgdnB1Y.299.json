@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "griddle"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "pancake1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text_overlay",
+      "target": "griddle"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "griddle",
+      "label": "Griddle",
+      "location": "0.0,0.05,1.0,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white batter",
+        "size": "small"
+      },
+      "id": "pancake1",
+      "label": "Pancake",
+      "location": "0.47,0.3,0.63,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue plastic",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "Sauce Bottle",
+      "location": "0.55,0.0,0.75,0.3,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "small"
+      },
+      "id": "text_overlay",
+      "label": "Text Overlay",
+      "location": "0.6,0.8,1.0,1.0,0.95"
+    }
+  ]
+}

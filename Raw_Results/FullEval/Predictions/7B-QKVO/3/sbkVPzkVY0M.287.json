@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "spotlight1",
+      "target": "background"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "spotlight2",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "text2",
+      "target": "background"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink gradient",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "bright pink glow",
+        "size": "medium"
+      },
+      "id": "spotlight1",
+      "label": "Spotlight 1",
+      "location": "0.3,0.4,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "bright pink glow",
+        "size": "medium"
+      },
+      "id": "spotlight2",
+      "label": "Spotlight 2",
+      "location": "0.6,0.3,0.9,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black silhouette",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Logo",
+      "location": "0.45,0.45,0.55,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on pink background",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "Text 'Featured Music'",
+      "location": "0.6,0.7,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on pink background",
+        "size": "small"
+      },
+      "id": "text2",
+      "label": "Text 'by Silver Bullets Music Library'",
+      "location": "0.6,0.8,0.9,0.9,0.9"
+    }
+  ]
+}

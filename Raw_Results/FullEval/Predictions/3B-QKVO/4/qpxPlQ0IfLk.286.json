@@ -1,0 +1,131 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "kitchen_background"
+    },
+    {
+      "predicate": "on",
+      "source": "pasta_bowl",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "utensils_holder",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_oranges",
+      "target": "counter1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "utensils_holder"
+    },
+    {
+      "predicate": "left_of",
+      "source": "photo_frame_left",
+      "target": "photo_frame_right"
+    },
+    {
+      "predicate": "right_of",
+      "source": "logo_hungry",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "multicolored plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.58,0.34,0.96,0.78,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey stone wall",
+        "size": "large"
+      },
+      "id": "kitchen_background",
+      "label": "kitchen wall",
+      "location": "0.25,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic bowl with pasta",
+        "size": "medium"
+      },
+      "id": "pasta_bowl",
+      "label": "pasta bowl",
+      "location": "0.05,0.25,0.35,0.55,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden rack with utensils",
+        "size": "small"
+      },
+      "id": "utensils_holder",
+      "label": "utensil holder",
+      "location": "0.45,0.45,0.55,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange fruit bowl",
+        "size": "small"
+      },
+      "id": "bowl_oranges",
+      "label": "bowl of oranges",
+      "location": "0.65,0.65,0.85,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood countertop",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey stone wall",
+        "size": "large"
+      },
+      "id": "wall_shelf",
+      "label": "shelf",
+      "location": "0.0,0.0,0.25,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue fish logo",
+        "size": "small"
+      },
+      "id": "logo_hungry",
+      "label": "hungry logo",
+      "location": "0.85,0.0,1.0,0.2,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "colorful photo frame",
+        "size": "medium"
+      },
+      "id": "photo_frame_left",
+      "label": "photo frame",
+      "location": "0.0,0.0,0.3,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "colorful photo frame",
+        "size": "medium"
+      },
+      "id": "photo_frame_right",
+      "label": "photo frame",
+      "location": "0.3,0.0,0.6,0.3,0.8"
+    }
+  ]
+}

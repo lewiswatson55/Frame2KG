@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "sauce1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "pot1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "Pot",
+      "location": "0.05,0.0,0.95,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange glossy liquid",
+        "size": "medium"
+      },
+      "id": "sauce1",
+      "label": "Hot Sauce",
+      "location": "0.1,0.1,0.9,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "orange background white text black border",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "Text Overlay",
+      "location": "0.0,0.6,0.4,0.9,0.9"
+    }
+  ]
+}

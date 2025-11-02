@@ -1,0 +1,165 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "applesauce1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in",
+      "source": "apple_slices1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "meat1",
+      "target": "plate2"
+    },
+    {
+      "predicate": "on",
+      "source": "sauce1",
+      "target": "plate2"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "plate3"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "play_button1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "play_button1",
+      "target": "plate2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "play_button1",
+      "target": "plate3"
+    },
+    {
+      "predicate": "left_of",
+      "source": "plate1",
+      "target": "play_button1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "play_button1",
+      "target": "plate2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "play_button1",
+      "target": "plate3"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "Plate of Apple Slices",
+      "location": "0.25,0.4,0.48,0.67,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red and green",
+        "size": "small"
+      },
+      "id": "apple_slices1",
+      "label": "Apple Slices",
+      "location": "0.28,0.45,0.45,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate2",
+      "label": "Plate with Meat and Sauce",
+      "location": "0.25,0.65,0.48,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown cooked",
+        "size": "small"
+      },
+      "id": "meat1",
+      "label": "Meat Piece",
+      "location": "0.3,0.7,0.45,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red sauce",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "Sauce on Plate",
+      "location": "0.28,0.75,0.45,0.88,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "multicolored ceramic",
+        "size": "large"
+      },
+      "id": "plate3",
+      "label": "Decorative Plate with Bread",
+      "location": "0.55,0.0,0.85,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "Bread Slice",
+      "location": "0.6,0.05,0.8,0.25,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with yellow contents",
+        "size": "medium"
+      },
+      "id": "jar1",
+      "label": "Jar of Fruit",
+      "location": "0.85,0.3,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "lid1",
+      "label": "Jar Lid",
+      "location": "0.88,0.3,0.98,0.38,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black background",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white circle with black triangle",
+        "size": "medium"
+      },
+      "id": "play_button1",
+      "label": "Play Button",
+      "location": "0.45,0.6,0.55,0.75,0.9"
+    }
+  ]
+}

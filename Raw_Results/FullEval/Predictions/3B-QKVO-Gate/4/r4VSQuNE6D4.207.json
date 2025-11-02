@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "on",
+      "source": "batter1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bottle1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.05,0.15,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "squeeze bottle",
+      "location": "0.65,0.0,0.95,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.75,0.0,1.0,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pale yellow liquid",
+        "size": "medium"
+      },
+      "id": "batter1",
+      "label": "batter stream",
+      "location": "0.55,0.2,0.85,0.7,0.85"
+    }
+  ]
+}

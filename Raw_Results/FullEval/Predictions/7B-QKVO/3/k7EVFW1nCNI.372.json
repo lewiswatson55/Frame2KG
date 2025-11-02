@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "salad1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl2",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl3",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "White Bowl",
+      "location": "0.25,0.25,0.75,0.80,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "salad1",
+      "label": "Salad Leaves",
+      "location": "0.30,0.40,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "large"
+      },
+      "id": "bowl2",
+      "label": "Glass Bowl",
+      "location": "0.75,0.00,1.00,0.50,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl3",
+      "label": "Small Glass Bowl",
+      "location": "0.00,0.10,0.20,0.40,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.00,0.00,0.40,0.20,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood grain",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Wooden Table",
+      "location": "0.00,0.00,1.00,1.00,0.9"
+    }
+  ]
+}

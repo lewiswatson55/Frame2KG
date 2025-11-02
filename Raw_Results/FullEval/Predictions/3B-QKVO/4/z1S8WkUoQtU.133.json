@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "batter1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "on",
+      "source": "oil1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "batter1",
+      "label": "fried batter ring",
+      "location": "0.35,0.15,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear bubbling",
+        "size": "large"
+      },
+      "id": "oil1",
+      "label": "cooking oil",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

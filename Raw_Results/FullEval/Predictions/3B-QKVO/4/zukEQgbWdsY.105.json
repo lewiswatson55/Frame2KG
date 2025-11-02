@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "board1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "on",
+      "source": "frame1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "board1",
+      "target": "frame1"
+    },
+    {
+      "predicate": "behind",
+      "source": "tree1",
+      "target": "window1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.45,0.05,0.98,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "glass window",
+      "location": "0.30,0.00,0.70,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "small"
+      },
+      "id": "board1",
+      "label": "wooden board",
+      "location": "0.05,0.50,0.25,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "frame1",
+      "label": "decorative frame",
+      "location": "0.00,0.00,0.20,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "large"
+      },
+      "id": "tree1",
+      "label": "tree",
+      "location": "0.30,0.00,0.70,0.60,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white painted",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.00,0.00,0.30,1.00,0.7"
+    }
+  ]
+}

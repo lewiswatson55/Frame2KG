@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "watch1"
+    },
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "shirt1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.35,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "Blender Jar",
+      "location": "0.2,0.4,0.6,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic spoon",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.37,0.45,0.45,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown leather",
+        "size": "small"
+      },
+      "id": "watch1",
+      "label": "Watch",
+      "location": "0.45,0.2,0.55,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "multicolored plaid",
+        "size": "large"
+      },
+      "id": "shirt1",
+      "label": "Shirt",
+      "location": "0.4,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden cap glass bottle",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "Bottle",
+      "location": "0.8,0.7,0.9,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.6,1.0,1.0,0.6"
+    }
+  ]
+}

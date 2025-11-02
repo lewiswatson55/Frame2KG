@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "pancake1"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.05,0.1,0.98,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow bubbly",
+        "size": "medium"
+      },
+      "id": "pancake1",
+      "label": "pancake batter",
+      "location": "0.4,0.15,0.75,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.3,0.3,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "slotted spatula",
+      "location": "0.5,0.0,0.8,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white enamel",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

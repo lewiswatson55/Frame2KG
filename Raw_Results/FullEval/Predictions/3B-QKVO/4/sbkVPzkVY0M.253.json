@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "burger1"
+    },
+    {
+      "predicate": "on",
+      "source": "burger2",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "chair1"
+    },
+    {
+      "predicate": "behind",
+      "source": "person1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red shirt blue jeans",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.35,0.0,0.95,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "chair1",
+      "label": "chair",
+      "location": "0.0,0.0,0.3,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.3,0.5,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green lettuce bun patty",
+        "size": "small"
+      },
+      "id": "burger2",
+      "label": "burger",
+      "location": "0.45,0.6,0.85,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread with sauce",
+        "size": "small"
+      },
+      "id": "burger1",
+      "label": "burger half",
+      "location": "0.35,0.0,0.65,0.4,0.9"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl1",
+      "target": "food1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plant1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "stove1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "cabinet1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink shirt blue apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.45,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.8,0.4,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "blue patterned wood",
+        "size": "small"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.75,0.6,1.0,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottles with colorful liquids",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "bottles",
+      "location": "0.55,0.05,0.75,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.5,0.0,1.0,0.3,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "potted plant",
+      "location": "0.0,0.0,0.2,0.3,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl",
+      "location": "0.45,0.5,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "fried food",
+      "location": "0.48,0.55,0.62,0.65,0.8"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "scissors1"
+    },
+    {
+      "predicate": "cutting",
+      "source": "scissors1",
+      "target": "container1"
+    },
+    {
+      "predicate": "on",
+      "source": "container1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "cup1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bag1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "box1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "window1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue plastic handle",
+        "size": "medium"
+      },
+      "id": "scissors1",
+      "label": "scissors",
+      "location": "0.45,0.3,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "container1",
+      "label": "plastic container",
+      "location": "0.4,0.45,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "cup1",
+      "label": "cup",
+      "location": "0.0,0.3,0.25,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "plastic bag",
+      "location": "0.1,0.0,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown cardboard",
+        "size": "small"
+      },
+      "id": "box1",
+      "label": "cardboard box",
+      "location": "0.6,0.0,0.8,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.6,0.3,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal frame glass",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "window blinds",
+      "location": "0.8,0.0,1.0,0.5,0.8"
+    }
+  ]
+}

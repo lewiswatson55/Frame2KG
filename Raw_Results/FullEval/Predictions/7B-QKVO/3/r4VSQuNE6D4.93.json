@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "syringe1"
+    },
+    {
+      "predicate": "pouring_on",
+      "source": "syringe1",
+      "target": "pancake1"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "on",
+      "source": "griddle1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "griddle1",
+      "label": "Griddle",
+      "location": "0.05,0.1,0.98,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "syringe1",
+      "label": "Syringe",
+      "location": "0.6,0.0,0.97,0.45,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "light beige batter",
+        "size": "small"
+      },
+      "id": "pancake1",
+      "label": "Pancake",
+      "location": "0.5,0.3,0.8,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.7,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "Stove Top",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

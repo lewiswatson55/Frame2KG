@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "dip1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "plate1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "herb1",
+      "target": "dip1"
+    },
+    {
+      "predicate": "behind",
+      "source": "chicken1",
+      "target": "dip1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "white plate",
+      "location": "0.65,0.45,0.98,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red sauce",
+        "size": "small"
+      },
+      "id": "dip1",
+      "label": "sauce bowl",
+      "location": "0.0,0.6,0.6,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "large"
+      },
+      "id": "chicken1",
+      "label": "fried chicken strips",
+      "location": "0.3,0.0,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "herb1",
+      "label": "thyme sprig",
+      "location": "0.6,0.4,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue plastic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "plastic container",
+      "location": "0.0,0.0,0.6,0.3,0.7"
+    }
+  ]
+}

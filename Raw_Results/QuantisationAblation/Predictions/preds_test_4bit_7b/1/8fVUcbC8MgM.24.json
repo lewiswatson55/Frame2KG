@@ -1,0 +1,146 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "microwave1",
+      "target": "cabinet_left"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "microwave1",
+      "target": "cabinet_left"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "apple1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "jars1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "utensils_holder1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "dishwasher1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "dishwasher1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown hair, white top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave oven",
+      "location": "0.0,0.0,0.4,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "cabinet_left",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.4,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.3,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.4,0.4,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.1,0.45,0.3,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green",
+        "size": "small"
+      },
+      "id": "apple1",
+      "label": "apple",
+      "location": "0.3,0.5,0.35,0.55,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass with green lids",
+        "size": "small"
+      },
+      "id": "jars1",
+      "label": "storage jars",
+      "location": "0.5,0.4,0.7,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "small"
+      },
+      "id": "utensils_holder1",
+      "label": "utensil holder",
+      "location": "0.0,0.4,0.1,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "dishwasher1",
+      "label": "dishwasher",
+      "location": "0.7,0.6,1.0,1.0,0.8"
+    }
+  ]
+}

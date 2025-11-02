@@ -1,0 +1,150 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "paper1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "vase1",
+      "target": "table1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "screen1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "screen1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "turquoise shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.18,0.47,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green dress",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.53,0.16,0.95,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink background",
+        "size": "large"
+      },
+      "id": "screen1",
+      "label": "television screen",
+      "location": "0.2,0.0,0.8,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate of food",
+      "location": "0.35,0.55,0.55,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.45,0.65,0.5,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "metal vase",
+      "location": "0.5,0.55,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.5,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "small"
+      },
+      "id": "paper1",
+      "label": "paper",
+      "location": "0.1,0.5,0.2,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on pink banner",
+        "size": "small"
+      },
+      "id": "subtitle1",
+      "label": "subtitle text",
+      "location": "0.0,0.8,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "POPSUGAR logo",
+      "location": "0.8,0.0,1.0,0.15,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "medium"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.6,0.2,0.9,0.6,0.7"
+    }
+  ]
+}

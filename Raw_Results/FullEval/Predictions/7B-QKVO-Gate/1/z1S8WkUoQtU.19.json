@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "shirt1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "painting1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "vase1",
+      "target": "couch1"
+    },
+    {
+      "predicate": "behind",
+      "source": "painting1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown hair, red shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.15,0.0,0.85,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red fabric",
+        "size": "medium"
+      },
+      "id": "shirt1",
+      "label": "shirt",
+      "location": "0.2,0.3,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame",
+        "size": "small"
+      },
+      "id": "painting1",
+      "label": "artwork",
+      "location": "0.4,0.1,0.6,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "orange ceramic",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "vase",
+      "location": "0.85,0.4,1.0,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "beige fabric",
+        "size": "large"
+      },
+      "id": "couch1",
+      "label": "sofa",
+      "location": "0.0,0.7,1.0,1.0,0.6"
+    }
+  ]
+}

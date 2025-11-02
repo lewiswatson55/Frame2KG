@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "cutting",
+      "source": "knife1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread2",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "tongs1",
+      "target": "board1"
+    },
+    {
+      "predicate": "behind",
+      "source": "bottle1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.53,0.08,0.97,0.64,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black handle metal blade",
+        "size": "large"
+      },
+      "id": "knife1",
+      "label": "Knife",
+      "location": "0.55,0.15,0.95,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crust",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "Bread Roll",
+      "location": "0.45,0.45,0.75,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crust",
+        "size": "small"
+      },
+      "id": "bread2",
+      "label": "Bread Roll",
+      "location": "0.25,0.45,0.45,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "tongs1",
+      "label": "Tongs",
+      "location": "0.0,0.0,0.5,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white label black cap",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "Bottle Cap",
+      "location": "0.0,0.0,0.2,0.2,0.8"
+    }
+  ]
+}

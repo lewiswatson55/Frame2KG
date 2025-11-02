@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "knife"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand2",
+      "target": "lettuce"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "bread2",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "knife",
+      "target": "bread2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle",
+      "target": "lettuce"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "lettuce",
+      "target": "bread1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "left hand",
+      "location": "0.05,0.3,0.48,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand2",
+      "label": "right hand",
+      "location": "0.45,0.0,0.95,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.2,0.4,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crust white interior",
+        "size": "medium"
+      },
+      "id": "bread1",
+      "label": "toasted bread slice",
+      "location": "0.1,0.0,0.4,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crust white interior",
+        "size": "medium"
+      },
+      "id": "bread2",
+      "label": "toasted bread slice",
+      "location": "0.1,0.4,0.4,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "large"
+      },
+      "id": "lettuce",
+      "label": "lettuce",
+      "location": "0.4,0.5,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic red cap",
+        "size": "small"
+      },
+      "id": "bottle",
+      "label": "sauce bottle",
+      "location": "0.8,0.0,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "cutting board",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

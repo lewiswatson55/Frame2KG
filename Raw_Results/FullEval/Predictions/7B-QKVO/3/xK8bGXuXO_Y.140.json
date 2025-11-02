@@ -1,0 +1,177 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl_red"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_red",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_white",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_milk",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pan_black",
+      "target": "stove"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife_block",
+      "target": "sink"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "faucet",
+      "target": "sink"
+    },
+    {
+      "predicate": "behind",
+      "source": "plant_hanging",
+      "target": "window"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink shirt blue apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.1,0.75,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "small"
+      },
+      "id": "bowl_red",
+      "label": "mixing bowl",
+      "location": "0.45,0.6,0.55,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl_white",
+      "label": "bowl",
+      "location": "0.35,0.65,0.45,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl_milk",
+      "label": "milk container",
+      "location": "0.45,0.7,0.55,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan_black",
+      "label": "frying pan",
+      "location": "0.7,0.75,0.95,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "sink",
+      "label": "kitchen sink",
+      "location": "0.2,0.4,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "faucet",
+      "label": "faucet",
+      "location": "0.3,0.45,0.35,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden handle black blades",
+        "size": "small"
+      },
+      "id": "knife_block",
+      "label": "knife block",
+      "location": "0.1,0.5,0.2,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar with red contents",
+        "size": "small"
+      },
+      "id": "jar_red",
+      "label": "jar",
+      "location": "0.25,0.6,0.3,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "medium"
+      },
+      "id": "plant_hanging",
+      "label": "hanging plant",
+      "location": "0.2,0.0,0.4,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "large"
+      },
+      "id": "window",
+      "label": "window",
+      "location": "0.0,0.0,1.0,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "large"
+      },
+      "id": "fridge",
+      "label": "refrigerator",
+      "location": "0.8,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black glass",
+        "size": "medium"
+      },
+      "id": "stove",
+      "label": "stovetop",
+      "location": "0.5,0.75,0.9,0.9,0.8"
+    }
+  ]
+}

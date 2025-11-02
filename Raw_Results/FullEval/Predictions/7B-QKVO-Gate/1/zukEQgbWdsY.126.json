@@ -1,0 +1,178 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "towel"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove"
+    },
+    {
+      "predicate": "in",
+      "source": "meat1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "behind",
+      "source": "window",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "window",
+      "target": "person2"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "oven",
+      "target": "cabinet"
+    },
+    {
+      "predicate": "on",
+      "source": "bottles",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "glass_bowl",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "paper_towel",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "meat_slices",
+      "target": "paper_towel"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "dark shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.0,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.47,0.0,0.96,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.6,0.5,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "raw pink",
+        "size": "small"
+      },
+      "id": "meat1",
+      "label": "raw meat",
+      "location": "0.05,0.65,0.45,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden frame",
+        "size": "large"
+      },
+      "id": "window",
+      "label": "window",
+      "location": "0.0,0.0,0.5,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "oven",
+      "label": "oven",
+      "location": "0.5,0.0,0.9,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "kitchen cabinet",
+      "location": "0.5,0.0,0.9,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "assorted glass bottles",
+        "size": "medium"
+      },
+      "id": "bottles",
+      "label": "wine bottles",
+      "location": "0.7,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white tiled backsplash",
+        "size": "medium"
+      },
+      "id": "backsplash",
+      "label": "backsplash",
+      "location": "0.5,0.3,0.9,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "glass_bowl",
+      "label": "glass bowl",
+      "location": "0.75,0.6,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "small"
+      },
+      "id": "paper_towel",
+      "label": "paper towel",
+      "location": "0.6,0.75,0.9,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red sliced",
+        "size": "small"
+      },
+      "id": "meat_slices",
+      "label": "meat slices",
+      "location": "0.7,0.8,0.9,1.0,0.8"
+    }
+  ]
+}

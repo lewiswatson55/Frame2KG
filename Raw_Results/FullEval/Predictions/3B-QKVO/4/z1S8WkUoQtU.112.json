@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "onion1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "onion1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.45,0.0,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "purple outer layer white inner core",
+        "size": "small"
+      },
+      "id": "onion1",
+      "label": "red onion slice",
+      "location": "0.3,0.7,0.8,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "ceramic bowl",
+      "location": "0.0,0.0,0.5,1.0,0.8"
+    }
+  ]
+}

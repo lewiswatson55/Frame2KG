@@ -1,0 +1,154 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "jug1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jug1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "plant_hanger1",
+      "target": "window1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "utensil_holder1",
+      "target": "faucet1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "curtain1",
+      "target": "window1"
+    },
+    {
+      "predicate": "behind",
+      "source": "fridge1",
+      "target": "window1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black hair, blue apron, pink shawl",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.18,0.67,0.94,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "medium"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.70,0.65,0.98,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.45,0.65,0.75,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.30,0.65,0.45,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "jug1",
+      "label": "measuring jug",
+      "location": "0.45,0.65,0.55,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar with white contents",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "jar",
+      "location": "0.55,0.65,0.65,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden rack with utensils",
+        "size": "small"
+      },
+      "id": "utensil_holder1",
+      "label": "utensil holder",
+      "location": "0.05,0.45,0.20,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "faucet1",
+      "label": "kitchen faucet",
+      "location": "0.25,0.45,0.35,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "medium"
+      },
+      "id": "plant_hanger1",
+      "label": "hanging plant",
+      "location": "0.20,0.05,0.40,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.00,0.00,1.00,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige fabric",
+        "size": "medium"
+      },
+      "id": "curtain1",
+      "label": "curtain",
+      "location": "0.50,0.00,0.80,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.80,0.00,1.00,0.80,0.8"
+    }
+  ]
+}

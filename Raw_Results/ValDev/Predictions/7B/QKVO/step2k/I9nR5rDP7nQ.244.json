@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "signs"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "arrow1",
+      "target": "text1"
+    },
+    {
+      "predicate": "behind",
+      "source": "background1",
+      "target": "signs"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow paper",
+        "size": "medium"
+      },
+      "id": "signs",
+      "label": "Subscribe Signs",
+      "location": "0.35,0.1,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white bold font",
+        "size": "large"
+      },
+      "id": "text1",
+      "label": "Text Overlay",
+      "location": "0.1,0.4,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange arrow",
+        "size": "small"
+      },
+      "id": "arrow1",
+      "label": "Arrow Icon",
+      "location": "0.5,0.6,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red gradient",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "Background Gradient",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

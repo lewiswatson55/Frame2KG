@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in",
+      "source": "batter1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "dish1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "blender1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "jar1",
+      "target": "blender1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "Stovetop",
+      "location": "0.0,0.5,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "Frying pan",
+      "location": "0.0,0.6,0.5,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white foamy",
+        "size": "small"
+      },
+      "id": "batter1",
+      "label": "Batter",
+      "location": "0.3,0.7,0.45,0.85,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "Tray",
+      "location": "0.45,0.6,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "powder1",
+      "label": "Powdered substance",
+      "location": "0.5,0.7,0.7,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass transparent",
+        "size": "medium"
+      },
+      "id": "dish1",
+      "label": "Glass dish",
+      "location": "0.75,0.6,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "Blender",
+      "location": "0.7,0.1,0.95,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "medium"
+      },
+      "id": "jar1",
+      "label": "Jar",
+      "location": "0.9,0.1,1.0,0.5,0.9"
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "microwave1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "sink1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "vase1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "flowers1",
+      "target": "vase1"
+    },
+    {
+      "predicate": "on",
+      "source": "towel1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "soap1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "mug1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "faucet1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "microwave1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white lace top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.48,0.7,0.62,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "spoon",
+      "location": "0.52,0.75,0.60,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave oven",
+      "location": "0.75,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "electric stove",
+      "location": "0.75,0.4,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "kitchen sink",
+      "location": "0.0,0.4,0.3,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass vase with red roses",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "flower vase",
+      "location": "0.05,0.3,0.2,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red tulips",
+        "size": "small"
+      },
+      "id": "flowers1",
+      "label": "red flowers",
+      "location": "0.05,0.3,0.2,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white cloth",
+        "size": "small"
+      },
+      "id": "towel1",
+      "label": "dish towel",
+      "location": "0.25,0.5,0.35,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "soap1",
+      "label": "hand soap bottle",
+      "location": "0.3,0.5,0.35,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "pepper shaker",
+      "location": "0.6,0.5,0.65,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "mug1",
+      "label": "coffee mug",
+      "location": "0.65,0.5,0.7,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "stacked plates",
+      "location": "0.7,0.5,0.75,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "kitchen countertop",
+      "location": "0.0,0.4,1.0,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "faucet1",
+      "label": "kitchen faucet",
+      "location": "0.35,0.3,0.45,0.5,0.8"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "herbs1",
+      "target": "pile1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "pile1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "herbs1",
+      "target": "pile1"
+    },
+    {
+      "predicate": "behind",
+      "source": "bowl1",
+      "target": "pile1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "herbs1",
+      "label": "chopped herbs",
+      "location": "0.35,0.45,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown earthy",
+        "size": "large"
+      },
+      "id": "pile1",
+      "label": "soil pile",
+      "location": "0.2,0.3,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.4,0.0,0.6,0.3,0.7"
+    }
+  ]
+}

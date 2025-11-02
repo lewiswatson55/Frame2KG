@@ -1,0 +1,280 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "on",
+      "source": "butter1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar2",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "lemon1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "grill1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "grill1"
+    },
+    {
+      "predicate": "on",
+      "source": "pasta1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "hanging_pots1",
+      "target": "ceiling1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plant1",
+      "target": "frame1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "multicolored plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.05,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.45,0.60,0.55,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.20,0.60,0.45,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "bread slices",
+      "location": "0.35,0.65,0.45,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow creamy",
+        "size": "small"
+      },
+      "id": "butter1",
+      "label": "butter container",
+      "location": "0.25,0.65,0.30,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.20,0.60,0.35,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.00,0.40,0.20,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar with yellow lid",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "jar",
+      "location": "0.15,0.60,0.20,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar with white lid",
+        "size": "small"
+      },
+      "id": "jar2",
+      "label": "jar",
+      "location": "0.20,0.60,0.25,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow citrus",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "lemon",
+      "location": "0.25,0.65,0.30,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass bottle",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "bottle",
+      "location": "0.10,0.55,0.15,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "grill1",
+      "label": "grill",
+      "location": "0.45,0.70,0.65,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "pan",
+      "location": "0.50,0.75,0.65,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange pasta",
+        "size": "small"
+      },
+      "id": "pasta1",
+      "label": "pasta",
+      "location": "0.70,0.75,0.90,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.70,0.75,0.90,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.40,0.70,0.60,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red brick",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.00,0.00,0.50,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal pots",
+        "size": "medium"
+      },
+      "id": "hanging_pots1",
+      "label": "hanging pots",
+      "location": "0.50,0.00,0.70,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey stone",
+        "size": "large"
+      },
+      "id": "ceiling1",
+      "label": "ceiling",
+      "location": "0.00,0.00,1.00,0.20,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white pot with green plant",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "plant",
+      "location": "0.85,0.45,0.95,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark frame",
+        "size": "small"
+      },
+      "id": "frame1",
+      "label": "picture frame",
+      "location": "0.80,0.20,0.95,0.40,0.8"
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "pan2",
+      "target": "stove"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet_shelf"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "cabinet_shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "knife_block",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "meat_packaging",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "oil_bottle",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "corn_on_grill",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "towel",
+      "target": "countertop"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "oven",
+      "target": "cabinet_shelf"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.0,0.48,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.47,0.0,0.96,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.35,0.6,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "cast iron",
+        "size": "medium"
+      },
+      "id": "pan2",
+      "label": "skillet",
+      "location": "0.6,0.6,0.8,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "gas stove",
+      "location": "0.3,0.6,0.9,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.0,0.6,0.3,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "plastic packaging",
+        "size": "small"
+      },
+      "id": "meat_packaging",
+      "label": "raw meat package",
+      "location": "0.0,0.65,0.2,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.75,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.6,0.6,0.7,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.8,0.5,0.95,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal block with knives",
+        "size": "small"
+      },
+      "id": "knife_block",
+      "label": "knife block",
+      "location": "0.75,0.45,0.85,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden shelves with glass jars",
+        "size": "large"
+      },
+      "id": "cabinet_shelf",
+      "label": "kitchen shelf",
+      "location": "0.3,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "oven",
+      "label": "oven",
+      "location": "0.0,0.0,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "herbs",
+      "label": "herb bowl",
+      "location": "0.7,0.6,0.8,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow corn on grill",
+        "size": "small"
+      },
+      "id": "corn_on_grill",
+      "label": "corn on grill",
+      "location": "0.85,0.7,0.95,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent bottle",
+        "size": "small"
+      },
+      "id": "oil_bottle",
+      "label": "oil bottle",
+      "location": "0.9,0.7,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text",
+        "size": "small"
+      },
+      "id": "logo_text",
+      "label": "TASTED logo",
+      "location": "0.85,0.85,1.0,1.0,0.8"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "flour1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "behind",
+      "source": "window1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black ceramic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.35,0.4,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "flour1",
+      "label": "Flour",
+      "location": "0.4,0.48,0.6,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark grey stone",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass frame",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "Window",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

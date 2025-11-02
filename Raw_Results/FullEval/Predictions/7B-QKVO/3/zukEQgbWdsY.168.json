@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "stove1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "Plate of fish",
+      "location": "0.05,0.48,0.63,0.79,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting board",
+      "location": "0.25,0.15,0.95,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Glass bowl with spices",
+      "location": "0.65,0.25,0.78,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "Glass bowl with salt",
+      "location": "0.78,0.25,0.92,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "Stovetop",
+      "location": "0.6,0.75,0.99,0.99,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

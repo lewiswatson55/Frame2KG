@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "hand2"
+    },
+    {
+      "predicate": "wearing",
+      "source": "hand1",
+      "target": "ring1"
+    },
+    {
+      "predicate": "wearing",
+      "source": "hand2",
+      "target": "nail_polish1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "adult hand",
+      "location": "0.35,0.0,0.98,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand2",
+      "label": "child's hand",
+      "location": "0.47,0.0,0.98,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "ring1",
+      "label": "ring",
+      "location": "0.55,0.1,0.75,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "nail_polish1",
+      "label": "nail polish bottle",
+      "location": "0.75,0.5,0.98,0.9,0.8"
+    }
+  ]
+}

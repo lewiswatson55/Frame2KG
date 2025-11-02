@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "spatula1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black non-stick",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic handle red silicone head",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.0,0.0,0.6,0.3,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "watermark text",
+      "location": "0.7,0.8,1.0,1.0,0.9"
+    }
+  ]
+}

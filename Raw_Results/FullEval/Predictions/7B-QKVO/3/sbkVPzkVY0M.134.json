@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "blender1",
+      "target": "container1"
+    },
+    {
+      "predicate": "in",
+      "source": "stick1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "in",
+      "source": "fruit1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "on",
+      "source": "container1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "hand1",
+      "target": "container1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "large"
+      },
+      "id": "container1",
+      "label": "Blender Container",
+      "location": "0.05,0.0,0.95,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "Blender Jar",
+      "location": "0.1,0.1,0.9,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "stick1",
+      "label": "Blending Stick",
+      "location": "0.3,0.0,0.45,0.8,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "green yellow pieces",
+        "size": "small"
+      },
+      "id": "fruit1",
+      "label": "Fruit Pieces",
+      "location": "0.2,0.3,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.75,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table Surface",
+      "location": "0.0,0.6,1.0,1.0,0.6"
+    }
+  ]
+}

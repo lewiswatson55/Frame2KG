@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "brush1"
+    },
+    {
+      "predicate": "on",
+      "source": "vase1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lamp1",
+      "target": "vase2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown hair grey top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink plastic",
+        "size": "small"
+      },
+      "id": "brush1",
+      "label": "hair brush",
+      "location": "0.48,0.75,0.55,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue white ceramic",
+        "size": "medium"
+      },
+      "id": "vase1",
+      "label": "ceramic vase",
+      "location": "0.05,0.15,0.2,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "vase2",
+      "label": "ceramic vase",
+      "location": "0.2,0.15,0.3,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.0,0.0,0.5,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "beige striped",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow shade blue base",
+        "size": "medium"
+      },
+      "id": "lamp1",
+      "label": "table lamp",
+      "location": "0.8,0.2,1.0,0.8,0.7"
+    }
+  ]
+}

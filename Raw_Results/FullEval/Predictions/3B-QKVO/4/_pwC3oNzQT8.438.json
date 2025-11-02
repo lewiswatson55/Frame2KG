@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "salad1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "rice1",
+      "target": "plate2"
+    },
+    {
+      "predicate": "on",
+      "source": "fruit1",
+      "target": "plate3"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "plates1"
+    },
+    {
+      "predicate": "behind",
+      "source": "beach1",
+      "target": "text1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red gradient",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "blue background",
+        "size": "medium"
+      },
+      "id": "plates1",
+      "label": "Plate Group",
+      "location": "0.25,0.0,0.75,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "salad1",
+      "label": "Salad",
+      "location": "0.30,0.0,0.45,0.30,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "brown rice",
+        "size": "small"
+      },
+      "id": "rice1",
+      "label": "Rice",
+      "location": "0.45,0.0,0.60,0.30,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "multicolored fruit",
+        "size": "small"
+      },
+      "id": "fruit1",
+      "label": "Fruit",
+      "location": "0.60,0.0,0.75,0.30,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow text",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Text Overlay",
+      "location": "0.25,0.30,0.75,0.60,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "beige sand blue water",
+        "size": "medium"
+      },
+      "id": "beach1",
+      "label": "Beach Scene",
+      "location": "0.25,0.60,0.75,1.0,0.90"
+    }
+  ]
+}

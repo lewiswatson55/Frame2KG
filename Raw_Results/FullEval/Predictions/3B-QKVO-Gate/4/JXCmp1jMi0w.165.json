@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand_left",
+      "target": "knife"
+    },
+    {
+      "predicate": "cutting",
+      "source": "knife",
+      "target": "meat"
+    },
+    {
+      "predicate": "on",
+      "source": "meat",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "board",
+      "target": "table"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand_left",
+      "label": "left hand",
+      "location": "0.05,0.45,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand_right",
+      "label": "right hand",
+      "location": "0.3,0.0,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade with wooden handle",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.2,0.5,0.8,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "large"
+      },
+      "id": "meat",
+      "label": "raw meat",
+      "location": "0.1,0.1,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "cutting board",
+      "location": "0.0,0.2,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white smooth surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "table",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

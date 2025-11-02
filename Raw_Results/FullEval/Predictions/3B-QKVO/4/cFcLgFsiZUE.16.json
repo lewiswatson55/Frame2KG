@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "background_left"
+    },
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "background_right"
+    },
+    {
+      "predicate": "next_to",
+      "source": "text1",
+      "target": "bottle1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red glass bottle with red label",
+        "size": "large"
+      },
+      "id": "bottle1",
+      "label": "Frank's RedHot hot sauce bottle",
+      "location": "0.05,0.0,0.45,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "black background with white text",
+        "size": "medium"
+      },
+      "id": "background_right",
+      "label": "black background",
+      "location": "0.6,0.0,1.0,1.0,0.97"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "brand name text",
+      "location": "0.6,0.3,0.9,0.4,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white background",
+        "size": "large"
+      },
+      "id": "background_left",
+      "label": "white background",
+      "location": "0.0,0.0,0.5,1.0,0.99"
+    }
+  ]
+}

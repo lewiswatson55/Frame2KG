@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "pepper_grinder"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato_slices",
+      "target": "bread_slice"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce_leaf",
+      "target": "bread_slice"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread_slice",
+      "target": "bread_slice2"
+    },
+    {
+      "predicate": "supports",
+      "source": "cutting_board",
+      "target": "bread_slice"
+    },
+    {
+      "predicate": "supports",
+      "source": "cutting_board",
+      "target": "bread_slice2"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board",
+      "target": "tablecloth"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "tablecloth"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.45,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "pepper_grinder",
+      "label": "Pepper grinder",
+      "location": "0.7,0.0,0.9,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red",
+        "size": "medium"
+      },
+      "id": "tomato_slices",
+      "label": "Tomato slices",
+      "location": "0.5,0.5,0.8,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce_leaf",
+      "label": "Lettuce leaf",
+      "location": "0.45,0.5,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown whole wheat",
+        "size": "medium"
+      },
+      "id": "bread_slice",
+      "label": "Bread slice",
+      "location": "0.45,0.5,0.8,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown whole wheat",
+        "size": "medium"
+      },
+      "id": "bread_slice2",
+      "label": "Bread slice",
+      "location": "0.0,0.5,0.4,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cutting_board",
+      "label": "Cutting board",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue floral patterned fabric",
+        "size": "large"
+      },
+      "id": "tablecloth",
+      "label": "Tablecloth",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    }
+  ]
+}

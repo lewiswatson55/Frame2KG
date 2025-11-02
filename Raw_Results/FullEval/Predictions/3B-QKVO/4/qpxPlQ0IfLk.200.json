@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "tongs1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "grill1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "lettuce1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "behind",
+      "source": "bread1",
+      "target": "lettuce1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.75,0.3,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "tongs",
+      "location": "0.8,0.4,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.1,0.45,0.6,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "grill1",
+      "label": "grill pan",
+      "location": "0.0,0.5,1.0,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crust",
+        "size": "medium"
+      },
+      "id": "bread1",
+      "label": "bread slices",
+      "location": "0.2,0.2,0.8,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.8,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl of salt",
+      "location": "0.0,0.0,0.3,0.2,0.7"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "oil1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "food1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "holding",
+      "source": "tongs1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "food1",
+      "target": "oil1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.05,0.0,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "food1",
+      "label": "fried food pieces",
+      "location": "0.35,0.4,0.9,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.3,0.3,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "metal tongs",
+      "location": "0.75,0.1,0.95,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "bubbling yellow",
+        "size": "large"
+      },
+      "id": "oil1",
+      "label": "cooking oil",
+      "location": "0.0,0.0,0.5,0.7,0.7"
+    }
+  ]
+}

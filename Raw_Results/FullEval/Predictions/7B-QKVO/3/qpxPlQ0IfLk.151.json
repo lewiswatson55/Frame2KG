@@ -1,0 +1,146 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "cutting",
+      "source": "knife1",
+      "target": "fish1"
+    },
+    {
+      "predicate": "on",
+      "source": "fish1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "lemon1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "salt1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "spoon1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "salt1",
+      "target": "spoon1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "multicolored plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.5,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black handle metal blade",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "Knife",
+      "location": "0.4,0.3,0.8,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark skin",
+        "size": "small"
+      },
+      "id": "ring1",
+      "label": "Ring",
+      "location": "0.7,0.5,0.8,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver scales black flesh",
+        "size": "medium"
+      },
+      "id": "fish1",
+      "label": "Fish Fillet",
+      "location": "0.45,0.45,0.75,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with white rice",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.1,0.2,0.3,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue plastic yellow label",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "Jar of Pasta",
+      "location": "0.3,0.0,0.45,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow rind",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "Lemon Slice",
+      "location": "0.45,0.3,0.55,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white granules",
+        "size": "small"
+      },
+      "id": "salt1",
+      "label": "Salt Dish",
+      "location": "0.0,0.7,0.2,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.2,0.8,0.4,0.95,0.8"
+    }
+  ]
+}

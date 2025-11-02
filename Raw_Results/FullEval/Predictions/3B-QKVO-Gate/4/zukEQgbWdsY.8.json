@@ -1,0 +1,234 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife"
+    },
+    {
+      "predicate": "on",
+      "source": "knife",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "raw_meat",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "stove"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "stove"
+    },
+    {
+      "predicate": "supports",
+      "source": "cabinet_shelf",
+      "target": "wine_bottles"
+    },
+    {
+      "predicate": "supports",
+      "source": "cabinet_shelf",
+      "target": "kettle"
+    },
+    {
+      "predicate": "supports",
+      "source": "cabinet_shelf",
+      "target": "jars"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop",
+      "target": "sink"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop",
+      "target": "plant_pot"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop",
+      "target": "blender"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop",
+      "target": "plate_with_eggs"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop",
+      "target": "tray_with_meat"
+    },
+    {
+      "predicate": "left_of",
+      "source": "oven",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "person2",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.3,0.48,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.52,0.2,0.96,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cabinet_shelf",
+      "label": "kitchen cabinet shelf",
+      "location": "0.0,0.0,1.0,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "oven",
+      "label": "oven",
+      "location": "0.05,0.1,0.45,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.15,0.6,0.35,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "small"
+      },
+      "id": "raw_meat",
+      "label": "raw meat",
+      "location": "0.25,0.65,0.35,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.0,0.6,0.5,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "stove",
+      "label": "gas stove",
+      "location": "0.4,0.6,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottles",
+        "size": "medium"
+      },
+      "id": "wine_bottles",
+      "label": "wine bottles",
+      "location": "0.45,0.0,0.6,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "kettle",
+      "label": "kettle",
+      "location": "0.6,0.0,0.7,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jars",
+        "size": "small"
+      },
+      "id": "jars",
+      "label": "jars",
+      "location": "0.7,0.0,0.9,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "sink",
+      "label": "sink",
+      "location": "0.45,0.4,0.6,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "plant_pot",
+      "label": "potted plant",
+      "location": "0.55,0.4,0.6,0.55,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender",
+      "label": "blender",
+      "location": "0.85,0.4,0.95,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with eggs",
+        "size": "small"
+      },
+      "id": "plate_with_eggs",
+      "label": "plate of eggs",
+      "location": "0.9,0.6,1.0,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white tray with meat",
+        "size": "small"
+      },
+      "id": "tray_with_meat",
+      "label": "tray of meat",
+      "location": "0.8,0.7,0.95,0.85,0.7"
+    }
+  ]
+}

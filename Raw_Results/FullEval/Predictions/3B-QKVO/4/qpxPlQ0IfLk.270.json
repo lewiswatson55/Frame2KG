@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "backsplash"
+    },
+    {
+      "predicate": "on",
+      "source": "pots_and_pans",
+      "target": "backsplash"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "utensils_holder",
+      "target": "backsplash"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_oranges",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "glass_mixer",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bottle_liquor",
+      "target": "glass_mixer"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "multicolored plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.45,0.05,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey stone",
+        "size": "large"
+      },
+      "id": "backsplash",
+      "label": "brick backsplash",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pots_and_pans",
+      "label": "hanging pots and pans",
+      "location": "0.35,0.0,0.65,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "utensils_holder",
+      "label": "utensil holder",
+      "location": "0.05,0.45,0.25,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood bowl with oranges",
+        "size": "medium"
+      },
+      "id": "bowl_oranges",
+      "label": "bowl of oranges",
+      "location": "0.35,0.6,0.6,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with green liquid",
+        "size": "medium"
+      },
+      "id": "glass_mixer",
+      "label": "mixing glass",
+      "location": "0.05,0.7,0.3,0.95,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear bottle with gold cap",
+        "size": "small"
+      },
+      "id": "bottle_liquor",
+      "label": "liquor bottle",
+      "location": "0.2,0.75,0.3,0.95,0.7"
+    }
+  ]
+}

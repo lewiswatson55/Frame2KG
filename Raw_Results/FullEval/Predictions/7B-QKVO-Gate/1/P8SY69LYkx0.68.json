@@ -1,0 +1,173 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl3",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "rack1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "behind",
+      "source": "bread1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "stove1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "scale1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white chef coat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.25,0.0,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "metal shelf",
+      "location": "0.0,0.0,1.0,0.4,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.05,0.7,0.25,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "pink minced meat",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "meat bowl",
+      "location": "0.15,0.75,0.35,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl3",
+      "label": "glass bowl",
+      "location": "0.35,0.75,0.55,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.3,0.7,0.7,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "cheese block",
+      "location": "0.4,0.8,0.5,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "commercial stove",
+      "location": "0.0,0.4,0.4,0.7,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "rack1",
+      "label": "baking rack",
+      "location": "0.75,0.2,1.0,0.8,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread slices",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "bread slices",
+      "location": "0.6,0.4,0.8,0.6,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "clock1",
+      "label": "wall clock",
+      "location": "0.7,0.0,0.8,0.15,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "grey metal",
+        "size": "medium"
+      },
+      "id": "scale1",
+      "label": "kitchen scale",
+      "location": "0.8,0.7,1.0,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "dark grey granite",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.6"
+    }
+  ]
+}

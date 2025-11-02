@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "napkin1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate2",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "plate2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red floral pattern",
+        "size": "medium"
+      },
+      "id": "napkin1",
+      "label": "napkin",
+      "location": "0.05,0.3,0.45,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow floral pattern",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.2,0.2,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow floral pattern",
+        "size": "large"
+      },
+      "id": "plate2",
+      "label": "plate",
+      "location": "0.5,0.1,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black handle metal blade",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.1,0.0,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

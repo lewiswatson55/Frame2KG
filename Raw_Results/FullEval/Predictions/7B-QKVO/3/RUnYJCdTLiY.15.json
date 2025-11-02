@@ -1,0 +1,158 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "microwave1",
+      "target": "cabinet_left"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "pots1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cutting_board1",
+      "target": "container1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "stove1",
+      "target": "dishwasher1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "sink1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "purple top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave oven",
+      "location": "0.0,0.0,0.4,0.25,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet_left",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.4,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet_right",
+      "label": "kitchen cabinet",
+      "location": "0.6,0.0,1.0,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver black",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.25,0.4,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black stainless steel",
+        "size": "small"
+      },
+      "id": "dishwasher1",
+      "label": "dishwasher",
+      "location": "0.6,0.7,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "container1",
+      "label": "jar of utensils",
+      "location": "0.0,0.3,0.15,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.75,0.3,0.9,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic",
+        "size": "medium"
+      },
+      "id": "pots1",
+      "label": "hanging pots",
+      "location": "0.4,0.0,0.6,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.4,0.8,0.6,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "sink1",
+      "label": "sink faucet",
+      "location": "0.5,0.4,0.6,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white",
+        "size": "small"
+      },
+      "id": "faucet1",
+      "label": "faucet head",
+      "location": "0.55,0.3,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white",
+        "size": "small"
+      },
+      "id": "wall1",
+      "label": "wall panel",
+      "location": "0.4,0.0,0.6,0.3,0.8"
+    }
+  ]
+}

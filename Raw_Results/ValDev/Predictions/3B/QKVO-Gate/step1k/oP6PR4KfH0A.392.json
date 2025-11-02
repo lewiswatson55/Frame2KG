@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "tongs1"
+    },
+    {
+      "predicate": "in",
+      "source": "tongs1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "grill1"
+    },
+    {
+      "predicate": "includes",
+      "source": "pan1",
+      "target": "food1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "basket1",
+      "target": "grill1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "metal pan",
+      "location": "0.35,0.45,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "fried food",
+      "location": "0.45,0.5,0.85,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "grill1",
+      "label": "barbecue grill",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "kitchen tongs",
+      "location": "0.0,0.3,0.4,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.0,0.2,0.3,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wicker",
+        "size": "medium"
+      },
+      "id": "basket1",
+      "label": "woven basket",
+      "location": "0.0,0.0,0.4,0.3,0.8"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "person1",
+      "target": "circle1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "circle1"
+    },
+    {
+      "predicate": "below",
+      "source": "text2",
+      "target": "circle1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue circular",
+        "size": "medium"
+      },
+      "id": "circle1",
+      "label": "Rajshri Logo Circle",
+      "location": "0.35,0.15,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white sans-serif",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "RAJSHRI ESTD. 1947 Text",
+      "location": "0.38,0.25,0.62,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light blue sans-serif",
+        "size": "medium"
+      },
+      "id": "text2",
+      "label": "Food Text",
+      "location": "0.35,0.75,0.65,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "colorful",
+        "size": "small"
+      },
+      "id": "person1",
+      "label": "Deity Figure",
+      "location": "0.45,0.25,0.55,0.65,0.8"
+    }
+  ]
+}

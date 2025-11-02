@@ -1,0 +1,67 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "hand2"
+    },
+    {
+      "predicate": "on",
+      "source": "hand1",
+      "target": "shirt1"
+    },
+    {
+      "predicate": "on",
+      "source": "hand2",
+      "target": "shirt1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand1",
+      "target": "background1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand2",
+      "target": "background1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "adult hand",
+      "location": "0.35,0.0,0.98,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "small"
+      },
+      "id": "hand2",
+      "label": "child's hand",
+      "location": "0.45,0.1,0.95,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue denim fabric",
+        "size": "large"
+      },
+      "id": "shirt1",
+      "label": "denim shirt",
+      "location": "0.0,0.3,0.6,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey blurred background",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "background",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "mixer1",
+      "target": "kettle1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "fridge1",
+      "target": "cabinet_left1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "cabinet_right1",
+      "target": "cabinet_left1"
+    },
+    {
+      "predicate": "behind",
+      "source": "backsplash1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "hood1",
+      "target": "cabinet_right1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin blonde hair white shirt black apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.4,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.6,0.5,0.9,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver stainless steel",
+        "size": "medium"
+      },
+      "id": "hood1",
+      "label": "range hood",
+      "location": "0.6,0.0,1.0,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "cabinet_left1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.3,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "cabinet_right1",
+      "label": "kitchen cabinet",
+      "location": "0.7,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red silver",
+        "size": "small"
+      },
+      "id": "mixer1",
+      "label": "stand mixer",
+      "location": "0.1,0.2,0.2,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "kettle1",
+      "label": "kettle",
+      "location": "0.25,0.25,0.3,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "baking tray",
+      "location": "0.4,0.7,0.6,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white marble",
+        "size": "large"
+      },
+      "id": "backsplash1",
+      "label": "backsplash tiles",
+      "location": "0.5,0.3,0.9,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.2,1.0,0.8"
+    }
+  ]
+}

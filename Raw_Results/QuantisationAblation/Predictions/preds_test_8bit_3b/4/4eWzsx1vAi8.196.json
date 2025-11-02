@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "pepper_grinder"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_slice",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "sandwich",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread_slice",
+      "target": "sandwich"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "cutting_board",
+      "target": "tablecloth"
+    },
+    {
+      "predicate": "behind",
+      "source": "wall_panel",
+      "target": "tablecloth"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.35,0.0,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "pepper_grinder",
+      "label": "Pepper Grinder",
+      "location": "0.47,0.05,0.75,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown bread with red tomato slices and green lettuce",
+        "size": "small"
+      },
+      "id": "sandwich",
+      "label": "Open Sandwich",
+      "location": "0.45,0.5,0.75,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown bread slice",
+        "size": "small"
+      },
+      "id": "bread_slice",
+      "label": "Bread Slice",
+      "location": "0.05,0.6,0.45,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board",
+      "label": "Cutting Board",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue floral patterned cloth",
+        "size": "large"
+      },
+      "id": "tablecloth",
+      "label": "Tablecloth",
+      "location": "0.0,0.4,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige vertical stripes",
+        "size": "large"
+      },
+      "id": "wall_panel",
+      "label": "Wall Panel",
+      "location": "0.0,0.0,0.3,1.0,0.7"
+    }
+  ]
+}

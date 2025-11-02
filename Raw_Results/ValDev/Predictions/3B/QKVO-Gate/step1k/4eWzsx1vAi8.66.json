@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "vase1",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "shelf"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lamp1",
+      "target": "shelf"
+    },
+    {
+      "predicate": "left_of",
+      "source": "shelf",
+      "target": "lamp1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "grey lace top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf",
+      "label": "wooden shelf",
+      "location": "0.0,0.0,0.4,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue white ceramic",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "decorative vase",
+      "location": "0.05,0.1,0.15,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "decorative plate",
+      "location": "0.15,0.1,0.25,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark blue glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "glass bottle",
+      "location": "0.25,0.2,0.35,0.35,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow shade",
+        "size": "medium"
+      },
+      "id": "lamp1",
+      "label": "table lamp",
+      "location": "0.8,0.3,1.0,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "beige striped wallpaper",
+        "size": "large"
+      },
+      "id": "wall",
+      "label": "striped wallpaper",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

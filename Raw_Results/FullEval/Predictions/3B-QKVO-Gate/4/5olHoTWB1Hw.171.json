@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "rack1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "jars1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.35,0.45,0.98,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.7,0.2,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal wire black frame",
+        "size": "medium"
+      },
+      "id": "rack1",
+      "label": "dish rack",
+      "location": "0.0,0.0,0.5,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red blue plastic lids",
+        "size": "small"
+      },
+      "id": "jars1",
+      "label": "jar lids",
+      "location": "0.2,0.0,0.6,0.3,0.6"
+    }
+  ]
+}

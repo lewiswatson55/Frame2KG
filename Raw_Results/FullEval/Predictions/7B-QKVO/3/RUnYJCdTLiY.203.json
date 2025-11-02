@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "griddle1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinets1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black non-stick",
+        "size": "large"
+      },
+      "id": "griddle1",
+      "label": "Griddle",
+      "location": "0.05,0.3,0.75,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white batter",
+        "size": "medium"
+      },
+      "id": "pancake1",
+      "label": "Pancake",
+      "location": "0.25,0.45,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Mixing Bowl",
+      "location": "0.7,0.2,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal handle",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "Spatula",
+      "location": "0.1,0.0,0.4,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinets1",
+      "label": "Cabinets",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone wearing white apron",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.7,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "Stovetop",
+      "location": "0.0,0.7,0.5,1.0,0.8"
+    }
+  ]
+}

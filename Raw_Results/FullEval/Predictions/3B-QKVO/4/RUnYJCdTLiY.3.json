@@ -1,0 +1,151 @@
+{
+  "edges": [
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "apron1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "saltshaker1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "peppergrinder1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "utensil_holder1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "peppergrinder1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "jar1",
+      "target": "saltshaker1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "saltshaker1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown hair wearing pink shirt and green apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "white fabric with red trim",
+        "size": "medium"
+      },
+      "id": "apron1",
+      "label": "apron",
+      "location": "0.4,0.5,0.7,0.9,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "olive oil bottle",
+      "location": "0.45,0.15,0.5,0.3,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar with green leaves",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "herb container",
+      "location": "0.75,0.2,0.85,0.4,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "saltshaker1",
+      "label": "salt shaker",
+      "location": "0.85,0.25,0.95,0.4,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "peppergrinder1",
+      "label": "pepper grinder",
+      "location": "0.4,0.15,0.45,0.3,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.7,0.0,1.0,0.2,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.2,0.3,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "utensil_holder1",
+      "label": "utensil holder",
+      "location": "0.0,0.3,0.2,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "marble",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.4,1.0,0.7,0.9"
+    }
+  ]
+}

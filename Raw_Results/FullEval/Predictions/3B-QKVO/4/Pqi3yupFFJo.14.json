@@ -1,0 +1,189 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bowl_white",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_red",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_blue",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_green",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_metallic",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_onion",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bag_spanko",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "mug_cup",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pan_fried",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "stove",
+      "target": "pan_fried"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl_white",
+      "target": "bowl_red"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bowl_blue",
+      "target": "bowl_red"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bowl_green",
+      "target": "bowl_blue"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bowl_metallic",
+      "target": "bowl_green"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text_pinay",
+      "target": "countertop"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl_white",
+      "label": "mixing bowl",
+      "location": "0.05,0.48,0.30,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "bowl_red",
+      "label": "small red bowl",
+      "location": "0.16,0.65,0.35,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue plastic",
+        "size": "small"
+      },
+      "id": "bowl_blue",
+      "label": "small blue bowl",
+      "location": "0.35,0.65,0.55,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green plastic",
+        "size": "small"
+      },
+      "id": "bowl_green",
+      "label": "small green bowl",
+      "location": "0.55,0.65,0.75,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic",
+        "size": "small"
+      },
+      "id": "bowl_metallic",
+      "label": "small metallic bowl",
+      "location": "0.75,0.65,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "mug_cup",
+      "label": "coffee mug",
+      "location": "0.30,0.25,0.45,0.50,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown paper bag with white text",
+        "size": "large"
+      },
+      "id": "bag_spanko",
+      "label": "spanko bag",
+      "location": "0.45,0.10,0.75,0.50,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "purple onion rings on plate",
+        "size": "medium"
+      },
+      "id": "plate_onion",
+      "label": "plate of onion rings",
+      "location": "0.35,0.45,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black pan with fried food",
+        "size": "medium"
+      },
+      "id": "pan_fried",
+      "label": "frying pan",
+      "location": "0.75,0.20,0.95,0.50,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "stove",
+      "location": "0.75,0.50,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden cabinets",
+        "size": "large"
+      },
+      "id": "cabinets",
+      "label": "kitchen cabinets",
+      "location": "0.00,0.00,1.00,0.30,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text overlay",
+        "size": "large"
+      },
+      "id": "text_pinay",
+      "label": "Pinay Cooking Lessons text",
+      "location": "0.40,0.80,0.95,1.00,0.9"
+    }
+  ]
+}

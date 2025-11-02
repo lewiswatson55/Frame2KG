@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "arm1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken_bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "board1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl2",
+      "target": "seasoning1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown skin",
+        "size": "large"
+      },
+      "id": "arm1",
+      "label": "human arm",
+      "location": "0.05,0.3,0.98,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "chicken_bowl1",
+      "label": "glass bowl of chicken pieces",
+      "location": "0.0,0.0,0.6,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl2",
+      "label": "glass bowl of brown powder",
+      "location": "0.4,0.2,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood grain",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "wooden cutting board",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown granular",
+        "size": "small"
+      },
+      "id": "seasoning1",
+      "label": "brown seasoning powder",
+      "location": "0.5,0.3,0.9,0.7,0.8"
+    }
+  ]
+}

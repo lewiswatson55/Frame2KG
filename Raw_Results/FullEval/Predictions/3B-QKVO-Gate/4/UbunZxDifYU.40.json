@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "table1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "table1",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown wood grain",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wooden wall",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "medium"
+      },
+      "id": "table1",
+      "label": "wooden table",
+      "location": "0.6,0.7,1.0,1.0,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic with white label",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "plastic bottle",
+      "location": "0.75,0.6,0.95,0.95,0.9"
+    }
+  ]
+}

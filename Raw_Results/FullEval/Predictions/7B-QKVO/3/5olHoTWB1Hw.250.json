@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "dish1",
+      "target": "appliance1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.0,0.45,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow shredded",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "Shredded Cheese",
+      "location": "0.1,0.15,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "dish1",
+      "label": "Baking Dish",
+      "location": "0.0,0.2,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "appliance1",
+      "label": "Appliance",
+      "location": "0.3,0.0,0.6,0.3,0.8"
+    }
+  ]
+}

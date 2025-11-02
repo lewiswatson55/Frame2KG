@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "object1"
+    },
+    {
+      "predicate": "holding",
+      "source": "person2",
+      "target": "object1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "on",
+      "source": "glass1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "can1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "glass1",
+      "target": "can1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "fridge1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt glasses",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black shirt brown hair",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.52,0.05,0.95,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown leather",
+        "size": "small"
+      },
+      "id": "object1",
+      "label": "leather bag",
+      "location": "0.37,0.15,0.63,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.45,0.0,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden light brown",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.45,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "glass1",
+      "label": "glass",
+      "location": "0.0,0.75,0.2,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver yellow",
+        "size": "small"
+      },
+      "id": "can1",
+      "label": "beer can",
+      "location": "0.8,0.75,1.0,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    }
+  ]
+}

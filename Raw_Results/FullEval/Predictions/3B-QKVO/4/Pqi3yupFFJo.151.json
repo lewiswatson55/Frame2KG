@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hands1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "whisk1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "mixture1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hands1",
+      "label": "hands",
+      "location": "0.5,0.0,1.0,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.1,0.1,0.8,0.7,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "whisk1",
+      "label": "whisk",
+      "location": "0.3,0.2,0.6,0.5,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow liquid",
+        "size": "medium"
+      },
+      "id": "mixture1",
+      "label": "egg mixture",
+      "location": "0.2,0.2,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

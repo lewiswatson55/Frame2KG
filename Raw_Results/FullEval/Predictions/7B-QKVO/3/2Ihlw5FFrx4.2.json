@@ -1,0 +1,133 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "table"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_bread",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_cheese",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "vase_flower",
+      "target": "table"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "behind",
+      "source": "monitor",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "monitor",
+      "target": "person2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "person2",
+      "target": "person1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text_overlay",
+      "target": "table"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "short brown hair teal shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Woman",
+      "location": "0.05,0.1,0.48,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "long brown hair green dress",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "Woman",
+      "location": "0.52,0.1,0.95,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink purple background",
+        "size": "large"
+      },
+      "id": "monitor",
+      "label": "Monitor",
+      "location": "0.3,0.0,0.7,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white grey text",
+        "size": "small"
+      },
+      "id": "text_overlay",
+      "label": "Text Overlay",
+      "location": "0.0,0.7,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "Table",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with red bread slices",
+        "size": "small"
+      },
+      "id": "plate_bread",
+      "label": "Plate of Bread",
+      "location": "0.3,0.6,0.5,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear bowl with feta cheese",
+        "size": "small"
+      },
+      "id": "bowl_cheese",
+      "label": "Bowl of Cheese",
+      "location": "0.4,0.6,0.5,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver vase with white flower",
+        "size": "small"
+      },
+      "id": "vase_flower",
+      "label": "Flower Vase",
+      "location": "0.5,0.6,0.6,0.7,0.8"
+    }
+  ]
+}

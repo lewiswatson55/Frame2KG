@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "spoon_icon",
+      "target": "background"
+    },
+    {
+      "predicate": "below",
+      "source": "url_text",
+      "target": "text1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "orange blurred",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Text 'allrecipes'",
+      "location": "0.1,0.3,0.8,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow spoon icon",
+        "size": "small"
+      },
+      "id": "spoon_icon",
+      "label": "Spoon Icon",
+      "location": "0.47,0.25,0.53,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "small"
+      },
+      "id": "url_text",
+      "label": "URL Text",
+      "location": "0.2,0.6,0.8,0.75,0.9"
+    }
+  ]
+}

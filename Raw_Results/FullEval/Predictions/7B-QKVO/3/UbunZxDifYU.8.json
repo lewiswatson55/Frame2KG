@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "cap1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "door1",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "dark skin, wearing black hoodie",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.0,0.95,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige fabric",
+        "size": "medium"
+      },
+      "id": "cap1",
+      "label": "baseball cap",
+      "location": "0.3,0.0,0.7,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white painted wood",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.0,0.0,1.0,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wooden frame",
+        "size": "medium"
+      },
+      "id": "door1",
+      "label": "door frame",
+      "location": "0.75,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "fridge1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "mixer1",
+      "target": "person1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "microwave1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "on",
+      "source": "coffee_pot1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "mixer1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "coffee_pot1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "behind",
+      "source": "curtain1",
+      "target": "window1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "curtain1",
+      "target": "window1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blonde hair white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.2,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave",
+      "location": "0.0,0.4,0.1,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.2,0.0,0.8,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white fabric",
+        "size": "large"
+      },
+      "id": "curtain1",
+      "label": "curtain",
+      "location": "0.2,0.0,0.8,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red black",
+        "size": "small"
+      },
+      "id": "mixer1",
+      "label": "stand mixer",
+      "location": "0.75,0.6,0.95,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "coffee_pot1",
+      "label": "coffee pot",
+      "location": "0.8,0.7,0.9,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.6"
+    }
+  ]
+}

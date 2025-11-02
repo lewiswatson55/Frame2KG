@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cabinet1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "behind",
+      "source": "window1",
+      "target": "person1"
+    },
+    {
+      "predicate": "on",
+      "source": "shelves1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "includes",
+      "source": "shelves1",
+      "target": "bottles1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "hood1",
+      "target": "cabinet1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.45,0.0,1.0,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread with green lettuce",
+        "size": "small"
+      },
+      "id": "sandwich1",
+      "label": "sandwich",
+      "location": "0.35,0.4,0.65,0.7,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.6,0.4,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.3,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame glass",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.2,0.0,0.5,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.5,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white shelves with jars of spices",
+        "size": "medium"
+      },
+      "id": "shelves1",
+      "label": "shelf",
+      "location": "0.7,0.3,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "various colored plastic bottles",
+        "size": "small"
+      },
+      "id": "bottles1",
+      "label": "spice bottles",
+      "location": "0.75,0.4,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "hood1",
+      "label": "range hood",
+      "location": "0.0,0.0,0.4,0.3,0.9"
+    }
+  ]
+}

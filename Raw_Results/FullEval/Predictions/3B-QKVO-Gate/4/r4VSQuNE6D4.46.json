@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "bowl1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "on",
+      "source": "paper_towel1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "in",
+      "source": "sink1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sink1",
+      "target": "paper_towel1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "squeeze bottle",
+      "location": "0.3,0.3,0.45,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.25,0.4,0.6,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "medium"
+      },
+      "id": "paper_towel1",
+      "label": "paper towel roll",
+      "location": "0.0,0.6,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.6,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white smooth",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

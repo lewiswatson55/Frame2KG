@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "pepper_grinder"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato_slices",
+      "target": "lettuce_layer"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce_layer",
+      "target": "bread_bottom"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_bottom",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board",
+      "target": "tablecloth"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_top",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread_top",
+      "target": "bread_bottom"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.45,0.0,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board",
+      "label": "Cutting Board",
+      "location": "0.3,0.5,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown bread",
+        "size": "small"
+      },
+      "id": "bread_bottom",
+      "label": "Bread Slice",
+      "location": "0.35,0.55,0.6,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce_layer",
+      "label": "Lettuce Layer",
+      "location": "0.35,0.55,0.6,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red juicy",
+        "size": "small"
+      },
+      "id": "tomato_slices",
+      "label": "Tomato Slices",
+      "location": "0.4,0.55,0.6,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown bread",
+        "size": "small"
+      },
+      "id": "bread_top",
+      "label": "Bread Slice",
+      "location": "0.0,0.5,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "small"
+      },
+      "id": "pepper_grinder",
+      "label": "Pepper Grinder",
+      "location": "0.5,0.0,0.8,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue floral patterned cloth",
+        "size": "large"
+      },
+      "id": "tablecloth",
+      "label": "Tablecloth",
+      "location": "0.0,0.4,1.0,1.0,0.7"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spray1"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "maple_bottle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife_block1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "sink1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "fridge1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "window1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "table1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "tray1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green top black apron",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "spray1",
+      "label": "cooking spray",
+      "location": "0.47,0.35,0.55,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "griddle",
+      "location": "0.55,0.55,0.9,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "pancake1",
+      "label": "pancakes",
+      "location": "0.6,0.6,0.7,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.2,0.6,0.4,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent bottle with blue cap",
+        "size": "small"
+      },
+      "id": "maple_bottle1",
+      "label": "maple syrup bottle",
+      "location": "0.05,0.7,0.15,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "knife_block1",
+      "label": "knife block",
+      "location": "0.0,0.6,0.15,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.1,0.0,0.4,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.4,0.0,1.0,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white blinds",
+        "size": "medium"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.8,0.0,1.0,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.7,0.4,0.9,0.6,0.8"
+    }
+  ]
+}

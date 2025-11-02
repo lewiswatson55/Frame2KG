@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "on",
+      "source": "griddle1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cloth1",
+      "target": "griddle1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.45,0.0,1.0,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "large"
+      },
+      "id": "griddle1",
+      "label": "electric griddle",
+      "location": "0.35,0.2,1.0,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "wooden table",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue fabric",
+        "size": "medium"
+      },
+      "id": "cloth1",
+      "label": "blue cloth",
+      "location": "0.0,0.0,0.5,0.3,0.7"
+    }
+  ]
+}

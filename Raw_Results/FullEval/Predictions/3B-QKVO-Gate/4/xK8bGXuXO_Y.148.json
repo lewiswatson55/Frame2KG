@@ -1,0 +1,178 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "whisk"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "faucet",
+      "target": "sink"
+    },
+    {
+      "predicate": "next_to",
+      "source": "utensil_holder",
+      "target": "sink"
+    },
+    {
+      "predicate": "behind",
+      "source": "window_frame",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "plant_hanging",
+      "target": "window_frame"
+    },
+    {
+      "predicate": "right_of",
+      "source": "curtain",
+      "target": "window_frame"
+    },
+    {
+      "predicate": "above",
+      "source": "logo",
+      "target": "window_frame"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink shirt blue apron black hair glasses",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.45,0.15,0.78,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "medium"
+      },
+      "id": "sink",
+      "label": "kitchen sink",
+      "location": "0.25,0.45,0.60,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "faucet",
+      "label": "faucet",
+      "location": "0.35,0.45,0.45,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "utensil_holder",
+      "label": "utensil holder",
+      "location": "0.05,0.50,0.20,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass white liquid",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.30,0.65,0.40,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass pink mixture",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "mixing bowl",
+      "location": "0.40,0.65,0.50,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.75,0.70,0.95,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove",
+      "label": "gas stove",
+      "location": "0.50,0.75,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.00,0.60,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves brown pot",
+        "size": "medium"
+      },
+      "id": "plant_hanging",
+      "label": "hanging plant",
+      "location": "0.20,0.00,0.40,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "large"
+      },
+      "id": "window_frame",
+      "label": "window frame",
+      "location": "0.10,0.00,0.90,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow fabric",
+        "size": "large"
+      },
+      "id": "curtain",
+      "label": "curtain",
+      "location": "0.60,0.00,0.90,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black red graphic",
+        "size": "small"
+      },
+      "id": "logo",
+      "label": "MasterChef logo",
+      "location": "0.80,0.00,1.00,0.20,0.8"
+    }
+  ]
+}

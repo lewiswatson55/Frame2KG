@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "board1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "counter1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.0,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic with red powder",
+        "size": "medium"
+      },
+      "id": "bag1",
+      "label": "Plastic Bag",
+      "location": "0.3,0.0,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with white flour",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.6,0.4,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.5,0.3,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "Countertop",
+      "location": "0.0,0.5,1.0,1.0,0.7"
+    }
+  ]
+}

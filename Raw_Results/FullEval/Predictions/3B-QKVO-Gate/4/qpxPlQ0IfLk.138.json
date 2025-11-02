@@ -1,0 +1,66 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "lemon1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "blender1",
+      "target": "person1"
+    },
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "striped shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.35,0.0,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.1,0.4,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "lemon half",
+      "location": "0.45,0.0,0.7,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on grey",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Hungry logo",
+      "location": "0.0,0.0,0.2,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark brown wood",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wooden wall",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

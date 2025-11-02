@@ -1,0 +1,132 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_lettuce",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "container_cheese",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "pot",
+      "target": "counter"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "shelf_bread"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "shelf_bread"
+    },
+    {
+      "predicate": "behind",
+      "source": "chalkboard_menu",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "chalkboard_menu",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white sweater",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.05,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black polo shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.47,0.05,0.96,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.25,0.75,0.75,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "bowl_lettuce",
+      "label": "metal bowl",
+      "location": "0.00,0.75,0.25,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "small"
+      },
+      "id": "container_cheese",
+      "label": "cheese container",
+      "location": "0.25,0.80,0.35,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "pot",
+      "label": "cooking pot",
+      "location": "0.80,0.60,1.00,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "shelf_bread",
+      "label": "bread shelf",
+      "location": "0.30,0.10,0.90,0.40,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black chalkboard",
+        "size": "large"
+      },
+      "id": "chalkboard_menu",
+      "label": "chalkboard menu",
+      "location": "0.00,0.00,1.00,0.20,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "gray stone",
+        "size": "large"
+      },
+      "id": "counter",
+      "label": "countertop",
+      "location": "0.00,0.60,1.00,1.00,0.7"
+    }
+  ]
+}

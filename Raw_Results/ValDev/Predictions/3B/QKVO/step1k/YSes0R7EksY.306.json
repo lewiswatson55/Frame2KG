@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "onion1"
+    },
+    {
+      "predicate": "on",
+      "source": "onion1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "onion1",
+      "target": "onion_piece1"
+    },
+    {
+      "predicate": "on",
+      "source": "onion_piece1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper_grains1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.35,0.0,0.65,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white",
+        "size": "small"
+      },
+      "id": "onion1",
+      "label": "onion half",
+      "location": "0.45,0.25,0.75,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white",
+        "size": "small"
+      },
+      "id": "onion_piece1",
+      "label": "onion piece",
+      "location": "0.25,0.35,0.45,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white",
+        "size": "small"
+      },
+      "id": "pepper_grains1",
+      "label": "pepper grains",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    }
+  ]
+}

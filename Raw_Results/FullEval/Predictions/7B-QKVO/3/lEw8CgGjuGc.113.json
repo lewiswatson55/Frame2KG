@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "tomato1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "plate1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown grilled",
+        "size": "medium"
+      },
+      "id": "patty1",
+      "label": "burger patty",
+      "location": "0.35,0.48,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red sliced",
+        "size": "small"
+      },
+      "id": "tomato1",
+      "label": "tomato slice",
+      "location": "0.30,0.60,0.70,0.80,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.10,0.60,0.90,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread",
+        "size": "large"
+      },
+      "id": "bread1",
+      "label": "bun half",
+      "location": "0.00,0.00,1.00,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.00,0.00,0.50,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.00,0.50,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.00,0.00,1.00,0.50,0.7"
+    }
+  ]
+}

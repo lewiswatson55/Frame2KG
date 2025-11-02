@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand_left",
+      "target": "chicken_piece"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand_right",
+      "target": "chicken_piece"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken_piece",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chicken_piece",
+      "target": "raw_chicken_block"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand_left",
+      "label": "left hand",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand_right",
+      "label": "right hand",
+      "location": "0.7,0.2,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "large"
+      },
+      "id": "chicken_piece",
+      "label": "raw chicken piece",
+      "location": "0.45,0.2,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white raw meat",
+        "size": "medium"
+      },
+      "id": "raw_chicken_block",
+      "label": "raw chicken block",
+      "location": "0.0,0.0,0.5,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood grain",
+        "size": "large"
+      },
+      "id": "cutting_board",
+      "label": "wooden cutting board",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    }
+  ]
+}

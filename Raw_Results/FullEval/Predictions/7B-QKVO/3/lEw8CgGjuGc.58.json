@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "herb1",
+      "target": "pile1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "pile1",
+      "target": "waterfall1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "hand1",
+      "target": "pile1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "herb1",
+      "label": "Herbs",
+      "location": "0.35,0.4,0.65,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "large"
+      },
+      "id": "pile1",
+      "label": "Powdered Cheese",
+      "location": "0.2,0.3,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "Gloved Hand",
+      "location": "0.0,0.5,0.3,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white mist",
+        "size": "large"
+      },
+      "id": "waterfall1",
+      "label": "Waterfall",
+      "location": "0.5,0.0,1.0,0.5,0.6"
+    }
+  ]
+}

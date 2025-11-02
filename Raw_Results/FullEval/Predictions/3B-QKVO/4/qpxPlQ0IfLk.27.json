@@ -1,0 +1,226 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "fork1"
+    },
+    {
+      "predicate": "on",
+      "source": "fork1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "food1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lemon1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bowl2",
+      "target": "pot1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "tray1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "lemon1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "spoon1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "salt_shaker1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper_shaker1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "chocolate_bowl1",
+      "target": "table1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.45,0.05,0.75,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "fork1",
+      "label": "fork",
+      "location": "0.6,0.2,0.9,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.45,0.45,0.75,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pinkish",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "fried food",
+      "location": "0.5,0.5,0.7,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "lemon",
+      "location": "0.2,0.3,0.35,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.1,0.1,0.3,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.3,0.2,0.5,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "wooden bowl",
+      "location": "0.05,0.6,0.25,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "sauce bottle",
+      "location": "0.0,0.4,0.2,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "cutting board",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "spoon",
+      "location": "0.7,0.6,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "salt_shaker1",
+      "label": "salt shaker",
+      "location": "0.0,0.6,0.15,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black ceramic",
+        "size": "small"
+      },
+      "id": "pepper_shaker1",
+      "label": "pepper shaker",
+      "location": "0.15,0.6,0.25,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown chocolate",
+        "size": "small"
+      },
+      "id": "chocolate_bowl1",
+      "label": "chocolate bowl",
+      "location": "0.25,0.6,0.4,0.8,0.8"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "onions1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "basket1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "text1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown skin",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.05,0.0,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "metal bowl",
+      "location": "0.1,0.4,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white translucent",
+        "size": "small"
+      },
+      "id": "onions1",
+      "label": "onion rings",
+      "location": "0.2,0.5,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "woven brown wood",
+        "size": "medium"
+      },
+      "id": "basket1",
+      "label": "wooden basket",
+      "location": "0.0,0.0,0.5,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red text on white background",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "seasoning label",
+      "location": "0.6,0.6,0.9,0.8,0.8"
+    }
+  ]
+}

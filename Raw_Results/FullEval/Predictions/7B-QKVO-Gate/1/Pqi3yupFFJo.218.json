@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "whisk"
+    },
+    {
+      "predicate": "in",
+      "source": "whisk",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "cup1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "whisk",
+      "label": "metal whisk",
+      "location": "0.37,0.1,0.55,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "cup1",
+      "label": "measuring cup",
+      "location": "0.6,0.0,0.9,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige ceramic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.2,0.3,0.8,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black glass",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

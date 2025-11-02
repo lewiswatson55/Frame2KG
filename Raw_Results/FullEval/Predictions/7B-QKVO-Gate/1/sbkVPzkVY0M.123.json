@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "behind",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "text1",
+      "target": "text2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.05,0.3,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "measuring spoon",
+      "location": "0.45,0.2,0.55,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "sauce bottle",
+      "location": "0.4,0.5,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on white background",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "ingredients label",
+      "location": "0.0,0.75,0.4,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on white background",
+        "size": "medium"
+      },
+      "id": "text2",
+      "label": "ingredient list",
+      "location": "0.4,0.75,1.0,1.0,0.9"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "gloves1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "meat1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "tongs1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "cloth1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bag1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tongs1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cloth1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bag1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white latex",
+        "size": "medium"
+      },
+      "id": "gloves1",
+      "label": "Gloved hands",
+      "location": "0.35,0.0,0.65,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "Glass bowl",
+      "location": "0.30,0.25,0.70,0.80,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red minced meat with green herbs",
+        "size": "small"
+      },
+      "id": "meat1",
+      "label": "Meat mixture",
+      "location": "0.35,0.30,0.65,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "tongs1",
+      "label": "Tongs",
+      "location": "0.0,0.45,0.35,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow fabric",
+        "size": "small"
+      },
+      "id": "cloth1",
+      "label": "Yellow cloth",
+      "location": "0.0,0.75,0.25,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "small"
+      },
+      "id": "bag1",
+      "label": "Ziplock bag",
+      "location": "0.75,0.75,1.0,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Wooden table",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    }
+  ]
+}

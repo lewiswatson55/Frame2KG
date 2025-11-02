@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "whisk1"
+    },
+    {
+      "predicate": "in",
+      "source": "whisk1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "phone1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "table1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white apron",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.35,0.0,0.65,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.15,0.3,0.9,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "whisk1",
+      "label": "whisk",
+      "location": "0.45,0.0,0.55,0.5,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "wooden table",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "medium"
+      },
+      "id": "bowl2",
+      "label": "metal mixing bowl",
+      "location": "0.8,0.2,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black smartphone",
+        "size": "small"
+      },
+      "id": "phone1",
+      "label": "smartphone",
+      "location": "0.75,0.6,0.95,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wooden",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

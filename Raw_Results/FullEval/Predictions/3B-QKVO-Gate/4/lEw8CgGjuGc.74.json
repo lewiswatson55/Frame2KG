@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "meat1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "herbs1",
+      "target": "meat1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "meat1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink red minced meat with white feta cheese and green herbs",
+        "size": "large"
+      },
+      "id": "meat1",
+      "label": "ground beef mixture",
+      "location": "0.00,0.00,1.00,1.00,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.00,0.00,0.30,0.40,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "green chopped",
+        "size": "small"
+      },
+      "id": "herbs1",
+      "label": "chopped herbs",
+      "location": "0.60,0.70,0.90,0.95,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white chunks",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "feta cheese pieces",
+      "location": "0.30,0.20,0.70,0.60,0.80"
+    }
+  ]
+}

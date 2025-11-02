@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "eggs1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "door1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "handle1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "knob1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "knob2",
+      "target": "fridge1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink gradient",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.35,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white with yellow yolks",
+        "size": "small"
+      },
+      "id": "eggs1",
+      "label": "fried eggs",
+      "location": "0.4,0.2,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey metal",
+        "size": "medium"
+      },
+      "id": "door1",
+      "label": "refrigerator door",
+      "location": "0.0,0.0,0.3,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "handle1",
+      "label": "refrigerator handle",
+      "location": "0.7,0.0,0.8,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "knob1",
+      "label": "refrigerator knob",
+      "location": "0.0,0.8,0.1,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "knob2",
+      "label": "refrigerator knob",
+      "location": "0.8,0.8,0.9,1.0,0.7"
+    }
+  ]
+}

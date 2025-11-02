@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "mixer1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "kettle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "backsplash1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "behind",
+      "source": "backsplash1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "long blonde hair white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.4,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.05,0.45,0.2,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "mixer1",
+      "label": "stand mixer",
+      "location": "0.2,0.45,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "small"
+      },
+      "id": "kettle1",
+      "label": "electric kettle",
+      "location": "0.3,0.45,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white tile",
+        "size": "medium"
+      },
+      "id": "backsplash1",
+      "label": "backsplash",
+      "location": "0.0,0.3,1.0,0.5,0.7"
+    }
+  ]
+}

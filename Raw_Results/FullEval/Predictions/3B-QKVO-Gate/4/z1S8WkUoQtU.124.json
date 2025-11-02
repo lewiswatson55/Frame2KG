@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "on",
+      "source": "vase1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "vase1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "behind",
+      "source": "sculpture1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink shirt,long dark hair",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.0,0.6,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.45,0.7,0.75,0.95,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "decorative vase",
+      "location": "0.75,0.3,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange wood",
+        "size": "medium"
+      },
+      "id": "sculpture1",
+      "label": "wooden sculpture",
+      "location": "0.7,0.2,0.9,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.7,1.0,1.0,0.7"
+    }
+  ]
+}

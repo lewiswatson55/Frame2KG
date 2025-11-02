@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "bun_bottom"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato1",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "tomato1"
+    },
+    {
+      "predicate": "on",
+      "source": "bun_top",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "burger1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bokeh1",
+      "target": "burger1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "toasted brown bun top and bottom",
+        "size": "medium"
+      },
+      "id": "bun_top",
+      "label": "Burger Bun Top",
+      "location": "0.35,0.45,0.65,0.60,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted brown bun bottom",
+        "size": "medium"
+      },
+      "id": "bun_bottom",
+      "label": "Burger Bun Bottom",
+      "location": "0.35,0.75,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown grilled beef patty",
+        "size": "small"
+      },
+      "id": "patty1",
+      "label": "Beef Patty",
+      "location": "0.35,0.65,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow melted cheese slice",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "Cheese Slice",
+      "location": "0.35,0.70,0.65,0.80,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red sliced tomato",
+        "size": "small"
+      },
+      "id": "tomato1",
+      "label": "Tomato Slices",
+      "location": "0.35,0.55,0.65,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy lettuce",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce Leaves",
+      "location": "0.35,0.45,0.65,0.60,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden cutting board",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.85,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white blurred circles",
+        "size": "large"
+      },
+      "id": "bokeh1",
+      "label": "Bokeh Light Spots",
+      "location": "0.0,0.0,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "text 'POPSUGAR'",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Popsugar Logo",
+      "location": "0.8,0.85,0.98,0.98,0.8"
+    }
+  ]
+}

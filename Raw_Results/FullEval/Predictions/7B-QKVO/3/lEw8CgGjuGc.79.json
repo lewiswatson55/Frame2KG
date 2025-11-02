@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "knob1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "knob1",
+      "target": "panel1"
+    },
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "panel1"
+    },
+    {
+      "predicate": "on",
+      "source": "text2",
+      "target": "panel1"
+    },
+    {
+      "predicate": "on",
+      "source": "icon1",
+      "target": "panel1"
+    },
+    {
+      "predicate": "on",
+      "source": "icon2",
+      "target": "panel1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "large"
+      },
+      "id": "panel1",
+      "label": "control panel",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "knob1",
+      "label": "ignition knob",
+      "location": "0.4,0.3,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.6,0.2,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white sans-serif",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "text 'OUTDOOR USE ONLY'",
+      "location": "0.0,0.0,0.5,0.2,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white sans-serif",
+        "size": "small"
+      },
+      "id": "text2",
+      "label": "text 'IGNITION BURNER'",
+      "location": "0.4,0.0,0.8,0.2,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white drop icon",
+        "size": "small"
+      },
+      "id": "icon1",
+      "label": "drop icon",
+      "location": "0.2,0.5,0.3,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white lightning bolt icon",
+        "size": "small"
+      },
+      "id": "icon2",
+      "label": "lightning bolt icon",
+      "location": "0.7,0.0,0.8,0.15,0.9"
+    }
+  ]
+}

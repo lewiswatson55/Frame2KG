@@ -1,0 +1,142 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "tongs1"
+    },
+    {
+      "predicate": "in",
+      "source": "tongs1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl1",
+      "target": "salad1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl3",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl4",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl5",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl6",
+      "target": "table1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl3",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bowl5",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "bowl6",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.0,0.0,0.2,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "medium"
+      },
+      "id": "tongs1",
+      "label": "Tongs",
+      "location": "0.1,0.0,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "Salad Bowl",
+      "location": "0.2,0.3,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "salad1",
+      "label": "Salad",
+      "location": "0.25,0.4,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl3",
+      "label": "Small Glass Bowl",
+      "location": "0.0,0.3,0.2,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl4",
+      "label": "Glass Bowl",
+      "location": "0.0,0.0,0.3,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white rim black border",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.0,0.0,0.4,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "medium"
+      },
+      "id": "bowl5",
+      "label": "Glass Bowl",
+      "location": "0.7,0.0,1.0,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

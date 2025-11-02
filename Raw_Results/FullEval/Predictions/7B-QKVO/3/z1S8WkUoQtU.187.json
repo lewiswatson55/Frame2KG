@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "background"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "image1",
+      "target": "background"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "image2",
+      "target": "background"
+    },
+    {
+      "predicate": "left_of",
+      "source": "image1",
+      "target": "image2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue circular logo with white text",
+        "size": "medium"
+      },
+      "id": "logo1",
+      "label": "Rajshri Food Logo",
+      "location": "0.45,0.05,0.65,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate of golden brown fritters",
+        "size": "small"
+      },
+      "id": "image1",
+      "label": "Pakoda Image",
+      "location": "0.05,0.55,0.48,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown crispy pastries on white plate",
+        "size": "small"
+      },
+      "id": "image2",
+      "label": "Samosa Image",
+      "location": "0.52,0.55,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blurred grains and spices",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "Food Background",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

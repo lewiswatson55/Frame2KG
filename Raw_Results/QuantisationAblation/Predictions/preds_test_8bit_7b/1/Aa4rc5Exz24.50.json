@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hands1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "on",
+      "source": "spoon1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "in",
+      "source": "whisk1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl1",
+      "target": "mixture1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "table1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hands1",
+      "label": "human hands",
+      "location": "0.05,0.0,0.6,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with red cap",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "oil bottle",
+      "location": "0.3,0.2,0.5,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "measuring spoon",
+      "location": "0.25,0.3,0.7,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.4,0.1,0.9,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow creamy",
+        "size": "medium"
+      },
+      "id": "mixture1",
+      "label": "egg mixture",
+      "location": "0.5,0.2,0.9,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "whisk1",
+      "label": "whisk",
+      "location": "0.55,0.1,0.8,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.5,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "countertop",
+      "location": "0.0,0.8,1.0,1.0,0.9"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "can1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "glass1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "glass2",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "utensils1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "blinds1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "fridge1",
+      "target": "cabinet1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black hoodie",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.53,0.08,0.97,0.94,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.00,0.60,0.45,0.98,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.20,0.00,0.60,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white blinds",
+        "size": "medium"
+      },
+      "id": "blinds1",
+      "label": "window blinds",
+      "location": "0.00,0.00,0.25,0.60,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.60,0.00,1.00,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "utensils1",
+      "label": "cooking utensils",
+      "location": "0.35,0.50,0.50,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "can1",
+      "label": "beer can",
+      "location": "0.85,0.80,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "glass1",
+      "label": "drinking glass",
+      "location": "0.05,0.75,0.20,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "glass2",
+      "label": "drinking glass",
+      "location": "0.75,0.75,0.90,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "gray stone",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.00,0.50,1.00,1.00,0.7"
+    }
+  ]
+}

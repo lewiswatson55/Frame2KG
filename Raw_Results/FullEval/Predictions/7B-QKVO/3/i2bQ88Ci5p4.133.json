@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken_wings",
+      "target": "plate"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl_sauce",
+      "target": "chicken_wings"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand",
+      "target": "spoon"
+    },
+    {
+      "predicate": "in",
+      "source": "spoon",
+      "target": "bowl_sauce"
+    },
+    {
+      "predicate": "on",
+      "source": "sauce",
+      "target": "bowl_sauce"
+    },
+    {
+      "predicate": "on",
+      "source": "plate",
+      "target": "table_surface"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "orange battered",
+        "size": "medium"
+      },
+      "id": "chicken_wings",
+      "label": "Chicken Wings",
+      "location": "0.05,0.48,0.95,0.97,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black ceramic",
+        "size": "small"
+      },
+      "id": "bowl_sauce",
+      "label": "Sauce Bowl",
+      "location": "0.36,0.25,0.64,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green creamy",
+        "size": "small"
+      },
+      "id": "sauce",
+      "label": "Dipping Sauce",
+      "location": "0.45,0.35,0.55,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "large"
+      },
+      "id": "plate",
+      "label": "Plate",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey speckled",
+        "size": "large"
+      },
+      "id": "table_surface",
+      "label": "Table Surface",
+      "location": "0.0,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand",
+      "label": "Hand",
+      "location": "0.0,0.0,0.4,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spoon",
+      "label": "Spoon",
+      "location": "0.45,0.0,0.55,0.3,0.8"
+    }
+  ]
+}

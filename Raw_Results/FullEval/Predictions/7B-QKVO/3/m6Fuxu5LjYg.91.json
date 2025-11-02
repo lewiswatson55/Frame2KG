@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "mixture1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "shrimp1",
+      "target": "mixture1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "shrimp1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.05,0.05,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy",
+        "size": "medium"
+      },
+      "id": "mixture1",
+      "label": "cream mixture",
+      "location": "0.05,0.1,0.95,0.7,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "pink translucent",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.6,0.0,1.0,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "raw pinkish",
+        "size": "small"
+      },
+      "id": "shrimp1",
+      "label": "raw shrimp",
+      "location": "0.3,0.5,0.7,0.9,0.8"
+    }
+  ]
+}

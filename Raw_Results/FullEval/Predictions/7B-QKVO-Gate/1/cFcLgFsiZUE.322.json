@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "dog1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "dog1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "on",
+      "source": "award_frame1",
+      "target": "mantle1"
+    },
+    {
+      "predicate": "behind",
+      "source": "mantle1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "long blonde hair, white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.0,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white fluffy fur",
+        "size": "medium"
+      },
+      "id": "dog1",
+      "label": "small dog",
+      "location": "0.45,0.3,0.75,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark brown wood",
+        "size": "large"
+      },
+      "id": "mantle1",
+      "label": "mantel shelf",
+      "location": "0.5,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame with red plaque",
+        "size": "small"
+      },
+      "id": "award_frame1",
+      "label": "award frame",
+      "location": "0.7,0.4,0.9,0.6,0.7"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "shredded_cheese",
+      "target": "glass_bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "sliced_onion",
+      "target": "glass_bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "glass_bowl",
+      "target": "wooden_board"
+    },
+    {
+      "predicate": "on",
+      "source": "wooden_board",
+      "target": "tablecloth"
+    },
+    {
+      "predicate": "next_to",
+      "source": "rolling_pin",
+      "target": "glass_bowl"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "glass_bowl",
+      "label": "Glass Bowl",
+      "location": "0.05,0.3,0.98,0.94,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red shredded",
+        "size": "small"
+      },
+      "id": "shredded_cheese",
+      "label": "Shredded Cheese",
+      "location": "0.1,0.6,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple",
+        "size": "medium"
+      },
+      "id": "sliced_onion",
+      "label": "Sliced Onion",
+      "location": "0.6,0.4,0.95,0.85,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "wooden_board",
+      "label": "Wooden Cutting Board",
+      "location": "0.0,0.2,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "striped fabric",
+        "size": "large"
+      },
+      "id": "tablecloth",
+      "label": "Tablecloth",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark brown wood",
+        "size": "medium"
+      },
+      "id": "rolling_pin",
+      "label": "Rolling Pin",
+      "location": "0.0,0.0,1.0,0.2,0.7"
+    }
+  ]
+}

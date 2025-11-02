@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "on",
+      "source": "paper_towel1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "tray1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "person1",
+      "target": "cutting_board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.45,0.0,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal blade black handle",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.35,0.3,0.65,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.0,0.4,1.0,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "small"
+      },
+      "id": "paper_towel1",
+      "label": "paper towel",
+      "location": "0.45,0.45,0.6,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "aluminum foil covered",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "foil tray",
+      "location": "0.0,0.2,0.4,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.5,0.75,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.7,0.75,1.0,1.0,0.8"
+    }
+  ]
+}

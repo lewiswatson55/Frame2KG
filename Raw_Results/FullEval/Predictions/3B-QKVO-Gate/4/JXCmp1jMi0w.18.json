@@ -1,0 +1,109 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bottle1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bag1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "behind",
+      "source": "bag2",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bag1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bag2",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pepper1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "large"
+      },
+      "id": "chicken1",
+      "label": "fried chicken drumsticks",
+      "location": "0.05,0.3,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic with red label",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "hot sauce bottle",
+      "location": "0.45,0.1,0.6,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic bowl with red sauce",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "sauce bowl",
+      "location": "0.4,0.6,0.6,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic bag with printed chicken image",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "chicken packaging bag",
+      "location": "0.0,0.0,0.5,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic bag with printed chicken image",
+        "size": "large"
+      },
+      "id": "bag2",
+      "label": "chicken packaging bag",
+      "location": "0.5,0.0,1.0,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green pepper slices",
+        "size": "small"
+      },
+      "id": "pepper1",
+      "label": "pepper slices",
+      "location": "0.75,0.8,0.9,0.95,0.6"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "cutting",
+      "source": "knife1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "salt_bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper_bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lemon1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tongs1",
+      "target": "lemon1"
+    },
+    {
+      "predicate": "behind",
+      "source": "bottle1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "grill1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red-blue plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.5,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black handle metal blade",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "Knife",
+      "location": "0.48,0.3,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crust",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "Baguette",
+      "location": "0.45,0.5,0.65,0.75,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden bowl white salt",
+        "size": "small"
+      },
+      "id": "salt_bowl1",
+      "label": "Salt Bowl",
+      "location": "0.05,0.6,0.2,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden bowl black pepper",
+        "size": "small"
+      },
+      "id": "pepper_bowl1",
+      "label": "Pepper Bowl",
+      "location": "0.2,0.6,0.35,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow round",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "Lemon",
+      "location": "0.15,0.45,0.25,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "Bottle",
+      "location": "0.0,0.0,0.2,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "tongs1",
+      "label": "Tongs",
+      "location": "0.25,0.3,0.5,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "grill1",
+      "label": "Grill",
+      "location": "0.0,0.8,1.0,1.0,0.9"
+    }
+  ]
+}

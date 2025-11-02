@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "sauce1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "wrap1"
+    },
+    {
+      "predicate": "on",
+      "source": "wrap1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "plastic bowl",
+      "location": "0.35,0.18,0.65,0.47,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red liquid",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "red sauce",
+      "location": "0.45,0.15,0.60,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "large"
+      },
+      "id": "wrap1",
+      "label": "plastic wrap",
+      "location": "0.10,0.00,0.90,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "wooden table",
+      "location": "0.00,0.70,1.00,1.00,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black cap red label",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "bottle",
+      "location": "0.00,0.75,0.20,1.00,0.7"
+    }
+  ]
+}

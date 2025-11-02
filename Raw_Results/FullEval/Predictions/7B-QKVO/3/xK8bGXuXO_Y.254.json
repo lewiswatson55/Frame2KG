@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "fries1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "sauce1",
+      "target": "fries1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "herb1",
+      "target": "fries1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "fries1",
+      "label": "Fried Onions",
+      "location": "0.35,0.0,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.0,0.4,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red smooth",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "Sauce Bowl",
+      "location": "0.0,0.6,0.6,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "herb1",
+      "label": "Herbs",
+      "location": "0.6,0.3,0.9,0.6,0.8"
+    }
+  ]
+}

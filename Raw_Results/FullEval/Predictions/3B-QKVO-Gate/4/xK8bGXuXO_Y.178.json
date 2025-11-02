@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "onion_ring1"
+    },
+    {
+      "predicate": "in",
+      "source": "onion_ring1",
+      "target": "frying_pan1"
+    },
+    {
+      "predicate": "in",
+      "source": "onion_pieces1",
+      "target": "frying_pan1"
+    },
+    {
+      "predicate": "in",
+      "source": "oil1",
+      "target": "frying_pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "onion_ring1",
+      "target": "onion_pieces1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "frying_pan1",
+      "label": "Frying Pan",
+      "location": "0.0,0.05,1.0,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown batter",
+        "size": "small"
+      },
+      "id": "onion_ring1",
+      "label": "Onion Ring",
+      "location": "0.6,0.3,0.9,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white battered",
+        "size": "small"
+      },
+      "id": "onion_pieces1",
+      "label": "Onion Pieces",
+      "location": "0.4,0.5,0.7,0.8,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.3,0.0,0.7,0.2,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "bubbling clear liquid",
+        "size": "large"
+      },
+      "id": "oil1",
+      "label": "Oil",
+      "location": "0.0,0.2,1.0,1.0,0.5"
+    },
+    {
+      "attributes": {
+        "appearance": "red black white",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "MasterChef Logo",
+      "location": "0.8,0.0,1.0,0.2,0.9"
+    }
+  ]
+}

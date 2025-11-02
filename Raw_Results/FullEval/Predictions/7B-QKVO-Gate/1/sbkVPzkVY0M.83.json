@@ -1,0 +1,187 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar2",
+      "target": "blender1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spatula1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tomato1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread1",
+      "target": "tomato1"
+    },
+    {
+      "predicate": "behind",
+      "source": "fruit_basket1",
+      "target": "person1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "framed_art1",
+      "target": "fruit_basket1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.58,0.03,0.97,0.94,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.26,0.55,0.38,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "glass jar",
+      "location": "0.22,0.65,0.28,0.78,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "jar2",
+      "label": "glass jar",
+      "location": "0.30,0.65,0.36,0.78,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "pink silicone",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.38,0.75,0.48,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "portable stove",
+      "location": "0.60,0.65,0.80,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.62,0.60,0.80,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "kitchen countertop",
+      "location": "0.00,0.60,1.00,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "ceramic bowl",
+      "location": "0.15,0.65,0.25,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce",
+      "location": "0.75,0.75,0.85,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red sliced",
+        "size": "small"
+      },
+      "id": "tomato1",
+      "label": "tomato slices",
+      "location": "0.80,0.75,0.90,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "bread slice",
+      "location": "0.60,0.80,0.70,0.90,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal rack with fruits",
+        "size": "medium"
+      },
+      "id": "fruit_basket1",
+      "label": "fruit basket",
+      "location": "0.45,0.20,0.60,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "multicolored abstract art",
+        "size": "medium"
+      },
+      "id": "framed_art1",
+      "label": "framed artwork",
+      "location": "0.70,0.00,1.00,0.30,0.8"
+    }
+  ]
+}

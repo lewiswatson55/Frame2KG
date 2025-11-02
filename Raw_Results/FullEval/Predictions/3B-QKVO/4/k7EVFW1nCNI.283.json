@@ -1,0 +1,192 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "vase1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "red_tulips",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "coffee_mug",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "red_bowl",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "microwave1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sink1",
+      "target": "faucet1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light blue lace top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.45,0.7,0.55,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with red tulips",
+        "size": "medium"
+      },
+      "id": "vase1",
+      "label": "tulip vase",
+      "location": "0.1,0.4,0.2,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red flowers",
+        "size": "medium"
+      },
+      "id": "red_tulips",
+      "label": "red tulips",
+      "location": "0.1,0.4,0.25,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "microwave1",
+      "label": "microwave oven",
+      "location": "0.75,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "faucet1",
+      "label": "sink faucet",
+      "location": "0.35,0.3,0.45,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.4,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "coffee_mug",
+      "label": "coffee mug",
+      "location": "0.6,0.5,0.65,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "red_bowl",
+      "label": "red mixing bowl",
+      "location": "0.55,0.5,0.6,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.65,0.5,0.7,0.55,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.7,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue pot",
+        "size": "small"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.8,0.75,0.9,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "dishwasher1",
+      "label": "dishwasher",
+      "location": "0.0,0.7,0.3,1.0,0.7"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "board1",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "raw pink",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "Raw Chicken Pieces",
+      "location": "0.35,0.45,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic grey",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "Baking Tray",
+      "location": "0.0,0.3,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass red liquid",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.0,0.1,0.3,0.4,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white smooth",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "Wall",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

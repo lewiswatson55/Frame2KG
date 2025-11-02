@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "leaning_on",
+      "source": "person1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "jacket1"
+    },
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "tshirt1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "logo1",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black cap, black leather jacket, blue t-shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.05,0.95,0.98,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown brick",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "brick wall",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green quilted",
+        "size": "medium"
+      },
+      "id": "jacket1",
+      "label": "quilted jacket",
+      "location": "0.4,0.6,0.9,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue cotton",
+        "size": "small"
+      },
+      "id": "tshirt1",
+      "label": "t-shirt",
+      "location": "0.5,0.65,0.8,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on red background",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "logo",
+      "location": "0.0,0.0,0.2,0.2,0.6"
+    }
+  ]
+}

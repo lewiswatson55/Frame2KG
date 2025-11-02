@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "arm1",
+      "target": "mixture1"
+    },
+    {
+      "predicate": "in",
+      "source": "mixture1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "behind",
+      "source": "tile_wall1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "large"
+      },
+      "id": "arm1",
+      "label": "human arm",
+      "location": "0.35,0.0,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.4,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown grainy",
+        "size": "small"
+      },
+      "id": "mixture1",
+      "label": "rice mixture",
+      "location": "0.2,0.5,0.5,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.4,0.3,0.6,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange glazed",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "glass baking tray",
+      "location": "0.6,0.3,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "tile_wall1",
+      "label": "wall tiles",
+      "location": "0.0,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.0,0.6,0.5,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.5,0.6,1.0,1.0,0.8"
+    }
+  ]
+}

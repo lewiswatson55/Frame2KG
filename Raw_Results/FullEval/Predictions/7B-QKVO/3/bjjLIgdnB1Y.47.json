@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "bowl1",
+      "target": "mixing_bowl"
+    },
+    {
+      "predicate": "in",
+      "source": "sugar",
+      "target": "mixing_bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "mixing_bowl",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "wire_rack",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "wire_rack",
+      "target": "mixing_bowl"
+    },
+    {
+      "predicate": "behind",
+      "source": "glass_container",
+      "target": "mixing_bowl"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.5,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Small Bowl",
+      "location": "0.48,0.03,0.67,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white granular",
+        "size": "small"
+      },
+      "id": "sugar",
+      "label": "Sugar",
+      "location": "0.55,0.1,0.75,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "large"
+      },
+      "id": "mixing_bowl",
+      "label": "Mixing Bowl",
+      "location": "0.25,0.2,0.75,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "wire_rack",
+      "label": "Wire Rack",
+      "location": "0.0,0.4,0.4,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "glass_container",
+      "label": "Glass Container",
+      "location": "0.0,0.0,0.4,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "marble patterned",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "Countertop",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    }
+  ]
+}

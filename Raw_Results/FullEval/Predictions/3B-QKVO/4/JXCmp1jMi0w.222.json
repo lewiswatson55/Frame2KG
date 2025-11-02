@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "on",
+      "source": "bag1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "meat1",
+      "target": "meat2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "board1",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "striped green shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.0,0.0,0.5,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic with red label",
+        "size": "small"
+      },
+      "id": "bag1",
+      "label": "plastic bag",
+      "location": "0.3,0.0,0.7,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.4,0.6,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "metal tray",
+      "location": "0.6,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder-coated",
+        "size": "small"
+      },
+      "id": "meat1",
+      "label": "coated meat",
+      "location": "0.65,0.55,0.85,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder-coated",
+        "size": "small"
+      },
+      "id": "meat2",
+      "label": "coated meat",
+      "location": "0.85,0.55,1.0,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light grey surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.4,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white painted wall",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.0,0.0,1.0,0.4,0.8"
+    }
+  ]
+}

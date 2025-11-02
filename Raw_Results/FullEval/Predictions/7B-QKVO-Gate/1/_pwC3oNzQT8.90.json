@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand2",
+      "target": "blender1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "in",
+      "source": "mixture1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "dish1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "pot1",
+      "target": "tray1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black skin",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.58,0.43,0.96,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black skin",
+        "size": "medium"
+      },
+      "id": "hand2",
+      "label": "Hand",
+      "location": "0.65,0.0,1.0,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "large"
+      },
+      "id": "blender1",
+      "label": "Blender Jar",
+      "location": "0.45,0.0,0.75,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal tray",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "Baking Tray",
+      "location": "0.2,0.5,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass bowl",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.1,0.2,0.5,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige crumb mixture",
+        "size": "small"
+      },
+      "id": "mixture1",
+      "label": "Mixture",
+      "location": "0.15,0.25,0.45,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass dish",
+        "size": "medium"
+      },
+      "id": "dish1",
+      "label": "Dish",
+      "location": "0.6,0.4,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange baked food",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "Food",
+      "location": "0.65,0.45,0.85,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic jar",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "Jar",
+      "location": "0.85,0.3,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal pot",
+        "size": "medium"
+      },
+      "id": "pot1",
+      "label": "Pot",
+      "location": "0.0,0.6,0.2,0.9,0.8"
+    }
+  ]
+}

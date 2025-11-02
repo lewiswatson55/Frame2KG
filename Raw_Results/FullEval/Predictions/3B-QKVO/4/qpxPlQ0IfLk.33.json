@@ -1,0 +1,247 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lettuce1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "stove1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "lemon1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "utensil_holder1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "pot_hanging1",
+      "target": "ceiling1"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "lamp1",
+      "target": "shelf1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "multicolored plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "griddle pan",
+      "location": "0.45,0.75,0.65,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "metal spatula",
+      "location": "0.6,0.6,0.8,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.4,0.7,0.8,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce",
+      "location": "0.65,0.75,0.75,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "baguette",
+      "location": "0.75,0.75,0.85,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow fruit",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "lemon",
+      "location": "0.3,0.7,0.35,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "oil bottle",
+      "location": "0.1,0.6,0.15,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "sauce jar",
+      "location": "0.15,0.6,0.2,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.2,0.7,0.3,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.6,0.75,0.8,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "utensil_holder1",
+      "label": "utensil holder",
+      "location": "0.0,0.6,0.2,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "gray brick",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "brick wall",
+      "location": "0.0,0.0,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame",
+        "size": "medium"
+      },
+      "id": "chalkboard1",
+      "label": "chalkboard",
+      "location": "0.7,0.1,0.9,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal pot",
+        "size": "medium"
+      },
+      "id": "pot_hanging1",
+      "label": "hanging pot",
+      "location": "0.4,0.0,0.6,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white lampshade",
+        "size": "small"
+      },
+      "id": "lamp1",
+      "label": "table lamp",
+      "location": "0.9,0.2,1.0,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden shelf",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.0,0.0,0.5,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey stone",
+        "size": "large"
+      },
+      "id": "ceiling1",
+      "label": "ceiling",
+      "location": "0.0,0.0,1.0,0.2,0.7"
+    }
+  ]
+}

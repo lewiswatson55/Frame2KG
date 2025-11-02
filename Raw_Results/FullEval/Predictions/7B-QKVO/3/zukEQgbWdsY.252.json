@@ -1,0 +1,107 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "avocado1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "plate1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "hands",
+      "location": "0.35,0.0,0.65,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.48,0.25,0.75,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread with bacon and lettuce",
+        "size": "medium"
+      },
+      "id": "sandwich1",
+      "label": "sandwich",
+      "location": "0.45,0.45,0.75,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl of guacamole",
+      "location": "0.1,0.4,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "avocado1",
+      "label": "guacamole bowl",
+      "location": "0.05,0.4,0.2,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.3,0.4,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper towel",
+        "size": "small"
+      },
+      "id": "paper_towel1",
+      "label": "paper towel",
+      "location": "0.0,0.6,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red meat on white plate",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate of bacon",
+      "location": "0.0,0.6,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Tasted logo",
+      "location": "0.8,0.8,1.0,1.0,0.9"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "coffee_maker1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "kettle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "microwave1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "blender1",
+      "target": "coffee_maker1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "coffee_maker1",
+      "target": "kettle1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "kettle1",
+      "target": "coffee_maker1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "person1"
+    },
+    {
+      "predicate": "above",
+      "source": "cabinet1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "below",
+      "source": "countertop1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "microwave1",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin blonde hair white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,1.0,0.4,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown granite",
+        "size": "medium"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.4,1.0,0.7,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic red metal",
+        "size": "small"
+      },
+      "id": "blender1",
+      "label": "personal blender",
+      "location": "0.0,0.45,0.15,0.65,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "red metal black motor",
+        "size": "small"
+      },
+      "id": "coffee_maker1",
+      "label": "coffee maker",
+      "location": "0.15,0.45,0.25,0.65,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "kettle1",
+      "label": "kettle",
+      "location": "0.25,0.45,0.35,0.65,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "black glass door silver handle",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave oven",
+      "location": "0.75,0.45,0.95,0.75,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white glossy",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.75,0.0,1.0,0.4,0.80"
+    }
+  ]
+}

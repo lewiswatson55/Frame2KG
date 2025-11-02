@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bag1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green white striped shirt black hair",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.0,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown paper red text",
+        "size": "medium"
+      },
+      "id": "bag1",
+      "label": "paper bag",
+      "location": "0.4,0.3,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white smooth",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.75,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white painted",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

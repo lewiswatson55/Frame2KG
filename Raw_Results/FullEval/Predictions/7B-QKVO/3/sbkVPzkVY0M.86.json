@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bun1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bag1",
+      "target": "bun1"
+    },
+    {
+      "predicate": "behind",
+      "source": "lettuce1",
+      "target": "bun1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pinkish translucent plastic",
+        "size": "medium"
+      },
+      "id": "bag1",
+      "label": "plastic bag",
+      "location": "0.05,0.05,0.45,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown toasted",
+        "size": "small"
+      },
+      "id": "bun1",
+      "label": "burger bun",
+      "location": "0.3,0.3,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce",
+      "location": "0.7,0.2,1.0,0.5,0.7"
+    }
+  ]
+}

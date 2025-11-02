@@ -1,0 +1,52 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl1",
+      "target": "background1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown raw meat with green herbs",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "raw chicken mixture",
+      "location": "0.35,0.45,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "ceramic bowl",
+      "location": "0.6,0.2,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "herbs1",
+      "label": "green herbs",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blurred green foliage",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "background foliage",
+      "location": "0.0,0.0,1.0,0.5,0.6"
+    }
+  ]
+}

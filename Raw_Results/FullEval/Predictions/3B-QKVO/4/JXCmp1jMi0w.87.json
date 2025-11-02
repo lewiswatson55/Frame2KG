@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken_wings",
+      "target": "tray"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person",
+      "target": "tray"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light green striped shirt",
+        "size": "medium"
+      },
+      "id": "person",
+      "label": "person",
+      "location": "0.0,0.0,0.6,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tray",
+      "label": "baking tray",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "raw pinkish",
+        "size": "medium"
+      },
+      "id": "chicken_wings",
+      "label": "chicken wings",
+      "location": "0.0,0.3,1.0,0.7,0.95"
+    }
+  ]
+}

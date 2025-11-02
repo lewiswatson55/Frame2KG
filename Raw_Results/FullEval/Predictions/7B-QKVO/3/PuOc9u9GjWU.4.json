@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "rings1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in",
+      "source": "sauce1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "rings1"
+    },
+    {
+      "predicate": "holding",
+      "source": "spoon1",
+      "target": "rings1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "rings1",
+      "label": "Onion Rings",
+      "location": "0.35,0.4,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Dipping Bowl",
+      "location": "0.1,0.2,0.45,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red ketchup",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "Sauce",
+      "location": "0.15,0.25,0.4,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.45,0.1,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    }
+  ]
+}

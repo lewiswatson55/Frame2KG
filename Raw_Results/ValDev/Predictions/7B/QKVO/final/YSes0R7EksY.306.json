@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "onion1"
+    },
+    {
+      "predicate": "on",
+      "source": "onion1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "peel1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "peel1",
+      "target": "onion1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white smooth",
+        "size": "small"
+      },
+      "id": "onion1",
+      "label": "Onion half",
+      "location": "0.45,0.25,0.75,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow thin",
+        "size": "small"
+      },
+      "id": "peel1",
+      "label": "Onion peel",
+      "location": "0.25,0.45,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood grain",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting board",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    }
+  ]
+}

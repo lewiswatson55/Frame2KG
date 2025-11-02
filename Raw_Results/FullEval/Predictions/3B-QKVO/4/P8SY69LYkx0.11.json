@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "shelves1",
+      "target": "clock1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "stove1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "rack1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white chef coat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.4,0.4,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bowl with red meat",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl of meat",
+      "location": "0.3,0.7,0.5,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.3,0.7,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic lid",
+        "size": "small"
+      },
+      "id": "container1",
+      "label": "storage container",
+      "location": "0.45,0.0,0.55,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic lid",
+        "size": "small"
+      },
+      "id": "container2",
+      "label": "storage container",
+      "location": "0.55,0.0,0.65,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "large"
+      },
+      "id": "rack1",
+      "label": "tray rack",
+      "location": "0.75,0.1,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame",
+        "size": "small"
+      },
+      "id": "clock1",
+      "label": "wall clock",
+      "location": "0.6,0.0,0.7,0.15,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    }
+  ]
+}

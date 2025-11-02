@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall_art"
+    },
+    {
+      "predicate": "right_of",
+      "source": "sculpture1",
+      "target": "person1"
+    },
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "wall_art"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink shirt,long dark hair",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.15,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "medium"
+      },
+      "id": "sculpture1",
+      "label": "ceramic sculpture",
+      "location": "0.75,0.3,0.95,0.8,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame",
+        "size": "small"
+      },
+      "id": "wall_art",
+      "label": "framed artwork",
+      "location": "0.1,0.05,0.4,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow utensils",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "logo",
+      "location": "0.0,0.0,0.1,0.1,0.7"
+    }
+  ]
+}

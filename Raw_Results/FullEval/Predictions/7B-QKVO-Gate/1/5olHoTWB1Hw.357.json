@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "food1",
+      "target": "tray"
+    },
+    {
+      "predicate": "on",
+      "source": "food2",
+      "target": "plate"
+    },
+    {
+      "predicate": "next_to",
+      "source": "hand",
+      "target": "plate"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand",
+      "target": "tray"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crumb topping",
+        "size": "large"
+      },
+      "id": "food1",
+      "label": "baked dish",
+      "location": "0.0,0.05,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green ceramic",
+        "size": "medium"
+      },
+      "id": "plate",
+      "label": "plate",
+      "location": "0.4,0.3,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow crumb",
+        "size": "small"
+      },
+      "id": "food2",
+      "label": "crumb piece",
+      "location": "0.5,0.6,0.7,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand",
+      "label": "hand",
+      "location": "0.7,0.0,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "tray",
+      "label": "baking tray",
+      "location": "0.0,0.0,0.6,0.4,0.6"
+    }
+  ]
+}

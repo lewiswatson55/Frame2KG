@@ -1,0 +1,67 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "herbs1",
+      "target": "meat1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "herbs1",
+      "target": "dirt1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "herbs1",
+      "target": "stones1"
+    },
+    {
+      "predicate": "behind",
+      "source": "dirt1",
+      "target": "meat1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "herbs1",
+      "target": "meat1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red raw",
+        "size": "large"
+      },
+      "id": "meat1",
+      "label": "raw meat",
+      "location": "0.5,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "herbs1",
+      "label": "chopped herbs",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown soil",
+        "size": "large"
+      },
+      "id": "dirt1",
+      "label": "soil",
+      "location": "0.0,0.3,1.0,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white stone",
+        "size": "small"
+      },
+      "id": "stones1",
+      "label": "stones",
+      "location": "0.4,0.7,0.8,1.0,0.6"
+    }
+  ]
+}

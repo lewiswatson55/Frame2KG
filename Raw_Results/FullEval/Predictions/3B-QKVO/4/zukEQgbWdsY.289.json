@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "sandwich1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "sandwich1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "toasted bread with lettuce and bacon",
+        "size": "medium"
+      },
+      "id": "sandwich1",
+      "label": "Sandwich",
+      "location": "0.65,0.3,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Basil Mayonnaise bowl",
+      "location": "0.45,0.25,0.65,0.45,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with black seeds",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "Dressing bowl",
+      "location": "0.55,0.1,0.75,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottle with golden liquid",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "Oil bottle",
+      "location": "0.05,0.0,0.25,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden handle red blade",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "Knife",
+      "location": "0.0,0.6,0.2,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Wooden board",
+      "location": "0.2,0.3,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange cloth",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Tablecloth",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green text on white background",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Text overlay",
+      "location": "0.4,0.2,0.9,0.6,0.9"
+    }
+  ]
+}

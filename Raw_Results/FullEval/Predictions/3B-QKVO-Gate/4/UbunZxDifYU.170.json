@@ -1,0 +1,66 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "hand1",
+      "target": "towel1"
+    },
+    {
+      "predicate": "on",
+      "source": "towel1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "towel1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown skin",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.3,0.45,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white textured",
+        "size": "large"
+      },
+      "id": "towel1",
+      "label": "Paper towel",
+      "location": "0.1,0.2,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange patterned cloth",
+        "size": "large"
+      },
+      "id": "cloth1",
+      "label": "Tablecloth",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Glass bowl",
+      "location": "0.0,0.0,0.3,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table surface",
+      "location": "0.0,0.8,1.0,1.0,0.6"
+    }
+  ]
+}

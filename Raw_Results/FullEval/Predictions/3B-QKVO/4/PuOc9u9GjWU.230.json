@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "shrimp1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in",
+      "source": "ketchup1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "shrimp1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "tablecloth1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "shrimp1",
+      "label": "fried shrimp rings",
+      "location": "0.35,0.25,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "dipping bowl",
+      "location": "0.15,0.25,0.45,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red liquid",
+        "size": "small"
+      },
+      "id": "ketchup1",
+      "label": "ketchup",
+      "location": "0.20,0.30,0.40,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.00,0.20,1.00,0.80,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige cloth",
+        "size": "large"
+      },
+      "id": "tablecloth1",
+      "label": "tablecloth",
+      "location": "0.00,0.00,1.00,1.00,0.7"
+    }
+  ]
+}

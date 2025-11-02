@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "food1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "food1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bag1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "book1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green plastic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.05,0.1,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellowish brown",
+        "size": "medium"
+      },
+      "id": "food1",
+      "label": "mixed ingredients",
+      "location": "0.3,0.2,0.75,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.45,0.5,0.95,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "bag1",
+      "label": "plastic bag",
+      "location": "0.0,0.0,0.4,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black cover",
+        "size": "medium"
+      },
+      "id": "book1",
+      "label": "cookbook",
+      "location": "0.8,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

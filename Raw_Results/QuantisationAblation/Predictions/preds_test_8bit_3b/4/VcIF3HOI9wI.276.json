@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "window1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plant1",
+      "target": "window1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "shelf1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "curtain1",
+      "target": "window1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cabinet1",
+      "target": "window1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin short brown hair wearing dark green shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.5,0.0,1.0,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread with lettuce",
+        "size": "small"
+      },
+      "id": "sandwich1",
+      "label": "sandwich",
+      "location": "0.45,0.3,0.75,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.6,0.4,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.4,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "glass pane",
+        "size": "medium"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.2,0.0,0.6,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown fabric",
+        "size": "medium"
+      },
+      "id": "curtain1",
+      "label": "curtain",
+      "location": "0.3,0.0,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green foliage",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "potted plant",
+      "location": "0.25,0.2,0.35,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden shelf with jars",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.75,0.4,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.5,0.6,0.8,0.9"
+    }
+  ]
+}

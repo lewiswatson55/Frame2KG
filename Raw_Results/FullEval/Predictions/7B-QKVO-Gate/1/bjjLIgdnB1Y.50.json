@@ -1,0 +1,174 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "can1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "jug1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "measuring_cup1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "measuring_cup2",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "egg_shell1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "can1",
+      "target": "jug1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "fridge1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "window1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown hair, green top black apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.4,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinets",
+      "location": "0.4,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "granite speckled",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.45,0.6,0.6,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "griddle pan",
+      "location": "0.6,0.6,0.9,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow red label",
+        "size": "small"
+      },
+      "id": "can1",
+      "label": "cooking spray can",
+      "location": "0.15,0.7,0.25,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic blue cap",
+        "size": "small"
+      },
+      "id": "jug1",
+      "label": "syrup jug",
+      "location": "0.05,0.75,0.15,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "glass white liquid",
+        "size": "small"
+      },
+      "id": "measuring_cup1",
+      "label": "measuring cup",
+      "location": "0.25,0.75,0.35,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "glass yellow liquid",
+        "size": "small"
+      },
+      "id": "measuring_cup2",
+      "label": "measuring cup",
+      "location": "0.35,0.75,0.45,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white shell",
+        "size": "small"
+      },
+      "id": "egg_shell1",
+      "label": "egg shell",
+      "location": "0.45,0.8,0.55,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "medium"
+      },
+      "id": "window1",
+      "label": "window blinds",
+      "location": "0.8,0.0,1.0,0.4,0.8"
+    }
+  ]
+}

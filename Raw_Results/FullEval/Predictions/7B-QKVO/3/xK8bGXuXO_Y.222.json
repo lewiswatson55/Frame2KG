@@ -1,0 +1,131 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in",
+      "source": "oil1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "onion_rings1"
+    },
+    {
+      "predicate": "on",
+      "source": "onion_rings1",
+      "target": "paper_towel1"
+    },
+    {
+      "predicate": "on",
+      "source": "paper_towel1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "baking_pan1"
+    },
+    {
+      "predicate": "includes",
+      "source": "baking_pan1",
+      "target": "onion_rings1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.05,0.3,0.6,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black liquid",
+        "size": "medium"
+      },
+      "id": "oil1",
+      "label": "cooking oil",
+      "location": "0.1,0.4,0.5,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.5,0.2,0.8,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "medium"
+      },
+      "id": "paper_towel1",
+      "label": "paper towel",
+      "location": "0.5,0.2,0.8,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "onion_rings1",
+      "label": "onion rings",
+      "location": "0.55,0.25,0.8,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic with blue rim",
+        "size": "medium"
+      },
+      "id": "baking_pan1",
+      "label": "baking pan",
+      "location": "0.5,0.5,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "person's hands",
+      "location": "0.4,0.0,0.9,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "watch1",
+      "label": "wristwatch",
+      "location": "0.5,0.1,0.6,0.2,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic black",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "logo",
+      "location": "0.8,0.0,1.0,0.2,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.7,0.5,1.0,0.9"
+    }
+  ]
+}

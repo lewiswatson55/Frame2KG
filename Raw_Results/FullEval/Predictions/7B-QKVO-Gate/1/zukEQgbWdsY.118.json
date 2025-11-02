@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "fish1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in",
+      "source": "fish1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "board1",
+      "target": "bowl_salt1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_spice1",
+      "target": "bowl_salt1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "board1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "logo1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black chef coat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.35,0.0,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.1,0.4,0.9,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw fish",
+        "size": "small"
+      },
+      "id": "fish1",
+      "label": "raw fish fillet",
+      "location": "0.25,0.5,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.75,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.3,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with white salt",
+        "size": "small"
+      },
+      "id": "bowl_salt1",
+      "label": "salt bowl",
+      "location": "0.15,0.25,0.3,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with brown spices",
+        "size": "small"
+      },
+      "id": "bowl_spice1",
+      "label": "spice bowl",
+      "location": "0.3,0.25,0.45,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "TASTED logo",
+      "location": "0.8,0.8,1.0,1.0,0.9"
+    }
+  ]
+}

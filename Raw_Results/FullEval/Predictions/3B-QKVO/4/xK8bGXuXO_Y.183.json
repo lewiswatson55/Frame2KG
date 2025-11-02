@@ -1,0 +1,131 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "window1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "cabinet1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "towel_hanger1",
+      "target": "window1"
+    },
+    {
+      "predicate": "behind",
+      "source": "basket1",
+      "target": "utensils_holder1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink shirt blue apron",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.15,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.4,0.0,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.7,0.0,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass red",
+        "size": "small"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.45,0.65,0.75,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal silver",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.75,0.5,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl of onions",
+      "location": "0.2,0.75,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow fabric",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.0,0.0,0.4,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow tassels",
+        "size": "small"
+      },
+      "id": "towel_hanger1",
+      "label": "towel hanger",
+      "location": "0.0,0.0,0.4,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "small"
+      },
+      "id": "basket1",
+      "label": "woven basket",
+      "location": "0.75,0.45,0.9,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "utensils_holder1",
+      "label": "utensil holder",
+      "location": "0.75,0.45,0.9,0.6,0.8"
+    }
+  ]
+}

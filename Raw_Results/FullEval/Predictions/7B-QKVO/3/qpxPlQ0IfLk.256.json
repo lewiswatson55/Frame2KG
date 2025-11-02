@@ -1,0 +1,127 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "croutons1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "sauce1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "spoon1",
+      "target": "sauce1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "behind",
+      "source": "pot1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "pan1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.05,0.4,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce Leaves",
+      "location": "0.1,0.35,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white grilled",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "Grilled Chicken",
+      "location": "0.2,0.45,0.8,0.65,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "croutons1",
+      "label": "Croutons",
+      "location": "0.4,0.6,0.6,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "creamy green",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "Sauce Drizzle",
+      "location": "0.3,0.3,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.5,0.1,0.7,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Wooden Bowl",
+      "location": "0.85,0.3,1.0,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pot1",
+      "label": "Cookware Pot",
+      "location": "0.6,0.0,1.0,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metallic",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "Frying Pan",
+      "location": "0.0,0.0,0.5,0.2,0.7"
+    }
+  ]
+}

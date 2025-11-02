@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "background"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text2",
+      "target": "background"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spoon_icon",
+      "target": "text1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white sans-serif font",
+        "size": "large"
+      },
+      "id": "text1",
+      "label": "allrecipes logo text",
+      "location": "0.05,0.35,0.95,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white sans-serif font",
+        "size": "medium"
+      },
+      "id": "text2",
+      "label": "production text",
+      "location": "0.45,0.70,0.95,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow metal spoon shape",
+        "size": "small"
+      },
+      "id": "spoon_icon",
+      "label": "spoon icon",
+      "location": "0.60,0.25,0.70,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange gradient",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "background",
+      "location": "0.00,0.00,1.00,1.00,0.9"
+    }
+  ]
+}

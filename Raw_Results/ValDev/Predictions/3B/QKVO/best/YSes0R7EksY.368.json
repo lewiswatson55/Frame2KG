@@ -1,0 +1,182 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "lettuce"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper_mill",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "oil_bottle",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "yellow_kettle",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "wooden_board",
+      "target": "countertop"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "shelf"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "shelf"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black chef coat",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.35,0.1,0.65,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plaid shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.65,0.1,0.95,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce",
+      "label": "lettuce",
+      "location": "0.45,0.4,0.55,0.55,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl",
+      "location": "0.05,0.75,0.25,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "bowl",
+      "location": "0.25,0.75,0.45,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "yellow_kettle",
+      "label": "kettle",
+      "location": "0.2,0.6,0.3,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottle with red liquid",
+        "size": "small"
+      },
+      "id": "oil_bottle",
+      "label": "oil bottle",
+      "location": "0.0,0.6,0.1,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "pepper_mill",
+      "label": "pepper mill",
+      "location": "0.1,0.6,0.15,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "shelf",
+      "label": "shelf",
+      "location": "0.0,0.0,0.6,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "wooden_board",
+      "label": "board",
+      "location": "0.5,0.8,0.7,0.95,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "stove",
+      "location": "0.8,0.5,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic",
+        "size": "small"
+      },
+      "id": "utensil_holder",
+      "label": "utensil holder",
+      "location": "0.75,0.1,0.9,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "plant",
+      "label": "plant",
+      "location": "0.7,0.2,0.8,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white tile",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    }
+  ]
+}

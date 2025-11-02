@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "left_of",
+      "source": "logo1",
+      "target": "text2"
+    },
+    {
+      "predicate": "below",
+      "source": "text3",
+      "target": "text2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green leaf graphic on white text",
+        "size": "medium"
+      },
+      "id": "logo1",
+      "label": "Rodale logo",
+      "location": "0.45,0.28,0.65,0.47,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on green background",
+        "size": "medium"
+      },
+      "id": "text2",
+      "label": "BermanBraun text",
+      "location": "0.35,0.47,0.75,0.62,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "small"
+      },
+      "id": "text3",
+      "label": "copyright text",
+      "location": "0.45,0.82,0.75,0.92,0.9"
+    }
+  ]
+}

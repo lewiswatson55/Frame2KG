@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "logo1",
+      "target": "text1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "play_button",
+      "target": "text1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green text on white background",
+        "size": "large"
+      },
+      "id": "logo1",
+      "label": "Howdini logo",
+      "location": "0.15,0.3,0.85,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on green gradient",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Get yourself a guru text",
+      "location": "0.4,0.6,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey circle with white play symbol",
+        "size": "small"
+      },
+      "id": "play_button",
+      "label": "Play button",
+      "location": "0.3,0.4,0.4,0.5,0.8"
+    }
+  ]
+}

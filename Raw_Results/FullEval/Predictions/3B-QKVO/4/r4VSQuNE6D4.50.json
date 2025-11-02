@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "knob1",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "knob2",
+      "target": "stove"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pot1",
+      "target": "stove"
+    },
+    {
+      "predicate": "right_of",
+      "source": "spoon_holder",
+      "target": "stove"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "Stovetop",
+      "location": "0.0,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "knob1",
+      "label": "Knob",
+      "location": "0.03,0.48,0.27,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "knob2",
+      "label": "Knob",
+      "location": "0.35,0.48,0.60,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "medium"
+      },
+      "id": "pot1",
+      "label": "Pot",
+      "location": "0.75,0.0,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden handle with penguin sticker",
+        "size": "medium"
+      },
+      "id": "spoon_holder",
+      "label": "Spoon holder",
+      "location": "0.75,0.5,1.0,1.0,0.8"
+    }
+  ]
+}

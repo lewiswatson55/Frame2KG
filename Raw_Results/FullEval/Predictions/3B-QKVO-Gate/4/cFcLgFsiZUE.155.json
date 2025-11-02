@@ -1,0 +1,131 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person2",
+      "target": "chicken_wing"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_of_chicken",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "sauce_bowl",
+      "target": "countertop"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "refrigerator"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person2",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinets",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "stove",
+      "target": "knife_block"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blonde hair white shirt black apron",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.05,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black chef coat glasses beard",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.47,0.05,0.96,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic plate orange chicken wings green celery sticks",
+        "size": "small"
+      },
+      "id": "plate_of_chicken",
+      "label": "plate of chicken wings",
+      "location": "0.30,0.65,0.60,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass bowl red sauce",
+        "size": "small"
+      },
+      "id": "sauce_bowl",
+      "label": "bowl of sauce",
+      "location": "0.15,0.75,0.25,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver stainless steel",
+        "size": "large"
+      },
+      "id": "refrigerator",
+      "label": "refrigerator",
+      "location": "0.00,0.00,0.30,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinets",
+      "label": "kitchen cabinets",
+      "location": "0.30,0.00,1.00,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden countertop",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.00,0.60,1.00,1.00,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "medium"
+      },
+      "id": "knife_block",
+      "label": "knife block",
+      "location": "0.45,0.20,0.55,0.40,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove",
+      "label": "stove",
+      "location": "0.80,0.60,1.00,0.90,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "orange sauced chicken wing",
+        "size": "small"
+      },
+      "id": "chicken_wing",
+      "label": "chicken wing",
+      "location": "0.55,0.25,0.75,0.45,0.8"
+    }
+  ]
+}

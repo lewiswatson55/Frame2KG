@@ -1,0 +1,202 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "griddle"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl",
+      "target": "spray_can"
+    },
+    {
+      "predicate": "left_of",
+      "source": "fridge",
+      "target": "cabinets"
+    },
+    {
+      "predicate": "behind",
+      "source": "window",
+      "target": "sink"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "sink",
+      "target": "window"
+    },
+    {
+      "predicate": "right_of",
+      "source": "figurine",
+      "target": "sink"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop",
+      "target": "griddle"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop",
+      "target": "bowl"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop",
+      "target": "spray_can"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop",
+      "target": "bottle"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop",
+      "target": "towel"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop",
+      "target": "griddle"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop",
+      "target": "figurine"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown hair black apron",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.45,0.05,0.75,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "fridge",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinets",
+      "label": "kitchen cabinets",
+      "location": "0.3,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "granite countertop",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "griddle",
+      "label": "electric griddle",
+      "location": "0.6,0.6,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white batter",
+        "size": "small"
+      },
+      "id": "pancake1",
+      "label": "pancake",
+      "location": "0.7,0.65,0.85,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spatula",
+      "label": "spatula",
+      "location": "0.65,0.6,0.75,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic red cap",
+        "size": "small"
+      },
+      "id": "spray_can",
+      "label": "cooking spray can",
+      "location": "0.1,0.7,0.2,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass white mixture",
+        "size": "medium"
+      },
+      "id": "bowl",
+      "label": "mixing bowl",
+      "location": "0.2,0.75,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottle blue label",
+        "size": "small"
+      },
+      "id": "bottle",
+      "label": "syrup bottle",
+      "location": "0.0,0.75,0.1,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white cloth",
+        "size": "small"
+      },
+      "id": "towel",
+      "label": "towel",
+      "location": "0.4,0.75,0.5,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "figurine",
+      "label": "decorative figurine",
+      "location": "0.8,0.1,0.9,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal faucet stainless steel sink",
+        "size": "medium"
+      },
+      "id": "sink",
+      "label": "sink",
+      "location": "0.8,0.3,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white blinds",
+        "size": "medium"
+      },
+      "id": "window",
+      "label": "window",
+      "location": "0.8,0.0,1.0,0.3,0.8"
+    }
+  ]
+}

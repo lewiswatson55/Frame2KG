@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_lemons",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pot",
+      "target": "countertop"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "utensils",
+      "target": "shelf"
+    },
+    {
+      "predicate": "next_to",
+      "source": "towel_roll",
+      "target": "pot"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl_lemons",
+      "target": "pot"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt bald head",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.0,0.68,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey surface",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.0,0.7,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue bowl yellow lemons",
+        "size": "small"
+      },
+      "id": "bowl_lemons",
+      "label": "bowl of lemons",
+      "location": "0.64,0.65,0.75,0.8,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "brown ceramic",
+        "size": "medium"
+      },
+      "id": "pot",
+      "label": "cooking pot",
+      "location": "0.75,0.6,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "shelf",
+      "label": "metal shelf",
+      "location": "0.2,0.0,0.6,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden spatula",
+        "size": "small"
+      },
+      "id": "utensils",
+      "label": "hanging utensils",
+      "location": "0.25,0.2,0.35,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "small"
+      },
+      "id": "towel_roll",
+      "label": "paper towel roll",
+      "location": "0.9,0.6,1.0,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black text",
+        "size": "small"
+      },
+      "id": "bbc_logo",
+      "label": "BBC logo",
+      "location": "0.0,0.0,0.15,0.15,0.9"
+    }
+  ]
+}

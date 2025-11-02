@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "hood1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "supports",
+      "source": "shelf1",
+      "target": "bowls1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow chef coat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.35,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.45,0.4,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver stainless steel",
+        "size": "large"
+      },
+      "id": "hood1",
+      "label": "kitchen hood",
+      "location": "0.0,0.0,1.0,0.3,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowls1",
+      "label": "bowl set",
+      "location": "0.45,0.15,0.75,0.35,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "grey metal",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "metal shelf",
+      "location": "0.2,0.1,0.8,0.3,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "white laminate",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.75,1.0,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "green text overlay",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "title text",
+      "location": "0.6,0.8,1.0,0.95,0.9"
+    }
+  ]
+}

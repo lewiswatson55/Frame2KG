@@ -1,0 +1,145 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "cabinet_handle"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cup1",
+      "target": "cup2"
+    },
+    {
+      "predicate": "on",
+      "source": "can1",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "knife_block",
+      "target": "counter"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "blinds",
+      "target": "wall"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet",
+      "target": "fridge"
+    },
+    {
+      "predicate": "left_of",
+      "source": "stove",
+      "target": "fridge"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black hoodie",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.5,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "cabinet",
+      "label": "kitchen cabinet",
+      "location": "0.3,0.0,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "fridge",
+      "label": "refrigerator",
+      "location": "0.6,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "cup1",
+      "label": "metal cup",
+      "location": "0.0,0.7,0.2,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "cup2",
+      "label": "glass cup",
+      "location": "0.7,0.7,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow can",
+        "size": "small"
+      },
+      "id": "can1",
+      "label": "soda can",
+      "location": "0.9,0.7,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden handle",
+        "size": "medium"
+      },
+      "id": "knife_block",
+      "label": "knife block",
+      "location": "0.3,0.5,0.5,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white blinds",
+        "size": "large"
+      },
+      "id": "blinds",
+      "label": "window blinds",
+      "location": "0.0,0.0,0.3,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove",
+      "label": "stovetop",
+      "location": "0.0,0.4,0.3,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "counter",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "silver knob",
+        "size": "small"
+      },
+      "id": "cabinet_handle",
+      "label": "cabinet handle",
+      "location": "0.45,0.0,0.55,0.2,0.6"
+    }
+  ]
+}

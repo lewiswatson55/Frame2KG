@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "cup1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "cup1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spatula1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "tomato1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "cup1",
+      "label": "measuring cup",
+      "location": "0.05,0.3,0.6,0.78,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.4,0.7,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow liquid",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.45,0.0,0.95,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "stacked plates",
+      "location": "0.75,0.4,1.0,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "metal spatula",
+      "location": "0.0,0.0,0.4,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red tomato",
+        "size": "small"
+      },
+      "id": "tomato1",
+      "label": "tomato",
+      "location": "0.0,0.3,0.2,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

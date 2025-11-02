@@ -1,0 +1,192 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "container1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "container2",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bag1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "onion1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl3",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl4",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "egg1",
+      "target": "bowl3"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "countertop"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.05,0.48,0.36,0.79,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "small bowl",
+      "location": "0.15,0.75,0.35,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue plastic",
+        "size": "small"
+      },
+      "id": "bowl3",
+      "label": "small bowl",
+      "location": "0.35,0.75,0.55,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "small"
+      },
+      "id": "bowl4",
+      "label": "small bowl",
+      "location": "0.55,0.75,0.75,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white shell",
+        "size": "small"
+      },
+      "id": "egg1",
+      "label": "egg",
+      "location": "0.45,0.78,0.55,0.92,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "large"
+      },
+      "id": "container1",
+      "label": "flour container",
+      "location": "0.25,0.25,0.45,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white cardboard",
+        "size": "medium"
+      },
+      "id": "container2",
+      "label": "rice container",
+      "location": "0.45,0.25,0.65,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent white text on blue background",
+        "size": "medium"
+      },
+      "id": "bag1",
+      "label": "bread crumb bag",
+      "location": "0.6,0.0,0.8,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with purple onion slices",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "plate of onions",
+      "location": "0.3,0.5,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple",
+        "size": "medium"
+      },
+      "id": "onion1",
+      "label": "onion",
+      "location": "0.35,0.45,0.65,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.75,0.2,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.7,0.3,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark surface",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "watermark text",
+      "location": "0.4,0.9,0.9,1.0,0.7"
+    }
+  ]
+}

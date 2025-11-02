@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fireplace1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "logo1",
+      "target": "fireplace1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.75,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "fireplace1",
+      "label": "fireplace",
+      "location": "0.0,0.3,0.6,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "gray text on black background",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "logo",
+      "location": "0.0,0.0,0.2,0.2,0.7"
+    }
+  ]
+}

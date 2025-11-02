@@ -1,0 +1,127 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "sink",
+      "target": "countertop"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "faucet",
+      "target": "sink"
+    },
+    {
+      "predicate": "above",
+      "source": "cabinets",
+      "target": "countertop"
+    },
+    {
+      "predicate": "left_of",
+      "source": "microwave",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "cutting_board",
+      "target": "person1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jars",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "behind",
+      "source": "window_blinds",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "purple long-sleeve shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "brown granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.0,0.45,1.0,0.75,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "sink",
+      "label": "sink",
+      "location": "0.2,0.5,0.4,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "faucet",
+      "label": "faucet",
+      "location": "0.35,0.45,0.45,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinets",
+      "label": "kitchen cabinets",
+      "location": "0.0,0.0,1.0,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "microwave",
+      "label": "microwave oven",
+      "location": "0.0,0.0,0.2,0.25,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "medium"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.55,0.4,0.75,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic with silver lids",
+        "size": "small"
+      },
+      "id": "jars",
+      "label": "spice jars",
+      "location": "0.75,0.5,0.95,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark blue fabric",
+        "size": "medium"
+      },
+      "id": "window_blinds",
+      "label": "window blinds",
+      "location": "0.25,0.0,0.5,0.3,0.9"
+    }
+  ]
+}

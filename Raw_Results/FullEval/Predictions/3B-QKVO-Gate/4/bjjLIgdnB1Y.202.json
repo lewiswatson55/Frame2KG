@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "griddle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "griddle1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cloth1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "cord1",
+      "target": "griddle1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "griddle1",
+      "label": "electric griddle",
+      "location": "0.05,0.15,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass white liquid",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.0,0.0,0.45,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "granite countertop",
+      "location": "0.0,0.3,1.0,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "wooden cabinet",
+      "location": "0.7,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white cloth",
+        "size": "small"
+      },
+      "id": "cloth1",
+      "label": "kitchen towel",
+      "location": "0.0,0.2,0.4,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "cord1",
+      "label": "power cord",
+      "location": "0.75,0.6,0.95,0.95,0.6"
+    }
+  ]
+}

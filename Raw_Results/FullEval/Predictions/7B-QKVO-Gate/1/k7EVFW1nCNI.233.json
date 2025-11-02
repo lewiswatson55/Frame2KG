@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "spoon1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cheese1",
+      "target": "container1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "container1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "plate1",
+      "target": "bowl2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.0,0.0,0.45,0.38,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.37,0.0,0.63,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white enamel",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.0,0.35,0.45,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal spoon",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.05,0.45,0.25,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "Cheese Block",
+      "location": "0.65,0.05,0.75,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink plastic lid",
+        "size": "medium"
+      },
+      "id": "container1",
+      "label": "Container",
+      "location": "0.75,0.1,0.95,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "Small Glass Bowl",
+      "location": "0.6,0.4,0.8,0.6,0.8"
+    }
+  ]
+}

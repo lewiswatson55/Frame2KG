@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "pan"
+    },
+    {
+      "predicate": "on",
+      "source": "patty2",
+      "target": "pan"
+    },
+    {
+      "predicate": "next_to",
+      "source": "patty1",
+      "target": "patty2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red raw ground meat",
+        "size": "medium"
+      },
+      "id": "patty1",
+      "label": "raw burger patty",
+      "location": "0.35,0.48,0.96,0.97,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red raw ground meat",
+        "size": "medium"
+      },
+      "id": "patty2",
+      "label": "raw burger patty",
+      "location": "0.0,0.0,0.6,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan",
+      "label": "frying pan",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "dish1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bag1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pot1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "logo1",
+      "target": "dish1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl of breadcrumbs",
+      "location": "0.05,0.35,0.48,0.67,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "metal tray with flour",
+      "location": "0.25,0.6,0.75,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange sauce",
+        "size": "medium"
+      },
+      "id": "dish1",
+      "label": "glass baking dish with chicken",
+      "location": "0.5,0.3,0.95,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "small"
+      },
+      "id": "blender1",
+      "label": "plastic blender jar",
+      "location": "0.75,0.0,0.95,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "small"
+      },
+      "id": "bag1",
+      "label": "plastic bag",
+      "location": "0.9,0.2,1.0,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.0,0.6,0.2,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white marble",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.0,0.3,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black text",
+        "size": "medium"
+      },
+      "id": "logo1",
+      "label": "Chef Ricardo logo",
+      "location": "0.4,0.75,0.9,0.95,0.9"
+    }
+  ]
+}

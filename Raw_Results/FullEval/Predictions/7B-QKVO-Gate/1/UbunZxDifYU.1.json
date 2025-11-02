@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "attached_to",
+      "source": "stem1",
+      "target": "chili1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "blur1",
+      "target": "chili1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red glossy",
+        "size": "small"
+      },
+      "id": "chili1",
+      "label": "Red Chili Pepper",
+      "location": "0.05,0.48,0.37,0.69,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black",
+        "size": "small"
+      },
+      "id": "stem1",
+      "label": "Green Stem",
+      "location": "0.05,0.45,0.37,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink blur",
+        "size": "medium"
+      },
+      "id": "blur1",
+      "label": "Motion Blur",
+      "location": "0.35,0.45,0.95,0.65,0.7"
+    }
+  ]
+}

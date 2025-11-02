@@ -1,0 +1,219 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "butter1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "mustard1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "stove1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "lamp1",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "multicolored plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.45,0.05,0.75,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.35,0.45,0.45,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.55,0.55,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.45,0.65,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.55,0.75,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink grilled",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "grilled chicken",
+      "location": "0.60,0.75,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow creamy",
+        "size": "small"
+      },
+      "id": "butter1",
+      "label": "butter container",
+      "location": "0.45,0.65,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow creamy",
+        "size": "small"
+      },
+      "id": "mustard1",
+      "label": "mustard bottle",
+      "location": "0.55,0.65,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.75,0.75,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey brick",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "jar",
+      "location": "0.05,0.1,0.15,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottles",
+        "size": "small"
+      },
+      "id": "bottles1",
+      "label": "bottles",
+      "location": "0.15,0.1,0.3,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "utensils1",
+      "label": "utensil holder",
+      "location": "0.35,0.2,0.45,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "hanging pan",
+      "location": "0.5,0.0,0.7,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white lampshade",
+        "size": "medium"
+      },
+      "id": "lamp1",
+      "label": "floor lamp",
+      "location": "0.85,0.1,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey stone",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "brick wall",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    }
+  ]
+}

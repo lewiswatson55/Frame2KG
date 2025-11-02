@@ -1,0 +1,179 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "food_processor",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_lime",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "spice_rack",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "art_frame_left",
+      "target": "wall"
+    },
+    {
+      "predicate": "on",
+      "source": "art_frame_right",
+      "target": "wall"
+    },
+    {
+      "predicate": "on",
+      "source": "wok",
+      "target": "hotplate"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce_plate",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "knife",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "art_frame_left",
+      "target": "art_frame_right"
+    },
+    {
+      "predicate": "left_of",
+      "source": "spice_rack",
+      "target": "art_frame_left"
+    },
+    {
+      "predicate": "right_of",
+      "source": "art_frame_right",
+      "target": "art_frame_left"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.0,0.4,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "medium"
+      },
+      "id": "food_processor",
+      "label": "food processor",
+      "location": "0.3,0.5,0.45,0.75,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "small"
+      },
+      "id": "bowl_lime",
+      "label": "basket of limes",
+      "location": "0.0,0.5,0.15,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jars with spices",
+        "size": "small"
+      },
+      "id": "spice_rack",
+      "label": "spice rack",
+      "location": "0.2,0.45,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "medium"
+      },
+      "id": "art_frame_left",
+      "label": "framed art piece",
+      "location": "0.0,0.2,0.2,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "medium"
+      },
+      "id": "art_frame_right",
+      "label": "framed art piece",
+      "location": "0.8,0.2,1.0,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "hotplate",
+      "label": "hot plate",
+      "location": "0.6,0.6,0.8,0.8,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "wok",
+      "label": "wok",
+      "location": "0.6,0.55,0.9,0.75,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce_plate",
+      "label": "plate of lettuce",
+      "location": "0.75,0.7,0.9,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.5,0.75,0.6,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.85,0.75,1.0,0.9,0.8"
+    }
+  ]
+}

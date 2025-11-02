@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "pasta1"
+    },
+    {
+      "predicate": "in",
+      "source": "pasta1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula1",
+      "target": "pasta1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "appliance1",
+      "target": "dish1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow pasta with shredded cheese",
+        "size": "large"
+      },
+      "id": "pasta1",
+      "label": "macaroni and cheese",
+      "location": "0.05,0.3,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "dish1",
+      "label": "baking dish",
+      "location": "0.0,0.4,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "shredded cheese",
+      "location": "0.2,0.3,0.8,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.6,0.1,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.75,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "appliance1",
+      "label": "kitchen appliance",
+      "location": "0.0,0.0,0.4,0.4,0.7"
+    }
+  ]
+}

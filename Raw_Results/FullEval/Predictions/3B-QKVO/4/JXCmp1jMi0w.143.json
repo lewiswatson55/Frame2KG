@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hands1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "on",
+      "source": "bag1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hands1",
+      "label": "Hands",
+      "location": "0.35,0.0,0.65,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown paper with red text",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "Paper bag",
+      "location": "0.2,0.3,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting board",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "small"
+      },
+      "id": "tray1",
+      "label": "Baking tray",
+      "location": "0.0,0.0,0.4,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "Countertop",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

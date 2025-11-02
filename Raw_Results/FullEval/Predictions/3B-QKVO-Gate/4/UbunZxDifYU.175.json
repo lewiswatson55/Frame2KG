@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "hand1",
+      "target": "flour1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "flour1",
+      "target": "cloth1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "cloth1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown skin",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.15,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "large"
+      },
+      "id": "flour1",
+      "label": "Flour",
+      "location": "0.3,0.4,0.8,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow floral patterned fabric",
+        "size": "large"
+      },
+      "id": "cloth1",
+      "label": "Cloth",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.0,0.0,0.3,0.3,0.7"
+    }
+  ]
+}

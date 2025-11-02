@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "towel1"
+    },
+    {
+      "predicate": "on",
+      "source": "foil1",
+      "target": "rack1"
+    },
+    {
+      "predicate": "on",
+      "source": "rack1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "spaghetti1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal grid",
+        "size": "large"
+      },
+      "id": "rack1",
+      "label": "Wire Rack",
+      "location": "0.1,0.1,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver foil",
+        "size": "medium"
+      },
+      "id": "foil1",
+      "label": "Aluminum Foil",
+      "location": "0.15,0.15,0.85,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "beige ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.4,0.6,0.6,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with pasta",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.6,0.6,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white spaghetti",
+        "size": "small"
+      },
+      "id": "spaghetti1",
+      "label": "Spaghetti",
+      "location": "0.65,0.65,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey fabric",
+        "size": "medium"
+      },
+      "id": "towel1",
+      "label": "Towel",
+      "location": "0.0,0.5,0.4,1.0,0.7"
+    }
+  ]
+}

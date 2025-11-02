@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "painting1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "sculpture1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "painting1",
+      "target": "painting2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown hair red shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.15,0.0,0.85,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame",
+        "size": "medium"
+      },
+      "id": "painting1",
+      "label": "painting",
+      "location": "0.1,0.05,0.4,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame",
+        "size": "medium"
+      },
+      "id": "painting2",
+      "label": "painting",
+      "location": "0.6,0.05,0.9,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "orange ceramic",
+        "size": "small"
+      },
+      "id": "sculpture1",
+      "label": "sculpture",
+      "location": "0.85,0.2,1.0,0.6,0.8"
+    }
+  ]
+}

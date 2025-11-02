@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "background1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "background1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text2",
+      "target": "background1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "text3",
+      "target": "logo1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink gradient",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "Background Gradient",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink with white star",
+        "size": "medium"
+      },
+      "id": "logo1",
+      "label": "POPSUGAR Logo",
+      "location": "0.25,0.4,0.75,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white sans-serif",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "Featured Music Text",
+      "location": "0.6,0.75,0.95,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white sans-serif",
+        "size": "small"
+      },
+      "id": "text2",
+      "label": "By Silver Bullets Text",
+      "location": "0.6,0.85,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white sans-serif",
+        "size": "small"
+      },
+      "id": "text3",
+      "label": "POPSUGAR Text",
+      "location": "0.75,0.95,0.95,1.0,0.8"
+    }
+  ]
+}

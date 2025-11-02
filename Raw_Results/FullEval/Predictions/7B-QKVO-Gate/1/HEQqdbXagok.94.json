@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "sauce1"
+    },
+    {
+      "predicate": "in",
+      "source": "sauce1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.05,0.0,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy",
+        "size": "medium"
+      },
+      "id": "sauce1",
+      "label": "cream sauce",
+      "location": "0.05,0.05,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "raw chicken pieces",
+      "location": "0.3,0.1,0.7,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "wooden countertop",
+      "location": "0.0,0.8,1.0,1.0,0.7"
+    }
+  ]
+}

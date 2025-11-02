@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bowl_small"
+    },
+    {
+      "predicate": "in",
+      "source": "meat_small",
+      "target": "bowl_small"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_large",
+      "target": "bowl_small"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_large",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_small",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula",
+      "target": "table"
+    },
+    {
+      "predicate": "behind",
+      "source": "person",
+      "target": "bowl_large"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl_large",
+      "label": "glass bowl",
+      "location": "0.15,0.3,0.85,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl_small",
+      "label": "glass bowl",
+      "location": "0.45,0.6,0.85,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "small"
+      },
+      "id": "meat_small",
+      "label": "ground brisket",
+      "location": "0.5,0.6,0.8,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.6,0.2,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic handle metal blade",
+        "size": "small"
+      },
+      "id": "spatula",
+      "label": "spatula",
+      "location": "0.85,0.7,1.0,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "cutting board",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person",
+      "label": "person",
+      "location": "0.0,0.0,1.0,0.5,0.8"
+    }
+  ]
+}

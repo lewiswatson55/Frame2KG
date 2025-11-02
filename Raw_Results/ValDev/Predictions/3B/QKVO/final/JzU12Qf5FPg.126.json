@@ -1,0 +1,150 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "utensil_holder1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "dish1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle2",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "vent1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fridge1",
+      "target": "cabinet1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blonde hair black turtleneck",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.25,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "red wood",
+        "size": "medium"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.25,0.0,1.0,0.4,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.25,0.4,1.0,0.7,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass red lid",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "spice jar",
+      "location": "0.20,0.5,0.25,0.6,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "metal silver",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "spice bottle",
+      "location": "0.25,0.5,0.30,0.6,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "utensil_holder1",
+      "label": "utensil holder",
+      "location": "0.30,0.5,0.35,0.6,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "grey ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl of apples",
+      "location": "0.35,0.5,0.45,0.6,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "bottle2",
+      "label": "oil bottle",
+      "location": "0.75,0.45,0.85,0.65,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "dish1",
+      "label": "dish rack",
+      "location": "0.85,0.65,1.0,0.9,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "small"
+      },
+      "id": "vent1",
+      "label": "range hood vent",
+      "location": "0.45,0.0,0.60,0.15,0.80"
+    }
+  ]
+}

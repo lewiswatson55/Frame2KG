@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "in",
+      "source": "liquid1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "device1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plant1",
+      "target": "device1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.0,0.0,0.45,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass green liquid",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "Blender Jar",
+      "location": "0.0,0.6,0.35,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green frothy",
+        "size": "small"
+      },
+      "id": "liquid1",
+      "label": "Green Liquid",
+      "location": "0.05,0.7,0.3,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "device1",
+      "label": "Kitchen Appliance",
+      "location": "0.3,0.4,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.3,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "Potted Plant",
+      "location": "0.75,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "Cabinet",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

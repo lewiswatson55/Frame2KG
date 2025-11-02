@@ -1,0 +1,117 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "on",
+      "source": "spoon1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cutting_board1",
+      "target": "dishwasher1"
+    },
+    {
+      "predicate": "above",
+      "source": "microwave1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "pans1",
+      "target": "cabinet1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "purple long-sleeve shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "spoon1",
+      "label": "metal spoon",
+      "location": "0.4,0.6,0.5,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.4,0.5,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "kitchen countertop",
+      "location": "0.0,0.5,1.0,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "small"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.8,0.5,0.95,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black stainless steel",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave oven",
+      "location": "0.0,0.0,0.4,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.5,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "pans1",
+      "label": "hanging pans",
+      "location": "0.5,0.0,0.9,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "dishwasher1",
+      "label": "dishwasher",
+      "location": "0.7,0.7,1.0,1.0,0.7"
+    }
+  ]
+}

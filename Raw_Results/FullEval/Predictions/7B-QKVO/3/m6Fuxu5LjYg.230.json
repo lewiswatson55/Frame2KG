@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "rack1",
+      "target": "sheet1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "rack1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal grid",
+        "size": "large"
+      },
+      "id": "rack1",
+      "label": "cooling rack",
+      "location": "0.05,0.0,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "sheet1",
+      "label": "baking sheet",
+      "location": "0.0,0.75,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white background black text",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "overlay text",
+      "location": "0.0,0.3,1.0,0.4,0.95"
+    }
+  ]
+}

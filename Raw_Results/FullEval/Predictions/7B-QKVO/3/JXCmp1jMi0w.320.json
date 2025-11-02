@@ -1,0 +1,95 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "logo1",
+      "target": "image1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "image1",
+      "target": "image2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "image2",
+      "target": "image3"
+    },
+    {
+      "predicate": "next_to",
+      "source": "image3",
+      "target": "image4"
+    },
+    {
+      "predicate": "above",
+      "source": "navbar1",
+      "target": "section1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "section1",
+      "target": "section2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink circular",
+        "size": "medium"
+      },
+      "id": "logo1",
+      "label": "Logo",
+      "location": "0.05,0.0,0.35,0.28,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.0,0.35,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "colorful food photos",
+        "size": "medium"
+      },
+      "id": "image1",
+      "label": "Food Image Grid",
+      "location": "0.0,0.3,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "pink banner",
+        "size": "small"
+      },
+      "id": "navbar1",
+      "label": "Navigation Bar",
+      "location": "0.0,0.26,1.0,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "text links",
+        "size": "small"
+      },
+      "id": "section1",
+      "label": "Menu Links",
+      "location": "0.0,0.3,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange promotional text",
+        "size": "medium"
+      },
+      "id": "section2",
+      "label": "Promotional Text",
+      "location": "0.6,0.4,1.0,0.8,0.8"
+    }
+  ]
+}

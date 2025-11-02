@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "towel1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "shaker1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl1",
+      "target": "shaker1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "pan1",
+      "target": "towel1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "Stovetop",
+      "location": "0.45,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey non-stick",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "Frying Pan",
+      "location": "0.6,0.3,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white fabric with colorful floral pattern",
+        "size": "medium"
+      },
+      "id": "towel1",
+      "label": "Kitchen Towel",
+      "location": "0.0,0.4,0.5,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with pink meat",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.0,0.0,0.4,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic with white powder",
+        "size": "small"
+      },
+      "id": "shaker1",
+      "label": "Salt Shaker",
+      "location": "0.3,0.0,0.4,0.3,0.7"
+    }
+  ]
+}

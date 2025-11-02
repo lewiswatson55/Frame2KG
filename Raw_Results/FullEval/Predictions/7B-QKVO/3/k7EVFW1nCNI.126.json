@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "bowl1",
+      "target": "processor1"
+    },
+    {
+      "predicate": "on",
+      "source": "processor1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "garlic1",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "behind",
+      "source": "towel1",
+      "target": "processor1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "processor1",
+      "target": "cabinet1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white patterned shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.0,0.0,0.5,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Mixing Bowl",
+      "location": "0.4,0.0,0.8,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "large"
+      },
+      "id": "processor1",
+      "label": "Food Processor",
+      "location": "0.3,0.2,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow block",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "Cheese Block",
+      "location": "0.05,0.75,0.2,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red bulb",
+        "size": "small"
+      },
+      "id": "garlic1",
+      "label": "Garlic Clove",
+      "location": "0.2,0.75,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red fabric",
+        "size": "medium"
+      },
+      "id": "towel1",
+      "label": "Towel",
+      "location": "0.7,0.2,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige laminate",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "Cabinet",
+      "location": "0.0,0.0,0.5,0.6,0.7"
+    }
+  ]
+}

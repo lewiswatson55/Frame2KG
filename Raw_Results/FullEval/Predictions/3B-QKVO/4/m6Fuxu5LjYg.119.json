@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "flour_bowl",
+      "target": "box"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "logo",
+      "target": "box"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white cardboard with red and blue text",
+        "size": "large"
+      },
+      "id": "box",
+      "label": "flour box",
+      "location": "0.05,0.0,0.95,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow ceramic bowl with white flour",
+        "size": "medium"
+      },
+      "id": "flour_bowl",
+      "label": "bowl of flour",
+      "location": "0.35,0.45,0.65,0.75,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "red circular logo",
+        "size": "small"
+      },
+      "id": "logo",
+      "label": "Betty Crocker logo",
+      "location": "0.65,0.0,0.9,0.3,0.9"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "on",
+      "source": "bun_top1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "on",
+      "source": "patty2",
+      "target": "lettuce2"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato2",
+      "target": "patty2"
+    },
+    {
+      "predicate": "on",
+      "source": "bun_top2",
+      "target": "patty2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "burger1"
+    },
+    {
+      "predicate": "behind",
+      "source": "pepper1",
+      "target": "burger1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "pepper1",
+      "target": "burger1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown bun white meat",
+        "size": "medium"
+      },
+      "id": "burger1",
+      "label": "Burger",
+      "location": "0.53,0.08,0.97,0.86,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown patty red tomato green lettuce",
+        "size": "small"
+      },
+      "id": "burger2",
+      "label": "Hamburger patty",
+      "location": "0.00,0.45,0.45,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red",
+        "size": "small"
+      },
+      "id": "tomato1",
+      "label": "Tomato slice",
+      "location": "0.00,0.45,0.45,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce",
+      "location": "0.00,0.60,0.45,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown",
+        "size": "small"
+      },
+      "id": "bun_top1",
+      "label": "Top bun",
+      "location": "0.53,0.08,0.97,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown patty red tomato green lettuce",
+        "size": "small"
+      },
+      "id": "burger3",
+      "label": "Hamburger patty",
+      "location": "0.50,0.45,0.95,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red",
+        "size": "small"
+      },
+      "id": "tomato2",
+      "label": "Tomato slice",
+      "location": "0.50,0.45,0.95,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce2",
+      "label": "Lettuce",
+      "location": "0.50,0.60,0.95,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige bread",
+        "size": "small"
+      },
+      "id": "bun_top2",
+      "label": "Top bun",
+      "location": "0.50,0.08,0.95,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.00,0.00,0.50,0.40,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green",
+        "size": "small"
+      },
+      "id": "pepper1",
+      "label": "Pepper slices",
+      "location": "0.00,0.00,0.30,0.30,0.7"
+    }
+  ]
+}

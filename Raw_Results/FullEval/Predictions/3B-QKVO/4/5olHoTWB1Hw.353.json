@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "chips1",
+      "target": "fryer1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "fryer1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "large"
+      },
+      "id": "chips1",
+      "label": "crispy potato chips",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal interior",
+        "size": "medium"
+      },
+      "id": "fryer1",
+      "label": "deep fryer",
+      "location": "0.6,0.3,1.0,1.0,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.75,0.4,1.0,0.8,0.8"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "can1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "can1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green striped shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.0,0.0,0.85,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red white label",
+        "size": "medium"
+      },
+      "id": "can1",
+      "label": "soda can",
+      "location": "0.6,0.4,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "ceramic bowl",
+      "location": "0.75,0.1,0.95,0.35,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "wooden countertop",
+      "location": "0.0,0.6,1.0,1.0,0.6"
+    }
+  ]
+}

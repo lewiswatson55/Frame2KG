@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spice_container"
+    },
+    {
+      "predicate": "on",
+      "source": "lemon1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "avocado1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle_green1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle_white1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle_green1",
+      "target": "bottle_white1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "wearing colorful shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.45,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "Lemon",
+      "location": "0.0,0.7,0.2,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green",
+        "size": "medium"
+      },
+      "id": "avocado1",
+      "label": "Avocado",
+      "location": "0.1,0.6,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent green glass",
+        "size": "medium"
+      },
+      "id": "bottle_green1",
+      "label": "Bottle",
+      "location": "0.0,0.0,0.2,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent white glass",
+        "size": "medium"
+      },
+      "id": "bottle_white1",
+      "label": "Bottle",
+      "location": "0.2,0.0,0.4,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "Countertop",
+      "location": "0.0,0.5,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "grater1",
+      "label": "Grater",
+      "location": "0.3,0.6,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "spice_container",
+      "label": "Spice Container",
+      "location": "0.5,0.3,0.7,0.5,0.7"
+    }
+  ]
+}

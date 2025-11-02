@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "dish1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "behind",
+      "source": "tile_wall1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "wall_left1",
+      "target": "tile_wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown skin",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "person arm",
+      "location": "0.58,0.03,0.97,0.46,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.35,0.35,0.65,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.6,0.5,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "metal tray",
+      "location": "0.4,0.6,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "medium"
+      },
+      "id": "dish1",
+      "label": "baked chicken",
+      "location": "0.6,0.45,0.95,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic tiles",
+        "size": "large"
+      },
+      "id": "tile_wall1",
+      "label": "tiled wall",
+      "location": "0.0,0.0,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige painted",
+        "size": "large"
+      },
+      "id": "wall_left1",
+      "label": "wall panel",
+      "location": "0.0,0.0,0.2,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bacon1"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "avocado1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "bread1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "hands",
+      "location": "0.35,0.0,0.65,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pinkish-red",
+        "size": "small"
+      },
+      "id": "bacon1",
+      "label": "bacon strip",
+      "location": "0.48,0.37,0.65,0.65,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "brown toasted",
+        "size": "medium"
+      },
+      "id": "bread1",
+      "label": "toast slice",
+      "location": "0.45,0.45,0.75,0.75,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "green creamy",
+        "size": "small"
+      },
+      "id": "avocado1",
+      "label": "avocado spread",
+      "location": "0.48,0.55,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl of avocado",
+      "location": "0.1,0.45,0.25,0.6,0.8"
+    }
+  ]
+}

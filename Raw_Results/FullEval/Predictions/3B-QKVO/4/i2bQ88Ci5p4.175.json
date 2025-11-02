@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "food1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person2",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "glass1",
+      "target": "can1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "glass2",
+      "target": "can1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "cabinet1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black jacket",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.48,0.05,0.93,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "fried food",
+      "location": "0.35,0.35,0.45,0.45,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with orange liquid",
+        "size": "small"
+      },
+      "id": "glass1",
+      "label": "glass of juice",
+      "location": "0.0,0.65,0.15,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic can with yellow label",
+        "size": "small"
+      },
+      "id": "can1",
+      "label": "soda can",
+      "location": "0.85,0.65,0.98,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with white liquid",
+        "size": "small"
+      },
+      "id": "glass2",
+      "label": "milk glass",
+      "location": "0.65,0.65,0.8,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.48,0.0,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.5,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red bottle",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "bottle",
+      "location": "0.55,0.0,0.65,0.2,0.7"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "eggs1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "eggs1"
+    },
+    {
+      "predicate": "behind",
+      "source": "toast1",
+      "target": "eggs1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.05,0.45,0.95,0.98,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow soft",
+        "size": "medium"
+      },
+      "id": "eggs1",
+      "label": "Scrambled Eggs",
+      "location": "0.1,0.3,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.6,0.2,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown toasted",
+        "size": "small"
+      },
+      "id": "toast1",
+      "label": "Toast Slice",
+      "location": "0.0,0.0,0.6,0.3,0.7"
+    }
+  ]
+}

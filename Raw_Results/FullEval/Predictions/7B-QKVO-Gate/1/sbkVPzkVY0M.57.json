@@ -1,0 +1,95 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "cup1"
+    },
+    {
+      "predicate": "in",
+      "source": "cup1",
+      "target": "bowl3"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl2",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl3",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "person1",
+      "target": "bowl3"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.45,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "cup1",
+      "label": "Measuring cup",
+      "location": "0.6,0.1,0.85,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Glass bowl",
+      "location": "0.0,0.5,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "medium"
+      },
+      "id": "bowl2",
+      "label": "Glass bowl",
+      "location": "0.3,0.5,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "large"
+      },
+      "id": "bowl3",
+      "label": "Glass bowl",
+      "location": "0.2,0.4,0.8,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table",
+      "location": "0.0,0.8,1.0,1.0,0.7"
+    }
+  ]
+}

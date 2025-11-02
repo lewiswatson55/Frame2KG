@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "mixture1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "corn1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "corn1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.05,0.1,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy liquid",
+        "size": "medium"
+      },
+      "id": "mixture1",
+      "label": "creamy mixture",
+      "location": "0.1,0.2,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.6,0.0,1.0,0.3,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow kernels on green stalks",
+        "size": "small"
+      },
+      "id": "corn1",
+      "label": "corn cob pieces",
+      "location": "0.7,0.0,1.0,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal surface",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.0,0.0,0.4,0.3,0.7"
+    }
+  ]
+}

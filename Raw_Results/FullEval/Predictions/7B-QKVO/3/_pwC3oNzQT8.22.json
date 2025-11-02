@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "stove1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "shelf1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "wall1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black chef coat and checkered headscarf",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.53,0.04,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic tiles",
+        "size": "medium"
+      },
+      "id": "wall1",
+      "label": "tile wall",
+      "location": "0.0,0.0,0.5,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white countertop",
+        "size": "medium"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic bowl with rice",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "rice bowl",
+      "location": "0.35,0.6,0.55,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal pan",
+        "size": "small"
+      },
+      "id": "pan1",
+      "label": "cooking pan",
+      "location": "0.0,0.75,0.3,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black stove top",
+        "size": "small"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.75,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden shelf",
+        "size": "small"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.3,0.0,0.6,0.2,0.7"
+    }
+  ]
+}

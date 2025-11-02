@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "cutting",
+      "source": "knife1",
+      "target": "onion1"
+    },
+    {
+      "predicate": "on",
+      "source": "onion1",
+      "target": "board1"
+    },
+    {
+      "predicate": "behind",
+      "source": "basket1",
+      "target": "onion1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "camouflage shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.0,0.0,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal blade",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.35,0.0,0.65,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white",
+        "size": "small"
+      },
+      "id": "onion1",
+      "label": "onion",
+      "location": "0.45,0.45,0.75,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "woven brown wood",
+        "size": "medium"
+      },
+      "id": "basket1",
+      "label": "wicker basket",
+      "location": "0.0,0.2,0.4,0.6,0.7"
+    }
+  ]
+}

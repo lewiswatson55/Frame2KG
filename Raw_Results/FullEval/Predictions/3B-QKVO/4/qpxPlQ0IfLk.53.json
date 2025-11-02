@@ -1,0 +1,172 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lemon1",
+      "target": "butter1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "blender1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "board1",
+      "target": "person1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "board1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf1",
+      "target": "person1"
+    },
+    {
+      "predicate": "above",
+      "source": "hanging_pans1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "multicolored plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.0,0.4,0.2,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "olive_oil_bottle1",
+      "label": "olive oil bottle",
+      "location": "0.2,0.5,0.25,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "butter1",
+      "label": "butter container",
+      "location": "0.15,0.6,0.25,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow fruit",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "lemon",
+      "location": "0.3,0.65,0.35,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.4,0.6,0.6,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "griddle1",
+      "label": "griddle",
+      "location": "0.6,0.6,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "bread slices",
+      "location": "0.45,0.65,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown skin",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "hands",
+      "location": "0.45,0.4,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "pans1",
+      "label": "hanging pans",
+      "location": "0.5,0.0,0.7,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey brick",
+        "size": "large"
+      },
+      "id": "wall_shelf1",
+      "label": "brick wall shelf",
+      "location": "0.0,0.0,0.5,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black chalkboard",
+        "size": "medium"
+      },
+      "id": "chalkboard1",
+      "label": "chalkboard",
+      "location": "0.7,0.1,0.9,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "spice_rack1",
+      "label": "spice rack",
+      "location": "0.85,0.1,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.6,0.6,1.0,1.0,0.8"
+    }
+  ]
+}

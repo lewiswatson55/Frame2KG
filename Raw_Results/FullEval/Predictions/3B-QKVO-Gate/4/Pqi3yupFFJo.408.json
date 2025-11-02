@@ -1,0 +1,67 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "bowl1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "ceramic bowl",
+      "location": "0.15,0.35,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red lid white label",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "cream container",
+      "location": "0.45,0.15,0.75,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark glass red sauce",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "sauce bottle",
+      "location": "0.75,0.15,0.95,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black glossy surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

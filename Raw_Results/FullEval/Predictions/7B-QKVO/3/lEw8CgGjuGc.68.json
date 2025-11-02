@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "hand1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "meat_mixture1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "herbs1",
+      "target": "meat_mixture1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.0,0.45,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink minced meat with green herbs",
+        "size": "large"
+      },
+      "id": "meat_mixture1",
+      "label": "Meat Mixture",
+      "location": "0.0,0.2,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "green flecks",
+        "size": "small"
+      },
+      "id": "herbs1",
+      "label": "Herbs",
+      "location": "0.1,0.3,0.9,0.7,0.85"
+    }
+  ]
+}

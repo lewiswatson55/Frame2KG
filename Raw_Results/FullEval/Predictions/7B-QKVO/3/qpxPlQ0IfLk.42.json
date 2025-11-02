@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "cutting",
+      "source": "knife1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tongs1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "behind",
+      "source": "spoon1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Person's Hands",
+      "location": "0.5,0.0,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black handle metal blade",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "Knife",
+      "location": "0.48,0.3,0.75,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crust",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "Bread Roll",
+      "location": "0.3,0.4,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "tongs1",
+      "label": "Tongs",
+      "location": "0.0,0.0,0.5,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.0,0.0,0.2,0.2,0.8"
+    }
+  ]
+}

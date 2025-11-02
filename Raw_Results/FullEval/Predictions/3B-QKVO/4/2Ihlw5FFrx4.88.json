@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hands1",
+      "target": "tomato_sliced1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato_sliced1",
+      "target": "bread_slice1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese_mixture1",
+      "target": "bread_slice1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_slice1",
+      "target": "cutting_board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hands1",
+      "label": "Hands",
+      "location": "0.0,0.0,1.0,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red juicy",
+        "size": "small"
+      },
+      "id": "tomato_sliced1",
+      "label": "Tomato Slices",
+      "location": "0.3,0.3,0.7,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy",
+        "size": "small"
+      },
+      "id": "cheese_mixture1",
+      "label": "Cheese Mixture",
+      "location": "0.4,0.5,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crusty",
+        "size": "medium"
+      },
+      "id": "bread_slice1",
+      "label": "Bread Slice",
+      "location": "0.3,0.5,0.7,0.8,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cutting_board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    }
+  ]
+}

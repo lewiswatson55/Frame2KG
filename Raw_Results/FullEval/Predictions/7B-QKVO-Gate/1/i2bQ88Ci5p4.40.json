@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "ingredient_list",
+      "target": "bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "logo",
+      "target": "bowl"
+    },
+    {
+      "predicate": "next_to",
+      "source": "utensil_holder",
+      "target": "bowl"
+    },
+    {
+      "predicate": "behind",
+      "source": "cutting_board",
+      "target": "bowl"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "bowl",
+      "label": "mixing bowl",
+      "location": "0.35,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on orange background",
+        "size": "medium"
+      },
+      "id": "ingredient_list",
+      "label": "ingredients list",
+      "location": "0.0,0.0,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black and white graphic",
+        "size": "small"
+      },
+      "id": "logo",
+      "label": "website logo",
+      "location": "0.0,0.7,0.2,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "utensil_holder",
+      "label": "utensil holder",
+      "location": "0.6,0.0,0.8,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.8,0.0,1.0,0.5,0.7"
+    }
+  ]
+}

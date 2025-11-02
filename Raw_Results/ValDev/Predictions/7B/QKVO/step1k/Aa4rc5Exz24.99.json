@@ -1,0 +1,58 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "whisk1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "mixture1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "whisk1",
+      "label": "Whisk",
+      "attributes": {
+        "size": "medium",
+        "color": "white",
+        "appearance": "blurred"
+      },
+      "location": "0.05,0.0,0.6,0.4,0.8"
+    },
+    {
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "attributes": {
+        "size": "large",
+        "color": "transparent"
+      },
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "id": "mixture1",
+      "label": "Batter Mixture",
+      "attributes": {
+        "size": "large",
+        "color": "yellowish-white"
+      },
+      "location": "0.1,0.1,0.9,0.9,0.9"
+    },
+    {
+      "id": "board1",
+      "label": "Wooden Board",
+      "attributes": {
+        "size": "large",
+        "color": "brown"
+      },
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

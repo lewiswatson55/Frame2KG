@@ -1,0 +1,141 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "board",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "knife",
+      "target": "board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person2",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "signs",
+      "target": "people"
+    },
+    {
+      "predicate": "supports",
+      "source": "shelf",
+      "target": "bagels"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "lamp",
+      "target": "ceiling"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt red logo",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white sweater",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.48,0.05,0.76,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "bowl",
+      "label": "metal bowl",
+      "location": "0.30,0.60,0.70,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "board",
+      "label": "cutting board",
+      "location": "0.10,0.70,0.40,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver blade black handle",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.15,0.75,0.30,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "shelf",
+      "label": "shelf",
+      "location": "0.00,0.30,1.00,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black chalkboard",
+        "size": "large"
+      },
+      "id": "signs",
+      "label": "chalkboards",
+      "location": "0.00,0.00,1.00,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "lamp",
+      "label": "lamp",
+      "location": "0.50,0.00,0.60,0.20,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown plastic wrapped",
+        "size": "medium"
+      },
+      "id": "bagels",
+      "label": "bagel display",
+      "location": "0.70,0.20,1.00,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "counter",
+      "label": "countertop",
+      "location": "0.00,0.60,1.00,1.00,0.8"
+    }
+  ]
+}

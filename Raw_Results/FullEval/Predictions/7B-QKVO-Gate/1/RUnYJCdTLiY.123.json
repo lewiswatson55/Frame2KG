@@ -1,0 +1,127 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "whisk1"
+    },
+    {
+      "predicate": "in",
+      "source": "whisk1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "microwave1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cutting_board1",
+      "target": "pepper_jars1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "oven1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "purple shirt white apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal whisk black handle",
+        "size": "small"
+      },
+      "id": "whisk1",
+      "label": "whisk",
+      "location": "0.45,0.6,0.65,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.4,0.65,0.7,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.2,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver stainless steel",
+        "size": "medium"
+      },
+      "id": "oven1",
+      "label": "oven",
+      "location": "0.0,0.5,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "beige granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.3,1.0,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.75,0.2,0.9,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass with brown contents",
+        "size": "small"
+      },
+      "id": "pepper_jars1",
+      "label": "pepper shakers",
+      "location": "0.9,0.2,1.0,0.4,0.7"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "food_processor1"
+    },
+    {
+      "predicate": "on",
+      "source": "food_processor1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "towel1",
+      "target": "food_processor1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "food_processor1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white plastic base with transparent glass bowl",
+        "size": "medium"
+      },
+      "id": "food_processor1",
+      "label": "Food Processor",
+      "location": "0.35,0.4,0.68,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.7,0.0,0.95,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red striped fabric",
+        "size": "large"
+      },
+      "id": "towel1",
+      "label": "Towel",
+      "location": "0.6,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.8,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "beige painted wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "Cabinet",
+      "location": "0.0,0.0,0.3,1.0,0.7"
+    }
+  ]
+}

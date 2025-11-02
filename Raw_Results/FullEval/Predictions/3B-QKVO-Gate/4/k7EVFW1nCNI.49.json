@@ -1,0 +1,187 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "food_processor",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce_bowl",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "red_tulips_vase",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "red_shaker",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "stove",
+      "target": "countertop"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "microwave",
+      "target": "cabinets"
+    },
+    {
+      "predicate": "next_to",
+      "source": "faucet",
+      "target": "sink"
+    },
+    {
+      "predicate": "left_of",
+      "source": "dishwasher",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "pot",
+      "target": "stove"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white lace top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "microwave",
+      "label": "microwave oven",
+      "location": "0.7,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black stainless steel",
+        "size": "medium"
+      },
+      "id": "stove",
+      "label": "stove",
+      "location": "0.7,0.4,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "teal ceramic",
+        "size": "small"
+      },
+      "id": "pot",
+      "label": "cooking pot",
+      "location": "0.8,0.5,0.9,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "lettuce_bowl",
+      "label": "bowl of lettuce",
+      "location": "0.7,0.7,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.2,0.7,0.5,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "food_processor",
+      "label": "food processor",
+      "location": "0.5,0.6,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear vase with red tulips",
+        "size": "small"
+      },
+      "id": "red_tulips_vase",
+      "label": "vase of tulips",
+      "location": "0.0,0.2,0.2,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "red_shaker",
+      "label": "shaker",
+      "location": "0.2,0.4,0.3,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "sink",
+      "label": "kitchen sink",
+      "location": "0.3,0.2,0.5,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "faucet",
+      "label": "faucet",
+      "location": "0.35,0.2,0.45,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "dishwasher",
+      "label": "dishwasher",
+      "location": "0.0,0.6,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "cabinets",
+      "label": "kitchen cabinets",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.3,1.0,0.6,0.8"
+    }
+  ]
+}

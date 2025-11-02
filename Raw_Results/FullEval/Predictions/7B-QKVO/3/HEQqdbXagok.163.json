@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "tongs1",
+      "target": "flour1"
+    },
+    {
+      "predicate": "on",
+      "source": "meat1",
+      "target": "flour1"
+    },
+    {
+      "predicate": "in",
+      "source": "flour1",
+      "target": "tray1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "tongs1",
+      "label": "metal tongs",
+      "location": "0.05,0.3,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "large"
+      },
+      "id": "flour1",
+      "label": "flour",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "small"
+      },
+      "id": "meat1",
+      "label": "raw meat piece",
+      "location": "0.7,0.6,0.95,0.9,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "grey metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "baking tray",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "flour_bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "flour_bowl",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "baking_tray",
+      "target": "flour_bowl"
+    },
+    {
+      "predicate": "left_of",
+      "source": "glass_bowl",
+      "target": "flour_bowl"
+    },
+    {
+      "predicate": "right_of",
+      "source": "plate",
+      "target": "flour_bowl"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "flour_bowl",
+      "label": "mixing bowl",
+      "location": "0.15,0.30,0.85,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "raw chicken pieces",
+      "location": "0.45,0.25,0.65,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.45,0.00,0.75,0.35,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "glass_bowl",
+      "label": "glass bowl",
+      "location": "0.00,0.00,0.40,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic grey",
+        "size": "medium"
+      },
+      "id": "baking_tray",
+      "label": "baking tray",
+      "location": "0.75,0.00,1.00,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate",
+      "label": "plate",
+      "location": "0.30,0.75,0.70,1.00,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.00,0.00,1.00,1.00,0.6"
+    }
+  ]
+}

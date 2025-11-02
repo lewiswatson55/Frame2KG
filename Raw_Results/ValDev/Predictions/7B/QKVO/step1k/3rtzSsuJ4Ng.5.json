@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "tongs1"
+    },
+    {
+      "predicate": "on",
+      "source": "tongs1",
+      "target": "steak1"
+    },
+    {
+      "predicate": "on",
+      "source": "steak1",
+      "target": "grill1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "grill1",
+      "target": "brick_wall1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "apron1",
+      "target": "grill1"
+    },
+    {
+      "predicate": "behind",
+      "source": "curtain1",
+      "target": "apron1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "grill1",
+      "label": "Charcoal Grill",
+      "location": "0.35,0.4,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "raw red meat",
+        "size": "medium"
+      },
+      "id": "steak1",
+      "label": "Steak",
+      "location": "0.47,0.45,0.58,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal with black handle",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "Tongs",
+      "location": "0.4,0.35,0.5,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.3,0.1,0.4,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark fabric",
+        "size": "medium"
+      },
+      "id": "apron1",
+      "label": "Apron",
+      "location": "0.45,0.0,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red brick",
+        "size": "large"
+      },
+      "id": "brick_wall1",
+      "label": "Brick Wall",
+      "location": "0.0,0.0,1.0,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green fabric",
+        "size": "small"
+      },
+      "id": "curtain1",
+      "label": "Curtain",
+      "location": "0.7,0.0,0.9,0.3,0.6"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "whisk1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "whisk1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal wires",
+        "size": "small"
+      },
+      "id": "whisk1",
+      "label": "Whisk",
+      "location": "0.2,0.2,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.2,0.2,0.8,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.7,1.0,1.0,0.8"
+    }
+  ]
+}

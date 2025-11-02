@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "eggs1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "includes",
+      "source": "eggs1",
+      "target": "tomatoes1"
+    },
+    {
+      "predicate": "holding",
+      "source": "spatula1",
+      "target": "eggs1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.05,0.0,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic handle",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.0,0.0,0.4,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow soft",
+        "size": "large"
+      },
+      "id": "eggs1",
+      "label": "scrambled eggs",
+      "location": "0.05,0.2,0.95,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red round",
+        "size": "small"
+      },
+      "id": "tomatoes1",
+      "label": "cherry tomatoes",
+      "location": "0.2,0.3,0.8,0.6,0.8"
+    }
+  ]
+}

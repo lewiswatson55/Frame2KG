@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "cheese1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "on",
+      "source": "dish1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "holding",
+      "source": "pot1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "pot1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cabinet1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green metal",
+        "size": "medium"
+      },
+      "id": "pot1",
+      "label": "metal pot",
+      "location": "0.35,0.0,0.98,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "dish1",
+      "label": "glass baking dish",
+      "location": "0.1,0.3,0.9,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow shredded",
+        "size": "medium"
+      },
+      "id": "cheese1",
+      "label": "shredded cheese",
+      "location": "0.2,0.4,0.8,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic handle silver blade",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "spoon",
+      "location": "0.2,0.2,0.5,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white enamel black burners",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.0,0.5,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.7,0.5,1.0,1.0,0.8"
+    }
+  ]
+}

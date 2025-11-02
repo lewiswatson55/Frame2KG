@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tube1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spoon1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "plastic bowl",
+      "location": "0.05,0.05,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic handle yellow tip",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "spoon",
+      "location": "0.35,0.15,0.75,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.25,0.0,0.65,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red white label black cap",
+        "size": "small"
+      },
+      "id": "tube1",
+      "label": "syringe tube",
+      "location": "0.0,0.7,0.2,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    }
+  ]
+}

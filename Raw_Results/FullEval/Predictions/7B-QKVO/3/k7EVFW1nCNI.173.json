@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "food_processor1"
+    },
+    {
+      "predicate": "on",
+      "source": "food_processor1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "towel1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white patterned dress",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.0,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic bowl white base",
+        "size": "medium"
+      },
+      "id": "food_processor1",
+      "label": "food processor",
+      "location": "0.35,0.45,0.75,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black glass cooktop",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.5,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red striped cloth",
+        "size": "small"
+      },
+      "id": "towel1",
+      "label": "kitchen towel",
+      "location": "0.7,0.4,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.7,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige door",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "cabinet",
+      "location": "0.0,0.3,0.6,0.7,0.8"
+    }
+  ]
+}

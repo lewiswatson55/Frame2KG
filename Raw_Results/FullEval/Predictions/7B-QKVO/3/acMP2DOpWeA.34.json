@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "sifter1"
+    },
+    {
+      "predicate": "in",
+      "source": "flour1",
+      "target": "sifter1"
+    },
+    {
+      "predicate": "on",
+      "source": "sifter1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "sifter1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.65,0.45,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal mesh",
+        "size": "large"
+      },
+      "id": "sifter1",
+      "label": "Metal Strainer",
+      "location": "0.30,0.05,0.70,0.60,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "flour1",
+      "label": "Cake Flour",
+      "location": "0.35,0.10,0.65,0.50,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "Mixing Bowl",
+      "location": "0.10,0.20,0.90,0.80,0.9"
+    }
+  ]
+}

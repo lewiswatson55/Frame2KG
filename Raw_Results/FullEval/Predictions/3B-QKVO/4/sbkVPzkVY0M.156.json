@@ -1,0 +1,282 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "burner1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_apples",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle_mustard",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle_sauce",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle_pepper",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_bread",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "spoon_red",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_beef",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce",
+      "target": "plate_beef"
+    },
+    {
+      "predicate": "on",
+      "source": "tomatoes",
+      "target": "plate_beef"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_tomato",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "basket_apples",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "frame_artwork_left",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "frame_artwork_right",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle_pepper",
+      "target": "bottle_sauce"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bottle_mustard",
+      "target": "bottle_sauce"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bottle_pepper",
+      "target": "bottle_sauce"
+    },
+    {
+      "predicate": "behind",
+      "source": "plant_pot",
+      "target": "framed_artwork_left"
+    },
+    {
+      "predicate": "above",
+      "source": "framed_artwork_left",
+      "target": "countertop"
+    },
+    {
+      "predicate": "above",
+      "source": "framed_artwork_right",
+      "target": "countertop"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.45,0.6,0.75,0.75,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "burner1",
+      "label": "hot plate burner",
+      "location": "0.45,0.75,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden bowl with green apples",
+        "size": "small"
+      },
+      "id": "bowl_apples",
+      "label": "bowl of apples",
+      "location": "0.0,0.5,0.2,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate_bread",
+      "label": "plate of bread slices",
+      "location": "0.1,0.75,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "spoon_red",
+      "label": "red spoon",
+      "location": "0.3,0.75,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate_beef",
+      "label": "plate of raw beef",
+      "location": "0.5,0.75,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce",
+      "label": "lettuce leaves",
+      "location": "0.6,0.75,0.8,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red sliced",
+        "size": "small"
+      },
+      "id": "tomatoes",
+      "label": "tomato slices",
+      "location": "0.7,0.75,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass yellow",
+        "size": "small"
+      },
+      "id": "bottle_mustard",
+      "label": "mustard bottle",
+      "location": "0.2,0.5,0.25,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass brown",
+        "size": "small"
+      },
+      "id": "bottle_sauce",
+      "label": "sauce bottle",
+      "location": "0.25,0.5,0.3,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass red",
+        "size": "small"
+      },
+      "id": "bottle_pepper",
+      "label": "pepper bottle",
+      "location": "0.3,0.5,0.35,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "basket_apples",
+      "label": "wooden basket with apples",
+      "location": "0.0,0.5,0.2,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "medium"
+      },
+      "id": "framed_artwork_left",
+      "label": "picture frame",
+      "location": "0.0,0.3,0.2,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "medium"
+      },
+      "id": "framed_artwork_right",
+      "label": "picture frame",
+      "location": "0.7,0.1,0.9,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green plant",
+        "size": "small"
+      },
+      "id": "plant_pot",
+      "label": "potted plant",
+      "location": "0.1,0.3,0.2,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "small"
+      },
+      "id": "salt_shaker",
+      "label": "salt shaker",
+      "location": "0.8,0.5,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow glass",
+        "size": "small"
+      },
+      "id": "pepper_shaker",
+      "label": "pepper shaker",
+      "location": "0.9,0.5,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light grey stone",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.0,0.5,1.0,0.8,0.9"
+    }
+  ]
+}

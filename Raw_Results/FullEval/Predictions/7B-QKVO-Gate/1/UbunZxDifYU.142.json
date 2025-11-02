@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "bowl_red1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl_red1",
+      "target": "egg1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_glass1",
+      "target": "board1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl_glass1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "grill1",
+      "target": "bowl_glass1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "bowl_red1",
+      "label": "Red Mixing Bowl",
+      "location": "0.05,0.0,0.48,0.63,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow liquid",
+        "size": "small"
+      },
+      "id": "egg1",
+      "label": "Egg Mixture",
+      "location": "0.1,0.15,0.4,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.1,0.2,0.4,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.0,0.5,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl_glass1",
+      "label": "Glass Bowl",
+      "location": "0.3,0.2,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "Raw Chicken Pieces",
+      "location": "0.35,0.3,0.75,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.3,0.0,0.8,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "grill1",
+      "label": "Grill",
+      "location": "0.75,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

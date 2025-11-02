@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "tongs1",
+      "target": "onion_ring1"
+    },
+    {
+      "predicate": "in",
+      "source": "onion_ring1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in",
+      "source": "onion_ring2",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in",
+      "source": "onion_ring3",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.05,0.05,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "tongs1",
+      "label": "metal tongs",
+      "location": "0.0,0.0,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown battered",
+        "size": "small"
+      },
+      "id": "onion_ring1",
+      "label": "onion ring",
+      "location": "0.1,0.1,0.4,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown battered",
+        "size": "small"
+      },
+      "id": "onion_ring2",
+      "label": "onion ring",
+      "location": "0.4,0.1,0.7,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown battered",
+        "size": "small"
+      },
+      "id": "onion_ring3",
+      "label": "onion ring",
+      "location": "0.2,0.4,0.5,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop burner",
+      "location": "0.0,0.8,1.0,1.0,0.6"
+    }
+  ]
+}

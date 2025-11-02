@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken2",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chicken3",
+      "target": "chicken2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "chicken4",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "behind",
+      "source": "herb1",
+      "target": "chicken1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "fried chicken piece",
+      "location": "0.05,0.05,0.95,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "chicken2",
+      "label": "fried chicken piece",
+      "location": "0.7,0.2,0.95,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "chicken3",
+      "label": "fried chicken piece",
+      "location": "0.3,0.3,0.6,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "chicken4",
+      "label": "fried chicken piece",
+      "location": "0.0,0.0,0.4,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.0,0.6,0.2,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green blurred",
+        "size": "medium"
+      },
+      "id": "herb1",
+      "label": "herbs",
+      "location": "0.7,0.0,1.0,0.4,0.6"
+    }
+  ]
+}

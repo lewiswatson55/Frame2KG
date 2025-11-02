@@ -1,0 +1,95 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "burger1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "bun_top",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lettuce",
+      "target": "burger1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "plate1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "includes",
+      "source": "tray1",
+      "target": "patties_group"
+    },
+    {
+      "predicate": "supports",
+      "source": "plate1",
+      "target": "bun_top"
+    },
+    {
+      "predicate": "supports",
+      "source": "plate1",
+      "target": "lettuce"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown meat patty with red onion slice",
+        "size": "medium"
+      },
+      "id": "burger1",
+      "label": "burger patty",
+      "location": "0.05,0.45,0.38,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread bun",
+        "size": "small"
+      },
+      "id": "bun_top",
+      "label": "burger bun top",
+      "location": "0.65,0.15,0.95,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy lettuce",
+        "size": "small"
+      },
+      "id": "lettuce",
+      "label": "lettuce leaves",
+      "location": "0.05,0.65,0.35,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic plate",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.4,0.6,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal tray with raw patties",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "tray of patties",
+      "location": "0.0,0.0,1.0,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "raw brown patties",
+        "size": "medium"
+      },
+      "id": "patties_group",
+      "label": "raw burger patties",
+      "location": "0.1,0.05,0.9,0.35,0.7"
+    }
+  ]
+}

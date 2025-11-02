@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand_left",
+      "target": "spatula"
+    },
+    {
+      "predicate": "in",
+      "source": "spatula",
+      "target": "batter"
+    },
+    {
+      "predicate": "in",
+      "source": "batter",
+      "target": "bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "flour",
+      "target": "batter"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl",
+      "target": "table"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown skin",
+        "size": "medium"
+      },
+      "id": "hand_left",
+      "label": "left hand",
+      "location": "0.05,0.0,0.45,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown skin",
+        "size": "medium"
+      },
+      "id": "hand_right",
+      "label": "right hand",
+      "location": "0.55,0.0,0.95,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow silicone",
+        "size": "small"
+      },
+      "id": "spatula",
+      "label": "silicone spatula",
+      "location": "0.3,0.1,0.6,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl",
+      "label": "glass bowl",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light yellow liquid",
+        "size": "medium"
+      },
+      "id": "batter",
+      "label": "batter",
+      "location": "0.1,0.1,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "flour",
+      "label": "flour",
+      "location": "0.4,0.2,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "wooden table",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    }
+  ]
+}

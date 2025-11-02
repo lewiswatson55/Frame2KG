@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "holding",
+      "source": "person2",
+      "target": "glass1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cabinet1",
+      "target": "fridge1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt glasses",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.00,0.05,0.48,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black jacket hair braid",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.48,0.05,1.00,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "gin bottle",
+      "location": "0.47,0.60,0.53,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass ice cubes",
+        "size": "small"
+      },
+      "id": "glass1",
+      "label": "glass of gin",
+      "location": "0.60,0.65,0.75,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.50,0.00,1.00,0.60,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.00,0.00,0.50,0.30,0.8"
+    }
+  ]
+}

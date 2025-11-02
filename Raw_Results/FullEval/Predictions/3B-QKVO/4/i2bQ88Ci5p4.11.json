@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "nuggets1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "nuggets1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text2",
+      "target": "nuggets1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text3",
+      "target": "nuggets1"
+    },
+    {
+      "predicate": "in",
+      "source": "dip1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "dip1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "nuggets1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "nuggets1",
+      "label": "chicken nuggets",
+      "location": "0.05,0.45,0.98,0.97,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.4,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl",
+      "location": "0.35,0.25,0.65,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow creamy",
+        "size": "small"
+      },
+      "id": "dip1",
+      "label": "dipping sauce",
+      "location": "0.45,0.2,0.6,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.0,0.0,0.3,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "large"
+      },
+      "id": "text1",
+      "label": "Boneless",
+      "location": "0.1,0.0,0.9,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "large"
+      },
+      "id": "text2",
+      "label": "CHICKEN",
+      "location": "0.1,0.4,0.9,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "large"
+      },
+      "id": "text3",
+      "label": "NUGGETS",
+      "location": "0.1,0.6,0.9,0.8,0.9"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "chicken_piece"
+    },
+    {
+      "predicate": "cutting",
+      "source": "knife1",
+      "target": "chicken_piece"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken_piece",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.05,0.0,0.45,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal blade black handle",
+        "size": "large"
+      },
+      "id": "knife1",
+      "label": "kitchen knife",
+      "location": "0.0,0.3,0.6,0.7,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "pale raw meat",
+        "size": "small"
+      },
+      "id": "chicken_piece",
+      "label": "raw chicken piece",
+      "location": "0.3,0.5,0.6,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

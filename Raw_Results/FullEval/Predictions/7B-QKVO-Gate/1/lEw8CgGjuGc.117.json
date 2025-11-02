@@ -1,0 +1,127 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bun_top"
+    },
+    {
+      "predicate": "on",
+      "source": "bun_top",
+      "target": "patty"
+    },
+    {
+      "predicate": "on",
+      "source": "patty",
+      "target": "lettuce"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato_slice",
+      "target": "patty"
+    },
+    {
+      "predicate": "on",
+      "source": "bun_bottom",
+      "target": "lettuce"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "burger1"
+    },
+    {
+      "predicate": "behind",
+      "source": "ketchup_bottle",
+      "target": "burger1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "plate1",
+      "target": "burger1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.0,0.95,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread",
+        "size": "small"
+      },
+      "id": "bun_top",
+      "label": "Burger Bun Top",
+      "location": "0.3,0.1,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown patty with green flecks",
+        "size": "medium"
+      },
+      "id": "patty",
+      "label": "Burger Patty",
+      "location": "0.3,0.5,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red",
+        "size": "small"
+      },
+      "id": "tomato_slice",
+      "label": "Tomato Slice",
+      "location": "0.3,0.4,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce",
+      "label": "Lettuce Leaf",
+      "location": "0.2,0.6,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "ketchup_bottle",
+      "label": "Ketchup Bottle",
+      "location": "0.7,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige bun",
+        "size": "small"
+      },
+      "id": "bun_bottom",
+      "label": "Burger Bun Bottom",
+      "location": "0.2,0.7,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beef patty on white bun",
+        "size": "medium"
+      },
+      "id": "burger1",
+      "label": "Hamburger",
+      "location": "0.1,0.4,0.9,0.9,0.9"
+    }
+  ]
+}

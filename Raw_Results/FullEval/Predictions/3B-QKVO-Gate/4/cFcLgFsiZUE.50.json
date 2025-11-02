@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "oven1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "microwave1",
+      "target": "oven1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cabinet1",
+      "target": "oven1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.55,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "oven1",
+      "label": "oven",
+      "location": "0.0,0.3,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave",
+      "location": "0.0,0.0,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "medium"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.4,0.2,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red silicone",
+        "size": "small"
+      },
+      "id": "glove1",
+      "label": "oven mitt",
+      "location": "0.5,0.5,0.7,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal tray with chicken",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "baking tray",
+      "location": "0.1,0.5,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "fried chicken pieces",
+      "location": "0.15,0.55,0.55,0.75,0.8"
+    }
+  ]
+}

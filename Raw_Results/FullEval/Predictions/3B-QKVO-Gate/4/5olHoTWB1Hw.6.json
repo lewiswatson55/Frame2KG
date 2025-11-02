@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "cheese1",
+      "target": "cream1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cream1",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cheese1",
+      "target": "cheese2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "cheese3",
+      "target": "cheese2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "cheese4",
+      "target": "cheese3"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese5",
+      "target": "cheese4"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white plastic bag with blue label",
+        "size": "medium"
+      },
+      "id": "cheese1",
+      "label": "shredded cheese",
+      "location": "0.0,0.0,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cardboard box",
+        "size": "large"
+      },
+      "id": "cream1",
+      "label": "cream cheese carton",
+      "location": "0.3,0.0,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic package",
+        "size": "medium"
+      },
+      "id": "cheese2",
+      "label": "sharp cheddar cheese block",
+      "location": "0.2,0.4,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic bag with red and green label",
+        "size": "medium"
+      },
+      "id": "cheese3",
+      "label": "New York style cheese slice",
+      "location": "0.6,0.4,1.0,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic bag with yellow cheese chunks",
+        "size": "small"
+      },
+      "id": "cheese4",
+      "label": "shredded cheese packet",
+      "location": "0.1,0.6,0.5,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green and white paper bag",
+        "size": "small"
+      },
+      "id": "cheese5",
+      "label": "cheddar cheese packet",
+      "location": "0.0,0.6,0.2,1.0,0.8"
+    }
+  ]
+}

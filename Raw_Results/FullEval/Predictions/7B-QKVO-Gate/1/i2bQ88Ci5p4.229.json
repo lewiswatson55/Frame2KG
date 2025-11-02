@@ -1,0 +1,155 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "phone1"
+    },
+    {
+      "predicate": "on",
+      "source": "phone1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person2",
+      "target": "person1"
+    },
+    {
+      "predicate": "on",
+      "source": "cup1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "can1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife_block1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "cabinet1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.53,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark hair",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.0,0.4,0.6,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "phone1",
+      "label": "smartphone",
+      "location": "0.57,0.0,0.75,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "small"
+      },
+      "id": "cup1",
+      "label": "glass cup",
+      "location": "0.0,0.8,0.2,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow aluminum",
+        "size": "small"
+      },
+      "id": "can1",
+      "label": "soda can",
+      "location": "0.8,0.8,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.4,0.0,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.2,0.0,0.5,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "knife_block1",
+      "label": "knife block",
+      "location": "0.3,0.5,0.5,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black granite",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.8,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red label",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "bottle",
+      "location": "0.6,0.0,0.7,0.2,0.6"
+    }
+  ]
+}

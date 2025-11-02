@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "glass1",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "can1",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "knife_block",
+      "target": "table"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "cabinet1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fridge",
+      "target": "cabinet1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.58,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark clothing",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.0,0.4,0.6,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with yellow liquid",
+        "size": "small"
+      },
+      "id": "glass1",
+      "label": "beer glass",
+      "location": "0.03,0.75,0.2,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow can",
+        "size": "small"
+      },
+      "id": "can1",
+      "label": "soda can",
+      "location": "0.8,0.75,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden block with knives",
+        "size": "medium"
+      },
+      "id": "knife_block",
+      "label": "knife block",
+      "location": "0.3,0.5,0.5,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "fridge",
+      "label": "refrigerator",
+      "location": "0.5,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.5,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white painted",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.0,0.0,0.5,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wooden table",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "table",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    }
+  ]
+}

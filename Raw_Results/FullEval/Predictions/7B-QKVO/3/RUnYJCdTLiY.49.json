@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "microwave1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "pots1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "utensil_holder1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "dishwasher1",
+      "target": "cutting_board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "purple shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.4,0.45,0.75,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "silver stainless steel",
+        "size": "small"
+      },
+      "id": "microwave1",
+      "label": "microwave oven",
+      "location": "0.0,0.0,0.4,0.25,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.5,0.3,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "utensil_holder1",
+      "label": "utensil holder",
+      "location": "0.0,0.35,0.15,0.5,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "pots1",
+      "label": "hanging pots",
+      "location": "0.5,0.0,0.9,0.25,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "brown granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,0.75,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.8,0.5,1.0,0.75,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "dishwasher1",
+      "label": "dishwasher",
+      "location": "0.7,0.75,1.0,1.0,0.85"
+    }
+  ]
+}

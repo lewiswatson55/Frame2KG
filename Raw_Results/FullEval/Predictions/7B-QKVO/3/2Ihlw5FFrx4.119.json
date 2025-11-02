@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato1",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon1",
+      "target": "tomato1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bacon1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown wood grain",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "wooden cutting board",
+      "location": "0.0,0.65,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crust white spread",
+        "size": "medium"
+      },
+      "id": "bread1",
+      "label": "slice of bread",
+      "location": "0.05,0.7,0.95,0.98,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "spread cheese",
+      "location": "0.1,0.73,0.9,0.88,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red juicy",
+        "size": "medium"
+      },
+      "id": "tomato1",
+      "label": "slices of tomato",
+      "location": "0.2,0.4,0.8,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crispy",
+        "size": "small"
+      },
+      "id": "bacon1",
+      "label": "bacon strips",
+      "location": "0.3,0.2,0.7,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.3,0.0,0.7,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "overlay text",
+      "location": "0.8,0.0,1.0,0.15,0.9"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "pepper_grinder"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "pepper_grinder",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "drain1",
+      "target": "sink1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.05,0.3,0.45,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "pepper_grinder",
+      "label": "pepper grinder",
+      "location": "0.35,0.2,0.6,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "large"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.3,0.0,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "drain1",
+      "label": "sink drain",
+      "location": "0.8,0.6,1.0,0.9,0.8"
+    }
+  ]
+}

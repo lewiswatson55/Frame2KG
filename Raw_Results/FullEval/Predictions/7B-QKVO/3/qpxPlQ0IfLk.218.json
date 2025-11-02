@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "cutting",
+      "source": "knife1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "salt_bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "garlic1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "behind",
+      "source": "pan1",
+      "target": "lettuce1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "Romaine lettuce",
+      "location": "0.05,0.35,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.0,0.4,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "Knife",
+      "location": "0.4,0.0,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.6,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting board",
+      "location": "0.0,0.2,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder brown bowl",
+        "size": "small"
+      },
+      "id": "salt_bowl1",
+      "label": "Salt bowl",
+      "location": "0.8,0.7,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige round",
+        "size": "small"
+      },
+      "id": "garlic1",
+      "label": "Garlic clove",
+      "location": "0.75,0.0,1.0,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "Frying pan",
+      "location": "0.0,0.0,0.6,0.3,0.7"
+    }
+  ]
+}

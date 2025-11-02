@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "baking_tray"
+    },
+    {
+      "predicate": "on",
+      "source": "baking_tray",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pot",
+      "target": "baking_tray"
+    },
+    {
+      "predicate": "behind",
+      "source": "blender",
+      "target": "baking_tray"
+    },
+    {
+      "predicate": "left_of",
+      "source": "stove",
+      "target": "baking_tray"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "roasted chicken",
+      "location": "0.35,0.45,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "baking_tray",
+      "label": "glass baking tray",
+      "location": "0.25,0.6,0.98,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pot",
+      "label": "cooking pot",
+      "location": "0.0,0.6,0.25,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "blender",
+      "label": "blender",
+      "location": "0.75,0.0,0.98,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "jar",
+      "label": "ceramic jar",
+      "location": "0.9,0.2,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white marble",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove",
+      "label": "stovetop",
+      "location": "0.0,0.5,0.3,0.9,0.8"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bowl_white",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "can_clarke",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "can_nestle",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_onion",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake_stack",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "mug_cup",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "stove_pan",
+      "target": "countertop"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "countertop",
+      "target": "cabinets"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_white",
+      "target": "can_clarke"
+    },
+    {
+      "predicate": "left_of",
+      "source": "can_clarke",
+      "target": "can_nestle"
+    },
+    {
+      "predicate": "behind",
+      "source": "mug_cup",
+      "target": "plate_onion"
+    },
+    {
+      "predicate": "right_of",
+      "source": "pancake_stack",
+      "target": "plate_onion"
+    },
+    {
+      "predicate": "left_of",
+      "source": "plate_onion",
+      "target": "mug_cup"
+    },
+    {
+      "predicate": "left_of",
+      "source": "mug_cup",
+      "target": "pancake_stack"
+    },
+    {
+      "predicate": "left_of",
+      "source": "pancake_stack",
+      "target": "stove_pan"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl_white",
+      "label": "white bowl",
+      "location": "0.05,0.48,0.30,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "can_clarke",
+      "label": "Clarke Girl can",
+      "location": "0.25,0.30,0.35,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "can_nestle",
+      "label": "Nestle can",
+      "location": "0.35,0.25,0.45,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red onion rings on white plate",
+        "size": "medium"
+      },
+      "id": "plate_onion",
+      "label": "plate of onion rings",
+      "location": "0.30,0.50,0.60,0.80,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crispy pancakes",
+        "size": "medium"
+      },
+      "id": "pancake_stack",
+      "label": "stack of pancakes",
+      "location": "0.55,0.20,0.75,0.60,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic mug",
+        "size": "small"
+      },
+      "id": "mug_cup",
+      "label": "mug cup",
+      "location": "0.40,0.20,0.50,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal pan",
+        "size": "large"
+      },
+      "id": "stove_pan",
+      "label": "stovetop pan",
+      "location": "0.75,0.30,0.98,0.70,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite surface",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.00,0.50,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood cabinets",
+        "size": "large"
+      },
+      "id": "cabinets",
+      "label": "wooden cabinets",
+      "location": "0.00,0.00,1.00,0.40,0.9"
+    }
+  ]
+}

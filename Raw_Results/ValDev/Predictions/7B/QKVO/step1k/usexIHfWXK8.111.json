@@ -1,0 +1,52 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "pepper_box"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken_pieces",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "hand1",
+      "label": "Hand",
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "location": "0.65,0.3,1.0,0.8,0.9"
+    },
+    {
+      "id": "pepper_box",
+      "label": "Ground Black Pepper Box",
+      "attributes": {
+        "appearance": "black red",
+        "size": "small"
+      },
+      "location": "0.45,0.1,0.75,0.6,0.9"
+    },
+    {
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "location": "0.0,0.0,0.6,0.5,0.8"
+    },
+    {
+      "id": "chicken_pieces",
+      "label": "Chicken Pieces",
+      "attributes": {
+        "appearance": "pink raw",
+        "size": "medium"
+      },
+      "location": "0.1,0.0,0.6,0.4,0.8"
+    }
+  ]
+}

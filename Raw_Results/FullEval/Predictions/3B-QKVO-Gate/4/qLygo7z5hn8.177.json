@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "play_button",
+      "target": "website_text"
+    },
+    {
+      "predicate": "on",
+      "source": "play_button",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "website_text",
+      "target": "background"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green rounded",
+        "size": "medium"
+      },
+      "id": "play_button",
+      "label": "Play Button Icon",
+      "location": "0.35,0.45,0.48,0.62,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey text",
+        "size": "small"
+      },
+      "id": "website_text",
+      "label": "Website Text",
+      "location": "0.57,0.45,0.95,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

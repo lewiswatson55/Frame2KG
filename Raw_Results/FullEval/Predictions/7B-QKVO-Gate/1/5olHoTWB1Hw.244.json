@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "cheese1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cheese1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "orange red plastic",
+        "size": "large"
+      },
+      "id": "cheese1",
+      "label": "shredded cheddar cheese package",
+      "location": "0.05,0.0,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow shredded",
+        "size": "medium"
+      },
+      "id": "cheese2",
+      "label": "shredded cheddar cheese",
+      "location": "0.43,0.15,0.98,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "baking pan",
+      "location": "0.6,0.1,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey surface",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.7,1.0,1.0,0.7"
+    }
+  ]
+}

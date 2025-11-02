@@ -1,0 +1,131 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "pancake1"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake2",
+      "target": "tray1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pancake3",
+      "target": "pancake4"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "tray1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "rolling_pin1",
+      "target": "towel1"
+    },
+    {
+      "predicate": "behind",
+      "source": "spatula1",
+      "target": "pancake1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.5,0.0,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "pancake1",
+      "label": "Pancake",
+      "location": "0.48,0.17,0.6,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "pancake2",
+      "label": "Pancake",
+      "location": "0.35,0.35,0.5,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "pancake3",
+      "label": "Pancake",
+      "location": "0.15,0.5,0.3,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "pancake4",
+      "label": "Pancake",
+      "location": "0.25,0.65,0.4,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "Tray",
+      "location": "0.0,0.3,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic handle",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "Spatula",
+      "location": "0.45,0.0,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.0,1.0,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "small"
+      },
+      "id": "rolling_pin1",
+      "label": "Rolling Pin",
+      "location": "0.0,0.0,0.2,0.15,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white cloth",
+        "size": "medium"
+      },
+      "id": "towel1",
+      "label": "Towel",
+      "location": "0.0,0.2,0.4,0.4,0.8"
+    }
+  ]
+}

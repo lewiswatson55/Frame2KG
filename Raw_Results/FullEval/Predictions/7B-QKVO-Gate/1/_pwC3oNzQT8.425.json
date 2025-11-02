@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "background1"
+    },
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "background1"
+    },
+    {
+      "predicate": "on",
+      "source": "text2",
+      "target": "background1"
+    },
+    {
+      "predicate": "on",
+      "source": "food1",
+      "target": "background1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "logo1",
+      "target": "background1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "logo2",
+      "target": "background1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black chef coat",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Chef Ricardo",
+      "location": "0.35,0.08,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange gradient",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "multicolor text",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "Caribbean Cuisine Cookbook title",
+      "location": "0.4,0.6,0.6,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white cursive",
+        "size": "small"
+      },
+      "id": "text2",
+      "label": "Chef Ricardo logo",
+      "location": "0.7,0.7,0.95,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "colorful vegetables",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "Food image",
+      "location": "0.3,0.6,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red circular",
+        "size": "medium"
+      },
+      "id": "logo1",
+      "label": "Red circle",
+      "location": "0.2,0.1,0.8,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red circular",
+        "size": "medium"
+      },
+      "id": "logo2",
+      "label": "Red circle",
+      "location": "0.6,0.1,0.9,0.4,0.7"
+    }
+  ]
+}

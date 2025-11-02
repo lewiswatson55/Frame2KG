@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "sifter1"
+    },
+    {
+      "predicate": "in",
+      "source": "flour1",
+      "target": "sifter1"
+    },
+    {
+      "predicate": "in",
+      "source": "flour1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal mesh",
+        "size": "medium"
+      },
+      "id": "sifter1",
+      "label": "metal sifter",
+      "location": "0.35,0.0,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "flour1",
+      "label": "cornstarch",
+      "location": "0.45,0.1,0.75,0.4,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.5,0.4,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey metal",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.1,0.2,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige speckled surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

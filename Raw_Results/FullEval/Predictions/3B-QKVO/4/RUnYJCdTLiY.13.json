@@ -1,0 +1,185 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "microwave1",
+      "target": "cabinet_left1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "pans_hanging1",
+      "target": "cabinet_right1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "utensil_holder1",
+      "target": "microwave1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "utensil_holder1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "sink1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "behind",
+      "source": "jar_shelf1",
+      "target": "person1"
+    },
+    {
+      "predicate": "above",
+      "source": "sign1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "jar_shelf1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "utensil_holder1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "microwave1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "pans_hanging1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "jar_shelf1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "sign1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.45,0.4,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver black",
+        "size": "small"
+      },
+      "id": "microwave1",
+      "label": "microwave oven",
+      "location": "0.05,0.0,0.35,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet_left1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.3,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet_right1",
+      "label": "kitchen cabinet",
+      "location": "0.7,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "pans_hanging1",
+      "label": "hanging pans",
+      "location": "0.6,0.0,0.9,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "medium"
+      },
+      "id": "utensil_holder1",
+      "label": "utensil holder",
+      "location": "0.0,0.4,0.2,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jars",
+        "size": "small"
+      },
+      "id": "jar_shelf1",
+      "label": "shelf of jars",
+      "location": "0.5,0.3,0.7,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.6,0.4,0.8,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.3,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "sign1",
+      "label": "wooden sign",
+      "location": "0.8,0.4,0.95,0.55,0.8"
+    }
+  ]
+}

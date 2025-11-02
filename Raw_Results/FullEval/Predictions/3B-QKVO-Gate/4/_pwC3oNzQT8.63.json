@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "stove1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "stove1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "Stovetop",
+      "location": "0.0,0.0,0.5,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with brown rice",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Glass bowl of rice",
+      "location": "0.6,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white laminate",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.4,0.3,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black cursive font",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "Chef Ricardo text",
+      "location": "0.5,0.7,0.9,0.95,0.9"
+    }
+  ]
+}

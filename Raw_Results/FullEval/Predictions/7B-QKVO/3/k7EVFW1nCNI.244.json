@@ -1,0 +1,178 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "toothpaste1"
+    },
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "toothbrush1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "on",
+      "source": "vase1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "sink1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "microwave1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pepper_grinder1",
+      "target": "mug1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "jar1",
+      "target": "vase1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "pepper_grinder1",
+      "target": "mug1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white lace top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "black tube",
+        "size": "small"
+      },
+      "id": "toothpaste1",
+      "label": "toothpaste tube",
+      "location": "0.47,0.45,0.55,0.75,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white handle black bristles",
+        "size": "small"
+      },
+      "id": "toothbrush1",
+      "label": "toothbrush",
+      "location": "0.45,0.6,0.55,0.85,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "red roses in clear vase",
+        "size": "medium"
+      },
+      "id": "vase1",
+      "label": "flower vase",
+      "location": "0.05,0.3,0.2,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "kitchen sink",
+      "location": "0.0,0.5,0.3,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,1.0,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black glass",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave oven",
+      "location": "0.75,0.0,1.0,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black glass cooktop",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.7,0.5,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear bowl with white contents",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.75,0.75,0.9,0.95,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic with red logo",
+        "size": "small"
+      },
+      "id": "mug1",
+      "label": "coffee mug",
+      "location": "0.6,0.45,0.68,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic with red lid",
+        "size": "small"
+      },
+      "id": "pepper_grinder1",
+      "label": "pepper grinder",
+      "location": "0.68,0.45,0.75,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "red canister",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "canister",
+      "location": "0.2,0.45,0.28,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.4,1.0,0.6,0.9"
+    }
+  ]
+}

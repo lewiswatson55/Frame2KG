@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "bowl_flour1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_flour1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_salt1",
+      "target": "bowl_flour1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.05,0.0,0.45,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl_flour1",
+      "label": "glass bowl of flour",
+      "location": "0.2,0.1,0.95,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl_salt1",
+      "label": "glass bowl of salt",
+      "location": "0.0,0.3,0.3,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "metal spoon",
+      "location": "0.1,0.1,0.5,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "wooden cutting board",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    }
+  ]
+}

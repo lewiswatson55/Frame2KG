@@ -1,0 +1,210 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula",
+      "target": "griddle"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "griddle"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lettuce1",
+      "target": "baguette1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "lemon1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar1",
+      "target": "jar2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar3",
+      "target": "jar4"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar5",
+      "target": "jar6"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "bottle2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "blender1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "above",
+      "source": "pan_hanging1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "lamp1",
+      "target": "shelf1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.38,0.05,0.75,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.00,0.45,0.20,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "olive oil bottle",
+      "location": "0.18,0.55,0.25,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "mustard jar",
+      "location": "0.20,0.70,0.25,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "jar2",
+      "label": "salt container",
+      "location": "0.25,0.70,0.30,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "jar3",
+      "label": "pepper container",
+      "location": "0.30,0.70,0.35,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "jar4",
+      "label": "mayonnaise jar",
+      "location": "0.35,0.70,0.40,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "wooden bowl",
+      "location": "0.45,0.75,0.55,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "lemon",
+      "location": "0.40,0.75,0.45,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink meat",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "raw chicken piece",
+      "location": "0.55,0.65,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "griddle1",
+      "label": "flat top grill",
+      "location": "0.50,0.60,0.90,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.75,0.60,0.90,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "long brown bread",
+        "size": "medium"
+      },
+      "id": "baguette1",
+      "label": "baguette loaf",
+      "location": "0.80,0.60,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan_hanging1",
+      "label": "hanging pans",
+      "location": "0.40,0.00,0.60,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "kitchen shelf",
+      "location": "0.00,0.00,1.00,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white shade",
+        "size": "medium"
+      },
+      "id": "lamp1",
+      "label": "floor lamp",
+      "location": "0.85,0.10,0.98,0.80,0.8"
+    }
+  ]
+}

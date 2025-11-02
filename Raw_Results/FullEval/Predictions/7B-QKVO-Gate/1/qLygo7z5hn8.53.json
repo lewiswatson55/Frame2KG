@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "whisk1"
+    },
+    {
+      "predicate": "on",
+      "source": "eggs1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "in",
+      "source": "pan1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fruits1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "behind",
+      "source": "stove1",
+      "target": "person1"
+    },
+    {
+      "predicate": "above",
+      "source": "hood1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow chef coat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.45,0.75,0.75,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white shells",
+        "size": "small"
+      },
+      "id": "eggs1",
+      "label": "eggs",
+      "location": "0.3,0.7,0.4,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.4,0.4,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "large"
+      },
+      "id": "hood1",
+      "label": "kitchen hood",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.7,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "mixed fruits",
+        "size": "small"
+      },
+      "id": "fruits1",
+      "label": "fruit bowl",
+      "location": "0.8,0.8,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal whisk",
+        "size": "small"
+      },
+      "id": "whisk1",
+      "label": "whisk",
+      "location": "0.45,0.6,0.55,0.8,0.7"
+    }
+  ]
+}

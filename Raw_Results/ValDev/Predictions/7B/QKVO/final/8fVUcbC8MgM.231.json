@@ -1,0 +1,159 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula1",
+      "target": "bowl_large1"
+    },
+    {
+      "predicate": "in",
+      "source": "rice1",
+      "target": "bowl_small1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pepper_shaker1",
+      "target": "bowl_small1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_small1",
+      "target": "bowl_large1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "paper_plate1",
+      "target": "bowl_large1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "towel1",
+      "target": "paper_plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "towel1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "foil_wrap1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.45,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "bowl_large1",
+      "label": "Mixing Bowl",
+      "location": "0.05,0.05,0.5,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black ceramic",
+        "size": "small"
+      },
+      "id": "bowl_small1",
+      "label": "Rice Bowl",
+      "location": "0.0,0.3,0.2,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.0,0.3,0.1,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "small"
+      },
+      "id": "bowl_small2",
+      "label": "Wooden Bowl",
+      "location": "0.2,0.4,0.35,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass black lid",
+        "size": "small"
+      },
+      "id": "pepper_shaker1",
+      "label": "Pepper Shaker",
+      "location": "0.3,0.4,0.4,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown handle",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "Spatula",
+      "location": "0.5,0.2,0.8,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "medium"
+      },
+      "id": "paper_plate1",
+      "label": "Paper Plate",
+      "location": "0.4,0.6,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white cloth",
+        "size": "medium"
+      },
+      "id": "towel1",
+      "label": "Towel",
+      "location": "0.7,0.4,0.95,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.75,0.3,0.95,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent foil",
+        "size": "medium"
+      },
+      "id": "foil_wrap1",
+      "label": "Foil Wrap",
+      "location": "0.3,0.2,0.6,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white rice",
+        "size": "small"
+      },
+      "id": "rice1",
+      "label": "Rice",
+      "location": "0.0,0.3,0.2,0.5,0.9"
+    }
+  ]
+}

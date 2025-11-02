@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bottle1",
+      "target": "blender1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black chef coat and checkered headscarf",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.53,0.08,0.97,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic with brown pattern",
+        "size": "medium"
+      },
+      "id": "tile_wall1",
+      "label": "tiled wall",
+      "location": "0.0,0.0,0.45,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden frame",
+        "size": "medium"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.45,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "beige tile backsplash",
+        "size": "medium"
+      },
+      "id": "backsplash1",
+      "label": "tile backsplash",
+      "location": "0.0,0.3,0.45,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with white flour",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.35,0.65,0.55,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "cooking pan",
+      "location": "0.15,0.75,0.45,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "oil bottle",
+      "location": "0.65,0.45,0.75,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.55,0.45,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    }
+  ]
+}

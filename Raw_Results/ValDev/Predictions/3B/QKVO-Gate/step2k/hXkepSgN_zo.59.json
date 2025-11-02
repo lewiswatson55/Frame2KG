@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife1",
+      "target": "chicken1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.58,0.0,0.96,0.34,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "raw pinkish white",
+        "size": "large"
+      },
+      "id": "chicken1",
+      "label": "Raw Chicken Piece",
+      "location": "0.2,0.55,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.6,0.6,0.95,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal blade",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "Knife",
+      "location": "0.1,0.6,0.5,0.8,0.6"
+    }
+  ]
+}

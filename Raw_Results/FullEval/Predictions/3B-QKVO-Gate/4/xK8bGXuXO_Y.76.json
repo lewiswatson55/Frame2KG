@@ -1,0 +1,128 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "onion1"
+    },
+    {
+      "predicate": "in",
+      "source": "onion1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "onion2",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "onion3",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "onion4",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "onion2",
+      "target": "onion3"
+    },
+    {
+      "predicate": "right_of",
+      "source": "onion3",
+      "target": "onion2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "onion4",
+      "target": "onion3"
+    },
+    {
+      "predicate": "behind",
+      "source": "logo1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.0,0.0,0.5,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple peeled",
+        "size": "small"
+      },
+      "id": "onion1",
+      "label": "red onion half",
+      "location": "0.0,0.4,0.5,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "purple peeled",
+        "size": "small"
+      },
+      "id": "onion2",
+      "label": "red onion half",
+      "location": "0.4,0.1,0.7,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "purple peeled",
+        "size": "small"
+      },
+      "id": "onion3",
+      "label": "red onion half",
+      "location": "0.5,0.3,0.8,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "purple peeled",
+        "size": "small"
+      },
+      "id": "onion4",
+      "label": "red onion half",
+      "location": "0.4,0.5,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.0,0.4,0.6,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.2,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black red white",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "MasterChef logo",
+      "location": "0.75,0.0,1.0,0.2,0.9"
+    }
+  ]
+}

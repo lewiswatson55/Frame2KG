@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "sauce_bottle1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sauce_bottle1",
+      "target": "sauce_bottle2"
+    },
+    {
+      "predicate": "behind",
+      "source": "lettuce1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "plate1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "chicken_pieces1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken_pieces1",
+      "label": "fried chicken pieces",
+      "location": "0.05,0.6,0.48,0.97,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate of fried chicken",
+      "location": "0.0,0.3,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "large"
+      },
+      "id": "lettuce1",
+      "label": "salad bowl",
+      "location": "0.2,0.0,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with green lettuce",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl with salad",
+      "location": "0.2,0.0,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.5,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow label red sauce",
+        "size": "medium"
+      },
+      "id": "sauce_bottle1",
+      "label": "Cholula hot sauce bottle",
+      "location": "0.6,0.0,0.8,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "sauce_bottle2",
+      "label": "hot sauce bottle",
+      "location": "0.8,0.0,1.0,0.6,0.8"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "spoon1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "on",
+      "source": "container1",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "foil1",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "paper_towel1",
+      "target": "table"
+    },
+    {
+      "predicate": "next_to",
+      "source": "foil1",
+      "target": "paper_towel1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "container1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "behind",
+      "source": "foam1",
+      "target": "paper_towel1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "wooden table",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue ceramic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "bowl of rice",
+      "location": "0.0,0.45,0.25,0.75,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "bowl2",
+      "label": "mixing bowl",
+      "location": "0.2,0.1,0.5,0.4,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "spoon",
+      "location": "0.05,0.45,0.15,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "container1",
+      "label": "seasoning container",
+      "location": "0.3,0.45,0.35,0.75,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "shiny silver",
+        "size": "medium"
+      },
+      "id": "foil1",
+      "label": "aluminum foil sheet",
+      "location": "0.3,0.3,0.6,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "medium"
+      },
+      "id": "paper_towel1",
+      "label": "paper towel sheets",
+      "location": "0.6,0.3,0.9,0.7,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white foam",
+        "size": "medium"
+      },
+      "id": "foam1",
+      "label": "foam sheets",
+      "location": "0.5,0.6,0.9,0.9,0.85"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "jar1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl3",
+      "target": "bowl4"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl3",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl4",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cutting_board1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bowl1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bowl3",
+      "target": "bowl4"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.05,0.15,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "jar1",
+      "label": "glass jar",
+      "location": "0.15,0.0,0.85,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.6,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "small bowl",
+      "location": "0.3,0.6,0.5,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "bowl3",
+      "label": "small bowl",
+      "location": "0.5,0.6,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "bowl4",
+      "label": "small bowl",
+      "location": "0.7,0.6,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.0,0.6,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "metal tray",
+      "location": "0.3,0.0,1.0,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    }
+  ]
+}

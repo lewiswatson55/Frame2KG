@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "eggs1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "stirring",
+      "source": "spatula1",
+      "target": "eggs1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black non-stick",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.05,0.0,0.95,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic handle wooden head",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.0,0.0,0.6,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow with red tomato bits",
+        "size": "medium"
+      },
+      "id": "eggs1",
+      "label": "scrambled eggs",
+      "location": "0.1,0.3,0.9,0.9,0.9"
+    }
+  ]
+}

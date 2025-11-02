@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "herb1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "in",
+      "source": "meat1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "herb1",
+      "target": "meat1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "ceramic tray",
+      "location": "0.05,0.6,0.95,0.98,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw",
+        "size": "medium"
+      },
+      "id": "meat1",
+      "label": "raw meat slices",
+      "location": "0.0,0.4,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves on thin stems",
+        "size": "small"
+      },
+      "id": "herb1",
+      "label": "fresh herbs",
+      "location": "0.1,0.0,0.9,0.4,0.85"
+    }
+  ]
+}

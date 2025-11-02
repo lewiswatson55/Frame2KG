@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken_wings",
+      "target": "plate"
+    },
+    {
+      "predicate": "in",
+      "source": "dip_bowl",
+      "target": "plate"
+    },
+    {
+      "predicate": "next_to",
+      "source": "hand",
+      "target": "dip_bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "plate",
+      "target": "countertop"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken_wings",
+      "label": "chicken wings",
+      "location": "0.35,0.6,0.98,0.97,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black ceramic",
+        "size": "small"
+      },
+      "id": "dip_bowl",
+      "label": "bowl of dip",
+      "location": "0.45,0.2,0.75,0.55,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate",
+      "label": "plate",
+      "location": "0.2,0.5,0.98,0.98,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand",
+      "label": "hand",
+      "location": "0.0,0.0,0.4,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey speckled granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.0,1.0,0.6,0.6"
+    }
+  ]
+}

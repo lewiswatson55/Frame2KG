@@ -1,0 +1,117 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plant1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "behind",
+      "source": "curtain1",
+      "target": "door1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "shelf1",
+      "target": "person1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottles1",
+      "target": "shelf1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.53,0.0,1.0,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "bread with lettuce",
+        "size": "medium"
+      },
+      "id": "sandwich1",
+      "label": "sandwich",
+      "location": "0.47,0.36,0.75,0.65,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.5,0.45,1.0,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden light brown",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.35,0.3,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "potted plant",
+      "location": "0.35,0.1,0.5,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "beige fabric",
+        "size": "medium"
+      },
+      "id": "curtain1",
+      "label": "curtain",
+      "location": "0.45,0.0,0.6,0.6,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wooden",
+        "size": "medium"
+      },
+      "id": "door1",
+      "label": "door",
+      "location": "0.5,0.0,0.7,0.6,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.8,0.2,1.0,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "various colored plastic",
+        "size": "small"
+      },
+      "id": "bottles1",
+      "label": "bottles",
+      "location": "0.8,0.3,0.95,0.6,0.80"
+    }
+  ]
+}

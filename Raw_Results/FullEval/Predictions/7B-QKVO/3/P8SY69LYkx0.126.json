@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "hands1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "tongs1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "cloth1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bag1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tongs1",
+      "target": "cloth1"
+    },
+    {
+      "predicate": "behind",
+      "source": "person1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.35,0.25,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white gloves",
+        "size": "small"
+      },
+      "id": "hands1",
+      "label": "gloved hands",
+      "location": "0.45,0.05,0.85,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "metal tongs",
+      "location": "0.05,0.45,0.35,0.75,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow fabric",
+        "size": "small"
+      },
+      "id": "cloth1",
+      "label": "yellow cloth",
+      "location": "0.00,0.75,0.25,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "small"
+      },
+      "id": "bag1",
+      "label": "plastic bag",
+      "location": "0.65,0.75,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "wooden table",
+      "location": "0.00,0.60,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.40,0.00,1.00,0.60,0.7"
+    }
+  ]
+}

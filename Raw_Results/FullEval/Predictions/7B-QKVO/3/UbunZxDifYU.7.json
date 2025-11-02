@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "cap1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "microwave1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "microwave1",
+      "target": "fridge1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "dark skin, white cap",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white fabric",
+        "size": "medium"
+      },
+      "id": "cap1",
+      "label": "baseball cap",
+      "location": "0.4,0.0,0.7,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "microwave1",
+      "label": "microwave oven",
+      "location": "0.75,0.6,0.95,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.3,1.0,0.7"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "cup1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "cup1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "plant1",
+      "target": "knife_block1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plant1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "behind",
+      "source": "wall_tiles1",
+      "target": "blender1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Person's arm",
+      "location": "0.0,0.0,0.6,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with brown liquid",
+        "size": "small"
+      },
+      "id": "cup1",
+      "label": "Measuring cup",
+      "location": "0.35,0.0,0.7,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic container with green mixture",
+        "size": "large"
+      },
+      "id": "blender1",
+      "label": "Blender base",
+      "location": "0.3,0.3,0.7,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "knife_block1",
+      "label": "Knife block",
+      "location": "0.65,0.3,0.85,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "medium"
+      },
+      "id": "plant1",
+      "label": "Potted plant",
+      "location": "0.8,0.4,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige ceramic tiles",
+        "size": "large"
+      },
+      "id": "wall_tiles1",
+      "label": "Tiled wall",
+      "location": "0.0,0.0,1.0,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark countertop",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "Countertop",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    }
+  ]
+}

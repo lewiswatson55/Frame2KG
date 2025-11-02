@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "hand1",
+      "target": "dish"
+    },
+    {
+      "predicate": "on",
+      "source": "hand2",
+      "target": "dish"
+    },
+    {
+      "predicate": "in",
+      "source": "food1",
+      "target": "dish"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spatula",
+      "target": "dish"
+    },
+    {
+      "predicate": "on",
+      "source": "dish",
+      "target": "countertop"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown skin",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "left hand",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown skin",
+        "size": "medium"
+      },
+      "id": "hand2",
+      "label": "right hand",
+      "location": "0.2,0.1,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "dish",
+      "label": "baking dish",
+      "location": "0.0,0.2,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cheesy",
+        "size": "large"
+      },
+      "id": "food1",
+      "label": "macaroni casserole",
+      "location": "0.0,0.2,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green silicone",
+        "size": "small"
+      },
+      "id": "spatula",
+      "label": "spatula",
+      "location": "0.0,0.0,0.3,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey surface",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.8,1.0,1.0,0.7"
+    }
+  ]
+}

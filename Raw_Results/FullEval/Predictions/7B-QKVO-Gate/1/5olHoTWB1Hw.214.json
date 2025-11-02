@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "sauce1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "sauce1",
+      "target": "pasta1"
+    },
+    {
+      "predicate": "in",
+      "source": "pasta1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray1",
+      "target": "tray2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown skin",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.05,0.3,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl",
+      "location": "0.0,0.0,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow creamy",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "cheese sauce",
+      "location": "0.0,0.0,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "baking tray",
+      "location": "0.3,0.1,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow pasta",
+        "size": "large"
+      },
+      "id": "pasta1",
+      "label": "macaroni",
+      "location": "0.3,0.1,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "tray2",
+      "label": "baking tray",
+      "location": "0.0,0.7,0.5,1.0,0.8"
+    }
+  ]
+}

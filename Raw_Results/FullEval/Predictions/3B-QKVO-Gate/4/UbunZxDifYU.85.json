@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "grater1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in",
+      "source": "meat1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "herbs1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "shaker1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "container1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "jar1",
+      "target": "container1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.0,0.0,0.35,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "grater1",
+      "label": "metal grater",
+      "location": "0.0,0.0,0.7,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.1,0.3,0.9,0.9,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "medium"
+      },
+      "id": "meat1",
+      "label": "raw meat",
+      "location": "0.2,0.4,0.8,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green herbs",
+        "size": "small"
+      },
+      "id": "herbs1",
+      "label": "herbs",
+      "location": "0.4,0.5,0.6,0.7,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "small"
+      },
+      "id": "shaker1",
+      "label": "spice shaker",
+      "location": "0.8,0.7,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue plastic",
+        "size": "small"
+      },
+      "id": "container1",
+      "label": "plastic container",
+      "location": "0.4,0.0,0.6,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown glass",
+        "size": "medium"
+      },
+      "id": "jar1",
+      "label": "glass jar",
+      "location": "0.7,0.0,1.0,0.4,0.85"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "blender1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "bottle2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.65,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.0,0.0,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "green bottle",
+      "location": "0.45,0.6,0.55,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "bottle2",
+      "label": "green bottle",
+      "location": "0.55,0.6,0.65,0.9,0.8"
+    }
+  ]
+}

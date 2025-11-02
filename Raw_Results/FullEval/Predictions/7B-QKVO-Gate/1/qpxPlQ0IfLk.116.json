@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl1",
+      "target": "rice1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "bowl1",
+      "target": "jug1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "jug1",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.45,0.0,1.0,0.38,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.47,0.16,0.75,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white granular",
+        "size": "small"
+      },
+      "id": "rice1",
+      "label": "Rice",
+      "location": "0.5,0.2,0.7,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "large"
+      },
+      "id": "jug1",
+      "label": "Blender Jug",
+      "location": "0.2,0.4,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark grey stone",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "Wall",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

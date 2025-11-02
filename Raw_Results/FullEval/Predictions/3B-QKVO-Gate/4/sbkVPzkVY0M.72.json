@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person_left_hand",
+      "target": "meat_patty"
+    },
+    {
+      "predicate": "on",
+      "source": "meat_patty",
+      "target": "person_right_hand"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person_left_hand",
+      "target": "person_right_hand"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue floral shirt",
+        "size": "medium"
+      },
+      "id": "person_left_hand",
+      "label": "hand",
+      "location": "0.05,0.0,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red raw meat",
+        "size": "small"
+      },
+      "id": "meat_patty",
+      "label": "raw meat patty",
+      "location": "0.35,0.25,0.65,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "person_right_hand",
+      "label": "hand",
+      "location": "0.3,0.3,0.7,0.6,0.8"
+    }
+  ]
+}

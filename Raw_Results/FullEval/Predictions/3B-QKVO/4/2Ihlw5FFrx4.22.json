@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "tomatoes1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text_box1",
+      "target": "tomatoes1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "text_box1",
+      "target": "bread1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red sliced",
+        "size": "medium"
+      },
+      "id": "tomatoes1",
+      "label": "sliced tomatoes",
+      "location": "0.05,0.3,0.45,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.3,0.6,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.0,0.75,0.3,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on grey background",
+        "size": "medium"
+      },
+      "id": "text_box1",
+      "label": "ingredients list box",
+      "location": "0.6,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw",
+        "size": "medium"
+      },
+      "id": "bread1",
+      "label": "raw bread slices",
+      "location": "0.6,0.5,1.0,1.0,0.8"
+    }
+  ]
+}

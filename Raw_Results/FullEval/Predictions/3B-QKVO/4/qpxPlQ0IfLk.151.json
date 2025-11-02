@@ -1,0 +1,151 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_rice1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar_mustard1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar_pepper1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "orange1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "spoon1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "salt_shaker1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_rice1",
+      "target": "orange1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "jar_mustard1",
+      "target": "jar_pepper1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "person1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "multicolored plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.65,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black handle metal blade",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.45,0.3,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden bowl with white rice",
+        "size": "small"
+      },
+      "id": "bowl_rice1",
+      "label": "rice bowl",
+      "location": "0.0,0.7,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with yellow mustard",
+        "size": "small"
+      },
+      "id": "jar_mustard1",
+      "label": "mustard jar",
+      "location": "0.25,0.0,0.45,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue plastic with black lid",
+        "size": "small"
+      },
+      "id": "jar_pepper1",
+      "label": "pepper jar",
+      "location": "0.45,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow fruit",
+        "size": "small"
+      },
+      "id": "orange1",
+      "label": "orange slice",
+      "location": "0.4,0.4,0.5,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal spoon with brown powder",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "spoon",
+      "location": "0.1,0.75,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown ceramic with white salt",
+        "size": "small"
+      },
+      "id": "salt_shaker1",
+      "label": "salt shaker",
+      "location": "0.0,0.8,0.2,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wooden surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    }
+  ]
+}

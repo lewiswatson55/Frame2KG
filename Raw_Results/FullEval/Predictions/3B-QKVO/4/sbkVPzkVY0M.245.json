@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "burner1"
+    },
+    {
+      "predicate": "on",
+      "source": "burner1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lettuce1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "behind",
+      "source": "person1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.35,0.05,0.98,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "burner1",
+      "label": "hot plate burner",
+      "location": "0.35,0.45,0.75,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.75,0.75,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.0,0.0,0.5,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "wooden table",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    }
+  ]
+}

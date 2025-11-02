@@ -1,0 +1,127 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in",
+      "source": "batter1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "behind",
+      "source": "rice_bowl1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "blender1",
+      "target": "rice_bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "jar1",
+      "target": "blender1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.05,0.6,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white liquid",
+        "size": "small"
+      },
+      "id": "batter1",
+      "label": "batter",
+      "location": "0.15,0.7,0.4,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.0,0.5,0.5,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "glass baking tray",
+      "location": "0.5,0.5,1.0,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown cooked",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "cooked chicken pieces",
+      "location": "0.6,0.55,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.55,0.4,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "medium"
+      },
+      "id": "rice_bowl1",
+      "label": "glass bowl of rice",
+      "location": "0.3,0.3,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "plastic blender jar",
+      "location": "0.65,0.0,0.9,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "metallic canister",
+      "location": "0.9,0.1,1.0,0.4,0.7"
+    }
+  ]
+}

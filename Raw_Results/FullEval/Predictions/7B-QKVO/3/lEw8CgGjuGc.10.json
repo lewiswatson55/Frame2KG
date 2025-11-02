@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "board1"
+    },
+    {
+      "predicate": "behind",
+      "source": "board1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "tubes1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown seasoned",
+        "size": "medium"
+      },
+      "id": "patty1",
+      "label": "meat patty",
+      "location": "0.15,0.45,0.65,0.78,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.3,0.6,0.9,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "medium"
+      },
+      "id": "tubes1",
+      "label": "plastic tubes",
+      "location": "0.0,0.0,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.4,0.0,1.0,0.5,0.8"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person3",
+      "target": "building1"
+    },
+    {
+      "predicate": "behind",
+      "source": "tree1",
+      "target": "person4"
+    },
+    {
+      "predicate": "behind",
+      "source": "tree2",
+      "target": "person5"
+    },
+    {
+      "predicate": "right_of",
+      "source": "lamp_post1",
+      "target": "person6"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bench1",
+      "target": "person7"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light grey jacket",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.00,0.45,0.18,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green coat",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.18,0.45,0.32,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "medium"
+      },
+      "id": "person3",
+      "label": "woman",
+      "location": "0.32,0.45,0.44,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue jeans white shirt",
+        "size": "medium"
+      },
+      "id": "person4",
+      "label": "man",
+      "location": "0.44,0.45,0.56,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black pants blue jacket",
+        "size": "medium"
+      },
+      "id": "person5",
+      "label": "man",
+      "location": "0.56,0.45,0.68,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red jacket black pants",
+        "size": "medium"
+      },
+      "id": "person6",
+      "label": "woman",
+      "location": "0.68,0.45,0.80,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "bench1",
+      "label": "park bench",
+      "location": "0.00,0.50,0.30,0.70,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "beige stone",
+        "size": "large"
+      },
+      "id": "building1",
+      "label": "office building",
+      "location": "0.00,0.00,1.00,0.40,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "large"
+      },
+      "id": "tree1",
+      "label": "tree",
+      "location": "0.00,0.00,0.20,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "large"
+      },
+      "id": "tree2",
+      "label": "tree",
+      "location": "0.60,0.00,1.00,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal post",
+        "size": "small"
+      },
+      "id": "lamp_post1",
+      "label": "street lamp post",
+      "location": "0.70,0.00,0.80,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "gray pavement",
+        "size": "large"
+      },
+      "id": "ground1",
+      "label": "pavement",
+      "location": "0.00,0.60,1.00,1.00,0.9"
+    }
+  ]
+}

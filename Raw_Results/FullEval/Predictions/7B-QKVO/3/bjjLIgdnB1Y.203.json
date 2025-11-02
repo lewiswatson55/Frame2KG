@@ -1,0 +1,202 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "griddle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "canister1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "coffee_machine1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "mixer1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "sink1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "window1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinets1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "fridge1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "window1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green top black apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass bowl white batter",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.45,0.55,0.6,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal handle wooden blade",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.45,0.55,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "griddle1",
+      "label": "electric griddle",
+      "location": "0.6,0.6,0.9,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow red label",
+        "size": "small"
+      },
+      "id": "canister1",
+      "label": "spray can",
+      "location": "0.2,0.65,0.25,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic blue cap",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "bottle of syrup",
+      "location": "0.1,0.65,0.15,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.0,0.6,0.2,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinets1",
+      "label": "kitchen cabinets",
+      "location": "0.3,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame blinds",
+        "size": "medium"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.8,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.75,0.4,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "coffee_machine1",
+      "label": "coffee machine",
+      "location": "0.5,0.3,0.6,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "mixer1",
+      "label": "stand mixer",
+      "location": "0.6,0.3,0.7,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "granite pattern",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    }
+  ]
+}

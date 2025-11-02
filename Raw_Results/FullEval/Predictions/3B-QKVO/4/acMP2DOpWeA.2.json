@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "butter1",
+      "target": "pancake_stack"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake_stack",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "tablecloth1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fork1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bottle1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "medium"
+      },
+      "object_name": "pancake_stack",
+      "description": "stack of pancakes",
+      "location": "0.15,0.30,0.85,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow creamy",
+        "size": "small"
+      },
+      "object_name": "butter1",
+      "description": "butter block on top of pancakes",
+      "location": "0.45,0.20,0.60,0.35,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "object_name": "plate1",
+      "description": "white plate holding pancakes",
+      "location": "0.05,0.25,0.95,0.80,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "object_name": "fork1",
+      "description": "metal fork",
+      "location": "0.75,0.15,0.95,0.50,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden handle metal blade",
+        "size": "medium"
+      },
+      "object_name": "knife1",
+      "description": "metal knife with wooden handle",
+      "location": "0.80,0.15,0.98,0.60,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "brown glass",
+        "size": "medium"
+      },
+      "object_name": "bottle1",
+      "description": "glass bottle of syrup",
+      "location": "0.00,0.00,0.25,0.35,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "orange woven",
+        "size": "large"
+      },
+      "object_name": "tablecloth1",
+      "description": "woven tablecloth",
+      "location": "0.00,0.00,1.00,1.00,0.9"
+    }
+  ]
+}

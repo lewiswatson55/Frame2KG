@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "whisk1"
+    },
+    {
+      "predicate": "on",
+      "source": "whisk1",
+      "target": "pancake_face1"
+    },
+    {
+      "predicate": "in",
+      "source": "pancake_face1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "whisk1",
+      "target": "pancake_face1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "griddle pan",
+      "location": "0.05,0.1,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white batter",
+        "size": "medium"
+      },
+      "id": "pancake_face1",
+      "label": "batter face",
+      "location": "0.45,0.3,0.75,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "whisk1",
+      "label": "whisk",
+      "location": "0.75,0.0,0.95,0.3,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.75,0.0,1.0,0.3,0.8"
+    }
+  ]
+}

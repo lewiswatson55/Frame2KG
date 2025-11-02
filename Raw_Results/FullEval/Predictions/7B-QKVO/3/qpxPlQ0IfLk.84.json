@@ -1,0 +1,147 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "avocado"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar1",
+      "target": "lemon"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar1",
+      "target": "bottle2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "lemon"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "avocado",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "lemon",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle2",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "board1",
+      "target": "blender1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green glass bottle with label",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "Olive Oil Bottle",
+      "location": "0.05,0.03,0.24,0.97,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark green",
+        "size": "large"
+      },
+      "id": "avocado",
+      "label": "Avocado",
+      "location": "0.16,0.45,0.35,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow round",
+        "size": "small"
+      },
+      "id": "lemon",
+      "label": "Lemon",
+      "location": "0.45,0.6,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic jar with blue lid",
+        "size": "medium"
+      },
+      "id": "jar1",
+      "label": "Mayonnaise Jar",
+      "location": "0.4,0.2,0.55,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass bowl with white rice",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Rice Bowl",
+      "location": "0.55,0.5,0.75,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade with wooden handle",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "Knife",
+      "location": "0.75,0.7,0.95,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic base",
+        "size": "large"
+      },
+      "id": "blender1",
+      "label": "Blender Base",
+      "location": "0.2,0.0,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent yellow liquid bottle",
+        "size": "medium"
+      },
+      "id": "bottle2",
+      "label": "Sauce Bottle",
+      "location": "0.6,0.1,0.75,0.6,0.8"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "oil1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "meat1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "in",
+      "source": "bubbles1",
+      "target": "oil1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow bubbling liquid",
+        "size": "medium"
+      },
+      "id": "oil1",
+      "label": "cooking oil",
+      "location": "0.0,0.0,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey battered",
+        "size": "medium"
+      },
+      "id": "meat1",
+      "label": "breaded meat piece",
+      "location": "0.3,0.0,0.7,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white frothy",
+        "size": "small"
+      },
+      "id": "bubbles1",
+      "label": "oil bubbles",
+      "location": "0.0,0.0,1.0,0.6,0.7"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "mixer1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "toaster1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "kettle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "coffee_machine1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinets1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "coffee_machine1",
+      "target": "mixer1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "kettle1",
+      "target": "mixer1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "toaster1",
+      "target": "kettle1"
+    },
+    {
+      "predicate": "above",
+      "source": "stove1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin blonde hair white shirt black apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.15,0.05,0.48,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "plate of chicken wings",
+      "location": "0.35,0.75,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass orange sauce",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "sauce bowl",
+      "location": "0.25,0.85,0.35,0.98,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "medium"
+      },
+      "id": "mixer1",
+      "label": "stand mixer",
+      "location": "0.55,0.25,0.65,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "coffee_machine1",
+      "label": "coffee machine",
+      "location": "0.05,0.2,0.25,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver stainless steel",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.3,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinets1",
+      "label": "wooden cabinets",
+      "location": "0.4,0.0,1.0,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.4,1.0,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "toaster1",
+      "label": "toaster",
+      "location": "0.65,0.3,0.75,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "kettle1",
+      "label": "kettle",
+      "location": "0.75,0.3,0.85,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.85,0.5,1.0,0.7,0.8"
+    }
+  ]
+}

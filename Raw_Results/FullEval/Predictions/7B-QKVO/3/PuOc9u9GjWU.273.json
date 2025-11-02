@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "strip1"
+    },
+    {
+      "predicate": "on",
+      "source": "strip1",
+      "target": "background1"
+    },
+    {
+      "predicate": "on",
+      "source": "strip2",
+      "target": "background1"
+    },
+    {
+      "predicate": "on",
+      "source": "strip3",
+      "target": "background1"
+    },
+    {
+      "predicate": "on",
+      "source": "strip4",
+      "target": "background1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink gradient",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "purple stripe",
+        "size": "medium"
+      },
+      "id": "strip1",
+      "label": "Horizontal Stripe",
+      "location": "0.0,0.6,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on purple stripe",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "Text 'Thank You For Watching'",
+      "location": "0.2,0.6,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light beige vertical line",
+        "size": "medium"
+      },
+      "id": "strip2",
+      "label": "Vertical Line",
+      "location": "0.0,0.0,0.1,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige vertical line",
+        "size": "medium"
+      },
+      "id": "strip3",
+      "label": "Vertical Line",
+      "location": "0.1,0.0,0.2,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red vertical line",
+        "size": "medium"
+      },
+      "id": "strip4",
+      "label": "Vertical Line",
+      "location": "0.2,0.0,0.3,1.0,0.8"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "dish1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "in",
+      "source": "food1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "food1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "hand2",
+      "target": "dish1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown skin",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "left hand",
+      "location": "0.05,0.05,0.45,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown skin",
+        "size": "medium"
+      },
+      "id": "hand2",
+      "label": "right hand",
+      "location": "0.3,0.1,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "dish1",
+      "label": "glass baking dish",
+      "location": "0.0,0.2,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cheesy pasta",
+        "size": "large"
+      },
+      "id": "food1",
+      "label": "macaroni casserole",
+      "location": "0.0,0.2,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark brown surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.8,1.0,1.0,0.7"
+    }
+  ]
+}

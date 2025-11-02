@@ -1,0 +1,155 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "sign1",
+      "target": "stand"
+    },
+    {
+      "predicate": "on",
+      "source": "table1",
+      "target": "stand"
+    },
+    {
+      "predicate": "on",
+      "source": "chair1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "table2",
+      "target": "stand"
+    },
+    {
+      "predicate": "on",
+      "source": "chair2",
+      "target": "table2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person2",
+      "target": "table2"
+    },
+    {
+      "predicate": "behind",
+      "source": "trees1",
+      "target": "stand"
+    },
+    {
+      "predicate": "left_of",
+      "source": "people1",
+      "target": "stand"
+    },
+    {
+      "predicate": "right_of",
+      "source": "people2",
+      "target": "stand"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "large"
+      },
+      "id": "stand",
+      "label": "Shake Shack Stand",
+      "location": "0.35,0.0,0.98,0.47,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue",
+        "size": "medium"
+      },
+      "id": "sign1",
+      "label": "Shake Shack Sign",
+      "location": "0.46,0.6,0.75,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green metal",
+        "size": "small"
+      },
+      "id": "table1",
+      "label": "Outdoor Table",
+      "location": "0.05,0.6,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green metal",
+        "size": "small"
+      },
+      "id": "chair1",
+      "label": "Chair",
+      "location": "0.05,0.6,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green metal",
+        "size": "small"
+      },
+      "id": "table2",
+      "label": "Outdoor Table",
+      "location": "0.3,0.6,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green metal",
+        "size": "small"
+      },
+      "id": "chair2",
+      "label": "Chair",
+      "location": "0.3,0.6,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown hair white shirt",
+        "size": "small"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.05,0.6,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown hair white shirt",
+        "size": "small"
+      },
+      "id": "person2",
+      "label": "Person",
+      "location": "0.3,0.6,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "mixed colors",
+        "size": "large"
+      },
+      "id": "people1",
+      "label": "Crowd of People",
+      "location": "0.0,0.4,0.5,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "mixed colors",
+        "size": "large"
+      },
+      "id": "people2",
+      "label": "Crowd of People",
+      "location": "0.5,0.4,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green foliage",
+        "size": "large"
+      },
+      "id": "trees1",
+      "label": "Trees",
+      "location": "0.0,0.0,1.0,0.5,0.7"
+    }
+  ]
+}

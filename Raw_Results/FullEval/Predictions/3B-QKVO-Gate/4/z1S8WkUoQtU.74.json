@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "painting1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "vase1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "logo1",
+      "target": "painting1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.15,0.0,0.85,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.47,0.63,0.57,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange ceramic",
+        "size": "medium"
+      },
+      "id": "vase1",
+      "label": "decorative vase",
+      "location": "0.75,0.35,0.95,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "abstract black frame",
+        "size": "medium"
+      },
+      "id": "painting1",
+      "label": "artwork",
+      "location": "0.2,0.1,0.4,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey utensils icon",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "logo",
+      "location": "0.0,0.0,0.1,0.15,0.6"
+    }
+  ]
+}

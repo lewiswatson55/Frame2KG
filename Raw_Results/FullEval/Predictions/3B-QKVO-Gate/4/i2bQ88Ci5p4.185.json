@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "fork"
+    },
+    {
+      "predicate": "supports",
+      "source": "fork",
+      "target": "chicken_wing"
+    },
+    {
+      "predicate": "next_to",
+      "source": "glass_bowl",
+      "target": "can_drink"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "fridge"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cabinet",
+      "target": "fridge"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt glasses",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man chef",
+      "location": "0.0,0.05,0.48,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black jacket hair braid",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman chef",
+      "location": "0.48,0.05,0.96,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "fork",
+      "label": "fork",
+      "location": "0.35,0.55,0.45,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange fried",
+        "size": "small"
+      },
+      "id": "chicken_wing",
+      "label": "chicken wing",
+      "location": "0.38,0.58,0.42,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass yellow liquid",
+        "size": "small"
+      },
+      "id": "glass_bowl",
+      "label": "bowl of sauce",
+      "location": "0.0,0.75,0.15,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white label yellow can",
+        "size": "small"
+      },
+      "id": "can_drink",
+      "label": "drink can",
+      "location": "0.9,0.75,1.0,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "fridge",
+      "label": "refrigerator",
+      "location": "0.48,0.0,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.5,0.4,0.8"
+    }
+  ]
+}

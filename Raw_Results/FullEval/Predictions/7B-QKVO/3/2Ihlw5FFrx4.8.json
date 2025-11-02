@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "background"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "background"
+    },
+    {
+      "predicate": "next_to",
+      "source": "logo1",
+      "target": "text1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink gradient",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white red pink text",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Text",
+      "location": "0.03,0.4,0.67,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown crust",
+        "size": "medium"
+      },
+      "id": "bread1",
+      "label": "Bread Loaf",
+      "location": "0.5,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white star logo",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Logo",
+      "location": "0.0,0.0,0.2,0.2,0.8"
+    }
+  ]
+}

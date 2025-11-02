@@ -1,0 +1,103 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "cutting",
+      "source": "knife1",
+      "target": "onion1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "onion1",
+      "target": "onion2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl1",
+      "target": "onion3"
+    },
+    {
+      "predicate": "behind",
+      "source": "logo1",
+      "target": "table1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.45,0.18,0.75,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal blade",
+        "size": "large"
+      },
+      "id": "knife1",
+      "label": "Knife",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple translucent",
+        "size": "small"
+      },
+      "id": "onion1",
+      "label": "Onion half",
+      "location": "0.45,0.35,0.65,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "purple translucent",
+        "size": "small"
+      },
+      "id": "onion2",
+      "label": "Onion half",
+      "location": "0.65,0.35,0.8,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Bowl of onions",
+      "location": "0.0,0.6,0.5,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink translucent",
+        "size": "small"
+      },
+      "id": "onion3",
+      "label": "Onion half",
+      "location": "0.2,0.6,0.4,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red black white",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Logo",
+      "location": "0.75,0.0,1.0,0.2,0.9"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "on",
+      "source": "dish1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "logo1",
+      "target": "dish1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "dish1",
+      "label": "glass baking dish",
+      "location": "0.05,0.15,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange sauced chicken pieces",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "baked chicken wings",
+      "location": "0.15,0.30,0.90,0.65,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "brown skin",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.75,0.05,0.98,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "metal spoon",
+      "location": "0.70,0.10,0.90,0.40,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop burner",
+      "location": "0.00,0.75,0.50,1.00,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Chef Ricardo logo",
+      "location": "0.45,0.75,0.95,0.95,0.9"
+    }
+  ]
+}

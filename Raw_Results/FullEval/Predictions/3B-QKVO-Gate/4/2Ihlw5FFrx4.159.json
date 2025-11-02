@@ -1,0 +1,145 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "paper"
+    },
+    {
+      "predicate": "on",
+      "source": "sandwich",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "plate",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "vase",
+      "target": "table"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "tv_screen",
+      "target": "wall"
+    },
+    {
+      "predicate": "behind",
+      "source": "curtain",
+      "target": "tv_screen"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "person2",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "turquoise shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.0,0.15,0.48,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green dress",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.52,0.15,0.96,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink purple graphic",
+        "size": "large"
+      },
+      "id": "tv_screen",
+      "label": "TV screen",
+      "location": "0.2,0.0,0.8,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with red pepper",
+        "size": "small"
+      },
+      "id": "plate",
+      "label": "plate of food",
+      "location": "0.35,0.55,0.55,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread with lettuce",
+        "size": "small"
+      },
+      "id": "sandwich",
+      "label": "sandwich",
+      "location": "0.15,0.6,0.35,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden board",
+        "size": "medium"
+      },
+      "id": "board",
+      "label": "cutting board",
+      "location": "0.1,0.6,0.4,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver vase with white flowers",
+        "size": "small"
+      },
+      "id": "vase",
+      "label": "flower vase",
+      "location": "0.45,0.55,0.55,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "table",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink curtain",
+        "size": "large"
+      },
+      "id": "curtain",
+      "label": "curtain",
+      "location": "0.7,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal desk",
+        "size": "medium"
+      },
+      "id": "desk",
+      "label": "desk",
+      "location": "0.6,0.3,0.9,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text",
+        "size": "small"
+      },
+      "id": "text_overlay",
+      "label": "text overlay",
+      "location": "0.0,0.8,0.5,1.0,0.9"
+    }
+  ]
+}

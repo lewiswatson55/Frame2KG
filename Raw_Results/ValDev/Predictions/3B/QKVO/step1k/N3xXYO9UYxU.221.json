@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "measuring_spoon"
+    },
+    {
+      "predicate": "on",
+      "source": "measuring_spoon",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in",
+      "source": "liquid1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "coaster1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pot1",
+      "target": "coaster1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "spatula1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white plastic handle red silicone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.0,0.35,0.4,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "measuring_spoon",
+      "label": "measuring spoon",
+      "location": "0.0,0.3,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.5,0.8,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow liquid",
+        "size": "medium"
+      },
+      "id": "liquid1",
+      "label": "yellow liquid",
+      "location": "0.45,0.45,0.75,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.5,0.0,0.9,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange rubber",
+        "size": "small"
+      },
+      "id": "coaster1",
+      "label": "rubber coaster",
+      "location": "0.6,0.2,0.9,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pot1",
+      "label": "kettle",
+      "location": "0.8,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.0,0.0,0.4,0.3,0.7"
+    }
+  ]
+}

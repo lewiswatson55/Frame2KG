@@ -1,0 +1,803 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate2",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar2",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar3",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar4",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar5",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar6",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar7",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar8",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomatoes1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board1",
+      "target": "table1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "pan1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "fridge1",
+      "target": "fridge2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "fridge2",
+      "target": "fridge1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.25,0.0,0.55,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.55,0.55,0.75,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "kitchen table",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate of food",
+      "location": "0.35,0.75,0.5,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.65,0.75,0.75,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red sliced",
+        "size": "small"
+      },
+      "id": "tomatoes1",
+      "label": "tomato slices",
+      "location": "0.75,0.75,0.85,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.8,0.75,0.95,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass yellow",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "sauce jar",
+      "location": "0.15,0.5,0.2,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass red",
+        "size": "small"
+      },
+      "id": "jar2",
+      "label": "sauce jar",
+      "location": "0.2,0.5,0.25,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass black",
+        "size": "small"
+      },
+      "id": "jar3",
+      "label": "sauce jar",
+      "location": "0.25,0.5,0.3,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass brown",
+        "size": "small"
+      },
+      "id": "jar4",
+      "label": "sauce jar",
+      "location": "0.3,0.5,0.35,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass white",
+        "size": "small"
+      },
+      "id": "jar5",
+      "label": "sauce jar",
+      "location": "0.35,0.5,0.4,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass yellow",
+        "size": "small"
+      },
+      "id": "jar6",
+      "label": "sauce jar",
+      "location": "0.4,0.5,0.45,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass white",
+        "size": "small"
+      },
+      "id": "jar7",
+      "label": "sauce jar",
+      "location": "0.45,0.5,0.5,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass yellow",
+        "size": "small"
+      },
+      "id": "jar8",
+      "label": "sauce jar",
+      "location": "0.5,0.5,0.55,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.5,0.6,0.6,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "medium"
+      },
+      "id": "frame1",
+      "label": "picture frame",
+      "location": "0.0,0.3,0.2,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "medium"
+      },
+      "id": "frame2",
+      "label": "picture frame",
+      "location": "0.5,0.0,0.7,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "medium"
+      },
+      "id": "frame3",
+      "label": "picture frame",
+      "location": "0.7,0.0,0.9,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "fruit shelf",
+      "location": "0.3,0.2,0.4,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf2",
+      "label": "utensil rack",
+      "location": "0.4,0.2,0.5,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf3",
+      "label": "cabinet door",
+      "location": "0.0,0.0,0.3,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf4",
+      "label": "cabinet door",
+      "location": "0.3,0.0,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf5",
+      "label": "cabinet door",
+      "location": "0.6,0.0,0.9,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf6",
+      "label": "cabinet door",
+      "location": "0.9,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf7",
+      "label": "cabinet door",
+      "location": "0.0,0.6,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf8",
+      "label": "cabinet door",
+      "location": "0.3,0.6,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf9",
+      "label": "cabinet door",
+      "location": "0.6,0.6,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf10",
+      "label": "cabinet door",
+      "location": "0.9,0.6,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf11",
+      "label": "cabinet door",
+      "location": "0.0,0.3,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf12",
+      "label": "cabinet door",
+      "location": "0.3,0.3,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf13",
+      "label": "cabinet door",
+      "location": "0.6,0.3,0.9,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf14",
+      "label": "cabinet door",
+      "location": "0.9,0.3,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf15",
+      "label": "cabinet door",
+      "location": "0.0,0.6,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf16",
+      "label": "cabinet door",
+      "location": "0.3,0.6,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf17",
+      "label": "cabinet door",
+      "location": "0.6,0.6,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf18",
+      "label": "cabinet door",
+      "location": "0.9,0.6,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf19",
+      "label": "cabinet door",
+      "location": "0.0,0.9,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf20",
+      "label": "cabinet door",
+      "location": "0.3,0.9,0.6,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf21",
+      "label": "cabinet door",
+      "location": "0.6,0.9,0.9,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf22",
+      "label": "cabinet door",
+      "location": "0.9,0.9,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf23",
+      "label": "cabinet door",
+      "location": "0.0,0.2,0.3,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf24",
+      "label": "cabinet door",
+      "location": "0.3,0.2,0.6,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf25",
+      "label": "cabinet door",
+      "location": "0.6,0.2,0.9,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf26",
+      "label": "cabinet door",
+      "location": "0.9,0.2,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf27",
+      "label": "cabinet door",
+      "location": "0.0,0.5,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf28",
+      "label": "cabinet door",
+      "location": "0.3,0.5,0.6,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf29",
+      "label": "cabinet door",
+      "location": "0.6,0.5,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf30",
+      "label": "cabinet door",
+      "location": "0.9,0.5,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf31",
+      "label": "cabinet door",
+      "location": "0.0,0.8,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf32",
+      "label": "cabinet door",
+      "location": "0.3,0.8,0.6,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf33",
+      "label": "cabinet door",
+      "location": "0.6,0.8,0.9,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf34",
+      "label": "cabinet door",
+      "location": "0.9,0.8,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf35",
+      "label": "cabinet door",
+      "location": "0.0,0.1,0.3,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf36",
+      "label": "cabinet door",
+      "location": "0.3,0.1,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf37",
+      "label": "cabinet door",
+      "location": "0.6,0.1,0.9,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf38",
+      "label": "cabinet door",
+      "location": "0.9,0.1,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf39",
+      "label": "cabinet door",
+      "location": "0.0,0.4,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf40",
+      "label": "cabinet door",
+      "location": "0.3,0.4,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf41",
+      "label": "cabinet door",
+      "location": "0.6,0.4,0.9,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf42",
+      "label": "cabinet door",
+      "location": "0.9,0.4,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf43",
+      "label": "cabinet door",
+      "location": "0.0,0.7,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf44",
+      "label": "cabinet door",
+      "location": "0.3,0.7,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf45",
+      "label": "cabinet door",
+      "location": "0.6,0.7,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf46",
+      "label": "cabinet door",
+      "location": "0.9,0.7,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf47",
+      "label": "cabinet door",
+      "location": "0.0,0.2,0.3,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf48",
+      "label": "cabinet door",
+      "location": "0.3,0.2,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf49",
+      "label": "cabinet door",
+      "location": "0.6,0.2,0.9,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf50",
+      "label": "cabinet door",
+      "location": "0.9,0.2,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf51",
+      "label": "cabinet door",
+      "location": "0.0,0.5,0.3,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf52",
+      "label": "cabinet door",
+      "location": "0.3,0.5,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf53",
+      "label": "cabinet door",
+      "location": "0.6,0.5,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf54",
+      "label": "cabinet door",
+      "location": "0.9,0.5,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf55",
+      "label": "cabinet door",
+      "location": "0.0,0.8,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf56",
+      "label": "cabinet door",
+      "location": "0.3,0.8,0.6,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf57",
+      "label": "cabinet door",
+      "location": "0.6,0.8,0.9,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf58",
+      "label": "cabinet door",
+      "location": "0.9,0.8,1.0,1.0,0.8"
+    }
+  ]
+}

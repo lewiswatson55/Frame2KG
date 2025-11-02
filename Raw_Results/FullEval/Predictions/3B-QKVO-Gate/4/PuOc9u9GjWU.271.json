@@ -1,0 +1,81 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "text2",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "text3",
+      "target": "background"
+    },
+    {
+      "predicate": "left_of",
+      "source": "strip1",
+      "target": "background"
+    },
+    {
+      "predicate": "right_of",
+      "source": "strip2",
+      "target": "background"
+    },
+    {
+      "predicate": "below",
+      "source": "strip1",
+      "target": "strip2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "solid pink",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "pink background",
+      "location": "0.0,0.0,1.0,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Produced by Ninik Becker",
+      "location": "0.45,0.05,0.75,0.25,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "small"
+      },
+      "id": "text2",
+      "label": "Filmed in Germany 2015",
+      "location": "0.45,0.65,0.75,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "thin light pink",
+        "size": "medium"
+      },
+      "id": "strip1",
+      "label": "vertical stripe",
+      "location": "0.0,0.0,0.1,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "thin light pink",
+        "size": "medium"
+      },
+      "id": "strip2",
+      "label": "vertical stripe",
+      "location": "0.1,0.0,0.2,1.0,0.8"
+    }
+  ]
+}

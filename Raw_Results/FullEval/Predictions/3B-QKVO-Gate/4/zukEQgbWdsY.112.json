@@ -1,0 +1,182 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "cloth"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "pan2",
+      "target": "stove"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet_left"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "cabinet_right"
+    },
+    {
+      "predicate": "left_of",
+      "source": "window",
+      "target": "oven"
+    },
+    {
+      "predicate": "behind",
+      "source": "bottles",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "blender",
+      "target": "person2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate_bread",
+      "target": "blender"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.05,0.60,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt with pig graphic",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.60,0.05,0.85,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.05,0.65,0.45,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.35,0.65,0.55,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "pan2",
+      "label": "frying pan",
+      "location": "0.60,0.65,0.85,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black stainless steel",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "gas stove",
+      "location": "0.25,0.60,0.75,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottles",
+        "size": "medium"
+      },
+      "id": "bottles",
+      "label": "bottles",
+      "location": "0.50,0.00,0.80,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "window",
+      "label": "window",
+      "location": "0.00,0.00,0.25,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver stainless steel",
+        "size": "medium"
+      },
+      "id": "oven",
+      "label": "oven",
+      "location": "0.25,0.10,0.45,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinet_left",
+      "label": "kitchen cabinet",
+      "location": "0.00,0.00,0.30,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinet_right",
+      "label": "kitchen cabinet",
+      "location": "0.50,0.00,1.00,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender",
+      "label": "blender",
+      "location": "0.85,0.45,0.98,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate_bread",
+      "label": "plate of bread",
+      "location": "0.85,0.75,0.98,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink cloth",
+        "size": "small"
+      },
+      "id": "cloth",
+      "label": "cloth",
+      "location": "0.45,0.30,0.55,0.50,0.8"
+    }
+  ]
+}

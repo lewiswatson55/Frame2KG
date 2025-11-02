@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "paper_towel"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chicken1",
+      "target": "bowl_red"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "chicken1",
+      "target": "tray_crumbs"
+    },
+    {
+      "predicate": "on",
+      "source": "tray_crumbs",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "pan",
+      "target": "stove_top"
+    },
+    {
+      "predicate": "behind",
+      "source": "person_arm",
+      "target": "pan"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person_arm",
+      "target": "stove_top"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green white striped shirt",
+        "size": "medium"
+      },
+      "id": "person_arm",
+      "label": "Person's arm",
+      "location": "0.05,0.0,0.35,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "stove_top",
+      "label": "Electric stove top",
+      "location": "0.35,0.15,0.65,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan",
+      "label": "Frying pan",
+      "location": "0.35,0.0,0.7,0.25,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tray_crumbs",
+      "label": "Baking tray with crumbs",
+      "location": "0.2,0.3,0.8,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "bowl_red",
+      "label": "Red bowl",
+      "location": "0.1,0.5,0.3,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper towel",
+        "size": "large"
+      },
+      "id": "paper_towel",
+      "label": "Paper towel",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "Fried chicken pieces",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board",
+      "label": "Cutting board",
+      "location": "0.0,0.4,0.6,0.6,0.8"
+    }
+  ]
+}

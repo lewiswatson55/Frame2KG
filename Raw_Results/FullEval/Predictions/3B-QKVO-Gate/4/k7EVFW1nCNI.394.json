@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "lemon1"
+    },
+    {
+      "predicate": "on",
+      "source": "lemon1",
+      "target": "salad_bowl1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "salad_bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "croutons_bowl1",
+      "target": "salad_bowl1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "mixing_bowl1",
+      "target": "salad_bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "stand_mixer1",
+      "target": "mixing_bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "plate1",
+      "target": "salad_bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "box1",
+      "target": "croutons_bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white lace top",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.35,0.0,0.65,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow citrus",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "Lemon",
+      "location": "0.47,0.25,0.53,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "salad_bowl1",
+      "label": "Salad bowl",
+      "location": "0.35,0.45,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with brown croutons",
+        "size": "small"
+      },
+      "id": "croutons_bowl1",
+      "label": "Bowl of croutons",
+      "location": "0.15,0.45,0.35,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with red silicone spatulas",
+        "size": "large"
+      },
+      "id": "mixing_bowl1",
+      "label": "Mixing bowl",
+      "location": "0.65,0.35,0.95,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "stand_mixer1",
+      "label": "Stand mixer",
+      "location": "0.75,0.0,0.95,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.30,0.25,0.45,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black cardboard",
+        "size": "small"
+      },
+      "id": "box1",
+      "label": "Box",
+      "location": "0.0,0.45,0.15,0.75,0.9"
+    }
+  ]
+}

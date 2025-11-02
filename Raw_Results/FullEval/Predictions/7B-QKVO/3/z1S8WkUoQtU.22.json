@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "onion_rings"
+    },
+    {
+      "predicate": "on",
+      "source": "onion_rings",
+      "target": "cutting_board"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink skin with white nail polish",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.35,0.0,0.98,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "purple red rings",
+        "size": "small"
+      },
+      "id": "onion_rings",
+      "label": "sliced onion rings",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    }
+  ]
+}

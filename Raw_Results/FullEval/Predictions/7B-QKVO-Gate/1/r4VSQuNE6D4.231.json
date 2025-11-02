@@ -1,0 +1,127 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "plant1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "vase1",
+      "target": "plant1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "table1",
+      "target": "fireplace1"
+    },
+    {
+      "predicate": "behind",
+      "source": "fireplace1",
+      "target": "table1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "window_left",
+      "target": "table1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "window_right",
+      "target": "table1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "grey t-shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.45,0.05,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "spoon1",
+      "label": "spoon",
+      "location": "0.53,0.55,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "vase",
+      "location": "0.15,0.65,0.45,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves red flowers",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "potted plant",
+      "location": "0.20,0.30,0.45,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white glass",
+        "size": "large"
+      },
+      "id": "window_left",
+      "label": "window",
+      "location": "0.00,0.00,0.25,0.80,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white glass",
+        "size": "large"
+      },
+      "id": "window_right",
+      "label": "window",
+      "location": "0.75,0.00,1.00,0.80,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.00,0.60,1.00,1.00,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "fireplace1",
+      "label": "fireplace",
+      "location": "0.20,0.00,0.60,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stacked tortillas on floral plate",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate of tortillas",
+      "location": "0.50,0.70,0.80,0.90,0.8"
+    }
+  ]
+}

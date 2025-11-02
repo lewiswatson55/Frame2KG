@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "toast1",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "toast2",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "spoon",
+      "target": "bowl_green"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_green",
+      "target": "toast1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "plate_large",
+      "target": "board"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "board",
+      "target": "microwave"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "wooden cutting board",
+      "location": "0.35,0.4,0.98,0.96,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread with green spread",
+        "size": "small"
+      },
+      "id": "toast1",
+      "label": "toast slice",
+      "location": "0.45,0.45,0.75,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread with white spread",
+        "size": "small"
+      },
+      "id": "toast2",
+      "label": "toast slice",
+      "location": "0.35,0.55,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic bowl with green spread",
+        "size": "small"
+      },
+      "id": "bowl_green",
+      "label": "bowl of green spread",
+      "location": "0.1,0.75,0.3,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "spoon",
+      "label": "metal spoon",
+      "location": "0.15,0.6,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate_large",
+      "label": "ceramic plate",
+      "location": "0.0,0.1,0.5,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black glass",
+        "size": "medium"
+      },
+      "id": "microwave",
+      "label": "microwave oven",
+      "location": "0.5,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

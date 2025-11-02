@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "food1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "food1",
+      "target": "food2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "orange textured",
+        "size": "large"
+      },
+      "id": "food1",
+      "label": "fried food",
+      "location": "0.05,0.0,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green smooth",
+        "size": "medium"
+      },
+      "id": "food2",
+      "label": "smooth green sauce",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "metal plate",
+      "location": "0.0,0.4,1.0,1.0,0.8"
+    }
+  ]
+}

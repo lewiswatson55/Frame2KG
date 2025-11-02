@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "includes",
+      "source": "dish1",
+      "target": "pasta1"
+    },
+    {
+      "predicate": "on",
+      "source": "dish1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "dish2",
+      "target": "dish1"
+    },
+    {
+      "predicate": "on",
+      "source": "dish3",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "container1",
+      "target": "table1"
+    },
+    {
+      "predicate": "behind",
+      "source": "container1",
+      "target": "dish1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.4,0.6,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "Spatula",
+      "location": "0.1,0.4,0.7,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver foil",
+        "size": "large"
+      },
+      "id": "dish1",
+      "label": "Aluminum Dish",
+      "location": "0.0,0.2,0.7,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white pasta with yellow cheese sauce",
+        "size": "large"
+      },
+      "id": "pasta1",
+      "label": "Pasta",
+      "location": "0.05,0.3,0.65,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver foil",
+        "size": "large"
+      },
+      "id": "dish2",
+      "label": "Aluminum Dish",
+      "location": "0.7,0.1,1.0,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic lid",
+        "size": "medium"
+      },
+      "id": "dish3",
+      "label": "Plastic Lid",
+      "location": "0.75,0.2,0.98,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "plastic container with shredded cheese",
+        "size": "small"
+      },
+      "id": "container1",
+      "label": "Cheese Container",
+      "location": "0.3,0.0,0.6,0.2,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table Surface",
+      "location": "0.0,0.8,1.0,1.0,0.9"
+    }
+  ]
+}

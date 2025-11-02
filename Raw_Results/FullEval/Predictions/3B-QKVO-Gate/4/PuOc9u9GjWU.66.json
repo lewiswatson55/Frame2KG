@@ -1,0 +1,89 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "flour1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula1",
+      "target": "flour1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "garlic_powder1",
+      "target": "white_pepper1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "white_pepper1",
+      "target": "salt1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.05,0.45,0.95,0.98,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige powder",
+        "size": "medium"
+      },
+      "id": "flour1",
+      "label": "flour mixture",
+      "location": "0.1,0.3,0.9,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "wooden spatula",
+      "location": "0.6,0.1,0.9,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "ingredient list text",
+      "location": "0.0,0.0,0.5,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "garlic_powder1",
+      "label": "garlic powder",
+      "location": "0.15,0.35,0.3,0.45,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "white_pepper1",
+      "label": "white pepper",
+      "location": "0.3,0.35,0.45,0.45,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "salt1",
+      "label": "salt",
+      "location": "0.45,0.35,0.6,0.45,0.7"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "chair1",
+      "target": "table1"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "rack1",
+      "target": "chalkboard1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "chalkboard1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "pots1",
+      "target": "shelf1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue red plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce",
+      "location": "0.47,0.55,0.58,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.45,0.65,0.75,0.95,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crust",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "bread loaf",
+      "location": "0.75,0.75,0.95,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.75,0.75,0.95,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.0,0.4,0.2,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "mayonnaise bottle",
+      "location": "0.05,0.6,0.15,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "medium"
+      },
+      "id": "table1",
+      "label": "round table",
+      "location": "0.2,0.4,0.4,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal frame",
+        "size": "small"
+      },
+      "id": "chalkboard1",
+      "label": "chalkboard sign",
+      "location": "0.8,0.1,0.9,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "rack1",
+      "label": "book rack",
+      "location": "0.9,0.1,1.0,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey brick",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "brick wall",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden shelf",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.2,0.0,0.8,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal pots",
+        "size": "small"
+      },
+      "id": "pots1",
+      "label": "hanging pots",
+      "location": "0.45,0.0,0.6,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wicker basket",
+        "size": "small"
+      },
+      "id": "basket1",
+      "label": "fruit basket",
+      "location": "0.35,0.3,0.45,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal chair",
+        "size": "small"
+      },
+      "id": "chair1",
+      "label": "bar stool",
+      "location": "0.2,0.4,0.3,0.6,0.7"
+    }
+  ]
+}

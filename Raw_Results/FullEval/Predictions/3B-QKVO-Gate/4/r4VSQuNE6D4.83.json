@@ -1,0 +1,53 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "cloth1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "table1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "pan1",
+      "target": "cloth1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pan1",
+      "target": "cloth1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red floral fabric",
+        "size": "medium"
+      },
+      "id": "cloth1",
+      "label": "Floral Cloth",
+      "location": "0.05,0.3,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow ceramic",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "Ceramic Pan",
+      "location": "0.4,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table Surface",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

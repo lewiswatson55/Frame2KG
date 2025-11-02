@@ -1,0 +1,160 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "lemon1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "avocado1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "salt_shaker1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper_shaker1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_slices1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plant1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "multicolored plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.75,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with golden liquid",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "glass bottle",
+      "location": "0.38,0.0,0.46,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow citrus",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "lemon",
+      "location": "0.25,0.55,0.35,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black avocado",
+        "size": "small"
+      },
+      "id": "avocado1",
+      "label": "avocado",
+      "location": "0.35,0.55,0.45,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "salt_shaker1",
+      "label": "salt shaker",
+      "location": "0.05,0.65,0.15,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "small"
+      },
+      "id": "pepper_shaker1",
+      "label": "pepper shaker",
+      "location": "0.15,0.65,0.25,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic blade black handle",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.45,0.45,0.55,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread slices",
+        "size": "small"
+      },
+      "id": "bread_slices1",
+      "label": "bread slices",
+      "location": "0.4,0.6,0.6,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "tray",
+      "location": "0.3,0.6,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "medium"
+      },
+      "id": "plant1",
+      "label": "plant",
+      "location": "0.7,0.0,1.0,0.5,0.7"
+    }
+  ]
+}

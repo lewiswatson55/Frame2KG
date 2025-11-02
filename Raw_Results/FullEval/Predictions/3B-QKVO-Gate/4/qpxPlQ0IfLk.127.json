@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "packet1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "packet1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "behind",
+      "source": "logo1",
+      "target": "packet1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.45,0.30,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red white striped",
+        "size": "small"
+      },
+      "id": "packet1",
+      "label": "Packet",
+      "location": "0.30,0.40,0.65,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green plastic",
+        "size": "large"
+      },
+      "id": "bottle1",
+      "label": "Bottle",
+      "location": "0.00,0.20,0.30,0.80,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Logo",
+      "location": "0.00,0.00,0.20,0.20,0.6"
+    }
+  ]
+}

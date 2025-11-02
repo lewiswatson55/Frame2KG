@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "measuring_cup"
+    },
+    {
+      "predicate": "on",
+      "source": "measuring_cup",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in",
+      "source": "liquid1",
+      "target": "measuring_cup"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "lid1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "spoon1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "stove1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying_pan",
+      "location": "0.05,0.45,0.95,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "measuring_cup",
+      "label": "measuring_cup",
+      "location": "0.0,0.3,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow liquid",
+        "size": "small"
+      },
+      "id": "liquid1",
+      "label": "liquid",
+      "location": "0.2,0.3,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass_bowl",
+      "location": "0.5,0.0,0.9,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "spoon1",
+      "label": "spoon",
+      "location": "0.0,0.0,0.4,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "orange silicone",
+        "size": "small"
+      },
+      "id": "lid1",
+      "label": "lid",
+      "location": "0.8,0.4,1.0,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red rubber",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.0,0.2,0.3,0.5,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.0,0.0,1.0,0.2,0.6"
+    }
+  ]
+}

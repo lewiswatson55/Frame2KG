@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pancake_stack1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "butter1",
+      "target": "pancake_stack1"
+    },
+    {
+      "predicate": "pouring_on",
+      "source": "syrup_bottle1",
+      "target": "pancake_stack1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife_set1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "behind",
+      "source": "knife_set1",
+      "target": "pancake_stack1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "medium"
+      },
+      "id": "pancake_stack1",
+      "label": "stack of pancakes",
+      "location": "0.35,0.4,0.68,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "butter1",
+      "label": "piece of butter",
+      "location": "0.45,0.45,0.55,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "syrup_bottle1",
+      "label": "maple syrup bottle",
+      "location": "0.55,0.0,0.85,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.2,0.2,0.8,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden handles metal blades",
+        "size": "medium"
+      },
+      "id": "knife_set1",
+      "label": "knife set",
+      "location": "0.7,0.1,0.95,0.4,0.8"
+    }
+  ]
+}

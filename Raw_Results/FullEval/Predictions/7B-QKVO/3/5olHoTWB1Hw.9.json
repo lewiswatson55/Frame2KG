@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese2",
+      "target": "bag1"
+    },
+    {
+      "predicate": "on",
+      "source": "bag1",
+      "target": "bag2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bag2",
+      "target": "bag3"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bag3",
+      "target": "bag4"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red plastic bag with white label",
+        "size": "medium"
+      },
+      "id": "bag1",
+      "label": "Sharp Cheddar Cheese Bag",
+      "location": "0.05,0.2,0.6,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic bag with green label",
+        "size": "large"
+      },
+      "id": "bag2",
+      "label": "Texas Spinach Chips Bag",
+      "location": "0.4,0.3,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cardboard box",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "Velveeta Box",
+      "location": "0.4,0.0,0.7,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic container",
+        "size": "small"
+      },
+      "id": "cheese2",
+      "label": "Cheese Block Container",
+      "location": "0.0,0.0,0.3,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic bag with pasta",
+        "size": "medium"
+      },
+      "id": "bag3",
+      "label": "Pasta Bag",
+      "location": "0.6,0.0,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green plastic bag with lettuce",
+        "size": "medium"
+      },
+      "id": "bag4",
+      "label": "Lettuce Bag",
+      "location": "0.5,0.4,1.0,1.0,0.8"
+    }
+  ]
+}

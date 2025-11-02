@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "hood1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "curtain1",
+      "target": "window1"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf1",
+      "target": "person1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "stove1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.45,0.0,1.0,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "breaded meat filling",
+        "size": "small"
+      },
+      "id": "sandwich1",
+      "label": "sandwich",
+      "location": "0.35,0.45,0.65,0.75,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.6,0.4,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.3,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "medium"
+      },
+      "id": "hood1",
+      "label": "range hood",
+      "location": "0.0,0.3,0.4,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown fabric",
+        "size": "medium"
+      },
+      "id": "curtain1",
+      "label": "curtain",
+      "location": "0.3,0.0,0.5,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass window",
+        "size": "medium"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.2,0.0,0.5,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden shelf",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.6,0.2,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "plastic bottle",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "bottle",
+      "location": "0.75,0.3,0.85,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "jar",
+      "location": "0.85,0.3,0.95,0.6,0.85"
+    }
+  ]
+}

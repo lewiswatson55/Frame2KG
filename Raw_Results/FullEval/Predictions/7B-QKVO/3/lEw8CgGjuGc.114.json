@@ -1,0 +1,127 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "bun_bottom1"
+    },
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato_slice1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "on",
+      "source": "mayonnaise1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "on",
+      "source": "bun_top1",
+      "target": "mayonnaise1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sauce_bottle1",
+      "target": "burger1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sauce_bottle2",
+      "target": "burger1"
+    },
+    {
+      "predicate": "behind",
+      "source": "plate1",
+      "target": "burger1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown bread",
+        "size": "medium"
+      },
+      "id": "bun_top1",
+      "label": "Burger Bun Top",
+      "location": "0.35,0.05,0.95,0.48,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown meat",
+        "size": "medium"
+      },
+      "id": "patty1",
+      "label": "Burger Patty",
+      "location": "0.45,0.37,0.9,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red slice",
+        "size": "small"
+      },
+      "id": "tomato_slice1",
+      "label": "Tomato Slice",
+      "location": "0.45,0.55,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy",
+        "size": "small"
+      },
+      "id": "mayonnaise1",
+      "label": "Mayonnaise",
+      "location": "0.45,0.3,0.9,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "large"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce Leaves",
+      "location": "0.2,0.6,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread",
+        "size": "medium"
+      },
+      "id": "bun_bottom1",
+      "label": "Burger Bun Bottom",
+      "location": "0.2,0.6,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "sauce_bottle1",
+      "label": "Sauce Bottle (Red)",
+      "location": "0.0,0.0,0.3,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "medium"
+      },
+      "id": "sauce_bottle2",
+      "label": "Sauce Bottle (Yellow)",
+      "location": "0.3,0.0,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.7,0.0,1.0,0.3,0.8"
+    }
+  ]
+}

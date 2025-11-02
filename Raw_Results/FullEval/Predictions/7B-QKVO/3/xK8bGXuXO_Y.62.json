@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "cutting",
+      "source": "knife1",
+      "target": "onion1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "onion1",
+      "target": "onion2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl1",
+      "target": "onion3"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl1",
+      "target": "onion4"
+    },
+    {
+      "predicate": "right_of",
+      "source": "logo1",
+      "target": "onion4"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.35,0.15,0.65,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade",
+        "size": "large"
+      },
+      "id": "knife1",
+      "label": "Knife",
+      "location": "0.0,0.0,1.0,0.25,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink translucent",
+        "size": "small"
+      },
+      "id": "onion1",
+      "label": "Onion half",
+      "location": "0.4,0.35,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink translucent",
+        "size": "small"
+      },
+      "id": "onion2",
+      "label": "Onion half",
+      "location": "0.7,0.35,0.95,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Bowl of chopped onions",
+      "location": "0.0,0.6,0.5,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink translucent",
+        "size": "small"
+      },
+      "id": "onion3",
+      "label": "Onion half",
+      "location": "0.0,0.6,0.3,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink translucent",
+        "size": "small"
+      },
+      "id": "onion4",
+      "label": "Onion half",
+      "location": "0.3,0.6,0.5,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red black white graphic",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Logo",
+      "location": "0.8,0.0,1.0,0.2,0.9"
+    }
+  ]
+}

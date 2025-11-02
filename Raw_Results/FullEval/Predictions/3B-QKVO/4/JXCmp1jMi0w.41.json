@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.35,0.0,0.65,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden handle yellow tip",
+        "size": "medium"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.45,0.1,0.75,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic interior white plastic exterior",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.1,0.1,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic black cap",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "Bottle",
+      "location": "0.0,0.7,0.3,1.0,0.8"
+    }
+  ]
+}

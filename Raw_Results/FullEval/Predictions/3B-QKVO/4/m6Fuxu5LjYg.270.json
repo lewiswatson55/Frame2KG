@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken2",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chicken1",
+      "target": "chicken2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "fried chicken piece",
+      "location": "0.05,0.3,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken2",
+      "label": "fried chicken piece",
+      "location": "0.4,0.1,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    }
+  ]
+}

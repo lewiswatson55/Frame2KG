@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "mixture1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "wearing",
+      "source": "hand1",
+      "target": "towel1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.05,0.0,0.45,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "metal spoon",
+      "location": "0.35,0.1,0.85,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.1,0.0,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige liquid",
+        "size": "medium"
+      },
+      "id": "mixture1",
+      "label": "liquid mixture",
+      "location": "0.2,0.1,0.8,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.7,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red fabric",
+        "size": "medium"
+      },
+      "id": "towel1",
+      "label": "kitchen towel",
+      "location": "0.0,0.8,0.3,1.0,0.8"
+    }
+  ]
+}

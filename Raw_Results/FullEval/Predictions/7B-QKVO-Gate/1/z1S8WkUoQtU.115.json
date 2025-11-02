@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "shirt1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "painting1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sculpture1",
+      "target": "painting1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "dark hair, pink shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.0,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink fabric",
+        "size": "medium"
+      },
+      "id": "shirt1",
+      "label": "shirt",
+      "location": "0.07,0.3,0.55,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame on grey background",
+        "size": "small"
+      },
+      "id": "painting1",
+      "label": "painting",
+      "location": "0.1,0.1,0.4,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "orange ceramic",
+        "size": "small"
+      },
+      "id": "sculpture1",
+      "label": "sculpture",
+      "location": "0.7,0.3,0.9,0.7,0.8"
+    }
+  ]
+}

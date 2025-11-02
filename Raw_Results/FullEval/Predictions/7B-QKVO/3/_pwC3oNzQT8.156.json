@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "on",
+      "source": "hand1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chicken2",
+      "target": "dish1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "dish1",
+      "label": "glass baking dish",
+      "location": "0.05,0.3,0.98,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange sauce-coated",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "chicken pieces",
+      "location": "0.1,0.4,0.7,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.5,0.0,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange sauce-coated",
+        "size": "small"
+      },
+      "id": "chicken2",
+      "label": "chicken piece",
+      "location": "0.75,0.45,0.98,0.75,0.8"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "cabinet1",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black chef coat and black headscarf",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.53,0.04,0.98,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige ceramic tiles",
+        "size": "medium"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.4,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white tile backsplash",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "tile wall",
+      "location": "0.0,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bowl with white rice",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl of rice",
+      "location": "0.45,0.65,0.65,0.85,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread slices",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "bread slices",
+      "location": "0.45,0.6,0.6,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal pot",
+        "size": "medium"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.0,0.75,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal stove",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.7,0.3,1.0,0.8"
+    }
+  ]
+}

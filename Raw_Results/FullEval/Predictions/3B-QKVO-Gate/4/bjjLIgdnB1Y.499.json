@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "syrup1",
+      "target": "pancake1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "pancake1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "large"
+      },
+      "id": "pancake1",
+      "label": "stack of pancakes",
+      "location": "0.0,0.35,1.0,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "amber liquid",
+        "size": "small"
+      },
+      "id": "syrup1",
+      "label": "syrup",
+      "location": "0.4,0.0,0.6,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on transparent background",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "watermark text",
+      "location": "0.0,0.4,1.0,0.6,0.8"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "play_button",
+      "target": "background"
+    },
+    {
+      "predicate": "left_of",
+      "source": "plate_apples",
+      "target": "play_button"
+    },
+    {
+      "predicate": "right_of",
+      "source": "cake_slice",
+      "target": "play_button"
+    },
+    {
+      "predicate": "below",
+      "source": "steak_plate",
+      "target": "plate_apples"
+    },
+    {
+      "predicate": "next_to",
+      "source": "peaches_jar",
+      "target": "cake_slice"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tortilla_stack",
+      "target": "peaches_jar"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white circle with black triangle",
+        "size": "medium"
+      },
+      "id": "play_button",
+      "label": "Play Button",
+      "location": "0.45,0.6,0.55,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue rimmed plate with red apple slices and beige dip",
+        "size": "small"
+      },
+      "id": "plate_apples",
+      "label": "Plate of Apple Slices",
+      "location": "0.3,0.2,0.48,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "multicolored ceramic plate with white cake slice",
+        "size": "small"
+      },
+      "id": "cake_slice",
+      "label": "Cake Slice on Plate",
+      "location": "0.6,0.0,0.8,0.25,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beef steak on white plate with red sauce",
+        "size": "small"
+      },
+      "id": "steak_plate",
+      "label": "Steak Plate",
+      "location": "0.2,0.6,0.4,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent jar filled with yellow peaches",
+        "size": "small"
+      },
+      "id": "peaches_jar",
+      "label": "Peaches Jar",
+      "location": "0.8,0.3,0.98,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown tortillas stacked with red salsa",
+        "size": "small"
+      },
+      "id": "tortilla_stack",
+      "label": "Tortilla Stack",
+      "location": "0.75,0.7,0.98,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black background",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

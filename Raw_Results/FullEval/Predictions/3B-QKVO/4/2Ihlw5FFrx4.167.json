@@ -1,0 +1,132 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "board",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "plate",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "vase",
+      "target": "table"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "tv_screen",
+      "target": "wall"
+    },
+    {
+      "predicate": "behind",
+      "source": "curtain_left",
+      "target": "tv_screen"
+    },
+    {
+      "predicate": "behind",
+      "source": "curtain_right",
+      "target": "person2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "person2",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "short brown hair turquoise shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.1,0.45,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "long dark hair green dress",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.55,0.1,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink background",
+        "size": "large"
+      },
+      "id": "tv_screen",
+      "label": "television screen",
+      "location": "0.1,0.0,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board",
+      "label": "cutting board",
+      "location": "0.0,0.6,0.5,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate",
+      "label": "plate of food",
+      "location": "0.3,0.65,0.5,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "vase",
+      "label": "flower vase",
+      "location": "0.45,0.6,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light grey surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "table",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink fabric",
+        "size": "large"
+      },
+      "id": "curtain_left",
+      "label": "curtain",
+      "location": "0.0,0.0,0.2,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "pink fabric",
+        "size": "large"
+      },
+      "id": "curtain_right",
+      "label": "curtain",
+      "location": "0.8,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

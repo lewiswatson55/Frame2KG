@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "fish1",
+      "target": "batter1"
+    },
+    {
+      "predicate": "on",
+      "source": "batter1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "holding",
+      "source": "tongs1",
+      "target": "fish1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "metal tray",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white floury coating",
+        "size": "medium"
+      },
+      "id": "batter1",
+      "label": "flour batter",
+      "location": "0.0,0.3,1.0,1.0,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "raw fish coated in batter",
+        "size": "small"
+      },
+      "id": "fish1",
+      "label": "fish fillet",
+      "location": "0.4,0.6,0.7,0.9,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "tongs1",
+      "label": "kitchen tongs",
+      "location": "0.0,0.0,1.0,0.3,0.90"
+    }
+  ]
+}

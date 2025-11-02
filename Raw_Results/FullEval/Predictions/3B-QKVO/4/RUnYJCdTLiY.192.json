@@ -1,0 +1,164 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "whisk1"
+    },
+    {
+      "predicate": "in",
+      "source": "whisk1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spoon1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "utensil1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "dish1",
+      "target": "utensil1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "oven1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "dishwasher1",
+      "target": "cabinet1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "purple shirt white apron",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.35,0.0,0.65,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.3,0.3,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white batter",
+        "size": "small"
+      },
+      "id": "whisk1",
+      "label": "whisk",
+      "location": "0.45,0.0,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "griddle pan",
+      "location": "0.0,0.3,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "measuring spoon",
+      "location": "0.2,0.5,0.3,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "spoon2",
+      "label": "wooden spoon",
+      "location": "0.3,0.5,0.4,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic black",
+        "size": "medium"
+      },
+      "id": "utensil1",
+      "label": "spatula",
+      "location": "0.7,0.5,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "medium"
+      },
+      "id": "dish1",
+      "label": "bowl",
+      "location": "0.8,0.5,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.2,0.0,0.8,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "oven1",
+      "label": "oven",
+      "location": "0.0,0.0,0.3,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "dishwasher1",
+      "label": "dishwasher",
+      "location": "0.8,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "on",
+      "source": "vase1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "frame1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "dark hair red shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.0,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "beige painted",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.45,0.0,1.0,1.0,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "orange ceramic",
+        "size": "medium"
+      },
+      "id": "vase1",
+      "label": "decorative vase",
+      "location": "0.7,0.3,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "small"
+      },
+      "id": "frame1",
+      "label": "picture frame",
+      "location": "0.0,0.0,0.2,0.2,0.7"
+    }
+  ]
+}

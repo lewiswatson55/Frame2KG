@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "on",
+      "source": "spoon1",
+      "target": "toast1"
+    },
+    {
+      "predicate": "on",
+      "source": "toast1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "toast1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "board1",
+      "target": "oven1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "towel1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.1,0.48,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.3,0.3,0.5,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown toasted bread with green spread",
+        "size": "medium"
+      },
+      "id": "toast1",
+      "label": "Toast Slice",
+      "location": "0.4,0.4,0.7,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic with green spread",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Bowl of Spread",
+      "location": "0.0,0.7,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.3,0.3,0.9,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red fabric",
+        "size": "small"
+      },
+      "id": "towel1",
+      "label": "Towel",
+      "location": "0.0,0.6,0.3,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "oven1",
+      "label": "Oven Door",
+      "location": "0.4,0.0,0.8,0.4,0.7"
+    }
+  ]
+}

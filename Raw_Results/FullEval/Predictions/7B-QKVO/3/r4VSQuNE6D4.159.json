@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "syringe1"
+    },
+    {
+      "predicate": "on",
+      "source": "syringe1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "dough_ring1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "knife1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.58,0.03,0.97,0.46,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "syringe1",
+      "label": "Syringe",
+      "location": "0.45,0.0,0.65,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "Griddle Pan",
+      "location": "0.2,0.2,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white dough",
+        "size": "small"
+      },
+      "id": "dough_ring1",
+      "label": "Dough Ring",
+      "location": "0.45,0.45,0.75,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "Knife",
+      "location": "0.0,0.2,0.4,0.4,0.9"
+    }
+  ]
+}

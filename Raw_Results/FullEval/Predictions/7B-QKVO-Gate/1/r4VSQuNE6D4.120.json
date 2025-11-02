@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "syrup1"
+    },
+    {
+      "predicate": "on",
+      "source": "syrup1",
+      "target": "pancake1"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "on",
+      "source": "griddle1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "griddle1",
+      "label": "Griddle",
+      "location": "0.35,0.1,0.98,0.94,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige batter",
+        "size": "medium"
+      },
+      "id": "pancake1",
+      "label": "Pancake Batter",
+      "location": "0.47,0.36,0.85,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "syrup1",
+      "label": "Syrup Bottle",
+      "location": "0.55,0.0,0.75,0.7,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.6,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white smooth",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

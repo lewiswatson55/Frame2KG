@@ -1,0 +1,266 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan2",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cutting_board1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "plate_bacon1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "above",
+      "source": "blender1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "behind",
+      "source": "bottles1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar2",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce_plate1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "toaster1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "mixer1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "utensils1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "cutting_board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.45,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt with pig graphic",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.45,0.05,0.75,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.3,0.6,0.7,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "small"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.35,0.65,0.5,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "small"
+      },
+      "id": "pan2",
+      "label": "frying pan",
+      "location": "0.55,0.65,0.75,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.0,0.7,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate_bacon1",
+      "label": "plate of bacon",
+      "location": "0.75,0.75,0.95,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottles",
+        "size": "medium"
+      },
+      "id": "bottles1",
+      "label": "wine bottles",
+      "location": "0.45,0.0,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "jar",
+      "location": "0.5,0.2,0.55,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue ceramic",
+        "size": "small"
+      },
+      "id": "jar2",
+      "label": "jar",
+      "location": "0.85,0.2,0.9,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.8,0.4,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white tile backsplash",
+        "size": "large"
+      },
+      "id": "tile_backsplash1",
+      "label": "tile backsplash",
+      "location": "0.4,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "kitchen shelf",
+      "location": "0.4,0.0,1.0,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "toaster1",
+      "label": "toaster",
+      "location": "0.85,0.05,0.95,0.15,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "mixer1",
+      "label": "stand mixer",
+      "location": "0.9,0.4,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "utensils1",
+      "label": "utensils",
+      "location": "0.0,0.7,0.2,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.0,0.7,0.2,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green lettuce",
+        "size": "small"
+      },
+      "id": "lettuce_plate1",
+      "label": "plate of lettuce",
+      "location": "0.8,0.7,0.95,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    }
+  ]
+}

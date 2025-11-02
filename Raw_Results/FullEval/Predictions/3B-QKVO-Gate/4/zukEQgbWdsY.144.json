@@ -1,0 +1,172 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "pan2",
+      "target": "stove"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "oven"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "blender",
+      "target": "knife_block"
+    },
+    {
+      "predicate": "left_of",
+      "source": "window",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "bearded black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.52,0.05,0.96,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "gas stove",
+      "location": "0.27,0.65,0.73,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.35,0.65,0.55,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black non-stick",
+        "size": "small"
+      },
+      "id": "pan2",
+      "label": "frying pan",
+      "location": "0.60,0.65,0.80,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "medium"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.00,0.75,0.35,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate_left",
+      "label": "plate",
+      "location": "0.00,0.85,0.35,1.00,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bowl with red meat",
+        "size": "small"
+      },
+      "id": "bowl_meat",
+      "label": "bowl of meat",
+      "location": "0.75,0.65,0.90,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bottle_shelf",
+      "label": "wine bottles",
+      "location": "0.45,0.00,0.75,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "shelf",
+      "label": "kitchen shelf",
+      "location": "0.40,0.00,1.00,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "medium"
+      },
+      "id": "blender",
+      "label": "blender",
+      "location": "0.85,0.45,0.98,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden block with knives",
+        "size": "small"
+      },
+      "id": "knife_block",
+      "label": "knife block",
+      "location": "0.80,0.45,0.88,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass window",
+        "size": "large"
+      },
+      "id": "window",
+      "label": "window",
+      "location": "0.00,0.00,0.25,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "oven",
+      "label": "oven",
+      "location": "0.20,0.10,0.45,0.60,0.8"
+    }
+  ]
+}

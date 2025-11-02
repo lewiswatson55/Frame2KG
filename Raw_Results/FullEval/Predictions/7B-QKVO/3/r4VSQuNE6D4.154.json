@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "griddle"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake2",
+      "target": "griddle"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake3",
+      "target": "griddle"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "spatula",
+      "target": "griddle"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spatula",
+      "target": "pancake1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black non-stick metal",
+        "size": "large"
+      },
+      "id": "griddle",
+      "label": "Griddle",
+      "location": "0.05,0.05,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light beige batter",
+        "size": "medium"
+      },
+      "id": "pancake1",
+      "label": "Pancake",
+      "location": "0.47,0.16,0.65,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light beige batter",
+        "size": "medium"
+      },
+      "id": "pancake2",
+      "label": "Pancake",
+      "location": "0.65,0.16,0.85,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light beige batter",
+        "size": "medium"
+      },
+      "id": "pancake3",
+      "label": "Pancake",
+      "location": "0.55,0.45,0.85,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "small"
+      },
+      "id": "spatula",
+      "label": "Spatula",
+      "location": "0.0,0.2,0.3,0.4,0.7"
+    }
+  ]
+}

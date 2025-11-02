@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken2",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken3",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board"
+    },
+    {
+      "predicate": "in",
+      "source": "salad1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "chicken1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "fried chicken piece",
+      "location": "0.45,0.6,0.98,0.97,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken2",
+      "label": "fried chicken piece",
+      "location": "0.15,0.45,0.55,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken3",
+      "label": "fried chicken piece",
+      "location": "0.55,0.3,0.9,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with green leaves",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl of salad",
+      "location": "0.0,0.0,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "salad1",
+      "label": "salad greens",
+      "location": "0.05,0.05,0.25,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "cutting board",
+      "location": "0.0,0.4,1.0,1.0,0.7"
+    }
+  ]
+}

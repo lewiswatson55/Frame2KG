@@ -1,0 +1,299 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "pan2",
+      "target": "stove"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "oven"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet2",
+      "target": "person2"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "faucet1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "on",
+      "source": "plant1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle2",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "coffee_machine1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "towel1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bag1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.3,0.48,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.52,0.1,0.97,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cabinet2",
+      "label": "kitchen cabinet",
+      "location": "0.6,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "oven",
+      "label": "oven",
+      "location": "0.0,0.2,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "gas stove",
+      "location": "0.4,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.5,0.65,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black cast iron",
+        "size": "medium"
+      },
+      "id": "pan2",
+      "label": "skillet",
+      "location": "0.7,0.65,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.6,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "tray1",
+      "label": "plastic tray",
+      "location": "0.0,0.8,0.4,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue cloth",
+        "size": "small"
+      },
+      "id": "towel1",
+      "label": "cloth towel",
+      "location": "0.0,0.7,0.2,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "small"
+      },
+      "id": "bag1",
+      "label": "plastic bag",
+      "location": "0.0,0.7,0.2,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green grass",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "herb plant",
+      "location": "0.4,0.4,0.5,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottle",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "wine bottle",
+      "location": "0.3,0.3,0.4,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottle",
+        "size": "small"
+      },
+      "id": "bottle2",
+      "label": "wine bottle",
+      "location": "0.4,0.3,0.5,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "jar",
+      "location": "0.5,0.3,0.6,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.7,0.3,0.8,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "coffee_machine1",
+      "label": "coffee maker",
+      "location": "0.8,0.3,0.9,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.4,0.4,0.6,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "faucet1",
+      "label": "faucet",
+      "location": "0.45,0.35,0.55,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "logo",
+      "location": "0.85,0.8,1.0,1.0,0.9"
+    }
+  ]
+}

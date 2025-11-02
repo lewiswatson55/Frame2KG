@@ -1,0 +1,98 @@
+{
+  "edges": [
+    {
+      "predicate": "includes",
+      "source": "recipe1",
+      "target": "ingredients1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "image1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "text2",
+      "target": "text3"
+    },
+    {
+      "predicate": "left_of",
+      "source": "text4",
+      "target": "text5"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white background",
+        "size": "large"
+      },
+      "id": "image1",
+      "label": "background image",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red text on white background",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "title 'INGREDIENTS'",
+      "location": "0.0,0.0,0.6,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green text on white background",
+        "size": "small"
+      },
+      "id": "text2",
+      "label": "preparation time",
+      "location": "0.0,0.2,0.6,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red text on white background",
+        "size": "medium"
+      },
+      "id": "text3",
+      "label": "cooking time",
+      "location": "0.6,0.0,1.0,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red text on white background",
+        "size": "medium"
+      },
+      "id": "text4",
+      "label": "serves",
+      "location": "0.6,0.2,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on green background",
+        "size": "small"
+      },
+      "id": "text5",
+      "label": "for serving",
+      "location": "0.0,0.3,0.6,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on white background",
+        "size": "small"
+      },
+      "id": "text6",
+      "label": "chaat masala",
+      "location": "0.0,0.4,0.6,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on white background",
+        "size": "small"
+      },
+      "id": "text7",
+      "label": "1 tsp.",
+      "location": "0.6,0.4,1.0,0.5,0.7"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "tongs1"
+    },
+    {
+      "predicate": "in",
+      "source": "tongs1",
+      "target": "skillet1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "skillet1"
+    },
+    {
+      "predicate": "on",
+      "source": "skillet1",
+      "target": "oven_rack1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "oven_rack1",
+      "target": "oven1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray1",
+      "target": "skillet1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "oven1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "oven1",
+      "label": "Oven",
+      "location": "0.0,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal wire",
+        "size": "medium"
+      },
+      "id": "oven_rack1",
+      "label": "Oven Rack",
+      "location": "0.0,0.3,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black cast iron",
+        "size": "medium"
+      },
+      "id": "skillet1",
+      "label": "Skillet",
+      "location": "0.1,0.4,0.6,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "Chicken Pieces",
+      "location": "0.15,0.5,0.55,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "Tongs",
+      "location": "0.5,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.5,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "Baking Tray",
+      "location": "0.5,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "Cabinet Door",
+      "location": "0.65,0.0,1.0,0.5,0.8"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl3",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl4",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl5",
+      "target": "bowl6"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text2",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.48,0.07,0.95,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Glass bowl",
+      "location": "0.35,0.45,0.65,0.75,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "Glass bowl",
+      "location": "0.65,0.35,0.90,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl3",
+      "label": "Glass bowl",
+      "location": "0.75,0.30,0.95,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl4",
+      "label": "White bowl",
+      "location": "0.70,0.60,0.90,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "bowl5",
+      "label": "Bowl of lettuce",
+      "location": "0.45,0.05,0.70,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple fabric",
+        "size": "medium"
+      },
+      "id": "bag1",
+      "label": "Purple bag",
+      "location": "0.80,0.00,1.00,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting board",
+      "location": "0.00,0.30,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on white background",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Text overlay",
+      "location": "0.00,0.80,0.40,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on white background",
+        "size": "medium"
+      },
+      "id": "text2",
+      "label": "Text overlay",
+      "location": "0.40,0.80,1.00,1.00,0.9"
+    }
+  ]
+}

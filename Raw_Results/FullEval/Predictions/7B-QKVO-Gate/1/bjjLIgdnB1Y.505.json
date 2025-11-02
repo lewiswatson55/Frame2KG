@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "syrup1",
+      "target": "pancake_stack"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text_overlay1",
+      "target": "pancake_stack"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text_overlay2",
+      "target": "pancake_stack"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text_overlay3",
+      "target": "pancake_stack"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "large"
+      },
+      "id": "pancake_stack",
+      "label": "Stack of pancakes",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "golden liquid",
+        "size": "small"
+      },
+      "id": "syrup1",
+      "label": "Syrup drizzle",
+      "location": "0.4,0.1,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "medium"
+      },
+      "id": "text_overlay1",
+      "label": "Text overlay 1",
+      "location": "0.0,0.0,1.0,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "medium"
+      },
+      "id": "text_overlay2",
+      "label": "Text overlay 2",
+      "location": "0.0,0.2,1.0,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "medium"
+      },
+      "id": "text_overlay3",
+      "label": "Text overlay 3",
+      "location": "0.0,0.4,1.0,0.6,0.7"
+    }
+  ]
+}

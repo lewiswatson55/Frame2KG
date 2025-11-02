@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "on",
+      "source": "food1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "food1",
+      "target": "oil1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "Spatula",
+      "location": "0.5,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "Breaded Piece",
+      "location": "0.6,0.7,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "bubbling dark liquid",
+        "size": "large"
+      },
+      "id": "oil1",
+      "label": "Oil",
+      "location": "0.0,0.0,0.6,1.0,0.8"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "cabinet1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plant1",
+      "target": "window1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "behind",
+      "source": "curtain1",
+      "target": "window1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin brown hair dark shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.55,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread with lettuce",
+        "size": "small"
+      },
+      "id": "sandwich1",
+      "label": "sandwich",
+      "location": "0.45,0.35,0.75,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.6,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow wood",
+        "size": "medium"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.4,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wooden",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.2,0.0,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "potted plant",
+      "location": "0.25,0.2,0.35,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white shelf with bottles",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.75,0.4,1.0,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue plastic",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "bottle",
+      "location": "0.85,0.45,0.95,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "beige fabric",
+        "size": "medium"
+      },
+      "id": "curtain1",
+      "label": "curtain",
+      "location": "0.4,0.0,0.6,0.6,0.7"
+    }
+  ]
+}

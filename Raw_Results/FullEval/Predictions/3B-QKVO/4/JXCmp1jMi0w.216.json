@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "foil1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand1",
+      "target": "chicken1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "fried chicken pieces",
+      "location": "0.35,0.25,0.85,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metallic",
+        "size": "large"
+      },
+      "id": "foil1",
+      "label": "aluminum foil",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white skin",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.0,0.6,0.4,1.0,0.8"
+    }
+  ]
+}

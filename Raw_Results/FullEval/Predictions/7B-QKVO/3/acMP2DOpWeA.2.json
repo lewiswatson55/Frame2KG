@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pancake_stack1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "butter1",
+      "target": "pancake_stack1"
+    },
+    {
+      "predicate": "on",
+      "source": "syrup_bottle1",
+      "target": "tablecloth1"
+    },
+    {
+      "predicate": "on",
+      "source": "fork1",
+      "target": "napkin1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "napkin1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fork1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "pancake_stack1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "large"
+      },
+      "id": "pancake_stack1",
+      "label": "Pancake Stack",
+      "location": "0.15,0.30,0.85,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.10,0.40,0.90,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "butter1",
+      "label": "Butter Cube",
+      "location": "0.45,0.20,0.60,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown glass",
+        "size": "medium"
+      },
+      "id": "syrup_bottle1",
+      "label": "Syrup Bottle",
+      "location": "0.00,0.00,0.20,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "fork1",
+      "label": "Fork",
+      "location": "0.75,0.20,0.95,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "Knife",
+      "location": "0.80,0.20,1.00,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "medium"
+      },
+      "id": "napkin1",
+      "label": "Napkin",
+      "location": "0.70,0.50,1.00,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "multicolored woven fabric",
+        "size": "large"
+      },
+      "id": "tablecloth1",
+      "label": "Tablecloth",
+      "location": "0.00,0.00,1.00,1.00,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red and white stylized font",
+        "size": "large"
+      },
+      "id": "text1",
+      "label": "Text Overlay",
+      "location": "0.10,0.40,0.90,0.70,0.9"
+    }
+  ]
+}

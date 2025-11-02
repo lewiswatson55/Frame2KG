@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "package1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "fork1",
+      "target": "package1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow green plastic",
+        "size": "medium"
+      },
+      "id": "package1",
+      "label": "crouton package",
+      "location": "0.05,0.1,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "fork1",
+      "label": "fork",
+      "location": "0.6,0.0,1.0,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.3,0.6,0.8,1.0,0.8"
+    }
+  ]
+}

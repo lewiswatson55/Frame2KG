@@ -1,0 +1,117 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "like_icon"
+    },
+    {
+      "predicate": "on",
+      "source": "paper_towel_holder",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "plant_pot",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "microwave",
+      "target": "cabinet"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge"
+    },
+    {
+      "predicate": "next_to",
+      "source": "microwave",
+      "target": "fridge"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink patterned dress",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.0,0.48,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue white plastic",
+        "size": "medium"
+      },
+      "id": "like_icon",
+      "label": "thumbs up icon",
+      "location": "0.3,0.2,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper towel roll on green base",
+        "size": "small"
+      },
+      "id": "paper_towel_holder",
+      "label": "paper towel holder",
+      "location": "0.0,0.5,0.15,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy plant in pot",
+        "size": "small"
+      },
+      "id": "plant_pot",
+      "label": "potted plant",
+      "location": "0.15,0.55,0.25,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "fridge",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.3,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "glass door white cabinet",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "kitchen cabinets",
+      "location": "0.3,0.0,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "microwave",
+      "label": "microwave oven",
+      "location": "0.5,0.2,0.8,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "door",
+      "label": "wooden door",
+      "location": "0.8,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    }
+  ]
+}

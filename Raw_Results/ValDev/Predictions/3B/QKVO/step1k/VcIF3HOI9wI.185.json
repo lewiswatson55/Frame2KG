@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "knife"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand2",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "bread2",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "watermelon",
+      "target": "board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "watermelon",
+      "target": "lettuce"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "cutting board",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread",
+        "size": "medium"
+      },
+      "id": "bread1",
+      "label": "toasted bread slice",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread",
+        "size": "medium"
+      },
+      "id": "bread2",
+      "label": "toasted bread slice",
+      "location": "0.1,0.4,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.3,0.4,0.7,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "left hand",
+      "location": "0.0,0.4,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand2",
+      "label": "right hand",
+      "location": "0.5,0.0,0.9,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce",
+      "label": "lettuce leaves",
+      "location": "0.5,0.5,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red flesh",
+        "size": "small"
+      },
+      "id": "watermelon",
+      "label": "watermelon piece",
+      "location": "0.7,0.4,0.9,0.6,0.8"
+    }
+  ]
+}

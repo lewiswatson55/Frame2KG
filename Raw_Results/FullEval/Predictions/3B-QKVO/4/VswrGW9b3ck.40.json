@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "squid1"
+    },
+    {
+      "predicate": "on",
+      "source": "squid1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "spice1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "orange plastic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "plastic bowl",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder speckled",
+        "size": "medium"
+      },
+      "id": "spice1",
+      "label": "seasoning",
+      "location": "0.0,0.0,1.0,1.0,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.4,0.0,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white with black specks",
+        "size": "small"
+      },
+      "id": "squid1",
+      "label": "squid rings",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "on",
+      "source": "dish1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "orange sauce with green herbs",
+        "size": "large"
+      },
+      "id": "chicken1",
+      "label": "cooked chicken wings",
+      "location": "0.35,0.05,0.98,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "dish1",
+      "label": "glass dish",
+      "location": "0.45,0.1,0.95,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "kitchen countertop",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "plastic bowl",
+      "location": "0.0,0.0,0.2,0.3,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "metal tray",
+      "location": "0.0,0.5,0.4,1.0,0.6"
+    }
+  ]
+}

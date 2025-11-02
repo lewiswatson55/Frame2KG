@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink skin",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.45,0.0,0.65,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white batter-coated",
+        "size": "large"
+      },
+      "id": "chicken1",
+      "label": "chicken piece",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "metal bowl",
+      "location": "0.7,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

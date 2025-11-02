@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "apron1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window1"
+    },
+    {
+      "predicate": "on",
+      "source": "plant1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plant1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "curtain1",
+      "target": "window1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black hair, pink blouse, light blue apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.1,0.65,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light blue fabric with white text",
+        "size": "medium"
+      },
+      "id": "apron1",
+      "label": "apron",
+      "location": "0.4,0.4,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.0,0.0,1.0,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "potted plant",
+      "location": "0.0,0.4,0.2,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "medium"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.6,1.0,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow and beige curtains",
+        "size": "large"
+      },
+      "id": "curtain1",
+      "label": "curtains",
+      "location": "0.2,0.0,0.8,0.4,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "white refrigerator",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.8,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

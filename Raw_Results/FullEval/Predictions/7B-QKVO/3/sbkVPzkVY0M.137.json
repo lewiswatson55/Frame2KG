@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "blender1",
+      "target": "container1"
+    },
+    {
+      "predicate": "in",
+      "source": "spice1",
+      "target": "container1"
+    },
+    {
+      "predicate": "in",
+      "source": "fruit1",
+      "target": "container1"
+    },
+    {
+      "predicate": "in",
+      "source": "onion1",
+      "target": "container1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "lid1",
+      "target": "container1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "large"
+      },
+      "id": "blender1",
+      "label": "Blender Base",
+      "location": "0.05,0.6,0.95,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "container1",
+      "label": "Blender Jar",
+      "location": "0.1,0.0,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "spice1",
+      "label": "Spice Container",
+      "location": "0.45,0.1,0.55,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green slices",
+        "size": "small"
+      },
+      "id": "fruit1",
+      "label": "Fruit Pieces",
+      "location": "0.3,0.4,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow pieces",
+        "size": "small"
+      },
+      "id": "onion1",
+      "label": "Onion Pieces",
+      "location": "0.6,0.4,0.8,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "small"
+      },
+      "id": "lid1",
+      "label": "Lid",
+      "location": "0.4,0.0,0.6,0.2,0.8"
+    }
+  ]
+}

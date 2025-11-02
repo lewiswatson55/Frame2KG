@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person_arm1",
+      "target": "bowl_flour"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_flour",
+      "target": "tray_powder"
+    },
+    {
+      "predicate": "right_of",
+      "source": "dish_breaded_chicken",
+      "target": "bowl_flour"
+    },
+    {
+      "predicate": "on",
+      "source": "pot_black",
+      "target": "stove_black"
+    },
+    {
+      "predicate": "behind",
+      "source": "tile_wall",
+      "target": "countertop_white"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person_arm1",
+      "label": "human arm",
+      "location": "0.45,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl_flour",
+      "label": "glass bowl of flour",
+      "location": "0.15,0.3,0.55,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "tray_powder",
+      "label": "metal tray with white powder",
+      "location": "0.2,0.6,0.8,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "medium"
+      },
+      "id": "dish_breaded_chicken",
+      "label": "glass baking dish with breaded chicken",
+      "location": "0.55,0.4,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pot_black",
+      "label": "black pot",
+      "location": "0.0,0.6,0.2,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white marble",
+        "size": "large"
+      },
+      "id": "countertop_white",
+      "label": "white countertop",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic tiles",
+        "size": "large"
+      },
+      "id": "tile_wall",
+      "label": "tiled wall",
+      "location": "0.0,0.0,1.0,0.5,0.8"
+    }
+  ]
+}

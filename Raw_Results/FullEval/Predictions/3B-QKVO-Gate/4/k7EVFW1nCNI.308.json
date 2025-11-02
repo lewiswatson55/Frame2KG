@@ -1,0 +1,165 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "food_processor"
+    },
+    {
+      "predicate": "on",
+      "source": "food_processor",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_red",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "mug_white",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "oil_bottle",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "stove",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pot_teal",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "spice_jars",
+      "target": "countertop"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "sink"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_red",
+      "target": "food_processor"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl_red",
+      "target": "food_processor"
+    },
+    {
+      "predicate": "right_of",
+      "source": "pot_teal",
+      "target": "food_processor"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white lace top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.0,0.6,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.0,0.4,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "food_processor",
+      "label": "food processor",
+      "location": "0.35,0.45,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "bowl_red",
+      "label": "mixing bowl",
+      "location": "0.45,0.15,0.55,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "mug_white",
+      "label": "mug",
+      "location": "0.55,0.15,0.6,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass red cap",
+        "size": "small"
+      },
+      "id": "oil_bottle",
+      "label": "oil bottle",
+      "location": "0.6,0.1,0.65,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "stove",
+      "location": "0.6,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "teal ceramic",
+        "size": "small"
+      },
+      "id": "pot_teal",
+      "label": "pot",
+      "location": "0.75,0.2,0.85,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass",
+        "size": "small"
+      },
+      "id": "plate_empty",
+      "label": "empty plate",
+      "location": "0.0,0.8,0.2,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl_clear",
+      "label": "clear bowl",
+      "location": "0.3,0.75,0.5,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "plastic",
+        "size": "small"
+      },
+      "id": "spice_jars",
+      "label": "spice jars",
+      "location": "0.5,0.1,0.6,0.2,0.7"
+    }
+  ]
+}

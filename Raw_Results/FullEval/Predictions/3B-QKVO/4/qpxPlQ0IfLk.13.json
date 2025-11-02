@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "person1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "bench1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "logo1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "trees1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "swing1",
+      "target": "person1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bench1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "grey distressed font",
+        "size": "large"
+      },
+      "id": "text1",
+      "label": "Title Text",
+      "location": "0.45,0.35,0.95,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.55,0.15,0.75,0.65,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "medium"
+      },
+      "id": "bench1",
+      "label": "Wooden Bench",
+      "location": "0.0,0.6,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "large"
+      },
+      "id": "trees1",
+      "label": "Trees",
+      "location": "0.0,0.0,0.4,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown metal",
+        "size": "small"
+      },
+      "id": "swing1",
+      "label": "Swing Set",
+      "location": "0.8,0.0,1.0,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white logo",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Hungry Logo",
+      "location": "0.0,0.0,0.2,0.2,0.7"
+    }
+  ]
+}

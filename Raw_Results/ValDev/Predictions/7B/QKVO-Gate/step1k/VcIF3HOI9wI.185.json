@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand_left",
+      "target": "knife"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand_right",
+      "target": "lettuce"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_top",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_bottom",
+      "target": "board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle",
+      "target": "lettuce"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bread_top",
+      "target": "bread_bottom"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "knife",
+      "target": "bread_top"
+    },
+    {
+      "predicate": "behind",
+      "source": "hand_right",
+      "target": "lettuce"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand_left",
+      "label": "Left Hand",
+      "location": "0.05,0.45,0.38,0.95,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand_right",
+      "label": "Right Hand",
+      "location": "0.45,0.0,0.65,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "Knife",
+      "location": "0.25,0.35,0.75,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown toasted",
+        "size": "medium"
+      },
+      "id": "bread_top",
+      "label": "Toast Slice",
+      "location": "0.1,0.0,0.4,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown toasted",
+        "size": "medium"
+      },
+      "id": "bread_bottom",
+      "label": "Toast Slice",
+      "location": "0.1,0.4,0.4,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "large"
+      },
+      "id": "lettuce",
+      "label": "Lettuce",
+      "location": "0.4,0.4,0.8,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic red cap",
+        "size": "small"
+      },
+      "id": "bottle",
+      "label": "Sauce Bottle",
+      "location": "0.75,0.1,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "Cutting Board",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

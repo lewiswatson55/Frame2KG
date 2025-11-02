@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "tortilla1"
+    },
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "shirt1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hands1",
+      "label": "Hands",
+      "location": "0.05,0.45,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white thin",
+        "size": "small"
+      },
+      "id": "tortilla1",
+      "label": "Tortilla",
+      "location": "0.3,0.5,0.6,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black fabric",
+        "size": "large"
+      },
+      "id": "shirt1",
+      "label": "Shirt",
+      "location": "0.0,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "Text 'TASTED'",
+      "location": "0.75,0.75,0.95,0.95,0.9"
+    }
+  ]
+}

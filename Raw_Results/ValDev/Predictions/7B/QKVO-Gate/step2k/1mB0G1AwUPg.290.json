@@ -1,0 +1,127 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "blackboard"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "blackboard"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "behind",
+      "source": "bread_rack1",
+      "target": "person2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "pot1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "paper_towel_stack1",
+      "target": "person1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "vent_hood1",
+      "target": "blackboard"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black polo shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white knitted sweater",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.47,0.05,0.96,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel bowl with green lettuce",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "salad bowl",
+      "location": "0.25,0.75,0.75,0.98,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden countertop",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.7,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black chalkboard",
+        "size": "large"
+      },
+      "id": "blackboard",
+      "label": "chalkboard menu",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal bread rack with loaves of bread",
+        "size": "medium"
+      },
+      "id": "bread_rack1",
+      "label": "bread rack",
+      "location": "0.5,0.2,0.95,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal pot",
+        "size": "medium"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.85,0.6,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stack of white paper towels",
+        "size": "small"
+      },
+      "id": "paper_towel_stack1",
+      "label": "paper towel stack",
+      "location": "0.0,0.6,0.15,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel vent hood",
+        "size": "medium"
+      },
+      "id": "vent_hood1",
+      "label": "vent hood",
+      "location": "0.0,0.0,0.2,0.3,0.7"
+    }
+  ]
+}

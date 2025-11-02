@@ -1,0 +1,221 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce_plate",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "spice_jars",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "oil_bottle",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "salt_shaker",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper_shaker",
+      "target": "counter1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "behind",
+      "source": "artwork1",
+      "target": "person1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plant1",
+      "target": "photo_frame1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "fruit_bowl",
+      "target": "photo_frame1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "oil_bottle",
+      "target": "blender1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "salt_shaker",
+      "target": "oil_bottle"
+    },
+    {
+      "predicate": "right_of",
+      "source": "pepper_shaker",
+      "target": "salt_shaker"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.4,0.5,0.5,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden bowl with green apples",
+        "size": "small"
+      },
+      "id": "fruit_bowl",
+      "label": "basket of apples",
+      "location": "0.0,0.45,0.15,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with yellow mixture",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.2,0.7,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with red tomatoes and green lettuce",
+        "size": "small"
+      },
+      "id": "lettuce_plate",
+      "label": "plate of vegetables",
+      "location": "0.7,0.75,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal pan on black burner",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.6,0.6,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottles with colored contents",
+        "size": "small"
+      },
+      "id": "spice_jars",
+      "label": "spice jars",
+      "location": "0.15,0.45,0.3,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear bottle with yellow oil",
+        "size": "small"
+      },
+      "id": "oil_bottle",
+      "label": "olive oil bottle",
+      "location": "0.55,0.45,0.6,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow salt shaker",
+        "size": "small"
+      },
+      "id": "salt_shaker",
+      "label": "salt shaker",
+      "location": "0.9,0.5,0.95,0.65,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow pepper shaker",
+        "size": "small"
+      },
+      "id": "pepper_shaker",
+      "label": "pepper shaker",
+      "location": "0.95,0.5,1.0,0.65,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame with colorful abstract art",
+        "size": "medium"
+      },
+      "id": "artwork1",
+      "label": "framed artwork",
+      "location": "0.6,0.0,0.8,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green plant in pot",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "potted plant",
+      "location": "0.05,0.2,0.15,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white framed photo",
+        "size": "small"
+      },
+      "id": "photo_frame1",
+      "label": "photo frame",
+      "location": "0.0,0.4,0.15,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood cabinets",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,1.0,0.4,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden countertop",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.6"
+    }
+  ]
+}

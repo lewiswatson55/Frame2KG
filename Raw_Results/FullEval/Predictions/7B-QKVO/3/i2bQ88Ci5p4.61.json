@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken_wings",
+      "target": "tray"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "dip_bowl",
+      "target": "chicken_wings"
+    },
+    {
+      "predicate": "next_to",
+      "source": "green_onion",
+      "target": "chicken_wings"
+    },
+    {
+      "predicate": "left_of",
+      "source": "dip_bowl",
+      "target": "green_onion"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red glossy sauce",
+        "size": "medium"
+      },
+      "id": "chicken_wings",
+      "label": "Buffalo Chicken Wings",
+      "location": "0.05,0.3,0.98,0.97,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy",
+        "size": "small"
+      },
+      "id": "dip_bowl",
+      "label": "Dipping Sauce Bowl",
+      "location": "0.0,0.0,0.4,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green fresh",
+        "size": "small"
+      },
+      "id": "green_onion",
+      "label": "Green Onion Stalks",
+      "location": "0.2,0.0,0.6,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "tray",
+      "label": "Tray",
+      "location": "0.0,0.5,1.0,1.0,0.7"
+    }
+  ]
+}

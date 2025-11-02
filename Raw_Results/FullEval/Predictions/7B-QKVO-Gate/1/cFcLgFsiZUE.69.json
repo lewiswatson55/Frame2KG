@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "in",
+      "source": "food1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "rack1"
+    },
+    {
+      "predicate": "on",
+      "source": "rack1",
+      "target": "oven1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plant1",
+      "target": "oven1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt red glove",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.5,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "oven1",
+      "label": "Oven",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "medium"
+      },
+      "id": "rack1",
+      "label": "Oven Rack",
+      "location": "0.05,0.3,0.95,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "Baking Tray",
+      "location": "0.1,0.4,0.9,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "Food Pieces",
+      "location": "0.2,0.45,0.8,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "Potted Plant",
+      "location": "0.8,0.0,1.0,0.3,0.6"
+    }
+  ]
+}

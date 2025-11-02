@@ -1,0 +1,221 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "vase1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "red_tulips",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "white_container",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "red_cup",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "soap_dispenser",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "black_tray",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "red_bowl",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "mug",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "salt_shaker",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "stove",
+      "target": "countertop"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "microwave",
+      "target": "cabinets"
+    },
+    {
+      "predicate": "next_to",
+      "source": "dishwasher",
+      "target": "countertop"
+    },
+    {
+      "predicate": "left_of",
+      "source": "red_tulips",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "red_bowl",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinets",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin glasses white lace top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass red flowers",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "flower vase",
+      "location": "0.15,0.45,0.27,0.75,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "red tulips",
+        "size": "medium"
+      },
+      "id": "red_tulips",
+      "label": "tulip bouquet",
+      "location": "0.10,0.40,0.30,0.70,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "white_container",
+      "label": "ceramic container",
+      "location": "0.05,0.55,0.15,0.75,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "red_cup",
+      "label": "red cup",
+      "location": "0.30,0.55,0.35,0.75,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic pump",
+        "size": "small"
+      },
+      "id": "soap_dispenser",
+      "label": "soap dispenser",
+      "location": "0.35,0.50,0.40,0.75,0.75"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "black_tray",
+      "label": "tray",
+      "location": "0.30,0.60,0.45,0.70,0.70"
+    },
+    {
+      "attributes": {
+        "appearance": "red bowl",
+        "size": "small"
+      },
+      "id": "red_bowl",
+      "label": "bowl",
+      "location": "0.60,0.50,0.70,0.65,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "mug",
+      "label": "mug",
+      "location": "0.70,0.50,0.78,0.65,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "glass black cap",
+        "size": "small"
+      },
+      "id": "salt_shaker",
+      "label": "salt shaker",
+      "location": "0.78,0.50,0.82,0.65,0.70"
+    },
+    {
+      "attributes": {
+        "appearance": "black stainless steel",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "stove",
+      "location": "0.75,0.60,1.0,1.0,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "microwave",
+      "label": "microwave",
+      "location": "0.80,0.0,1.0,0.30,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "large"
+      },
+      "id": "cabinets",
+      "label": "kitchen cabinets",
+      "location": "0.0,0.0,1.0,0.30,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.40,1.0,0.60,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "dishwasher",
+      "label": "dishwasher",
+      "location": "0.0,0.60,0.30,1.0,0.80"
+    }
+  ]
+}

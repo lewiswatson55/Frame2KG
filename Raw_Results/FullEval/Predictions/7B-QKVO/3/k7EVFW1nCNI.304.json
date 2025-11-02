@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "lid1"
+    },
+    {
+      "predicate": "on",
+      "source": "lid1",
+      "target": "mixer1"
+    },
+    {
+      "predicate": "in",
+      "source": "mixture1",
+      "target": "mixer1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cloth1",
+      "target": "mixer1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white long-sleeve shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.05,0.0,0.95,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "small"
+      },
+      "id": "lid1",
+      "label": "Blender Lid",
+      "location": "0.3,0.0,0.7,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "large"
+      },
+      "id": "mixer1",
+      "label": "Food Processor Base",
+      "location": "0.2,0.3,0.8,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellowish paste",
+        "size": "medium"
+      },
+      "id": "mixture1",
+      "label": "Mixture",
+      "location": "0.3,0.3,0.7,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "red fabric",
+        "size": "medium"
+      },
+      "id": "cloth1",
+      "label": "Cloth",
+      "location": "0.75,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

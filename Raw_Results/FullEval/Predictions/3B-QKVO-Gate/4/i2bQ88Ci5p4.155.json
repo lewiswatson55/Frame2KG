@@ -1,0 +1,109 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "bottle1",
+      "target": "glass1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "glass1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "fridge1",
+      "target": "cabinet1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt glasses",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man chef",
+      "location": "0.0,0.15,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black shirt hair braid",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "woman chef",
+      "location": "0.4,0.1,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue plastic",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "soda bottle",
+      "location": "0.5,0.5,0.7,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass ice cubes",
+        "size": "small"
+      },
+      "id": "glass1",
+      "label": "glass of water",
+      "location": "0.6,0.7,0.8,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.5,0.0,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.5,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    }
+  ]
+}

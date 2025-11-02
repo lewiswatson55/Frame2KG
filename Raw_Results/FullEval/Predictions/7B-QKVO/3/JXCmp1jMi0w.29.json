@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bag1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "bottle1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red glass bottle with white label",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "hot sauce bottle",
+      "location": "0.05,0.0,0.38,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic bowl filled with red sauce",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "sauce bowl",
+      "location": "0.47,0.3,0.96,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic bag with red contents",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "plastic bag",
+      "location": "0.4,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "wooden cutting board",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "mixture1",
+      "target": "container1"
+    },
+    {
+      "predicate": "on",
+      "source": "container1",
+      "target": "base1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "blade1",
+      "target": "container1"
+    },
+    {
+      "predicate": "includes",
+      "source": "mixture1",
+      "target": "vegetables1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "large"
+      },
+      "id": "container1",
+      "label": "Food Processor Container",
+      "location": "0.05,0.0,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "medium"
+      },
+      "id": "base1",
+      "label": "Base Unit",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "small"
+      },
+      "id": "blade1",
+      "label": "Blade Assembly",
+      "location": "0.3,0.0,0.7,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow orange green",
+        "size": "medium"
+      },
+      "id": "mixture1",
+      "label": "Mixture",
+      "location": "0.1,0.2,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green red yellow",
+        "size": "small"
+      },
+      "id": "vegetables1",
+      "label": "Vegetable Pieces",
+      "location": "0.2,0.3,0.8,0.7,0.8"
+    }
+  ]
+}

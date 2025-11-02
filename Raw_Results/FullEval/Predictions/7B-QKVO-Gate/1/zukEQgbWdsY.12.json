@@ -1,0 +1,67 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "person1",
+      "target": "wall"
+    },
+    {
+      "predicate": "on",
+      "source": "person2",
+      "target": "wall"
+    },
+    {
+      "predicate": "behind",
+      "source": "buildings",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "buildings",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black t-shirt with white pig graphic",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark green shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.47,0.06,0.95,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red brick",
+        "size": "large"
+      },
+      "id": "wall",
+      "label": "brick wall",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "various colored buildings",
+        "size": "large"
+      },
+      "id": "buildings",
+      "label": "city skyline",
+      "location": "0.0,0.0,1.0,0.6,0.8"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "box1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "box1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "table1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass with pink chicken pieces",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl of raw chicken",
+      "location": "0.05,0.0,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl2",
+      "label": "glass bowl",
+      "location": "0.7,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black cardboard with red label",
+        "size": "small"
+      },
+      "id": "box1",
+      "label": "ground black pepper box",
+      "location": "0.5,0.2,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.6,0.2,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood grain",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "wooden table",
+      "location": "0.0,0.4,1.0,1.0,0.8"
+    }
+  ]
+}

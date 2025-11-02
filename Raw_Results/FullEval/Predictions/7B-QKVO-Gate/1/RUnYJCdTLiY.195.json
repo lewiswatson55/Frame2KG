@@ -1,0 +1,155 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "whisk1"
+    },
+    {
+      "predicate": "in",
+      "source": "whisk1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "butter1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "ladle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "wooden_spoon1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pan1",
+      "target": "ladle1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "purple shirt white apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.3,0.3,0.7,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal handle black head",
+        "size": "small"
+      },
+      "id": "whisk1",
+      "label": "whisk",
+      "location": "0.6,0.3,0.9,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.2,0.4,0.35,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "butter1",
+      "label": "butter",
+      "location": "0.25,0.45,0.3,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.5,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "ladle1",
+      "label": "measuring cup",
+      "location": "0.0,0.7,0.2,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "small"
+      },
+      "id": "wooden_spoon1",
+      "label": "wooden spoon",
+      "location": "0.3,0.7,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal slotted",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.7,0.5,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,1.0,0.4,0.7"
+    }
+  ]
+}

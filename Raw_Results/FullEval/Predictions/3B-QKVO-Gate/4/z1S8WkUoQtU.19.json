@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "painting1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "lamp1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "sofa1",
+      "target": "person1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lamp1",
+      "target": "sofa1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red shirt,long dark hair",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.15,0.0,0.85,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame",
+        "size": "medium"
+      },
+      "id": "painting1",
+      "label": "framed painting",
+      "location": "0.3,0.05,0.7,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange",
+        "size": "small"
+      },
+      "id": "lamp1",
+      "label": "table lamp",
+      "location": "0.85,0.3,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown leather",
+        "size": "medium"
+      },
+      "id": "sofa1",
+      "label": "couch",
+      "location": "0.0,0.7,0.5,1.0,0.7"
+    }
+  ]
+}

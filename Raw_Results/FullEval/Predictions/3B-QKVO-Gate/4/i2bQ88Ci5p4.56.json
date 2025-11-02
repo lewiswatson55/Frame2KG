@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "sauce1"
+    },
+    {
+      "predicate": "in",
+      "source": "sauce1",
+      "target": "pot1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.05,0.0,0.95,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "bright orange liquid",
+        "size": "medium"
+      },
+      "id": "sauce1",
+      "label": "tomato sauce",
+      "location": "0.1,0.1,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "wooden spoon",
+      "location": "0.3,0.0,0.6,0.4,0.7"
+    }
+  ]
+}

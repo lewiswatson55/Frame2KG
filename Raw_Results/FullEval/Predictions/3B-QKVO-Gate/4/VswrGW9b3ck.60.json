@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "oil1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "holding",
+      "source": "skimmer1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.05,0.05,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "bubbling yellowish liquid",
+        "size": "medium"
+      },
+      "id": "oil1",
+      "label": "cooking oil",
+      "location": "0.1,0.1,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown battered",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "fried chicken pieces",
+      "location": "0.1,0.3,0.9,0.8,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal mesh with wooden handle",
+        "size": "medium"
+      },
+      "id": "skimmer1",
+      "label": "metal skimmer",
+      "location": "0.4,0.1,0.95,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black glossy surface",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.0,0.8,1.0,1.0,0.7"
+    }
+  ]
+}

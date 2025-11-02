@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "plate1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "behind",
+      "source": "candle1",
+      "target": "tray1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown grilled meat",
+        "size": "medium"
+      },
+      "id": "patty1",
+      "label": "burger patty",
+      "location": "0.05,0.45,0.6,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.3,0.5,0.8,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "cutting board",
+      "location": "0.2,0.2,1.0,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow glass",
+        "size": "medium"
+      },
+      "id": "candle1",
+      "label": "candle",
+      "location": "0.0,0.0,0.3,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "bowl",
+      "location": "0.7,0.6,1.0,1.0,0.6"
+    }
+  ]
+}

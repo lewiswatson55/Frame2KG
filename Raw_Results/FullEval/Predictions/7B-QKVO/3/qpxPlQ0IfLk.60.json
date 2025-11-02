@@ -1,0 +1,233 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "lemon1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "bottle2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle3",
+      "target": "bottle4"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "bottle5"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "blender1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "behind",
+      "source": "stool1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "stool1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "grill1",
+      "target": "board1"
+    },
+    {
+      "predicate": "above",
+      "source": "pan_hanging1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "lamp1",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.48,0.05,0.96,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.15,0.45,0.35,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "olive oil bottle",
+      "location": "0.35,0.55,0.42,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "bottle2",
+      "label": "mustard bottle",
+      "location": "0.42,0.6,0.48,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "bottle3",
+      "label": "mayonnaise bottle",
+      "location": "0.38,0.65,0.44,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bottle4",
+      "label": "salt shaker",
+      "location": "0.44,0.65,0.48,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bowl",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl of salt",
+      "location": "0.48,0.65,0.55,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread slices",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "bread slices",
+      "location": "0.55,0.65,0.65,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "lemon",
+      "location": "0.50,0.75,0.55,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.45,0.6,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.55,0.55,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "grill1",
+      "label": "griddle",
+      "location": "0.75,0.6,0.98,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan_hanging1",
+      "label": "hanging pans",
+      "location": "0.45,0.0,0.75,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "kitchen shelf",
+      "location": "0.0,0.0,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey brick",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "brick wall",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden frame",
+        "size": "small"
+      },
+      "id": "frame1",
+      "label": "picture frame",
+      "location": "0.75,0.15,0.85,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white shade",
+        "size": "small"
+      },
+      "id": "lamp1",
+      "label": "table lamp",
+      "location": "0.9,0.1,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "stool1",
+      "label": "bar stool",
+      "location": "0.0,0.4,0.2,0.8,0.8"
+    }
+  ]
+}

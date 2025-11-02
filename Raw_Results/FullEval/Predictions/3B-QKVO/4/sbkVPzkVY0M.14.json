@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "salmon1",
+      "target": "crust"
+    },
+    {
+      "predicate": "on",
+      "source": "caviar_red",
+      "target": "salmon1"
+    },
+    {
+      "predicate": "on",
+      "source": "caviar_black",
+      "target": "salmon1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese",
+      "target": "crust"
+    },
+    {
+      "predicate": "on",
+      "source": "herbs",
+      "target": "salmon1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink raw",
+        "size": "medium"
+      },
+      "id": "salmon1",
+      "label": "Salmon Slices",
+      "location": "0.05,0.3,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black",
+        "size": "small"
+      },
+      "id": "caviar_black",
+      "label": "Black Caviar",
+      "location": "0.45,0.45,0.6,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red",
+        "size": "small"
+      },
+      "id": "caviar_red",
+      "label": "Red Caviar",
+      "location": "0.55,0.35,0.75,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white",
+        "size": "large"
+      },
+      "id": "cheese",
+      "label": "Cheese",
+      "location": "0.1,0.6,0.9,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green",
+        "size": "small"
+      },
+      "id": "herbs",
+      "label": "Herbs",
+      "location": "0.2,0.3,0.8,0.7,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "brown",
+        "size": "large"
+      },
+      "id": "crust",
+      "label": "Crust",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    }
+  ]
+}

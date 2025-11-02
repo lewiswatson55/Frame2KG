@@ -1,0 +1,103 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "cup1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "cup1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "plastic bowl",
+      "location": "0.05,0.15,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white liquid",
+        "size": "medium"
+      },
+      "id": "liquid1",
+      "label": "white liquid stream",
+      "location": "0.45,0.0,0.65,0.35,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red powder",
+        "size": "small"
+      },
+      "id": "powder1",
+      "label": "red powder",
+      "location": "0.45,0.3,0.6,0.5,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden handle yellow silicone head",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.0,0.2,0.4,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.3,0.0,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "cup1",
+      "label": "measuring cup",
+      "location": "0.4,0.0,0.7,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black lid red label",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "spice jar",
+      "location": "0.0,0.7,0.2,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "wooden table",
+      "location": "0.0,0.8,1.0,1.0,0.9"
+    }
+  ]
+}

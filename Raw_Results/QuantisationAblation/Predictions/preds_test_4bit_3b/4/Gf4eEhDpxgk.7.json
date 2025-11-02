@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "on",
+      "source": "mixer1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cup1",
+      "target": "mixer1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "rack1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "behind",
+      "source": "curtain1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "shelf1",
+      "target": "curtain1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blonde hair white t-shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.05,0.65,0.98,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.00,0.00,0.25,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white cloth",
+        "size": "large"
+      },
+      "id": "curtain1",
+      "label": "window curtain",
+      "location": "0.40,0.00,0.60,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "small"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.80,0.00,1.00,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic black motor",
+        "size": "medium"
+      },
+      "id": "mixer1",
+      "label": "stand mixer",
+      "location": "0.75,0.60,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "small"
+      },
+      "id": "cup1",
+      "label": "ceramic cup",
+      "location": "0.70,0.80,0.80,0.90,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "countertop",
+      "location": "0.60,0.75,1.00,1.00,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green striped fabric",
+        "size": "small"
+      },
+      "id": "rack1",
+      "label": "utensil rack",
+      "location": "0.00,0.50,0.20,0.80,0.7"
+    }
+  ]
+}

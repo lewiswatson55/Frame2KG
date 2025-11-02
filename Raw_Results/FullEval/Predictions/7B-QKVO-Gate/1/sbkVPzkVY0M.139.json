@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "mixer1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "hand1",
+      "target": "mixer1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "large"
+      },
+      "id": "mixer1",
+      "label": "Food Processor",
+      "location": "0.35,0.4,0.75,0.98,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with yellow mixture",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Mixing Bowl",
+      "location": "0.4,0.2,0.65,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade white handle",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "Spatula",
+      "location": "0.45,0.1,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.6,0.6,1.0,1.0,0.9"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "mixing_bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife_block1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "plant1",
+      "target": "window1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink shirt blue apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.05,0.68,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.47,0.45,0.58,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "medium"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.75,0.75,0.98,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black glass",
+        "size": "small"
+      },
+      "id": "mixing_bowl1",
+      "label": "glass mixing bowl",
+      "location": "0.40,0.65,0.50,0.80,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden handle black blades",
+        "size": "small"
+      },
+      "id": "knife_block1",
+      "label": "knife block",
+      "location": "0.00,0.50,0.15,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "jar of utensils",
+      "location": "0.15,0.60,0.25,0.80,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves white pot",
+        "size": "medium"
+      },
+      "id": "plant1",
+      "label": "potted plant",
+      "location": "0.05,0.00,0.30,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.00,0.00,1.00,0.50,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "grey surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.00,0.60,1.00,1.00,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.40,0.75,0.80,0.95,0.7"
+    }
+  ]
+}

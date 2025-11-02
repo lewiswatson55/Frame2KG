@@ -1,0 +1,247 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "griddle"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lettuce1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "blender1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bottle1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lemon1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife1",
+      "target": "lemon1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "behind",
+      "source": "pot1",
+      "target": "person1"
+    },
+    {
+      "predicate": "above",
+      "source": "pan1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "sign1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "on",
+      "source": "books1",
+      "target": "bookshelf1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lamp1",
+      "target": "bookshelf1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue red plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "griddle",
+      "label": "griddle",
+      "location": "0.45,0.7,0.75,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "raw chicken piece",
+      "location": "0.5,0.75,0.6,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.65,0.75,0.8,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crust white bread",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "baguette slice",
+      "location": "0.8,0.75,0.95,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender jar",
+      "location": "0.0,0.4,0.15,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "oil bottle",
+      "location": "0.15,0.45,0.25,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow citrus",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "lemon",
+      "location": "0.25,0.7,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.3,0.7,0.4,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.3,0.75,0.45,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "wooden bowl",
+      "location": "0.4,0.75,0.5,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey brick",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "brick wall",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.0,0.0,0.5,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.5,0.0,0.7,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "hanging pan",
+      "location": "0.5,0.0,0.7,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "small"
+      },
+      "id": "sign1",
+      "label": "sign",
+      "location": "0.7,0.1,0.85,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stacked books",
+        "size": "medium"
+      },
+      "id": "books1",
+      "label": "stack of books",
+      "location": "0.85,0.2,0.95,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "bookshelf1",
+      "label": "bookshelf",
+      "location": "0.85,0.2,0.95,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white shade",
+        "size": "small"
+      },
+      "id": "lamp1",
+      "label": "table lamp",
+      "location": "0.9,0.2,1.0,0.6,0.7"
+    }
+  ]
+}

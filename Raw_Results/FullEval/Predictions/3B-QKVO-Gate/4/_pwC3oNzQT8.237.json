@@ -1,0 +1,141 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl1",
+      "target": "tile_wall1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "pan1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "tray1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "Stovetop",
+      "location": "0.0,0.65,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black non-stick",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "Frying pan",
+      "location": "0.0,0.7,0.4,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Mixing bowl",
+      "location": "0.35,0.45,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown baked chicken",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "Baking tray",
+      "location": "0.6,0.5,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.75,0.3,0.95,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange sauced",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "Chicken piece",
+      "location": "0.78,0.35,0.9,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "Blender jug",
+      "location": "0.65,0.1,0.85,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "Jar",
+      "location": "0.85,0.1,0.98,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white tiled",
+        "size": "large"
+      },
+      "id": "tile_wall1",
+      "label": "Tile wall",
+      "location": "0.0,0.0,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white laminate",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.4,1.0,0.7,0.8"
+    }
+  ]
+}

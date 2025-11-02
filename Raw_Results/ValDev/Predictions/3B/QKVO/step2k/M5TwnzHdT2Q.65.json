@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "fork1"
+    },
+    {
+      "predicate": "on",
+      "source": "fork1",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "plate1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.45,0.0,0.95,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "fork1",
+      "label": "Fork",
+      "location": "0.47,0.15,0.65,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow shredded",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "Shredded Cheese",
+      "location": "0.45,0.25,0.65,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "Bread Slice",
+      "location": "0.45,0.35,0.65,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "Frying Pan",
+      "location": "0.1,0.1,0.9,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.3,0.5,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "Stove Burner",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    }
+  ]
+}

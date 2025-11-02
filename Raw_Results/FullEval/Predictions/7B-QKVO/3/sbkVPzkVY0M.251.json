@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hands1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "burger1"
+    },
+    {
+      "predicate": "on",
+      "source": "burger1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "bottle2"
+    },
+    {
+      "predicate": "behind",
+      "source": "bottle2",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hands1",
+      "label": "Hands",
+      "location": "0.35,0.05,0.65,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce Leaf",
+      "location": "0.48,0.37,0.75,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bun with cheese patty",
+        "size": "medium"
+      },
+      "id": "burger1",
+      "label": "Burger",
+      "location": "0.45,0.45,0.75,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.3,0.4,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with white liquid",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "Glass Bottle",
+      "location": "0.1,0.0,0.25,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark brown plastic",
+        "size": "small"
+      },
+      "id": "bottle2",
+      "label": "Spice Jar",
+      "location": "0.5,0.0,0.6,0.4,0.8"
+    }
+  ]
+}

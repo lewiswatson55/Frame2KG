@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken2",
+      "target": "oil1"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "supports",
+      "source": "pan1",
+      "target": "oil1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "fried chicken drumstick",
+      "location": "0.45,0.0,0.98,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "chicken2",
+      "label": "fried chicken piece",
+      "location": "0.0,0.6,0.3,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.6,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow bubbling liquid",
+        "size": "large"
+      },
+      "id": "oil1",
+      "label": "cooking oil",
+      "location": "0.0,0.0,0.6,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark plastic handle",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.7,0.0,1.0,0.5,0.7"
+    }
+  ]
+}

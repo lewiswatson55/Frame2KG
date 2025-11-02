@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "onion_slice"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand1",
+      "target": "background1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "purple peeled",
+        "size": "small"
+      },
+      "id": "onion_slice",
+      "label": "onion slice",
+      "location": "0.4,0.6,0.8,0.9,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "red blurred",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "red background",
+      "location": "0.3,0.0,1.0,0.7,0.75"
+    }
+  ]
+}

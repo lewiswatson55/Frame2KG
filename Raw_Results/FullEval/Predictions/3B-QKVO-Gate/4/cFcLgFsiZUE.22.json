@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "sauce1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "on",
+      "source": "butter1",
+      "target": "sauce1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "thermometer1",
+      "target": "pot1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "cast iron pot",
+      "location": "0.05,0.0,0.95,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red liquid",
+        "size": "medium"
+      },
+      "id": "sauce1",
+      "label": "tomato sauce",
+      "location": "0.1,0.1,0.9,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow solid",
+        "size": "small"
+      },
+      "id": "butter1",
+      "label": "butter block",
+      "location": "0.45,0.35,0.6,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "electric stove top",
+      "location": "0.0,0.0,1.0,0.2,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic red dial",
+        "size": "small"
+      },
+      "id": "thermometer1",
+      "label": "kitchen thermometer",
+      "location": "0.8,0.3,1.0,0.6,0.7"
+    }
+  ]
+}

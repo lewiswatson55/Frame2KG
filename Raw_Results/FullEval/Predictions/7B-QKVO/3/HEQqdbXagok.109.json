@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pattern1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "dish1",
+      "target": "background1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic with blue floral pattern",
+        "size": "large"
+      },
+      "id": "dish1",
+      "label": "ceramic dish",
+      "location": "0.05,0.05,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue floral design on white background",
+        "size": "medium"
+      },
+      "id": "pattern1",
+      "label": "floral pattern",
+      "location": "0.35,0.45,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black solid color",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "background",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

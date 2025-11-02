@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_of_food",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_of_sauce",
+      "target": "countertop"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "cabinets"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "mixer",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "stove",
+      "target": "counter"
+    },
+    {
+      "predicate": "behind",
+      "source": "dish_rack",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin blonde hair white shirt pink apron",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.1,0.48,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark skin black chef coat",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.48,0.1,0.76,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate_of_food",
+      "label": "plate of food",
+      "location": "0.3,0.7,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass orange sauce",
+        "size": "small"
+      },
+      "id": "bowl_of_sauce",
+      "label": "sauce bowl",
+      "location": "0.2,0.75,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "fridge",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.3,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinets",
+      "label": "kitchen cabinets",
+      "location": "0.5,0.0,1.0,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "medium"
+      },
+      "id": "mixer",
+      "label": "stand mixer",
+      "location": "0.55,0.2,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove",
+      "label": "stovetop",
+      "location": "0.8,0.6,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "dish_rack",
+      "label": "dish rack",
+      "location": "0.8,0.0,1.0,0.2,0.7"
+    }
+  ]
+}

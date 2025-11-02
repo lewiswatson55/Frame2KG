@@ -1,0 +1,230 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle2",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper_mill1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper_mill2",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "artwork1",
+      "target": "artwork2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "artwork3",
+      "target": "artwork4"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "artwork1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "artwork2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "artwork3"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "artwork4"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.25,0.05,0.75,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.45,0.6,0.8,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "stove1",
+      "label": "portable stove",
+      "location": "0.4,0.75,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.35,0.55,0.5,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic with green lettuce and red tomatoes",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate of vegetables",
+      "location": "0.7,0.75,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "wooden cutting board",
+      "location": "0.6,0.6,0.8,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "sauce bottle",
+      "location": "0.3,0.75,0.35,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark glass",
+        "size": "small"
+      },
+      "id": "bottle2",
+      "label": "condiment bottle",
+      "location": "0.35,0.75,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green limes",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "basket of limes",
+      "location": "0.0,0.5,0.2,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey stone",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "kitchen countertop",
+      "location": "0.0,0.5,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame with colorful abstract art",
+        "size": "medium"
+      },
+      "id": "artwork1",
+      "label": "framed artwork",
+      "location": "0.6,0.0,0.8,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame with colorful abstract art",
+        "size": "medium"
+      },
+      "id": "artwork2",
+      "label": "framed artwork",
+      "location": "0.8,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame with pink floral pattern",
+        "size": "medium"
+      },
+      "id": "artwork3",
+      "label": "framed artwork",
+      "location": "0.0,0.0,0.2,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame with blue floral pattern",
+        "size": "medium"
+      },
+      "id": "artwork4",
+      "label": "framed artwork",
+      "location": "0.2,0.0,0.4,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "pepper_mill1",
+      "label": "pepper mill",
+      "location": "0.9,0.6,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "pepper_mill2",
+      "label": "pepper mill",
+      "location": "0.95,0.6,1.0,0.75,0.8"
+    }
+  ]
+}

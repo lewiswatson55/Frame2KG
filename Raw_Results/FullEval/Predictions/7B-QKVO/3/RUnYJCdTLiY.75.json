@@ -1,0 +1,117 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "sink1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "pans1",
+      "target": "cabinets1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "board1",
+      "target": "jars1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "stove1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "dishwasher1",
+      "target": "sink1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "maroon top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "cabinets1",
+      "label": "kitchen cabinets",
+      "location": "0.0,0.0,1.0,0.4,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "pans1",
+      "label": "hanging pans",
+      "location": "0.37,0.0,0.63,0.25,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "silver stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "kitchen sink",
+      "location": "0.25,0.4,0.5,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.0,0.4,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.6,0.4,0.75,0.55,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jars with silver lids",
+        "size": "small"
+      },
+      "id": "jars1",
+      "label": "spice jars",
+      "location": "0.75,0.45,0.95,0.6,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stovetop oven",
+      "location": "0.0,0.4,0.2,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "dishwasher1",
+      "label": "dishwasher",
+      "location": "0.6,0.6,0.8,0.9,0.9"
+    }
+  ]
+}

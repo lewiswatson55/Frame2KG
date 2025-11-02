@@ -1,0 +1,169 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "cutting",
+      "source": "knife1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "on",
+      "source": "sandwich1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "on",
+      "source": "paper_towel1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "board1"
+    },
+    {
+      "predicate": "behind",
+      "source": "appliance1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "logo1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black jacket",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.0,0.0,0.5,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.3,0.4,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.2,0.5,0.8,0.9,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread lettuce bacon tomato",
+        "size": "medium"
+      },
+      "id": "sandwich1",
+      "label": "sandwich",
+      "location": "0.3,0.6,0.7,0.85,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce",
+      "location": "0.45,0.65,0.6,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red slice",
+        "size": "small"
+      },
+      "id": "tomato1",
+      "label": "tomato slice",
+      "location": "0.5,0.6,0.65,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink slices",
+        "size": "small"
+      },
+      "id": "bacon1",
+      "label": "bacon strips",
+      "location": "0.4,0.65,0.6,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown toasted",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "bread slice",
+      "location": "0.35,0.6,0.65,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.7,0.3,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "small"
+      },
+      "id": "paper_towel1",
+      "label": "paper towel",
+      "location": "0.0,0.75,0.3,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "appliance1",
+      "label": "appliance",
+      "location": "0.3,0.0,0.7,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "logo",
+      "location": "0.8,0.8,1.0,1.0,0.9"
+    }
+  ]
+}

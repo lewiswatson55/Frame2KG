@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in",
+      "source": "oil1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "in",
+      "source": "stick1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pot1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.05,0.0,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.0,0.0,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown battered",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "fried chicken piece",
+      "location": "0.3,0.0,0.5,0.3,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "frying pot",
+      "location": "0.2,0.4,0.9,0.9,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "greenish liquid",
+        "size": "medium"
+      },
+      "id": "oil1",
+      "label": "cooking oil",
+      "location": "0.3,0.5,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "stick1",
+      "label": "wooden stick",
+      "location": "0.45,0.5,0.55,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black surface",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.0,0.6,0.5,1.0,0.8"
+    }
+  ]
+}

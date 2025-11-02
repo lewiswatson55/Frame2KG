@@ -1,0 +1,109 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "text2",
+      "target": "background"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "fork",
+      "target": "flame"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "spatula",
+      "target": "flame"
+    },
+    {
+      "predicate": "left_of",
+      "source": "fork",
+      "target": "spatula"
+    },
+    {
+      "predicate": "above",
+      "source": "flame",
+      "target": "fork"
+    },
+    {
+      "predicate": "above",
+      "source": "flame",
+      "target": "spatula"
+    },
+    {
+      "predicate": "below",
+      "source": "text3",
+      "target": "flame"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow background",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "black uppercase letters",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Text 'PLEASE VISIT US ON FACEBOOK'",
+      "location": "0.0,0.0,1.0,0.18,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red cursive font",
+        "size": "small"
+      },
+      "id": "text2",
+      "label": "Text 'Pinay Cooking Lessons'",
+      "location": "0.4,0.75,0.6,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange flame",
+        "size": "medium"
+      },
+      "id": "flame",
+      "label": "Flame",
+      "location": "0.4,0.3,0.6,0.6,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "black line art",
+        "size": "medium"
+      },
+      "id": "fork",
+      "label": "Fork",
+      "location": "0.1,0.4,0.3,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black line art",
+        "size": "medium"
+      },
+      "id": "spatula",
+      "label": "Spatula",
+      "location": "0.6,0.4,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black line art",
+        "size": "medium"
+      },
+      "id": "logo",
+      "label": "Logo",
+      "location": "0.2,0.2,0.8,0.8,0.9"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "flour1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "meat1",
+      "target": "flour1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "potato1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow-orange floral patterned ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "decorative plate",
+      "location": "0.05,0.05,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "medium"
+      },
+      "id": "flour1",
+      "label": "flour mound",
+      "location": "0.1,0.1,0.9,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "small"
+      },
+      "id": "meat1",
+      "label": "raw meat piece",
+      "location": "0.65,0.1,0.95,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "purple skin",
+        "size": "small"
+      },
+      "id": "potato1",
+      "label": "potato",
+      "location": "0.0,0.0,0.3,0.2,0.6"
+    }
+  ]
+}

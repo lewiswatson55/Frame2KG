@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "whisk1"
+    },
+    {
+      "predicate": "in",
+      "source": "whisk1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl3",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl2",
+      "target": "bowl3"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet_left",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet_right",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "maroon shirt white apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.15,0.0,0.85,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.2,0.4,0.7,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal wire",
+        "size": "small"
+      },
+      "id": "whisk1",
+      "label": "Whisk",
+      "location": "0.3,0.3,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet_left",
+      "label": "Cabinet Door",
+      "location": "0.0,0.0,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet_right",
+      "label": "Cabinet Door",
+      "location": "0.7,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "Red Bowl",
+      "location": "0.8,0.4,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl3",
+      "label": "White Bowl",
+      "location": "0.8,0.7,0.95,0.9,0.8"
+    }
+  ]
+}

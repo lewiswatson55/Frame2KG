@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cheese1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tomato1",
+      "target": "patty1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown grilled",
+        "size": "medium"
+      },
+      "id": "patty1",
+      "label": "beef patty",
+      "location": "0.35,0.45,0.98,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "large"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white melted",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "cheese slice",
+      "location": "0.0,0.0,0.4,0.4,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "red chopped",
+        "size": "small"
+      },
+      "id": "tomato1",
+      "label": "chopped tomato",
+      "location": "0.6,0.0,1.0,0.4,0.6"
+    }
+  ]
+}

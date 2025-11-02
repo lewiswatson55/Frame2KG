@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hands1",
+      "target": "rolling_pin1"
+    },
+    {
+      "predicate": "on",
+      "source": "bag1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "tray1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread1",
+      "target": "bread2"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread2",
+      "target": "tray1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hands1",
+      "label": "human hands",
+      "location": "0.05,0.0,0.45,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "flour bag",
+      "location": "0.0,0.2,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden light brown",
+        "size": "small"
+      },
+      "id": "rolling_pin1",
+      "label": "rolling pin",
+      "location": "0.1,0.1,0.6,0.3,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic grey",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "baking tray",
+      "location": "0.4,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white flour-coated",
+        "size": "medium"
+      },
+      "id": "bread1",
+      "label": "dough piece",
+      "location": "0.55,0.55,0.75,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white flour-coated",
+        "size": "medium"
+      },
+      "id": "bread2",
+      "label": "dough piece",
+      "location": "0.75,0.55,0.95,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden light brown",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.6,0.6,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey smooth",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white painted",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.6,0.0,1.0,0.6,0.7"
+    }
+  ]
+}

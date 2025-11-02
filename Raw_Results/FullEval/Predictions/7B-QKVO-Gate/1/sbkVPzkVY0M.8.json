@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "burger1",
+      "target": "paper1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "paper1",
+      "target": "fries1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fries1",
+      "target": "burger1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden bun with melted cheese tomato lettuce",
+        "size": "medium"
+      },
+      "id": "burger1",
+      "label": "cheeseburger",
+      "location": "0.45,0.18,0.97,0.83,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white crinkled paper",
+        "size": "large"
+      },
+      "id": "paper1",
+      "label": "wax paper",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow crispy",
+        "size": "small"
+      },
+      "id": "fries1",
+      "label": "french fries",
+      "location": "0.5,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "painting1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person1",
+      "target": "sculpture1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "logo1",
+      "target": "painting1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "dark hair pink shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.15,0.0,0.85,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame grey background",
+        "size": "medium"
+      },
+      "id": "painting1",
+      "label": "artwork",
+      "location": "0.1,0.05,0.4,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "small"
+      },
+      "id": "sculpture1",
+      "label": "ceramic sculpture",
+      "location": "0.75,0.3,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white red text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "YouTube logo",
+      "location": "0.0,0.0,0.2,0.15,0.9"
+    }
+  ]
+}

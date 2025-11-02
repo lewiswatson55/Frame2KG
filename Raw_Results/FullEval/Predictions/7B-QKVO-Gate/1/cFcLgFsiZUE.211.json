@@ -1,0 +1,127 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "chicken_wings"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken_wings",
+      "target": "plate"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sauce_bowl",
+      "target": "plate"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "fridge"
+    },
+    {
+      "predicate": "behind",
+      "source": "mixer",
+      "target": "fridge"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "knife_block",
+      "target": "cabinet"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person2",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black chef coat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.53,0.08,0.97,0.94,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.00,0.15,0.46,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "fridge",
+      "label": "refrigerator",
+      "location": "0.00,0.00,0.45,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "kitchen cabinet",
+      "location": "0.45,0.00,1.00,0.40,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "small"
+      },
+      "id": "mixer",
+      "label": "stand mixer",
+      "location": "0.45,0.25,0.60,0.50,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "knife_block",
+      "label": "knife block",
+      "location": "0.45,0.20,0.55,0.35,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "orange sauce",
+        "size": "small"
+      },
+      "id": "sauce_bowl",
+      "label": "sauce bowl",
+      "location": "0.20,0.75,0.30,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate",
+      "label": "plate",
+      "location": "0.30,0.70,0.60,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "medium"
+      },
+      "id": "chicken_wings",
+      "label": "chicken wings",
+      "location": "0.35,0.75,0.55,0.88,0.8"
+    }
+  ]
+}

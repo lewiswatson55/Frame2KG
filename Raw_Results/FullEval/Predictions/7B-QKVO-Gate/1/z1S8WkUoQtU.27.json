@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "rings1",
+      "target": "board1"
+    },
+    {
+      "predicate": "behind",
+      "source": "background1",
+      "target": "rings1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink translucent",
+        "size": "medium"
+      },
+      "id": "rings1",
+      "label": "Onion Rings",
+      "location": "0.35,0.45,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.75,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red gradient",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,0.5,0.7"
+    }
+  ]
+}

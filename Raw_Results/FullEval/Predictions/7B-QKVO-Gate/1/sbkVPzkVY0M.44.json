@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "includes",
+      "source": "jar1",
+      "target": "meat1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "scale1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.05,0.0,0.98,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink plastic",
+        "size": "medium"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.1,0.0,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "Jar",
+      "location": "0.3,0.3,0.7,0.7,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "red raw meat",
+        "size": "small"
+      },
+      "id": "meat1",
+      "label": "Ground Sirloin",
+      "location": "0.35,0.4,0.65,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "scale1",
+      "label": "Scale",
+      "location": "0.0,0.7,0.6,1.0,0.7"
+    }
+  ]
+}

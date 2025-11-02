@@ -1,0 +1,67 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "cupcake_green",
+      "target": "text_magnolia"
+    },
+    {
+      "predicate": "behind",
+      "source": "cupcake_orange",
+      "target": "text_magnolia"
+    },
+    {
+      "predicate": "right_of",
+      "source": "cupcake_purple",
+      "target": "text_magnolia"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cupcake_green",
+      "target": "cupcake_orange"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cupcake_orange",
+      "target": "cupcake_purple"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green frosting with white sprinkles",
+        "size": "medium"
+      },
+      "id": "cupcake_green",
+      "label": "cupcake",
+      "location": "0.35,0.45,0.98,0.97,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange frosting with pink flowers",
+        "size": "medium"
+      },
+      "id": "cupcake_orange",
+      "label": "cupcake",
+      "location": "0.25,0.05,0.65,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple frosting with green leaves",
+        "size": "medium"
+      },
+      "id": "cupcake_purple",
+      "label": "cupcake",
+      "location": "0.65,0.15,0.98,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on transparent background",
+        "size": "large"
+      },
+      "id": "text_magnolia",
+      "label": "text",
+      "location": "0.25,0.35,0.75,0.65,0.9"
+    }
+  ]
+}

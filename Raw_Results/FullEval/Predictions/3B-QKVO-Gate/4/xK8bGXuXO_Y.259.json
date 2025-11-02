@@ -1,0 +1,89 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "herb1",
+      "target": "meat1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "herb1",
+      "target": "meat2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "meat1",
+      "target": "meat3"
+    },
+    {
+      "predicate": "left_of",
+      "source": "meat4",
+      "target": "meat5"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "large"
+      },
+      "id": "meat1",
+      "label": "raw meat slice",
+      "location": "0.0,0.6,0.7,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "medium"
+      },
+      "id": "meat2",
+      "label": "raw meat piece",
+      "location": "0.0,0.0,0.5,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy herb",
+        "size": "small"
+      },
+      "id": "herb1",
+      "label": "herb stem",
+      "location": "0.2,0.0,0.9,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic plate",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.6,0.5,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red raw meat",
+        "size": "medium"
+      },
+      "id": "meat3",
+      "label": "raw meat slice",
+      "location": "0.0,0.6,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red raw meat",
+        "size": "medium"
+      },
+      "id": "meat4",
+      "label": "raw meat slice",
+      "location": "0.0,0.0,0.3,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red raw meat",
+        "size": "medium"
+      },
+      "id": "meat5",
+      "label": "raw meat slice",
+      "location": "0.0,0.3,0.3,0.6,0.7"
+    }
+  ]
+}

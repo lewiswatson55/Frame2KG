@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "flour1"
+    },
+    {
+      "predicate": "on",
+      "source": "flour1",
+      "target": "tray1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.5,0.3,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "raw pink",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "raw chicken piece",
+      "location": "0.45,0.1,0.75,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "large"
+      },
+      "id": "flour1",
+      "label": "flour pile",
+      "location": "0.0,0.0,1.0,0.7,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "dark metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "metal tray",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

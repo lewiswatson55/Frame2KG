@@ -1,0 +1,155 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "small_bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "small_bowl",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "large_bowl",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_of_lettuce",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "napkin_stack",
+      "target": "counter"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "chalkboard"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "chalkboard"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf_with_bread",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf_with_bread",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white sweater",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.18,0.47,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.46,0.18,0.95,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.2,0.75,0.8,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "large_bowl",
+      "label": "mixing bowl",
+      "location": "0.0,0.75,0.25,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "bowl_of_lettuce",
+      "label": "bowl of lettuce",
+      "location": "0.0,0.75,0.15,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "small"
+      },
+      "id": "napkin_stack",
+      "label": "napkins stack",
+      "location": "0.15,0.75,0.25,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "small"
+      },
+      "id": "small_bowl",
+      "label": "small bowl",
+      "location": "0.45,0.8,0.55,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark green chalk writing",
+        "size": "large"
+      },
+      "id": "chalkboard",
+      "label": "chalkboard menu",
+      "location": "0.0,0.0,1.0,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown loaves",
+        "size": "large"
+      },
+      "id": "shelf_with_bread",
+      "label": "bread shelf",
+      "location": "0.3,0.2,0.9,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "large"
+      },
+      "id": "pot",
+      "label": "cooking pot",
+      "location": "0.85,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "counter",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    }
+  ]
+}

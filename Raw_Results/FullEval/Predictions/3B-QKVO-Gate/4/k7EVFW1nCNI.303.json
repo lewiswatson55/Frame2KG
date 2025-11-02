@@ -1,0 +1,159 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "food_processor"
+    },
+    {
+      "predicate": "on",
+      "source": "red_bowl",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "red_cup",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "vase_of_roses",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "sink",
+      "target": "countertop"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "faucet",
+      "target": "sink"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "microwave",
+      "target": "cabinets"
+    },
+    {
+      "predicate": "next_to",
+      "source": "stove",
+      "target": "microwave"
+    },
+    {
+      "predicate": "left_of",
+      "source": "dishwasher",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light blue lace top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic bowl with green mixture",
+        "size": "small"
+      },
+      "id": "food_processor",
+      "label": "food processor",
+      "location": "0.7,0.6,0.9,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white wooden",
+        "size": "large"
+      },
+      "id": "cabinets",
+      "label": "kitchen cabinets",
+      "location": "0.0,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "microwave",
+      "label": "microwave oven",
+      "location": "0.75,0.0,1.0,0.3,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "black glass",
+        "size": "medium"
+      },
+      "id": "stove",
+      "label": "electric stove",
+      "location": "0.6,0.4,1.0,0.7,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "silver stainless steel",
+        "size": "medium"
+      },
+      "id": "sink",
+      "label": "sink",
+      "location": "0.3,0.3,0.5,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "faucet",
+      "label": "faucet",
+      "location": "0.35,0.2,0.45,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear vase with red roses",
+        "size": "small"
+      },
+      "id": "vase_of_roses",
+      "label": "vase of roses",
+      "location": "0.05,0.3,0.2,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "red_cup",
+      "label": "cup",
+      "location": "0.2,0.4,0.25,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "red_bowl",
+      "label": "bowl",
+      "location": "0.55,0.4,0.65,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "dishwasher",
+      "label": "dishwasher",
+      "location": "0.0,0.6,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.3,1.0,0.6,0.7"
+    }
+  ]
+}

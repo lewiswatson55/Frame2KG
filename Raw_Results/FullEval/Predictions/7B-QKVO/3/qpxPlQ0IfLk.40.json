@@ -1,0 +1,298 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "cutting",
+      "source": "person1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread2",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "bottle2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle3",
+      "target": "bottle4"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle5",
+      "target": "bottle6"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle7",
+      "target": "bottle8"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lemon1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spoon1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lettuce1",
+      "target": "grill1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "blender1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "above",
+      "source": "pots1",
+      "target": "table1"
+    },
+    {
+      "predicate": "behind",
+      "source": "board1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "stool1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "plant1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.30,0.05,0.70,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.05,0.40,0.25,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "olive oil bottle",
+      "location": "0.30,0.50,0.35,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "bottle2",
+      "label": "mustard bottle",
+      "location": "0.35,0.60,0.40,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "bottle3",
+      "label": "mayonnaise bottle",
+      "location": "0.30,0.65,0.35,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "bottle4",
+      "label": "mustard bottle",
+      "location": "0.35,0.65,0.40,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "bottle5",
+      "label": "mayonnaise bottle",
+      "location": "0.30,0.70,0.35,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "bottle6",
+      "label": "mayonnaise bottle",
+      "location": "0.35,0.70,0.40,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "bottle7",
+      "label": "ketchup bottle",
+      "location": "0.30,0.75,0.35,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bottle8",
+      "label": "sauce bottle",
+      "location": "0.35,0.75,0.40,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "lemon",
+      "location": "0.45,0.65,0.50,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "spoon",
+      "location": "0.45,0.60,0.50,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl",
+      "location": "0.45,0.60,0.50,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal blade black handle",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.40,0.55,0.60,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crust white bread",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "bread slice",
+      "location": "0.45,0.65,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crust white bread",
+        "size": "small"
+      },
+      "id": "bread2",
+      "label": "bread slice",
+      "location": "0.55,0.65,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.40,0.60,0.60,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "grill1",
+      "label": "griddle",
+      "location": "0.60,0.60,0.95,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.80,0.60,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.00,0.00,0.50,0.20,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "pots1",
+      "label": "hanging pots",
+      "location": "0.50,0.00,0.80,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "small"
+      },
+      "id": "stool1",
+      "label": "stool",
+      "location": "0.00,0.40,0.15,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "potted plant",
+      "location": "0.85,0.40,0.95,0.60,0.8"
+    }
+  ]
+}

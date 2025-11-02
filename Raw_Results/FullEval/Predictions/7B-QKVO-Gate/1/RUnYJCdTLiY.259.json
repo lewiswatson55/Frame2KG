@@ -1,0 +1,127 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "plate"
+    },
+    {
+      "predicate": "on",
+      "source": "syrup_stream",
+      "target": "pancake1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "fork",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "apron",
+      "target": "person"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinets",
+      "target": "person"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "stove",
+      "target": "cabinets"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl",
+      "target": "plate"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate",
+      "label": "Plate",
+      "location": "0.35,0.48,0.67,0.79,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "pancake1",
+      "label": "Pancake",
+      "location": "0.45,0.55,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown liquid",
+        "size": "small"
+      },
+      "id": "syrup_stream",
+      "label": "Syrup Stream",
+      "location": "0.55,0.0,0.60,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "fork",
+      "label": "Fork",
+      "location": "0.85,0.65,0.95,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "Countertop",
+      "location": "0.0,0.4,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinets",
+      "label": "Cabinets",
+      "location": "0.0,0.0,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white cotton",
+        "size": "large"
+      },
+      "id": "apron",
+      "label": "Apron",
+      "location": "0.5,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove",
+      "label": "Stove",
+      "location": "0.0,0.3,0.3,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl",
+      "label": "Bowl",
+      "location": "0.0,0.75,0.4,1.0,0.8"
+    }
+  ]
+}

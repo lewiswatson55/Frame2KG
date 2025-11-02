@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "squid1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "hand1",
+      "target": "squid1"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper1",
+      "target": "squid1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand1",
+      "target": "squid1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white translucent",
+        "size": "medium"
+      },
+      "id": "squid1",
+      "label": "raw squid rings",
+      "location": "0.05,0.05,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange plastic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plastic plate",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.3,0.0,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black specks on white",
+        "size": "small"
+      },
+      "id": "pepper1",
+      "label": "pepper flakes",
+      "location": "0.1,0.1,0.9,0.7,0.8"
+    }
+  ]
+}

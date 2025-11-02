@@ -1,0 +1,272 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "vase1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "dishwasher1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "microwave1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "faucet1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet2",
+      "target": "person1"
+    },
+    {
+      "predicate": "on",
+      "source": "flowers1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "towel1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "canister1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "mug1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "container1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "utensil_holder1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "toilet_paper1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "container2",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white lace top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass bowl with green salad",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "salad bowl",
+      "location": "0.47,0.65,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.6,0.4,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver stainless steel",
+        "size": "large"
+      },
+      "id": "sink1",
+      "label": "kitchen sink",
+      "location": "0.2,0.3,0.45,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red roses in clear vase",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "flower vase",
+      "location": "0.1,0.3,0.25,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "flowers1",
+      "label": "flowers",
+      "location": "0.15,0.3,0.25,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper roll",
+        "size": "small"
+      },
+      "id": "toilet_paper1",
+      "label": "toilet paper roll",
+      "location": "0.0,0.5,0.1,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red cloth",
+        "size": "small"
+      },
+      "id": "towel1",
+      "label": "towel",
+      "location": "0.25,0.5,0.35,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red can",
+        "size": "small"
+      },
+      "id": "canister1",
+      "label": "canister",
+      "location": "0.3,0.5,0.35,0.65,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "mug1",
+      "label": "mug",
+      "location": "0.55,0.5,0.6,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue plastic container",
+        "size": "small"
+      },
+      "id": "container1",
+      "label": "container",
+      "location": "0.75,0.5,0.8,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal stand with utensils",
+        "size": "small"
+      },
+      "id": "utensil_holder1",
+      "label": "utensil holder",
+      "location": "0.6,0.5,0.65,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white cabinet",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "upper cabinet",
+      "location": "0.0,0.0,0.5,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white cabinet",
+        "size": "large"
+      },
+      "id": "cabinet2",
+      "label": "upper cabinet",
+      "location": "0.5,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black microwave",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave",
+      "location": "0.7,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver faucet",
+        "size": "medium"
+      },
+      "id": "faucet1",
+      "label": "faucet",
+      "location": "0.35,0.3,0.45,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.3,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal pan",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "cooking pan",
+      "location": "0.7,0.6,0.9,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue plastic container",
+        "size": "small"
+      },
+      "id": "container2",
+      "label": "container",
+      "location": "0.9,0.6,1.0,0.8,0.7"
+    }
+  ]
+}

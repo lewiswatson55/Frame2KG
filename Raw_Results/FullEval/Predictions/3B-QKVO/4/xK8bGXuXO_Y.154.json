@@ -1,0 +1,159 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "plant_hanging",
+      "target": "window"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "spice_rack",
+      "target": "wall"
+    },
+    {
+      "predicate": "behind",
+      "source": "fridge",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue apron pink scarf",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.45,0.15,0.85,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "large"
+      },
+      "id": "window",
+      "label": "window",
+      "location": "0.30,0.00,0.60,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "medium"
+      },
+      "id": "plant_hanging",
+      "label": "hanging plant",
+      "location": "0.30,0.00,0.60,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "spice_rack",
+      "label": "spice rack",
+      "location": "0.00,0.00,0.20,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white marble",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.00,0.50,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove",
+      "label": "gas stove",
+      "location": "0.50,0.60,1.00,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red enamel",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.70,0.60,1.00,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.30,0.60,0.40,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "ceramic bowl",
+      "location": "0.40,0.60,0.50,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "plastic bottle",
+      "location": "0.45,0.60,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "small"
+      },
+      "id": "knife_block",
+      "label": "knife block",
+      "location": "0.00,0.40,0.20,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white",
+        "size": "large"
+      },
+      "id": "fridge",
+      "label": "refrigerator",
+      "location": "0.80,0.00,1.00,1.00,0.8"
+    }
+  ]
+}

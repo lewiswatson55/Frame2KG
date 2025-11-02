@@ -1,0 +1,135 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "chicken1",
+      "target": "biscuits"
+    },
+    {
+      "predicate": "left_of",
+      "source": "biscuits",
+      "target": "coleslaw"
+    },
+    {
+      "predicate": "right_of",
+      "source": "coleslaw",
+      "target": "mac_cheese"
+    },
+    {
+      "predicate": "below_biscuits",
+      "source": "fries"
+    },
+    {
+      "predicate": "below_fries",
+      "source": "green_beans"
+    },
+    {
+      "predicate": "below_green_beans",
+      "source": "mashed_potatoes"
+    },
+    {
+      "predicate": "below_mashed_potatoes",
+      "source": "corn"
+    },
+    {
+      "predicate": "below_corn",
+      "source": "tea"
+    },
+    {
+      "predicate": "below_tea",
+      "source": "shortcake"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "large"
+      },
+      "id": "chicken1",
+      "label": "fried chicken",
+      "location": "0.75,0.3,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light beige soft",
+        "size": "medium"
+      },
+      "id": "biscuits",
+      "label": "butter milk biscuits",
+      "location": "0.0,0.0,0.4,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white bowl with yellow shredded cheese",
+        "size": "small"
+      },
+      "id": "coleslaw",
+      "label": "crunchy coleslaw",
+      "location": "0.4,0.0,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cheesy",
+        "size": "small"
+      },
+      "id": "mac_cheese",
+      "label": "baked mac n cheese",
+      "location": "0.6,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange basket of golden fries",
+        "size": "small"
+      },
+      "id": "fries",
+      "label": "baked cajun fries",
+      "location": "0.0,0.3,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown beans with bacon bits",
+        "size": "small"
+      },
+      "id": "green_beans",
+      "label": "southern green beans",
+      "location": "0.4,0.3,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange bowl with creamy potatoes",
+        "size": "small"
+      },
+      "id": "mashed_potatoes",
+      "label": "cream cheese mashed potatoes",
+      "location": "0.6,0.3,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow corn on plate",
+        "size": "small"
+      },
+      "id": "corn",
+      "label": "sweet & smoky corn",
+      "location": "0.0,0.6,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with red tea",
+        "size": "small"
+      },
+      "id": "tea",
+      "label": "southern sweet tea",
+      "location": "0.4,0.6,0.6,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red strawberry shortcake bars",
+        "size": "small"
+      },
+      "id": "shortcake",
+      "label": "strawberry shortcake bars",
+      "location": "0.6,0.6,1.0,1.0,0.8"
+    }
+  ]
+}

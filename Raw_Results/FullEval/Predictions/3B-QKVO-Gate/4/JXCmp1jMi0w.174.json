@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "bag1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "table1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "tray1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green striped shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.0,0.0,0.6,1.0,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "brown paper bag with red and white text",
+        "size": "medium"
+      },
+      "id": "bag1",
+      "label": "Paper Bag",
+      "location": "0.4,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal tray with flour-coated dough pieces",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "Metal Tray",
+      "location": "0.0,0.7,0.6,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Wooden Table",
+      "location": "0.0,0.8,1.0,1.0,0.8"
+    }
+  ]
+}

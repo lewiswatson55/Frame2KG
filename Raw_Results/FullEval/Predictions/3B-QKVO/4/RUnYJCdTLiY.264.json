@@ -1,0 +1,150 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "sink1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "utensil_hanger1",
+      "target": "cabinet_left"
+    },
+    {
+      "predicate": "on",
+      "source": "jar_group1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "cabinet_left",
+      "target": "wall"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "cabinet_right",
+      "target": "wall"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar_group1",
+      "target": "cabinet_right"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "maroon long-sleeve shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.0,0.4,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.1,0.45,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.3,0.45,0.5,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "utensil_hanger1",
+      "label": "utensil hanger",
+      "location": "0.35,0.0,0.65,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinet_left",
+      "label": "upper cabinet",
+      "location": "0.0,0.0,0.3,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinet_right",
+      "label": "upper cabinet",
+      "location": "0.7,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic with silver lids",
+        "size": "small"
+      },
+      "id": "jar_group1",
+      "label": "spice jars",
+      "location": "0.75,0.45,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black stainless steel",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.3,0.2,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "dishwasher1",
+      "label": "dishwasher",
+      "location": "0.6,0.6,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "wall",
+      "label": "wall",
+      "location": "0.0,0.0,1.0,0.4,0.7"
+    }
+  ]
+}

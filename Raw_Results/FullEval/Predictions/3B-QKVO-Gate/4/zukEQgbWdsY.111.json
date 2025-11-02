@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_salt1",
+      "target": "bowl_pepper1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cutting_board1",
+      "target": "bowl_salt1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.15,0.45,0.85,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with white salt",
+        "size": "small"
+      },
+      "id": "bowl_salt1",
+      "label": "salt bowl",
+      "location": "0.1,0.3,0.3,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with black pepper",
+        "size": "small"
+      },
+      "id": "bowl_pepper1",
+      "label": "pepper bowl",
+      "location": "0.3,0.3,0.45,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.0,0.4,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.5,0.0,0.8,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark clothing",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person torso",
+      "location": "0.4,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

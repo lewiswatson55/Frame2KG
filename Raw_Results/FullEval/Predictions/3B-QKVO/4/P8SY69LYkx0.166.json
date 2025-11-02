@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "gloved_hand",
+      "target": "meat_patty"
+    },
+    {
+      "predicate": "in",
+      "source": "meat_patty",
+      "target": "metal_mold"
+    },
+    {
+      "predicate": "on",
+      "source": "metal_mold",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_of_meat",
+      "target": "metal_mold"
+    },
+    {
+      "predicate": "left_of",
+      "source": "tongs",
+      "target": "bowl_of_meat"
+    },
+    {
+      "predicate": "behind",
+      "source": "oven",
+      "target": "bowl_of_meat"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "oven_handle",
+      "target": "oven"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl_of_meat",
+      "label": "glass bowl",
+      "location": "0.15,0.15,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw ground meat",
+        "size": "medium"
+      },
+      "id": "meat_patty",
+      "label": "raw meat patty",
+      "location": "0.48,0.53,0.75,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "metal_mold",
+      "label": "metal mold",
+      "location": "0.48,0.53,0.75,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white latex",
+        "size": "medium"
+      },
+      "id": "gloved_hand",
+      "label": "gloved hand",
+      "location": "0.60,0.05,0.95,0.50,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.00,0.50,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cloth",
+        "size": "small"
+      },
+      "id": "tongs",
+      "label": "tongs",
+      "location": "0.00,0.60,0.30,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "oven",
+      "label": "oven",
+      "location": "0.00,0.00,0.30,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "oven_handle",
+      "label": "oven handle",
+      "location": "0.00,0.00,0.20,0.20,0.8"
+    }
+  ]
+}

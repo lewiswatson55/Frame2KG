@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in",
+      "source": "eggs1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_eggs1",
+      "target": "glass1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "glass1",
+      "target": "bowl_eggs1"
+    },
+    {
+      "predicate": "behind",
+      "source": "oven1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow chef coat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.05,0.0,0.95,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.35,0.45,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow liquid",
+        "size": "small"
+      },
+      "id": "eggs1",
+      "label": "scrambled eggs",
+      "location": "0.4,0.5,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "portable stove",
+      "location": "0.3,0.7,0.7,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "glass1",
+      "label": "measuring cup",
+      "location": "0.0,0.75,0.2,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl_eggs1",
+      "label": "egg bowl",
+      "location": "0.15,0.75,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "oven1",
+      "label": "oven",
+      "location": "0.0,0.0,1.0,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal handle",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.6,0.3,0.8,0.5,0.7"
+    }
+  ]
+}

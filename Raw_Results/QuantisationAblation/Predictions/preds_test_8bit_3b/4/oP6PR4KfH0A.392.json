@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "tongs1"
+    },
+    {
+      "predicate": "in",
+      "source": "tongs1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "grill1"
+    },
+    {
+      "predicate": "includes",
+      "source": "pan1",
+      "target": "food1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "wall1",
+      "target": "grill1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.0,0.0,0.45,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "tongs1",
+      "label": "metal tongs",
+      "location": "0.0,0.3,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.2,0.3,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "fried onion rings",
+      "location": "0.4,0.4,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal grate",
+        "size": "large"
+      },
+      "id": "grill1",
+      "label": "grill",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey corrugated metal",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "corrugated wall",
+      "location": "0.5,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

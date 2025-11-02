@@ -1,0 +1,140 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "box1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "spoon1",
+      "target": "flour1"
+    },
+    {
+      "predicate": "includes",
+      "source": "flour1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "logo1",
+      "target": "text1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "calories1",
+      "target": "fat1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "sodium1",
+      "target": "fat1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "sugar1",
+      "target": "sodium1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white cardboard",
+        "size": "large"
+      },
+      "id": "box1",
+      "label": "Gluten Free Rice Flour Blend Box",
+      "location": "0.05,0.0,0.95,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.35,0.45,0.65,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "beige ceramic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.3,0.5,0.7,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "flour1",
+      "label": "Rice Flour",
+      "location": "0.35,0.55,0.65,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red oval",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Betty Crocker Logo",
+      "location": "0.6,0.0,0.9,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue text",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Product Name Text",
+      "location": "0.2,0.2,0.8,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow background",
+        "size": "small"
+      },
+      "id": "calories1",
+      "label": "Calories Label",
+      "location": "0.2,0.0,0.3,0.15,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "orange background",
+        "size": "small"
+      },
+      "id": "fat1",
+      "label": "Fat Label",
+      "location": "0.3,0.0,0.4,0.15,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown background",
+        "size": "small"
+      },
+      "id": "sodium1",
+      "label": "Sodium Label",
+      "location": "0.4,0.0,0.5,0.15,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "pink background",
+        "size": "small"
+      },
+      "id": "sugar1",
+      "label": "Sugar Label",
+      "location": "0.5,0.0,0.6,0.15,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey speckled",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

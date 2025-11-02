@@ -1,0 +1,238 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "lettuce"
+    },
+    {
+      "predicate": "holding",
+      "source": "person2",
+      "target": "lettuce"
+    },
+    {
+      "predicate": "on",
+      "source": "pan",
+      "target": "stove"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cutting_board",
+      "target": "stove"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "window"
+    },
+    {
+      "predicate": "behind",
+      "source": "oven",
+      "target": "person2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bottles",
+      "target": "oven"
+    },
+    {
+      "predicate": "left_of",
+      "source": "blender",
+      "target": "bottles"
+    },
+    {
+      "predicate": "next_to",
+      "source": "salt_bowl",
+      "target": "pepper_bowl"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pepper_bowl",
+      "target": "lettuce"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lettuce",
+      "target": "tomato_slices"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tomato_slices",
+      "target": "avocado_sauce"
+    },
+    {
+      "predicate": "next_to",
+      "source": "avocado_sauce",
+      "target": "cheese_plate"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.0,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.52,0.0,0.96,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce",
+      "label": "lettuce",
+      "location": "0.37,0.55,0.45,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce",
+      "label": "lettuce",
+      "location": "0.75,0.55,0.85,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "gas stove",
+      "location": "0.0,0.6,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black cast iron",
+        "size": "medium"
+      },
+      "id": "pan",
+      "label": "frying pan",
+      "location": "0.0,0.75,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.0,0.5,0.2,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass",
+        "size": "small"
+      },
+      "id": "salt_bowl",
+      "label": "salt bowl",
+      "location": "0.55,0.75,0.6,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass",
+        "size": "small"
+      },
+      "id": "pepper_bowl",
+      "label": "pepper bowl",
+      "location": "0.6,0.75,0.65,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "avocado_sauce",
+      "label": "avocado sauce container",
+      "location": "0.7,0.75,0.8,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red slices",
+        "size": "small"
+      },
+      "id": "tomato_slices",
+      "label": "tomato slices",
+      "location": "0.45,0.8,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow block",
+        "size": "small"
+      },
+      "id": "cheese_plate",
+      "label": "cheese plate",
+      "location": "0.8,0.8,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "kitchen cabinet",
+      "location": "0.6,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottles",
+        "size": "medium"
+      },
+      "id": "bottles",
+      "label": "bottles",
+      "location": "0.8,0.2,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "oven",
+      "label": "oven",
+      "location": "0.5,0.0,0.7,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "window",
+      "label": "window",
+      "location": "0.0,0.0,0.5,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text",
+        "size": "small"
+      },
+      "id": "logo",
+      "label": "TASTED logo",
+      "location": "0.8,0.8,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender",
+      "label": "blender",
+      "location": "0.9,0.6,1.0,1.0,0.8"
+    }
+  ]
+}

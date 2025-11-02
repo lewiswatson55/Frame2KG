@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "tomato1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.35,0.0,0.65,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red juicy",
+        "size": "small"
+      },
+      "id": "tomato1",
+      "label": "Tomato slice",
+      "location": "0.2,0.2,0.8,0.7,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crusty",
+        "size": "large"
+      },
+      "id": "bread1",
+      "label": "Bread slice",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "Cheese spread",
+      "location": "0.1,0.6,0.9,0.9,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood grain",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting board",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

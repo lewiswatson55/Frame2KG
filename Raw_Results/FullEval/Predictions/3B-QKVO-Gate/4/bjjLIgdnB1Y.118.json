@@ -1,0 +1,220 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "measuring_cup"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_mixture",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_flour",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spray_can",
+      "target": "bottle_syrup"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bottle_syrup",
+      "target": "spray_can"
+    },
+    {
+      "predicate": "right_of",
+      "source": "griddle",
+      "target": "bowl_flour"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinets",
+      "target": "countertop"
+    },
+    {
+      "predicate": "above",
+      "source": "window",
+      "target": "sink"
+    },
+    {
+      "predicate": "next_to",
+      "source": "figurine",
+      "target": "sink"
+    },
+    {
+      "predicate": "next_to",
+      "source": "mixer",
+      "target": "stand_mixer"
+    },
+    {
+      "predicate": "next_to",
+      "source": "stand_mixer",
+      "target": "mixer"
+    },
+    {
+      "predicate": "next_to",
+      "source": "mixer",
+      "target": "sink"
+    },
+    {
+      "predicate": "next_to",
+      "source": "towel",
+      "target": "bowl_mixture"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown hair black apron green top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.15,0.0,0.48,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl_mixture",
+      "label": "glass bowl with egg mixture",
+      "location": "0.30,0.60,0.45,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass white flour",
+        "size": "medium"
+      },
+      "id": "bowl_flour",
+      "label": "glass bowl with flour",
+      "location": "0.45,0.60,0.60,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic metal",
+        "size": "small"
+      },
+      "id": "measuring_cup",
+      "label": "measuring cup",
+      "location": "0.35,0.45,0.45,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow liquid red cap yellow label",
+        "size": "small"
+      },
+      "id": "spray_can",
+      "label": "cooking spray can",
+      "location": "0.10,0.70,0.18,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange bottle blue label",
+        "size": "small"
+      },
+      "id": "bottle_syrup",
+      "label": "syrup bottle",
+      "location": "0.05,0.70,0.15,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal silver handle",
+        "size": "medium"
+      },
+      "id": "griddle",
+      "label": "electric griddle",
+      "location": "0.60,0.60,0.90,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "stand_mixer",
+      "label": "stand mixer",
+      "location": "0.55,0.20,0.65,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "mixer",
+      "label": "hand mixer",
+      "location": "0.65,0.20,0.75,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinets",
+      "label": "kitchen cabinets",
+      "location": "0.30,0.0,0.90,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "granite countertop",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.50,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "fridge",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.25,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "medium"
+      },
+      "id": "window",
+      "label": "window",
+      "location": "0.80,0.0,1.0,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "figurine",
+      "label": "cow figurine",
+      "location": "0.75,0.15,0.85,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal sink faucet",
+        "size": "medium"
+      },
+      "id": "sink",
+      "label": "sink",
+      "location": "0.85,0.30,1.0,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white cloth",
+        "size": "small"
+      },
+      "id": "towel",
+      "label": "towel",
+      "location": "0.0,0.75,0.20,0.90,0.8"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand_left",
+      "target": "bag"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand_right",
+      "target": "bag"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl",
+      "target": "board"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bag",
+      "target": "board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl",
+      "target": "bag"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown paper",
+        "size": "large"
+      },
+      "id": "bag",
+      "label": "Paper Bag",
+      "location": "0.05,0.0,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand_left",
+      "label": "Left Hand",
+      "location": "0.0,0.6,0.3,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand_right",
+      "label": "Right Hand",
+      "location": "0.4,0.0,0.8,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl",
+      "label": "Glass Bowl",
+      "location": "0.6,0.4,0.95,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "medium"
+      },
+      "id": "board",
+      "label": "Wooden Board",
+      "location": "0.5,0.3,0.9,0.6,0.7"
+    }
+  ]
+}

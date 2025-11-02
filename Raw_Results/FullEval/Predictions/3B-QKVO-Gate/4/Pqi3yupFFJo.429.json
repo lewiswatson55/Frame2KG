@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand_left",
+      "target": "whisk"
+    },
+    {
+      "predicate": "in",
+      "source": "whisk",
+      "target": "bowl"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl",
+      "target": "mixture"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "hand_right",
+      "target": "bowl"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl",
+      "label": "mixing bowl",
+      "location": "0.15,0.30,0.85,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal wire",
+        "size": "small"
+      },
+      "id": "whisk",
+      "label": "wire whisk",
+      "location": "0.40,0.20,0.70,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand_left",
+      "label": "left hand",
+      "location": "0.00,0.00,0.40,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand_right",
+      "label": "right hand",
+      "location": "0.60,0.10,1.00,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brownish liquid",
+        "size": "small"
+      },
+      "id": "mixture",
+      "label": "liquid mixture",
+      "location": "0.20,0.40,0.80,0.80,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black surface",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.00,0.60,1.00,1.00,0.9"
+    }
+  ]
+}

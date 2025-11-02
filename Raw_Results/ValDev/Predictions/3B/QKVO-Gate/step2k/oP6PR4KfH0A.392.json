@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "tongs1"
+    },
+    {
+      "predicate": "in",
+      "source": "tongs1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "food1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "grate1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "wall1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.05,0.35,0.25,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "tongs1",
+      "label": "metal tongs",
+      "location": "0.0,0.4,0.7,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black cast iron",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.2,0.4,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "food1",
+      "label": "fried food",
+      "location": "0.4,0.45,0.8,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal bars",
+        "size": "medium"
+      },
+      "id": "grate1",
+      "label": "stove grate",
+      "location": "0.0,0.6,0.5,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey corrugated metal",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "corrugated wall",
+      "location": "0.5,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

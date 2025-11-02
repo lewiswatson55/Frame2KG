@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "needle1",
+      "target": "dial1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "line1",
+      "target": "dial1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white red frame",
+        "size": "medium"
+      },
+      "id": "dial1",
+      "label": "thermometer dial",
+      "location": "0.35,0.15,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue metal",
+        "size": "small"
+      },
+      "id": "needle1",
+      "label": "temperature needle",
+      "location": "0.47,0.45,0.53,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black line",
+        "size": "large"
+      },
+      "id": "line1",
+      "label": "horizontal line",
+      "location": "0.1,0.45,0.9,0.5,0.8"
+    }
+  ]
+}

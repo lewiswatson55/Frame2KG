@@ -1,0 +1,86 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "paper_towel"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken2",
+      "target": "paper_towel"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken3",
+      "target": "paper_towel"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken4",
+      "target": "paper_towel"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chicken1",
+      "target": "chicken2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chicken2",
+      "target": "chicken3"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chicken3",
+      "target": "chicken4"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "fried chicken piece",
+      "location": "0.05,0.6,0.38,0.97,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken2",
+      "label": "fried chicken piece",
+      "location": "0.35,0.55,0.65,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken3",
+      "label": "fried chicken piece",
+      "location": "0.65,0.5,0.95,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "chicken4",
+      "label": "fried chicken piece",
+      "location": "0.0,0.0,0.3,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white textured",
+        "size": "large"
+      },
+      "id": "paper_towel",
+      "label": "paper towel",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    }
+  ]
+}

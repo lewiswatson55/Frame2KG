@@ -1,0 +1,173 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife_block1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "glass1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "can1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife_block1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "picture1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "picture2",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black hoodie",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.58,0.13,0.97,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.45,0.05,0.98,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "medium"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.25,0.0,0.55,0.45,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "small"
+      },
+      "id": "knife_block1",
+      "label": "knife block",
+      "location": "0.35,0.55,0.45,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl of macaroni",
+      "location": "0.0,0.2,0.2,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green cheese",
+        "size": "small"
+      },
+      "id": "cheese_bowl",
+      "label": "bowl of blue cheese dip",
+      "location": "0.0,0.5,0.2,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "jar",
+      "location": "0.0,0.8,0.15,0.95,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "glass1",
+      "label": "glass of water",
+      "location": "0.75,0.75,0.9,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow can",
+        "size": "small"
+      },
+      "id": "can1",
+      "label": "soda can",
+      "location": "0.9,0.8,1.0,0.95,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "red white text",
+        "size": "small"
+      },
+      "id": "subscribe_button",
+      "label": "subscribe button",
+      "location": "0.0,0.0,0.2,0.15,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "colorful food image",
+        "size": "small"
+      },
+      "id": "picture1",
+      "label": "food picture",
+      "location": "0.0,0.15,0.2,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "colorful food picture",
+        "size": "small"
+      },
+      "id": "picture2",
+      "label": "food picture",
+      "location": "0.0,0.45,0.2,0.75,0.8"
+    }
+  ]
+}

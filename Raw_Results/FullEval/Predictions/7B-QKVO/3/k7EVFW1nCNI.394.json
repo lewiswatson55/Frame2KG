@@ -1,0 +1,165 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "grater1"
+    },
+    {
+      "predicate": "on",
+      "source": "grater1",
+      "target": "bowl_salad1"
+    },
+    {
+      "predicate": "in",
+      "source": "croutons1",
+      "target": "bowl_croutons1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_croutons1",
+      "target": "bowl_salad1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_salad1",
+      "target": "bowl_mixing1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl_mixing1",
+      "target": "salad1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl_salad1",
+      "target": "salad1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "bowl_salad1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "bowl_croutons1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "bowl_mixing1"
+    },
+    {
+      "predicate": "behind",
+      "source": "dishwasher1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "box_chocolate1",
+      "target": "bowl_croutons1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white lace top",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.35,0.0,0.65,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "grater1",
+      "label": "Cheese Grater",
+      "location": "0.48,0.27,0.55,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl_salad1",
+      "label": "Salad Bowl",
+      "location": "0.45,0.45,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "salad1",
+      "label": "Salad",
+      "location": "0.48,0.5,0.62,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl_croutons1",
+      "label": "Croutons Bowl",
+      "location": "0.25,0.45,0.4,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread pieces",
+        "size": "small"
+      },
+      "id": "croutons1",
+      "label": "Croutons",
+      "location": "0.28,0.5,0.38,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "large"
+      },
+      "id": "bowl_mixing1",
+      "label": "Mixing Bowl",
+      "location": "0.7,0.3,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red silicone",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "Spatula",
+      "location": "0.75,0.3,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "dishwasher1",
+      "label": "Dishwasher",
+      "location": "0.0,0.0,0.3,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood grain",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black cardboard",
+        "size": "small"
+      },
+      "id": "box_chocolate1",
+      "label": "Chocolate Bar Box",
+      "location": "0.0,0.5,0.15,0.7,0.8"
+    }
+  ]
+}

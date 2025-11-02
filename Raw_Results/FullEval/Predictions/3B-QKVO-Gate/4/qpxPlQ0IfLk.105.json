@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "grill1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "logo1",
+      "target": "grill1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.65,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal bars",
+        "size": "medium"
+      },
+      "id": "grill1",
+      "label": "barbecue grill",
+      "location": "0.0,0.3,0.7,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Hungry logo",
+      "location": "0.0,0.0,0.2,0.2,0.9"
+    }
+  ]
+}

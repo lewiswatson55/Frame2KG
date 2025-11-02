@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand_right",
+      "target": "bowl"
+    },
+    {
+      "predicate": "in",
+      "source": "spoon",
+      "target": "bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl",
+      "target": "table"
+    },
+    {
+      "predicate": "next_to",
+      "source": "hand_left",
+      "target": "bowl"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand_right",
+      "label": "right hand",
+      "location": "0.58,0.03,0.97,0.64,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "small"
+      },
+      "id": "hand_left",
+      "label": "left hand",
+      "location": "0.00,0.00,0.30,0.40,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "beige ceramic",
+        "size": "large"
+      },
+      "id": "bowl",
+      "label": "ceramic bowl",
+      "location": "0.10,0.10,0.90,0.80,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "spoon",
+      "label": "spoon",
+      "location": "0.30,0.40,0.60,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black glass",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "table surface",
+      "location": "0.00,0.60,1.00,1.00,0.6"
+    }
+  ]
+}

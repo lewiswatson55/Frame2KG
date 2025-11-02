@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "hands1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "ring1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "tongs1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cloth1",
+      "target": "tongs1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "ziplock1",
+      "target": "ring1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white gloves",
+        "size": "medium"
+      },
+      "id": "hands1",
+      "label": "gloved hands",
+      "location": "0.35,0.0,0.65,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.2,0.2,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "ring1",
+      "label": "metal ring mold",
+      "location": "0.3,0.7,0.5,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "tongs1",
+      "label": "kitchen tongs",
+      "location": "0.0,0.4,0.4,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange cloth",
+        "size": "small"
+      },
+      "id": "cloth1",
+      "label": "dish towel",
+      "location": "0.0,0.7,0.2,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "medium"
+      },
+      "id": "ziplock1",
+      "label": "plastic bag",
+      "location": "0.6,0.6,1.0,0.9,0.9"
+    }
+  ]
+}

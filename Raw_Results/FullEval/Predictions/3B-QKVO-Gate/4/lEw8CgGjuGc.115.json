@@ -1,0 +1,81 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "burger1",
+      "target": "plate"
+    },
+    {
+      "predicate": "on",
+      "source": "burger2",
+      "target": "plate"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl",
+      "target": "burger1"
+    },
+    {
+      "predicate": "behind",
+      "source": "jar",
+      "target": "burger1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "jar",
+      "target": "bowl"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl",
+      "target": "jar"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown patty lettuce tomato bun",
+        "size": "medium"
+      },
+      "id": "burger1",
+      "label": "Burger",
+      "location": "0.53,0.08,0.97,0.64,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown patty lettuce tomato bun",
+        "size": "medium"
+      },
+      "id": "burger2",
+      "label": "Burger",
+      "location": "0.00,0.45,0.45,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate",
+      "label": "Plate",
+      "location": "0.00,0.40,1.00,1.00,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "bowl",
+      "label": "Bowl of Pickles",
+      "location": "0.00,0.00,0.30,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "jar",
+      "label": "Jar",
+      "location": "0.30,0.00,0.50,0.50,0.8"
+    }
+  ]
+}

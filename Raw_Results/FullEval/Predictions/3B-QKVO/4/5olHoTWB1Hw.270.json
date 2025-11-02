@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "on",
+      "source": "bag1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "utensil1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "utensil1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bowl2",
+      "target": "bag1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "red bowl",
+      "location": "0.00,0.35,0.20,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange plastic",
+        "size": "medium"
+      },
+      "id": "bowl2",
+      "label": "orange bowl",
+      "location": "0.80,0.60,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.00,0.40,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green and yellow printed plastic",
+        "size": "medium"
+      },
+      "id": "bag1",
+      "label": "bag of chips",
+      "location": "0.10,0.10,0.90,0.70,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "utensil1",
+      "label": "metal utensil",
+      "location": "0.60,0.00,0.90,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.50,0.60,0.90,0.95,0.8"
+    }
+  ]
+}

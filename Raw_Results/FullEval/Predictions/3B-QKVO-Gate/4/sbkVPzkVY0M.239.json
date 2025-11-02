@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "squeeze_bottle1"
+    },
+    {
+      "predicate": "on",
+      "source": "sauce1",
+      "target": "burger1"
+    },
+    {
+      "predicate": "on",
+      "source": "burger1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spatula1",
+      "target": "shaker1"
+    },
+    {
+      "predicate": "behind",
+      "source": "shaker1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "table1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.45,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "squeeze_bottle1",
+      "label": "Squeeze Bottle",
+      "location": "0.35,0.0,0.55,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow creamy",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "Cheese Sauce",
+      "location": "0.45,0.5,0.75,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bun with melted cheese",
+        "size": "small"
+      },
+      "id": "burger1",
+      "label": "Burger",
+      "location": "0.45,0.6,0.75,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.3,0.55,0.8,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red silicone",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "Spatula",
+      "location": "0.6,0.2,0.95,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black glass",
+        "size": "small"
+      },
+      "id": "shaker1",
+      "label": "Shaker",
+      "location": "0.55,0.1,0.65,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood grain",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "flour1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "flour1"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken2",
+      "target": "flour1"
+    },
+    {
+      "predicate": "on",
+      "source": "tongs1",
+      "target": "flour1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "medium"
+      },
+      "id": "flour1",
+      "label": "flour",
+      "location": "0.0,0.0,1.0,1.0,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "raw pink",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "raw chicken piece",
+      "location": "0.3,0.4,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "raw pink",
+        "size": "small"
+      },
+      "id": "chicken2",
+      "label": "raw chicken piece",
+      "location": "0.7,0.2,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal tongs",
+        "size": "medium"
+      },
+      "id": "tongs1",
+      "label": "tongs",
+      "location": "0.0,0.0,0.5,0.3,0.8"
+    }
+  ]
+}

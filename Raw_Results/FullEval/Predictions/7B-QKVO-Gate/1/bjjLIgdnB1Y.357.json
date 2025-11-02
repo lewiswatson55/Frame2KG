@@ -1,0 +1,262 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "griddle"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake2",
+      "target": "griddle"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl",
+      "target": "canister"
+    },
+    {
+      "predicate": "left_of",
+      "source": "canister",
+      "target": "bowl"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person",
+      "target": "fridge"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet",
+      "target": "person"
+    },
+    {
+      "predicate": "right_of",
+      "source": "sink",
+      "target": "fridge"
+    },
+    {
+      "predicate": "above",
+      "source": "window",
+      "target": "sink"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "faucet",
+      "target": "sink"
+    },
+    {
+      "predicate": "next_to",
+      "source": "statue",
+      "target": "sink"
+    },
+    {
+      "predicate": "on",
+      "source": "mixer",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "utensils",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "tray",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "maple_syrup",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "napkin",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "towel",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "griddle",
+      "target": "counter"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown hair green top black apron",
+        "size": "large"
+      },
+      "id": "person",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "fridge",
+      "label": "refrigerator",
+      "location": "0.2,0.0,0.4,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "kitchen cabinet",
+      "location": "0.4,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "granite speckled",
+        "size": "large"
+      },
+      "id": "counter",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "griddle",
+      "label": "electric griddle",
+      "location": "0.6,0.6,0.9,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light beige",
+        "size": "small"
+      },
+      "id": "pancake1",
+      "label": "pancake",
+      "location": "0.65,0.65,0.7,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light beige",
+        "size": "small"
+      },
+      "id": "pancake2",
+      "label": "pancake",
+      "location": "0.75,0.65,0.8,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl",
+      "label": "mixing bowl",
+      "location": "0.3,0.7,0.5,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic red cap",
+        "size": "small"
+      },
+      "id": "canister",
+      "label": "cooking spray can",
+      "location": "0.25,0.7,0.3,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass blue cap",
+        "size": "small"
+      },
+      "id": "syrup_bottle",
+      "label": "maple syrup bottle",
+      "location": "0.1,0.75,0.2,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "statue",
+      "label": "ceramic statue",
+      "location": "0.75,0.1,0.85,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "mixer",
+      "label": "stand mixer",
+      "location": "0.5,0.2,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "small"
+      },
+      "id": "utensils",
+      "label": "kitchen utensils",
+      "location": "0.6,0.2,0.7,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "medium"
+      },
+      "id": "tray",
+      "label": "baking tray",
+      "location": "0.0,0.5,0.2,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "small"
+      },
+      "id": "napkin",
+      "label": "paper napkin",
+      "location": "0.0,0.7,0.2,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "beige cloth",
+        "size": "small"
+      },
+      "id": "towel",
+      "label": "kitchen towel",
+      "location": "0.4,0.7,0.6,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "sink",
+      "label": "sink",
+      "location": "0.7,0.4,0.9,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "faucet",
+      "label": "faucet",
+      "location": "0.85,0.3,0.95,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame blinds",
+        "size": "medium"
+      },
+      "id": "window",
+      "label": "window",
+      "location": "0.8,0.0,1.0,0.3,0.8"
+    }
+  ]
+}

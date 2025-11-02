@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken_wings",
+      "target": "plate"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "logo",
+      "target": "chicken_wings"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown sauced",
+        "size": "medium"
+      },
+      "id": "chicken_wings",
+      "label": "chicken wings",
+      "location": "0.15,0.3,0.85,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate",
+      "label": "plate",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black white text",
+        "size": "small"
+      },
+      "id": "logo",
+      "label": "logo",
+      "location": "0.0,0.8,0.2,1.0,0.7"
+    }
+  ]
+}

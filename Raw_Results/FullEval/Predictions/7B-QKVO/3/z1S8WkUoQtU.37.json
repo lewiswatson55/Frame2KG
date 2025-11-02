@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "spoon1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "in",
+      "source": "flour1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "ring1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "behind",
+      "source": "jar1",
+      "target": "bowl2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.05,0.0,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Small Bowl",
+      "location": "0.37,0.0,0.75,0.25,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.45,0.15,0.65,0.35,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl2",
+      "label": "Mixing Bowl",
+      "location": "0.2,0.3,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "flour1",
+      "label": "Flour Pile",
+      "location": "0.35,0.45,0.65,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink plastic",
+        "size": "small"
+      },
+      "id": "ring1",
+      "label": "Onion Ring",
+      "location": "0.75,0.6,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar with yellow liquid",
+        "size": "medium"
+      },
+      "id": "jar1",
+      "label": "Jar of Liquid",
+      "location": "0.0,0.7,0.3,1.0,0.7"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "oil1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "food1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "holding",
+      "source": "skimmer1",
+      "target": "food1"
+    },
+    {
+      "predicate": "in",
+      "source": "skimmer1",
+      "target": "oil1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow bubbling liquid",
+        "size": "medium"
+      },
+      "id": "oil1",
+      "label": "cooking oil",
+      "location": "0.05,0.05,0.95,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown battered pieces",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "fried food",
+      "location": "0.1,0.1,0.9,0.7,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "metal mesh with wooden handle",
+        "size": "medium"
+      },
+      "id": "skimmer1",
+      "label": "skimmer spoon",
+      "location": "0.6,0.0,1.0,0.4,0.8"
+    }
+  ]
+}

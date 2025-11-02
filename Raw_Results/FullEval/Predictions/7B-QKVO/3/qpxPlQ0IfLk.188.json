@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "egg1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "egg1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl1",
+      "target": "lettuce1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.35,0.0,0.98,0.47,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "large"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce Leaves",
+      "location": "0.0,0.2,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown grilled",
+        "size": "small"
+      },
+      "id": "egg1",
+      "label": "Grilled Egg",
+      "location": "0.35,0.55,0.6,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted brown",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "Toasted Bread Pieces",
+      "location": "0.6,0.55,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.4,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Bowl of Salt",
+      "location": "0.0,0.6,0.2,0.9,0.8"
+    }
+  ]
+}

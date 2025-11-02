@@ -1,0 +1,239 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "holding",
+      "source": "person2",
+      "target": "sandwich2"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar2",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle2",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle3",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle4",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle5",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "window1"
+    },
+    {
+      "predicate": "behind",
+      "source": "oven1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "stove1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "shelf1",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt red beard",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.55,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.45,0.05,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green lettuce bread",
+        "size": "small"
+      },
+      "id": "sandwich1",
+      "label": "sandwich half",
+      "location": "0.35,0.45,0.60,0.70,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread lettuce",
+        "size": "small"
+      },
+      "id": "sandwich2",
+      "label": "sandwich half",
+      "location": "0.60,0.45,0.85,0.70,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "large"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.85,0.55,1.00,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "glass jar",
+      "location": "0.75,0.75,0.85,0.90,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "jar2",
+      "label": "glass jar",
+      "location": "0.85,0.75,0.95,0.90,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "wooden shelf",
+      "location": "0.70,0.00,1.00,0.40,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "wine bottle",
+      "location": "0.75,0.05,0.80,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bottle2",
+      "label": "wine bottle",
+      "location": "0.80,0.05,0.85,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bottle3",
+      "label": "wine bottle",
+      "location": "0.85,0.05,0.90,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bottle4",
+      "label": "wine bottle",
+      "location": "0.90,0.05,0.95,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bottle5",
+      "label": "wine bottle",
+      "location": "0.95,0.05,1.00,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "oven1",
+      "label": "oven",
+      "location": "0.45,0.15,0.60,0.45,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.00,0.75,0.30,1.00,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.00,0.60,1.00,1.00,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass window",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.00,0.00,0.50,1.00,0.7"
+    }
+  ]
+}

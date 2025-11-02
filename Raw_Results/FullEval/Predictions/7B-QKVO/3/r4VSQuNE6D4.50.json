@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "left_of",
+      "source": "knob_left",
+      "target": "knob_right"
+    },
+    {
+      "predicate": "next_to",
+      "source": "switch",
+      "target": "knob_left"
+    },
+    {
+      "predicate": "next_to",
+      "source": "switch",
+      "target": "knob_right"
+    },
+    {
+      "predicate": "on",
+      "source": "stove_control",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "utensil_holder",
+      "target": "countertop"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "utensil_holder",
+      "target": "stove_control"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "large"
+      },
+      "id": "stove_control",
+      "label": "Stove Control Panel",
+      "location": "0.05,0.05,0.75,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "knob_left",
+      "label": "Control Knob",
+      "location": "0.05,0.3,0.4,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "knob_right",
+      "label": "Control Knob",
+      "location": "0.4,0.3,0.75,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "switch",
+      "label": "Switch Button",
+      "location": "0.45,0.1,0.55,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige ceramic",
+        "size": "medium"
+      },
+      "id": "utensil_holder",
+      "label": "Utensil Holder",
+      "location": "0.75,0.3,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "Countertop",
+      "location": "0.0,0.8,1.0,1.0,0.7"
+    }
+  ]
+}

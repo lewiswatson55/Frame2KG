@@ -1,0 +1,126 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "microwave1",
+      "target": "cabinet_left1"
+    },
+    {
+      "predicate": "above",
+      "source": "hanging_pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cutting_board1",
+      "target": "spice_jars1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet_right1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "maroon top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.4,0.7,0.6,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.4,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver black",
+        "size": "small"
+      },
+      "id": "microwave1",
+      "label": "microwave",
+      "location": "0.0,0.0,0.3,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet_left1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.3,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet_right1",
+      "label": "kitchen cabinet",
+      "location": "0.7,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.6,0.3,0.75,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass metal lids",
+        "size": "small"
+      },
+      "id": "spice_jars1",
+      "label": "spice jars",
+      "location": "0.75,0.4,0.9,0.55,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "hanging_pot1",
+      "label": "hanging pot",
+      "location": "0.35,0.0,0.65,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.3,1.0,0.5,0.7"
+    }
+  ]
+}

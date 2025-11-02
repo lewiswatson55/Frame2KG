@@ -1,0 +1,253 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "towel"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "pan2",
+      "target": "stove"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "cabinet"
+    },
+    {
+      "predicate": "left_of",
+      "source": "window",
+      "target": "oven"
+    },
+    {
+      "predicate": "right_of",
+      "source": "blender",
+      "target": "person2"
+    },
+    {
+      "predicate": "behind",
+      "source": "bottles",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "plate",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "knife",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "meat_packaging",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "small_bowl",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "glass_jar",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "mixing_bowl",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_slice",
+      "target": "plate"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "dark shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.05,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.65,0.05,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.45,0.7,0.6,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black cast iron",
+        "size": "medium"
+      },
+      "id": "pan2",
+      "label": "skillet",
+      "location": "0.65,0.7,0.85,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "gas stove",
+      "location": "0.3,0.7,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.0,0.7,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade wooden handle",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.1,0.75,0.2,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "plastic packaging",
+        "size": "small"
+      },
+      "id": "meat_packaging",
+      "label": "raw meat package",
+      "location": "0.0,0.75,0.15,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "small_bowl",
+      "label": "small bowl",
+      "location": "0.25,0.75,0.3,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "glass_jar",
+      "label": "jar",
+      "location": "0.8,0.75,0.85,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate",
+      "label": "plate",
+      "location": "0.85,0.75,0.95,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread slice",
+        "size": "small"
+      },
+      "id": "bread_slice",
+      "label": "bread slice",
+      "location": "0.9,0.75,0.95,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "kitchen cabinet",
+      "location": "0.4,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass bottles",
+        "size": "medium"
+      },
+      "id": "bottles",
+      "label": "wine bottles",
+      "location": "0.5,0.0,0.9,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender",
+      "label": "stand blender",
+      "location": "0.85,0.4,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white brick",
+        "size": "large"
+      },
+      "id": "backsplash",
+      "label": "backsplash tiles",
+      "location": "0.4,0.3,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "window",
+      "label": "window",
+      "location": "0.0,0.0,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver stainless steel",
+        "size": "medium"
+      },
+      "id": "oven",
+      "label": "oven",
+      "location": "0.3,0.1,0.6,0.4,0.8"
+    }
+  ]
+}

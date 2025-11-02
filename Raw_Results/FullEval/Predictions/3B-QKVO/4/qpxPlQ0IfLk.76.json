@@ -1,0 +1,234 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "fork1"
+    },
+    {
+      "predicate": "on",
+      "source": "fork1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "on",
+      "source": "meat1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "blender1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife1",
+      "target": "lemon1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lemon1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "butter1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "butter1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cutting_board1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lettuce1",
+      "target": "fish1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "above",
+      "source": "pots_hanging1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "lamp1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "multicolored plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.58,0.03,0.96,0.74,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.02,0.45,0.25,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "olive oil bottle",
+      "location": "0.25,0.55,0.32,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "mayonnaise jar",
+      "location": "0.22,0.65,0.30,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver blade red handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.30,0.75,0.45,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "lemon",
+      "location": "0.35,0.75,0.40,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden bowl",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl of bread",
+      "location": "0.45,0.75,0.55,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white block",
+        "size": "small"
+      },
+      "id": "butter1",
+      "label": "butter",
+      "location": "0.48,0.78,0.53,0.83,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.60,0.75,0.80,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce",
+      "location": "0.75,0.75,0.90,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange fillets",
+        "size": "small"
+      },
+      "id": "fish1",
+      "label": "fish fillet",
+      "location": "0.80,0.75,0.95,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic",
+        "size": "medium"
+      },
+      "id": "griddle1",
+      "label": "griddle",
+      "location": "0.50,0.70,0.90,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "small"
+      },
+      "id": "meat1",
+      "label": "raw meat",
+      "location": "0.60,0.75,0.70,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "pots_hanging1",
+      "label": "hanging pots",
+      "location": "0.45,0.00,0.60,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white lampshade brown wooden stand",
+        "size": "medium"
+      },
+      "id": "lamp1",
+      "label": "floor lamp",
+      "location": "0.85,0.20,0.98,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey brick",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "shelves",
+      "location": "0.00,0.00,0.60,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.00,0.50,0.60,0.80,0.8"
+    }
+  ]
+}

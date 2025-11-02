@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "tongs1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "grill1"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon1",
+      "target": "grill1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bacon1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "behind",
+      "source": "tray1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "grill1",
+      "target": "tray1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.05,0.45,0.95,0.78,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "metal tongs",
+      "location": "0.6,0.35,0.98,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.75,0.25,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "grill1",
+      "label": "electric grill",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crispy",
+        "size": "small"
+      },
+      "id": "bacon1",
+      "label": "bacon strips",
+      "location": "0.4,0.75,0.7,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "cutting board tray",
+      "location": "0.0,0.0,1.0,0.4,0.7"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "burger1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "onion1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "plate1",
+      "target": "tray1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown bun with grilled patty",
+        "size": "medium"
+      },
+      "id": "burger1",
+      "label": "burger",
+      "location": "0.15,0.3,0.85,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.0,0.6,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red onion slice",
+        "size": "small"
+      },
+      "id": "onion1",
+      "label": "onion slice",
+      "location": "0.4,0.4,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white tray with food",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "baking tray",
+      "location": "0.0,0.0,1.0,0.4,0.7"
+    }
+  ]
+}

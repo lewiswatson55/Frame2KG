@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "lid1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "text2",
+      "target": "text1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "text3",
+      "target": "text2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red glass bottle with red label",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "hot sauce bottle",
+      "location": "0.05,0.0,0.45,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "lid1",
+      "label": "plastic lid",
+      "location": "0.17,0.0,0.33,0.15,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on red background",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "Frank's RedHot logo",
+      "location": "0.16,0.45,0.34,0.65,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "grey text",
+        "size": "small"
+      },
+      "id": "text2",
+      "label": "SALT text",
+      "location": "0.75,0.15,0.95,0.25,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "grey text",
+        "size": "small"
+      },
+      "id": "text3",
+      "label": "GARLIC POWDER text",
+      "location": "0.75,0.65,0.95,0.75,0.85"
+    }
+  ]
+}

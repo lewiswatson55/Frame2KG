@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand_left",
+      "target": "knife"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand_right",
+      "target": "cheese_block"
+    },
+    {
+      "predicate": "on",
+      "source": "knife",
+      "target": "cheese_block"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese_block",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_slice",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread_slice",
+      "target": "cheese_block"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand_left",
+      "label": "left hand",
+      "location": "0.05,0.05,0.45,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand_right",
+      "label": "right hand",
+      "location": "0.55,0.05,0.85,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade with white handle",
+        "size": "large"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.15,0.2,0.75,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic-wrapped",
+        "size": "small"
+      },
+      "id": "cheese_block",
+      "label": "cheese block",
+      "location": "0.6,0.3,0.8,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown crust",
+        "size": "medium"
+      },
+      "id": "bread_slice",
+      "label": "bread slice",
+      "location": "0.0,0.5,0.25,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    }
+  ]
+}

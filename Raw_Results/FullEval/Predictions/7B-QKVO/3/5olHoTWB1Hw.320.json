@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand2",
+      "target": "dish1"
+    },
+    {
+      "predicate": "on",
+      "source": "dish1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "towel1",
+      "target": "dish1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "dark skin",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "left hand",
+      "location": "0.05,0.3,0.48,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark skin",
+        "size": "medium"
+      },
+      "id": "hand2",
+      "label": "right hand",
+      "location": "0.0,0.3,0.4,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "large"
+      },
+      "id": "dish1",
+      "label": "baking dish",
+      "location": "0.0,0.2,1.0,0.8,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.0,0.0,1.0,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white fabric",
+        "size": "small"
+      },
+      "id": "towel1",
+      "label": "kitchen towel",
+      "location": "0.75,0.2,1.0,0.8,0.8"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "no_chicken1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chicken2",
+      "target": "chicken1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "raw pink meat",
+        "size": "medium"
+      },
+      "id": "no_chicken1",
+      "label": "Raw Chicken Wings",
+      "location": "0.05,0.3,0.4,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic plate",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "Plate of Fried Chicken",
+      "location": "0.4,0.2,0.7,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden crispy",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "Fried Chicken Strips",
+      "location": "0.3,0.0,0.7,0.25,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "golden crispy",
+        "size": "small"
+      },
+      "id": "chicken2",
+      "label": "Fried Chicken Nuggets",
+      "location": "0.3,0.5,0.7,0.8,0.85"
+    }
+  ]
+}

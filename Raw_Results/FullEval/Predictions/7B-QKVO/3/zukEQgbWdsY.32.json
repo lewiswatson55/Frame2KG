@@ -1,0 +1,127 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "window"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle2",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "oven1",
+      "target": "window"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person2",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.53,0.0,0.98,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black long-sleeve shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.0,0.0,0.47,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "small"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.6,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl of greens",
+      "location": "0.7,0.8,0.9,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "kitchen shelf",
+      "location": "0.8,0.0,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass",
+        "size": "large"
+      },
+      "id": "window",
+      "label": "window",
+      "location": "0.0,0.0,0.5,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "oven1",
+      "label": "oven",
+      "location": "0.5,0.1,0.7,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "wine bottle",
+      "location": "0.85,0.2,0.9,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark glass",
+        "size": "small"
+      },
+      "id": "bottle2",
+      "label": "wine bottle",
+      "location": "0.9,0.2,1.0,0.4,0.7"
+    }
+  ]
+}

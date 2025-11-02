@@ -1,0 +1,160 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_slice",
+      "target": "board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar",
+      "target": "bowl"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "screen"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "screen"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "person2",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "chair",
+      "target": "person2"
+    },
+    {
+      "predicate": "above",
+      "source": "text_overlay",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "logo_overlay",
+      "target": "screen"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "teal shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.3,0.48,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green dress",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.52,0.2,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink background",
+        "size": "large"
+      },
+      "id": "screen",
+      "label": "TV screen",
+      "location": "0.1,0.0,0.9,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "board",
+      "label": "cutting board",
+      "location": "0.1,0.6,0.5,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl",
+      "label": "mixing bowl",
+      "location": "0.3,0.65,0.4,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red",
+        "size": "small"
+      },
+      "id": "tomato_slices",
+      "label": "tomato slices",
+      "location": "0.25,0.6,0.35,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread",
+        "size": "small"
+      },
+      "id": "bread_slice",
+      "label": "bread slice",
+      "location": "0.15,0.65,0.25,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "jar",
+      "label": "metal jar",
+      "location": "0.45,0.6,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on pink banner",
+        "size": "small"
+      },
+      "id": "text_overlay",
+      "label": "instruction overlay",
+      "location": "0.0,0.8,0.5,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "purple and white logo",
+        "size": "small"
+      },
+      "id": "logo_overlay",
+      "label": "Popsugar logo",
+      "location": "0.3,0.0,0.7,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame",
+        "size": "medium"
+      },
+      "id": "chair",
+      "label": "chair",
+      "location": "0.7,0.4,0.9,0.8,0.8"
+    }
+  ]
+}

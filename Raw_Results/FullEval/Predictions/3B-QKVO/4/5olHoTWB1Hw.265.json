@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "on",
+      "source": "oven1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "oven1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bag1",
+      "target": "oven1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow plastic packaging with red text",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "Texas Toast Croutons Bag",
+      "location": "0.35,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.78,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "oven1",
+      "label": "Oven Door",
+      "location": "0.75,0.2,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "Stovetop",
+      "location": "0.0,0.0,0.3,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white laminate",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.4,1.0,1.0,0.7"
+    }
+  ]
+}

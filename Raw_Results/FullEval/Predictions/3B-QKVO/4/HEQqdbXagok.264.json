@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "tongs1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "in",
+      "source": "oil1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "oil1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "tongs1",
+      "label": "Tongs",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "Chicken piece",
+      "location": "0.55,0.0,0.95,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "Frying pan",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "bubbling golden liquid",
+        "size": "large"
+      },
+      "id": "oil1",
+      "label": "Hot oil",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "mascot1"
+    },
+    {
+      "predicate": "behind",
+      "source": "person1",
+      "target": "mascot1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person2",
+      "target": "mascot1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "mascot1",
+      "target": "stand1"
+    },
+    {
+      "predicate": "on",
+      "source": "sign1",
+      "target": "stand1"
+    },
+    {
+      "predicate": "on",
+      "source": "box1",
+      "target": "stand1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "person3",
+      "target": "mascot1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person4",
+      "target": "mascot1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white fur with black stripes",
+        "size": "large"
+      },
+      "id": "mascot1",
+      "label": "Dog Mascot",
+      "location": "0.35,0.0,0.65,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue metal",
+        "size": "medium"
+      },
+      "id": "stand1",
+      "label": "Equipment Stand",
+      "location": "0.0,0.0,0.7,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue white text",
+        "size": "small"
+      },
+      "id": "sign1",
+      "label": "Microsoft Surface Sign",
+      "location": "0.0,0.0,0.4,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "box1",
+      "label": "Metal Box",
+      "location": "0.6,0.0,0.8,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black jacket",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Person 1",
+      "location": "0.2,0.3,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark hoodie",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "Person 2",
+      "location": "0.7,0.3,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey suit",
+        "size": "medium"
+      },
+      "id": "person3",
+      "label": "Person 3",
+      "location": "0.8,0.0,1.0,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey suit",
+        "size": "medium"
+      },
+      "id": "person4",
+      "label": "Person 4",
+      "location": "0.0,0.0,0.2,0.2,0.6"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "skateboard1",
+      "target": "ground1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fence1",
+      "target": "building1"
+    },
+    {
+      "predicate": "behind",
+      "source": "tree1",
+      "target": "building1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "pipe1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "fence1",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "dark blue jeans and black shoes",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Skater",
+      "location": "0.35,0.0,0.65,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black deck with yellow wheels",
+        "size": "small"
+      },
+      "id": "skateboard1",
+      "label": "Skateboard",
+      "location": "0.4,0.6,0.6,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "fence1",
+      "label": "Wooden Fence",
+      "location": "0.0,0.0,0.3,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue brick mural with graffiti",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "Wall Mural",
+      "location": "0.6,0.0,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white exterior with windows",
+        "size": "large"
+      },
+      "id": "building1",
+      "label": "Residential Building",
+      "location": "0.3,0.2,0.6,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "bare branches",
+        "size": "medium"
+      },
+      "id": "tree1",
+      "label": "Tree",
+      "location": "0.5,0.1,0.7,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal pipe",
+        "size": "small"
+      },
+      "id": "pipe1",
+      "label": "Pipe",
+      "location": "0.75,0.5,0.9,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "gray asphalt",
+        "size": "large"
+      },
+      "id": "ground1",
+      "label": "Ground",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    }
+  ]
+}

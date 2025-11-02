@@ -1,0 +1,203 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "bun1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bun1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "plate1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "behind",
+      "source": "tray1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "dip1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "herbs1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "patty2",
+      "target": "tray1"
+    },
+    {
+      "predicate": "on",
+      "source": "patty3",
+      "target": "tray1"
+    },
+    {
+      "predicate": "on",
+      "source": "patty4",
+      "target": "tray1"
+    },
+    {
+      "predicate": "on",
+      "source": "bun2",
+      "target": "plate2"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato1",
+      "target": "plate2"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "plate2"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce2",
+      "target": "plate2"
+    },
+    {
+      "predicate": "on",
+      "source": "herbs2",
+      "target": "plate2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown meat with green herbs",
+        "size": "medium"
+      },
+      "id": "patty1",
+      "label": "burger patty",
+      "location": "0.05,0.6,0.48,0.97,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "red plate",
+      "location": "0.0,0.5,0.7,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate2",
+      "label": "white plate",
+      "location": "0.6,0.5,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce",
+      "location": "0.1,0.7,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green paste",
+        "size": "small"
+      },
+      "id": "dip1",
+      "label": "dip",
+      "location": "0.0,0.4,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple onion ring",
+        "size": "small"
+      },
+      "id": "bun1",
+      "label": "onion ring bun",
+      "location": "0.0,0.5,0.3,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread",
+        "size": "medium"
+      },
+      "id": "bun2",
+      "label": "burger bun",
+      "location": "0.7,0.4,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red tomato slice",
+        "size": "small"
+      },
+      "id": "tomato1",
+      "label": "tomato slice",
+      "location": "0.75,0.45,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cheese slice",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "cheese slice",
+      "location": "0.75,0.6,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce2",
+      "label": "lettuce",
+      "location": "0.7,0.6,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "herbs1",
+      "label": "herbs",
+      "location": "0.1,0.7,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "herbs2",
+      "label": "herbs",
+      "location": "0.7,0.5,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal tray",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "metal tray",
+      "location": "0.0,0.0,1.0,0.4,0.7"
+    }
+  ]
+}

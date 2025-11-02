@@ -1,0 +1,95 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "rack1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "in",
+      "source": "fish1",
+      "target": "rack1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "tray1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bowl2",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "hands1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "hands1",
+      "target": "bowl2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal grid",
+        "size": "large"
+      },
+      "id": "rack1",
+      "label": "cooling rack",
+      "location": "0.05,0.05,0.95,0.48,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver foil",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "foil-lined tray",
+      "location": "0.0,0.3,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "raw fish fillet",
+        "size": "small"
+      },
+      "id": "fish1",
+      "label": "fish fillets",
+      "location": "0.2,0.1,0.8,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange plastic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.3,0.5,0.6,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl2",
+      "label": "sauce bowl",
+      "location": "0.6,0.5,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hands1",
+      "label": "human hands",
+      "location": "0.0,0.0,1.0,0.4,0.6"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "people1",
+      "target": "building1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sign1",
+      "target": "building1"
+    },
+    {
+      "predicate": "behind",
+      "source": "trees1",
+      "target": "building1"
+    },
+    {
+      "predicate": "on",
+      "source": "table1",
+      "target": "ground1"
+    },
+    {
+      "predicate": "on",
+      "source": "chair1",
+      "target": "ground1"
+    },
+    {
+      "predicate": "standing_on",
+      "source": "person3",
+      "target": "ground1"
+    },
+    {
+      "predicate": "standing_on",
+      "source": "person4",
+      "target": "ground1"
+    },
+    {
+      "predicate": "standing_on",
+      "source": "child5",
+      "target": "ground1"
+    },
+    {
+      "predicate": "holding",
+      "source": "person6",
+      "target": "stroller1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sign2",
+      "target": "building1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "wooden exterior",
+        "size": "large"
+      },
+      "id": "building1",
+      "label": "Shake Shack Building",
+      "location": "0.2,0.0,0.8,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "medium"
+      },
+      "id": "trees1",
+      "label": "Trees",
+      "location": "0.0,0.0,0.7,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue metal",
+        "size": "small"
+      },
+      "id": "sign1",
+      "label": "Blue Sign",
+      "location": "0.45,0.55,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal green",
+        "size": "small"
+      },
+      "id": "table1",
+      "label": "Outdoor Tables",
+      "location": "0.1,0.45,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal green",
+        "size": "small"
+      },
+      "id": "chair1",
+      "label": "Outdoor Chairs",
+      "location": "0.1,0.45,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white shirt black shorts",
+        "size": "small"
+      },
+      "id": "person3",
+      "label": "Person Walking",
+      "location": "0.55,0.25,0.65,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "gray t-shirt blue jeans",
+        "size": "small"
+      },
+      "id": "person4",
+      "label": "Person Walking",
+      "location": "0.65,0.25,0.75,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin dark hair",
+        "size": "small"
+      },
+      "id": "child5",
+      "label": "Child",
+      "location": "0.75,0.35,0.85,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown fabric",
+        "size": "small"
+      },
+      "id": "stroller1",
+      "label": "Stroller",
+      "location": "0.8,0.35,0.9,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue banner",
+        "size": "medium"
+      },
+      "id": "sign2",
+      "label": "Banner",
+      "location": "0.8,0.45,0.95,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wearing white top",
+        "size": "small"
+      },
+      "id": "person6",
+      "label": "Woman",
+      "location": "0.85,0.25,0.95,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wearing white top",
+        "size": "small"
+      },
+      "id": "people1",
+      "label": "People",
+      "location": "0.0,0.3,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey pavement",
+        "size": "large"
+      },
+      "id": "ground1",
+      "label": "Pavement",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    }
+  ]
+}

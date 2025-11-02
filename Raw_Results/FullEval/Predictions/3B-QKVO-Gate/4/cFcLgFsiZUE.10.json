@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "behind",
+      "source": "person2",
+      "target": "person1"
+    },
+    {
+      "predicate": "on",
+      "source": "microwave1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "decorative_plate1",
+      "target": "microwave1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "framed_picture1",
+      "target": "decorative_plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blonde hair white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.95,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black shirt beard",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.0,0.0,0.45,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,1.0,0.3,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "microwave1",
+      "label": "microwave",
+      "location": "0.65,0.2,0.95,0.45,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red floral",
+        "size": "small"
+      },
+      "id": "decorative_plate1",
+      "label": "decorative plate",
+      "location": "0.75,0.45,0.9,0.6,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "colorful frame",
+        "size": "small"
+      },
+      "id": "framed_picture1",
+      "label": "framed picture",
+      "location": "0.85,0.5,1.0,0.75,0.6"
+    }
+  ]
+}

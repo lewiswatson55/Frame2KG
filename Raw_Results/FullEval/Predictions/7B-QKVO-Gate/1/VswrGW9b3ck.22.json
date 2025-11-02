@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "squid_rings",
+      "target": "plate"
+    },
+    {
+      "predicate": "on",
+      "source": "seasoning",
+      "target": "squid_rings"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "orange plastic",
+        "size": "large"
+      },
+      "id": "plate",
+      "label": "Plate",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white raw",
+        "size": "medium"
+      },
+      "id": "squid_rings",
+      "label": "Squid Rings",
+      "location": "0.05,0.05,0.95,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black specks on white",
+        "size": "small"
+      },
+      "id": "seasoning",
+      "label": "Seasoning",
+      "location": "0.3,0.2,0.7,0.6,0.7"
+    }
+  ]
+}

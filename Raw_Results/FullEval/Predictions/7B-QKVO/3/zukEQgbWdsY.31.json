@@ -1,0 +1,169 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "window"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "oven",
+      "target": "cabinet"
+    },
+    {
+      "predicate": "on",
+      "source": "bottles",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "glass_jar",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pot",
+      "target": "stove"
+    },
+    {
+      "predicate": "behind",
+      "source": "truck",
+      "target": "window"
+    },
+    {
+      "predicate": "left_of",
+      "source": "truck",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "person2",
+      "target": "person1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "oven",
+      "target": "cabinet"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.45,0.03,0.78,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark hair beard black shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.00,0.05,0.45,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "kitchen cabinet",
+      "location": "0.75,0.00,1.00,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "oven",
+      "label": "oven",
+      "location": "0.60,0.15,0.80,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white glass",
+        "size": "small"
+      },
+      "id": "glass_jar",
+      "label": "glass jar",
+      "location": "0.85,0.20,0.95,0.35,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic blue labels",
+        "size": "small"
+      },
+      "id": "bottles",
+      "label": "bottles",
+      "location": "0.80,0.20,0.95,0.40,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "truck",
+      "label": "delivery truck",
+      "location": "0.20,0.30,0.60,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue white text",
+        "size": "small"
+      },
+      "id": "text_overlay",
+      "label": "text overlay",
+      "location": "0.85,0.80,0.98,0.98,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "stove",
+      "label": "stove",
+      "location": "0.00,0.80,0.40,1.00,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "pot",
+      "label": "cooking pot",
+      "location": "0.00,0.85,0.30,1.00,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "window",
+      "label": "window",
+      "location": "0.00,0.00,0.60,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.75,0.40,1.00,0.70,0.8"
+    }
+  ]
+}

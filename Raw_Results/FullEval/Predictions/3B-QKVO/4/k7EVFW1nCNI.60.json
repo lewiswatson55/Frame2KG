@@ -1,0 +1,225 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "vase1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "sink1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "faucet1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "red_tumbler",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "dish_rack",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "food_processor",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "glasses1",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese_block",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cutting_board",
+      "target": "person1"
+    },
+    {
+      "predicate": "above",
+      "source": "microwave1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light blue lace top",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.0,0.4,1.0,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "glass vase with red roses",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "flower vase",
+      "location": "0.05,0.3,0.25,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "faucet1",
+      "label": "faucet",
+      "location": "0.35,0.25,0.45,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.3,0.45,0.5,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "red_tumbler",
+      "label": "tumbler",
+      "location": "0.2,0.5,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "dish_rack",
+      "label": "dish rack",
+      "location": "0.0,0.5,0.2,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "food_processor",
+      "label": "food processor",
+      "location": "0.6,0.6,0.75,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black stainless steel",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.7,0.4,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black glass",
+        "size": "small"
+      },
+      "id": "pot1",
+      "label": "pot",
+      "location": "0.75,0.6,0.85,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "bowl of greens",
+      "location": "0.75,0.75,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "jar",
+      "location": "0.1,0.8,0.2,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.4,0.7,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "small"
+      },
+      "id": "glasses1",
+      "label": "eyeglasses",
+      "location": "0.45,0.75,0.55,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cheese block",
+        "size": "small"
+      },
+      "id": "cheese_block",
+      "label": "cheese block",
+      "location": "0.5,0.75,0.6,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "microwave1",
+      "label": "microwave",
+      "location": "0.6,0.0,1.0,0.3,0.8"
+    }
+  ]
+}

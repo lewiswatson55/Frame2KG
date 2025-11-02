@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "fork"
+    },
+    {
+      "predicate": "on",
+      "source": "food_item",
+      "target": "fork"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "fridge"
+    },
+    {
+      "predicate": "next_to",
+      "source": "glass1",
+      "target": "can1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "glass1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "person2",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "clock",
+      "target": "fridge"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt glasses",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.03,0.48,0.97,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black shirt hair",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.48,0.03,0.95,0.97,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "fork",
+      "label": "fork",
+      "location": "0.36,0.65,0.44,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "food_item",
+      "label": "fried food",
+      "location": "0.38,0.68,0.42,0.72,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "glass1",
+      "label": "glass of beer",
+      "location": "0.02,0.75,0.18,0.98,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow can",
+        "size": "small"
+      },
+      "id": "can1",
+      "label": "beer can",
+      "location": "0.85,0.75,0.98,0.98,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "fridge",
+      "label": "refrigerator",
+      "location": "0.5,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white face black numbers",
+        "size": "small"
+      },
+      "id": "clock",
+      "label": "wall clock",
+      "location": "0.75,0.1,0.9,0.3,0.8"
+    }
+  ]
+}

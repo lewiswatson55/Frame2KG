@@ -1,0 +1,132 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "spoon1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "shaker1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "can1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "person1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "wearing plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.5,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black handle metal blade",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.4,0.3,0.8,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with white rice",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.1,0.3,0.4,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "seasoning jar",
+      "location": "0.2,0.0,0.3,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue metal",
+        "size": "small"
+      },
+      "id": "can1",
+      "label": "soda can",
+      "location": "0.3,0.0,0.4,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "metal spoon",
+      "location": "0.1,0.7,0.3,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "small"
+      },
+      "id": "shaker1",
+      "label": "salt shaker",
+      "location": "0.0,0.7,0.2,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark brown wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "wooden table",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    }
+  ]
+}

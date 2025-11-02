@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "on",
+      "source": "dish1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "box1",
+      "target": "dish1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow creamy",
+        "size": "large"
+      },
+      "id": "dish1",
+      "label": "macaroni dish",
+      "location": "0.05,0.0,0.95,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "spoon1",
+      "label": "metal spoon",
+      "location": "0.3,0.0,0.7,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white cardboard",
+        "size": "large"
+      },
+      "id": "box1",
+      "label": "cardboard box",
+      "location": "0.8,0.0,1.0,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "dark surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.0,0.4,0.4,0.5"
+    }
+  ]
+}

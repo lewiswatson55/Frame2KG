@@ -1,0 +1,187 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "towel"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person2",
+      "target": "person1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "oven",
+      "target": "cabinet"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter",
+      "target": "bottles"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter",
+      "target": "bowl"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter",
+      "target": "meat"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter",
+      "target": "paper_towels"
+    },
+    {
+      "predicate": "left_of",
+      "source": "board",
+      "target": "pan1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bowl",
+      "target": "meat"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt with pig graphic",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.48,0.05,0.76,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "stove",
+      "location": "0.0,0.6,0.35,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.05,0.7,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "kitchen cabinet",
+      "location": "0.6,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "oven",
+      "label": "oven",
+      "location": "0.6,0.2,0.8,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottles",
+        "size": "medium"
+      },
+      "id": "bottles",
+      "label": "wine bottles",
+      "location": "0.8,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl",
+      "label": "glass bowl",
+      "location": "0.85,0.7,0.98,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red meat slices",
+        "size": "small"
+      },
+      "id": "meat",
+      "label": "raw meat",
+      "location": "0.75,0.8,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "small"
+      },
+      "id": "paper_towels",
+      "label": "paper towels",
+      "location": "0.75,0.85,0.95,0.98,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board",
+      "label": "cutting board",
+      "location": "0.0,0.6,0.2,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green cloth",
+        "size": "small"
+      },
+      "id": "towel",
+      "label": "cloth towel",
+      "location": "0.2,0.5,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "counter",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass window",
+        "size": "large"
+      },
+      "id": "window",
+      "label": "window",
+      "location": "0.0,0.0,0.5,0.6,0.8"
+    }
+  ]
+}

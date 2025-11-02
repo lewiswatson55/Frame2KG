@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "wings1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in",
+      "source": "dip1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "stick1"
+    },
+    {
+      "predicate": "in",
+      "source": "stick1",
+      "target": "dip1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "orange sauced",
+        "size": "large"
+      },
+      "id": "wings1",
+      "label": "chicken wings",
+      "location": "0.05,0.6,0.98,0.97,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.4,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "sauce bowl",
+      "location": "0.35,0.2,0.65,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green creamy",
+        "size": "small"
+      },
+      "id": "dip1",
+      "label": "dipping sauce",
+      "location": "0.4,0.3,0.6,0.45,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.0,0.0,0.4,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "stick1",
+      "label": "metal stick",
+      "location": "0.45,0.0,0.55,0.3,0.6"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "oven"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person2",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "window",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "cabinet",
+      "target": "oven"
+    },
+    {
+      "predicate": "supports",
+      "source": "shelf",
+      "target": "bottles"
+    },
+    {
+      "predicate": "includes",
+      "source": "bottle_group",
+      "target": "bottles"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cutting_board",
+      "target": "pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife_block",
+      "target": "cutting_board"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.05,0.05,0.45,0.95,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "gas stove",
+      "location": "0.0,0.6,0.6,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.1,0.7,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark metal",
+        "size": "medium"
+      },
+      "id": "pan2",
+      "label": "skillet",
+      "location": "0.3,0.75,0.6,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.15,0.75,0.25,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "plate of bacon",
+      "location": "0.7,0.8,0.95,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "kitchen cabinet",
+      "location": "0.6,0.0,1.0,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "shelf",
+      "label": "wall shelf",
+      "location": "0.75,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "various colored bottles",
+        "size": "small"
+      },
+      "id": "bottles",
+      "label": "wine bottles",
+      "location": "0.8,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink plastic",
+        "size": "small"
+      },
+      "id": "bottle_group",
+      "label": "plastic bottles",
+      "location": "0.8,0.3,1.0,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.0,0.6,0.3,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "small"
+      },
+      "id": "knife_block",
+      "label": "knife block",
+      "location": "0.0,0.4,0.1,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass pane",
+        "size": "large"
+      },
+      "id": "window",
+      "label": "window",
+      "location": "0.0,0.0,0.5,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white tile backsplash",
+        "size": "medium"
+      },
+      "id": "backsplash",
+      "label": "tile backsplash",
+      "location": "0.6,0.4,1.0,0.6,0.8"
+    }
+  ]
+}

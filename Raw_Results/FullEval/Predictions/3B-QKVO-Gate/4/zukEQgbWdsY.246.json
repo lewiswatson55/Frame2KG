@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person_hands",
+      "target": "bacon"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon",
+      "target": "bread_stack"
+    },
+    {
+      "predicate": "next_to",
+      "source": "avocado_sauce_bowl",
+      "target": "bread_stack"
+    },
+    {
+      "predicate": "left_of",
+      "source": "pepper_shaker",
+      "target": "bread_stack"
+    },
+    {
+      "predicate": "behind",
+      "source": "blender",
+      "target": "person_hands"
+    },
+    {
+      "predicate": "right_of",
+      "source": "cable",
+      "target": "bread_stack"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person_hands",
+      "label": "hands",
+      "location": "0.35,0.0,0.65,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cutting_board",
+      "label": "wooden cutting board",
+      "location": "0.2,0.4,0.8,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread with green spread",
+        "size": "small"
+      },
+      "id": "bread_stack",
+      "label": "bread stack",
+      "location": "0.4,0.5,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red raw bacon strips",
+        "size": "small"
+      },
+      "id": "bacon",
+      "label": "bacon slices",
+      "location": "0.45,0.55,0.65,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green avocado paste",
+        "size": "small"
+      },
+      "id": "avocado_sauce_bowl",
+      "label": "bowl of avocado sauce",
+      "location": "0.05,0.5,0.2,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "pepper_shaker",
+      "label": "pepper shaker",
+      "location": "0.0,0.6,0.2,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender",
+      "label": "blender",
+      "location": "0.4,0.0,0.7,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black cable",
+        "size": "medium"
+      },
+      "id": "cable",
+      "label": "power cord",
+      "location": "0.7,0.2,0.95,0.7,0.9"
+    }
+  ]
+}

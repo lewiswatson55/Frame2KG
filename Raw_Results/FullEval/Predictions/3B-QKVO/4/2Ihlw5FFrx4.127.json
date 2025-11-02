@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hands1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tomato1",
+      "target": "lettuce1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hands1",
+      "label": "Hands",
+      "location": "0.0,0.0,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce Leaf",
+      "location": "0.45,0.3,0.95,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red juicy",
+        "size": "medium"
+      },
+      "id": "tomato1",
+      "label": "Tomato Slice",
+      "location": "0.3,0.5,0.7,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crusty",
+        "size": "large"
+      },
+      "id": "bread1",
+      "label": "Bread Slice",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "Cheese Spread",
+      "location": "0.1,0.6,0.4,0.8,0.8"
+    }
+  ]
+}

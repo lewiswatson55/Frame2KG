@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "background"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "couch1"
+    },
+    {
+      "predicate": "behind",
+      "source": "couch1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white script on black background",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Subscribe text",
+      "location": "0.05,0.03,0.95,0.28,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown fabric",
+        "size": "large"
+      },
+      "id": "couch1",
+      "label": "Sofa",
+      "location": "0.0,0.4,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "long brown hair wearing dark top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Woman",
+      "location": "0.4,0.1,1.0,0.9,0.9"
+    }
+  ]
+}

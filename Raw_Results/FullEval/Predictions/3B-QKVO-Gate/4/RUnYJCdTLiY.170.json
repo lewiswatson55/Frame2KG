@@ -1,0 +1,158 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "butter1"
+    },
+    {
+      "predicate": "on",
+      "source": "butter1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "oven1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "utensil_holder1",
+      "target": "microwave1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "sink1",
+      "target": "cabinet_left1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cabinet_left1",
+      "target": "cabinet_right1"
+    },
+    {
+      "predicate": "behind",
+      "source": "window1",
+      "target": "sink1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "purple shirt white apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.15,0.0,0.85,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.6,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "butter1",
+      "label": "butter",
+      "location": "0.3,0.7,0.4,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave oven",
+      "location": "0.2,0.0,0.6,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "medium"
+      },
+      "id": "cabinet_left1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.3,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "medium"
+      },
+      "id": "cabinet_right1",
+      "label": "kitchen cabinet",
+      "location": "0.7,0.0,1.0,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.2,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.6,0.3,0.9,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bowl with flour",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.7,0.7,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "spice_jar1",
+      "label": "spice jar",
+      "location": "0.45,0.75,0.55,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal container with utensils",
+        "size": "small"
+      },
+      "id": "utensil_holder1",
+      "label": "utensil holder",
+      "location": "0.2,0.1,0.3,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame glass",
+        "size": "medium"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.6,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "oven1",
+      "label": "oven",
+      "location": "0.2,0.3,0.5,0.6,0.8"
+    }
+  ]
+}

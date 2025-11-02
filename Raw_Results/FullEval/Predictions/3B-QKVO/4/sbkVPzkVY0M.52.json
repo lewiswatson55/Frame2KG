@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "ground_chuck1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl2",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.0,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink silicone",
+        "size": "medium"
+      },
+      "id": "spoon1",
+      "label": "serving spoon",
+      "location": "0.3,0.0,0.7,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.35,0.15,0.65,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red minced meat",
+        "size": "small"
+      },
+      "id": "ground_chuck1",
+      "label": "ground chuck",
+      "location": "0.4,0.25,0.6,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl2",
+      "label": "glass bowl",
+      "location": "0.2,0.6,0.8,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige countertop",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    }
+  ]
+}

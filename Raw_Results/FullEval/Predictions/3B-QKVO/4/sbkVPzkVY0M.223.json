@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black non-stick",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "red cooked meat",
+        "size": "medium"
+      },
+      "id": "patty1",
+      "label": "burger patty",
+      "location": "0.35,0.45,0.65,0.75,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow melted",
+        "size": "medium"
+      },
+      "id": "cheese1",
+      "label": "cheese slice",
+      "location": "0.35,0.15,0.65,0.45,0.90"
+    }
+  ]
+}

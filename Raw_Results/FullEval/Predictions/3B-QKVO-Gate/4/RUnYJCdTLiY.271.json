@@ -1,0 +1,126 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "fork1"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "above",
+      "source": "microwave1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "frying_pan1",
+      "target": "cabinets1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cutting_board1",
+      "target": "salt_shaker1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "twitter_icon1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "maroon top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "fork1",
+      "label": "fork",
+      "location": "0.45,0.35,0.55,0.45,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.4,0.4,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver black",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave oven",
+      "location": "0.0,0.0,0.4,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinets1",
+      "label": "kitchen cabinets",
+      "location": "0.0,0.0,1.0,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black cast iron",
+        "size": "small"
+      },
+      "id": "frying_pan1",
+      "label": "frying pan",
+      "location": "0.45,0.0,0.55,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "wooden cutting board",
+      "location": "0.7,0.4,0.85,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "salt_shaker1",
+      "label": "salt shaker",
+      "location": "0.85,0.4,0.9,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue graphic",
+        "size": "small"
+      },
+      "id": "twitter_icon1",
+      "label": "Twitter icon",
+      "location": "0.0,0.75,0.2,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,0.8,0.7"
+    }
+  ]
+}

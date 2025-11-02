@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "onion_half"
+    },
+    {
+      "predicate": "on",
+      "source": "onion_whole",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "onion_halves",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "in",
+      "source": "onion_halves_in_bowl",
+      "target": "bowl"
+    },
+    {
+      "predicate": "next_to",
+      "source": "onion_whole",
+      "target": "onion_halves"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl",
+      "target": "onion_whole"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.5,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple white",
+        "size": "small"
+      },
+      "id": "onion_whole",
+      "label": "Whole Onion",
+      "location": "0.6,0.2,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "purple white",
+        "size": "small"
+      },
+      "id": "onion_halves",
+      "label": "Onion Halves",
+      "location": "0.4,0.6,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl",
+      "label": "Glass Bowl",
+      "location": "0.0,0.6,0.5,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white translucent",
+        "size": "small"
+      },
+      "id": "onion_halves_in_bowl",
+      "label": "Onion Halves in Bowl",
+      "location": "0.05,0.65,0.45,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cutting_board",
+      "label": "Cutting Board",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    }
+  ]
+}

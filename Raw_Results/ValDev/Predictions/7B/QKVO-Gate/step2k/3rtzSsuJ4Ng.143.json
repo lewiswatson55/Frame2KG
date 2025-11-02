@@ -1,0 +1,145 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "on",
+      "source": "spoon1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "sandwich1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tongs1",
+      "target": "toast1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "toast1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "lettuce1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "behind",
+      "source": "bowl1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "lettuce1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Person's hands",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table surface",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.45,0.45,0.75,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread with bacon and tomato slices",
+        "size": "small"
+      },
+      "id": "sandwich1",
+      "label": "Sandwich",
+      "location": "0.5,0.5,0.7,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.45,0.3,0.55,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate2",
+      "label": "Plate",
+      "location": "0.75,0.45,0.95,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce leaves",
+      "location": "0.8,0.5,0.95,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with yellow sauce",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Glass bowl",
+      "location": "0.65,0.3,0.8,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "Tongs",
+      "location": "0.0,0.6,0.2,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper towel with toast",
+        "size": "small"
+      },
+      "id": "plate3",
+      "label": "Plate of toast",
+      "location": "0.0,0.0,0.3,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown toasted",
+        "size": "small"
+      },
+      "id": "toast1",
+      "label": "Toast slice",
+      "location": "0.1,0.15,0.25,0.3,0.9"
+    }
+  ]
+}

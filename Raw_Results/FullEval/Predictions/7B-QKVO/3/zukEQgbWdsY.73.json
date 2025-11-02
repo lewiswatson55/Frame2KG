@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "cutting",
+      "source": "knife1",
+      "target": "meat1"
+    },
+    {
+      "predicate": "on",
+      "source": "meat1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bag1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "board1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.35,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.4,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "Knife",
+      "location": "0.4,0.2,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw",
+        "size": "small"
+      },
+      "id": "meat1",
+      "label": "Meat Slice",
+      "location": "0.5,0.5,0.8,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic wrapped",
+        "size": "medium"
+      },
+      "id": "bag1",
+      "label": "Plastic Bag of Meat",
+      "location": "0.0,0.2,0.4,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "Stovetop",
+      "location": "0.0,0.8,1.0,1.0,0.9"
+    }
+  ]
+}

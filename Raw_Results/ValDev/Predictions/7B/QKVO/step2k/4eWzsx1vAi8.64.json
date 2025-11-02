@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "on",
+      "source": "shelf1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "on",
+      "source": "vase1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "teapot1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "shelf1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "grey lace top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.1,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal frame",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "metal shelf",
+      "location": "0.1,0.0,0.6,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "ceramic vase",
+      "location": "0.25,0.25,0.35,0.45,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "teapot1",
+      "label": "teapot",
+      "location": "0.45,0.05,0.55,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue patterned",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "decorative plate",
+      "location": "0.6,0.0,0.7,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "cream vertical stripes",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall paneling",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

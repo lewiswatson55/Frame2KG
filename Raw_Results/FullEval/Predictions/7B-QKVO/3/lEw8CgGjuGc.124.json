@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "top_bun"
+    },
+    {
+      "predicate": "on",
+      "source": "top_bun",
+      "target": "burger_patty"
+    },
+    {
+      "predicate": "on",
+      "source": "burger_patty",
+      "target": "bottom_bun"
+    },
+    {
+      "predicate": "on",
+      "source": "bottom_bun",
+      "target": "lettuce"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce",
+      "target": "plate"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bun_half",
+      "target": "burger_patty"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "top_bun",
+      "label": "Burger Bun Top",
+      "location": "0.2,0.1,0.8,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown grilled",
+        "size": "medium"
+      },
+      "id": "burger_patty",
+      "label": "Burger Patty",
+      "location": "0.25,0.4,0.75,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce",
+      "label": "Lettuce Leaves",
+      "location": "0.1,0.5,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white soft",
+        "size": "small"
+      },
+      "id": "bottom_bun",
+      "label": "Burger Bun Bottom",
+      "location": "0.2,0.6,0.8,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "large"
+      },
+      "id": "plate",
+      "label": "Plate",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "bun_half",
+      "label": "Half Burger Bun",
+      "location": "0.8,0.1,1.0,0.4,0.8"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl",
+      "target": "board"
+    },
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife"
+    },
+    {
+      "predicate": "on",
+      "source": "plate",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "food",
+      "target": "plate"
+    },
+    {
+      "predicate": "next_to",
+      "source": "napkin",
+      "target": "plate"
+    },
+    {
+      "predicate": "left_of",
+      "source": "glass",
+      "target": "plate"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bottle",
+      "target": "plate"
+    },
+    {
+      "predicate": "behind",
+      "source": "logo",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.35,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow top",
+        "size": "small"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.05,0.45,0.35,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "cutting board",
+      "location": "0.05,0.05,0.65,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "bowl",
+      "label": "mixing bowl",
+      "location": "0.15,0.1,0.3,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black handle",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.1,0.4,0.2,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate",
+      "label": "plate of food",
+      "location": "0.05,0.5,0.35,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange",
+        "size": "small"
+      },
+      "id": "food",
+      "label": "vegan food",
+      "location": "0.1,0.55,0.3,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink cloth",
+        "size": "small"
+      },
+      "id": "napkin",
+      "label": "napkin",
+      "location": "0.05,0.5,0.2,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "glass",
+      "label": "glass of juice",
+      "location": "0.35,0.5,0.45,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green plastic",
+        "size": "small"
+      },
+      "id": "bottle",
+      "label": "juice bottle",
+      "location": "0.45,0.5,0.55,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "kitchen table",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "gray background",
+        "size": "large"
+      },
+      "id": "logo",
+      "label": "Hungry logo",
+      "location": "0.6,0.0,1.0,0.3,0.9"
+    }
+  ]
+}

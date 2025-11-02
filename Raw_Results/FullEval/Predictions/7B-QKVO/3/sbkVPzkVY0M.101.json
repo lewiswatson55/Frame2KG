@@ -1,0 +1,91 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "butter1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "butter2",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "salt_shaker1",
+      "target": "pepper_shaker1"
+    },
+    {
+      "predicate": "behind",
+      "source": "salt_shaker1",
+      "target": "butter1"
+    },
+    {
+      "predicate": "behind",
+      "source": "pepper_shaker1",
+      "target": "butter2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "butter1",
+      "target": "salt_shaker1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "butter2",
+      "target": "pepper_shaker1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "butter1",
+      "target": "butter2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "wooden cutting board",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white wrapper",
+        "size": "small"
+      },
+      "id": "butter1",
+      "label": "stick of butter",
+      "location": "0.48,0.63,0.75,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wrapper",
+        "size": "small"
+      },
+      "id": "butter2",
+      "label": "stick of butter",
+      "location": "0.0,0.6,0.3,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "pepper_shaker1",
+      "label": "pepper grinder",
+      "location": "0.2,0.0,0.35,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "salt_shaker1",
+      "label": "salt shaker",
+      "location": "0.35,0.0,0.5,0.6,0.8"
+    }
+  ]
+}

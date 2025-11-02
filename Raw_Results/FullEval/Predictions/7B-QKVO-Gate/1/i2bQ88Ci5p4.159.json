@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bottle"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "fridge"
+    },
+    {
+      "predicate": "on",
+      "source": "glass",
+      "target": "counter"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet",
+      "target": "fridge"
+    },
+    {
+      "predicate": "left_of",
+      "source": "window",
+      "target": "cabinet"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.0,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black jacket",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.4,0.0,0.95,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue glass",
+        "size": "medium"
+      },
+      "id": "bottle",
+      "label": "alcohol bottle",
+      "location": "0.3,0.5,0.45,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "small"
+      },
+      "id": "glass",
+      "label": "measuring cup",
+      "location": "0.6,0.6,0.75,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "fridge",
+      "label": "refrigerator",
+      "location": "0.5,0.0,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.5,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white blinds",
+        "size": "medium"
+      },
+      "id": "window",
+      "label": "window",
+      "location": "0.0,0.0,0.3,0.3,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden countertop",
+        "size": "large"
+      },
+      "id": "counter",
+      "label": "countertop",
+      "location": "0.0,0.7,1.0,1.0,0.6"
+    }
+  ]
+}

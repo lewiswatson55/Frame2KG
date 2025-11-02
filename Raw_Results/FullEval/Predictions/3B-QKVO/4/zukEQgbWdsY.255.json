@@ -1,0 +1,95 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "behind",
+      "source": "blender1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "large"
+      },
+      "id": "blender1",
+      "label": "Blender",
+      "location": "0.45,0.0,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.3,0.5,0.7,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce Leaves",
+      "location": "0.45,0.55,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red cooked",
+        "size": "small"
+      },
+      "id": "bacon1",
+      "label": "Bacon Slices",
+      "location": "0.45,0.6,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Dip Bowl",
+      "location": "0.05,0.55,0.25,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.0,0.6,0.4,1.0,0.8"
+    }
+  ]
+}

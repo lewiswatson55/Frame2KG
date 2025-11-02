@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "sandwich1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl3",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "behind",
+      "source": "oil_bottle1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "toasted brown bread with lettuce and bacon",
+        "size": "medium"
+      },
+      "id": "sandwich1",
+      "label": "grilled sandwich",
+      "location": "0.65,0.15,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic bowl with green sauce",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "sauce bowl",
+      "location": "0.45,0.25,0.60,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass bowl with black pepper",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "pepper bowl",
+      "location": "0.55,0.05,0.65,0.20,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass bowl with white salt",
+        "size": "small"
+      },
+      "id": "bowl3",
+      "label": "salt bowl",
+      "location": "0.65,0.05,0.75,0.20,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden cutting board",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.20,0.30,0.95,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade with red handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.05,0.55,0.25,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottle with yellow oil",
+        "size": "medium"
+      },
+      "id": "oil_bottle1",
+      "label": "oil bottle",
+      "location": "0.05,0.05,0.20,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green text on white background",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "recipe text overlay",
+      "location": "0.40,0.30,0.90,0.80,0.9"
+    }
+  ]
+}

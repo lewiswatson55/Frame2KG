@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "tank_top1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "long black hair, dark skin",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "black cotton",
+        "size": "medium"
+      },
+      "id": "tank_top1",
+      "label": "tank top",
+      "location": "0.4,0.5,0.6,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white painted wood",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wooden wall",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+size,variant,checkpoint,node_micro_f1,edge_micro_f1,box_mean_iou,box_iou@0.5_coverage,box_iou@0.75_coverage,validity_rate,conformity_rate,node_macro_f1,result_path,pred_dir
+3B,QKVO,final,0.596772,0.187171,0.599640,0.66,0.25,98.60,98.07,0.643770,results_final/3B-QKVO_final.csv,preds_full/3B-QKVO/4
+3B,QKVO-Gate,final,0.616075,0.207847,0.608675,0.68,0.27,99.19,98.84,0.661369,results_final/3B-QKVO-Gate_final.csv,preds_full/3B-QKVO-Gate/4
+7B,QKVO,best,0.606705,0.195310,0.601253,0.66,0.26,99.40,98.28,0.652642,results_final/7B-QKVO_best.csv,preds_full/7B-QKVO/3
+7B,QKVO-Gate,step1k,0.620840,0.203562,0.604726,0.67,0.26,99.16,98.56,0.666455,results_final/7B-QKVO-Gate_step1k.csv,preds_full/7B-QKVO-Gate/1

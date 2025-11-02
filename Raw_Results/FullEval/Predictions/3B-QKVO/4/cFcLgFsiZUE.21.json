@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "background1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "text1",
+      "target": "bottle1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red glass bottle with red label",
+        "size": "large"
+      },
+      "id": "bottle1",
+      "label": "Frank's RedHot hot sauce bottle",
+      "location": "0.05,0.0,0.45,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "black background",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "black background",
+      "location": "0.6,0.0,1.0,1.0,0.97"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "garlic powder salt text",
+      "location": "0.75,0.3,0.95,0.6,0.85"
+    }
+  ]
+}

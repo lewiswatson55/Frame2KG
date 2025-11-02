@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "hand1",
+      "target": "flour1"
+    },
+    {
+      "predicate": "on",
+      "source": "flour1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bag1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.35,0.15,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "large"
+      },
+      "id": "flour1",
+      "label": "flour",
+      "location": "0.2,0.2,0.8,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic with colorful pattern",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic bag with brown contents",
+        "size": "small"
+      },
+      "id": "bag1",
+      "label": "plastic bag",
+      "location": "0.0,0.0,0.4,0.3,0.7"
+    }
+  ]
+}

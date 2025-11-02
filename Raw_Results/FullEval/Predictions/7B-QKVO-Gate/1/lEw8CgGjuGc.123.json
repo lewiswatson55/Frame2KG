@@ -1,0 +1,127 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "bun1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "on",
+      "source": "onion1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "on",
+      "source": "ketchup1",
+      "target": "onion1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "patty2",
+      "target": "patty1"
+    },
+    {
+      "predicate": "on",
+      "source": "bun2",
+      "target": "patty2"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce2",
+      "target": "bun2"
+    },
+    {
+      "predicate": "behind",
+      "source": "plate1",
+      "target": "patty1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown grilled",
+        "size": "medium"
+      },
+      "id": "patty1",
+      "label": "beef patty",
+      "location": "0.05,0.48,0.63,0.79,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread",
+        "size": "small"
+      },
+      "id": "bun1",
+      "label": "burger bun bottom half",
+      "location": "0.05,0.79,0.63,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaf",
+      "location": "0.05,0.65,0.63,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red sliced",
+        "size": "small"
+      },
+      "id": "onion1",
+      "label": "red onion slice",
+      "location": "0.05,0.48,0.63,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red sauce",
+        "size": "small"
+      },
+      "id": "ketchup1",
+      "label": "ketchup",
+      "location": "0.15,0.35,0.55,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown grilled",
+        "size": "medium"
+      },
+      "id": "patty2",
+      "label": "beef patty",
+      "location": "0.65,0.48,0.98,0.79,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread",
+        "size": "small"
+      },
+      "id": "bun2",
+      "label": "burger bun top half",
+      "location": "0.65,0.35,0.98,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce2",
+      "label": "lettuce leaf",
+      "location": "0.65,0.65,0.98,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate of patties",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    }
+  ]
+}

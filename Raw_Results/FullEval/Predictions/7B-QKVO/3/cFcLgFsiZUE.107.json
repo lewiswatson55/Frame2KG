@@ -1,0 +1,155 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "fridge"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "plate",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "mixer",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "knife_set",
+      "target": "counter"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "coffee_machine",
+      "target": "fridge"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinets",
+      "target": "fridge"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person1",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt black apron",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.05,0.48,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black chef coat glasses",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.52,0.05,0.95,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "fridge",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinets",
+      "label": "kitchen cabinets",
+      "location": "0.3,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "counter",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "table",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange glazed chicken",
+        "size": "small"
+      },
+      "id": "plate",
+      "label": "plate of food",
+      "location": "0.3,0.7,0.6,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange sauce",
+        "size": "small"
+      },
+      "id": "bowl",
+      "label": "sauce bowl",
+      "location": "0.2,0.8,0.3,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "medium"
+      },
+      "id": "mixer",
+      "label": "stand mixer",
+      "location": "0.45,0.2,0.6,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "knife_set",
+      "label": "knife block",
+      "location": "0.4,0.2,0.5,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "coffee_machine",
+      "label": "coffee machine",
+      "location": "0.0,0.2,0.2,0.5,0.8"
+    }
+  ]
+}

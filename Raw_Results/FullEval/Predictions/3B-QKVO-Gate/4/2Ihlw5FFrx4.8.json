@@ -1,0 +1,67 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "text2",
+      "target": "background"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bread1",
+      "target": "background"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread1",
+      "target": "text1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread1",
+      "target": "text2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink gradient",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "white bold font",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "POPSUGAR logo text",
+      "location": "0.05,0.35,0.45,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red bold font",
+        "size": "medium"
+      },
+      "id": "text2",
+      "label": "Title text",
+      "location": "0.05,0.45,0.7,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crust",
+        "size": "large"
+      },
+      "id": "bread1",
+      "label": "Bread loaves",
+      "location": "0.6,0.0,1.0,1.0,0.95"
+    }
+  ]
+}

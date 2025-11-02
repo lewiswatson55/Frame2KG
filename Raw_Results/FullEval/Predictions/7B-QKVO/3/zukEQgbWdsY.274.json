@@ -1,0 +1,109 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "on",
+      "source": "sandwich1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "container1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "radio1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar1",
+      "target": "container1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "board1",
+      "target": "radio1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "hands",
+      "location": "0.05,0.0,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread with lettuce and bacon",
+        "size": "small"
+      },
+      "id": "sandwich1",
+      "label": "sandwich",
+      "location": "0.3,0.4,0.8,0.8,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.2,0.5,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with green herbs",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "herb jar",
+      "location": "0.0,0.0,0.2,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic with red meat slices",
+        "size": "small"
+      },
+      "id": "container1",
+      "label": "meat container",
+      "location": "0.0,0.6,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal with buttons",
+        "size": "medium"
+      },
+      "id": "radio1",
+      "label": "stereo radio",
+      "location": "0.4,0.0,0.8,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey smooth surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "fork1",
+      "target": "table1"
+    },
+    {
+      "predicate": "in",
+      "source": "egg1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "fork1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "plate1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "fork1",
+      "label": "Fork",
+      "location": "0.05,0.1,0.23,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.27,0.05,0.64,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow yolk white liquid",
+        "size": "small"
+      },
+      "id": "egg1",
+      "label": "Egg",
+      "location": "0.45,0.25,0.55,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.75,0.2,0.98,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white smooth surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

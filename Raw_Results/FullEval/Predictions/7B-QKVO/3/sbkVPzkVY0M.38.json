@@ -1,0 +1,268 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "food_processor",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_mixed",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_beef",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_salad",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pan",
+      "target": "hot_plate"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "knife",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bread",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "basket_apples",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "frame_artwork",
+      "target": "wall"
+    },
+    {
+      "predicate": "on",
+      "source": "art_frame",
+      "target": "wall"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper_grinder",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "salt_shaker",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pepper_grinder",
+      "target": "salt_shaker"
+    },
+    {
+      "predicate": "left_of",
+      "source": "food_processor",
+      "target": "bowl_mixed"
+    },
+    {
+      "predicate": "right_of",
+      "source": "pan",
+      "target": "food_processor"
+    },
+    {
+      "predicate": "behind",
+      "source": "art_frame",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "frame_artwork",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.05,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.0,0.7,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "medium"
+      },
+      "id": "food_processor",
+      "label": "food processor",
+      "location": "0.3,0.6,0.45,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bowl with green mixture",
+        "size": "small"
+      },
+      "id": "bowl_mixed",
+      "label": "bowl of mixed greens",
+      "location": "0.25,0.75,0.35,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bowl with raw beef",
+        "size": "small"
+      },
+      "id": "bowl_beef",
+      "label": "bowl of ground beef",
+      "location": "0.45,0.75,0.55,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with lettuce and tomato slices",
+        "size": "small"
+      },
+      "id": "plate_salad",
+      "label": "salad plate",
+      "location": "0.7,0.75,0.85,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal pan on hot plate",
+        "size": "medium"
+      },
+      "id": "pan",
+      "label": "frying pan",
+      "location": "0.6,0.6,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black hot plate",
+        "size": "small"
+      },
+      "id": "hot_plate",
+      "label": "hot plate",
+      "location": "0.6,0.6,0.7,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red silicone spatula",
+        "size": "small"
+      },
+      "id": "spatula",
+      "label": "spatula",
+      "location": "0.85,0.75,0.95,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal knife",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.55,0.75,0.6,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "round bread roll",
+        "size": "small"
+      },
+      "id": "bread",
+      "label": "bread roll",
+      "location": "0.5,0.75,0.55,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white cutting board",
+        "size": "small"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.8,0.75,0.95,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wicker basket with green apples",
+        "size": "small"
+      },
+      "id": "basket_apples",
+      "label": "apple basket",
+      "location": "0.0,0.6,0.15,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver frame with colorful abstract art",
+        "size": "medium"
+      },
+      "id": "frame_artwork",
+      "label": "framed artwork",
+      "location": "0.7,0.0,0.9,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver frame with pink butterfly illustration",
+        "size": "medium"
+      },
+      "id": "art_frame",
+      "label": "framed artwork",
+      "location": "0.4,0.0,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic pepper grinder",
+        "size": "small"
+      },
+      "id": "pepper_grinder",
+      "label": "pepper grinder",
+      "location": "0.9,0.6,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass salt shaker",
+        "size": "small"
+      },
+      "id": "salt_shaker",
+      "label": "salt shaker",
+      "location": "0.95,0.6,1.0,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey wall",
+        "size": "large"
+      },
+      "id": "wall",
+      "label": "wall",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

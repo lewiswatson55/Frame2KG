@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "towel_red",
+      "target": "stove1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "towel_blue",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "utensil_holder1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "toaster1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "behind",
+      "source": "bananas1",
+      "target": "toaster1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bag1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "Stove",
+      "location": "0.05,0.05,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black cast iron",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "Frying Pan",
+      "location": "0.35,0.45,0.65,0.55,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "red fabric with snowman print",
+        "size": "small"
+      },
+      "id": "towel_red",
+      "label": "Towel",
+      "location": "0.25,0.65,0.35,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue fabric with Santa Claus print",
+        "size": "small"
+      },
+      "id": "towel_blue",
+      "label": "Towel",
+      "location": "0.35,0.65,0.45,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic with black hearts",
+        "size": "small"
+      },
+      "id": "utensil_holder1",
+      "label": "Utensil Holder",
+      "location": "0.75,0.15,0.9,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "toaster1",
+      "label": "Toaster",
+      "location": "0.0,0.15,0.25,0.35,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow bananas wrapped in red paper",
+        "size": "small"
+      },
+      "id": "bananas1",
+      "label": "Bananas",
+      "location": "0.0,0.2,0.2,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic bag with bread loaf",
+        "size": "small"
+      },
+      "id": "bag1",
+      "label": "Bag of Bread Loaf",
+      "location": "0.8,0.3,0.95,0.5,0.7"
+    }
+  ]
+}

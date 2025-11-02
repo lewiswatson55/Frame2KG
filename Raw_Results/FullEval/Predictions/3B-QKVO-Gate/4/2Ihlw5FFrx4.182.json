@@ -1,0 +1,171 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "plate"
+    },
+    {
+      "predicate": "on",
+      "source": "plate",
+      "target": "board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "board",
+      "target": "napkin"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "board",
+      "target": "tv_screen"
+    },
+    {
+      "predicate": "behind",
+      "source": "tv_screen",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "person2",
+      "target": "person1"
+    },
+    {
+      "predicate": "holding",
+      "source": "person2",
+      "target": "sandwich"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "table",
+      "target": "person1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "table",
+      "target": "person2"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "board"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "plate"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "vase"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "napkin"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "computer"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person1",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "turquoise shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.0,0.15,0.48,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green dress",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.52,0.15,0.96,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink purple graphic",
+        "size": "large"
+      },
+      "id": "tv_screen",
+      "label": "television screen",
+      "location": "0.3,0.0,0.7,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic plate with lettuce and tomato",
+        "size": "small"
+      },
+      "id": "plate",
+      "label": "plate of food",
+      "location": "0.25,0.55,0.45,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden cutting board",
+        "size": "medium"
+      },
+      "id": "board",
+      "label": "cutting board",
+      "location": "0.15,0.6,0.5,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal vase with white flower",
+        "size": "small"
+      },
+      "id": "vase",
+      "label": "flower vase",
+      "location": "0.45,0.55,0.55,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green striped cloth",
+        "size": "small"
+      },
+      "id": "napkin",
+      "label": "napkin",
+      "location": "0.0,0.75,0.2,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass computer monitor",
+        "size": "small"
+      },
+      "id": "computer",
+      "label": "computer",
+      "location": "0.8,0.3,0.95,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "bread sandwich",
+        "size": "small"
+      },
+      "id": "sandwich",
+      "label": "sandwich",
+      "location": "0.6,0.4,0.7,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey countertop",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    }
+  ]
+}

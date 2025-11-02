@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "includes",
+      "source": "dish1",
+      "target": "food1"
+    },
+    {
+      "predicate": "on",
+      "source": "dish1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "behind",
+      "source": "appliance1",
+      "target": "dish1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "dish1",
+      "label": "baking dish",
+      "location": "0.05,0.3,0.98,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange red sauce",
+        "size": "medium"
+      },
+      "id": "food1",
+      "label": "chicken pieces",
+      "location": "0.1,0.4,0.9,0.9,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "brown skin",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.3,0.0,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "spoon",
+      "location": "0.35,0.0,0.65,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white smooth",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.0,1.0,0.3,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "silver plastic",
+        "size": "medium"
+      },
+      "id": "appliance1",
+      "label": "kitchen appliance",
+      "location": "0.5,0.0,1.0,0.3,0.6"
+    }
+  ]
+}

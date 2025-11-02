@@ -1,0 +1,67 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "subscribe_signs"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "arrow_icon",
+      "target": "subscribe_signs"
+    },
+    {
+      "predicate": "on",
+      "source": "subscribe_signs",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "arrow_icon",
+      "target": "background"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white bold font",
+        "size": "large"
+      },
+      "id": "text1",
+      "label": "Text 'Choose what videos'",
+      "location": "0.15,0.35,0.85,0.47,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange white text",
+        "size": "medium"
+      },
+      "id": "subscribe_signs",
+      "label": "Subscribe signs",
+      "location": "0.2,0.1,0.8,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black arrow icon",
+        "size": "small"
+      },
+      "id": "arrow_icon",
+      "label": "Arrow icon",
+      "location": "0.45,0.5,0.55,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red gradient background",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.99"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bottle1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "jar1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.05,0.3,0.45,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "large"
+      },
+      "id": "bottle1",
+      "label": "plastic bottle",
+      "location": "0.4,0.0,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "metal jar",
+      "location": "0.6,0.75,0.9,0.95,0.8"
+    }
+  ]
+}

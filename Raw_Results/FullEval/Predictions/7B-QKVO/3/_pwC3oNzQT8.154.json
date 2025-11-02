@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "on",
+      "source": "hand1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "dish1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "orange glazed",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "Chicken pieces",
+      "location": "0.05,0.3,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "dish1",
+      "label": "Glass baking dish",
+      "location": "0.0,0.2,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.4,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Metal bowl",
+      "location": "0.0,0.75,0.5,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white script",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Chef Ricardo logo",
+      "location": "0.5,0.7,1.0,1.0,0.9"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "batter1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "rings1",
+      "target": "batter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cloth1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.05,0.0,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellowish liquid",
+        "size": "medium"
+      },
+      "id": "batter1",
+      "label": "batter",
+      "location": "0.15,0.15,0.85,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple rings",
+        "size": "small"
+      },
+      "id": "rings1",
+      "label": "onion rings",
+      "location": "0.35,0.45,0.65,0.65,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "wooden cutting board",
+      "location": "0.0,0.75,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "multicolored fabric",
+        "size": "medium"
+      },
+      "id": "cloth1",
+      "label": "kitchen cloth",
+      "location": "0.0,0.0,0.2,0.8,0.7"
+    }
+  ]
+}

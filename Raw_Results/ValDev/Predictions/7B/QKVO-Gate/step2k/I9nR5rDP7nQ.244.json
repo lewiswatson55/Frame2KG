@@ -1,0 +1,66 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "signs"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "arrow1",
+      "target": "text1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "string1",
+      "target": "signs"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white bold font on red background",
+        "size": "large"
+      },
+      "id": "text1",
+      "label": "Text overlay",
+      "location": "0.15,0.35,0.85,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow orange paper",
+        "size": "medium"
+      },
+      "id": "signs",
+      "label": "Subscription signs",
+      "location": "0.2,0.1,0.8,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red gradient",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black arrow pointing right",
+        "size": "small"
+      },
+      "id": "arrow1",
+      "label": "Arrow icon",
+      "location": "0.45,0.55,0.55,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "thin yellow string",
+        "size": "small"
+      },
+      "id": "string1",
+      "label": "Hanging string",
+      "location": "0.6,0.0,0.7,0.3,0.6"
+    }
+  ]
+}

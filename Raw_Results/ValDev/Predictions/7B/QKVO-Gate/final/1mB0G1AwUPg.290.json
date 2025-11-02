@@ -1,0 +1,114 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "behind",
+      "source": "rack1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "rack1",
+      "target": "person2"
+    },
+    {
+      "predicate": "above",
+      "source": "menu_board1",
+      "target": "person1"
+    },
+    {
+      "predicate": "above",
+      "source": "menu_board1",
+      "target": "person2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "pot1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black polo shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white knitted sweater",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.47,0.06,0.95,0.94,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal bowl with green lettuce",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "salad bowl",
+      "location": "0.25,0.65,0.75,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel pot",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.80,0.55,0.99,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden shelf with bread loaves",
+        "size": "large"
+      },
+      "id": "rack1",
+      "label": "bread rack",
+      "location": "0.50,0.10,0.99,0.45,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "chalkboard menu signs",
+        "size": "large"
+      },
+      "id": "menu_board1",
+      "label": "menu boards",
+      "location": "0.00,0.00,1.00,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic countertop",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.00,0.60,1.00,1.00,0.7"
+    }
+  ]
+}

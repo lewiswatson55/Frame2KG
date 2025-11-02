@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bacon1",
+      "target": "pan"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon2",
+      "target": "pan"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon3",
+      "target": "pan"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bacon2",
+      "target": "bacon3"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pinkish-brown crispy",
+        "size": "medium"
+      },
+      "id": "bacon1",
+      "label": "Bacon Slice 1",
+      "location": "0.05,0.05,0.48,0.46,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pinkish-brown crispy",
+        "size": "medium"
+      },
+      "id": "bacon2",
+      "label": "Bacon Slice 2",
+      "location": "0.72,0.15,0.98,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pinkish-brown crispy",
+        "size": "medium"
+      },
+      "id": "bacon3",
+      "label": "Bacon Slice 3",
+      "location": "0.25,0.55,0.75,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan",
+      "label": "Frying Pan",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

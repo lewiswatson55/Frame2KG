@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "ring1",
+      "target": "pan"
+    },
+    {
+      "predicate": "on",
+      "source": "ring2",
+      "target": "pan"
+    },
+    {
+      "predicate": "in",
+      "source": "oil",
+      "target": "pan"
+    },
+    {
+      "predicate": "next_to",
+      "source": "ring1",
+      "target": "ring2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan",
+      "label": "frying pan",
+      "location": "0.05,0.05,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "ring1",
+      "label": "onion ring",
+      "location": "0.43,0.27,0.63,0.47,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "ring2",
+      "label": "onion ring",
+      "location": "0.25,0.55,0.45,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear liquid",
+        "size": "medium"
+      },
+      "id": "oil",
+      "label": "cooking oil",
+      "location": "0.1,0.1,0.9,0.8,0.7"
+    }
+  ]
+}

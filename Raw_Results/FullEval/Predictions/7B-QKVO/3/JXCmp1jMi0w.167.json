@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "flour1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "on",
+      "source": "bag1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cloth1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown paper",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "paper bag",
+      "location": "0.05,0.0,0.95,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "medium"
+      },
+      "id": "flour1",
+      "label": "flour",
+      "location": "0.3,0.1,0.7,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "wooden board",
+      "location": "0.0,0.4,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue fabric",
+        "size": "small"
+      },
+      "id": "cloth1",
+      "label": "cloth",
+      "location": "0.0,0.0,0.2,0.2,0.6"
+    }
+  ]
+}

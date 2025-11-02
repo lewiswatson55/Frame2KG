@@ -1,0 +1,201 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate2",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "shaker1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "shaker2",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "towel1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "behind",
+      "source": "fruits1",
+      "target": "person1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "fruits1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "frame1",
+      "target": "fruits1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "frame2",
+      "target": "fruits1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.45,0.05,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "portable stove",
+      "location": "0.35,0.65,0.65,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.40,0.60,0.60,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate of food",
+      "location": "0.30,0.75,0.45,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green lettuce red tomato",
+        "size": "small"
+      },
+      "id": "plate2",
+      "label": "plate of vegetables",
+      "location": "0.60,0.75,0.80,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "mustard bottle",
+      "location": "0.20,0.65,0.25,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red black",
+        "size": "small"
+      },
+      "id": "shaker1",
+      "label": "salt shaker",
+      "location": "0.25,0.70,0.30,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black white",
+        "size": "small"
+      },
+      "id": "shaker2",
+      "label": "pepper shaker",
+      "location": "0.30,0.70,0.35,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "striped cloth",
+        "size": "small"
+      },
+      "id": "towel1",
+      "label": "kitchen towel",
+      "location": "0.00,0.75,0.20,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden bowl green limes",
+        "size": "small"
+      },
+      "id": "fruit_bowl1",
+      "label": "basket of limes",
+      "location": "0.00,0.50,0.15,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal rack with fruits",
+        "size": "medium"
+      },
+      "id": "fruits1",
+      "label": "fruit basket",
+      "location": "0.45,0.20,0.60,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "wire shelf",
+      "location": "0.40,0.10,0.60,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey stone",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.00,0.50,1.00,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "medium"
+      },
+      "id": "frame1",
+      "label": "picture frame",
+      "location": "0.00,0.30,0.20,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "medium"
+      },
+      "id": "frame2",
+      "label": "picture frame",
+      "location": "0.75,0.00,1.00,0.30,0.8"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "fork"
+    },
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato_slices",
+      "target": "plate"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon_strips",
+      "target": "plate"
+    },
+    {
+      "predicate": "on",
+      "source": "mayo_sauce",
+      "target": "plate"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tongs",
+      "target": "plate"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bread_slice",
+      "target": "plate"
+    },
+    {
+      "predicate": "right_of",
+      "source": "lettuce_leaf",
+      "target": "plate"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "bare arms",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "Table",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate",
+      "label": "Plate",
+      "location": "0.35,0.45,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread with bacon and tomato slices",
+        "size": "small"
+      },
+      "id": "bread_slice",
+      "label": "Bread Slice",
+      "location": "0.05,0.15,0.25,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "tongs",
+      "label": "Tongs",
+      "location": "0.0,0.6,0.2,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce_leaf",
+      "label": "Lettuce Leaf",
+      "location": "0.75,0.5,0.95,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl",
+      "label": "Glass Bowl",
+      "location": "0.6,0.3,0.75,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "small"
+      },
+      "id": "fork",
+      "label": "Fork",
+      "location": "0.4,0.2,0.5,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red sliced",
+        "size": "small"
+      },
+      "id": "tomato_slices",
+      "label": "Tomato Slices",
+      "location": "0.4,0.45,0.6,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown strips",
+        "size": "small"
+      },
+      "id": "bacon_strips",
+      "label": "Bacon Strips",
+      "location": "0.4,0.4,0.6,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow creamy",
+        "size": "small"
+      },
+      "id": "mayo_sauce",
+      "label": "Mayonnaise Sauce",
+      "location": "0.4,0.45,0.6,0.6,0.9"
+    }
+  ]
+}

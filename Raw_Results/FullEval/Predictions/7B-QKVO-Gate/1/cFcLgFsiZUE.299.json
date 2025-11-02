@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fridge1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "mixer1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "utensils1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "hood1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "above",
+      "source": "hood1",
+      "target": "counter1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin long blonde hair white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.2,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,1.0,0.4,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden countertop",
+        "size": "medium"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.4,1.0,0.6,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "mixer1",
+      "label": "stand mixer",
+      "location": "0.3,0.45,0.4,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.2,0.45,0.3,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "small"
+      },
+      "id": "utensils1",
+      "label": "utensil holder",
+      "location": "0.15,0.45,0.25,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark metal",
+        "size": "medium"
+      },
+      "id": "hood1",
+      "label": "range hood",
+      "location": "0.4,0.0,0.6,0.3,0.6"
+    }
+  ]
+}

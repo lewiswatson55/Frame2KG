@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand2",
+      "target": "wrap1"
+    },
+    {
+      "predicate": "on",
+      "source": "wrap1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "mixture1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "text1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.05,0.05,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pale yellow liquid",
+        "size": "medium"
+      },
+      "id": "mixture1",
+      "label": "liquid mixture",
+      "location": "0.1,0.1,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "left hand",
+      "location": "0.4,0.6,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand2",
+      "label": "right hand",
+      "location": "0.6,0.3,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "medium"
+      },
+      "id": "wrap1",
+      "label": "plastic wrap",
+      "location": "0.5,0.0,1.0,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "instructional text",
+      "location": "0.0,0.8,1.0,1.0,0.9"
+    }
+  ]
+}

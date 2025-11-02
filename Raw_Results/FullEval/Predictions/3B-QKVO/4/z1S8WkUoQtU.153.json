@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "ring1",
+      "target": "plate"
+    },
+    {
+      "predicate": "on",
+      "source": "ring2",
+      "target": "plate"
+    },
+    {
+      "predicate": "on",
+      "source": "ring3",
+      "target": "plate"
+    },
+    {
+      "predicate": "next_to",
+      "source": "ring4",
+      "target": "ring5"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate",
+      "label": "Plate",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "ring1",
+      "label": "Onion Ring",
+      "location": "0.45,0.0,0.75,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "ring2",
+      "label": "Onion Ring",
+      "location": "0.65,0.35,0.95,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "ring3",
+      "label": "Onion Ring",
+      "location": "0.45,0.65,0.75,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "ring4",
+      "label": "Onion Ring",
+      "location": "0.75,0.0,1.0,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "ring5",
+      "label": "Onion Ring",
+      "location": "0.75,0.35,1.0,0.65,0.8"
+    }
+  ]
+}

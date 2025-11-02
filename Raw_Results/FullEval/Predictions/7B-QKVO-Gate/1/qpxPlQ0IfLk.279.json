@@ -1,0 +1,163 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "logo1",
+      "target": "background1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "logo2",
+      "target": "logo1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "logo3",
+      "target": "logo2"
+    },
+    {
+      "predicate": "includes",
+      "source": "image1",
+      "target": "logo1"
+    },
+    {
+      "predicate": "includes",
+      "source": "image2",
+      "target": "logo2"
+    },
+    {
+      "predicate": "includes",
+      "source": "image3",
+      "target": "logo3"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.36,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.47,0.05,0.80,0.36,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "bowl",
+      "label": "mixing bowl",
+      "location": "0.15,0.15,0.35,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.10,0.10,0.40,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "dish1",
+      "label": "pie dish",
+      "location": "0.10,0.45,0.40,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange filling",
+        "size": "medium"
+      },
+      "id": "pie1",
+      "label": "vegan pie",
+      "location": "0.15,0.50,0.35,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate of food",
+      "location": "0.05,0.75,0.30,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow sauce",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "sauce cup",
+      "location": "0.25,0.80,0.40,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on white background",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Brothers Green logo",
+      "location": "0.00,0.00,0.30,0.20,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on white background",
+        "size": "small"
+      },
+      "id": "logo2",
+      "label": "Eat My Vegan logo",
+      "location": "0.00,0.20,0.30,0.40,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on white background",
+        "size": "small"
+      },
+      "id": "logo3",
+      "label": "Bites & Booze logo",
+      "location": "0.00,0.60,0.30,0.80,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue teal shape",
+        "size": "small"
+      },
+      "id": "logo4",
+      "label": "Hungry logo",
+      "location": "0.75,0.00,1.00,0.20,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blurred grey",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "background",
+      "location": "0.00,0.00,1.00,1.00,0.7"
+    }
+  ]
+}

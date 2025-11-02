@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "pans1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "hood1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cabinet1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "logo1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow chef coat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.35,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.4,0.4,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "pans1",
+      "label": "frying pans",
+      "location": "0.3,0.1,0.7,0.3,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "large"
+      },
+      "id": "hood1",
+      "label": "vent hood",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey metal",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "wall shelf",
+      "location": "0.2,0.1,0.8,0.3,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "light grey wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.7,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green banner",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "logo text",
+      "location": "0.7,0.8,1.0,1.0,0.9"
+    }
+  ]
+}

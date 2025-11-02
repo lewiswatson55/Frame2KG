@@ -1,0 +1,178 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "object1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "window1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle2",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle3",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "napkin_stack",
+      "target": "counter1"
+    },
+    {
+      "predicate": "behind",
+      "source": "oven1",
+      "target": "person2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "window1",
+      "target": "oven1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "bearded black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt with pig graphic",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.52,0.05,0.95,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "glass window",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.0,0.0,0.6,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "oven1",
+      "label": "oven",
+      "location": "0.6,0.1,0.8,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.7,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden shelf",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.75,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark glass bottles",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "olive oil bottle",
+      "location": "0.8,0.0,0.95,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark glass bottle",
+        "size": "small"
+      },
+      "id": "bottle2",
+      "label": "olive oil bottle",
+      "location": "0.75,0.0,0.85,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark glass bottle",
+        "size": "small"
+      },
+      "id": "bottle3",
+      "label": "olive oil bottle",
+      "location": "0.65,0.0,0.75,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal bowl",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.0,0.8,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue cloth",
+        "size": "small"
+      },
+      "id": "napkin_stack",
+      "label": "stack of napkins",
+      "location": "0.0,0.75,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey countertop",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Tasted logo",
+      "location": "0.85,0.8,1.0,1.0,0.9"
+    }
+  ]
+}

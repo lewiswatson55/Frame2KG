@@ -1,0 +1,228 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "backsplash1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "pots1",
+      "target": "backsplash1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "utensils1",
+      "target": "pots1"
+    },
+    {
+      "predicate": "behind",
+      "source": "fridge1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "logo1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "logo2",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "logo3",
+      "target": "person1"
+    },
+    {
+      "predicate": "includes",
+      "source": "logo1",
+      "target": "text1"
+    },
+    {
+      "predicate": "includes",
+      "source": "logo2",
+      "target": "text2"
+    },
+    {
+      "predicate": "includes",
+      "source": "logo3",
+      "target": "text3"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue red plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.45,0.25,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.45,0.65,0.60,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey stone",
+        "size": "large"
+      },
+      "id": "backsplash1",
+      "label": "brick backsplash",
+      "location": "0.00,0.00,1.00,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pots1",
+      "label": "hanging pots",
+      "location": "0.50,0.05,0.90,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "utensils1",
+      "label": "utensil holder",
+      "location": "0.40,0.40,0.55,0.60,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate of food",
+      "location": "0.00,0.70,0.30,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow orange",
+        "size": "small"
+      },
+      "id": "glass1",
+      "label": "orange juice",
+      "location": "0.20,0.75,0.35,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "pie1",
+      "label": "pie",
+      "location": "0.10,0.30,0.40,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red sweater",
+        "size": "small"
+      },
+      "id": "hands1",
+      "label": "hands",
+      "location": "0.05,0.25,0.30,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "container1",
+      "label": "plastic container",
+      "location": "0.00,0.00,0.30,0.20,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "teal blue",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Hungry logo",
+      "location": "0.80,0.00,1.00,0.15,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on teal",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "Hungry text",
+      "location": "0.80,0.00,1.00,0.15,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red text on white",
+        "size": "small"
+      },
+      "id": "logo2",
+      "label": "Eat My Vegan logo",
+      "location": "0.00,0.25,0.30,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on white",
+        "size": "small"
+      },
+      "id": "text2",
+      "label": "Eat My Vegan text",
+      "location": "0.00,0.25,0.30,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green text on yellow",
+        "size": "small"
+      },
+      "id": "logo3",
+      "label": "Bites & Booze logo",
+      "location": "0.00,0.50,0.30,0.70,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on yellow",
+        "size": "small"
+      },
+      "id": "text3",
+      "label": "Bites & Booze text",
+      "location": "0.00,0.50,0.30,0.70,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.80,0.40,1.00,0.90,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light grey",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.00,0.60,1.00,0.80,0.8"
+    }
+  ]
+}

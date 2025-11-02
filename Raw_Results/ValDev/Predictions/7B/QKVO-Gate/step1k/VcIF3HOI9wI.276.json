@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "stove1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "behind",
+      "source": "plant1",
+      "target": "person1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "hood1",
+      "target": "cabinet1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown hair green shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.45,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "multigrain bread with lettuce",
+        "size": "medium"
+      },
+      "id": "sandwich1",
+      "label": "sandwich",
+      "location": "0.38,0.35,0.65,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.3,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.5,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "potted plant",
+      "location": "0.3,0.1,0.45,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface with jars",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.7,0.3,1.0,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue plastic",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "spray bottle",
+      "location": "0.75,0.4,0.8,0.6,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar with red lid",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "jar",
+      "location": "0.8,0.4,0.85,0.6,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "hood1",
+      "label": "range hood",
+      "location": "0.0,0.0,0.4,0.3,0.7"
+    }
+  ]
+}

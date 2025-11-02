@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "jar1",
+      "target": "background1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass with red label",
+        "size": "medium"
+      },
+      "id": "jar1",
+      "label": "glass jar",
+      "location": "0.53,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.78,0.4,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red blurred",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "red background",
+      "location": "0.0,0.0,0.6,1.0,0.7"
+    }
+  ]
+}

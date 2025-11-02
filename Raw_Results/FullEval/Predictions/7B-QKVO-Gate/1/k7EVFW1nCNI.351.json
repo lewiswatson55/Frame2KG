@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "salad1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spatula1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "pepper1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "pepper1",
+      "target": "bowl2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.05,0.3,0.98,0.94,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green lettuce with white dressing",
+        "size": "medium"
+      },
+      "id": "salad1",
+      "label": "Caesar salad",
+      "location": "0.1,0.35,0.9,0.87,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red silicone",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.6,0.0,0.9,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic with creamy dressing",
+        "size": "medium"
+      },
+      "id": "bowl2",
+      "label": "mixing bowl",
+      "location": "0.7,0.1,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood grain",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "wooden table",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark red",
+        "size": "small"
+      },
+      "id": "pepper1",
+      "label": "hot pepper",
+      "location": "0.45,0.05,0.55,0.15,0.7"
+    }
+  ]
+}

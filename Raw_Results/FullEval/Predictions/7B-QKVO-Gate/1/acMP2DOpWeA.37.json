@@ -1,0 +1,67 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "sugar1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "flour1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl1",
+      "target": "flour1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl1",
+      "target": "sugar1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.05,0.05,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "medium"
+      },
+      "id": "flour1",
+      "label": "flour",
+      "location": "0.3,0.1,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown granules",
+        "size": "small"
+      },
+      "id": "sugar1",
+      "label": "sugar",
+      "location": "0.45,0.25,0.55,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.5,0.5,0.9,0.9,0.9"
+    }
+  ]
+}

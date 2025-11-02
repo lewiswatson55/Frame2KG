@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "hand1",
+      "target": "flour1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand1",
+      "target": "tablecloth1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "tablecloth1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "flour1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "dark skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.35,0.05,0.98,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "large"
+      },
+      "id": "flour1",
+      "label": "flour pile",
+      "location": "0.4,0.5,0.9,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "multicolored patterned fabric",
+        "size": "large"
+      },
+      "id": "tablecloth1",
+      "label": "tablecloth",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.0,0.0,0.3,0.3,0.8"
+    }
+  ]
+}

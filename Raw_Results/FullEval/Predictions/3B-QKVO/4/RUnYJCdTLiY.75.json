@@ -1,0 +1,174 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "sink1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "stove1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "microwave1",
+      "target": "cabinet_left"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "pan_hanging1",
+      "target": "cabinet_right"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cutting_board1",
+      "target": "salt_jars1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "salt_jars1",
+      "target": "sugar_jars1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "stove1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "cutting_board1",
+      "target": "salt_jars1"
+    },
+    {
+      "predicate": "above",
+      "source": "window_blind1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet_left",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet_right",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "purple long-sleeve shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.0,0.45,1.0,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.25,0.5,0.45,0.65,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "pan_hanging1",
+      "label": "hanging pans",
+      "location": "0.35,0.0,0.65,0.25,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinet_left",
+      "label": "upper cabinet",
+      "location": "0.0,0.0,0.3,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinet_right",
+      "label": "upper cabinet",
+      "location": "0.6,0.0,1.0,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.4,0.3,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver stainless steel",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave",
+      "location": "0.0,0.0,0.2,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "salt_jars1",
+      "label": "salt jars",
+      "location": "0.75,0.55,0.85,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "sugar_jars1",
+      "label": "sugar jars",
+      "location": "0.85,0.55,0.95,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.6,0.45,0.75,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white blinds",
+        "size": "medium"
+      },
+      "id": "window_blind1",
+      "label": "window blind",
+      "location": "0.3,0.0,0.7,0.3,0.6"
+    }
+  ]
+}

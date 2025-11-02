@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "knife"
+    },
+    {
+      "predicate": "cutting",
+      "source": "knife",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce",
+      "target": "board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle",
+      "target": "lettuce"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.35,0.0,0.75,0.4,0.8"
+    },
+    {
+      "id": "hand2",
+      "label": "Hand",
+      "location": "0.0,0.4,0.35,0.9,0.8"
+    },
+    {
+      "id": "knife",
+      "label": "Knife",
+      "location": "0.3,0.3,0.6,0.6,0.9"
+    },
+    {
+      "id": "bread1",
+      "label": "Toasted Bread Slice",
+      "location": "0.1,0.0,0.4,0.3,0.9"
+    },
+    {
+      "id": "bread2",
+      "label": "Toasted Bread Slice",
+      "location": "0.1,0.4,0.4,0.7,0.9"
+    },
+    {
+      "id": "lettuce",
+      "label": "Lettuce Leaves",
+      "location": "0.4,0.4,0.8,0.9,0.9"
+    },
+    {
+      "id": "bottle",
+      "label": "Milk Bottle",
+      "location": "0.7,0.0,1.0,0.6,0.9"
+    },
+    {
+      "id": "board",
+      "label": "Cutting Board",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

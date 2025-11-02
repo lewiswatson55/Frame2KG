@@ -1,0 +1,155 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "measuring_cup1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "window1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "person2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "shelf1",
+      "target": "oven1"
+    },
+    {
+      "predicate": "supports",
+      "source": "shelf1",
+      "target": "bottles1"
+    },
+    {
+      "predicate": "includes",
+      "source": "cabinet1",
+      "target": "oven1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "bearded black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt tattooed arm",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.47,0.06,0.98,0.94,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green plastic base black container",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "stand blender",
+      "location": "0.75,0.55,0.98,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass red markings",
+        "size": "small"
+      },
+      "id": "measuring_cup1",
+      "label": "measuring cup",
+      "location": "0.45,0.75,0.55,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass brown liquid",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.55,0.75,0.65,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.00,0.60,1.00,1.00,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden frame glass panes",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.00,0.00,0.50,0.60,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.50,0.00,1.00,0.40,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal shelf with bottles",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.60,0.00,1.00,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "various colored bottles",
+        "size": "small"
+      },
+      "id": "bottles1",
+      "label": "bottles",
+      "location": "0.65,0.05,0.95,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "oven1",
+      "label": "oven",
+      "location": "0.40,0.10,0.60,0.40,0.7"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "cabinet1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "window1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "on",
+      "source": "spice_shelf1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "behind",
+      "source": "plant1",
+      "target": "window1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "plant1",
+      "target": "spice_shelf1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone, short brown hair",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.45,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread with lettuce",
+        "size": "small"
+      },
+      "id": "sandwich1",
+      "label": "sandwich",
+      "location": "0.38,0.45,0.62,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.6,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow wood",
+        "size": "medium"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.4,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wooden",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "wooden shelf",
+      "location": "0.4,0.0,0.6,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jars with colorful labels",
+        "size": "medium"
+      },
+      "id": "spice_shelf1",
+      "label": "spice rack",
+      "location": "0.7,0.3,1.0,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green foliage",
+        "size": "medium"
+      },
+      "id": "plant1",
+      "label": "potted plant",
+      "location": "0.2,0.0,0.4,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "medium"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.2,0.0,0.4,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white painted",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "on",
+      "source": "butter1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "mixing_bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "wooden_spoon1",
+      "target": "mixing_bowl1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "fork1",
+      "target": "mixing_bowl1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "mixing_bowl1",
+      "target": "oven1"
+    },
+    {
+      "predicate": "behind",
+      "source": "person1",
+      "target": "mixing_bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "maroon shirt white apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.35,0.0,0.95,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "mixing_bowl1",
+      "label": "glass mixing bowl",
+      "location": "0.30,0.25,0.75,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow block on red plate",
+        "size": "small"
+      },
+      "id": "butter1",
+      "label": "stick of butter",
+      "location": "0.25,0.35,0.35,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.20,0.30,0.30,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "metal spatula",
+      "location": "0.15,0.35,0.30,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "medium"
+      },
+      "id": "wooden_spoon1",
+      "label": "wooden spoon",
+      "location": "0.20,0.55,0.35,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "fork1",
+      "label": "fork",
+      "location": "0.75,0.60,0.90,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "oven1",
+      "label": "oven door",
+      "location": "0.00,0.00,0.30,0.40,0.8"
+    }
+  ]
+}

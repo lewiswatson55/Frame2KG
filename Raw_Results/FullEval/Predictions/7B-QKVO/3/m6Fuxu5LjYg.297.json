@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "couch1"
+    },
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "couch1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown hair black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.53,0.08,0.97,0.94,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark brown fabric",
+        "size": "large"
+      },
+      "id": "couch1",
+      "label": "couch",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on dark background",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "subscribe text",
+      "location": "0.0,0.0,0.5,0.2,0.9"
+    }
+  ]
+}

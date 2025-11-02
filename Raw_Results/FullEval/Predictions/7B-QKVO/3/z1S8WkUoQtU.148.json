@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "oil1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in",
+      "source": "pepper1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal grid",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.35,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.4,0.0,0.6,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow wood",
+        "size": "small"
+      },
+      "id": "pepper1",
+      "label": "pepper corns",
+      "location": "0.0,0.8,0.3,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "green liquid",
+        "size": "large"
+      },
+      "id": "oil1",
+      "label": "cooking oil",
+      "location": "0.0,0.0,0.5,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.0,0.8,1.0,1.0,0.8"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "squid_rings"
+    },
+    {
+      "predicate": "on",
+      "source": "squid_rings",
+      "target": "orange_plate"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand1",
+      "target": "orange_plate"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.5,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white with black pepper specks",
+        "size": "large"
+      },
+      "id": "squid_rings",
+      "label": "squid rings",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange plastic",
+        "size": "large"
+      },
+      "id": "orange_plate",
+      "label": "orange plate",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

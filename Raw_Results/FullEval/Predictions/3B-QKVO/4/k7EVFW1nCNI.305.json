@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand2",
+      "target": "blender1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "towel1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "towel1",
+      "target": "blender1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "food processor",
+      "location": "0.35,0.15,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "left hand",
+      "location": "0.45,0.0,0.75,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "small"
+      },
+      "id": "hand2",
+      "label": "right hand",
+      "location": "0.1,0.0,0.4,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red striped fabric",
+        "size": "large"
+      },
+      "id": "towel1",
+      "label": "kitchen towel",
+      "location": "0.6,0.1,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal frame",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "cabinet",
+      "location": "0.0,0.0,0.3,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    }
+  ]
+}

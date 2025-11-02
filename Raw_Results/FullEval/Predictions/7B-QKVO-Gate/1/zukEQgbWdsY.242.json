@@ -1,0 +1,253 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife"
+    },
+    {
+      "predicate": "on",
+      "source": "pan",
+      "target": "stove"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "window"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet",
+      "target": "oven"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "oven",
+      "target": "cabinet"
+    },
+    {
+      "predicate": "on",
+      "source": "bottles",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "jar",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "glass",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "container",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "board",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "utensils",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "sink",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "faucet",
+      "target": "sink"
+    },
+    {
+      "predicate": "on",
+      "source": "towel",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "logo",
+      "target": "countertop"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red hair beard black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.0,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark hair tattooed black t-shirt",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.47,0.0,0.96,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove",
+      "label": "gas stove",
+      "location": "0.0,0.6,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "pan",
+      "label": "frying pan",
+      "location": "0.0,0.65,0.2,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.25,0.6,0.35,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden frame glass",
+        "size": "large"
+      },
+      "id": "window",
+      "label": "window",
+      "location": "0.0,0.0,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "kitchen cabinet",
+      "location": "0.6,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "medium"
+      },
+      "id": "oven",
+      "label": "oven",
+      "location": "0.6,0.2,0.8,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown glass",
+        "size": "small"
+      },
+      "id": "bottles",
+      "label": "wine bottles",
+      "location": "0.8,0.2,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue plastic",
+        "size": "small"
+      },
+      "id": "jar",
+      "label": "canister",
+      "location": "0.85,0.2,0.9,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green lid white powder",
+        "size": "small"
+      },
+      "id": "glass",
+      "label": "jar of salt",
+      "location": "0.6,0.8,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white lid green contents",
+        "size": "small"
+      },
+      "id": "container",
+      "label": "container",
+      "location": "0.7,0.8,0.8,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "board",
+      "label": "cutting board",
+      "location": "0.0,0.6,0.2,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "utensils",
+      "label": "utensil set",
+      "location": "0.0,0.6,0.2,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "sink",
+      "label": "sink",
+      "location": "0.8,0.7,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "faucet",
+      "label": "faucet",
+      "location": "0.8,0.6,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text",
+        "size": "small"
+      },
+      "id": "logo",
+      "label": "TASTED logo",
+      "location": "0.85,0.8,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue cloth",
+        "size": "small"
+      },
+      "id": "towel",
+      "label": "dish towel",
+      "location": "0.2,0.7,0.4,0.8,0.8"
+    }
+  ]
+}

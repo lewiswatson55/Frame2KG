@@ -1,0 +1,207 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate2",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "shakers1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "sauce1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "fruit_bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "framed_photo1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "plant1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "fruit_shelf1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "plate2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bottle1",
+      "target": "shakers1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "fruit_bowl1",
+      "target": "framed_photo1"
+    },
+    {
+      "predicate": "behind",
+      "source": "fruit_shelf1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.45,0.05,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "kitchen countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "electric stove",
+      "location": "0.35,0.65,0.65,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.4,0.65,0.6,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic with green lettuce",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate of vegetables",
+      "location": "0.7,0.75,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic with grilled food",
+        "size": "small"
+      },
+      "id": "plate2",
+      "label": "plate of grilled food",
+      "location": "0.3,0.75,0.5,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "mustard bottle",
+      "location": "0.2,0.7,0.25,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass with red caps",
+        "size": "small"
+      },
+      "id": "shakers1",
+      "label": "salt and pepper shakers",
+      "location": "0.25,0.7,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red sauce bottle",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "sauce bottle",
+      "location": "0.3,0.7,0.35,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bowl with green limes",
+        "size": "small"
+      },
+      "id": "fruit_bowl1",
+      "label": "lime bowl",
+      "location": "0.0,0.6,0.15,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey frame with brown patterned photo",
+        "size": "small"
+      },
+      "id": "framed_photo1",
+      "label": "framed photo",
+      "location": "0.0,0.4,0.2,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green plant in grey pot",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "potted plant",
+      "location": "0.1,0.3,0.15,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal wire with fruits",
+        "size": "medium"
+      },
+      "id": "fruit_shelf1",
+      "label": "fruit shelf",
+      "location": "0.45,0.1,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wall",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

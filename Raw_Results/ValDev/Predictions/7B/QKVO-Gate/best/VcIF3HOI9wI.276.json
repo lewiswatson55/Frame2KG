@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plant1",
+      "target": "window1"
+    },
+    {
+      "predicate": "behind",
+      "source": "window1",
+      "target": "person1"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "hood1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "shelf1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "short brown hair green t-shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.53,0.0,1.0,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "bread with lettuce filling",
+        "size": "small"
+      },
+      "id": "sandwich1",
+      "label": "sandwich",
+      "location": "0.47,0.36,0.65,0.55,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "medium"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.3,0.3,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "medium"
+      },
+      "id": "hood1",
+      "label": "range hood",
+      "location": "0.0,0.2,0.3,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal burners",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.5,0.3,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "medium"
+      },
+      "id": "plant1",
+      "label": "potted plant",
+      "location": "0.3,0.1,0.45,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass frame",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.3,0.0,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden shelves with jars",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.75,0.2,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white countertop",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.4,0.3,0.6,0.7"
+    }
+  ]
+}

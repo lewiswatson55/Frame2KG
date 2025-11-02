@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "on",
+      "source": "dish1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "behind",
+      "source": "blender1",
+      "target": "dish1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "dish1",
+      "label": "glass baking dish",
+      "location": "0.05,0.3,0.6,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange sauce-coated",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "chicken pieces",
+      "location": "0.1,0.4,0.5,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown ceramic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "ceramic bowl",
+      "location": "0.5,0.2,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender base",
+      "location": "0.4,0.0,0.8,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white marble",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "marble countertop",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "syringe1"
+    },
+    {
+      "predicate": "pouring_on",
+      "source": "syringe1",
+      "target": "pancake_ring1"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake_ring1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "griddle1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "griddle1",
+      "label": "Griddle",
+      "location": "0.05,0.15,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "syringe1",
+      "label": "Syringe",
+      "location": "0.65,0.0,0.35,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light beige batter",
+        "size": "medium"
+      },
+      "id": "pancake_ring1",
+      "label": "Pancake Ring",
+      "location": "0.45,0.35,0.55,0.65,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.75,0.0,0.25,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.8,1.0,0.2,0.7"
+    }
+  ]
+}

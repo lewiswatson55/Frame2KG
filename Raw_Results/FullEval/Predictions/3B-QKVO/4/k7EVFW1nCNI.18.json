@@ -1,0 +1,141 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "in",
+      "source": "fruit_tart1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "includes",
+      "source": "fruit_tart1",
+      "target": "strawberries1"
+    },
+    {
+      "predicate": "includes",
+      "source": "fruit_tart1",
+      "target": "blueberries1"
+    },
+    {
+      "predicate": "includes",
+      "source": "fruit_tart1",
+      "target": "kiwi_slices1"
+    },
+    {
+      "predicate": "includes",
+      "source": "fruit_tart1",
+      "target": "raspberries1"
+    },
+    {
+      "predicate": "includes",
+      "source": "fruit_tart1",
+      "target": "pineapple_slices1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "clock1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "hand",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown pastry",
+        "size": "medium"
+      },
+      "id": "fruit_tart1",
+      "label": "fruit tart",
+      "location": "0.1,0.3,0.9,0.9,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "red",
+        "size": "small"
+      },
+      "id": "strawberries1",
+      "label": "strawberry slices",
+      "location": "0.15,0.35,0.75,0.75,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "dark blue",
+        "size": "small"
+      },
+      "id": "blueberries1",
+      "label": "blueberry slices",
+      "location": "0.2,0.4,0.8,0.8,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "green",
+        "size": "small"
+      },
+      "id": "kiwi_slices1",
+      "label": "kiwi slices",
+      "location": "0.3,0.3,0.7,0.7,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "pink",
+        "size": "small"
+      },
+      "id": "raspberries1",
+      "label": "raspberry slices",
+      "location": "0.45,0.3,0.6,0.5,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "pineapple_slices1",
+      "label": "pineapple slices",
+      "location": "0.45,0.3,0.6,0.5,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "clock1",
+      "label": "alarm clock",
+      "location": "0.9,0.4,1.0,0.6,0.8"
+    }
+  ]
+}

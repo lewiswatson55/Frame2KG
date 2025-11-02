@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "oil1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in",
+      "source": "meat1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tongs1",
+      "target": "meat1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.65,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow bubbling liquid",
+        "size": "medium"
+      },
+      "id": "oil1",
+      "label": "cooking oil",
+      "location": "0.0,0.3,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "raw grey meat",
+        "size": "small"
+      },
+      "id": "meat1",
+      "label": "raw meat pieces",
+      "location": "0.1,0.4,0.6,0.7,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "kitchen tongs",
+      "location": "0.6,0.0,1.0,0.3,0.8"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "croutons1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "in",
+      "source": "salad_dressing1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "tablecloth1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.05,0.05,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce Leaves",
+      "location": "0.3,0.2,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "croutons1",
+      "label": "Croutons",
+      "location": "0.45,0.25,0.65,0.45,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white shredded",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "Shredded Cheese",
+      "location": "0.35,0.3,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "creamy white",
+        "size": "small"
+      },
+      "id": "salad_dressing1",
+      "label": "Salad Dressing",
+      "location": "0.3,0.4,0.7,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red textured",
+        "size": "large"
+      },
+      "id": "tablecloth1",
+      "label": "Tablecloth",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

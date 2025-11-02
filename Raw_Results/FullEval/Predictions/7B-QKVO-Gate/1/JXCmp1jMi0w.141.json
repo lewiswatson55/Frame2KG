@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bag"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand2",
+      "target": "bag"
+    },
+    {
+      "predicate": "on",
+      "source": "bag",
+      "target": "board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray",
+      "target": "bag"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "left hand",
+      "location": "0.05,0.3,0.48,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand2",
+      "label": "right hand",
+      "location": "0.5,0.0,0.95,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige paper with pink text",
+        "size": "large"
+      },
+      "id": "bag",
+      "label": "paper bag",
+      "location": "0.1,0.2,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "cutting board",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic",
+        "size": "small"
+      },
+      "id": "tray",
+      "label": "baking tray",
+      "location": "0.0,0.0,0.5,0.2,0.8"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "signs1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "above",
+      "source": "lamp1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bagel_rack1",
+      "target": "person2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "stove1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf1",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black polo shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white knit sweater",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.47,0.05,0.96,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.25,0.65,0.75,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce",
+      "location": "0.35,0.75,0.65,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black chalkboard",
+        "size": "large"
+      },
+      "id": "signs1",
+      "label": "menu signs",
+      "location": "0.0,0.0,1.0,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal rack with bagels",
+        "size": "medium"
+      },
+      "id": "bagel_rack1",
+      "label": "bagel rack",
+      "location": "0.75,0.15,0.98,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.6,0.25,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "lamp1",
+      "label": "ceiling lamp",
+      "location": "0.45,0.0,0.55,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden shelf with bread rolls",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "bread shelf",
+      "location": "0.45,0.25,0.98,0.45,0.7"
+    }
+  ]
+}

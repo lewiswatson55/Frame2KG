@@ -1,0 +1,168 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "pan"
+    },
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "gloves"
+    },
+    {
+      "predicate": "wearing",
+      "source": "person2",
+      "target": "gloves"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "tray2",
+      "target": "stove"
+    },
+    {
+      "predicate": "next_to",
+      "source": "board1",
+      "target": "tray2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "window",
+      "target": "oven"
+    },
+    {
+      "predicate": "left_of",
+      "source": "mixer",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt green gloves",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.0,0.48,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black shirt green gloves",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.47,0.0,0.96,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan",
+      "label": "metal pan",
+      "location": "0.30,0.35,0.50,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green silicone",
+        "size": "small"
+      },
+      "id": "gloves",
+      "label": "gloves",
+      "location": "0.15,0.35,0.65,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.20,0.55,0.40,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "aluminum",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "baking tray",
+      "location": "0.00,0.60,0.45,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "aluminum",
+        "size": "medium"
+      },
+      "id": "tray2",
+      "label": "baking tray",
+      "location": "0.30,0.60,0.70,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.70,0.75,0.98,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "oven",
+      "label": "oven",
+      "location": "0.60,0.0,1.00,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "large"
+      },
+      "id": "window",
+      "label": "window",
+      "location": "0.00,0.0,0.60,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "mixer",
+      "label": "stand mixer",
+      "location": "0.00,0.20,0.20,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "kitchen cabinet",
+      "location": "0.70,0.0,1.00,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark brown granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.00,0.60,1.00,1.00,0.8"
+    }
+  ]
+}

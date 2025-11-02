@@ -1,0 +1,133 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl1",
+      "target": "lettuce_bowl"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pepper1",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "appliance1",
+      "target": "pepper1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "plate1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce_bowl",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "appliance1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white long-sleeve shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.0,0.0,0.5,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Glass bowl",
+      "location": "0.3,0.1,0.45,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "large"
+      },
+      "id": "lettuce_bowl",
+      "label": "Bowl of lettuce",
+      "location": "0.2,0.3,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red",
+        "size": "small"
+      },
+      "id": "pepper1",
+      "label": "Red pepper",
+      "location": "0.45,0.2,0.55,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow block",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "Cheese slice",
+      "location": "0.55,0.2,0.65,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "appliance1",
+      "label": "Kitchen appliance",
+      "location": "0.7,0.0,0.9,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.0,0.5,0.2,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    }
+  ]
+}

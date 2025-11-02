@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl1",
+      "target": "pasta1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.05,0.3,0.95,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "cheese block",
+      "location": "0.4,0.2,0.6,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "metal bowl",
+      "location": "0.3,0.2,0.7,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow pasta",
+        "size": "large"
+      },
+      "id": "pasta1",
+      "label": "macaroni",
+      "location": "0.5,0.1,0.9,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "cooking pan",
+      "location": "0.0,0.6,0.5,1.0,0.9"
+    }
+  ]
+}

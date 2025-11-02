@@ -1,0 +1,52 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "chicken1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "fried chicken pieces",
+      "location": "0.35,0.1,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "rectangular plate",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "metal tray",
+      "location": "0.0,0.6,0.4,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "cursive black text",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "logo text",
+      "location": "0.5,0.75,1.0,1.0,0.9"
+    }
+  ]
+}

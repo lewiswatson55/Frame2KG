@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "pouring_on",
+      "source": "sauce1",
+      "target": "salad1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl1",
+      "target": "sauce1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl1",
+      "target": "herbs1"
+    },
+    {
+      "predicate": "on",
+      "source": "herbs1",
+      "target": "chicken1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.35,0.0,0.65,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.4,0.0,0.7,0.25,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange liquid",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "Sauce",
+      "location": "0.45,0.1,0.6,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "large"
+      },
+      "id": "herbs1",
+      "label": "Herbs",
+      "location": "0.1,0.3,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "raw red meat",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "Chicken Pieces",
+      "location": "0.0,0.4,0.5,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "mixed green leaves",
+        "size": "large"
+      },
+      "id": "salad1",
+      "label": "Salad",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    }
+  ]
+}

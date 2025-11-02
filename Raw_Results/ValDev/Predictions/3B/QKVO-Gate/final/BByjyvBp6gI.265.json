@@ -1,0 +1,131 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "tray1",
+      "target": "tray2"
+    },
+    {
+      "predicate": "includes",
+      "source": "tray2",
+      "target": "pasta1"
+    },
+    {
+      "predicate": "includes",
+      "source": "tray2",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray3",
+      "target": "tray4"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "tray2",
+      "target": "tray3"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "tray2",
+      "target": "tray4"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.05,0.15,0.28,0.60,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "metal tray",
+      "location": "0.00,0.00,0.45,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "bowl of shredded cheese",
+      "location": "0.55,0.00,0.95,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow shredded",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "shredded cheese",
+      "location": "0.60,0.05,0.90,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl2",
+      "label": "bowl of shredded cheese",
+      "location": "0.45,0.00,0.75,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow shredded",
+        "size": "small"
+      },
+      "id": "cheese2",
+      "label": "shredded cheese",
+      "location": "0.50,0.05,0.75,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver foil",
+        "size": "large"
+      },
+      "id": "tray2",
+      "label": "aluminum tray",
+      "location": "0.00,0.30,0.75,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white pasta",
+        "size": "large"
+      },
+      "id": "pasta1",
+      "label": "elbow macaroni",
+      "location": "0.05,0.35,0.70,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver foil",
+        "size": "large"
+      },
+      "id": "tray3",
+      "label": "aluminum tray",
+      "location": "0.75,0.30,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver foil",
+        "size": "large"
+      },
+      "id": "tray4",
+      "label": "aluminum tray",
+      "location": "0.00,0.30,0.30,0.70,0.9"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl1",
+      "target": "onionrings1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "logo1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "hands",
+      "location": "0.05,0.0,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic with blue rim",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "ceramic bowl",
+      "location": "0.3,0.4,0.95,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "onionrings1",
+      "label": "onion rings",
+      "location": "0.4,0.5,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black white red graphic",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "MasterChef logo",
+      "location": "0.75,0.0,1.0,0.2,0.8"
+    }
+  ]
+}

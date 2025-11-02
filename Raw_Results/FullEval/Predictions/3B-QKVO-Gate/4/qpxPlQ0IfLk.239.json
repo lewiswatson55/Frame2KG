@@ -1,0 +1,197 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "cutting",
+      "source": "person1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle2",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "sandwich1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "stove1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "pans1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "lamp1",
+      "target": "shelf1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue red plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.45,0.05,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.36,0.45,0.48,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "slice of bread",
+      "location": "0.60,0.60,0.75,0.70,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.55,0.55,0.70,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.00,0.60,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow label glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "mustard bottle",
+      "location": "0.45,0.65,0.50,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bottle2",
+      "label": "oil bottle",
+      "location": "0.50,0.60,0.55,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.60,0.75,0.80,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread lettuce",
+        "size": "small"
+      },
+      "id": "sandwich1",
+      "label": "sandwich",
+      "location": "0.70,0.75,0.85,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.80,0.70,0.95,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "electric stove",
+      "location": "0.85,0.75,1.00,1.00,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white shade wooden base",
+        "size": "medium"
+      },
+      "id": "lamp1",
+      "label": "floor lamp",
+      "location": "0.90,0.20,1.00,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey stone",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "wall shelf",
+      "location": "0.00,0.00,0.60,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pans1",
+      "label": "hanging pans",
+      "location": "0.50,0.00,0.70,0.25,0.8"
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "fruit_basket1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "towel1",
+      "target": "table1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "table1",
+      "target": "cabinets1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "shelf1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "utensils1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "sink1",
+      "target": "cabinets1"
+    },
+    {
+      "predicate": "includes",
+      "source": "fridge1",
+      "target": "microwave1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fridge1",
+      "target": "oven1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "oven1",
+      "target": "fridge1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt black apron",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.35,0.18,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.75,0.1,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "microwave1",
+      "label": "microwave oven",
+      "location": "0.75,0.15,0.9,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "kitchen island table",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.4,0.75,0.55,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass blue rim",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "blue-rimmed bowl",
+      "location": "0.85,0.75,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "mixed fruits red green",
+        "size": "small"
+      },
+      "id": "fruit_basket1",
+      "label": "fruit basket",
+      "location": "0.6,0.75,0.8,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white cloth",
+        "size": "small"
+      },
+      "id": "towel1",
+      "label": "dish towel",
+      "location": "0.2,0.75,0.35,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.45,0.45,0.55,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "cabinets1",
+      "label": "kitchen cabinets",
+      "location": "0.0,0.4,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.2,0.45,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal rack",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.1,0.0,0.9,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal spoons spatulas",
+        "size": "small"
+      },
+      "id": "utensils1",
+      "label": "hanging utensils",
+      "location": "0.1,0.0,0.9,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey painted",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.0,0.0,1.0,0.4,0.9"
+    }
+  ]
+}

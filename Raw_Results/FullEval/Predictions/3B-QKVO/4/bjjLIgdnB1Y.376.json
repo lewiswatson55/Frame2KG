@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "spatula1",
+      "target": "chocolate1"
+    },
+    {
+      "predicate": "on",
+      "source": "chocolate1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black non-stick",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic handle red silicone blade",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.0,0.0,0.6,0.3,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "dark brown liquid",
+        "size": "small"
+      },
+      "id": "chocolate1",
+      "label": "chocolate drizzle",
+      "location": "0.4,0.0,0.7,0.2,0.85"
+    }
+  ]
+}

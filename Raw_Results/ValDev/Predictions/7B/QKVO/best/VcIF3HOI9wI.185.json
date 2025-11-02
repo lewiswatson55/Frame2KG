@@ -1,0 +1,109 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "knife"
+    },
+    {
+      "predicate": "cutting",
+      "source": "knife",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce",
+      "target": "board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle",
+      "target": "lettuce"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "bread2",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle",
+      "target": "board"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.45,0.05,0.75,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "Knife",
+      "location": "0.35,0.25,0.65,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted brown bread",
+        "size": "medium"
+      },
+      "id": "bread1",
+      "label": "Toast Slice",
+      "location": "0.15,0.45,0.45,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted brown bread",
+        "size": "medium"
+      },
+      "id": "bread2",
+      "label": "Toast Slice",
+      "location": "0.15,0.05,0.45,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "large"
+      },
+      "id": "lettuce",
+      "label": "Lettuce Leaves",
+      "location": "0.45,0.45,0.85,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic red cap",
+        "size": "small"
+      },
+      "id": "bottle",
+      "label": "Dressing Bottle",
+      "location": "0.75,0.1,0.95,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "Cutting Board",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

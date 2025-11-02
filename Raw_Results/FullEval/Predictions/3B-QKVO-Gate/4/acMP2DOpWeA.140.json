@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "butter1",
+      "target": "pancake_stack"
+    },
+    {
+      "predicate": "pouring_on",
+      "source": "spoon1",
+      "target": "pancake_stack"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tongs1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "tablecloth1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text_overlay1",
+      "target": "pancake_stack"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "medium"
+      },
+      "id": "pancake_stack",
+      "label": "stack of pancakes",
+      "location": "0.35,0.25,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pale yellow",
+        "size": "small"
+      },
+      "id": "butter1",
+      "label": "butter piece",
+      "location": "0.48,0.30,0.58,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "metal spoon",
+      "location": "0.55,0.00,0.75,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.20,0.15,0.80,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "tongs1",
+      "label": "wooden tongs",
+      "location": "0.70,0.00,1.00,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange striped fabric",
+        "size": "large"
+      },
+      "id": "tablecloth1",
+      "label": "tablecloth",
+      "location": "0.00,0.00,1.00,1.00,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on white background",
+        "size": "medium"
+      },
+      "id": "text_overlay1",
+      "label": "text overlay",
+      "location": "0.00,0.75,1.00,1.00,0.9"
+    }
+  ]
+}

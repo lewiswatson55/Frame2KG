@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "glass1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pan1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "wall1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "Frying Pan",
+      "location": "0.05,0.6,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.47,0.35,0.65,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown ceramic",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "Baking Dish",
+      "location": "0.6,0.45,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Hand",
+      "location": "0.75,0.05,0.98,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "small"
+      },
+      "id": "glass1",
+      "label": "Blender Jar",
+      "location": "0.7,0.2,0.9,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white tiled",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "Tiled Wall",
+      "location": "0.0,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.4,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black glass",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "Stovetop",
+      "location": "0.0,0.5,0.3,0.8,0.8"
+    }
+  ]
+}

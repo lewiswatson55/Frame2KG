@@ -1,0 +1,86 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "container1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "container1",
+      "target": "sauce_bottle"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "small_bowl",
+      "target": "sauce_bottle"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "container1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "sauce_bottle",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "small_bowl",
+      "target": "countertop"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Bowl of Sour Cream",
+      "location": "0.05,0.48,0.37,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "container1",
+      "label": "Container of Sour Cream",
+      "location": "0.37,0.35,0.55,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass red label",
+        "size": "small"
+      },
+      "id": "sauce_bottle",
+      "label": "Hot Sauce Bottle",
+      "location": "0.60,0.25,0.75,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "small_bowl",
+      "label": "Small Bowl",
+      "location": "0.45,0.65,0.60,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "Countertop",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "garlic1"
+    },
+    {
+      "predicate": "on",
+      "source": "garlic1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "garlic2",
+      "target": "garlic1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white smooth",
+        "size": "small"
+      },
+      "id": "garlic1",
+      "label": "garlic clove",
+      "location": "0.45,0.25,0.75,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white smooth",
+        "size": "small"
+      },
+      "id": "garlic2",
+      "label": "garlic slice",
+      "location": "0.25,0.35,0.45,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood grain",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    }
+  ]
+}

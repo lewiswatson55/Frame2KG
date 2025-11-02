@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "blade1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "in",
+      "source": "liquid1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "in",
+      "source": "fruit1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "blender1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "large"
+      },
+      "id": "blender1",
+      "label": "Blender",
+      "location": "0.05,0.0,0.95,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "blade1",
+      "label": "Blend Blade",
+      "location": "0.3,0.1,0.7,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white liquid",
+        "size": "small"
+      },
+      "id": "liquid1",
+      "label": "Liquid Stream",
+      "location": "0.45,0.0,0.55,0.5,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow and green pieces",
+        "size": "small"
+      },
+      "id": "fruit1",
+      "label": "Fruit Pieces",
+      "location": "0.1,0.3,0.9,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.8,0.0,1.0,0.3,0.6"
+    }
+  ]
+}

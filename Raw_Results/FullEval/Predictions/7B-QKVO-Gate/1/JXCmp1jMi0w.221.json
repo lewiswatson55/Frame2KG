@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hands1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "on",
+      "source": "bag1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "dough1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "on",
+      "source": "dough2",
+      "target": "tray1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "dough1",
+      "target": "dough2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown paper with red label",
+        "size": "medium"
+      },
+      "id": "bag1",
+      "label": "paper bag",
+      "location": "0.05,0.3,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "small"
+      },
+      "id": "hands1",
+      "label": "human hands",
+      "location": "0.0,0.0,0.4,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.6,0.6,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic grey",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "baking tray",
+      "location": "0.5,0.5,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white flour-coated",
+        "size": "small"
+      },
+      "id": "dough1",
+      "label": "dough piece",
+      "location": "0.6,0.6,0.8,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white flour-coated",
+        "size": "small"
+      },
+      "id": "dough2",
+      "label": "dough piece",
+      "location": "0.8,0.6,0.95,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "countertop",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

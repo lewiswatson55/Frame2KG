@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "attached_to",
+      "source": "spoon1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt,bald head",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.0,0.95,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "metal spoon",
+      "location": "0.03,0.07,0.24,0.46,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey painted",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "white letters",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "BBC logo",
+      "location": "0.0,0.0,0.15,0.15,0.9"
+    }
+  ]
+}

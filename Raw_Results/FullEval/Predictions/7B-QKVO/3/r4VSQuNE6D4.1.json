@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "window1",
+      "target": "cabinet1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "grey t-shirt beard",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic white powder",
+        "size": "small"
+      },
+      "id": "bag1",
+      "label": "plastic bag of flour",
+      "location": "0.25,0.45,0.45,0.75,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.55,0.5,0.9,0.9,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "beige wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.5,1.0,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "white blinds",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.6,0.0,1.0,1.0,0.90"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "on",
+      "source": "sandwich1",
+      "target": "board1"
+    },
+    {
+      "predicate": "includes",
+      "source": "sandwich1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "includes",
+      "source": "sandwich1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "includes",
+      "source": "sandwich1",
+      "target": "tomato1"
+    },
+    {
+      "predicate": "includes",
+      "source": "sandwich1",
+      "target": "bacon1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.35,0.0,0.98,0.45,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown whole grain bread",
+        "size": "large"
+      },
+      "id": "sandwich1",
+      "label": "Sandwich",
+      "location": "0.2,0.2,0.8,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce",
+      "location": "0.3,0.4,0.7,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red slice",
+        "size": "small"
+      },
+      "id": "tomato1",
+      "label": "Tomato Slice",
+      "location": "0.35,0.55,0.65,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown toasted",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "Bread Slice",
+      "location": "0.3,0.2,0.7,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    }
+  ]
+}

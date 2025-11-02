@@ -1,0 +1,150 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "meat_patties"
+    },
+    {
+      "predicate": "on",
+      "source": "meat_patties",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_meat",
+      "target": "meat_patties"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cheese_slices",
+      "target": "bowl_meat"
+    },
+    {
+      "predicate": "next_to",
+      "source": "measuring_cup",
+      "target": "cheese_slices"
+    },
+    {
+      "predicate": "next_to",
+      "source": "measuring_cups",
+      "target": "measuring_cup"
+    },
+    {
+      "predicate": "behind",
+      "source": "rack_trays",
+      "target": "person1"
+    },
+    {
+      "predicate": "above",
+      "source": "spice_racks",
+      "target": "griddle"
+    },
+    {
+      "predicate": "left_of",
+      "source": "spices_jars",
+      "target": "spice_racks"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white chef coat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.35,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "small"
+      },
+      "id": "meat_patties",
+      "label": "raw meat patties",
+      "location": "0.47,0.75,0.65,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass bowl with pink ground meat",
+        "size": "medium"
+      },
+      "id": "bowl_meat",
+      "label": "glass bowl of ground meat",
+      "location": "0.15,0.7,0.35,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cheese slices",
+        "size": "small"
+      },
+      "id": "cheese_slices",
+      "label": "cheese slices",
+      "location": "0.35,0.75,0.45,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden cutting board",
+        "size": "medium"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.4,0.7,0.7,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal measuring cups",
+        "size": "small"
+      },
+      "id": "measuring_cups",
+      "label": "measuring cups",
+      "location": "0.75,0.75,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic containers on metal shelf",
+        "size": "medium"
+      },
+      "id": "spice_racks",
+      "label": "spice racks",
+      "location": "0.0,0.0,0.6,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel griddle",
+        "size": "large"
+      },
+      "id": "griddle",
+      "label": "griddle",
+      "location": "0.0,0.2,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stacked bread loaves",
+        "size": "medium"
+      },
+      "id": "bread_loaves",
+      "label": "bread loaves",
+      "location": "0.6,0.3,0.75,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel rack",
+        "size": "large"
+      },
+      "id": "rack_trays",
+      "label": "baking rack trays",
+      "location": "0.75,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jars with spices",
+        "size": "small"
+      },
+      "id": "spices_jars",
+      "label": "spice jars",
+      "location": "0.0,0.2,0.6,0.3,0.8"
+    }
+  ]
+}

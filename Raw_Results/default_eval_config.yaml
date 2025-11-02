@@ -1,0 +1,35 @@
+# Default configuration for Frame2KG evaluation
+
+# Node matching thresholds
+tau: 0.3  # IoU threshold for bounding box gating
+alpha: 0.7  # Blending weight (IoU vs text similarity)
+
+# Text similarity settings
+text_mode: semantic  # Options: tfidf, semantic, hybrid
+text_fields: [labels, attributes]  # Node fields to use for text similarity
+text_floor: 0.25  # Minimum text similarity to consider
+model_name: sentence-transformers/all-MiniLM-L6-v2  # Embedding model for semantic mode
+
+# Edge matching settings
+predicate_mode: normalised  # Options: exact, normalised, semantic - Uses embedding-based predicate similarity with Hungarian matching and threshold. Disabled by default due to higher cost and limited benefit on current dataset.
+predicate_semantic_threshold: 0.6  # Minimum similarity for semantic predicate matches - threshold
+
+# Dataset settings
+dataset_name: lewiswatson/Frame2KG-YC2
+default_split: testing
+
+# Evaluation settings
+include_invalid: true  # Include invalid JSON files in metrics (missing files always count)
+strict_mode: false  # If true, invalid files count as all FPs
+
+# Output settings
+output_format: csv  # Options: csv, json
+verbose: true  # Detailed logging
+use_colors: true  # Colored terminal output
+
+# Sweep settings
+default_taus: [0.3, 0.5, 0.7]
+default_alphas: [0.5, 0.7, 0.85]
+
+# Aggregation settings
+aggregate_modes: [micro, macro]  # Aggregation methods to compute

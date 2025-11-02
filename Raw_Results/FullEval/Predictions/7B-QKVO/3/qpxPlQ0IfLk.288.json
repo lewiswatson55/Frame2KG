@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "brick_wall"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "utensils1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "shelf1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "pie1",
+      "target": "person1"
+    },
+    {
+      "predicate": "above",
+      "source": "logo1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "logo2",
+      "target": "pie1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.45,0.3,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey brick",
+        "size": "large"
+      },
+      "id": "brick_wall",
+      "label": "brick wall",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "pie1",
+      "label": "vegan pie",
+      "location": "0.0,0.3,0.45,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.5,0.1,0.7,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "kitchen shelf",
+      "location": "0.3,0.2,0.6,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.75,0.2,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "small"
+      },
+      "id": "utensils1",
+      "label": "hanging utensils",
+      "location": "0.5,0.0,0.8,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bowl with white powder",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.0,0.0,0.4,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "teal blue",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Hungry logo",
+      "location": "0.8,0.0,1.0,0.15,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on teal background",
+        "size": "small"
+      },
+      "id": "logo2",
+      "label": "Hungry logo",
+      "location": "0.7,0.6,0.9,0.8,0.9"
+    }
+  ]
+}

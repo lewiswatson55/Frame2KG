@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "dog"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_of_breaded_chicken",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_of_sauce",
+      "target": "countertop"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "refrigerator"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person2",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinets",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "stove",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone, patterned shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.1,0.45,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white fluffy",
+        "size": "small"
+      },
+      "id": "dog",
+      "label": "poodle",
+      "location": "0.1,0.3,0.4,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black chef coat",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.45,0.0,0.95,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinets",
+      "label": "kitchen cabinets",
+      "location": "0.6,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver stainless steel",
+        "size": "large"
+      },
+      "id": "refrigerator",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.4,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange breaded",
+        "size": "medium"
+      },
+      "id": "plate_of_breaded_chicken",
+      "label": "plate of breaded chicken",
+      "location": "0.3,0.7,0.6,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "small"
+      },
+      "id": "bowl_of_sauce",
+      "label": "bowl of sauce",
+      "location": "0.2,0.75,0.3,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove",
+      "label": "stove",
+      "location": "0.85,0.6,1.0,0.9,0.8"
+    }
+  ]
+}

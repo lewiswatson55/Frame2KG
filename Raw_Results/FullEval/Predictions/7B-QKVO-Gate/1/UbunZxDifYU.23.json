@@ -1,0 +1,127 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "lemon1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spice_bowl1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "salt_shaker1",
+      "target": "spice_bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "sauce_plate1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "knife1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.0,0.48,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "large"
+      },
+      "id": "chicken1",
+      "label": "Raw Chicken Pieces",
+      "location": "0.1,0.3,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.05,0.2,0.75,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "Lemon Half",
+      "location": "0.45,0.3,0.55,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown glass",
+        "size": "medium"
+      },
+      "id": "jar1",
+      "label": "Spice Jar",
+      "location": "0.65,0.0,0.85,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue ceramic with red and white flowers",
+        "size": "small"
+      },
+      "id": "spice_bowl1",
+      "label": "Spice Bowl",
+      "location": "0.75,0.5,0.9,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "small"
+      },
+      "id": "salt_shaker1",
+      "label": "Salt Shaker",
+      "location": "0.85,0.6,0.98,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic with red sauce",
+        "size": "small"
+      },
+      "id": "sauce_plate1",
+      "label": "Sauce Plate",
+      "location": "0.0,0.6,0.2,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "Knife Handle",
+      "location": "0.0,0.5,0.2,0.7,0.9"
+    }
+  ]
+}

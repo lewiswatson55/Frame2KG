@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "on",
+      "source": "frame1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "decor1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "long dark hair red shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.0,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "beige painted",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.45,0.0,1.0,1.0,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "gold frame",
+        "size": "small"
+      },
+      "id": "frame1",
+      "label": "picture frame",
+      "location": "0.0,0.0,0.3,0.3,0.75"
+    },
+    {
+      "attributes": {
+        "appearance": "orange blurred",
+        "size": "medium"
+      },
+      "id": "decor1",
+      "label": "orange decor piece",
+      "location": "0.7,0.4,0.95,0.9,0.6"
+    }
+  ]
+}

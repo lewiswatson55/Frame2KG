@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "garlic_powder"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "garlic_powder",
+      "target": "food_processor"
+    },
+    {
+      "predicate": "includes",
+      "source": "food_processor",
+      "target": "pineapple_slices"
+    },
+    {
+      "predicate": "includes",
+      "source": "food_processor",
+      "target": "onion_slices"
+    },
+    {
+      "predicate": "next_to",
+      "source": "mug",
+      "target": "food_processor"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.55,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "medium"
+      },
+      "id": "food_processor",
+      "label": "Food Processor",
+      "location": "0.35,0.2,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "garlic_powder",
+      "label": "Garlic Powder",
+      "location": "0.47,0.15,0.53,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow fruit pieces",
+        "size": "small"
+      },
+      "id": "pineapple_slices",
+      "label": "Pineapple Slices",
+      "location": "0.45,0.45,0.60,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white onion slices",
+        "size": "small"
+      },
+      "id": "onion_slices",
+      "label": "Onion Slices",
+      "location": "0.50,0.50,0.70,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black mug",
+        "size": "small"
+      },
+      "id": "mug",
+      "label": "Mug",
+      "location": "0.75,0.75,0.95,0.95,0.8"
+    }
+  ]
+}

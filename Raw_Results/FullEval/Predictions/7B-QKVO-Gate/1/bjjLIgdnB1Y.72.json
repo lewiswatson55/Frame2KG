@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "whisk1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "cup1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "whisk2",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cup1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "whisk2",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "behind",
+      "source": "rolling_pin",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.35,0.28,0.67,0.64,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow liquid",
+        "size": "small"
+      },
+      "id": "eggs1",
+      "label": "egg mixture",
+      "location": "0.40,0.35,0.60,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "whisk1",
+      "label": "metal whisk",
+      "location": "0.45,0.00,0.75,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "cup1",
+      "label": "measuring cup",
+      "location": "0.00,0.30,0.20,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "medium"
+      },
+      "id": "bowl2",
+      "label": "glass bowl",
+      "location": "0.70,0.30,0.95,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "whisk2",
+      "label": "metal whisk",
+      "location": "0.80,0.30,1.00,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "rolling_pin",
+      "label": "rolling pin",
+      "location": "0.00,0.00,0.50,0.20,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "speckled granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.00,0.50,1.00,1.00,0.9"
+    }
+  ]
+}

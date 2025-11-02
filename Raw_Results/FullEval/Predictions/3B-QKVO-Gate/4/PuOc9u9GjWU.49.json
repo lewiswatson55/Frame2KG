@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "lemon1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lemon1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl1",
+      "target": "lemon1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.35,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal blade black handle",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.4,0.6,0.8,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow juicy",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "lemon half",
+      "location": "0.2,0.5,0.4,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.0,0.4,0.15,0.8,0.8"
+    }
+  ]
+}

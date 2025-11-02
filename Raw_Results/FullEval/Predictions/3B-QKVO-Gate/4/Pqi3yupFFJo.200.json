@@ -1,0 +1,67 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl_red"
+    },
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl_yellow"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_red",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_yellow",
+      "target": "table1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl_red",
+      "target": "bowl_yellow"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "hands",
+      "location": "0.05,0.0,0.95,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "large"
+      },
+      "id": "bowl_red",
+      "label": "mixing bowl",
+      "location": "0.0,0.4,0.5,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "large"
+      },
+      "id": "bowl_yellow",
+      "label": "mixing bowl",
+      "location": "0.5,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table surface",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    }
+  ]
+}

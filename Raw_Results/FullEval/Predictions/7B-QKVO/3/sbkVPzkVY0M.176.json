@@ -1,0 +1,211 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "plate2",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle2",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle3",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "artwork1",
+      "target": "wall"
+    },
+    {
+      "predicate": "on",
+      "source": "artwork2",
+      "target": "wall"
+    },
+    {
+      "predicate": "next_to",
+      "source": "artwork1",
+      "target": "artwork2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.25,0.05,0.75,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "electric stove",
+      "location": "0.45,0.65,0.65,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.48,0.60,0.62,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic with red meat",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "meat plate",
+      "location": "0.60,0.75,0.75,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic with green lettuce and tomatoes",
+        "size": "small"
+      },
+      "id": "plate2",
+      "label": "vegetable plate",
+      "location": "0.75,0.75,0.90,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.00,0.60,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "fruit bowl",
+      "location": "0.00,0.50,0.20,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "sauce bottle",
+      "location": "0.30,0.70,0.35,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.35,0.75,0.50,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black glass",
+        "size": "small"
+      },
+      "id": "bottle2",
+      "label": "pepper grinder",
+      "location": "0.40,0.75,0.45,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottles",
+        "size": "small"
+      },
+      "id": "bottle3",
+      "label": "seasoning bottles",
+      "location": "0.20,0.50,0.30,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.65,0.50,0.85,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink and blue abstract art",
+        "size": "medium"
+      },
+      "id": "artwork1",
+      "label": "abstract artwork",
+      "location": "0.60,0.00,0.80,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink and yellow abstract art",
+        "size": "medium"
+      },
+      "id": "artwork2",
+      "label": "abstract artwork",
+      "location": "0.80,0.00,1.00,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white painted wall",
+        "size": "large"
+      },
+      "id": "wall",
+      "label": "wall",
+      "location": "0.00,0.00,1.00,1.00,0.9"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "onion_rings1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "onion_rings2",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "hand1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "table1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.05,0.05,0.48,0.63,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "onion_rings1",
+      "label": "flour-coated onion rings",
+      "location": "0.10,0.10,0.45,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "round plate",
+      "location": "0.47,0.10,0.95,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "purple red",
+        "size": "small"
+      },
+      "id": "onion_rings2",
+      "label": "raw onion rings",
+      "location": "0.55,0.15,0.90,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.45,0.00,0.65,0.20,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey metal",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "metal table surface",
+      "location": "0.00,0.60,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "instructional text",
+      "location": "0.20,0.70,0.80,0.95,0.9"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "needle1",
+      "target": "dial1"
+    },
+    {
+      "predicate": "on",
+      "source": "ring1",
+      "target": "background1"
+    },
+    {
+      "predicate": "on",
+      "source": "ring2",
+      "target": "dial1"
+    },
+    {
+      "predicate": "in",
+      "source": "dial1",
+      "target": "ring1"
+    },
+    {
+      "predicate": "in",
+      "source": "ring2",
+      "target": "ring1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red textured",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white circular with red border",
+        "size": "medium"
+      },
+      "id": "ring1",
+      "label": "Outer Ring",
+      "location": "0.3,0.2,0.7,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metallic",
+        "size": "small"
+      },
+      "id": "ring2",
+      "label": "Inner Ring",
+      "location": "0.4,0.3,0.6,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue triangular",
+        "size": "small"
+      },
+      "id": "needle1",
+      "label": "Needle",
+      "location": "0.45,0.35,0.55,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white face with black markings",
+        "size": "medium"
+      },
+      "id": "dial1",
+      "label": "Dial Face",
+      "location": "0.4,0.3,0.6,0.5,0.9"
+    }
+  ]
+}

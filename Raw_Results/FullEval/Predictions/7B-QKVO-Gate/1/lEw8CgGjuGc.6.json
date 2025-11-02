@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "bun_top"
+    },
+    {
+      "predicate": "on",
+      "source": "bun_top",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato_slice1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato_slice2",
+      "target": "patty1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "onion1",
+      "target": "burger1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "burger1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "logo1",
+      "target": "burger1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown bun",
+        "size": "medium"
+      },
+      "id": "bun_top",
+      "label": "top bun",
+      "location": "0.35,0.05,0.98,0.47,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown patty",
+        "size": "small"
+      },
+      "id": "patty1",
+      "label": "beef patty",
+      "location": "0.45,0.45,0.95,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red slice",
+        "size": "small"
+      },
+      "id": "tomato_slice1",
+      "label": "tomato slice",
+      "location": "0.45,0.65,0.95,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "large"
+      },
+      "id": "lettuce1",
+      "label": "lettuce",
+      "location": "0.3,0.65,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red slice",
+        "size": "small"
+      },
+      "id": "tomato_slice2",
+      "label": "tomato slice",
+      "location": "0.45,0.75,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white onion",
+        "size": "medium"
+      },
+      "id": "onion1",
+      "label": "onion ring",
+      "location": "0.0,0.6,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Blue Cheese Burgers text",
+      "location": "0.2,0.35,0.8,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange spoon logo",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "allrecipes.com logo",
+      "location": "0.75,0.8,1.0,1.0,0.9"
+    }
+  ]
+}

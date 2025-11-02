@@ -1,0 +1,89 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "oil1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "tongs1",
+      "target": "food1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "food1",
+      "target": "food2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "food3",
+      "target": "food4"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "food1",
+      "label": "fried food piece",
+      "location": "0.5,0.0,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "food2",
+      "label": "fried food piece",
+      "location": "0.0,0.0,0.5,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "food3",
+      "label": "fried food piece",
+      "location": "0.0,0.7,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "food4",
+      "label": "fried food piece",
+      "location": "0.4,0.7,0.8,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic handle gray metal",
+        "size": "medium"
+      },
+      "id": "tongs1",
+      "label": "tongs",
+      "location": "0.6,0.1,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "shiny bubbling oil",
+        "size": "large"
+      },
+      "id": "oil1",
+      "label": "cooking oil",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

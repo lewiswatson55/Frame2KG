@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "potatoes1",
+      "target": "chopper1"
+    },
+    {
+      "predicate": "on",
+      "source": "chopper1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "large"
+      },
+      "id": "chopper1",
+      "label": "food processor",
+      "location": "0.15,0.0,0.85,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellowish",
+        "size": "small"
+      },
+      "id": "potatoes1",
+      "label": "potato chunks",
+      "location": "0.3,0.4,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal grid",
+        "size": "medium"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.8,1.0,1.0,0.6"
+    }
+  ]
+}

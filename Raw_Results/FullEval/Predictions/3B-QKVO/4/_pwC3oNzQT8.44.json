@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "person1",
+      "target": "tray1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "large"
+      },
+      "id": "chicken1",
+      "label": "roasted chicken",
+      "location": "0.05,0.0,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "glass tray",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.35,0.6,0.45,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "wine bottle",
+      "location": "0.6,0.4,0.65,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.75,0.0,1.0,1.0,0.9"
+    }
+  ]
+}

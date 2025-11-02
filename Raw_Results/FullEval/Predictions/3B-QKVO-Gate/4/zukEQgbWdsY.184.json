@@ -1,0 +1,183 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "window1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "measuring_cup1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "glass_bowl1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "oven1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "supports",
+      "source": "shelf1",
+      "target": "wine_bottles1"
+    },
+    {
+      "predicate": "behind",
+      "source": "window1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "window1",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.47,0.05,0.96,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "kitchen counter",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.55,0.75,0.65,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "glass_bowl1",
+      "label": "glass bowl",
+      "location": "0.65,0.8,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic",
+        "size": "small"
+      },
+      "id": "measuring_cup1",
+      "label": "measuring cup",
+      "location": "0.75,0.75,0.85,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.85,0.6,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.7,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white brick",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "wall cabinet",
+      "location": "0.6,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.6,0.2,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "various colored bottles",
+        "size": "small"
+      },
+      "id": "wine_bottles1",
+      "label": "wine bottles",
+      "location": "0.75,0.2,0.95,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "oven1",
+      "label": "oven",
+      "location": "0.5,0.1,0.7,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass window",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.0,0.0,0.5,0.6,0.8"
+    }
+  ]
+}

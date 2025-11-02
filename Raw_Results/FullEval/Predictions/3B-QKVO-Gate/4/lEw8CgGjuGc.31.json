@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "spice_rings",
+      "target": "table"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "table",
+      "target": "background_trees"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "large"
+      },
+      "id": "meat_pile",
+      "label": "raw ground beef",
+      "location": "0.45,0.3,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.05,0.6,0.45,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "glass bowls",
+      "location": "0.4,0.75,0.95,0.98,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "wooden table",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green foliage",
+        "size": "large"
+      },
+      "id": "background_trees",
+      "label": "trees",
+      "location": "0.0,0.0,0.5,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "small"
+      },
+      "id": "spice_rings",
+      "label": "spice rings",
+      "location": "0.4,0.75,0.95,0.98,0.7"
+    }
+  ]
+}

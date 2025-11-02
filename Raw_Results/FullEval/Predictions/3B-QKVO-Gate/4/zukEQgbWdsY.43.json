@@ -1,0 +1,271 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan2",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "stove1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "oven1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf1",
+      "target": "person2"
+    },
+    {
+      "predicate": "includes",
+      "source": "shelf1",
+      "target": "bottles1"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "board1"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "knife_block1"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "jar2"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "glass_bowl1"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "oil_bottle1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "window1",
+      "target": "oven1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.48,0.05,0.76,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.35,0.65,0.55,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black cast iron",
+        "size": "small"
+      },
+      "id": "pan2",
+      "label": "frying pan",
+      "location": "0.55,0.65,0.75,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.25,0.60,0.75,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.00,0.70,0.30,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.00,0.85,0.30,0.98,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.80,0.45,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden black knives",
+        "size": "small"
+      },
+      "id": "knife_block1",
+      "label": "knife block",
+      "location": "0.75,0.45,0.85,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue glass",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "jar",
+      "location": "0.45,0.15,0.55,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange glass",
+        "size": "small"
+      },
+      "id": "jar2",
+      "label": "jar",
+      "location": "0.85,0.15,0.95,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass green contents",
+        "size": "small"
+      },
+      "id": "glass_bowl1",
+      "label": "glass bowl",
+      "location": "0.60,0.55,0.70,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crusty",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "bread loaf",
+      "location": "0.85,0.70,0.95,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "oil_bottle1",
+      "label": "olive oil bottle",
+      "location": "0.90,0.75,0.98,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.00,0.00,0.40,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "oven1",
+      "label": "oven",
+      "location": "0.05,0.10,0.30,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden white tiles",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "wall shelf",
+      "location": "0.40,0.00,1.00,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "various colored bottles",
+        "size": "small"
+      },
+      "id": "bottles1",
+      "label": "bottles",
+      "location": "0.45,0.05,0.60,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.00,0.00,0.20,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.00,0.60,1.00,1.00,0.8"
+    }
+  ]
+}

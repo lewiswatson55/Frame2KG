@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "squeezer1"
+    },
+    {
+      "predicate": "pouring_on",
+      "source": "squeezer1",
+      "target": "pancake1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "griddle1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black non-stick metal",
+        "size": "large"
+      },
+      "id": "griddle1",
+      "label": "Griddle",
+      "location": "0.35,0.05,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige batter",
+        "size": "medium"
+      },
+      "id": "pancake1",
+      "label": "Pancake",
+      "location": "0.45,0.25,0.75,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "squeezer1",
+      "label": "Squeeze Bottle",
+      "location": "0.75,0.05,0.98,0.35,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.75,0.0,0.98,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white smooth surface",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "Stovetop",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

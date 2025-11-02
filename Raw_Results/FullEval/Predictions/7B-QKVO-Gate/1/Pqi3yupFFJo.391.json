@@ -1,0 +1,67 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "container1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "sauce_bottle",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "container1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "container1",
+      "target": "sauce_bottle"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "White Bowl of Sour Cream",
+      "location": "0.05,0.48,0.37,0.69,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic container white label",
+        "size": "medium"
+      },
+      "id": "container1",
+      "label": "Darigold Sour Cream Container",
+      "location": "0.35,0.35,0.55,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass red sauce black cap",
+        "size": "small"
+      },
+      "id": "sauce_bottle",
+      "label": "Red Hot Sauce Bottle",
+      "location": "0.60,0.30,0.75,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "Countertop",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "egg1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "holding",
+      "source": "spatula1",
+      "target": "egg1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "egg1",
+      "target": "spatula1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.0,0.0,0.5,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow with red and green bits",
+        "size": "large"
+      },
+      "id": "egg1",
+      "label": "scrambled eggs",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.7,0.6,1.0,1.0,0.8"
+    }
+  ]
+}

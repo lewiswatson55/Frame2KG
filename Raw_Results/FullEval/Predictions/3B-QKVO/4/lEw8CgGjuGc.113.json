@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bun_top"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "burger1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato_slice1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "burger1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.0,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown toasted",
+        "size": "small"
+      },
+      "id": "bun_top",
+      "label": "Bun Top",
+      "location": "0.3,0.3,0.7,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce",
+      "location": "0.2,0.5,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red slice",
+        "size": "small"
+      },
+      "id": "tomato_slice1",
+      "label": "Tomato Slice",
+      "location": "0.3,0.55,0.7,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread",
+        "size": "large"
+      },
+      "id": "burger1",
+      "label": "Hamburger Bun",
+      "location": "0.1,0.5,0.9,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Wooden Bowl",
+      "location": "0.4,0.0,1.0,0.4,0.8"
+    }
+  ]
+}

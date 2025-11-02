@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "butter1",
+      "target": "pancake_stack1"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake_stack1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife1",
+      "target": "fork1"
+    },
+    {
+      "predicate": "behind",
+      "source": "syrup_bottle1",
+      "target": "pancake_stack1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "utensil_holder1",
+      "target": "pancake_stack1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "large"
+      },
+      "id": "pancake_stack1",
+      "label": "Stack of Pancakes",
+      "location": "0.15,0.30,0.85,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "butter1",
+      "label": "Butter Cube",
+      "location": "0.45,0.20,0.60,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.05,0.35,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal with wooden handle",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "Knife",
+      "location": "0.75,0.25,0.98,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal with wooden handle",
+        "size": "medium"
+      },
+      "id": "fork1",
+      "label": "Fork",
+      "location": "0.75,0.20,0.98,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown glass",
+        "size": "small"
+      },
+      "id": "syrup_bottle1",
+      "label": "Syrup Bottle",
+      "location": "0.00,0.00,0.20,0.40,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "utensil_holder1",
+      "label": "Utensil Holder",
+      "location": "0.80,0.40,1.00,0.90,0.7"
+    }
+  ]
+}

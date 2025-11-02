@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "plate"
+    },
+    {
+      "predicate": "on",
+      "source": "sauce1",
+      "target": "plate"
+    },
+    {
+      "predicate": "next_to",
+      "source": "herbs1",
+      "target": "chicken1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "fried chicken drumstick",
+      "location": "0.05,0.05,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate",
+      "label": "white plate",
+      "location": "0.0,0.4,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "orange liquid",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "dipping sauce",
+      "location": "0.3,0.7,0.7,0.9,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "green blurred",
+        "size": "medium"
+      },
+      "id": "herbs1",
+      "label": "herb leaves",
+      "location": "0.6,0.0,1.0,0.4,0.5"
+    }
+  ]
+}

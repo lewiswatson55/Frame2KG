@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.35,0.0,1.0,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "pinkish raw meat",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "Chicken pieces",
+      "location": "0.0,0.4,0.7,0.9,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on red background",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "Instruction text",
+      "location": "0.0,0.0,0.6,0.3,0.9"
+    }
+  ]
+}

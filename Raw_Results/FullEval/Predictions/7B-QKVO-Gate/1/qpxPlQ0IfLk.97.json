@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "bottle2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "blender1",
+      "target": "window1"
+    },
+    {
+      "predicate": "on",
+      "source": "garlic1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bottle1",
+      "target": "bottle2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue red plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.5,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic black handle",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "Blender",
+      "location": "0.0,0.3,0.6,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "Jar",
+      "location": "0.75,0.4,0.95,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "Bottle",
+      "location": "0.3,0.7,0.45,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass gold cap",
+        "size": "small"
+      },
+      "id": "bottle2",
+      "label": "Bottle",
+      "location": "0.45,0.7,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white bulb",
+        "size": "small"
+      },
+      "id": "garlic1",
+      "label": "Garlic Clove",
+      "location": "0.3,0.1,0.4,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "bright white",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "Window",
+      "location": "0.0,0.0,1.0,0.4,0.6"
+    }
+  ]
+}

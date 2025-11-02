@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "skimmer1"
+    },
+    {
+      "predicate": "in",
+      "source": "skimmer1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "grill1"
+    },
+    {
+      "predicate": "includes",
+      "source": "pan1",
+      "target": "shrimp1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "woodpile1",
+      "target": "grill1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.0,0.0,0.45,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "skimmer1",
+      "label": "metal skimmer",
+      "location": "0.0,0.3,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.2,0.3,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden fried",
+        "size": "small"
+      },
+      "id": "shrimp1",
+      "label": "fried shrimp",
+      "location": "0.4,0.35,0.75,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "grill1",
+      "label": "portable grill",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "woodpile1",
+      "label": "wood pile",
+      "location": "0.5,0.0,1.0,0.4,0.8"
+    }
+  ]
+}

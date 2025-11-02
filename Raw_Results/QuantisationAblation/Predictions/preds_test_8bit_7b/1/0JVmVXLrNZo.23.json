@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "on",
+      "source": "bracelet1",
+      "target": "hand1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand1",
+      "target": "shirt1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.1,0.98,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red minced meat",
+        "size": "small"
+      },
+      "id": "patty1",
+      "label": "Raw Meat Patty",
+      "location": "0.35,0.45,0.65,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown leather",
+        "size": "small"
+      },
+      "id": "bracelet1",
+      "label": "Bracelet",
+      "location": "0.1,0.2,0.3,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue striped fabric",
+        "size": "large"
+      },
+      "id": "shirt1",
+      "label": "Shirt",
+      "location": "0.0,0.0,0.5,1.0,0.7"
+    }
+  ]
+}

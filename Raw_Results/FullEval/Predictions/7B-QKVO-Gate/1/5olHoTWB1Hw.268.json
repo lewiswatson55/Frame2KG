@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "on",
+      "source": "bag1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "microwave1",
+      "target": "cabinet1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "gold plastic",
+        "size": "medium"
+      },
+      "id": "bag1",
+      "label": "Texas Toast Croutons Bag",
+      "location": "0.35,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.75,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "Kitchen Cabinet",
+      "location": "0.6,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "Microwave Oven",
+      "location": "0.0,0.0,0.3,0.6,0.7"
+    }
+  ]
+}

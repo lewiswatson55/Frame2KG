@@ -1,0 +1,131 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "wine_glass_holder1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "on",
+      "source": "coffee_machine1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "paper_towel_roll1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fridge1",
+      "target": "door1"
+    },
+    {
+      "predicate": "behind",
+      "source": "poster1",
+      "target": "counter1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black jacket",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.05,0.4,0.6,0.98,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.3,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "wine_glass_holder1",
+      "label": "wine glass holder",
+      "location": "0.1,0.2,0.2,0.5,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "coffee_machine1",
+      "label": "coffee machine",
+      "location": "0.3,0.2,0.45,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "bottle",
+      "location": "0.4,0.3,0.45,0.45,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "small"
+      },
+      "id": "paper_towel_roll1",
+      "label": "paper towel roll",
+      "location": "0.45,0.3,0.5,0.45,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.4,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.7,0.0,0.9,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white painted",
+        "size": "medium"
+      },
+      "id": "door1",
+      "label": "door",
+      "location": "0.9,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "colorful printed",
+        "size": "large"
+      },
+      "id": "poster1",
+      "label": "food poster",
+      "location": "0.3,0.0,0.7,0.4,0.7"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "field1"
+    },
+    {
+      "predicate": "on",
+      "source": "line1",
+      "target": "field1"
+    },
+    {
+      "predicate": "on",
+      "source": "player_group1",
+      "target": "field1"
+    },
+    {
+      "predicate": "behind",
+      "source": "player_group1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue uniform",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.3,0.3,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange crispy",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "fried chicken piece",
+      "location": "0.1,0.4,0.25,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.07,0.4,0.23,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green turf",
+        "size": "large"
+      },
+      "id": "field1",
+      "label": "football field",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black and green uniforms",
+        "size": "large"
+      },
+      "id": "player_group1",
+      "label": "football players",
+      "location": "0.4,0.1,0.9,0.9,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white lines",
+        "size": "large"
+      },
+      "id": "line1",
+      "label": "yard line",
+      "location": "0.0,0.2,1.0,0.4,0.7"
+    }
+  ]
+}

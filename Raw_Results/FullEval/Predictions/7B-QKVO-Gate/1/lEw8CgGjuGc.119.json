@@ -1,0 +1,86 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "bun1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bun1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "plate1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "on",
+      "source": "sauce1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "behind",
+      "source": "tray1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "patty1",
+      "target": "bun1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown grilled",
+        "size": "medium"
+      },
+      "id": "patty1",
+      "label": "burger patty",
+      "location": "0.05,0.6,0.48,0.97,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white bun with lettuce and tomato",
+        "size": "large"
+      },
+      "id": "bun1",
+      "label": "burger bun",
+      "location": "0.53,0.0,1.0,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.5,0.6,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow creamy",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "dip",
+      "location": "0.0,0.5,0.3,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "tray",
+      "location": "0.0,0.0,1.0,0.5,0.7"
+    }
+  ]
+}

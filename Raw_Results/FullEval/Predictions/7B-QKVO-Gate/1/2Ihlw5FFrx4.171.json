@@ -1,0 +1,183 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person2",
+      "target": "sandwich"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_of_food",
+      "target": "table"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle",
+      "target": "plate_of_food"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "tv_screen"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "tv_screen"
+    },
+    {
+      "predicate": "behind",
+      "source": "monitor",
+      "target": "person2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "notebook",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "tv_screen",
+      "target": "wall"
+    },
+    {
+      "predicate": "on",
+      "source": "monitor",
+      "target": "desk"
+    },
+    {
+      "predicate": "on",
+      "source": "chair",
+      "target": "desk"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "turquoise shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.18,0.47,0.63,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green dress",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.55,0.15,0.95,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink background",
+        "size": "large"
+      },
+      "id": "tv_screen",
+      "label": "TV screen",
+      "location": "0.2,0.0,0.8,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "table",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.0,0.7,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green cover",
+        "size": "small"
+      },
+      "id": "notebook",
+      "label": "notebook",
+      "location": "0.0,0.75,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic",
+        "size": "small"
+      },
+      "id": "bottle",
+      "label": "bottle",
+      "location": "0.45,0.6,0.55,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white lettuce and red pepper slices",
+        "size": "small"
+      },
+      "id": "plate_of_food",
+      "label": "plate of food",
+      "location": "0.3,0.6,0.6,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread with feta cream cheese",
+        "size": "small"
+      },
+      "id": "sandwich",
+      "label": "sandwich",
+      "location": "0.6,0.4,0.75,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame",
+        "size": "medium"
+      },
+      "id": "monitor",
+      "label": "computer monitor",
+      "location": "0.8,0.3,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black",
+        "size": "medium"
+      },
+      "id": "desk",
+      "label": "desk",
+      "location": "0.7,0.5,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black",
+        "size": "medium"
+      },
+      "id": "chair",
+      "label": "office chair",
+      "location": "0.85,0.4,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink wall",
+        "size": "large"
+      },
+      "id": "wall",
+      "label": "wall",
+      "location": "0.0,0.0,1.0,0.4,0.7"
+    }
+  ]
+}

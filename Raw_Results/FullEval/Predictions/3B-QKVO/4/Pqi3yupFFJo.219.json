@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "whisk1"
+    },
+    {
+      "predicate": "in",
+      "source": "whisk1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "sauce1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spatula1",
+      "target": "whisk1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white glove",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.05,0.05,0.45,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "whisk1",
+      "label": "whisk",
+      "location": "0.25,0.15,0.45,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange plastic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.20,0.30,0.70,0.80,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red silicone",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "silicone spatula",
+      "location": "0.50,0.10,0.90,0.70,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige creamy",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "sauce",
+      "location": "0.30,0.40,0.60,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark gray",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.00,0.00,1.00,1.00,0.7"
+    }
+  ]
+}

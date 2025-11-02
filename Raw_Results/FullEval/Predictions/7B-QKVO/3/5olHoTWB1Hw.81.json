@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "egg_yolk",
+      "target": "bowl_mixture"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_mixture",
+      "target": "bowl_glass"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_glass",
+      "target": "stove_burner"
+    },
+    {
+      "predicate": "next_to",
+      "source": "hand",
+      "target": "bowl_glass"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "orange powder",
+        "size": "medium"
+      },
+      "id": "bowl_mixture",
+      "label": "spice mixture",
+      "location": "0.35,0.4,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow liquid",
+        "size": "small"
+      },
+      "id": "egg_yolk",
+      "label": "egg yolk",
+      "location": "0.5,0.5,0.6,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl_glass",
+      "label": "glass bowl",
+      "location": "0.1,0.2,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove_burner",
+      "label": "stove burner",
+      "location": "0.0,0.0,0.4,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand",
+      "label": "human hand",
+      "location": "0.6,0.0,1.0,0.5,0.8"
+    }
+  ]
+}

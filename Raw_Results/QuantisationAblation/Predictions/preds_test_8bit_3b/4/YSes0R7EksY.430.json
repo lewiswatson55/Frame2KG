@@ -1,0 +1,183 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar2",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar3",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar4",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "toaster1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "books1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "lamp1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "counter1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "picture_frame1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "rack1",
+      "target": "toaster1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black chef coat",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.5,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plaid shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.45,0.05,0.9,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey wood",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with colorful candies",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "jar of candy",
+      "location": "0.15,0.05,0.25,0.15,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with green contents",
+        "size": "small"
+      },
+      "id": "jar2",
+      "label": "jar of nuts",
+      "location": "0.25,0.1,0.35,0.2,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with brown contents",
+        "size": "small"
+      },
+      "id": "jar3",
+      "label": "jar of dried fruits",
+      "location": "0.35,0.1,0.45,0.2,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with golden contents",
+        "size": "small"
+      },
+      "id": "jar4",
+      "label": "jar of honey",
+      "location": "0.45,0.1,0.55,0.2,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "small"
+      },
+      "id": "toaster1",
+      "label": "toaster",
+      "location": "0.65,0.55,0.75,0.65,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "colorful covers",
+        "size": "small"
+      },
+      "id": "books1",
+      "label": "cookbooks",
+      "location": "0.75,0.55,0.9,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "lamp1",
+      "label": "desk lamp",
+      "location": "0.8,0.4,0.9,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden frame",
+        "size": "medium"
+      },
+      "id": "picture_frame1",
+      "label": "picture frame",
+      "location": "0.0,0.5,0.2,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal rack with books",
+        "size": "medium"
+      },
+      "id": "rack1",
+      "label": "book rack",
+      "location": "0.9,0.4,1.0,0.9,0.7"
+    }
+  ]
+}

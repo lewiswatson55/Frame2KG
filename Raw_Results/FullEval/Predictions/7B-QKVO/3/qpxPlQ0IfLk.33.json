@@ -1,0 +1,247 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "blender1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "stool1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "above",
+      "source": "pan1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "behind",
+      "source": "framed_picture1",
+      "target": "person1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lamp1",
+      "target": "stacked_books1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife1",
+      "target": "lemon1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spice_bowl1",
+      "target": "lemon1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "mustard_bottle1",
+      "target": "spice_bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sauce_bottle1",
+      "target": "mustard_bottle1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "wooden_board1",
+      "target": "spice_bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.05,0.68,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "griddle1",
+      "label": "flat top grill",
+      "location": "0.47,0.65,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "raw chicken piece",
+      "location": "0.55,0.7,0.65,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.75,0.65,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crust white bread",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "baguette slice",
+      "location": "0.85,0.65,0.98,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.75,0.6,0.98,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.0,0.4,0.2,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark green glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "wine bottle",
+      "location": "0.15,0.5,0.25,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "sauce_bottle1",
+      "label": "sauce bottle",
+      "location": "0.05,0.65,0.15,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "mustard_bottle1",
+      "label": "mustard bottle",
+      "location": "0.15,0.65,0.25,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "spice_bowl1",
+      "label": "spice bowl",
+      "location": "0.25,0.65,0.35,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "lemon half",
+      "location": "0.3,0.7,0.35,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver blade red handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.2,0.75,0.4,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "wooden_board1",
+      "label": "wooden cutting board",
+      "location": "0.25,0.75,0.35,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jars",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "kitchen shelf",
+      "location": "0.0,0.0,0.5,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal pots",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "hanging pans",
+      "location": "0.5,0.0,0.7,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden frame black background",
+        "size": "small"
+      },
+      "id": "framed_picture1",
+      "label": "picture frame",
+      "location": "0.7,0.1,0.85,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stack of books",
+        "size": "medium"
+      },
+      "id": "stacked_books1",
+      "label": "book stack",
+      "location": "0.85,0.2,0.98,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white shade",
+        "size": "small"
+      },
+      "id": "lamp1",
+      "label": "table lamp",
+      "location": "0.9,0.2,0.98,0.6,0.8"
+    }
+  ]
+}

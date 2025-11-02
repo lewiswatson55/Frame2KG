@@ -1,0 +1,114 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread2",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread3",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread1",
+      "target": "bread2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread2",
+      "target": "bread3"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl1",
+      "target": "bread1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.45,0.0,0.98,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "large"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce leaves",
+      "location": "0.0,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting board",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread with brown crust",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "Bread slice",
+      "location": "0.35,0.6,0.55,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted brown",
+        "size": "small"
+      },
+      "id": "bread2",
+      "label": "Bread slice",
+      "location": "0.55,0.6,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted brown",
+        "size": "small"
+      },
+      "id": "bread3",
+      "label": "Bread slice",
+      "location": "0.75,0.6,0.95,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden bowl with white salt",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Salt bowl",
+      "location": "0.0,0.6,0.3,0.9,0.8"
+    }
+  ]
+}

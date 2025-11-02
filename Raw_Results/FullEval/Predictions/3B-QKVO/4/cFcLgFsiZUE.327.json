@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "dog1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "dog1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "on",
+      "source": "framed_artwork1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "framed_artwork1",
+      "target": "cabinet1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blonde hair, red lipstick",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.0,0.05,0.45,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white curly fur",
+        "size": "medium"
+      },
+      "id": "dog1",
+      "label": "poodle dog",
+      "location": "0.35,0.15,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.5,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "beige stone",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.3,1.0,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black frames with colorful prints",
+        "size": "small"
+      },
+      "id": "framed_artwork1",
+      "label": "picture frame collection",
+      "location": "0.6,0.45,0.95,0.75,0.8"
+    }
+  ]
+}

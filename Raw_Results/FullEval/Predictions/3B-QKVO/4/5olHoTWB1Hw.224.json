@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pasta1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "pasta1"
+    },
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "box1"
+    },
+    {
+      "predicate": "behind",
+      "source": "stove1",
+      "target": "tray1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow spiral pasta",
+        "size": "large"
+      },
+      "id": "pasta1",
+      "label": "macaroni",
+      "location": "0.05,0.3,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "shredded yellow cheese",
+        "size": "medium"
+      },
+      "id": "cheese1",
+      "label": "shredded cheese",
+      "location": "0.1,0.4,0.9,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "baking tray",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.3,0.0,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "metal spatula",
+      "location": "0.4,0.0,0.7,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.5,0.0,0.8,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white cardboard",
+        "size": "medium"
+      },
+      "id": "box1",
+      "label": "cardboard box",
+      "location": "0.8,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.0,0.3,0.6,0.6"
+    }
+  ]
+}

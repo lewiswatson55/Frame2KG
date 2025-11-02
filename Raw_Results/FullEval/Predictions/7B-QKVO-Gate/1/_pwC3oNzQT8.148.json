@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "on",
+      "source": "dish1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "sauce1"
+    },
+    {
+      "predicate": "pouring_on",
+      "source": "sauce1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "blender1",
+      "target": "dish1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "dish1",
+      "label": "glass baking dish",
+      "location": "0.05,0.3,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange sauce-coated",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "chicken pieces",
+      "location": "0.1,0.4,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown skin",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.6,0.1,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red liquid",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "sauce stream",
+      "location": "0.6,0.2,0.9,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender jar",
+      "location": "0.4,0.0,0.8,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white marble",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "kitchen countertop",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

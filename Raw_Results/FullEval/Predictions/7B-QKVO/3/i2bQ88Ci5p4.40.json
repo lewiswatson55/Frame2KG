@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "ingredient_list1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "background1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "board1",
+      "target": "knife1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.35,0.05,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red background white text",
+        "size": "medium"
+      },
+      "id": "ingredient_list1",
+      "label": "ingredients list",
+      "location": "0.0,0.0,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black and orange graphic",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "website logo",
+      "location": "0.0,0.6,0.2,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.75,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver blade black handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "kitchen knife",
+      "location": "0.8,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange gradient",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "background panel",
+      "location": "0.0,0.0,0.4,1.0,0.7"
+    }
+  ]
+}

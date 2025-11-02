@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "oil1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "in",
+      "source": "rings1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "holding",
+      "source": "spoon1",
+      "target": "rings1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.05,0.6,0.95,0.98,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "bubbling yellowish liquid",
+        "size": "medium"
+      },
+      "id": "oil1",
+      "label": "hot oil",
+      "location": "0.0,0.3,1.0,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "rings1",
+      "label": "onion rings",
+      "location": "0.1,0.4,0.9,0.8,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "dark metal",
+        "size": "medium"
+      },
+      "id": "spoon1",
+      "label": "metal spoon",
+      "location": "0.6,0.2,0.95,0.5,0.8"
+    }
+  ]
+}

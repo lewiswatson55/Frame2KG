@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "cheese1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "board1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "tongs1"
+    },
+    {
+      "predicate": "holding",
+      "source": "tongs1",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese2",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.05,0.3,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cubes",
+        "size": "medium"
+      },
+      "id": "cheese1",
+      "label": "cheese pieces",
+      "location": "0.15,0.4,0.85,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.4,0.6,0.98,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal tongs with red handle",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "tongs",
+      "location": "0.6,0.3,0.98,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green plastic",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.7,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange cubes",
+        "size": "small"
+      },
+      "id": "cheese2",
+      "label": "cheese pieces",
+      "location": "0.75,0.05,0.98,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.0,0.0,0.6,0.4,0.7"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "whisk1"
+    },
+    {
+      "predicate": "in",
+      "source": "whisk1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "person1",
+      "label": "Person",
+      "location": "0.0,0.0,0.65,0.8,0.9"
+    },
+    {
+      "id": "whisk1",
+      "label": "Whisk",
+      "location": "0.3,0.4,0.7,0.7,0.8"
+    },
+    {
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.4,0.3,0.8,0.8,0.8"
+    },
+    {
+      "id": "stove1",
+      "label": "Stovetop",
+      "location": "0.0,0.5,1.0,1.0,0.7"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "fork1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "on",
+      "source": "spoon1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "flame1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "above",
+      "source": "text1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black line art",
+        "size": "large"
+      },
+      "id": "logo1",
+      "label": "Pinay Cooking Lessons logo",
+      "location": "0.35,0.15,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange flame",
+        "size": "medium"
+      },
+      "id": "flame1",
+      "label": "flame graphic",
+      "location": "0.45,0.25,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "spoon icon",
+      "location": "0.65,0.35,0.85,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "pan1",
+      "label": "pan icon",
+      "location": "0.45,0.65,0.65,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black line art",
+        "size": "small"
+      },
+      "id": "fork1",
+      "label": "fork icon",
+      "location": "0.25,0.35,0.45,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red cursive text",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Pinay Cooking Lessons text",
+      "location": "0.25,0.75,0.75,0.95,0.9"
+    }
+  ]
+}

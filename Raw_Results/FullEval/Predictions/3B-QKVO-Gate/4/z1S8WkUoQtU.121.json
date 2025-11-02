@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall_art1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "vase1",
+      "target": "wall_art2"
+    },
+    {
+      "predicate": "on",
+      "source": "vase1",
+      "target": "table1"
+    },
+    {
+      "predicate": "behind",
+      "source": "couch1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "table1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink shirt,long brown hair",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.0,0.6,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame",
+        "size": "medium"
+      },
+      "id": "wall_art1",
+      "label": "framed artwork",
+      "location": "0.0,0.0,0.3,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "gray frame",
+        "size": "medium"
+      },
+      "id": "wall_art2",
+      "label": "framed artwork",
+      "location": "0.3,0.0,0.6,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "ceramic vase",
+      "location": "0.7,0.3,0.9,0.8,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "medium"
+      },
+      "id": "table1",
+      "label": "side table",
+      "location": "0.6,0.6,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown fabric",
+        "size": "large"
+      },
+      "id": "couch1",
+      "label": "sofa",
+      "location": "0.0,0.6,0.5,1.0,0.8"
+    }
+  ]
+}

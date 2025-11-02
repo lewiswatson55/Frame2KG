@@ -1,0 +1,86 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "ring1",
+      "target": "paper1"
+    },
+    {
+      "predicate": "on",
+      "source": "ring2",
+      "target": "paper1"
+    },
+    {
+      "predicate": "on",
+      "source": "ring3",
+      "target": "paper1"
+    },
+    {
+      "predicate": "on",
+      "source": "ring4",
+      "target": "paper1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "ring1",
+      "target": "ring2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "ring2",
+      "target": "ring3"
+    },
+    {
+      "predicate": "next_to",
+      "source": "ring3",
+      "target": "ring4"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "medium"
+      },
+      "id": "ring1",
+      "label": "fried onion ring",
+      "location": "0.05,0.6,0.48,0.97,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "medium"
+      },
+      "id": "ring2",
+      "label": "fried onion ring",
+      "location": "0.45,0.6,0.88,0.97,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "medium"
+      },
+      "id": "ring3",
+      "label": "fried onion ring",
+      "location": "0.05,0.2,0.48,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "medium"
+      },
+      "id": "ring4",
+      "label": "fried onion ring",
+      "location": "0.45,0.2,0.88,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white textured",
+        "size": "large"
+      },
+      "id": "paper1",
+      "label": "parchment paper",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    }
+  ]
+}

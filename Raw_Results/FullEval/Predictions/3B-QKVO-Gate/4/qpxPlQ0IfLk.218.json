@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "cutting",
+      "source": "knife1",
+      "target": "corn1"
+    },
+    {
+      "predicate": "on",
+      "source": "corn1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "logo1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "behind",
+      "source": "pan1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green charred",
+        "size": "medium"
+      },
+      "id": "corn1",
+      "label": "grilled corn cob",
+      "location": "0.15,0.45,0.85,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal blade brown handle",
+        "size": "large"
+      },
+      "id": "knife1",
+      "label": "chef knife",
+      "location": "0.3,0.0,0.9,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.6,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark grey ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.4,0.6,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "wooden cutting board",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wooden bowl white salt",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "salt bowl",
+      "location": "0.8,0.6,1.0,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.0,0.5,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Hungry logo",
+      "location": "0.0,0.0,0.2,0.2,0.7"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "logo"
+    },
+    {
+      "predicate": "on",
+      "source": "text2",
+      "target": "logo"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "chef_hat",
+      "target": "red_square"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black red white",
+        "size": "medium"
+      },
+      "id": "logo",
+      "label": "Master Chef Logo",
+      "location": "0.35,0.25,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black",
+        "size": "small"
+      },
+      "id": "chef_hat",
+      "label": "Chef Hat Icon",
+      "location": "0.48,0.35,0.58,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red",
+        "size": "small"
+      },
+      "id": "red_square",
+      "label": "Red Square",
+      "location": "0.45,0.30,0.55,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black text",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "MASTER Text",
+      "location": "0.40,0.20,0.60,0.30,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black text",
+        "size": "small"
+      },
+      "id": "text2",
+      "label": "CHEF Text",
+      "location": "0.40,0.60,0.60,0.70,0.9"
+    }
+  ]
+}

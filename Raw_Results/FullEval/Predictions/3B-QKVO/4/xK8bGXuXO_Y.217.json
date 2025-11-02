@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "onion_rings1"
+    },
+    {
+      "predicate": "in",
+      "source": "onion_rings1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "onion_rings2",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "tablecloth1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.05,0.0,0.95,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic with blue rim",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "bowl",
+      "location": "0.0,0.3,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "onion_rings1",
+      "label": "fried onion rings",
+      "location": "0.0,0.3,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "onion_rings2",
+      "label": "fried onion rings",
+      "location": "0.5,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black white red",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "MasterChef logo",
+      "location": "0.75,0.0,0.95,0.25,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white cloth",
+        "size": "large"
+      },
+      "id": "tablecloth1",
+      "label": "tablecloth",
+      "location": "0.0,0.3,1.0,1.0,0.8"
+    }
+  ]
+}

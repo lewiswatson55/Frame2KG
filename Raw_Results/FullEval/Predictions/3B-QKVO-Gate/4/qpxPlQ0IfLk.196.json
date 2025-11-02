@@ -1,0 +1,150 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "lettuce"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle_mayo",
+      "target": "blender"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bottle_oil",
+      "target": "bottle_mayo"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "stove",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "board_with_fish",
+      "target": "stove"
+    },
+    {
+      "predicate": "behind",
+      "source": "pots",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf",
+      "target": "person1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "hanging_pans",
+      "target": "shelf"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "multicolored plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.05,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove",
+      "label": "electric stove",
+      "location": "0.45,0.75,0.75,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.45,0.75,0.75,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce",
+      "label": "lettuce leaves",
+      "location": "0.55,0.75,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic black base",
+        "size": "medium"
+      },
+      "id": "blender",
+      "label": "blender",
+      "location": "0.05,0.45,0.25,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic blue lid",
+        "size": "small"
+      },
+      "id": "bottle_mayo",
+      "label": "mayonnaise bottle",
+      "location": "0.15,0.65,0.25,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass yellow liquid",
+        "size": "small"
+      },
+      "id": "bottle_oil",
+      "label": "oil bottle",
+      "location": "0.25,0.65,0.35,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "hanging_pans",
+      "label": "hanging pans",
+      "location": "0.55,0.0,0.85,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "shelf",
+      "label": "shelf",
+      "location": "0.2,0.0,0.8,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "medium"
+      },
+      "id": "table",
+      "label": "table",
+      "location": "0.2,0.3,0.8,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange bread",
+        "size": "small"
+      },
+      "id": "board_with_fish",
+      "label": "bread on cutting board",
+      "location": "0.8,0.75,0.95,0.9,0.8"
+    }
+  ]
+}

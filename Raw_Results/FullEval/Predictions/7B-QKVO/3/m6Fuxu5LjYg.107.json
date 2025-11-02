@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hands1",
+      "target": "shrimp1"
+    },
+    {
+      "predicate": "in",
+      "source": "shrimp1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hands1",
+      "label": "Hands",
+      "location": "0.35,0.0,0.65,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "raw pink",
+        "size": "small"
+      },
+      "id": "shrimp1",
+      "label": "Shrimp",
+      "location": "0.1,0.4,0.8,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white background black text",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Text Overlay",
+      "location": "0.0,0.0,1.0,0.2,0.95"
+    }
+  ]
+}

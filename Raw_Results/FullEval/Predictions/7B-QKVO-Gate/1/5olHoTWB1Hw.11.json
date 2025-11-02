@@ -1,0 +1,96 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bag1",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "bag2",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "bag3",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "bag4",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "butter1",
+      "target": "table"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bag1",
+      "target": "bag2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bag2",
+      "target": "bag3"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bag3",
+      "target": "bag4"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "butter1",
+      "target": "bag4"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "bag1",
+      "label": "Sharp Cheddar Cheese Bag",
+      "location": "0.05,0.05,0.60,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "medium"
+      },
+      "id": "bag2",
+      "label": "Texas Toast Bag",
+      "location": "0.50,0.10,0.95,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green plastic",
+        "size": "small"
+      },
+      "id": "bag3",
+      "label": "Green Leafy Salad Bag",
+      "location": "0.60,0.30,0.95,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white cardboard",
+        "size": "small"
+      },
+      "id": "bag4",
+      "label": "Butter Stick",
+      "location": "0.20,0.70,0.60,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "Table Surface",
+      "location": "0.00,0.00,1.00,1.00,0.7"
+    }
+  ]
+}

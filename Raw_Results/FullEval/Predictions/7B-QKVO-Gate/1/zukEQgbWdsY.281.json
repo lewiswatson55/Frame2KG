@@ -1,0 +1,81 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "food"
+    },
+    {
+      "predicate": "holding",
+      "source": "person2",
+      "target": "food"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "wall"
+    },
+    {
+      "predicate": "on",
+      "source": "logo",
+      "target": "wall"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red hair beard",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.0,0.0,0.5,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.4,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "food",
+      "label": "food piece",
+      "location": "0.38,0.3,0.62,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text",
+        "size": "small"
+      },
+      "id": "logo",
+      "label": "TASTED logo",
+      "location": "0.75,0.8,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige brick",
+        "size": "large"
+      },
+      "id": "wall",
+      "label": "brick wall",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

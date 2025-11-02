@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "meat"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "window"
+    },
+    {
+      "predicate": "on",
+      "source": "bottles",
+      "target": "shelf"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fridge",
+      "target": "window"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person1",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.52,0.05,0.96,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "window",
+      "label": "glass window",
+      "location": "0.0,0.0,0.5,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "shelf",
+      "label": "kitchen shelf",
+      "location": "0.75,0.0,1.0,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "bottles",
+      "label": "wine bottles",
+      "location": "0.85,0.05,0.98,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "fridge",
+      "label": "refrigerator",
+      "location": "0.5,0.1,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red raw meat",
+        "size": "small"
+      },
+      "id": "meat",
+      "label": "raw meat",
+      "location": "0.15,0.5,0.3,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text",
+        "size": "small"
+      },
+      "id": "logo",
+      "label": "TASTED logo",
+      "location": "0.8,0.8,0.98,0.98,0.9"
+    }
+  ]
+}

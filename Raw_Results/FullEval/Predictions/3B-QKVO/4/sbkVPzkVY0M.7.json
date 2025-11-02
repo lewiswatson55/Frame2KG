@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "people_queue",
+      "target": "building"
+    },
+    {
+      "predicate": "on",
+      "source": "logo_mets",
+      "target": "building"
+    },
+    {
+      "predicate": "above",
+      "source": "sign_shake_shack",
+      "target": "people_queue"
+    },
+    {
+      "predicate": "next_to",
+      "source": "railing",
+      "target": "people_queue"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown brick",
+        "size": "large"
+      },
+      "id": "building",
+      "label": "Shake Shack Building",
+      "location": "0.05,0.3,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black sign",
+        "size": "medium"
+      },
+      "id": "sign_shake_shack",
+      "label": "Shake Shack Sign",
+      "location": "0.05,0.4,0.95,0.55,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red and blue neon",
+        "size": "small"
+      },
+      "id": "logo_mets",
+      "label": "New York Mets Logo",
+      "location": "0.6,0.2,0.75,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue and white striped",
+        "size": "medium"
+      },
+      "id": "railing",
+      "label": "Railing",
+      "location": "0.0,0.6,1.0,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "various colors",
+        "size": "large"
+      },
+      "id": "people_queue",
+      "label": "Queue of People",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    }
+  ]
+}

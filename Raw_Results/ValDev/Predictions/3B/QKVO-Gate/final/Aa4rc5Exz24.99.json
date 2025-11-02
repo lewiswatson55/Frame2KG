@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "batter1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "egg_yolk1",
+      "target": "batter1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "whisk1"
+    },
+    {
+      "predicate": "mixing",
+      "source": "whisk1",
+      "target": "batter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.05,0.05,0.98,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige creamy",
+        "size": "medium"
+      },
+      "id": "batter1",
+      "label": "batter",
+      "location": "0.3,0.1,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "egg_yolk1",
+      "label": "egg yolk",
+      "location": "0.45,0.6,0.6,0.75,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone blurred",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.0,0.0,0.6,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal wires",
+        "size": "medium"
+      },
+      "id": "whisk1",
+      "label": "whisk",
+      "location": "0.0,0.0,0.3,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    }
+  ]
+}

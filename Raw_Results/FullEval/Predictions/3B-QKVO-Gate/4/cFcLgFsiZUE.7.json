@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person_face1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "behind",
+      "source": "player_group1",
+      "target": "person_face1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "player_group1",
+      "target": "person_face1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white helmet green uniforms",
+        "size": "large"
+      },
+      "id": "player_group1",
+      "label": "American football players",
+      "location": "0.0,0.0,0.5,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark hair glasses smiling face",
+        "size": "medium"
+      },
+      "id": "person_face1",
+      "label": "man's face",
+      "location": "0.35,0.2,0.45,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange crispy",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "fried chicken piece",
+      "location": "0.45,0.45,0.55,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.47,0.43,0.53,0.52,0.8"
+    }
+  ]
+}

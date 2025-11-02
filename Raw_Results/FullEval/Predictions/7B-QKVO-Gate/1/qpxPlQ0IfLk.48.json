@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "on",
+      "source": "oil_stream1",
+      "target": "bread_slice1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_slice1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread_slice2",
+      "target": "bread_slice1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_slice2",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "table1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "wooden cutting board",
+      "location": "0.05,0.48,0.95,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown toasted",
+        "size": "medium"
+      },
+      "id": "bread_slice1",
+      "label": "toasted bread slice",
+      "location": "0.30,0.55,0.70,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown toasted",
+        "size": "small"
+      },
+      "id": "bread_slice2",
+      "label": "toasted bread slice",
+      "location": "0.15,0.45,0.35,0.60,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "olive oil bottle",
+      "location": "0.45,0.00,0.75,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow liquid stream",
+        "size": "small"
+      },
+      "id": "oil_stream1",
+      "label": "olive oil stream",
+      "location": "0.45,0.30,0.60,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.40,0.00,0.70,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark metal",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "metal table surface",
+      "location": "0.00,0.75,1.00,1.00,0.7"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hands1",
+      "target": "onion1"
+    },
+    {
+      "predicate": "on",
+      "source": "onion1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "cloth1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl2",
+      "target": "board1"
+    },
+    {
+      "predicate": "behind",
+      "source": "sink1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hands1",
+      "label": "human hands",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple",
+        "size": "small"
+      },
+      "id": "onion1",
+      "label": "red onion",
+      "location": "0.55,0.15,0.75,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.2,0.2,0.9,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "white bowl",
+      "location": "0.0,0.5,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl2",
+      "label": "white bowl",
+      "location": "0.6,0.5,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "multicolored patterned fabric",
+        "size": "large"
+      },
+      "id": "cloth1",
+      "label": "table cloth",
+      "location": "0.0,0.4,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "kitchen sink",
+      "location": "0.7,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

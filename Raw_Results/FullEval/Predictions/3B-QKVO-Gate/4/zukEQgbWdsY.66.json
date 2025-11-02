@@ -1,0 +1,205 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife"
+    },
+    {
+      "predicate": "on",
+      "source": "knife",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "fish_packed",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "stove"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "shelf"
+    },
+    {
+      "predicate": "supports",
+      "source": "shelf",
+      "target": "bottles"
+    },
+    {
+      "predicate": "includes",
+      "source": "stove",
+      "target": "frying_pan"
+    },
+    {
+      "predicate": "left_of",
+      "source": "window",
+      "target": "oven"
+    },
+    {
+      "predicate": "right_of",
+      "source": "blender",
+      "target": "knife_block"
+    },
+    {
+      "predicate": "behind",
+      "source": "teapot",
+      "target": "shelf"
+    },
+    {
+      "predicate": "behind",
+      "source": "mixer",
+      "target": "shelf"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.52,0.05,0.96,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.00,0.70,0.50,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.20,0.75,0.35,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver foil-wrapped",
+        "size": "small"
+      },
+      "id": "fish_packed",
+      "label": "fish fillets",
+      "location": "0.05,0.75,0.30,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "gas stove",
+      "location": "0.30,0.70,0.95,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black non-stick",
+        "size": "medium"
+      },
+      "id": "frying_pan",
+      "label": "frying pan",
+      "location": "0.60,0.75,0.90,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottles",
+        "size": "medium"
+      },
+      "id": "bottles",
+      "label": "bottles",
+      "location": "0.45,0.10,0.75,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "shelf",
+      "label": "kitchen shelf",
+      "location": "0.40,0.00,1.00,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white brick backsplash",
+        "size": "large"
+      },
+      "id": "backsplash",
+      "label": "tile backsplash",
+      "location": "0.40,0.30,1.00,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "oven",
+      "label": "oven",
+      "location": "0.10,0.10,0.40,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "window",
+      "label": "window",
+      "location": "0.00,0.00,0.20,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden block with knives",
+        "size": "small"
+      },
+      "id": "knife_block",
+      "label": "knife block",
+      "location": "0.85,0.45,0.95,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "medium"
+      },
+      "id": "blender",
+      "label": "blender",
+      "location": "0.90,0.45,1.00,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "teapot",
+      "label": "teapot",
+      "location": "0.60,0.00,0.70,0.15,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "mixer",
+      "label": "stand mixer",
+      "location": "0.85,0.00,1.00,0.15,0.8"
+    }
+  ]
+}

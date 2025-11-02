@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in",
+      "source": "oil1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "oil1",
+      "target": "patty1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "brown charred",
+        "size": "medium"
+      },
+      "id": "patty1",
+      "label": "burger patty",
+      "location": "0.34,0.28,0.66,0.72,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellowish liquid",
+        "size": "small"
+      },
+      "id": "oil1",
+      "label": "cooking oil",
+      "location": "0.30,0.50,0.70,0.80,0.8"
+    }
+  ]
+}

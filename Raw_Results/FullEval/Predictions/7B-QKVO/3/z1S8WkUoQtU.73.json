@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "onion_slices",
+      "target": "bowl_large"
+    },
+    {
+      "predicate": "in",
+      "source": "seasoning_mixture",
+      "target": "bowl_large"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_large",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_small",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_small",
+      "target": "bowl_large"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl_large",
+      "label": "Glass Bowl",
+      "location": "0.05,0.3,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink translucent",
+        "size": "small"
+      },
+      "id": "onion_slices",
+      "label": "Onion Slices",
+      "location": "0.6,0.1,0.95,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl_small",
+      "label": "Small Glass Bowl",
+      "location": "0.7,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white crumbly with red specks",
+        "size": "medium"
+      },
+      "id": "seasoning_mixture",
+      "label": "Seasoning Mixture",
+      "location": "0.1,0.5,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood grain",
+        "size": "large"
+      },
+      "id": "cutting_board",
+      "label": "Cutting Board",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    }
+  ]
+}

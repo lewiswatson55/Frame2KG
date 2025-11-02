@@ -1,0 +1,164 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife_block1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "utensil_holder1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "toaster1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "glass1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "can1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "microwave1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "behind",
+      "source": "tile_backsplash1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black jacket",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.65,0.15,0.98,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.30,0.00,0.70,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.50,0.00,0.98,0.80,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "knife_block1",
+      "label": "knife block",
+      "location": "0.35,0.50,0.45,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "utensil_holder1",
+      "label": "utensil holder",
+      "location": "0.45,0.50,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "toaster1",
+      "label": "toaster",
+      "location": "0.20,0.60,0.35,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple bottle",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "dish soap bottle",
+      "location": "0.05,0.60,0.15,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "glass1",
+      "label": "glass cup",
+      "location": "0.00,0.75,0.15,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow can",
+        "size": "small"
+      },
+      "id": "can1",
+      "label": "soda can",
+      "location": "0.85,0.75,0.98,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.00,0.60,1.00,1.00,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "tiled",
+        "size": "large"
+      },
+      "id": "tile_backsplash1",
+      "label": "tile backsplash",
+      "location": "0.00,0.00,0.30,0.40,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave oven",
+      "location": "0.20,0.40,0.35,0.60,0.8"
+    }
+  ]
+}

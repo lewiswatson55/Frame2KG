@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "burger1"
+    },
+    {
+      "predicate": "includes",
+      "source": "burger1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "includes",
+      "source": "burger1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "includes",
+      "source": "burger1",
+      "target": "bun_top1"
+    },
+    {
+      "predicate": "includes",
+      "source": "burger1",
+      "target": "bun_bottom1"
+    },
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "background1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.05,0.0,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown bun with lettuce and patty",
+        "size": "medium"
+      },
+      "id": "burger1",
+      "label": "Burger",
+      "location": "0.3,0.4,0.7,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown beef patty with melted cheese",
+        "size": "small"
+      },
+      "id": "patty1",
+      "label": "Patty",
+      "location": "0.4,0.5,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce",
+      "location": "0.35,0.45,0.65,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown bread",
+        "size": "small"
+      },
+      "id": "bun_top1",
+      "label": "Top Bun",
+      "location": "0.3,0.3,0.7,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown bread",
+        "size": "small"
+      },
+      "id": "bun_bottom1",
+      "label": "Bottom Bun",
+      "location": "0.3,0.6,0.7,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white background with black text",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Text Overlay",
+      "location": "0.0,0.8,0.6,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey gradient",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "play_button",
+      "target": "background"
+    },
+    {
+      "predicate": "left_of",
+      "source": "plate_apples",
+      "target": "play_button"
+    },
+    {
+      "predicate": "right_of",
+      "source": "cake_slice",
+      "target": "play_button"
+    },
+    {
+      "predicate": "below",
+      "source": "steak_plate",
+      "target": "plate_apples"
+    },
+    {
+      "predicate": "above",
+      "source": "peaches_jar",
+      "target": "tortilla_stack"
+    },
+    {
+      "predicate": "next_to",
+      "source": "peaches_jar",
+      "target": "tortilla_stack"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white",
+        "size": "medium"
+      },
+      "id": "play_button",
+      "label": "Play Button",
+      "location": "0.45,0.6,0.55,0.78,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue rim green background",
+        "size": "small"
+      },
+      "id": "plate_apples",
+      "label": "Plate of Apples",
+      "location": "0.3,0.2,0.5,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow ceramic",
+        "size": "small"
+      },
+      "id": "cake_slice",
+      "label": "Cake Slice",
+      "location": "0.6,0.0,0.8,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beef patty red sauce",
+        "size": "small"
+      },
+      "id": "steak_plate",
+      "label": "Steak Plate",
+      "location": "0.2,0.6,0.4,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange fruit",
+        "size": "small"
+      },
+      "id": "peaches_jar",
+      "label": "Peaches Jar",
+      "location": "0.8,0.3,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown tortillas",
+        "size": "small"
+      },
+      "id": "tortilla_stack",
+      "label": "Tortilla Stack",
+      "location": "0.8,0.6,1.0,0.9,0.8"
+    }
+  ]
+}

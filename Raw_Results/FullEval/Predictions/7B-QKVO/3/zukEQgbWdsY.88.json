@@ -1,0 +1,327 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "pouring_on",
+      "source": "person1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan2",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in",
+      "source": "food1",
+      "target": "pan2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sink1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "behind",
+      "source": "window1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "person2",
+      "target": "person1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "faucet1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "above",
+      "source": "shelf1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "on",
+      "source": "utensils1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottles1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "kettle1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "mixing_bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "measuring_cups1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife_block1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "plastic_bag1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.47,0.05,0.95,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.46,0.6,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.55,0.65,0.75,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black cast iron",
+        "size": "medium"
+      },
+      "id": "pan2",
+      "label": "skillet",
+      "location": "0.75,0.65,0.95,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "raw meat",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "meat pieces",
+      "location": "0.8,0.7,0.95,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.05,0.6,0.45,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.05,0.8,0.45,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "small"
+      },
+      "id": "plastic_bag1",
+      "label": "plastic bag",
+      "location": "0.1,0.65,0.3,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottle",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "oil bottle",
+      "location": "0.5,0.4,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.0,0.5,0.2,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "cabinet",
+      "location": "0.0,0.0,0.3,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white brick",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "brick wall",
+      "location": "0.3,0.0,1.0,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.6,0.4,0.9,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "faucet1",
+      "label": "faucet",
+      "location": "0.7,0.4,0.8,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.3,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "various colored glass",
+        "size": "small"
+      },
+      "id": "bottles1",
+      "label": "bottles",
+      "location": "0.4,0.0,0.8,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "kettle1",
+      "label": "teapot",
+      "location": "0.75,0.0,0.9,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "utensils1",
+      "label": "utensil holder",
+      "location": "0.9,0.0,1.0,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "mixing_bowl1",
+      "label": "mixing bowl",
+      "location": "0.85,0.6,0.95,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "measuring_cups1",
+      "label": "measuring cups",
+      "location": "0.8,0.75,0.95,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "knife_block1",
+      "label": "knife block",
+      "location": "0.9,0.5,1.0,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Tasted logo",
+      "location": "0.85,0.85,1.0,1.0,0.9"
+    }
+  ]
+}

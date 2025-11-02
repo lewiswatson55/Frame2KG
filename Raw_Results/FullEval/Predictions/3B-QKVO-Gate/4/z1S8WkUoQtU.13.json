@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "couch"
+    },
+    {
+      "predicate": "on",
+      "source": "lamp1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "on",
+      "source": "picture_frame_left",
+      "target": "wall1"
+    },
+    {
+      "predicate": "on",
+      "source": "picture_frame_right",
+      "target": "wall1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "vase1",
+      "target": "couch"
+    },
+    {
+      "predicate": "left_of",
+      "source": "speaker1",
+      "target": "couch"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink shirt,long dark hair",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.15,0.0,0.85,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown leather",
+        "size": "medium"
+      },
+      "id": "couch",
+      "label": "couch",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame gold butterfly",
+        "size": "small"
+      },
+      "id": "picture_frame_left",
+      "label": "framed picture",
+      "location": "0.3,0.1,0.45,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame white text",
+        "size": "small"
+      },
+      "id": "picture_frame_right",
+      "label": "framed picture",
+      "location": "0.55,0.1,0.7,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "decorative vase",
+      "location": "0.85,0.3,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "speaker1",
+      "label": "audio speaker",
+      "location": "0.0,0.7,0.2,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white painted",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "lamp1",
+      "label": "floor lamp",
+      "location": "0.2,0.0,0.3,0.2,0.7"
+    }
+  ]
+}

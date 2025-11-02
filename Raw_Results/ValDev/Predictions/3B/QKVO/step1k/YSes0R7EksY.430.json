@@ -1,0 +1,286 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "jar2",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "jar3",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "jar4",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "jar5",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "jar6",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "jar7",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "jar8",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "toaster",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "book1",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "book2",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "book3",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "book4",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "book5",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "book6",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "lamp",
+      "target": "counter"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "shelf"
+    },
+    {
+      "predicate": "behind",
+      "source": "person2",
+      "target": "shelf"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person1",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black chef coat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man wearing black chef coat",
+      "location": "0.05,0.05,0.45,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plaid shirt",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "man wearing red plaid shirt",
+      "location": "0.45,0.05,0.85,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden shelves with jars of food",
+        "size": "medium"
+      },
+      "id": "shelf",
+      "label": "shelves",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jars with colorful contents",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "jars 1",
+      "location": "0.05,0.0,0.2,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jars with colorful contents",
+        "size": "small"
+      },
+      "id": "jar2",
+      "label": "jars 2",
+      "location": "0.2,0.0,0.3,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jars with colorful contents",
+        "size": "small"
+      },
+      "id": "jar3",
+      "label": "jars 3",
+      "location": "0.3,0.0,0.4,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jars with colorful contents",
+        "size": "small"
+      },
+      "id": "jar4",
+      "label": "jars 4",
+      "location": "0.4,0.0,0.5,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jars with colorful contents",
+        "size": "small"
+      },
+      "id": "jar5",
+      "label": "jars 5",
+      "location": "0.5,0.0,0.6,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jars with colorful contents",
+        "size": "small"
+      },
+      "id": "jar6",
+      "label": "jars 6",
+      "location": "0.6,0.0,0.7,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jars with colorful contents",
+        "size": "small"
+      },
+      "id": "jar7",
+      "label": "jars 7",
+      "location": "0.7,0.0,0.8,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jars with colorful contents",
+        "size": "small"
+      },
+      "id": "jar8",
+      "label": "jars 8",
+      "location": "0.8,0.0,0.9,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden countertop",
+        "size": "large"
+      },
+      "id": "counter",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red toaster",
+        "size": "small"
+      },
+      "id": "toaster",
+      "label": "toaster",
+      "location": "0.75,0.6,0.85,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stacked books",
+        "size": "small"
+      },
+      "id": "book1",
+      "label": "books",
+      "location": "0.75,0.6,0.85,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stacked books",
+        "size": "small"
+      },
+      "id": "book2",
+      "label": "books",
+      "location": "0.85,0.6,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stacked books",
+        "size": "small"
+      },
+      "id": "book3",
+      "label": "books",
+      "location": "0.75,0.75,0.85,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stacked books",
+        "size": "small"
+      },
+      "id": "book4",
+      "label": "books",
+      "location": "0.85,0.75,0.95,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stacked books",
+        "size": "small"
+      },
+      "id": "book5",
+      "label": "books",
+      "location": "0.75,0.85,0.85,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stacked books",
+        "size": "small"
+      },
+      "id": "book6",
+      "label": "books",
+      "location": "0.85,0.85,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal lampshade",
+        "size": "small"
+      },
+      "id": "lamp",
+      "label": "lamp",
+      "location": "0.8,0.5,0.9,0.65,0.8"
+    }
+  ]
+}

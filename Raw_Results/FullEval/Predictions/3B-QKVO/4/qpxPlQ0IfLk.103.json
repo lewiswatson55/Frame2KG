@@ -1,0 +1,215 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle2",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar3",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar4",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "lemon1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "wooden_bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "grill1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "basket1",
+      "target": "grill1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "hanging_from",
+      "source": "pots1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "behind",
+      "source": "lamp1",
+      "target": "blender1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "multicolored plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.5,0.0,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.2,0.4,0.35,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "olive oil bottle",
+      "location": "0.36,0.55,0.42,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "bottle2",
+      "label": "mayonnaise jar",
+      "location": "0.42,0.55,0.48,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "jar3",
+      "label": "mustard jar",
+      "location": "0.3,0.6,0.35,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue plastic",
+        "size": "small"
+      },
+      "id": "jar4",
+      "label": "sauce jar",
+      "location": "0.35,0.6,0.4,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow fruit",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "lemon",
+      "location": "0.5,0.65,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "small"
+      },
+      "id": "wooden_bowl1",
+      "label": "wooden bowl",
+      "location": "0.55,0.65,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "grill1",
+      "label": "grill pan",
+      "location": "0.75,0.7,0.95,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "pots1",
+      "label": "hanging pots",
+      "location": "0.7,0.0,0.9,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.3,0.0,0.7,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white lampshade",
+        "size": "small"
+      },
+      "id": "lamp1",
+      "label": "table lamp",
+      "location": "0.1,0.2,0.2,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wooden",
+        "size": "medium"
+      },
+      "id": "couch1",
+      "label": "couch",
+      "location": "0.0,0.4,0.2,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light grey brick",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "brick wall",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "small"
+      },
+      "id": "basket1",
+      "label": "fruit basket",
+      "location": "0.8,0.5,0.9,0.6,0.8"
+    }
+  ]
+}

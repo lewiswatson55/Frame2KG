@@ -1,0 +1,127 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lemon1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "bottle1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl1",
+      "target": "lemon1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "spatula1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "pan1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.35,0.4,0.75,0.68,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "Raw Chicken Breast",
+      "location": "0.45,0.45,0.65,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver handle black blade",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "Knife",
+      "location": "0.0,0.55,0.4,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow round",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "Lemon",
+      "location": "0.1,0.2,0.25,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass white contents",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.05,0.1,0.25,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "Bottle",
+      "location": "0.0,0.25,0.2,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "Spatula",
+      "location": "0.4,0.0,0.8,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "Griddle Pan",
+      "location": "0.0,0.7,1.0,1.0,0.8"
+    }
+  ]
+}

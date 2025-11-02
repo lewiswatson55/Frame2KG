@@ -1,0 +1,132 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person_hand",
+      "target": "red_spatula"
+    },
+    {
+      "predicate": "in",
+      "source": "red_spatula",
+      "target": "large_bowl"
+    },
+    {
+      "predicate": "includes",
+      "source": "large_bowl",
+      "target": "salad_mix"
+    },
+    {
+      "predicate": "on",
+      "source": "white_bowl",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "small_bowl",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "plate",
+      "target": "table"
+    },
+    {
+      "predicate": "next_to",
+      "source": "small_bowl",
+      "target": "white_bowl"
+    },
+    {
+      "predicate": "left_of",
+      "source": "small_bowl",
+      "target": "white_bowl"
+    },
+    {
+      "predicate": "right_of",
+      "source": "large_bowl",
+      "target": "white_bowl"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person_hand",
+      "label": "hand",
+      "location": "0.65,0.0,0.98,0.35,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "large_bowl",
+      "label": "glass bowl",
+      "location": "0.6,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "salad_mix",
+      "label": "salad mix",
+      "location": "0.65,0.05,0.95,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "white_bowl",
+      "label": "bowl",
+      "location": "0.2,0.3,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green lettuce leaves",
+        "size": "small"
+      },
+      "id": "salad_pieces",
+      "label": "salad pieces",
+      "location": "0.25,0.35,0.55,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "small_bowl",
+      "label": "bowl of croutons",
+      "location": "0.0,0.3,0.2,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread cubes",
+        "size": "small"
+      },
+      "id": "croutons",
+      "label": "croutons",
+      "location": "0.05,0.35,0.18,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black rim white interior",
+        "size": "medium"
+      },
+      "id": "plate",
+      "label": "plate",
+      "location": "0.0,0.0,0.5,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "table",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    }
+  ]
+}

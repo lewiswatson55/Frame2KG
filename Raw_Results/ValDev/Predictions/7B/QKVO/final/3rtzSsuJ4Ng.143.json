@@ -1,0 +1,112 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "toast1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "plate2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tongs1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.35,0.0,0.65,0.45,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.37,0.45,0.63,0.75,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate2",
+      "label": "Plate",
+      "location": "0.75,0.45,0.95,0.75,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted brown bread",
+        "size": "small"
+      },
+      "id": "toast1",
+      "label": "Toast slice",
+      "location": "0.05,0.15,0.25,0.35,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "red tomato slices",
+        "size": "small"
+      },
+      "id": "tomato1",
+      "label": "Tomato slices",
+      "location": "0.45,0.55,0.60,0.70,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy lettuce",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce leaves",
+      "location": "0.80,0.50,0.95,0.75,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Glass bowl",
+      "location": "0.70,0.25,0.85,0.45,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.45,0.30,0.55,0.50,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "Tongs",
+      "location": "0.00,0.60,0.20,0.80,0.90"
+    }
+  ]
+}

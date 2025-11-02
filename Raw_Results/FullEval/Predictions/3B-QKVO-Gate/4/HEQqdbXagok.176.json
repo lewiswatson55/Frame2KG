@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "flour1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "flour1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken2",
+      "target": "flour1"
+    },
+    {
+      "predicate": "holding",
+      "source": "tongs1",
+      "target": "chicken1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "baking tray",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "medium"
+      },
+      "id": "flour1",
+      "label": "flour",
+      "location": "0.0,0.1,1.0,0.8,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "tongs1",
+      "label": "kitchen tongs",
+      "location": "0.0,0.3,0.6,0.45,0.87"
+    },
+    {
+      "attributes": {
+        "appearance": "raw pinkish",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "chicken piece",
+      "location": "0.3,0.5,0.6,0.8,0.92"
+    },
+    {
+      "attributes": {
+        "appearance": "raw pinkish",
+        "size": "small"
+      },
+      "id": "chicken2",
+      "label": "chicken piece",
+      "location": "0.7,0.3,0.95,0.6,0.90"
+    }
+  ]
+}

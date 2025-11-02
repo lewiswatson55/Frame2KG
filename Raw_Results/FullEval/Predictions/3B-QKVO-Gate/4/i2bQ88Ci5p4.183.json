@@ -1,0 +1,137 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "fork"
+    },
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "chicken_wing"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "fridge"
+    },
+    {
+      "predicate": "on",
+      "source": "glass_bowl",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "can",
+      "target": "countertop"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet",
+      "target": "person2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "fridge",
+      "target": "cabinet"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt glasses",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black jacket braid hair",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.52,0.05,0.96,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "fork",
+      "label": "fork",
+      "location": "0.30,0.45,0.40,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange fried",
+        "size": "small"
+      },
+      "id": "chicken_wing",
+      "label": "chicken wing",
+      "location": "0.35,0.40,0.45,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass orange liquid",
+        "size": "small"
+      },
+      "id": "glass_bowl",
+      "label": "bowl of sauce",
+      "location": "0.00,0.75,0.20,0.98,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow white can",
+        "size": "small"
+      },
+      "id": "can",
+      "label": "soda can",
+      "location": "0.85,0.75,0.98,0.98,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black stainless steel",
+        "size": "large"
+      },
+      "id": "fridge",
+      "label": "refrigerator",
+      "location": "0.50,0.00,0.98,0.70,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "kitchen cabinet",
+      "location": "0.00,0.00,0.50,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.00,0.60,1.00,1.00,0.7"
+    }
+  ]
+}

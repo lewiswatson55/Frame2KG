@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "hand1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "paper1"
+    },
+    {
+      "predicate": "on",
+      "source": "paper1",
+      "target": "table1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.58,0.0,0.96,0.37,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "raw white meat",
+        "size": "large"
+      },
+      "id": "chicken1",
+      "label": "raw chicken",
+      "location": "0.4,0.5,0.95,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow paper",
+        "size": "small"
+      },
+      "id": "paper1",
+      "label": "paper towel",
+      "location": "0.3,0.6,0.6,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white marble surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "countertop",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

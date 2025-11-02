@@ -1,0 +1,169 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl3",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "scale1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "rack1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "stove1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "plant1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bread1",
+      "target": "plant1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white chef coat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal rack with containers",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "spice shelf",
+      "location": "0.0,0.0,1.0,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.4,0.6,0.6,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.45,0.65,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "glass bowl",
+      "location": "0.55,0.65,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl3",
+      "label": "glass bowl",
+      "location": "0.65,0.65,0.75,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "griddle",
+      "location": "0.0,0.4,0.4,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "herb plant",
+      "location": "0.3,0.3,0.4,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread loaves",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "bread loaves",
+      "location": "0.6,0.3,0.7,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal rack",
+        "size": "large"
+      },
+      "id": "rack1",
+      "label": "baking rack",
+      "location": "0.75,0.1,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal counter",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "scale1",
+      "label": "kitchen scale",
+      "location": "0.8,0.7,1.0,1.0,0.8"
+    }
+  ]
+}

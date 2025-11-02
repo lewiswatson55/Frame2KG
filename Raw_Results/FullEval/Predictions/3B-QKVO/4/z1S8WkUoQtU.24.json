@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "blouse1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "on",
+      "source": "frame1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "decorative_object1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "dark hair red blouse",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.0,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "red cotton",
+        "size": "medium"
+      },
+      "id": "blouse1",
+      "label": "blouse",
+      "location": "0.0,0.4,0.7,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "beige painted",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.0,0.0,1.0,1.0,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden frame glass",
+        "size": "small"
+      },
+      "id": "frame1",
+      "label": "picture frame",
+      "location": "0.0,0.0,0.3,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange fabric",
+        "size": "small"
+      },
+      "id": "decorative_object1",
+      "label": "decoration",
+      "location": "0.6,0.5,0.9,0.9,0.8"
+    }
+  ]
+}

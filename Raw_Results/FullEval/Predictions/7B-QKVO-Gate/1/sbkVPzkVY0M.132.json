@@ -1,0 +1,89 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "in",
+      "source": "blender1",
+      "target": "container1"
+    },
+    {
+      "predicate": "includes",
+      "source": "container1",
+      "target": "fruit1"
+    },
+    {
+      "predicate": "on",
+      "source": "container1",
+      "target": "table1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue floral shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.5,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange plastic",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "Cayenne Pepper Bottle",
+      "location": "0.75,0.0,0.98,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "container1",
+      "label": "Blender Container",
+      "location": "0.3,0.3,0.6,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "small"
+      },
+      "id": "lid1",
+      "label": "Blender Lid",
+      "location": "0.45,0.4,0.55,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.4,0.3,0.5,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "mixed green yellow",
+        "size": "small"
+      },
+      "id": "fruit1",
+      "label": "Fruit Pieces",
+      "location": "0.35,0.5,0.6,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table",
+      "location": "0.0,0.8,1.0,1.0,0.7"
+    }
+  ]
+}

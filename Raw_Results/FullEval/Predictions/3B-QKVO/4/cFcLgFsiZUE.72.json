@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "wrappers1",
+      "target": "silicone_mats1"
+    },
+    {
+      "predicate": "on",
+      "source": "silicone_mats1",
+      "target": "baking_tray1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "cup1",
+      "target": "baking_tray1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "medium"
+      },
+      "id": "wrappers1",
+      "label": "pastry wrappers",
+      "location": "0.05,0.3,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange silicone",
+        "size": "large"
+      },
+      "id": "silicone_mats1",
+      "label": "silicone baking mats",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "baking_tray1",
+      "label": "baking tray",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue plastic",
+        "size": "small"
+      },
+      "id": "cup1",
+      "label": "sauce cup",
+      "location": "0.4,0.0,0.6,0.2,0.8"
+    }
+  ]
+}

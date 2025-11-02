@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person_hands",
+      "target": "bottle"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bottle",
+      "target": "spoon"
+    },
+    {
+      "predicate": "on",
+      "source": "spoon",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "glass_bowl",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "includes",
+      "source": "glass_bowl",
+      "target": "yellow_substance"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chocolate_piece",
+      "target": "cutting_board"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "person_hands",
+      "label": "hands",
+      "location": "0.05,0.0,0.48,0.36,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark brown glass",
+        "size": "small"
+      },
+      "id": "bottle",
+      "label": "bottle",
+      "location": "0.27,0.15,0.45,0.35,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spoon",
+      "label": "measuring spoon",
+      "location": "0.25,0.3,0.55,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "cutting_board",
+      "label": "wooden cutting board",
+      "location": "0.0,0.45,1.0,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "glass_bowl",
+      "label": "mixing bowl",
+      "location": "0.4,0.1,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pale yellow creamy",
+        "size": "medium"
+      },
+      "id": "yellow_substance",
+      "label": "yellow mixture",
+      "location": "0.5,0.2,0.9,0.5,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "dark brown block",
+        "size": "small"
+      },
+      "id": "chocolate_piece",
+      "label": "chocolate piece",
+      "location": "0.2,0.5,0.3,0.6,0.7"
+    }
+  ]
+}

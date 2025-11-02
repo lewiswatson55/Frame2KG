@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "tongs1"
+    },
+    {
+      "predicate": "holding",
+      "source": "tongs1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "grill1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lettuce1",
+      "target": "grill1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.0,0.35,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tongs1",
+      "label": "Tongs",
+      "location": "0.0,0.0,0.6,0.2,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white grilled",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "Grilled Chicken",
+      "location": "0.4,0.0,0.7,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "grill1",
+      "label": "Grill Pan",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread slices",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "Bread Slices",
+      "location": "0.3,0.4,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce Leaf",
+      "location": "0.75,0.0,1.0,0.4,0.8"
+    }
+  ]
+}

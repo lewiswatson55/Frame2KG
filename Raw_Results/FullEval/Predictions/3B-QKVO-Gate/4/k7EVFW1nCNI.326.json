@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "cheese_block"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese_block",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cheese_block",
+      "target": "bowl"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "hand",
+      "location": "0.65,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "cheese_block",
+      "label": "block of cheese",
+      "location": "0.7,0.1,0.9,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.0,0.2,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl",
+      "label": "glass bowl",
+      "location": "0.2,0.6,0.8,1.0,0.9"
+    }
+  ]
+}

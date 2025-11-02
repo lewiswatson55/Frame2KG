@@ -1,0 +1,131 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "chicken_wings"
+    },
+    {
+      "predicate": "holding",
+      "source": "person2",
+      "target": "chicken_wing"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_of_chicken",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "napkin",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "blender",
+      "target": "fridge"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "fridge"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt black apron",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.05,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black chef coat",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.47,0.05,0.95,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "fridge",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "small"
+      },
+      "id": "blender",
+      "label": "stand blender",
+      "location": "0.5,0.2,0.65,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinets",
+      "label": "kitchen cabinets",
+      "location": "0.4,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic with orange chicken wings",
+        "size": "medium"
+      },
+      "id": "plate_of_chicken",
+      "label": "plate of chicken wings",
+      "location": "0.2,0.7,0.6,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow crispy",
+        "size": "small"
+      },
+      "id": "chicken_wings",
+      "label": "chicken wing",
+      "location": "0.3,0.75,0.5,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange crispy",
+        "size": "small"
+      },
+      "id": "chicken_wing",
+      "label": "chicken wing",
+      "location": "0.55,0.75,0.7,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "small"
+      },
+      "id": "napkin",
+      "label": "paper napkin",
+      "location": "0.6,0.85,0.9,1.0,0.8"
+    }
+  ]
+}

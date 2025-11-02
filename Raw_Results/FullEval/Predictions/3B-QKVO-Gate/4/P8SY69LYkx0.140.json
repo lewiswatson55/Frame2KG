@@ -1,0 +1,292 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "meat_grinder"
+    },
+    {
+      "predicate": "on",
+      "source": "meat_grinder",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_meat",
+      "target": "cheese_block"
+    },
+    {
+      "predicate": "left_of",
+      "source": "stove",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "rack",
+      "target": "person1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "clock"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "stove"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "shelves"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "jars"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "board_buns"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "tomatoes"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "pancakes"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "cup_plastic"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "cup_metal"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "paper_towel"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "knife"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "cheese_block"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "spoon"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "bowl_cheese"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "bowl_meat"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "bowl_carrots"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white chef coat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.35,0.05,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "meat_grinder",
+      "label": "meat grinder",
+      "location": "0.47,0.55,0.60,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.40,0.60,0.60,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl_meat",
+      "label": "glass bowl of ground meat",
+      "location": "0.10,0.70,0.25,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cheese block",
+        "size": "small"
+      },
+      "id": "cheese_block",
+      "label": "cheese block",
+      "location": "0.30,0.75,0.40,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "small"
+      },
+      "id": "plastic_cup",
+      "label": "plastic cup",
+      "location": "0.75,0.75,0.85,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "metal_cup",
+      "label": "metal measuring cup",
+      "location": "0.65,0.80,0.75,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "small"
+      },
+      "id": "paper_towel",
+      "label": "paper towel roll",
+      "location": "0.70,0.80,0.80,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black handle metal blade",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.80,0.80,0.95,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green broccoli",
+        "size": "small"
+      },
+      "id": "broccoli",
+      "label": "broccoli",
+      "location": "0.30,0.30,0.40,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread buns",
+        "size": "small"
+      },
+      "id": "board_buns",
+      "label": "bread buns on wooden board",
+      "location": "0.60,0.30,0.75,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red tomatoes",
+        "size": "small"
+      },
+      "id": "tomatoes",
+      "label": "tomatoes",
+      "location": "0.65,0.45,0.75,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown pancakes",
+        "size": "small"
+      },
+      "id": "pancakes",
+      "label": "pancakes",
+      "location": "0.75,0.35,0.85,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass jars",
+        "size": "small"
+      },
+      "id": "jars",
+      "label": "spice jars",
+      "location": "0.05,0.10,0.95,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "commercial stove",
+      "location": "0.00,0.30,0.40,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal shelves with red lids",
+        "size": "large"
+      },
+      "id": "shelf",
+      "label": "storage shelf",
+      "location": "0.00,0.00,0.90,0.20,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey metal rack",
+        "size": "large"
+      },
+      "id": "rack",
+      "label": "oven rack",
+      "location": "0.80,0.10,0.95,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "round black frame",
+        "size": "small"
+      },
+      "id": "clock",
+      "label": "wall clock",
+      "location": "0.75,0.00,0.85,0.15,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden table surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "kitchen counter",
+      "location": "0.00,0.60,1.00,1.00,0.8"
+    }
+  ]
+}

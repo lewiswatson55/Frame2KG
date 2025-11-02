@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake2",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pot1",
+      "target": "pancake1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand1",
+      "target": "foil1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "eggs1"
+    },
+    {
+      "predicate": "on",
+      "source": "foil1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "behind",
+      "source": "countertop1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.05,0.3,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.4,0.0,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow batter",
+        "size": "small"
+      },
+      "id": "eggs1",
+      "label": "egg mixture",
+      "location": "0.2,0.7,0.6,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.0,0.7,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "shiny silver",
+        "size": "medium"
+      },
+      "id": "foil1",
+      "label": "aluminum foil",
+      "location": "0.3,0.6,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white",
+        "size": "small"
+      },
+      "id": "pancake1",
+      "label": "pancake",
+      "location": "0.5,0.2,0.7,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white",
+        "size": "small"
+      },
+      "id": "pancake2",
+      "label": "pancake",
+      "location": "0.6,0.1,0.8,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "kitchen countertop",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

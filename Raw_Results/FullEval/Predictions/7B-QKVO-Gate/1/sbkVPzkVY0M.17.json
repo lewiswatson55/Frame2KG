@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "guacamole1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "chips1",
+      "target": "guacamole1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green mashed",
+        "size": "medium"
+      },
+      "id": "guacamole1",
+      "label": "Guacamole",
+      "location": "0.35,0.45,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.3,0.4,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige crispy",
+        "size": "small"
+      },
+      "id": "chips1",
+      "label": "Tortilla Chips",
+      "location": "0.4,0.1,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood grain",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Wooden Table",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

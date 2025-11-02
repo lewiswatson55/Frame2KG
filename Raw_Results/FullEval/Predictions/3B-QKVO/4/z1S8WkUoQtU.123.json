@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "on",
+      "source": "statue1",
+      "target": "table1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall_art1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "statue1",
+      "target": "wall_art1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "dark hair red shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.0,0.6,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "medium"
+      },
+      "id": "bag1",
+      "label": "plastic bag",
+      "location": "0.3,0.7,0.8,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red stone",
+        "size": "small"
+      },
+      "id": "statue1",
+      "label": "sculpture",
+      "location": "0.75,0.4,0.95,0.9,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "black glass",
+        "size": "medium"
+      },
+      "id": "table1",
+      "label": "glass table",
+      "location": "0.6,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver frame black background",
+        "size": "medium"
+      },
+      "id": "wall_art1",
+      "label": "abstract painting",
+      "location": "0.0,0.0,0.5,0.4,0.7"
+    }
+  ]
+}

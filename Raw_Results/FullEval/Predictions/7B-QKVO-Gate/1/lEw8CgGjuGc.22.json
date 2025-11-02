@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "bun_bottom1"
+    },
+    {
+      "predicate": "on",
+      "source": "bun_top1",
+      "target": "bun_bottom1"
+    },
+    {
+      "predicate": "on",
+      "source": "bun_top1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "tablecloth1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown grilled",
+        "size": "medium"
+      },
+      "id": "patty1",
+      "label": "beef patty",
+      "location": "0.35,0.48,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce",
+      "location": "0.25,0.65,0.75,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown bread",
+        "size": "large"
+      },
+      "id": "bun_top1",
+      "label": "burger bun top",
+      "location": "0.2,0.0,0.8,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown bread",
+        "size": "large"
+      },
+      "id": "bun_bottom1",
+      "label": "burger bun bottom",
+      "location": "0.2,0.6,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plastic plate",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink fabric",
+        "size": "large"
+      },
+      "id": "tablecloth1",
+      "label": "tablecloth",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "blender_container"
+    },
+    {
+      "predicate": "in",
+      "source": "green_leafy_ingredients",
+      "target": "blender_container"
+    },
+    {
+      "predicate": "on",
+      "source": "blender_base",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "measuring_cup",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "measuring_cup",
+      "target": "blender_base"
+    },
+    {
+      "predicate": "behind",
+      "source": "plant_pot",
+      "target": "blender_base"
+    },
+    {
+      "predicate": "left_of",
+      "source": "potted_plant_left",
+      "target": "plant_pot"
+    },
+    {
+      "predicate": "right_of",
+      "source": "plant_pot",
+      "target": "plant_pot_right"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "blender_container",
+      "label": "Blender Container",
+      "location": "0.45,0.1,0.75,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "large"
+      },
+      "id": "blender_base",
+      "label": "Blender Base",
+      "location": "0.4,0.5,0.8,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "glass with red markings",
+        "size": "small"
+      },
+      "id": "measuring_cup",
+      "label": "Measuring Cup",
+      "location": "0.0,0.7,0.3,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "green_leafy_ingredients",
+      "label": "Green Leafy Ingredients",
+      "location": "0.5,0.2,0.7,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "Countertop",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl",
+      "label": "Bowl",
+      "location": "0.3,0.6,0.5,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black glove",
+        "size": "medium"
+      },
+      "id": "glove",
+      "label": "Gloved Hand",
+      "location": "0.8,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves in brown pot",
+        "size": "medium"
+      },
+      "id": "plant_pot_left",
+      "label": "Plant Pot",
+      "location": "0.0,0.0,0.2,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves in brown pot",
+        "size": "medium"
+      },
+      "id": "plant_pot_right",
+      "label": "Plant Pot",
+      "location": "0.8,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige brick",
+        "size": "large"
+      },
+      "id": "wall",
+      "label": "Wall",
+      "location": "0.0,0.0,1.0,0.5,0.7"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "fork1"
+    },
+    {
+      "predicate": "holding",
+      "source": "person2",
+      "target": "fork2"
+    },
+    {
+      "predicate": "on",
+      "source": "food1",
+      "target": "fork1"
+    },
+    {
+      "predicate": "on",
+      "source": "food2",
+      "target": "fork2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "glass1",
+      "target": "can1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "refrigerator1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt glasses",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black jacket braided hair",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.47,0.05,0.95,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "fork1",
+      "label": "fork",
+      "location": "0.30,0.40,0.36,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "fork2",
+      "label": "fork",
+      "location": "0.55,0.45,0.62,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange piece",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "food on fork",
+      "location": "0.32,0.45,0.36,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange piece",
+        "size": "small"
+      },
+      "id": "food2",
+      "label": "food on fork",
+      "location": "0.58,0.50,0.62,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "glass1",
+      "label": "glass of beer",
+      "location": "0.00,0.75,0.15,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow can",
+        "size": "small"
+      },
+      "id": "can1",
+      "label": "beer can",
+      "location": "0.85,0.75,0.98,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "refrigerator1",
+      "label": "refrigerator",
+      "location": "0.48,0.00,0.98,0.60,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.00,0.00,0.48,0.30,0.8"
+    }
+  ]
+}

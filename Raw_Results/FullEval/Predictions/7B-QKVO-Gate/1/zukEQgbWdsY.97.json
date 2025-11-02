@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "tongs"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pan2",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "meat1",
+      "target": "board1"
+    },
+    {
+      "predicate": "behind",
+      "source": "window1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "window1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.05,0.0,0.48,0.93,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "Person",
+      "location": "0.52,0.0,1.0,0.93,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "Frying pan",
+      "location": "0.36,0.55,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black cast iron",
+        "size": "medium"
+      },
+      "id": "pan2",
+      "label": "Frying pan",
+      "location": "0.0,0.55,0.45,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw",
+        "size": "small"
+      },
+      "id": "bacon1",
+      "label": "Bacon strips",
+      "location": "0.45,0.65,0.85,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "small"
+      },
+      "id": "tongs",
+      "label": "Tongs",
+      "location": "0.6,0.55,0.8,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "Stove",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "Cutting board",
+      "location": "0.0,0.3,0.4,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "raw pink",
+        "size": "small"
+      },
+      "id": "meat1",
+      "label": "Meat slices",
+      "location": "0.05,0.35,0.35,0.55,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "Window",
+      "location": "0.4,0.0,0.6,0.6,0.7"
+    }
+  ]
+}

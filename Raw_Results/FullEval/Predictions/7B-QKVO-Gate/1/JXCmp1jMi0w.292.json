@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken2",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken3",
+      "target": "board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "behind",
+      "source": "chicken4",
+      "target": "chicken1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "fried chicken piece",
+      "location": "0.15,0.48,0.60,0.79,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken2",
+      "label": "fried chicken piece",
+      "location": "0.60,0.48,0.95,0.79,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "large"
+      },
+      "id": "chicken3",
+      "label": "fried chicken drumstick",
+      "location": "0.30,0.65,0.95,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "salad bowl",
+      "location": "0.00,0.00,0.30,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "cutting board",
+      "location": "0.00,0.40,1.00,1.00,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crumbly",
+        "size": "medium"
+      },
+      "id": "chicken4",
+      "label": "fried chicken pieces",
+      "location": "0.30,0.00,0.95,0.40,0.7"
+    }
+  ]
+}

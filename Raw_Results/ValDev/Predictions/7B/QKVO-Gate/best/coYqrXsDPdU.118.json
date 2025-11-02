@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "liquid1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "on",
+      "source": "spoon1",
+      "target": "liquid1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "metal pot",
+      "location": "0.05,0.0,0.95,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow creamy",
+        "size": "medium"
+      },
+      "id": "liquid1",
+      "label": "creamy liquid",
+      "location": "0.05,0.05,0.95,0.95,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "metal spoon",
+      "location": "0.0,0.0,0.3,0.2,0.6"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "pouring_on",
+      "source": "sauce1",
+      "target": "mixture1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl1",
+      "target": "sauce1"
+    },
+    {
+      "predicate": "in",
+      "source": "herbs1",
+      "target": "mixture1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-colored",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.4,0.0,0.7,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange liquid",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "Sauce",
+      "location": "0.45,0.1,0.6,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "large"
+      },
+      "id": "herbs1",
+      "label": "Herbs",
+      "location": "0.1,0.3,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red and white crumbly",
+        "size": "large"
+      },
+      "id": "mixture1",
+      "label": "Mixture",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    }
+  ]
+}

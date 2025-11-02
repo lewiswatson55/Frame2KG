@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text_water",
+      "target": "background_black"
+    },
+    {
+      "predicate": "on",
+      "source": "text_distilled_vinegar",
+      "target": "background_black"
+    },
+    {
+      "predicate": "on",
+      "source": "line_yellow",
+      "target": "background_white"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle_redhot",
+      "target": "background_white"
+    },
+    {
+      "predicate": "left_of",
+      "source": "text_cayenne_peppers",
+      "target": "text_water"
+    },
+    {
+      "predicate": "right_of",
+      "source": "text_distilled_vinegar",
+      "target": "text_cayenne_peppers"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red glass bottle with red label",
+        "size": "large"
+      },
+      "id": "bottle_redhot",
+      "label": "Frank's RedHot Bottle",
+      "location": "0.05,0.0,0.48,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey text on white background",
+        "size": "medium"
+      },
+      "id": "text_cayenne_peppers",
+      "label": "CAYENNE RED PEPPERS Text",
+      "location": "0.36,0.27,0.64,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black background with grey text",
+        "size": "medium"
+      },
+      "id": "text_water",
+      "label": "WATER Text",
+      "location": "0.64,0.15,0.9,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black background with yellow text",
+        "size": "small"
+      },
+      "id": "text_distilled_vinegar",
+      "label": "DISTILLED VINEGAR Text",
+      "location": "0.64,0.25,0.9,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow line",
+        "size": "medium"
+      },
+      "id": "line_yellow",
+      "label": "Yellow Line",
+      "location": "0.36,0.45,0.9,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white background",
+        "size": "large"
+      },
+      "id": "background_white",
+      "label": "White Background",
+      "location": "0.0,0.0,0.5,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black background",
+        "size": "large"
+      },
+      "id": "background_black",
+      "label": "Black Background",
+      "location": "0.5,0.0,1.0,1.0,0.9"
+    }
+  ]
+}

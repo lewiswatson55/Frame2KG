@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "text2",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "text3",
+      "target": "background"
+    },
+    {
+      "predicate": "left_of",
+      "source": "stripes_left",
+      "target": "text1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "stripes_right",
+      "target": "text1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink gradient",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "white sans-serif",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "New videos every text",
+      "location": "0.45,0.15,0.65,0.25,0.97"
+    },
+    {
+      "attributes": {
+        "appearance": "white sans-serif",
+        "size": "medium"
+      },
+      "id": "text2",
+      "label": "Sunday & Wednesday text",
+      "location": "0.45,0.35,0.65,0.45,0.97"
+    },
+    {
+      "attributes": {
+        "appearance": "white sans-serif",
+        "size": "small"
+      },
+      "id": "text3",
+      "label": "@ 3 pm Germany time text",
+      "location": "0.45,0.55,0.65,0.65,0.97"
+    },
+    {
+      "attributes": {
+        "appearance": "light pink vertical stripes",
+        "size": "small"
+      },
+      "id": "stripes_left",
+      "label": "Vertical stripes",
+      "location": "0.0,0.0,0.15,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "light beige vertical stripe",
+        "size": "small"
+      },
+      "id": "stripes_right",
+      "label": "Vertical stripe",
+      "location": "0.85,0.0,0.95,1.0,0.95"
+    }
+  ]
+}

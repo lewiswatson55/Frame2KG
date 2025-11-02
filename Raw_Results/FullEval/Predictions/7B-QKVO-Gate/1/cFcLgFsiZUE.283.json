@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "coffee_mug1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "plates1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "backsplash1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fridge1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "long blonde hair white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.18,0.65,0.94,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.00,0.00,0.20,1.00,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.00,0.00,1.00,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "beige granite",
+        "size": "medium"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.00,0.30,1.00,0.50,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.30,0.35,0.45,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "coffee_mug1",
+      "label": "coffee mug",
+      "location": "0.45,0.35,0.55,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "ceramic red",
+        "size": "small"
+      },
+      "id": "plates1",
+      "label": "decorative plates",
+      "location": "0.70,0.45,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white tile",
+        "size": "medium"
+      },
+      "id": "backsplash1",
+      "label": "backsplash",
+      "location": "0.00,0.30,1.00,0.50,0.6"
+    }
+  ]
+}

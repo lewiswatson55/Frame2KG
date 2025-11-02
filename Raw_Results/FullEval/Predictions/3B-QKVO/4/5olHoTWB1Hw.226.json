@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pasta1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "stove1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "includes",
+      "source": "tray1",
+      "target": "cheese_shreds1"
+    },
+    {
+      "predicate": "includes",
+      "source": "tray1",
+      "target": "chicken_pieces1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow pasta",
+        "size": "large"
+      },
+      "id": "pasta1",
+      "label": "macaroni",
+      "location": "0.05,0.3,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "baking tray",
+      "location": "0.0,0.4,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "spoon",
+      "location": "0.6,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown skin",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.5,0.8,0.9,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove knobs",
+      "location": "0.2,0.0,0.5,0.3,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "shredded yellow",
+        "size": "small"
+      },
+      "id": "cheese_shreds1",
+      "label": "cheese shreds",
+      "location": "0.2,0.3,0.8,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink chunks",
+        "size": "small"
+      },
+      "id": "chicken_pieces1",
+      "label": "chicken pieces",
+      "location": "0.6,0.4,0.9,0.7,0.8"
+    }
+  ]
+}

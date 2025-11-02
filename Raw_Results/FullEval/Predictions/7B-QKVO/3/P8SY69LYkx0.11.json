@@ -1,0 +1,155 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_meat",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "board_cheese",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "scale",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "tray_eggs",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "tray_vegetables",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "rack_trays",
+      "target": "wall"
+    },
+    {
+      "predicate": "above",
+      "source": "shelves_spices",
+      "target": "countertop"
+    },
+    {
+      "predicate": "left_of",
+      "source": "grill",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "clock",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white chef coat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Chef Brian Scheehser",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "Kitchen Countertop",
+      "location": "0.0,0.4,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass bowl with red meat",
+        "size": "medium"
+      },
+      "id": "bowl_meat",
+      "label": "Bowl of Ground Meat",
+      "location": "0.3,0.6,0.6,0.8,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden board with yellow cheese",
+        "size": "small"
+      },
+      "id": "board_cheese",
+      "label": "Cheese Board",
+      "location": "0.4,0.75,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal scale",
+        "size": "medium"
+      },
+      "id": "scale",
+      "label": "Digital Scale",
+      "location": "0.8,0.7,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "grill",
+      "label": "Grill",
+      "location": "0.0,0.3,0.3,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jars with spices",
+        "size": "medium"
+      },
+      "id": "shelves_spices",
+      "label": "Spice Shelves",
+      "location": "0.0,0.0,1.0,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel rack",
+        "size": "large"
+      },
+      "id": "rack_trays",
+      "label": "Baking Rack Trays",
+      "location": "0.8,0.0,1.0,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black clock on wall",
+        "size": "small"
+      },
+      "id": "clock",
+      "label": "Wall Clock",
+      "location": "0.75,0.0,0.85,0.15,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown eggs",
+        "size": "small"
+      },
+      "id": "tray_eggs",
+      "label": "Tray of Eggs",
+      "location": "0.6,0.4,0.75,0.55,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "assorted vegetables",
+        "size": "small"
+      },
+      "id": "tray_vegetables",
+      "label": "Vegetable Tray",
+      "location": "0.5,0.5,0.7,0.65,0.7"
+    }
+  ]
+}

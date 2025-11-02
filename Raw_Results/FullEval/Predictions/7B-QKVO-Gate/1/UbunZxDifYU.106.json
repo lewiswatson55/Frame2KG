@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "grate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "shaker1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cloth1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "cloth1",
+      "target": "grate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "grate1",
+      "label": "stove grate",
+      "location": "0.45,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey non-stick",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.6,0.3,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with pink meat",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.0,0.0,0.3,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "shaker1",
+      "label": "salt shaker",
+      "location": "0.25,0.0,0.35,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow floral patterned fabric",
+        "size": "medium"
+      },
+      "id": "cloth1",
+      "label": "oven mitt",
+      "location": "0.0,0.3,0.5,0.8,0.8"
+    }
+  ]
+}

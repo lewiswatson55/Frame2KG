@@ -1,0 +1,67 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "table"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "list1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "herbs1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.35,0.48,0.67,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "small glass bowl",
+      "location": "0.00,0.45,0.25,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "large"
+      },
+      "id": "herbs1",
+      "label": "herbs",
+      "location": "0.00,0.00,0.50,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on transparent background",
+        "size": "large"
+      },
+      "id": "list1",
+      "label": "ingredient list",
+      "location": "0.50,0.00,1.00,1.00,0.9"
+    }
+  ]
+}

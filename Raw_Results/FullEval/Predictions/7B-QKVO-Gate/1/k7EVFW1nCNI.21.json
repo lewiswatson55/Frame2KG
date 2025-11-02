@@ -1,0 +1,95 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in",
+      "source": "mixture1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl1",
+      "target": "mixture1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic with red swirls",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "decorative plate",
+      "location": "0.05,0.48,0.95,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce cups",
+      "location": "0.03,0.55,0.97,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crumbly",
+        "size": "medium"
+      },
+      "id": "mixture1",
+      "label": "crumb mixture",
+      "location": "0.05,0.55,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "bowl of mixture",
+      "location": "0.35,0.05,0.95,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.45,0.0,0.95,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "wooden table",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pancake_stack1",
+      "target": "plate_right"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake_stack2",
+      "target": "plate_left"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pancake_stack1",
+      "target": "pancake_stack2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "pancake_stack2",
+      "target": "pancake_stack1"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake_stack1",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake_stack2",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_right",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_left",
+      "target": "table"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "table"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate_right",
+      "label": "Plate",
+      "location": "0.53,0.18,0.97,0.64,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate_left",
+      "label": "Plate",
+      "location": "0.02,0.55,0.55,0.98,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "pancake_stack1",
+      "label": "Pancake Stack",
+      "location": "0.60,0.20,0.85,0.50,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "pancake_stack2",
+      "label": "Pancake Stack",
+      "location": "0.05,0.60,0.45,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "Wooden Table",
+      "location": "0.00,0.30,1.00,1.00,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wearing white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.40,0.00,1.00,0.40,0.8"
+    }
+  ]
+}

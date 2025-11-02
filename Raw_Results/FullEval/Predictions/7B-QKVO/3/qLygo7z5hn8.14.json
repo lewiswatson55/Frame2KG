@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl1",
+      "target": "egg1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fork1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "pitcher1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bowl3",
+      "target": "bowl2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "pitcher1",
+      "label": "glass pitcher",
+      "location": "0.05,0.05,0.28,0.46,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "fork1",
+      "label": "metal fork",
+      "location": "0.07,0.45,0.22,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "large"
+      },
+      "id": "bowl2",
+      "label": "mixing bowl",
+      "location": "0.25,0.4,0.6,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl3",
+      "label": "egg bowl",
+      "location": "0.6,0.5,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white smooth",
+        "size": "small"
+      },
+      "id": "egg1",
+      "label": "eggs",
+      "location": "0.65,0.55,0.88,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.75,0.2,0.98,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "small bowl",
+      "location": "0.7,0.1,0.9,0.35,0.9"
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person2",
+      "target": "stand_mixer"
+    },
+    {
+      "predicate": "on",
+      "source": "mixing_bowl",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_of_cheese",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "tray_with_meat",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "knife_block",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "kettle",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "toaster",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "lamp",
+      "target": "countertop"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person2",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf",
+      "target": "countertop"
+    },
+    {
+      "predicate": "right_of",
+      "source": "oven",
+      "target": "countertop"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.6,0.45,0.98,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red plaid shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.55,0.1,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "small"
+      },
+      "id": "sink",
+      "label": "sink",
+      "location": "0.0,0.3,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "mixing_bowl",
+      "label": "mixing bowl",
+      "location": "0.6,0.5,0.8,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink dough",
+        "size": "medium"
+      },
+      "id": "tray_with_meat",
+      "label": "tray of meat",
+      "location": "0.4,0.7,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green plastic",
+        "size": "small"
+      },
+      "id": "bowl_of_cheese",
+      "label": "bowl of cheese",
+      "location": "0.45,0.6,0.55,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.75,0.6,0.9,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "knife_block",
+      "label": "knife block",
+      "location": "0.2,0.4,0.3,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "kettle",
+      "label": "kettle",
+      "location": "0.3,0.4,0.35,0.55,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "turquoise plastic",
+        "size": "small"
+      },
+      "id": "toaster",
+      "label": "toaster",
+      "location": "0.35,0.4,0.4,0.55,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "small"
+      },
+      "id": "toaster_oven",
+      "label": "toaster oven",
+      "location": "0.4,0.4,0.5,0.55,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "jar",
+      "label": "jar",
+      "location": "0.0,0.0,0.2,0.15,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "grey metal",
+        "size": "large"
+      },
+      "id": "shelf",
+      "label": "shelf",
+      "location": "0.0,0.0,0.6,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "oven",
+      "label": "oven",
+      "location": "0.8,0.2,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink plastic",
+        "size": "medium"
+      },
+      "id": "stand_mixer",
+      "label": "stand mixer",
+      "location": "0.6,0.4,0.75,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue glass",
+        "size": "small"
+      },
+      "id": "lamp",
+      "label": "lamp",
+      "location": "0.45,0.3,0.5,0.4,0.7"
+    }
+  ]
+}

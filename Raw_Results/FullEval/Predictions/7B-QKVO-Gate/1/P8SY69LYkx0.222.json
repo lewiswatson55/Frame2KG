@@ -1,0 +1,127 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "patty2",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "patty3",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "patty4",
+      "target": "board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "patty5",
+      "target": "patty6"
+    },
+    {
+      "predicate": "next_to",
+      "source": "patty7",
+      "target": "patty8"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "behind",
+      "source": "person1",
+      "target": "board"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.0,0.0,0.3,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "wooden cutting board",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red ground meat",
+        "size": "small"
+      },
+      "id": "patty1",
+      "label": "raw burger patty",
+      "location": "0.25,0.45,0.45,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red ground meat",
+        "size": "small"
+      },
+      "id": "patty2",
+      "label": "raw burger patty",
+      "location": "0.35,0.35,0.55,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red ground meat",
+        "size": "small"
+      },
+      "id": "patty3",
+      "label": "raw burger patty",
+      "location": "0.45,0.45,0.65,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red ground meat",
+        "size": "medium"
+      },
+      "id": "patty4",
+      "label": "raw burger patty",
+      "location": "0.6,0.3,0.8,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red ground meat",
+        "size": "medium"
+      },
+      "id": "patty5",
+      "label": "raw burger patty",
+      "location": "0.6,0.5,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "purple onion slices",
+        "size": "small"
+      },
+      "id": "patty6",
+      "label": "sliced red onion",
+      "location": "0.8,0.4,0.95,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.0,0.0,1.0,0.4,0.8"
+    }
+  ]
+}

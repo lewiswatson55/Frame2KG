@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "towel"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "chicken1",
+      "target": "person1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken2",
+      "target": "tray1"
+    },
+    {
+      "predicate": "on",
+      "source": "fork1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "behind",
+      "source": "stove1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "includes",
+      "source": "pan1",
+      "target": "chicken3"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "striped green and white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.0,0.0,0.45,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "Electric Stove",
+      "location": "0.3,0.1,0.7,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "Baking Tray",
+      "location": "0.2,0.3,0.8,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.0,0.5,0.4,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white cloth",
+        "size": "medium"
+      },
+      "id": "towel",
+      "label": "Towel",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "Fried Chicken Pieces",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light beige breaded",
+        "size": "small"
+      },
+      "id": "chicken2",
+      "label": "Coated Chicken Piece",
+      "location": "0.4,0.3,0.6,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "fork1",
+      "label": "Fork",
+      "location": "0.5,0.35,0.7,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "Cooking Pan",
+      "location": "0.4,0.0,0.6,0.2,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "chicken3",
+      "label": "Fried Chicken Piece",
+      "location": "0.5,0.0,0.6,0.2,0.9"
+    }
+  ]
+}

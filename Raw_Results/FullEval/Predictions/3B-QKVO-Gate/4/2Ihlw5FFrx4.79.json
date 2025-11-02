@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "tomato_slices"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato_slices",
+      "target": "cheese_mix"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese_mix",
+      "target": "bread_slice"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_slice",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text_overlay",
+      "target": "bread_slice"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.0,0.95,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red",
+        "size": "small"
+      },
+      "id": "tomato_slices",
+      "label": "Tomato slices",
+      "location": "0.3,0.2,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white",
+        "size": "small"
+      },
+      "id": "cheese_mix",
+      "label": "Feta and cream cheese mix",
+      "location": "0.2,0.4,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown",
+        "size": "medium"
+      },
+      "id": "bread_slice",
+      "label": "Bread slice",
+      "location": "0.1,0.5,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cutting_board",
+      "label": "Cutting board",
+      "location": "0.0,0.4,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on pink background",
+        "size": "medium"
+      },
+      "id": "text_overlay",
+      "label": "Text overlay",
+      "location": "0.0,0.8,0.5,1.0,0.9"
+    }
+  ]
+}

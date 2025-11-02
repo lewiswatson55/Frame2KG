@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "tomato1",
+      "target": "bread"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato2",
+      "target": "bread"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese",
+      "target": "bread"
+    },
+    {
+      "predicate": "on",
+      "source": "bread",
+      "target": "board"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "board"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text2",
+      "target": "board"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown whole grain",
+        "size": "medium"
+      },
+      "id": "bread",
+      "label": "slice of bread",
+      "location": "0.15,0.48,0.93,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red juicy",
+        "size": "small"
+      },
+      "id": "tomato1",
+      "label": "tomato slice",
+      "location": "0.25,0.35,0.65,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red juicy",
+        "size": "small"
+      },
+      "id": "tomato2",
+      "label": "tomato slice",
+      "location": "0.55,0.35,0.95,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy",
+        "size": "small"
+      },
+      "id": "cheese",
+      "label": "feta cream cheese mix",
+      "location": "0.2,0.5,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "wooden cutting board",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text box",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "instruction text",
+      "location": "0.0,0.8,0.3,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black bar",
+        "size": "small"
+      },
+      "id": "text2",
+      "label": "logo text",
+      "location": "0.7,0.0,1.0,0.15,0.9"
+    }
+  ]
+}

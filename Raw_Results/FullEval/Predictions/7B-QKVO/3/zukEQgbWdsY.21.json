@@ -1,0 +1,150 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "window"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "knife",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "towel",
+      "target": "countertop"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "oven",
+      "target": "cabinet_left"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "oven",
+      "target": "cabinet_right"
+    },
+    {
+      "predicate": "behind",
+      "source": "trees",
+      "target": "window"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "bearded black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt with pig graphic",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.52,0.05,0.95,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "oven",
+      "label": "oven",
+      "location": "0.75,0.1,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinet_left",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinet_right",
+      "label": "kitchen cabinet",
+      "location": "0.6,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass frame",
+        "size": "large"
+      },
+      "id": "window",
+      "label": "window",
+      "location": "0.0,0.0,0.5,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green foliage",
+        "size": "large"
+      },
+      "id": "trees",
+      "label": "trees",
+      "location": "0.0,0.0,0.5,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "bowl",
+      "label": "mixing bowl",
+      "location": "0.0,0.75,0.3,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver blade black handle",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.0,0.7,0.2,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue fabric",
+        "size": "small"
+      },
+      "id": "towel",
+      "label": "towel",
+      "location": "0.0,0.7,0.3,0.8,0.8"
+    }
+  ]
+}

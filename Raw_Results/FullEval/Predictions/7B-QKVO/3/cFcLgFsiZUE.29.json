@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "chicken_wings",
+      "target": "bowl"
+    },
+    {
+      "predicate": "in",
+      "source": "sauce_spoon",
+      "target": "bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "sauce_spoon",
+      "target": "chicken_wings"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl",
+      "label": "glass bowl",
+      "location": "0.05,0.05,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white raw meat",
+        "size": "medium"
+      },
+      "id": "chicken_wings",
+      "label": "raw chicken wings",
+      "location": "0.1,0.3,0.9,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red liquid",
+        "size": "small"
+      },
+      "id": "sauce_spoon",
+      "label": "spoon of sauce",
+      "location": "0.2,0.0,0.6,0.4,0.7"
+    }
+  ]
+}

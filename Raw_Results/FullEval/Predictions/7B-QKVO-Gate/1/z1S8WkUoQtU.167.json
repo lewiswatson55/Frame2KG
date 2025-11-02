@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "on",
+      "source": "painting1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "on",
+      "source": "painting2",
+      "target": "wall1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sculpture1",
+      "target": "couch1"
+    },
+    {
+      "predicate": "behind",
+      "source": "couch1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "dark hair red shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.25,0.0,0.75,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige painted",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame gold border",
+        "size": "medium"
+      },
+      "id": "painting1",
+      "label": "framed art piece",
+      "location": "0.05,0.05,0.3,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame gold border",
+        "size": "medium"
+      },
+      "id": "painting2",
+      "label": "framed art piece",
+      "location": "0.4,0.05,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange ceramic",
+        "size": "small"
+      },
+      "id": "sculpture1",
+      "label": "ceramic sculpture",
+      "location": "0.75,0.3,0.95,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown fabric",
+        "size": "large"
+      },
+      "id": "couch1",
+      "label": "sofa",
+      "location": "0.0,0.7,1.0,1.0,0.7"
+    }
+  ]
+}

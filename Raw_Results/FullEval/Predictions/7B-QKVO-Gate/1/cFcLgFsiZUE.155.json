@@ -1,0 +1,183 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "chicken_wing"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_of_food",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_of_sauce",
+      "target": "plate_of_food"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "fridge"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet_group",
+      "target": "person2"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "coffee_machine",
+      "target": "fridge"
+    },
+    {
+      "predicate": "on",
+      "source": "utensil_holder",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "stove",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "basket",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "picture_frame",
+      "target": "countertop"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blonde hair white shirt black apron",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.05,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark hair beard glasses black chef coat",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.47,0.05,0.96,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic with orange chicken wings",
+        "size": "small"
+      },
+      "id": "plate_of_food",
+      "label": "plate of food",
+      "location": "0.25,0.65,0.65,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange sauce",
+        "size": "small"
+      },
+      "id": "bowl_of_sauce",
+      "label": "sauce bowl",
+      "location": "0.15,0.75,0.25,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "fridge",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet_group",
+      "label": "kitchen cabinets",
+      "location": "0.4,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "coffee_machine",
+      "label": "coffee machine",
+      "location": "0.1,0.1,0.25,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "small"
+      },
+      "id": "utensil_holder",
+      "label": "utensil holder",
+      "location": "0.4,0.15,0.5,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove",
+      "label": "stove",
+      "location": "0.8,0.6,1.0,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "woven brown",
+        "size": "small"
+      },
+      "id": "basket",
+      "label": "basket",
+      "location": "0.75,0.3,0.85,0.45,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden frame",
+        "size": "small"
+      },
+      "id": "picture_frame",
+      "label": "picture frame",
+      "location": "0.85,0.3,0.95,0.45,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "orange chicken wing",
+        "size": "small"
+      },
+      "id": "chicken_wing",
+      "label": "chicken wing",
+      "location": "0.55,0.3,0.65,0.4,0.8"
+    }
+  ]
+}

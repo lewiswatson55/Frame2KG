@@ -1,0 +1,159 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "thumb_up"
+    },
+    {
+      "predicate": "on",
+      "source": "paper_towel",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "plant",
+      "target": "paper_towel"
+    },
+    {
+      "predicate": "on",
+      "source": "pot",
+      "target": "stove"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fridge",
+      "target": "cabinet"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "microwave",
+      "target": "cabinet"
+    },
+    {
+      "predicate": "behind",
+      "source": "oven",
+      "target": "microwave"
+    },
+    {
+      "predicate": "left_of",
+      "source": "door",
+      "target": "cabinet"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "long brown hair, pink apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.15,0.1,0.45,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue outline white center",
+        "size": "medium"
+      },
+      "id": "thumb_up",
+      "label": "like sign",
+      "location": "0.3,0.3,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white marble",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "pot",
+      "label": "cooking pot",
+      "location": "0.0,0.6,0.1,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver stainless steel",
+        "size": "large"
+      },
+      "id": "fridge",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.3,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "kitchen cabinet",
+      "location": "0.3,0.0,0.7,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "door",
+      "label": "wooden door",
+      "location": "0.75,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black glass front",
+        "size": "medium"
+      },
+      "id": "microwave",
+      "label": "microwave oven",
+      "location": "0.5,0.3,0.8,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "oven",
+      "label": "oven",
+      "location": "0.5,0.6,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green paper roll",
+        "size": "small"
+      },
+      "id": "paper_towel",
+      "label": "paper towel holder",
+      "location": "0.05,0.6,0.15,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "plant",
+      "label": "potted plant",
+      "location": "0.15,0.6,0.25,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "stove",
+      "label": "gas stove",
+      "location": "0.0,0.5,0.2,0.7,0.8"
+    }
+  ]
+}

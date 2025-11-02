@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person_hands",
+      "target": "knife"
+    },
+    {
+      "predicate": "holding",
+      "source": "person_hands",
+      "target": "cheese_block"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese_block",
+      "target": "bun"
+    },
+    {
+      "predicate": "on",
+      "source": "bun",
+      "target": "board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bun_left",
+      "target": "bun_right"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person_hands",
+      "label": "hands",
+      "location": "0.0,0.0,1.0,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal blade with white handle",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.3,0.2,0.8,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic block",
+        "size": "small"
+      },
+      "id": "cheese_block",
+      "label": "cheese block",
+      "location": "0.6,0.3,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown soft",
+        "size": "medium"
+      },
+      "id": "bun_left",
+      "label": "bread bun",
+      "location": "0.0,0.5,0.2,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown soft",
+        "size": "medium"
+      },
+      "id": "bun_right",
+      "label": "bread bun",
+      "location": "0.4,0.5,0.8,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "cutting board",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "on",
+      "source": "pasta1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "in",
+      "source": "cheese1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray2",
+      "target": "tray1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "container1",
+      "target": "tray1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "foil tray",
+      "location": "0.05,0.1,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow creamy",
+        "size": "medium"
+      },
+      "id": "cheese1",
+      "label": "macaroni cheese",
+      "location": "0.1,0.3,0.9,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white pasta",
+        "size": "medium"
+      },
+      "id": "pasta1",
+      "label": "macaroni",
+      "location": "0.1,0.4,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.2,0.25,0.6,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.0,0.4,0.3,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tray2",
+      "label": "foil tray",
+      "location": "0.6,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "container1",
+      "label": "bowl",
+      "location": "0.5,0.0,0.9,0.2,0.8"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "onion_rings1"
+    },
+    {
+      "predicate": "in",
+      "source": "onion_rings1",
+      "target": "batter1"
+    },
+    {
+      "predicate": "in",
+      "source": "onion_rings1",
+      "target": "egg_mixture1"
+    },
+    {
+      "predicate": "on",
+      "source": "batter1",
+      "target": "egg_mixture1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.45,0.0,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white battered",
+        "size": "small"
+      },
+      "id": "onion_rings1",
+      "label": "Onion Rings",
+      "location": "0.0,0.3,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange liquid",
+        "size": "large"
+      },
+      "id": "egg_mixture1",
+      "label": "Egg Mixture",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "medium"
+      },
+      "id": "batter1",
+      "label": "Batter",
+      "location": "0.0,0.3,1.0,1.0,0.7"
+    }
+  ]
+}

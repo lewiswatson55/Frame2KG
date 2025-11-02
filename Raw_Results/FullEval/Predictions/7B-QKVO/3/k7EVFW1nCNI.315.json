@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "bowl1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "table1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "bowl3",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl3",
+      "target": "mixture1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl2",
+      "target": "mixture1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "Glass bowl",
+      "location": "0.05,0.4,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl2",
+      "label": "Glass bowl",
+      "location": "0.1,0.1,0.9,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy",
+        "size": "small"
+      },
+      "id": "mixture1",
+      "label": "White mixture",
+      "location": "0.2,0.2,0.8,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "bowl3",
+      "label": "Plastic bowl",
+      "location": "0.3,0.0,0.7,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood grain",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Wooden table",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

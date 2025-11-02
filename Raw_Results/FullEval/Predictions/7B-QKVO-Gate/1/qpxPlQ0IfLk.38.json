@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "cutting",
+      "source": "knife1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "salt_bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper_bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lemon1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "behind",
+      "source": "tongs1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "pan1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red blue plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.45,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black handle metal blade",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.38,0.27,0.65,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown crust",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "baguette bread",
+      "location": "0.45,0.45,0.65,0.65,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "wooden cutting board",
+      "location": "0.0,0.4,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "beer bottle",
+      "location": "0.0,0.0,0.2,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "lemon",
+      "location": "0.2,0.45,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white granules",
+        "size": "small"
+      },
+      "id": "salt_bowl1",
+      "label": "salt bowl",
+      "location": "0.05,0.6,0.2,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown pepper grains",
+        "size": "small"
+      },
+      "id": "pepper_bowl1",
+      "label": "pepper bowl",
+      "location": "0.2,0.6,0.35,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "tongs1",
+      "label": "kitchen tongs",
+      "location": "0.2,0.2,0.5,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "grill pan",
+      "location": "0.0,0.75,1.0,1.0,0.8"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "grill"
+    },
+    {
+      "predicate": "on",
+      "source": "patty2",
+      "target": "grill"
+    },
+    {
+      "predicate": "on",
+      "source": "patty3",
+      "target": "grill"
+    },
+    {
+      "predicate": "on",
+      "source": "patty4",
+      "target": "grill"
+    },
+    {
+      "predicate": "next_to",
+      "source": "patty1",
+      "target": "patty2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "patty2",
+      "target": "patty3"
+    },
+    {
+      "predicate": "next_to",
+      "source": "patty3",
+      "target": "patty4"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink minced meat with white crumbles and green herbs",
+        "size": "medium"
+      },
+      "id": "patty1",
+      "label": "raw burger patty",
+      "location": "0.15,0.38,0.67,0.79,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink minced meat with white crumbles and green herbs",
+        "size": "medium"
+      },
+      "id": "patty2",
+      "label": "raw burger patty",
+      "location": "0.0,0.0,0.45,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink minced meat with white crumbles and green herbs",
+        "size": "medium"
+      },
+      "id": "patty3",
+      "label": "raw burger patty",
+      "location": "0.55,0.0,0.95,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink minced meat with white crumbles and green herbs",
+        "size": "medium"
+      },
+      "id": "patty4",
+      "label": "raw burger patty",
+      "location": "0.45,0.6,0.95,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal bars",
+        "size": "large"
+      },
+      "id": "grill",
+      "label": "grill grate",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

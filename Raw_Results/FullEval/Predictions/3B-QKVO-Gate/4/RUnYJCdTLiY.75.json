@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "sink1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "microwave1",
+      "target": "cabinet_left"
+    },
+    {
+      "predicate": "above",
+      "source": "pan1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cutting_board1",
+      "target": "salt_jars"
+    },
+    {
+      "predicate": "right_of",
+      "source": "salt_jars",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "stove1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "below",
+      "source": "dishwasher1",
+      "target": "countertop"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "dark hair red shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.0,0.45,1.0,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "kitchen sink",
+      "location": "0.3,0.5,0.5,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "pan1",
+      "label": "hanging pans",
+      "location": "0.35,0.0,0.65,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "medium"
+      },
+      "id": "cabinet_left",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.25,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel black",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave oven",
+      "location": "0.0,0.0,0.25,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black stainless steel",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.4,0.25,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic silver lids",
+        "size": "small"
+      },
+      "id": "salt_jars",
+      "label": "salt jars",
+      "location": "0.75,0.5,0.9,0.65,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.55,0.45,0.7,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "dishwasher1",
+      "label": "dishwasher",
+      "location": "0.6,0.7,0.9,0.9,0.7"
+    }
+  ]
+}

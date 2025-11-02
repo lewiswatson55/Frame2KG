@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bag1",
+      "target": "table1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bag1",
+      "target": "cabinet1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow red green packaging",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "Texas Toast Croutons Bag",
+      "location": "0.05,0.0,0.95,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "medium"
+      },
+      "id": "table1",
+      "label": "Table Surface",
+      "location": "0.0,0.6,0.4,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey metal",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "Kitchen Cabinet",
+      "location": "0.6,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

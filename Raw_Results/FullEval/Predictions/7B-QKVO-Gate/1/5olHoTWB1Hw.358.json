@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "food1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in",
+      "source": "food2",
+      "target": "dish1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "dish1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "holding",
+      "source": "spoon1",
+      "target": "food1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "spoon1",
+      "target": "food2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Green Plate",
+      "location": "0.35,0.05,0.98,0.94,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cheesy pasta",
+        "size": "medium"
+      },
+      "id": "food1",
+      "label": "Macaroni and Cheese",
+      "location": "0.6,0.3,0.97,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange cheesy pasta",
+        "size": "small"
+      },
+      "id": "food2",
+      "label": "Macaroni and Cheese",
+      "location": "0.0,0.0,0.4,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "dish1",
+      "label": "Baking Dish",
+      "location": "0.0,0.0,0.5,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.5,0.0,0.7,0.4,0.7"
+    }
+  ]
+}

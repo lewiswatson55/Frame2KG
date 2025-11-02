@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "food1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "spoon1",
+      "target": "food1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bag1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "bag1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green plastic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.35,0.05,0.98,0.94,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige crumbly",
+        "size": "medium"
+      },
+      "id": "food1",
+      "label": "crumb mixture",
+      "location": "0.45,0.15,0.97,0.86,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "spoon",
+      "location": "0.55,0.05,0.75,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone with pink nail polish",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.75,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow red foil",
+        "size": "medium"
+      },
+      "id": "bag1",
+      "label": "foil packet",
+      "location": "0.0,0.0,0.6,0.3,0.7"
+    }
+  ]
+}

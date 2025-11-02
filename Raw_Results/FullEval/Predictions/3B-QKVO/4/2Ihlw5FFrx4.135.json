@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "tv_screen1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "behind",
+      "source": "window1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "window1",
+      "target": "person2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "person2",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "short brown hair, teal shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.1,0.45,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "long dark hair, green dress",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.55,0.1,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with food",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "food plate",
+      "location": "0.3,0.6,0.5,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink background screen",
+        "size": "large"
+      },
+      "id": "tv_screen1",
+      "label": "television screen",
+      "location": "0.2,0.0,0.8,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white table surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.6,0.0,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink wall",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "blender1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "framed_artwork1",
+      "target": "framed_artwork2"
+    },
+    {
+      "predicate": "behind",
+      "source": "artwork_frame1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "artwork_frame2",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "pepper_mill1",
+      "target": "salt_mill1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "basket1",
+      "target": "framed_artwork1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.45,0.05,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red silicone",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.63,0.47,0.85,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.65,0.55,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "small"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.30,0.55,0.45,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "glass jar",
+      "location": "0.20,0.75,0.28,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl",
+      "location": "0.28,0.75,0.35,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green lettuce and red tomatoes",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate of vegetables",
+      "location": "0.75,0.75,0.95,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black electric",
+        "size": "small"
+      },
+      "id": "stove1",
+      "label": "portable stove",
+      "location": "0.60,0.65,0.75,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "pepper_mill1",
+      "label": "pepper mill",
+      "location": "0.90,0.55,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "salt_mill1",
+      "label": "salt mill",
+      "location": "0.95,0.55,1.00,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden bowl green apples",
+        "size": "small"
+      },
+      "id": "basket1",
+      "label": "fruit basket",
+      "location": "0.00,0.45,0.15,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver frame brown wood",
+        "size": "medium"
+      },
+      "id": "framed_artwork1",
+      "label": "framed artwork",
+      "location": "0.05,0.30,0.25,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver frame pink blue art",
+        "size": "medium"
+      },
+      "id": "framed_artwork2",
+      "label": "framed artwork",
+      "location": "0.75,0.05,0.95,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame abstract art",
+        "size": "medium"
+      },
+      "id": "artwork_frame1",
+      "label": "artwork frame",
+      "location": "0.40,0.00,0.60,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame colorful art",
+        "size": "medium"
+      },
+      "id": "artwork_frame2",
+      "label": "artwork frame",
+      "location": "0.60,0.00,0.80,0.25,0.8"
+    }
+  ]
+}

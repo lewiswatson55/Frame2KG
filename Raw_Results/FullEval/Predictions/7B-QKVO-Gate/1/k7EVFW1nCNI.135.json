@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "food_processor1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "bowl1",
+      "target": "food_processor1"
+    },
+    {
+      "predicate": "includes",
+      "source": "food_processor1",
+      "target": "mixture1"
+    },
+    {
+      "predicate": "on",
+      "source": "food_processor1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.0,0.0,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.5,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red silicone",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "spatula",
+      "location": "0.3,0.1,0.7,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic metal",
+        "size": "large"
+      },
+      "id": "food_processor1",
+      "label": "food processor",
+      "location": "0.2,0.4,0.8,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "creamy white",
+        "size": "medium"
+      },
+      "id": "mixture1",
+      "label": "mixture",
+      "location": "0.3,0.5,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.8,1.0,1.0,0.7"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "child_hand"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "child_hand",
+      "target": "background1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "adult person",
+      "location": "0.0,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "child_hand",
+      "label": "child's hand",
+      "location": "0.45,0.3,0.85,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey blurred",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "background",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

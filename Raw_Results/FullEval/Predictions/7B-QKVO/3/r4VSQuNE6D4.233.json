@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "pancake"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "plant1",
+      "target": "table"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "dark hair wearing black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.45,0.0,0.95,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "medium"
+      },
+      "id": "pancake",
+      "label": "pancake",
+      "location": "0.6,0.6,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves in red pot",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "potted plant",
+      "location": "0.1,0.3,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on red outline",
+        "size": "large"
+      },
+      "id": "text1",
+      "label": "website text",
+      "location": "0.0,0.2,1.0,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wooden surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "table",
+      "location": "0.0,0.5,1.0,1.0,0.7"
+    }
+  ]
+}

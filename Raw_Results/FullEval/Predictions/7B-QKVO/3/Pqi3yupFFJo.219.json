@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "whisk"
+    },
+    {
+      "predicate": "in",
+      "source": "whisk",
+      "target": "bowl"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "bag1",
+      "target": "bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl",
+      "target": "countertop"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white glove",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "gloved hand",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "whisk",
+      "label": "metal whisk",
+      "location": "0.37,0.1,0.63,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "bag1",
+      "label": "plastic bag",
+      "location": "0.6,0.0,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige ceramic",
+        "size": "large"
+      },
+      "id": "bowl",
+      "label": "mixing bowl",
+      "location": "0.2,0.2,0.8,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black smooth surface",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

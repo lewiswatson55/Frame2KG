@@ -1,0 +1,155 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "towel1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "fruit_bowl1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "hanging_pans"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall_shelf1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "stools1",
+      "target": "counter1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "multicolored plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.0,0.65,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.45,0.45,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottle with yellow liquid",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "oil bottle",
+      "location": "0.75,0.6,0.8,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.7,0.75,0.85,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white cloth",
+        "size": "small"
+      },
+      "id": "towel1",
+      "label": "cloth towel",
+      "location": "0.5,0.7,0.6,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown ceramic",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "jar",
+      "location": "0.0,0.2,0.2,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden bowl with fruits",
+        "size": "small"
+      },
+      "id": "fruit_bowl1",
+      "label": "fruit bowl",
+      "location": "0.2,0.2,0.3,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey brick",
+        "size": "large"
+      },
+      "id": "wall_shelf1",
+      "label": "brick wall shelf",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden stools",
+        "size": "small"
+      },
+      "id": "stools1",
+      "label": "bar stools",
+      "location": "0.0,0.5,0.3,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "hanging_pans",
+      "label": "hanging pans",
+      "location": "0.5,0.0,0.7,0.3,0.8"
+    }
+  ]
+}

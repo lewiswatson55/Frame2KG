@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "microwave1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinets1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinets1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "canisters1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.45,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.3,0.6,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white enamel",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "electric stove",
+      "location": "0.0,0.5,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white glass",
+        "size": "small"
+      },
+      "id": "microwave1",
+      "label": "microwave",
+      "location": "0.0,0.0,0.2,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinets1",
+      "label": "kitchen cabinets",
+      "location": "0.3,0.2,0.8,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white granite",
+        "size": "medium"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.2,0.2,0.8,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue ceramic",
+        "size": "small"
+      },
+      "id": "canisters1",
+      "label": "canisters",
+      "location": "0.3,0.1,0.7,0.3,0.7"
+    }
+  ]
+}

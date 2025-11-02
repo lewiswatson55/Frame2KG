@@ -1,0 +1,192 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "lemon1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "toaster1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "stove1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "pots_hanging1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "behind",
+      "source": "board1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "multicolored plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.45,0.05,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.15,0.35,0.35,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "mustard bottle",
+      "location": "0.35,0.65,0.45,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "jar",
+      "location": "0.35,0.65,0.45,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.45,0.65,0.65,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.45,0.75,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "toaster1",
+      "label": "toaster",
+      "location": "0.65,0.75,0.85,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.65,0.75,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "pan",
+      "location": "0.65,0.75,0.85,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark grey stone",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey brick",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "pots_hanging1",
+      "label": "hanging pots",
+      "location": "0.5,0.0,0.7,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden frame",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "chalkboard",
+      "location": "0.75,0.0,0.95,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow skin",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "lemon",
+      "location": "0.45,0.75,0.55,0.85,0.8"
+    }
+  ]
+}

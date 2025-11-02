@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "cheese1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "can1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.35,0.25,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow and white shredded",
+        "size": "medium"
+      },
+      "id": "cheese1",
+      "label": "shredded cheese",
+      "location": "0.45,0.35,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown skin",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.75,0.65,1.0,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "electric stove",
+      "location": "0.0,0.0,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red and blue plastic",
+        "size": "small"
+      },
+      "id": "can1",
+      "label": "sauce can",
+      "location": "0.0,0.0,0.3,0.3,0.7"
+    }
+  ]
+}

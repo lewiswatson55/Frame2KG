@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "vase1",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "painting1",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "painting2",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "sign1",
+      "target": "shelf"
+    },
+    {
+      "predicate": "next_to",
+      "source": "curtain1",
+      "target": "shelf"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "grey hair black hoodie",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf",
+      "label": "shelf",
+      "location": "0.0,0.4,0.6,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue glass",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "vase",
+      "location": "0.35,0.45,0.45,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange frame",
+        "size": "small"
+      },
+      "id": "painting1",
+      "label": "picture",
+      "location": "0.0,0.0,0.2,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow frame",
+        "size": "small"
+      },
+      "id": "painting2",
+      "label": "picture",
+      "location": "0.05,0.25,0.2,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "sign1",
+      "label": "sign",
+      "location": "0.3,0.6,0.4,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green striped fabric",
+        "size": "large"
+      },
+      "id": "curtain1",
+      "label": "curtain",
+      "location": "0.6,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

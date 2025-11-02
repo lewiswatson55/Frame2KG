@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "flour1",
+      "target": "bowl_left"
+    },
+    {
+      "predicate": "in",
+      "source": "liquid1",
+      "target": "bowl_left"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_left",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_right",
+      "target": "countertop"
+    },
+    {
+      "predicate": "in",
+      "source": "flour2",
+      "target": "bowl_right"
+    },
+    {
+      "predicate": "next_to",
+      "source": "hand_left",
+      "target": "bowl_left"
+    },
+    {
+      "predicate": "next_to",
+      "source": "hand_right",
+      "target": "bowl_right"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "bowl_left",
+      "label": "mixing bowl",
+      "location": "0.05,0.35,0.60,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "bowl_right",
+      "label": "mixing bowl",
+      "location": "0.60,0.35,0.98,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light yellow liquid",
+        "size": "medium"
+      },
+      "id": "liquid1",
+      "label": "yellow liquid",
+      "location": "0.10,0.45,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "flour1",
+      "label": "flour",
+      "location": "0.15,0.50,0.50,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "flour2",
+      "label": "flour",
+      "location": "0.65,0.45,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand_left",
+      "label": "hand",
+      "location": "0.20,0.20,0.45,0.60,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand_right",
+      "label": "hand",
+      "location": "0.75,0.20,0.98,0.60,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black speckled",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.00,0.75,1.00,1.00,0.9"
+    }
+  ]
+}

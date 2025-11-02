@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "logo1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.35,0.05,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.15,0.45,0.85,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce Leaf",
+      "location": "0.25,0.55,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grilled brown",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "Grilled Chicken",
+      "location": "0.45,0.55,0.85,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Wooden Table",
+      "location": "0.0,0.5,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden bowl with salt",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Bowl of Salt",
+      "location": "0.85,0.6,1.0,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white fish graphic",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Hungry Logo",
+      "location": "0.0,0.0,0.2,0.2,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.0,0.0,0.4,1.0,0.6"
+    }
+  ]
+}

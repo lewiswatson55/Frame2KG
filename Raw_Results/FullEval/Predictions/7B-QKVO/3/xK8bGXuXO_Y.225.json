@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle2",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "window1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "apron1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink shirt blue apron black hair glasses",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.05,0.75,0.98,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.45,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass green liquid",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "glass bottle",
+      "location": "0.65,0.05,0.75,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass yellow liquid",
+        "size": "small"
+      },
+      "id": "bottle2",
+      "label": "glass bottle",
+      "location": "0.75,0.05,0.85,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "kitchen shelf",
+      "location": "0.5,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue white striped fabric",
+        "size": "medium"
+      },
+      "id": "apron1",
+      "label": "apron",
+      "location": "0.4,0.4,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "medium"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.8,0.3,1.0,0.7,0.7"
+    }
+  ]
+}

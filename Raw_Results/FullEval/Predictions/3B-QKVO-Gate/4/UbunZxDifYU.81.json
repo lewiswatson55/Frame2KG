@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "grater"
+    },
+    {
+      "predicate": "on",
+      "source": "grater",
+      "target": "board"
+    },
+    {
+      "predicate": "in",
+      "source": "potato1",
+      "target": "bowl"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar1",
+      "target": "bowl"
+    },
+    {
+      "predicate": "right_of",
+      "source": "shaker1",
+      "target": "bowl"
+    },
+    {
+      "predicate": "behind",
+      "source": "plate1",
+      "target": "bowl"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.3,0.6,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "grater",
+      "label": "Grater",
+      "location": "0.0,0.0,0.7,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl",
+      "label": "Glass Bowl",
+      "location": "0.3,0.3,0.8,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown",
+        "size": "small"
+      },
+      "id": "potato1",
+      "label": "Potato",
+      "location": "0.45,0.45,0.65,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "Jar",
+      "location": "0.75,0.0,0.95,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "shaker1",
+      "label": "Shaker",
+      "location": "0.8,0.6,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "multicolored",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.4,0.0,0.6,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "Cutting Board",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    }
+  ]
+}

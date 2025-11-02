@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "on",
+      "source": "bun_top1",
+      "target": "tomato1"
+    },
+    {
+      "predicate": "on",
+      "source": "bun_bottom1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "burger1"
+    },
+    {
+      "predicate": "behind",
+      "source": "meat_patties1",
+      "target": "burger1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown bun with white spread",
+        "size": "medium"
+      },
+      "id": "bun_top1",
+      "label": "top bun",
+      "location": "0.35,0.05,0.98,0.47,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red",
+        "size": "small"
+      },
+      "id": "tomato1",
+      "label": "tomato slice",
+      "location": "0.45,0.45,0.95,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown ground meat",
+        "size": "medium"
+      },
+      "id": "patty1",
+      "label": "beef patty",
+      "location": "0.45,0.55,0.95,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaf",
+      "location": "0.35,0.65,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown bread",
+        "size": "medium"
+      },
+      "id": "bun_bottom1",
+      "label": "bottom bun",
+      "location": "0.35,0.75,0.95,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "raw brown patties",
+        "size": "medium"
+      },
+      "id": "meat_patties1",
+      "label": "raw beef patties",
+      "location": "0.0,0.0,0.5,0.4,0.8"
+    }
+  ]
+}

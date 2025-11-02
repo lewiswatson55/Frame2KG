@@ -1,0 +1,141 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "paper_towel_holder",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "plant_pot",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bunny_icon",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "white_container",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "microwave",
+      "target": "cabinet"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "fridge",
+      "target": "wall"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cabinet",
+      "target": "door"
+    },
+    {
+      "predicate": "behind",
+      "source": "fridge",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "long brown hair, pink and white dress",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.25,0.1,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "fridge",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.3,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "kitchen cabinet",
+      "location": "0.4,0.0,0.8,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "microwave",
+      "label": "microwave oven",
+      "location": "0.6,0.3,0.8,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "white_container",
+      "label": "storage container",
+      "location": "0.5,0.6,0.7,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green plastic",
+        "size": "small"
+      },
+      "id": "bunny_icon",
+      "label": "bunny icon",
+      "location": "0.05,0.6,0.15,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper towel roll",
+        "size": "small"
+      },
+      "id": "paper_towel_holder",
+      "label": "paper towel holder",
+      "location": "0.15,0.6,0.25,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green plant pot",
+        "size": "small"
+      },
+      "id": "plant_pot",
+      "label": "plant pot",
+      "location": "0.25,0.6,0.35,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wooden",
+        "size": "large"
+      },
+      "id": "door",
+      "label": "wooden door",
+      "location": "0.8,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light grey stone",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.7"
+    }
+  ]
+}

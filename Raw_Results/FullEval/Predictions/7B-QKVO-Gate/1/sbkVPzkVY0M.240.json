@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bun1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "sauce1",
+      "target": "bun1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bun2",
+      "target": "bun1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cup1",
+      "target": "bun1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown bread",
+        "size": "medium"
+      },
+      "id": "bun1",
+      "label": "burger bun",
+      "location": "0.05,0.45,0.98,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "creamy white",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "mayonnaise sauce",
+      "location": "0.1,0.45,0.9,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown bread",
+        "size": "medium"
+      },
+      "id": "bun2",
+      "label": "burger bun",
+      "location": "0.7,0.3,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "cup1",
+      "label": "glass cup",
+      "location": "0.3,0.0,0.7,0.5,0.7"
+    }
+  ]
+}

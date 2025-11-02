@@ -1,0 +1,66 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "squeeze_bottle1"
+    },
+    {
+      "predicate": "on",
+      "source": "sauce_stream1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stovetop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black non-stick surface",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.35,0.1,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic with yellow cap",
+        "size": "small"
+      },
+      "id": "squeeze_bottle1",
+      "label": "squeeze bottle",
+      "location": "0.6,0.0,0.9,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.7,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "creamy white liquid stream",
+        "size": "small"
+      },
+      "id": "sauce_stream1",
+      "label": "sauce stream",
+      "location": "0.6,0.2,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white glossy surface",
+        "size": "large"
+      },
+      "id": "stovetop1",
+      "label": "stovetop",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

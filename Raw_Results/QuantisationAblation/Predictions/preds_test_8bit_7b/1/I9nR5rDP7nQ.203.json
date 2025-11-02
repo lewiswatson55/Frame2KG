@@ -1,0 +1,206 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "fruit_bowl",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper_grinder",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "salt_shaker",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pepper_grinder",
+      "target": "salt_shaker"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "table1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "utensil_rack",
+      "target": "wall1"
+    },
+    {
+      "predicate": "above",
+      "source": "shelf1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "sink1",
+      "target": "oven1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "fridge1",
+      "target": "oven1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt black apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.35,0.18,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "kitchen sink",
+      "location": "0.15,0.45,0.45,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "utensil_rack",
+      "label": "hanging utensils rack",
+      "location": "0.05,0.05,0.45,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "small"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.25,0.05,0.75,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.5,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.75,0.1,1.0,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "oven1",
+      "label": "oven",
+      "location": "0.65,0.3,0.85,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.7,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.45,0.55,0.55,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.3,0.75,0.4,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "glass bowl",
+      "location": "0.4,0.75,0.5,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "mixed fruits",
+        "size": "small"
+      },
+      "id": "fruit_bowl",
+      "label": "fruit bowl",
+      "location": "0.5,0.75,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue plastic",
+        "size": "small"
+      },
+      "id": "pepper_grinder",
+      "label": "pepper grinder",
+      "location": "0.75,0.75,0.8,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "salt_shaker",
+      "label": "salt shaker",
+      "location": "0.8,0.75,0.85,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey wall",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

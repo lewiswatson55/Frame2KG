@@ -1,0 +1,196 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_slices",
+      "target": "plate_left"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread_slices",
+      "target": "bacon_slices"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon_slices",
+      "target": "plate_right"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "avocado_sauce",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "blender",
+      "target": "cabinet"
+    },
+    {
+      "predicate": "behind",
+      "source": "window",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "stove",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "cutting_board",
+      "target": "person2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottles",
+      "target": "cabinet"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "bearded black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "tattooed black t-shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.47,0.05,0.96,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "gas stove",
+      "location": "0.0,0.6,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "pan",
+      "label": "frying pan",
+      "location": "0.0,0.6,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate_left",
+      "label": "plate",
+      "location": "0.2,0.75,0.5,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate_right",
+      "label": "plate",
+      "location": "0.5,0.75,0.8,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread",
+        "size": "small"
+      },
+      "id": "bread_slices",
+      "label": "bread slices",
+      "location": "0.3,0.8,0.6,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "cooked red",
+        "size": "small"
+      },
+      "id": "bacon_slices",
+      "label": "bacon strips",
+      "location": "0.5,0.75,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce",
+      "label": "lettuce",
+      "location": "0.6,0.85,0.9,0.98,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green paste",
+        "size": "small"
+      },
+      "id": "avocado_sauce",
+      "label": "avocado sauce",
+      "location": "0.6,0.75,0.7,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.6,0.7,0.9,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender",
+      "label": "blender",
+      "location": "0.8,0.5,0.98,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "kitchen cabinet",
+      "location": "0.5,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottles",
+        "size": "small"
+      },
+      "id": "bottles",
+      "label": "bottles",
+      "location": "0.75,0.1,0.95,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "window",
+      "label": "window",
+      "location": "0.0,0.0,0.4,0.6,0.8"
+    }
+  ]
+}

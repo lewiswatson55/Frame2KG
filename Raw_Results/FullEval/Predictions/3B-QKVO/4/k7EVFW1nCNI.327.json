@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cherry1",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "board1",
+      "target": "cabinet1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white floral patterned shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.3,0.6,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow soft",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "cheese block",
+      "location": "0.45,0.7,0.55,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red",
+        "size": "small"
+      },
+      "id": "cherry1",
+      "label": "cherries",
+      "location": "0.55,0.7,0.6,0.75,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic blade black handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.75,0.6,0.9,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white painted wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    }
+  ]
+}

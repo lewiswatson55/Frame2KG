@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "hat1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black chef coat and black-and-white checkered hat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.53,0.04,0.98,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic tiles with beige border",
+        "size": "medium"
+      },
+      "id": "tile_wall1",
+      "label": "tiled wall",
+      "location": "0.0,0.0,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown frame",
+        "size": "small"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.2,0.0,0.8,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "beige countertop",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal pot",
+        "size": "medium"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.0,0.75,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass bowl with white rice",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl of rice",
+      "location": "0.3,0.75,0.6,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black and white checkered fabric",
+        "size": "small"
+      },
+      "id": "hat1",
+      "label": "chef hat",
+      "location": "0.5,0.0,0.7,0.2,0.8"
+    }
+  ]
+}

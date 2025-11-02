@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "behind",
+      "source": "watermelon1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "tray1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "wooden cutting board",
+      "location": "0.05,0.35,0.95,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted brown crust",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "bread slices",
+      "location": "0.40,0.45,0.70,0.60,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic with black seeds",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "spice bowl",
+      "location": "0.05,0.50,0.30,0.70,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "green rind",
+        "size": "medium"
+      },
+      "id": "watermelon1",
+      "label": "watermelon half",
+      "location": "0.10,0.20,0.60,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "griddle pan",
+      "location": "0.00,0.65,1.00,1.00,0.9"
+    }
+  ]
+}

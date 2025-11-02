@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "icon1",
+      "target": "icon2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "shadow1",
+      "target": "icon1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green glossy",
+        "size": "medium"
+      },
+      "id": "icon1",
+      "label": "play button icon",
+      "location": "0.35,0.28,0.65,0.57,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light green semi-transparent",
+        "size": "small"
+      },
+      "id": "icon2",
+      "label": "person silhouette icon",
+      "location": "0.45,0.35,0.60,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey shadow",
+        "size": "small"
+      },
+      "id": "shadow1",
+      "label": "shadow",
+      "location": "0.35,0.55,0.65,0.65,0.7"
+    }
+  ]
+}

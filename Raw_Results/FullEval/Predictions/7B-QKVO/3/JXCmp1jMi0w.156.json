@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "box1"
+    },
+    {
+      "predicate": "on",
+      "source": "box1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "towel1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "towel1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green and white striped shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.0,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown cardboard",
+        "size": "medium"
+      },
+      "id": "box1",
+      "label": "cardboard box",
+      "location": "0.45,0.7,0.98,0.98,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.75,0.1,0.95,0.35,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white cloth",
+        "size": "small"
+      },
+      "id": "towel1",
+      "label": "towel",
+      "location": "0.7,0.35,0.98,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light-colored surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.5,1.0,1.0,0.6"
+    }
+  ]
+}

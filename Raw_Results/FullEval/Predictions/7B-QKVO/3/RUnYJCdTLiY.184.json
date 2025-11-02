@@ -1,0 +1,184 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "microwave1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "pan_rack1",
+      "target": "window1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "utensil_holder1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "jar1",
+      "target": "utensil_holder1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "sink1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "above",
+      "source": "window1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "person1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "utensil_holder1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "dishwasher1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "maroon top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.05,0.4,0.45,0.75,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "silver stainless steel",
+        "size": "small"
+      },
+      "id": "microwave1",
+      "label": "microwave oven",
+      "location": "0.1,0.05,0.4,0.25,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.5,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "pan_rack1",
+      "label": "hanging pan rack",
+      "location": "0.6,0.0,0.9,0.25,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "medium"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.5,0.0,0.9,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige ceramic",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "ceramic jar",
+      "location": "0.15,0.45,0.25,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal utensils",
+        "size": "small"
+      },
+      "id": "utensil_holder1",
+      "label": "utensil holder",
+      "location": "0.0,0.45,0.15,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.6,0.45,0.85,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.4,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.85,0.45,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "dishwasher1",
+      "label": "dishwasher",
+      "location": "0.8,0.7,1.0,1.0,0.8"
+    }
+  ]
+}

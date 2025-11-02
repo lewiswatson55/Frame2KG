@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "onion_rings"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wire_rack"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_batter",
+      "target": "tray_onions"
+    },
+    {
+      "predicate": "left_of",
+      "source": "tray_onions",
+      "target": "bowl_batter"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Person Arms",
+      "location": "0.05,0.0,0.95,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal grid",
+        "size": "large"
+      },
+      "id": "wire_rack",
+      "label": "Wire Rack",
+      "location": "0.1,0.1,0.9,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "bowl_batter",
+      "label": "Bowl of Batter",
+      "location": "0.3,0.5,0.5,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "tray_onions",
+      "label": "Tray of Onion Rings",
+      "location": "0.5,0.5,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple white rings",
+        "size": "small"
+      },
+      "id": "onion_rings",
+      "label": "Onion Rings",
+      "location": "0.55,0.55,0.85,0.85,0.7"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "on",
+      "source": "buns1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "in",
+      "source": "tray1",
+      "target": "oven1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "door1",
+      "target": "oven1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "countertop1",
+      "target": "oven1"
+    },
+    {
+      "predicate": "supports",
+      "source": "cabinet1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt red glove",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.65,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "oven1",
+      "label": "oven",
+      "location": "0.3,0.0,0.7,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal rack",
+        "size": "medium"
+      },
+      "id": "rack1",
+      "label": "oven rack",
+      "location": "0.4,0.2,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown bread",
+        "size": "small"
+      },
+      "id": "buns1",
+      "label": "buns",
+      "location": "0.45,0.25,0.75,0.45,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "baking tray",
+      "location": "0.4,0.2,0.8,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.0,0.4,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "cabinet",
+      "location": "0.0,0.0,0.4,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass door",
+        "size": "medium"
+      },
+      "id": "door1",
+      "label": "oven door",
+      "location": "0.3,0.0,0.7,0.3,0.8"
+    }
+  ]
+}

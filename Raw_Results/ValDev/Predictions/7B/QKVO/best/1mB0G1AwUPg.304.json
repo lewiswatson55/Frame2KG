@@ -1,0 +1,119 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "fork"
+    },
+    {
+      "predicate": "holding",
+      "source": "person2",
+      "target": "spoon"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "salad_bowl"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "salad_bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce",
+      "target": "salad_bowl"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pot",
+      "target": "salad_bowl"
+    },
+    {
+      "predicate": "behind",
+      "source": "bread_rack",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "bread_rack",
+      "target": "person2"
+    },
+    {
+      "predicate": "above",
+      "source": "menu_board",
+      "target": "person1"
+    },
+    {
+      "predicate": "above",
+      "source": "menu_board",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.0,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white sweater",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.47,0.0,0.95,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic bowl",
+        "size": "large"
+      },
+      "id": "salad_bowl",
+      "label": "salad bowl",
+      "location": "0.2,0.6,0.8,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce",
+      "label": "lettuce",
+      "location": "0.35,0.7,0.65,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pot",
+      "label": "cooking pot",
+      "location": "0.85,0.6,1.0,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown loaves wrapped in plastic",
+        "size": "medium"
+      },
+      "id": "bread_rack",
+      "label": "bread rack",
+      "location": "0.4,0.1,0.9,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blackboard menu",
+        "size": "large"
+      },
+      "id": "menu_board",
+      "label": "menu board",
+      "location": "0.0,0.0,1.0,0.2,0.7"
+    }
+  ]
+}

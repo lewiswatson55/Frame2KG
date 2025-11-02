@@ -1,0 +1,141 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife_block1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_white1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_red1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "kettle_yellow1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar_jalapeno1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black chef coat",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plaid shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.65,0.05,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.47,0.35,0.55,0.45,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "wall shelf",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "kettle_yellow1",
+      "label": "electric kettle",
+      "location": "0.2,0.6,0.3,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl_white1",
+      "label": "bowl",
+      "location": "0.1,0.7,0.2,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "small"
+      },
+      "id": "bowl_red1",
+      "label": "bowl",
+      "location": "0.2,0.7,0.3,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "knife_block1",
+      "label": "knife block",
+      "location": "0.0,0.6,0.15,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar with red lid",
+        "size": "small"
+      },
+      "id": "jar_jalapeno1",
+      "label": "jalapeno jar",
+      "location": "0.4,0.1,0.5,0.2,0.7"
+    }
+  ]
+}

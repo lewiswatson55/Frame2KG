@@ -1,0 +1,196 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "lettuce"
+    },
+    {
+      "predicate": "on",
+      "source": "sandwich",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "blender",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window"
+    },
+    {
+      "predicate": "behind",
+      "source": "oven",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bottles",
+      "target": "oven"
+    },
+    {
+      "predicate": "left_of",
+      "source": "pan",
+      "target": "stove"
+    },
+    {
+      "predicate": "supports",
+      "source": "plate",
+      "target": "bread_slices"
+    },
+    {
+      "predicate": "supports",
+      "source": "board",
+      "target": "sandwich"
+    },
+    {
+      "predicate": "includes",
+      "source": "container",
+      "target": "dip"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spoon",
+      "target": "container"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.05,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.60,0.05,0.90,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.60,0.60,0.90,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread with lettuce and bacon",
+        "size": "small"
+      },
+      "id": "sandwich",
+      "label": "sandwich",
+      "location": "0.65,0.65,0.85,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green smoothie in black base",
+        "size": "medium"
+      },
+      "id": "blender",
+      "label": "blender",
+      "location": "0.85,0.45,0.98,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic plate with bread slices",
+        "size": "medium"
+      },
+      "id": "plate",
+      "label": "plate of bread slices",
+      "location": "0.30,0.75,0.60,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass bowl with green dip",
+        "size": "small"
+      },
+      "id": "container",
+      "label": "dip container",
+      "location": "0.55,0.75,0.65,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal spoon",
+        "size": "small"
+      },
+      "id": "spoon",
+      "label": "spoon",
+      "location": "0.45,0.75,0.55,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottles on shelf",
+        "size": "medium"
+      },
+      "id": "bottles",
+      "label": "bottles",
+      "location": "0.75,0.05,0.95,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal pan",
+        "size": "medium"
+      },
+      "id": "pan",
+      "label": "frying pan",
+      "location": "0.00,0.60,0.30,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black gas stove",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "gas stove",
+      "location": "0.00,0.50,0.40,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass window",
+        "size": "large"
+      },
+      "id": "window",
+      "label": "window",
+      "location": "0.00,0.00,0.40,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel oven",
+        "size": "medium"
+      },
+      "id": "oven",
+      "label": "oven",
+      "location": "0.50,0.05,0.70,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood cabinets",
+        "size": "large"
+      },
+      "id": "cabinets",
+      "label": "kitchen cabinets",
+      "location": "0.50,0.00,1.00,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "sliced bread",
+        "size": "small"
+      },
+      "id": "bread_slices",
+      "label": "bread slices",
+      "location": "0.30,0.85,0.60,0.98,0.8"
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "packet1"
+    },
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar2",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "lemon1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pot1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "pan1",
+      "target": "rack1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "brick_wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue red plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.0,0.65,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.1,0.4,0.3,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "mustard jar",
+      "location": "0.4,0.6,0.45,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "jar2",
+      "label": "sugar bowl",
+      "location": "0.45,0.65,0.5,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "lemon",
+      "location": "0.5,0.7,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "bread slices",
+      "location": "0.6,0.75,0.7,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "griddle1",
+      "label": "griddle",
+      "location": "0.7,0.7,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red cardboard",
+        "size": "small"
+      },
+      "id": "packet1",
+      "label": "packet",
+      "location": "0.45,0.3,0.5,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottle",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "oil bottle",
+      "location": "0.5,0.45,0.55,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey brick",
+        "size": "large"
+      },
+      "id": "brick_wall1",
+      "label": "brick wall",
+      "location": "0.0,0.0,1.0,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "medium"
+      },
+      "id": "rack1",
+      "label": "hanging rack",
+      "location": "0.6,0.0,0.9,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "pans",
+      "location": "0.65,0.0,0.9,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.0,0.2,0.5,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "potted plant",
+      "location": "0.1,0.1,0.2,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "medium"
+      },
+      "id": "stool1",
+      "label": "bar stool",
+      "location": "0.2,0.4,0.3,0.7,0.7"
+    }
+  ]
+}

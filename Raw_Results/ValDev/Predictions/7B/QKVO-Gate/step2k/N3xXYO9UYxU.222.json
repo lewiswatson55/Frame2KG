@@ -1,0 +1,95 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pan1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "pan1",
+      "target": "lid1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "lid1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "behind",
+      "source": "shaker1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "supports",
+      "source": "mat1",
+      "target": "bowl2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.05,0.3,0.75,0.98,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.0,0.0,0.6,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with yellow liquid",
+        "size": "medium"
+      },
+      "id": "bowl2",
+      "label": "glass bowl",
+      "location": "0.45,0.0,0.95,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow ceramic",
+        "size": "small"
+      },
+      "id": "lid1",
+      "label": "ceramic lid",
+      "location": "0.8,0.4,0.98,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "shaker1",
+      "label": "salt shaker",
+      "location": "0.9,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "orange woven",
+        "size": "small"
+      },
+      "id": "mat1",
+      "label": "woven mat",
+      "location": "0.45,0.3,0.75,0.5,0.7"
+    }
+  ]
+}

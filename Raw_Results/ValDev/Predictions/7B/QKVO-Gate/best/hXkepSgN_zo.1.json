@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "play_icon",
+      "target": "background"
+    },
+    {
+      "predicate": "left_of",
+      "source": "plate_apples",
+      "target": "play_icon"
+    },
+    {
+      "predicate": "right_of",
+      "source": "cake_slice",
+      "target": "play_icon"
+    },
+    {
+      "predicate": "below",
+      "source": "steak_plate",
+      "target": "play_icon"
+    },
+    {
+      "predicate": "right_of",
+      "source": "peach_jar",
+      "target": "play_icon"
+    },
+    {
+      "predicate": "below",
+      "source": "tortilla_stack",
+      "target": "peach_jar"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white",
+        "size": "medium"
+      },
+      "id": "play_icon",
+      "label": "Play Icon",
+      "location": "0.45,0.6,0.55,0.78,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue plastic",
+        "size": "large"
+      },
+      "id": "plate_apples",
+      "label": "Plate of Apples",
+      "location": "0.13,0.15,0.45,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cake on colorful plate",
+        "size": "medium"
+      },
+      "id": "cake_slice",
+      "label": "Cake Slice",
+      "location": "0.6,0.0,0.9,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown meat on white plate",
+        "size": "medium"
+      },
+      "id": "steak_plate",
+      "label": "Steak Plate",
+      "location": "0.13,0.5,0.45,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent jar with yellow peaches",
+        "size": "medium"
+      },
+      "id": "peach_jar",
+      "label": "Peach Jar",
+      "location": "0.75,0.25,0.98,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige tortillas with red sauce",
+        "size": "medium"
+      },
+      "id": "tortilla_stack",
+      "label": "Tortilla Stack",
+      "location": "0.75,0.55,0.98,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.99"
+    }
+  ]
+}

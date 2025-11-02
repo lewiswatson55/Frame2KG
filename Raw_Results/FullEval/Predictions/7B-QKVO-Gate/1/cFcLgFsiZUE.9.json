@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "mixer1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife_block1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "fan1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fridge1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "picture_frame1",
+      "target": "fridge1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "long blonde hair white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige granite",
+        "size": "medium"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.4,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.2,0.5,0.3,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "mixer1",
+      "label": "stand mixer",
+      "location": "0.3,0.5,0.4,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden block with knives",
+        "size": "small"
+      },
+      "id": "knife_block1",
+      "label": "knife block",
+      "location": "0.1,0.5,0.2,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.6,0.4,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic red",
+        "size": "small"
+      },
+      "id": "fan1",
+      "label": "wall fan",
+      "location": "0.7,0.5,0.85,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark brown frame",
+        "size": "small"
+      },
+      "id": "picture_frame1",
+      "label": "picture frame",
+      "location": "0.85,0.6,1.0,0.9,0.8"
+    }
+  ]
+}

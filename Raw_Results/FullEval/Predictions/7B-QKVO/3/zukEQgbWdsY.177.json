@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "leaf1"
+    },
+    {
+      "predicate": "in",
+      "source": "leaf1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "cup1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cup1",
+      "target": "cup2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cup2",
+      "target": "blender1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.05,0.0,0.48,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "leaf1",
+      "label": "Leaf",
+      "location": "0.30,0.50,0.40,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.00,0.55,0.45,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "cup1",
+      "label": "Measuring Cup",
+      "location": "0.45,0.55,0.60,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "cup2",
+      "label": "Measuring Cup",
+      "location": "0.60,0.55,0.75,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "large"
+      },
+      "id": "blender1",
+      "label": "Blender",
+      "location": "0.75,0.0,1.00,0.60,0.9"
+    }
+  ]
+}

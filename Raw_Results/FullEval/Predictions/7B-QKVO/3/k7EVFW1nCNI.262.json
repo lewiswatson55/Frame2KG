@@ -1,0 +1,165 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "package1"
+    },
+    {
+      "predicate": "on",
+      "source": "vase1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "red_tumbler1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "soap_dispenser1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "sink1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "microwave1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "vase1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "microwave1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "stove1",
+      "target": "blender1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white floral shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "package1",
+      "label": "anchovy paste package",
+      "location": "0.47,0.55,0.63,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with red roses",
+        "size": "medium"
+      },
+      "id": "vase1",
+      "label": "flower vase",
+      "location": "0.15,0.25,0.25,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "red_tumbler1",
+      "label": "tumbler",
+      "location": "0.25,0.45,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "soap_dispenser1",
+      "label": "soap dispenser",
+      "location": "0.3,0.45,0.35,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "sink1",
+      "label": "kitchen sink",
+      "location": "0.1,0.5,0.4,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black stainless steel",
+        "size": "large"
+      },
+      "id": "microwave1",
+      "label": "microwave oven",
+      "location": "0.75,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black stove top",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.7,0.5,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent bowl with white contents",
+        "size": "small"
+      },
+      "id": "blender1",
+      "label": "food processor",
+      "location": "0.75,0.75,0.9,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.4,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "upper cabinets",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    }
+  ]
+}

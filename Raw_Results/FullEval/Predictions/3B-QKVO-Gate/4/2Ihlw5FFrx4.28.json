@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text_box",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "basket1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.35,0.45,0.75,0.98,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic mesh",
+        "size": "small"
+      },
+      "id": "basket1",
+      "label": "plastic mesh basket",
+      "location": "0.0,0.6,0.25,0.98,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on white background",
+        "size": "large"
+      },
+      "id": "text_box",
+      "label": "ingredient list box",
+      "location": "0.6,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "wooden table",
+      "location": "0.0,0.6,1.0,1.0,0.85"
+    }
+  ]
+}

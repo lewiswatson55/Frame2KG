@@ -1,0 +1,109 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "bread2",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "butter1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "jam1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "butter1",
+      "target": "bread2"
+    },
+    {
+      "predicate": "on",
+      "source": "jam1",
+      "target": "bread2"
+    },
+    {
+      "predicate": "pouring_on",
+      "source": "oil_stream",
+      "target": "bread1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand1",
+      "target": "board"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crust",
+        "size": "medium"
+      },
+      "id": "bread1",
+      "label": "bread slice",
+      "location": "0.35,0.48,0.67,0.69,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crust",
+        "size": "medium"
+      },
+      "id": "bread2",
+      "label": "bread slice",
+      "location": "0.25,0.55,0.75,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow spread",
+        "size": "small"
+      },
+      "id": "butter1",
+      "label": "butter",
+      "location": "0.38,0.52,0.62,0.62,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green spread",
+        "size": "small"
+      },
+      "id": "jam1",
+      "label": "jam",
+      "location": "0.40,0.55,0.60,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent liquid stream",
+        "size": "small"
+      },
+      "id": "oil_stream",
+      "label": "oil stream",
+      "location": "0.50,0.00,0.60,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white glove",
+        "size": "large"
+      },
+      "id": "hand1",
+      "label": "gloved hand",
+      "location": "0.00,0.00,0.60,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "wooden board",
+      "location": "0.00,0.40,1.00,1.00,0.9"
+    }
+  ]
+}

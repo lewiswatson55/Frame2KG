@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand_left",
+      "target": "pan"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand_right",
+      "target": "pan"
+    },
+    {
+      "predicate": "in",
+      "source": "eggs",
+      "target": "pan"
+    },
+    {
+      "predicate": "on",
+      "source": "pan",
+      "target": "stove_surface"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin",
+        "size": "medium"
+      },
+      "id": "hand_left",
+      "label": "left hand",
+      "location": "0.05,0.1,0.48,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin",
+        "size": "medium"
+      },
+      "id": "hand_right",
+      "label": "right hand",
+      "location": "0.6,0.3,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan",
+      "label": "frying pan",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow liquid",
+        "size": "medium"
+      },
+      "id": "eggs",
+      "label": "scrambled eggs",
+      "location": "0.1,0.2,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spatula",
+      "label": "metal spatula",
+      "location": "0.4,0.0,0.8,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "stove_surface",
+      "label": "stove top",
+      "location": "0.0,0.0,1.0,0.3,0.6"
+    }
+  ]
+}

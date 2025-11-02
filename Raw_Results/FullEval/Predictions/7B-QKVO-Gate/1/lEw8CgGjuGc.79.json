@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "knob1"
+    },
+    {
+      "predicate": "on",
+      "source": "knob1",
+      "target": "panel1"
+    },
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "panel1"
+    },
+    {
+      "predicate": "on",
+      "source": "text2",
+      "target": "panel1"
+    },
+    {
+      "predicate": "on",
+      "source": "icon1",
+      "target": "panel1"
+    },
+    {
+      "predicate": "on",
+      "source": "icon2",
+      "target": "panel1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "large"
+      },
+      "id": "panel1",
+      "label": "control panel",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "knob1",
+      "label": "ignition knob",
+      "location": "0.45,0.3,0.78,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.75,0.3,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white uppercase letters",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "text 'OUTDOOR USE ONLY'",
+      "location": "0.0,0.0,0.5,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white uppercase letters",
+        "size": "small"
+      },
+      "id": "text2",
+      "label": "text 'IGNITION BURNER'",
+      "location": "0.4,0.0,0.8,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white lowercase letters",
+        "size": "small"
+      },
+      "id": "icon1",
+      "label": "water droplet icon",
+      "location": "0.2,0.5,0.3,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white lowercase letters",
+        "size": "small"
+      },
+      "id": "icon2",
+      "label": "flash icon",
+      "location": "0.75,0.0,0.85,0.15,0.7"
+    }
+  ]
+}

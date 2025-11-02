@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "grater1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "grater1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl1",
+      "target": "meat1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl1",
+      "target": "spice1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "jar2",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "grater1",
+      "label": "metal grater",
+      "location": "0.05,0.0,0.65,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.15,0.25,0.75,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "medium"
+      },
+      "id": "meat1",
+      "label": "raw meat",
+      "location": "0.25,0.4,0.7,0.8,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "green spice",
+        "size": "small"
+      },
+      "id": "spice1",
+      "label": "spice",
+      "location": "0.45,0.5,0.55,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.0,0.6,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "plastic jar",
+      "location": "0.75,0.6,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown glass",
+        "size": "medium"
+      },
+      "id": "jar2",
+      "label": "oil bottle",
+      "location": "0.7,0.0,0.9,0.4,0.8"
+    }
+  ]
+}

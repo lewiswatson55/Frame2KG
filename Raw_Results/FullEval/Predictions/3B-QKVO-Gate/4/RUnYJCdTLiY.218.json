@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "griddle"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake2",
+      "target": "griddle"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pancake1",
+      "target": "pancake2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "griddle",
+      "label": "Griddle",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "pale beige batter",
+        "size": "medium"
+      },
+      "id": "pancake1",
+      "label": "Pancake",
+      "location": "0.1,0.3,0.6,0.7,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "pale beige batter",
+        "size": "medium"
+      },
+      "id": "pancake2",
+      "label": "Pancake",
+      "location": "0.6,0.2,0.9,0.6,0.88"
+    }
+  ]
+}

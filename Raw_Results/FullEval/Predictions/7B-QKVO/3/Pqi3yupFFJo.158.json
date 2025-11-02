@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "flour_bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "flour_bowl",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "onion_rings_plate",
+      "target": "countertop"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text_overlay",
+      "target": "countertop"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "medium"
+      },
+      "id": "flour_bowl",
+      "label": "Flour Bowl",
+      "location": "0.05,0.05,0.48,0.63,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with red onion rings",
+        "size": "large"
+      },
+      "id": "onion_rings_plate",
+      "label": "Plate of Onion Rings",
+      "location": "0.47,0.15,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.30,0.00,0.60,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black background white text",
+        "size": "large"
+      },
+      "id": "text_overlay",
+      "label": "Text Overlay",
+      "location": "0.00,0.75,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark surface",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "Countertop",
+      "location": "0.00,0.60,1.00,1.00,0.8"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "stove1",
+      "target": "wall_cabinet1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "faucet1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "behind",
+      "source": "sink1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "left_of",
+      "source": "wall_cabinet1",
+      "target": "window1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "window1",
+      "target": "wall_cabinet1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "logo1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black chef coat and checkered headscarf",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.53,0.0,1.0,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "white tiled backsplash",
+        "size": "medium"
+      },
+      "id": "wall_cabinet1",
+      "label": "upper cabinet",
+      "location": "0.0,0.0,0.4,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic tiles",
+        "size": "medium"
+      },
+      "id": "wall_tiles",
+      "label": "kitchen wall tiles",
+      "location": "0.0,0.3,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bowl with food",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "food bowl",
+      "location": "0.35,0.6,0.55,0.8,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal pan",
+        "size": "small"
+      },
+      "id": "pan1",
+      "label": "cooking pan",
+      "location": "0.0,0.75,0.3,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black stove top",
+        "size": "small"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.75,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white countertop",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.3,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden frame",
+        "size": "medium"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.4,0.0,0.6,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver faucet",
+        "size": "small"
+      },
+      "id": "faucet1",
+      "label": "faucet",
+      "location": "0.5,0.2,0.6,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic sink",
+        "size": "small"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.45,0.2,0.6,0.35,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white script text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Chef Ricardo logo",
+      "location": "0.5,0.7,1.0,1.0,0.9"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl_small"
+    },
+    {
+      "predicate": "in",
+      "source": "meat1",
+      "target": "bowl_large"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_small",
+      "target": "bowl_large"
+    },
+    {
+      "predicate": "behind",
+      "source": "bowl_water",
+      "target": "bowl_large"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.35,0.0,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl_large",
+      "label": "Glass Bowl",
+      "location": "0.25,0.2,0.75,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red raw meat",
+        "size": "small"
+      },
+      "id": "meat1",
+      "label": "Ground Brisket",
+      "location": "0.4,0.4,0.7,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl_small",
+      "label": "Small Glass Bowl",
+      "location": "0.45,0.45,0.75,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "Knife",
+      "location": "0.8,0.7,0.98,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl_water",
+      "label": "Water Bowl",
+      "location": "0.0,0.1,0.3,0.5,0.8"
+    }
+  ]
+}

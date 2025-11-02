@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "chopper1",
+      "target": "container1"
+    },
+    {
+      "predicate": "on",
+      "source": "container1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "container1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue floral shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.5,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "medium"
+      },
+      "id": "container1",
+      "label": "Food Processor Container",
+      "location": "0.3,0.4,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "small"
+      },
+      "id": "chopper1",
+      "label": "Chopping Blade",
+      "location": "0.45,0.45,0.6,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Bowl of Ingredients",
+      "location": "0.0,0.0,0.4,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    }
+  ]
+}

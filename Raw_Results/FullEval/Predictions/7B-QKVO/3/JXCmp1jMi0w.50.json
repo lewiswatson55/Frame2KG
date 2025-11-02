@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bag1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "behind",
+      "source": "bag1",
+      "target": "chicken1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "raw chicken pieces",
+      "location": "0.35,0.48,0.97,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "white plate",
+      "location": "0.25,0.55,0.95,0.98,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cutting_board1",
+      "label": "wooden cutting board",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic with red contents",
+        "size": "medium"
+      },
+      "id": "bag1",
+      "label": "plastic bag",
+      "location": "0.4,0.0,1.0,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light blue painted",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "blue wall",
+      "location": "0.0,0.0,0.5,1.0,0.6"
+    }
+  ]
+}

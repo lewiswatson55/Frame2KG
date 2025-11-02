@@ -1,0 +1,89 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bun_top"
+    },
+    {
+      "predicate": "on",
+      "source": "patty",
+      "target": "lettuce"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce",
+      "target": "bun_bottom"
+    },
+    {
+      "predicate": "on",
+      "source": "burger",
+      "target": "plate"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted brown",
+        "size": "small"
+      },
+      "id": "bun_top",
+      "label": "Bun Top",
+      "location": "0.25,0.2,0.75,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted brown",
+        "size": "small"
+      },
+      "id": "bun_bottom",
+      "label": "Bun Bottom",
+      "location": "0.25,0.6,0.75,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grilled brown",
+        "size": "medium"
+      },
+      "id": "patty",
+      "label": "Beef Patty",
+      "location": "0.3,0.45,0.7,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce",
+      "label": "Lettuce Leaf",
+      "location": "0.2,0.5,0.8,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "large"
+      },
+      "id": "plate",
+      "label": "Plate",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bun",
+        "size": "medium"
+      },
+      "id": "burger",
+      "label": "Hamburger",
+      "location": "0.2,0.3,0.8,0.8,0.9"
+    }
+  ]
+}

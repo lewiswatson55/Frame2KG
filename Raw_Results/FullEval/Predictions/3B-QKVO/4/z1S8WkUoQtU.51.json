@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "shirt1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall_art1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "vase1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "dark hair red shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "red cotton",
+        "size": "medium"
+      },
+      "id": "shirt1",
+      "label": "shirt",
+      "location": "0.1,0.3,0.7,0.9,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame white abstract painting",
+        "size": "medium"
+      },
+      "id": "wall_art1",
+      "label": "painting",
+      "location": "0.1,0.0,0.4,0.3,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "orange ceramic",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "vase",
+      "location": "0.8,0.4,1.0,0.9,0.88"
+    }
+  ]
+}

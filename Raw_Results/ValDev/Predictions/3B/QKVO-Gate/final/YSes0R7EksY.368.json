@@ -1,0 +1,155 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "lettuce"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_white",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper_mill",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "oil_bottle",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "yellow_kettle",
+      "target": "countertop"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "shelf"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "shelf"
+    },
+    {
+      "predicate": "behind",
+      "source": "wooden_box",
+      "target": "person2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "coffee_machine",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black chef coat",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.35,0.1,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plaid shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.6,0.1,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce",
+      "label": "lettuce",
+      "location": "0.47,0.4,0.53,0.55,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl_white",
+      "label": "bowl",
+      "location": "0.1,0.75,0.2,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "pepper_mill",
+      "label": "pepper mill",
+      "location": "0.2,0.6,0.25,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass red liquid",
+        "size": "small"
+      },
+      "id": "oil_bottle",
+      "label": "oil bottle",
+      "location": "0.05,0.6,0.1,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow metal",
+        "size": "small"
+      },
+      "id": "yellow_kettle",
+      "label": "kettle",
+      "location": "0.25,0.6,0.3,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey wood",
+        "size": "large"
+      },
+      "id": "shelf",
+      "label": "shelf",
+      "location": "0.0,0.0,0.6,0.3,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "wooden_box",
+      "label": "wooden box",
+      "location": "0.7,0.3,0.9,0.5,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "coffee_machine",
+      "label": "coffee machine",
+      "location": "0.9,0.4,1.0,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.6"
+    }
+  ]
+}

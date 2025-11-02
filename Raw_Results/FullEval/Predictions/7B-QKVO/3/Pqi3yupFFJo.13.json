@@ -1,0 +1,176 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bowl_salt",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "canister_clabber_girl",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bag_panko",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_onion",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_flour",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_sugar",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_eggs",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "stove",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bag_panko",
+      "target": "canister_clabber_girl"
+    },
+    {
+      "predicate": "left_of",
+      "source": "canister_clabber_girl",
+      "target": "bag_panko"
+    },
+    {
+      "predicate": "right_of",
+      "source": "plate_onion",
+      "target": "canister_clabber_girl"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl_flour",
+      "target": "bag_panko"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl_sugar",
+      "target": "bag_panko"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl_eggs",
+      "target": "bag_panko"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "stove",
+      "target": "countertop"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "Countertop",
+      "location": "0.0,0.45,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl_salt",
+      "label": "Salt Bowl",
+      "location": "0.03,0.6,0.28,0.87,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "canister_clabber_girl",
+      "label": "Canister of Clabber Girl",
+      "location": "0.2,0.2,0.35,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper with red text",
+        "size": "medium"
+      },
+      "id": "bag_panko",
+      "label": "Bag of Panko Bread Crumbs",
+      "location": "0.45,0.0,0.65,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple onion slices on white plate",
+        "size": "medium"
+      },
+      "id": "plate_onion",
+      "label": "Plate of Onion Rings",
+      "location": "0.35,0.4,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark metal",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "Stovetop",
+      "location": "0.75,0.2,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey bowl with white powder",
+        "size": "small"
+      },
+      "id": "bowl_flour",
+      "label": "Bowl of Flour",
+      "location": "0.65,0.5,0.85,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red bowl with white sugar",
+        "size": "small"
+      },
+      "id": "bowl_sugar",
+      "label": "Bowl of Sugar",
+      "location": "0.3,0.75,0.45,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue bowl with egg",
+        "size": "small"
+      },
+      "id": "bowl_eggs",
+      "label": "Bowl of Eggs",
+      "location": "0.45,0.75,0.6,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "Kitchen Cabinets",
+      "location": "0.0,0.0,1.0,0.4,0.7"
+    }
+  ]
+}

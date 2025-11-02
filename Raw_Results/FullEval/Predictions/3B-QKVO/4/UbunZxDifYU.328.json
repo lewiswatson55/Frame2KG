@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "text2",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "text3",
+      "target": "background"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white sans-serif",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "title text",
+      "location": "0.45,0.15,0.65,0.28,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white sans-serif",
+        "size": "large"
+      },
+      "id": "text2",
+      "label": "main title text",
+      "location": "0.25,0.28,0.75,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white sans-serif",
+        "size": "small"
+      },
+      "id": "text3",
+      "label": "subtitle text",
+      "location": "0.25,0.45,0.75,0.60,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "background",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

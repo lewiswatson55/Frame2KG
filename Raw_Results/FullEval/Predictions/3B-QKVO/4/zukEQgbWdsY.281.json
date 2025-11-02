@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "slice1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "behind",
+      "source": "person2",
+      "target": "slice1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "bearded grey shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.0,0.0,0.5,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.4,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow bread",
+        "size": "small"
+      },
+      "id": "slice1",
+      "label": "pizza slice",
+      "location": "0.6,0.3,0.75,0.5,0.85"
+    }
+  ]
+}

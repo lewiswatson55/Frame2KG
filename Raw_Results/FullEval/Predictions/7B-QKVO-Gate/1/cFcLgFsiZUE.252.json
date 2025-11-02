@@ -1,0 +1,182 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_of_food",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_of_sauce",
+      "target": "countertop"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "fridge"
+    },
+    {
+      "predicate": "includes",
+      "source": "logo",
+      "target": "subscribe_button"
+    },
+    {
+      "predicate": "includes",
+      "source": "logo",
+      "target": "chicken_nuggets_image"
+    },
+    {
+      "predicate": "includes",
+      "source": "logo",
+      "target": "social_media_icons"
+    },
+    {
+      "predicate": "includes",
+      "source": "logo",
+      "target": "chef_stef_avatar"
+    },
+    {
+      "predicate": "includes",
+      "source": "logo",
+      "target": "text_promo"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt with black apron",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.05,0.38,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black chef coat",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.42,0.05,0.75,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "fridge",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.25,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.0,0.5,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with orange food",
+        "size": "small"
+      },
+      "id": "plate_of_food",
+      "label": "plate of food",
+      "location": "0.2,0.6,0.4,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bowl with red sauce",
+        "size": "small"
+      },
+      "id": "bowl_of_sauce",
+      "label": "bowl of sauce",
+      "location": "0.8,0.6,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red button with white play icon",
+        "size": "small"
+      },
+      "id": "subscribe_button",
+      "label": "Subscribe button",
+      "location": "0.75,0.0,0.95,0.15,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "medium"
+      },
+      "id": "chicken_nuggets_image",
+      "label": "chicken nuggets image",
+      "location": "0.75,0.15,0.95,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue square with 'f' logo",
+        "size": "small"
+      },
+      "id": "facebook_icon",
+      "label": "Facebook icon",
+      "location": "0.0,0.75,0.2,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue square with 't' logo",
+        "size": "small"
+      },
+      "id": "twitter_icon",
+      "label": "Twitter icon",
+      "location": "0.2,0.75,0.4,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "multicolor camera icon",
+        "size": "small"
+      },
+      "id": "instagram_icon",
+      "label": "Instagram icon",
+      "location": "0.4,0.75,0.6,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "colorful graphic text",
+        "size": "medium"
+      },
+      "id": "logo",
+      "label": "Class Cookin' logo",
+      "location": "0.3,0.6,0.7,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "cartoon chef head",
+        "size": "small"
+      },
+      "id": "chef_stef_avatar",
+      "label": "Chef Stef avatar",
+      "location": "0.6,0.6,0.75,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "small"
+      },
+      "id": "text_promo",
+      "label": "Promotional text",
+      "location": "0.7,0.6,0.95,0.9,0.9"
+    }
+  ]
+}

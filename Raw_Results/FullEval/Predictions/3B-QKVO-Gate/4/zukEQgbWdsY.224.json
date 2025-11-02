@@ -1,0 +1,187 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "toast_buns",
+      "target": "paper_towel"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon_slices",
+      "target": "paper_towel"
+    },
+    {
+      "predicate": "on",
+      "source": "salt_bowl",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper_bowl",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "blender_jar",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "wooden_board",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "stove",
+      "target": "countertop"
+    },
+    {
+      "predicate": "behind",
+      "source": "wine_bottles",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "window_frame",
+      "target": "cabinets"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person1",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.0,0.0,0.45,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt with graphic",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.35,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green smoothie",
+        "size": "medium"
+      },
+      "id": "blender_jar",
+      "label": "blender jar",
+      "location": "0.6,0.4,0.8,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread slices",
+        "size": "small"
+      },
+      "id": "toast_buns",
+      "label": "bread buns",
+      "location": "0.2,0.7,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red bacon strips",
+        "size": "small"
+      },
+      "id": "bacon_slices",
+      "label": "bacon slices",
+      "location": "0.4,0.7,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper towel",
+        "size": "medium"
+      },
+      "id": "paper_towel",
+      "label": "paper towel",
+      "location": "0.2,0.7,0.5,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bowl with salt",
+        "size": "small"
+      },
+      "id": "salt_bowl",
+      "label": "salt bowl",
+      "location": "0.45,0.7,0.55,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bowl with pepper",
+        "size": "small"
+      },
+      "id": "pepper_bowl",
+      "label": "pepper bowl",
+      "location": "0.55,0.7,0.65,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "wooden_board",
+      "label": "cutting board",
+      "location": "0.7,0.75,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove",
+      "label": "stove",
+      "location": "0.0,0.75,0.2,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden cabinets",
+        "size": "large"
+      },
+      "id": "cabinets",
+      "label": "kitchen cabinets",
+      "location": "0.0,0.0,1.0,0.4,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottles",
+        "size": "medium"
+      },
+      "id": "wine_bottles",
+      "label": "wine bottles",
+      "location": "0.75,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass window frame",
+        "size": "medium"
+      },
+      "id": "window_frame",
+      "label": "window frame",
+      "location": "0.0,0.0,0.4,0.5,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "dark countertop",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    }
+  ]
+}

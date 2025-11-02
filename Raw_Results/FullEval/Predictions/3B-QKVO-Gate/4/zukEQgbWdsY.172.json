@@ -1,0 +1,276 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "stove"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "pan2",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_salad",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_bacon",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_tortilla",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle_oil",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce_plate",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "blender",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "coffee_maker",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "plant",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "jars",
+      "target": "shelf"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "oven",
+      "target": "cabinet_left"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "shelf",
+      "target": "wall"
+    },
+    {
+      "predicate": "behind",
+      "source": "teapot",
+      "target": "shelf"
+    },
+    {
+      "predicate": "behind",
+      "source": "mixer",
+      "target": "shelf"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "bearded man wearing grey shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.05,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "man wearing black t-shirt",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.45,0.05,0.75,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.35,0.75,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan2",
+      "label": "frying pan",
+      "location": "0.05,0.75,0.35,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl_salad",
+      "label": "salad bowl",
+      "location": "0.65,0.65,0.85,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with bacon strips",
+        "size": "small"
+      },
+      "id": "plate_bacon",
+      "label": "plate of bacon",
+      "location": "0.60,0.85,0.75,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with tortillas",
+        "size": "small"
+      },
+      "id": "plate_tortilla",
+      "label": "plate of tortillas",
+      "location": "0.75,0.85,0.90,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottle with oil",
+        "size": "small"
+      },
+      "id": "bottle_oil",
+      "label": "oil bottle",
+      "location": "0.80,0.85,0.88,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green lettuce on white plate",
+        "size": "small"
+      },
+      "id": "lettuce_plate",
+      "label": "lettuce plate",
+      "location": "0.90,0.85,1.00,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender",
+      "label": "blender",
+      "location": "0.75,0.45,0.85,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black coffee maker",
+        "size": "small"
+      },
+      "id": "coffee_maker",
+      "label": "coffee maker",
+      "location": "0.90,0.45,1.00,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves in pot",
+        "size": "small"
+      },
+      "id": "plant",
+      "label": "potted plant",
+      "location": "0.80,0.50,0.88,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden cabinet",
+        "size": "large"
+      },
+      "id": "cabinet_left",
+      "label": "kitchen cabinet",
+      "location": "0.00,0.00,0.30,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden shelf with jars",
+        "size": "medium"
+      },
+      "id": "shelf",
+      "label": "shelf",
+      "location": "0.30,0.00,1.00,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "teapot and bowls",
+        "size": "small"
+      },
+      "id": "teapot",
+      "label": "teapot",
+      "location": "0.50,0.00,0.70,0.20,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic mixer",
+        "size": "small"
+      },
+      "id": "mixer",
+      "label": "stand mixer",
+      "location": "0.85,0.00,1.00,0.20,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white brick backsplash",
+        "size": "large"
+      },
+      "id": "wall",
+      "label": "brick wall",
+      "location": "0.30,0.20,1.00,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood countertop",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.00,0.60,1.00,1.00,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel oven",
+        "size": "large"
+      },
+      "id": "oven",
+      "label": "oven",
+      "location": "0.00,0.00,0.30,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden cabinets",
+        "size": "large"
+      },
+      "id": "cabinet_right",
+      "label": "kitchen cabinet",
+      "location": "0.70,0.00,1.00,0.30,0.8"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "whisk1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "powder1",
+      "target": "meat1"
+    },
+    {
+      "predicate": "in",
+      "source": "meat1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "spice1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spice1",
+      "target": "meat1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.05,0.0,0.95,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "whisk1",
+      "label": "metal whisk",
+      "location": "0.0,0.0,0.6,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "powder1",
+      "label": "white powder",
+      "location": "0.3,0.2,0.7,0.6,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "reddish brown",
+        "size": "medium"
+      },
+      "id": "meat1",
+      "label": "raw meat",
+      "location": "0.2,0.4,0.8,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red powder",
+        "size": "small"
+      },
+      "id": "spice1",
+      "label": "red spice",
+      "location": "0.3,0.5,0.7,0.7,0.6"
+    }
+  ]
+}

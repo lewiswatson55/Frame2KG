@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cup1",
+      "target": "person1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife_block1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "clock1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "above",
+      "source": "cabinet1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "sink1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black jacket with white stripes",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.65,0.1,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.45,0.0,0.75,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "medium"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.3,0.0,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.2,0.6,0.4,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "knife_block1",
+      "label": "knife block",
+      "location": "0.4,0.4,0.55,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with yellow liquid",
+        "size": "small"
+      },
+      "id": "cup1",
+      "label": "glass cup",
+      "location": "0.75,0.75,0.9,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "soda bottle",
+      "location": "0.1,0.6,0.15,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.0,0.6,0.2,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light gray tile",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black with white numbers",
+        "size": "small"
+      },
+      "id": "clock1",
+      "label": "wall clock",
+      "location": "0.7,0.1,0.9,0.3,0.7"
+    }
+  ]
+}

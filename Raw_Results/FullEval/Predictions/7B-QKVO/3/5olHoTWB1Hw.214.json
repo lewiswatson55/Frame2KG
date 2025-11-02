@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "pouring_on",
+      "source": "bowl1",
+      "target": "pasta1"
+    },
+    {
+      "predicate": "in",
+      "source": "pasta1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "dark skin",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.3,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Metal Bowl",
+      "location": "0.4,0.1,0.8,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow pasta",
+        "size": "large"
+      },
+      "id": "pasta1",
+      "label": "Macaroni Pasta",
+      "location": "0.3,0.0,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "Baking Pan",
+      "location": "0.2,0.0,1.0,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.7,1.0,1.0,0.8"
+    }
+  ]
+}

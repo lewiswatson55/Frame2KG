@@ -1,0 +1,322 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "skillet1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "behind",
+      "source": "bottles1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "plant1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "oil_bottle1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "toaster1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "jars1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "kettle1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "canister1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "oven1",
+      "target": "counter1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "grey shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.05,0.68,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.47,0.05,0.60,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.00,0.60,0.50,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black cast iron",
+        "size": "small"
+      },
+      "id": "skillet1",
+      "label": "cast iron skillet",
+      "location": "0.30,0.70,0.60,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.00,0.70,0.30,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.00,0.75,0.20,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate of bacon",
+      "location": "0.60,0.75,0.75,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread with lettuce and tomato",
+        "size": "small"
+      },
+      "id": "sandwich1",
+      "label": "sandwich",
+      "location": "0.75,0.75,0.90,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce",
+      "location": "0.75,0.85,0.90,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red sliced tomatoes",
+        "size": "small"
+      },
+      "id": "tomato1",
+      "label": "sliced tomatoes",
+      "location": "0.85,0.85,0.95,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottle with oil",
+        "size": "small"
+      },
+      "id": "oil_bottle1",
+      "label": "oil bottle",
+      "location": "0.80,0.75,0.85,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic grey",
+        "size": "small"
+      },
+      "id": "toaster1",
+      "label": "toaster",
+      "location": "0.85,0.05,0.95,0.20,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar with honey",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "honey jar",
+      "location": "0.85,0.20,0.95,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark glass bottles",
+        "size": "medium"
+      },
+      "id": "bottles1",
+      "label": "alcohol bottles",
+      "location": "0.30,0.30,0.45,0.60,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.60,0.30,0.75,0.60,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "herb plant",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "herb plant",
+      "location": "0.75,0.30,0.85,0.50,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden shelf",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "open shelving unit",
+      "location": "0.00,0.00,1.00,0.30,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "oven1",
+      "label": "double oven",
+      "location": "0.00,0.00,0.30,0.60,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "wooden cabinet",
+      "location": "0.00,0.00,1.00,0.30,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.00,0.30,1.00,0.60,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "ceramic bowl",
+      "location": "0.70,0.05,0.80,0.15,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black kettle",
+        "size": "small"
+      },
+      "id": "kettle1",
+      "label": "electric kettle",
+      "location": "0.80,0.05,0.90,0.15,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic can",
+        "size": "small"
+      },
+      "id": "canister1",
+      "label": "canister",
+      "location": "0.90,0.05,0.98,0.15,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass jars",
+        "size": "small"
+      },
+      "id": "jars1",
+      "label": "storage jars",
+      "location": "0.70,0.00,0.90,0.20,0.9"
+    }
+  ]
+}

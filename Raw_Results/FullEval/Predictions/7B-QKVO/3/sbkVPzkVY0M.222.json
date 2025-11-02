@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bottle1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bottle2",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "dark hair wearing patterned shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.05,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "wok",
+      "location": "0.45,0.55,0.75,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black electric",
+        "size": "small"
+      },
+      "id": "stove1",
+      "label": "electric stove",
+      "location": "0.45,0.75,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "plastic bottle",
+      "location": "0.25,0.75,0.35,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bottle2",
+      "label": "glass bottle",
+      "location": "0.75,0.6,0.85,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "kitchen shelf",
+      "location": "0.0,0.0,1.0,0.3,0.6"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "onion_rings",
+      "target": "batter"
+    },
+    {
+      "predicate": "in",
+      "source": "batter",
+      "target": "bowl"
+    },
+    {
+      "predicate": "in",
+      "source": "fork",
+      "target": "bowl"
+    },
+    {
+      "predicate": "holding",
+      "source": "fork",
+      "target": "onion_rings"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl",
+      "label": "glass bowl",
+      "location": "0.05,0.05,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "creamy beige",
+        "size": "medium"
+      },
+      "id": "batter",
+      "label": "batter",
+      "location": "0.1,0.1,0.9,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light pink translucent",
+        "size": "small"
+      },
+      "id": "onion_rings",
+      "label": "onion rings",
+      "location": "0.3,0.4,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "fork",
+      "label": "fork",
+      "location": "0.0,0.0,0.4,0.4,0.7"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "burger1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "burger1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato1",
+      "target": "burger1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "burger1"
+    },
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "burger1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.65,0.45,0.98,0.97,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bun with lettuce tomato cheese patty",
+        "size": "large"
+      },
+      "id": "burger1",
+      "label": "Burger",
+      "location": "0.35,0.15,0.95,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce",
+      "location": "0.55,0.25,0.75,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red slice",
+        "size": "small"
+      },
+      "id": "tomato1",
+      "label": "Tomato Slice",
+      "location": "0.55,0.35,0.75,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow melted",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "Cheese Slice",
+      "location": "0.55,0.45,0.75,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown grilled",
+        "size": "medium"
+      },
+      "id": "patty1",
+      "label": "Beef Patty",
+      "location": "0.45,0.55,0.75,0.85,0.8"
+    }
+  ]
+}

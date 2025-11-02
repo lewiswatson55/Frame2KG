@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "cutting",
+      "source": "knife1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "stove1",
+      "target": "cabinet1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.0,0.6,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal blade",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "Knife",
+      "location": "0.3,0.05,0.7,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "Bread Slice",
+      "location": "0.35,0.1,0.75,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "Cooking Pot",
+      "location": "0.7,0.4,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red black",
+        "size": "small"
+      },
+      "id": "burner1",
+      "label": "Stove Burner",
+      "location": "0.6,0.75,0.9,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white glossy",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "Cabinet",
+      "location": "0.0,0.0,1.0,0.4,0.7"
+    }
+  ]
+}

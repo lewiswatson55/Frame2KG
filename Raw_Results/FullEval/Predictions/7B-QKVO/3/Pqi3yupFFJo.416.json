@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "sauce1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "cream1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "holding",
+      "source": "spoon1",
+      "target": "sauce1"
+    },
+    {
+      "predicate": "above",
+      "source": "spoon1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.15,0.3,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red liquid",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "Hot Sauce",
+      "location": "0.4,0.0,0.8,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy",
+        "size": "small"
+      },
+      "id": "cream1",
+      "label": "Sour Cream",
+      "location": "0.3,0.4,0.5,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.4,0.0,0.6,0.25,0.8"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "sieve1"
+    },
+    {
+      "predicate": "in",
+      "source": "corn_starch1",
+      "target": "sieve1"
+    },
+    {
+      "predicate": "on",
+      "source": "sieve1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "corn_starch1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.05,0.3,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal mesh",
+        "size": "medium"
+      },
+      "id": "sieve1",
+      "label": "sieve",
+      "location": "0.4,0.0,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.6,0.0,0.9,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "corn_starch1",
+      "label": "corn starch",
+      "location": "0.45,0.15,0.75,0.5,0.85"
+    }
+  ]
+}

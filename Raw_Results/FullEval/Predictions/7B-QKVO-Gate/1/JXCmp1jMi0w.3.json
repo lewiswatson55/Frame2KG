@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "tongs1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken2",
+      "target": "oil1"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken3",
+      "target": "oil1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "frying pot",
+      "location": "0.05,0.4,0.98,0.97,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "hot bubbling brown",
+        "size": "medium"
+      },
+      "id": "oil1",
+      "label": "cooking oil",
+      "location": "0.05,0.4,0.98,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden crispy",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "fried chicken piece",
+      "location": "0.3,0.05,0.6,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden crispy",
+        "size": "small"
+      },
+      "id": "chicken2",
+      "label": "fried chicken piece",
+      "location": "0.2,0.5,0.4,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden crispy",
+        "size": "small"
+      },
+      "id": "chicken3",
+      "label": "fried chicken piece",
+      "location": "0.4,0.5,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "tongs1",
+      "label": "kitchen tongs",
+      "location": "0.0,0.0,0.5,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.0,0.0,0.3,0.3,0.7"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "flour1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "in",
+      "source": "foil1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "tray1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "Baking Tray",
+      "location": "0.0,0.45,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "medium"
+      },
+      "id": "flour1",
+      "label": "Flour",
+      "location": "0.0,0.3,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "shiny silver",
+        "size": "small"
+      },
+      "id": "foil1",
+      "label": "Aluminum Foil",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Measuring Cup",
+      "location": "0.3,0.0,0.6,0.2,0.6"
+    }
+  ]
+}

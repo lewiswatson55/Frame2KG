@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "dough1"
+    },
+    {
+      "predicate": "in",
+      "source": "dough1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "flour1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "flour1",
+      "target": "dough1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-colored",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.45,0.0,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white flour-coated",
+        "size": "small"
+      },
+      "id": "dough1",
+      "label": "Dough piece",
+      "location": "0.3,0.1,0.7,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "large"
+      },
+      "id": "flour1",
+      "label": "Flour",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

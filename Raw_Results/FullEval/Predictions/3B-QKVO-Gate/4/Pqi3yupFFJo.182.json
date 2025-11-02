@@ -1,0 +1,95 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "hands1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "jars1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "includes",
+      "source": "plate1",
+      "target": "rings1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "jars1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.05,0.05,0.48,0.63,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "small"
+      },
+      "id": "hands1",
+      "label": "human hands",
+      "location": "0.17,0.05,0.45,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.45,0.15,0.95,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "purple rings",
+        "size": "medium"
+      },
+      "id": "rings1",
+      "label": "onion rings",
+      "location": "0.55,0.25,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "jars1",
+      "label": "glass jars",
+      "location": "0.0,0.65,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.5,1.0,1.0,0.7"
+    }
+  ]
+}

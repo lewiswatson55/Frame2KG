@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "card1"
+    },
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "shirt1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "small"
+      },
+      "id": "card1",
+      "label": "playing card",
+      "location": "0.3,0.45,0.7,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "dark gray fabric",
+        "size": "medium"
+      },
+      "id": "shirt1",
+      "label": "shirt",
+      "location": "0.0,0.0,1.0,0.5,0.8"
+    }
+  ]
+}

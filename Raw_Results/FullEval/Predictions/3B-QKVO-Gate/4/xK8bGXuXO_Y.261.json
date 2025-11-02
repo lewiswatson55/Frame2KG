@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "herb1",
+      "target": "fish1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "herb2",
+      "target": "fish1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white translucent",
+        "size": "large"
+      },
+      "id": "fish1",
+      "label": "raw fish fillets",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "herb1",
+      "label": "thyme sprig",
+      "location": "0.6,0.4,0.3,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "herb2",
+      "label": "thyme sprig",
+      "location": "0.0,0.7,0.3,0.3,0.8"
+    }
+  ]
+}

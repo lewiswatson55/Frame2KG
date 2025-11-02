@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "on",
+      "source": "flour1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "flour1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "orange battered",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "breaded chicken pieces",
+      "location": "0.35,0.25,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "paper bag",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "flour1",
+      "label": "flour",
+      "location": "0.4,0.3,0.6,0.6,0.7"
+    }
+  ]
+}

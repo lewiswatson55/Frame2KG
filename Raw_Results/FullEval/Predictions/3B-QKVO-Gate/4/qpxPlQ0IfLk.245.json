@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "board1"
+    },
+    {
+      "predicate": "behind",
+      "source": "lemon1",
+      "target": "board1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "lemon1",
+      "target": "bread1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "Knife",
+      "location": "0.3,0.2,0.7,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted brown",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "Bread Slice",
+      "location": "0.2,0.5,0.8,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue red patterned glass",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "Glass Bottle",
+      "location": "0.75,0.0,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow citrus",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "Lemon Wedge",
+      "location": "0.0,0.0,0.2,0.3,0.8"
+    }
+  ]
+}

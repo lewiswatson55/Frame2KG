@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "cake1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "cloth1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "cake1"
+    },
+    {
+      "predicate": "behind",
+      "source": "bottle1",
+      "target": "cake1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red white brown",
+        "size": "large"
+      },
+      "id": "cake1",
+      "label": "ring cake",
+      "location": "0.35,0.18,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.45,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange fabric",
+        "size": "large"
+      },
+      "id": "cloth1",
+      "label": "table cloth",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass amber liquid",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "beaker",
+      "location": "0.0,0.0,0.2,0.3,0.8"
+    }
+  ]
+}

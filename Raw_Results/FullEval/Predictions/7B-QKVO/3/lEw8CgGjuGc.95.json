@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "cloth1",
+      "target": "grill1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "grill1",
+      "target": "background1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white fabric",
+        "size": "medium"
+      },
+      "id": "cloth1",
+      "label": "towel",
+      "location": "0.0,0.0,0.35,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "grill1",
+      "label": "grill grate",
+      "location": "0.0,0.2,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark blurred",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "background",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

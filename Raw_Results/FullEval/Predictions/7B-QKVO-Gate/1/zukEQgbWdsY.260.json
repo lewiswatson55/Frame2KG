@@ -1,0 +1,127 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "tomato_slice"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato_slice",
+      "target": "lettuce"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon_strip",
+      "target": "lettuce"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce",
+      "target": "bread_base"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_base",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "glass_container",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "behind",
+      "source": "appliance",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "logo",
+      "target": "cutting_board"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "grey jacket",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.0,0.0,0.65,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red",
+        "size": "small"
+      },
+      "id": "tomato_slice",
+      "label": "Tomato Slice",
+      "location": "0.48,0.35,0.55,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce",
+      "label": "Lettuce",
+      "location": "0.45,0.45,0.65,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crispy",
+        "size": "small"
+      },
+      "id": "bacon_strip",
+      "label": "Bacon Strip",
+      "location": "0.5,0.55,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread",
+        "size": "small"
+      },
+      "id": "bread_base",
+      "label": "Bread Base",
+      "location": "0.45,0.6,0.6,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cutting_board",
+      "label": "Cutting Board",
+      "location": "0.3,0.5,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "glass_container",
+      "label": "Glass Container",
+      "location": "0.0,0.6,0.2,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "appliance",
+      "label": "Appliance",
+      "location": "0.4,0.0,0.7,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text",
+        "size": "small"
+      },
+      "id": "logo",
+      "label": "Logo",
+      "location": "0.8,0.8,1.0,1.0,0.9"
+    }
+  ]
+}

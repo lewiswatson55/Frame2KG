@@ -1,0 +1,178 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "spray1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "can1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "glass1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "measuring_cup1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "eggs1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "griddle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fridge1",
+      "target": "cabinet_left1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cabinet_left1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "sink1",
+      "target": "cabinet_right1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown hair, black apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass bowl with white powder",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.45,0.55,0.7,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "griddle1",
+      "label": "electric griddle",
+      "location": "0.6,0.5,0.95,0.85,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic canister",
+        "size": "small"
+      },
+      "id": "spray1",
+      "label": "cooking spray can",
+      "location": "0.1,0.6,0.15,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic can",
+        "size": "small"
+      },
+      "id": "can1",
+      "label": "sugar can",
+      "location": "0.15,0.6,0.2,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "glass1",
+      "label": "measuring cup",
+      "location": "0.2,0.6,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with yellow liquid",
+        "size": "small"
+      },
+      "id": "measuring_cup1",
+      "label": "measuring cup",
+      "location": "0.25,0.6,0.35,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow eggs",
+        "size": "small"
+      },
+      "id": "eggs1",
+      "label": "eggs",
+      "location": "0.3,0.7,0.4,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "kitchen countertop",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinet_left1",
+      "label": "upper cabinet",
+      "location": "0.0,0.0,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinet_right1",
+      "label": "upper cabinet",
+      "location": "0.6,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.2,0.0,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.75,0.4,1.0,0.6,0.8"
+    }
+  ]
+}

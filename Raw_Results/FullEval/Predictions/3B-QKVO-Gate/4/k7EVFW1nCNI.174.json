@@ -1,0 +1,169 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "mug1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "oil_bottle1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "red_towel1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "microwave1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sink1",
+      "target": "faucet1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "sink1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "pot1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white lace top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.0,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "electric stove",
+      "location": "0.6,0.3,1.0,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "turquoise ceramic",
+        "size": "small"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.8,0.4,0.95,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "food processor",
+      "location": "0.4,0.6,0.6,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "oil_bottle1",
+      "label": "olive oil bottle",
+      "location": "0.55,0.2,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "mug1",
+      "label": "coffee mug",
+      "location": "0.45,0.2,0.5,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red cloth",
+        "size": "small"
+      },
+      "id": "red_towel1",
+      "label": "kitchen towel",
+      "location": "0.6,0.5,0.7,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.0,0.1,0.3,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "faucet1",
+      "label": "faucet",
+      "location": "0.1,0.1,0.25,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black glass",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave oven",
+      "location": "0.7,0.0,1.0,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,1.0,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.3,1.0,0.6,0.7"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "cookie1",
+      "target": "tray"
+    },
+    {
+      "predicate": "on",
+      "source": "logo_text",
+      "target": "cookie1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "logo_text",
+      "target": "cookies_background"
+    },
+    {
+      "predicate": "behind",
+      "source": "cookies_background",
+      "target": "cookie1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown chocolate chip",
+        "size": "large"
+      },
+      "id": "cookie1",
+      "label": "chocolate chip cookie",
+      "location": "0.35,0.45,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white cursive",
+        "size": "medium"
+      },
+      "id": "logo_text",
+      "label": "Mrs. Fields logo",
+      "location": "0.30,0.30,0.70,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown blurred",
+        "size": "large"
+      },
+      "id": "cookies_background",
+      "label": "background cookies",
+      "location": "0.0,0.0,1.0,0.4,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tray",
+      "label": "baking tray",
+      "location": "0.0,0.4,1.0,0.9,0.7"
+    }
+  ]
+}

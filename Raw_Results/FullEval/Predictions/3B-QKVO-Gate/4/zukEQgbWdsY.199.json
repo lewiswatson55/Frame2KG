@@ -1,0 +1,127 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "cup1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "cup1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "in",
+      "source": "greens1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "measuring_cup1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "plant1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife_block1",
+      "target": "plant1"
+    },
+    {
+      "predicate": "behind",
+      "source": "brick_wall1",
+      "target": "counter1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Person's hands",
+      "location": "0.05,0.0,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "cup1",
+      "label": "Measuring cup",
+      "location": "0.45,0.0,0.75,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "large"
+      },
+      "id": "blender1",
+      "label": "Blender",
+      "location": "0.4,0.2,0.8,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "greens1",
+      "label": "Green vegetables",
+      "location": "0.5,0.3,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass red markings",
+        "size": "medium"
+      },
+      "id": "measuring_cup1",
+      "label": "Measuring cup",
+      "location": "0.0,0.7,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "Countertop",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black wooden",
+        "size": "small"
+      },
+      "id": "knife_block1",
+      "label": "Knife block",
+      "location": "0.8,0.1,0.95,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves brown pot",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "Potted plant",
+      "location": "0.9,0.2,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige brick",
+        "size": "large"
+      },
+      "id": "brick_wall1",
+      "label": "Brick wall",
+      "location": "0.0,0.0,1.0,0.6,0.7"
+    }
+  ]
+}

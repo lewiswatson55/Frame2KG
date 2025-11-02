@@ -1,0 +1,127 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "dish1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "pot1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "backsplash1",
+      "target": "countertop"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass with white flour",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl of flour",
+      "location": "0.15,0.35,0.48,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "metal tray",
+      "location": "0.25,0.55,0.75,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange sauce-coated chicken pieces",
+        "size": "medium"
+      },
+      "id": "dish1",
+      "label": "glass baking dish of chicken",
+      "location": "0.55,0.45,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.45,0.0,0.95,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "ceramic spoon",
+      "location": "0.45,0.1,0.65,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white marble",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.0,0.6,0.2,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic with beige powder",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "seasoning jar",
+      "location": "0.85,0.4,0.98,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white tiled",
+        "size": "large"
+      },
+      "id": "backsplash1",
+      "label": "tile backsplash",
+      "location": "0.0,0.0,1.0,0.4,0.9"
+    }
+  ]
+}

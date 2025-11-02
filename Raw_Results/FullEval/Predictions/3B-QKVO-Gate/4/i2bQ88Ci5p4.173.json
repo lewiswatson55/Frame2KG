@@ -1,0 +1,132 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "chicken_wing"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "refrigerator"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "refrigerator"
+    },
+    {
+      "predicate": "on",
+      "source": "glass_brown",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "can_yellow",
+      "target": "table"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet",
+      "target": "person2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bottles",
+      "target": "fridge"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt glasses",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black jacket hair braid",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.52,0.05,0.96,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange fried",
+        "size": "small"
+      },
+      "id": "chicken_wing",
+      "label": "chicken wing",
+      "location": "0.37,0.35,0.45,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass brown liquid",
+        "size": "small"
+      },
+      "id": "glass_brown",
+      "label": "beer glass",
+      "location": "0.02,0.75,0.18,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white label yellow lid",
+        "size": "small"
+      },
+      "id": "can_yellow",
+      "label": "soda can",
+      "location": "0.88,0.75,0.98,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "refrigerator",
+      "label": "refrigerator",
+      "location": "0.50,0.05,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "kitchen cabinet",
+      "location": "0.00,0.00,0.50,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass bottles",
+        "size": "small"
+      },
+      "id": "bottles",
+      "label": "bottles",
+      "location": "0.60,0.00,0.98,0.20,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "table",
+      "location": "0.00,0.70,1.00,1.00,0.7"
+    }
+  ]
+}

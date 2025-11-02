@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bottle1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bottle2",
+      "target": "blender1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle3",
+      "target": "bottle2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bottle4",
+      "target": "bottle3"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.65,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "Blender",
+      "location": "0.1,0.0,0.7,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with orange liquid",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "Glass Bottle",
+      "location": "0.3,0.4,0.4,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "bottle2",
+      "label": "Green Glass Bottle",
+      "location": "0.6,0.6,0.75,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark blue glass",
+        "size": "small"
+      },
+      "id": "bottle3",
+      "label": "Dark Blue Glass Bottle",
+      "location": "0.2,0.7,0.3,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue glass",
+        "size": "small"
+      },
+      "id": "bottle4",
+      "label": "Blue Glass Bottle",
+      "location": "0.1,0.7,0.2,0.9,0.7"
+    }
+  ]
+}

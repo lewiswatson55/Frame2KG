@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "painting1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "vase1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "painting1",
+      "target": "painting2"
+    },
+    {
+      "predicate": "above",
+      "source": "logo1",
+      "target": "painting1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "dark hair red shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.15,0.0,0.85,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame",
+        "size": "medium"
+      },
+      "id": "painting1",
+      "label": "framed painting",
+      "location": "0.05,0.1,0.35,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame",
+        "size": "medium"
+      },
+      "id": "painting2",
+      "label": "framed painting",
+      "location": "0.45,0.1,0.75,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "orange ceramic",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "decorative vase",
+      "location": "0.8,0.6,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "small"
+      },
+      "id": "table1",
+      "label": "table edge",
+      "location": "0.0,0.8,1.0,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow spoon and fork icon",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "logo",
+      "location": "0.0,0.0,0.2,0.15,0.8"
+    }
+  ]
+}

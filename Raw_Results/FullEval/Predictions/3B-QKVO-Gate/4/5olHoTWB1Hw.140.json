@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "cheese_shredded",
+      "target": "bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl",
+      "target": "stove"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate",
+      "target": "bowl"
+    },
+    {
+      "predicate": "includes",
+      "source": "plate",
+      "target": "cheese_cubes"
+    },
+    {
+      "predicate": "supports",
+      "source": "plate",
+      "target": "cheese_shredded"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic with black rim",
+        "size": "large"
+      },
+      "id": "bowl",
+      "label": "bowl",
+      "location": "0.15,0.15,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green plastic",
+        "size": "medium"
+      },
+      "id": "plate",
+      "label": "plate",
+      "location": "0.6,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cubes",
+        "size": "small"
+      },
+      "id": "cheese_cubes",
+      "label": "cheese cubes",
+      "location": "0.7,0.0,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "shredded yellow",
+        "size": "small"
+      },
+      "id": "cheese_shredded",
+      "label": "shredded cheese",
+      "location": "0.3,0.2,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "stove",
+      "location": "0.0,0.0,0.4,0.4,0.8"
+    }
+  ]
+}

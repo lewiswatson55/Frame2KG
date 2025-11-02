@@ -1,0 +1,182 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in",
+      "source": "pan1",
+      "target": "oven1"
+    },
+    {
+      "predicate": "on",
+      "source": "oven1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "cabinet1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "teapot1",
+      "target": "teapot2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "teapot2",
+      "target": "teapot3"
+    },
+    {
+      "predicate": "next_to",
+      "source": "teapot3",
+      "target": "teapot4"
+    },
+    {
+      "predicate": "left_of",
+      "source": "microwave1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "person1",
+      "target": "teapot1"
+    },
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "watch1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black long-sleeve shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.5,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red wood",
+        "size": "medium"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "large"
+      },
+      "id": "oven1",
+      "label": "stove oven",
+      "location": "0.0,0.3,0.4,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.25,0.5,0.75,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red fabric",
+        "size": "small"
+      },
+      "id": "hand_towel1",
+      "label": "hand towel",
+      "location": "0.6,0.6,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "teapot1",
+      "label": "tea pot",
+      "location": "0.3,0.0,0.4,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "teapot2",
+      "label": "tea pot",
+      "location": "0.4,0.0,0.5,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "teapot3",
+      "label": "tea pot",
+      "location": "0.5,0.0,0.6,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "teapot4",
+      "label": "tea pot",
+      "location": "0.6,0.0,0.7,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "tealight1",
+      "label": "tealight holder",
+      "location": "0.45,0.0,0.55,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "tealight2",
+      "label": "tealight holder",
+      "location": "0.55,0.0,0.65,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white glass",
+        "size": "small"
+      },
+      "id": "microwave1",
+      "label": "microwave",
+      "location": "0.0,0.0,0.3,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown tile",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.3,1.0,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "watch1",
+      "label": "watch",
+      "location": "0.75,0.5,0.9,0.7,0.8"
+    }
+  ]
+}

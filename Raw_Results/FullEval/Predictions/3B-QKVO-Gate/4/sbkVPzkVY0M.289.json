@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "logo_text",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "text_credit",
+      "target": "background"
+    },
+    {
+      "predicate": "below",
+      "source": "text_credit",
+      "target": "logo_text"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink gradient",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "Background Gradient",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "black and pink text with white star",
+        "size": "medium"
+      },
+      "id": "logo_text",
+      "label": "POPSUGAR Logo",
+      "location": "0.3,0.4,0.7,0.6,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "small"
+      },
+      "id": "text_credit",
+      "label": "Text Credit",
+      "location": "0.7,0.7,0.95,0.9,0.92"
+    }
+  ]
+}

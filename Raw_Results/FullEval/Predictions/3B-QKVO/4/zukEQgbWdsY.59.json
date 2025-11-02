@@ -1,0 +1,183 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "pan2",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "knife_set",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle_pack",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "oven"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "oven"
+    },
+    {
+      "predicate": "left_of",
+      "source": "blender",
+      "target": "coffee_maker"
+    },
+    {
+      "predicate": "right_of",
+      "source": "coffee_maker",
+      "target": "blender"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf2",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt with pig graphic",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.48,0.05,0.76,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "gas stove",
+      "location": "0.30,0.60,0.90,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.35,0.65,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black non-stick",
+        "size": "small"
+      },
+      "id": "pan2",
+      "label": "frying pan",
+      "location": "0.60,0.65,0.80,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.00,0.70,0.40,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "plastic wrapped",
+        "size": "small"
+      },
+      "id": "bottle_pack",
+      "label": "bottle pack",
+      "location": "0.00,0.75,0.20,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "small"
+      },
+      "id": "knife_set",
+      "label": "knife set",
+      "location": "0.10,0.75,0.30,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "oven",
+      "label": "oven",
+      "location": "0.00,0.00,0.30,0.50,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden shelves with jars",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "kitchen shelf",
+      "location": "0.00,0.00,0.30,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden shelves with bowls",
+        "size": "large"
+      },
+      "id": "shelf2",
+      "label": "kitchen shelf",
+      "location": "0.60,0.00,1.00,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender",
+      "label": "blender",
+      "location": "0.80,0.40,0.95,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "coffee_maker",
+      "label": "coffee maker",
+      "location": "0.95,0.40,1.00,0.60,0.8"
+    }
+  ]
+}

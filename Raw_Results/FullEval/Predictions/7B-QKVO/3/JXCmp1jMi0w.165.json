@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hands1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "in",
+      "source": "flour1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "on",
+      "source": "bag1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hands1",
+      "label": "Hands",
+      "location": "0.05,0.3,0.95,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "beige paper",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "Paper Bag",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "flour1",
+      "label": "Flour",
+      "location": "0.1,0.1,0.9,0.9,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.4,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

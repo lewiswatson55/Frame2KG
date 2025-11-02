@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "bowl1",
+      "target": "mixer1"
+    },
+    {
+      "predicate": "on",
+      "source": "mixer1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "towel1",
+      "target": "mixer1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "mixer1",
+      "label": "stand mixer",
+      "location": "0.35,0.45,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.45,0.25,0.75,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.55,0.0,0.95,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red striped fabric",
+        "size": "large"
+      },
+      "id": "towel1",
+      "label": "kitchen towel",
+      "location": "0.6,0.2,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "wooden countertop",
+      "location": "0.0,0.8,1.0,1.0,0.7"
+    }
+  ]
+}

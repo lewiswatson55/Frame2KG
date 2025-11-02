@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "calamari1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "calamari1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.35,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pale beige",
+        "size": "medium"
+      },
+      "id": "calamari1",
+      "label": "calamari rings",
+      "location": "0.1,0.4,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white sans-serif",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "text overlay",
+      "location": "0.0,0.0,0.6,0.2,0.9"
+    }
+  ]
+}

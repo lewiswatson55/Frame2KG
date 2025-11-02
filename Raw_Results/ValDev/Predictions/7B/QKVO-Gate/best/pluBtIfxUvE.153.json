@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "toast1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate2",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.05,0.05,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown toasted bread",
+        "size": "medium"
+      },
+      "id": "toast1",
+      "label": "Toast Slice",
+      "location": "0.30,0.10,0.70,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate2",
+      "label": "Small Plate",
+      "location": "0.80,0.00,1.00,0.30,0.6"
+    }
+  ]
+}

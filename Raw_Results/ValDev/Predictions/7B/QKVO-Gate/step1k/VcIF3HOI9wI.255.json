@@ -1,0 +1,131 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "curtain1",
+      "target": "window1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "hood1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "behind",
+      "source": "window1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin short brown hair",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread with lettuce",
+        "size": "small"
+      },
+      "id": "sandwich1",
+      "label": "sandwich",
+      "location": "0.45,0.4,0.75,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.6,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.3,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "hood1",
+      "label": "range hood",
+      "location": "0.0,0.2,0.4,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green foliage",
+        "size": "medium"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.2,0.0,0.5,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown fabric",
+        "size": "medium"
+      },
+      "id": "curtain1",
+      "label": "curtain",
+      "location": "0.25,0.0,0.5,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden shelf with jars",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.6,0.3,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar white label",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "jar",
+      "location": "0.75,0.3,0.85,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "plastic bottle blue label",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "spray bottle",
+      "location": "0.85,0.3,0.95,0.5,0.7"
+    }
+  ]
+}

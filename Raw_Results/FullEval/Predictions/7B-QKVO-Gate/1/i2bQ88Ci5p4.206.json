@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "fork"
+    },
+    {
+      "predicate": "holding",
+      "source": "person2",
+      "target": "fork"
+    },
+    {
+      "predicate": "on",
+      "source": "food1",
+      "target": "fork"
+    },
+    {
+      "predicate": "on",
+      "source": "food2",
+      "target": "fork"
+    },
+    {
+      "predicate": "next_to",
+      "source": "glass1",
+      "target": "can1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "fridge"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt glasses",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black jacket braided hair",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.52,0.05,0.95,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "fridge",
+      "label": "refrigerator",
+      "location": "0.47,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "glass1",
+      "label": "glass",
+      "location": "0.0,0.75,0.2,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow aluminum",
+        "size": "small"
+      },
+      "id": "can1",
+      "label": "beer can",
+      "location": "0.9,0.75,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange fried",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "fried food piece",
+      "location": "0.3,0.4,0.35,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "orange fried",
+        "size": "small"
+      },
+      "id": "food2",
+      "label": "fried food piece",
+      "location": "0.6,0.5,0.65,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "medium"
+      },
+      "id": "fork",
+      "label": "fork",
+      "location": "0.3,0.3,0.35,0.6,0.7"
+    }
+  ]
+}

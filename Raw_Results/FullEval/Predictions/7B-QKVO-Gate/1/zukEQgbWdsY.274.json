@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hands1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "on",
+      "source": "sandwich1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar1",
+      "target": "radio1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "logo1",
+      "target": "sandwich1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hands1",
+      "label": "human hands",
+      "location": "0.05,0.0,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread with lettuce and bacon",
+        "size": "small"
+      },
+      "id": "sandwich1",
+      "label": "sandwich",
+      "location": "0.3,0.4,0.8,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.2,0.5,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "radio1",
+      "label": "radio",
+      "location": "0.4,0.0,0.8,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "glass jar",
+      "location": "0.0,0.1,0.2,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "ceramic bowl",
+      "location": "0.0,0.6,0.2,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "TASTED logo",
+      "location": "0.8,0.8,1.0,1.0,0.9"
+    }
+  ]
+}

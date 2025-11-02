@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "play_button",
+      "target": "background"
+    },
+    {
+      "predicate": "left_of",
+      "source": "plate_apples",
+      "target": "bread_plate"
+    },
+    {
+      "predicate": "right_of",
+      "source": "peach_jar",
+      "target": "bread_plate"
+    },
+    {
+      "predicate": "below",
+      "source": "steak_plate",
+      "target": "plate_apples"
+    },
+    {
+      "predicate": "above",
+      "source": "bread_plate",
+      "target": "peach_jar"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sauce_plate",
+      "target": "bread_plate"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white circle with black triangle",
+        "size": "medium"
+      },
+      "id": "play_button",
+      "label": "Play Button",
+      "location": "0.45,0.6,0.55,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue plate with apple slices and hummus",
+        "size": "small"
+      },
+      "id": "plate_apples",
+      "label": "Plate of Apple Slices",
+      "location": "0.3,0.2,0.5,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow patterned plate with bread slice",
+        "size": "small"
+      },
+      "id": "bread_plate",
+      "label": "Bread Plate",
+      "location": "0.6,0.0,0.8,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent jar filled with peach slices",
+        "size": "small"
+      },
+      "id": "peach_jar",
+      "label": "Peach Jar",
+      "location": "0.8,0.2,0.95,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with grilled steak",
+        "size": "small"
+      },
+      "id": "steak_plate",
+      "label": "Steak Plate",
+      "location": "0.3,0.5,0.5,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red sauce on white plate",
+        "size": "small"
+      },
+      "id": "sauce_plate",
+      "label": "Sauce Plate",
+      "location": "0.6,0.75,0.8,0.95,0.8"
+    }
+  ]
+}

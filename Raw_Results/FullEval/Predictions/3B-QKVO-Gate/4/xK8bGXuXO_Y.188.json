@@ -1,0 +1,145 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "window1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "cabinet1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "behind",
+      "source": "fruit_basket1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "curtain1",
+      "target": "window1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink shirt blue apron",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.1,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.45,0.0,0.75,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bowl with onions",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl of onions",
+      "location": "0.2,0.75,0.35,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.1,0.75,0.6,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "medium"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.35,0.7,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.75,0.5,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown basket with fruits",
+        "size": "small"
+      },
+      "id": "fruit_basket1",
+      "label": "fruit basket",
+      "location": "0.75,0.45,0.9,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow fabric",
+        "size": "large"
+      },
+      "id": "curtain1",
+      "label": "window curtain",
+      "location": "0.0,0.0,0.4,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottles",
+        "size": "small"
+      },
+      "id": "oil_jars1",
+      "label": "olive oil jars",
+      "location": "0.45,0.0,0.55,0.15,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal spatula",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.4,0.6,0.5,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass window",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.0,0.0,0.4,0.5,0.7"
+    }
+  ]
+}

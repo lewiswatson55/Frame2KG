@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "on",
+      "source": "clock1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bag1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bag1",
+      "target": "cabinet1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent plastic with green and red label",
+        "size": "medium"
+      },
+      "id": "bag1",
+      "label": "snack bag",
+      "location": "0.35,0.0,0.65,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.45,0.7,0.9,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.0,0.5,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "clock1",
+      "label": "kitchen clock",
+      "location": "0.0,0.0,0.3,0.3,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "grey wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "cabinet",
+      "location": "0.6,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

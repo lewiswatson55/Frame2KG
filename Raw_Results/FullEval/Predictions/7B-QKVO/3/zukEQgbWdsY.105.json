@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window1"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "knife1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cutting_board1",
+      "target": "window1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "window1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "clock1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "includes",
+      "source": "window1",
+      "target": "trees1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "bearded man wearing black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.58,0.03,0.97,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame glass panes",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.45,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "wooden cutting board",
+      "location": "0.0,0.4,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade wooden handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.1,0.45,0.25,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal mesh",
+        "size": "small"
+      },
+      "id": "clock1",
+      "label": "wall clock",
+      "location": "0.0,0.0,0.2,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green foliage",
+        "size": "large"
+      },
+      "id": "trees1",
+      "label": "trees",
+      "location": "0.5,0.0,1.0,0.5,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Tasted logo",
+      "location": "0.85,0.8,1.0,1.0,0.9"
+    }
+  ]
+}

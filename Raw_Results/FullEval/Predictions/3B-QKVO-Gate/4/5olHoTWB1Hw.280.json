@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "pouring_into",
+      "source": "container1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "breadcrumbs1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "stove1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green plastic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.35,0.45,0.98,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "container1",
+      "label": "container",
+      "location": "0.30,0.00,0.75,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige crumbly",
+        "size": "medium"
+      },
+      "id": "breadcrumbs1",
+      "label": "breadcrumbs",
+      "location": "0.40,0.50,0.90,0.90,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white smooth",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.00,0.50,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.85,0.00,1.00,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.00,0.00,0.40,0.50,0.8"
+    }
+  ]
+}

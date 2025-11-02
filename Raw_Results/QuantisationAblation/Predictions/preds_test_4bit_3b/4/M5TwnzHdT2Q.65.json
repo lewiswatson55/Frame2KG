@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "fork1"
+    },
+    {
+      "predicate": "on",
+      "source": "fork1",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread2",
+      "target": "bread1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "plate_cheese",
+      "target": "pan1"
+    },
+    {
+      "predicate": "includes",
+      "source": "plate_cheese",
+      "target": "cheese1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.45,0.0,0.98,0.37,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "fork1",
+      "label": "fork",
+      "location": "0.46,0.15,0.55,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow shredded",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "shredded cheese",
+      "location": "0.45,0.35,0.65,0.55,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread slice",
+        "size": "medium"
+      },
+      "id": "bread1",
+      "label": "slice of bread",
+      "location": "0.35,0.35,0.65,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread slice",
+        "size": "medium"
+      },
+      "id": "bread2",
+      "label": "slice of bread",
+      "location": "0.65,0.35,0.95,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.15,0.15,0.95,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate_cheese",
+      "label": "plate",
+      "location": "0.5,0.6,1.0,1.0,0.9"
+    }
+  ]
+}

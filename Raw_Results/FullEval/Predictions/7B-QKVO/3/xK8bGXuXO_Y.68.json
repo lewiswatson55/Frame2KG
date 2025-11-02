@@ -1,0 +1,141 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "onion_slice"
+    },
+    {
+      "predicate": "cutting_on",
+      "source": "knife1",
+      "target": "onion_slice"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "onion1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "onion2",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl_group",
+      "target": "board1"
+    },
+    {
+      "predicate": "behind",
+      "source": "apples1",
+      "target": "board1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "cloth1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.05,0.0,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.1,0.4,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "Knife",
+      "location": "0.3,0.45,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink translucent",
+        "size": "small"
+      },
+      "id": "onion_slice",
+      "label": "Onion Slice",
+      "location": "0.45,0.45,0.55,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.0,0.4,0.3,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink translucent",
+        "size": "small"
+      },
+      "id": "onion1",
+      "label": "Whole Onion",
+      "location": "0.6,0.5,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink translucent",
+        "size": "small"
+      },
+      "id": "onion2",
+      "label": "Whole Onion",
+      "location": "0.5,0.55,0.6,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl_group",
+      "label": "Small Bowls",
+      "location": "0.6,0.7,0.95,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red",
+        "size": "medium"
+      },
+      "id": "apples1",
+      "label": "Apples",
+      "location": "0.0,0.0,0.2,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink fabric",
+        "size": "medium"
+      },
+      "id": "cloth1",
+      "label": "Cloth",
+      "location": "0.8,0.0,1.0,0.6,0.8"
+    }
+  ]
+}

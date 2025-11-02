@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "cupcakes1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "cupcakes1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white apron green trim",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.05,0.0,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink frosting red raspberries pink cupcake liners",
+        "size": "medium"
+      },
+      "id": "cupcakes1",
+      "label": "cupcakes",
+      "location": "0.3,0.4,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.2,0.5,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow glass with orange lid",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "jar",
+      "location": "0.75,0.4,0.95,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "cursive white text",
+        "size": "large"
+      },
+      "id": "text1",
+      "label": "title text",
+      "location": "0.0,0.0,1.0,0.3,0.9"
+    }
+  ]
+}

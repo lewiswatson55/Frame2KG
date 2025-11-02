@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "faucet1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fridge1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "behind",
+      "source": "wall_tiles1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cabinet1",
+      "target": "fridge1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black hoodie with white zipper",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.98,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "medium"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.4,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "small"
+      },
+      "id": "faucet1",
+      "label": "sink faucet",
+      "location": "0.2,0.4,0.4,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "dish soap bottle",
+      "location": "0.25,0.5,0.35,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white glossy",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.4,1.0,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.75,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige ceramic tiles",
+        "size": "medium"
+      },
+      "id": "wall_tiles1",
+      "label": "tiled backsplash",
+      "location": "0.0,0.3,0.5,0.6,0.6"
+    }
+  ]
+}

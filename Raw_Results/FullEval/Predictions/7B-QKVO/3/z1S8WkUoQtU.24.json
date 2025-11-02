@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "shirt1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "frame1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "vase1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown hair, red shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.0,0.75,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "pink fabric",
+        "size": "medium"
+      },
+      "id": "shirt1",
+      "label": "red shirt",
+      "location": "0.0,0.4,0.6,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden frame black glass",
+        "size": "small"
+      },
+      "id": "frame1",
+      "label": "picture frame",
+      "location": "0.0,0.0,0.3,0.3,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "orange ceramic",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "vase",
+      "location": "0.6,0.4,0.9,0.9,0.8"
+    }
+  ]
+}

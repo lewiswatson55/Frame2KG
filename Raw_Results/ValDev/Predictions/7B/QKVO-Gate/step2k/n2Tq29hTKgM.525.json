@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "eggs1",
+      "target": "foil1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "eggs1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "foil1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "kettle1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "kettle1",
+      "target": "pancake1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "Stovetop",
+      "location": "0.05,0.3,0.95,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "kettle1",
+      "label": "Kettle",
+      "location": "0.4,0.0,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "eggs1",
+      "label": "Scrambled eggs",
+      "location": "0.1,0.7,0.5,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "shiny silver",
+        "size": "medium"
+      },
+      "id": "foil1",
+      "label": "Aluminum foil",
+      "location": "0.2,0.6,0.8,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.0,0.7,0.2,0.95,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white batter",
+        "size": "small"
+      },
+      "id": "pancake1",
+      "label": "Pancake batter",
+      "location": "0.6,0.2,0.8,0.4,0.7"
+    }
+  ]
+}

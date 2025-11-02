@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "whisk1"
+    },
+    {
+      "predicate": "in",
+      "source": "whisk1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl2",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "text1",
+      "target": "phone1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.15,0.25,0.75,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "small"
+      },
+      "id": "whisk1",
+      "label": "whisk",
+      "location": "0.45,0.0,0.55,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "wooden countertop",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "medium"
+      },
+      "id": "bowl2",
+      "label": "mixing bowl",
+      "location": "0.75,0.2,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue banner text",
+        "size": "large"
+      },
+      "id": "text1",
+      "label": "advertisement text",
+      "location": "0.0,0.75,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black screen",
+        "size": "small"
+      },
+      "id": "phone1",
+      "label": "smartphone",
+      "location": "0.85,0.75,0.95,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    }
+  ]
+}

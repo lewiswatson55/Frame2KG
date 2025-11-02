@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "sifter"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand2",
+      "target": "bowl"
+    },
+    {
+      "predicate": "in",
+      "source": "powder",
+      "target": "sifter"
+    },
+    {
+      "predicate": "on",
+      "source": "sifter",
+      "target": "bowl"
+    },
+    {
+      "predicate": "next_to",
+      "source": "text1",
+      "target": "text2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "left hand",
+      "location": "0.45,0.0,0.95,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand2",
+      "label": "right hand",
+      "location": "0.15,0.6,0.75,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal mesh",
+        "size": "large"
+      },
+      "id": "sifter",
+      "label": "metal sifter",
+      "location": "0.1,0.0,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "powder",
+      "label": "powder",
+      "location": "0.2,0.2,0.8,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey ceramic",
+        "size": "large"
+      },
+      "id": "bowl",
+      "label": "mixing bowl",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on white background",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "English text",
+      "location": "0.0,0.8,0.5,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on white background",
+        "size": "small"
+      },
+      "id": "text2",
+      "label": "Japanese text",
+      "location": "0.5,0.8,1.0,1.0,0.9"
+    }
+  ]
+}

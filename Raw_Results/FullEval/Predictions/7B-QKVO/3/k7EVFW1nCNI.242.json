@@ -1,0 +1,188 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "tube1"
+    },
+    {
+      "predicate": "on",
+      "source": "vase1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "tumbler1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "soap1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "sink1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "faucet1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "on",
+      "source": "microwave1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "in",
+      "source": "flowers1",
+      "target": "vase1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tumbler1",
+      "target": "soap1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "sink1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "microwave1",
+      "target": "cabinet1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white lace top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "tube1",
+      "label": "paste tube",
+      "location": "0.48,0.75,0.55,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with red roses",
+        "size": "medium"
+      },
+      "id": "vase1",
+      "label": "flower vase",
+      "location": "0.05,0.25,0.25,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "small"
+      },
+      "id": "tumbler1",
+      "label": "tumbler",
+      "location": "0.25,0.45,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent gel",
+        "size": "small"
+      },
+      "id": "soap1",
+      "label": "hand soap bottle",
+      "location": "0.3,0.45,0.35,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "faucet1",
+      "label": "kitchen faucet",
+      "location": "0.35,0.2,0.5,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.3,0.5,0.45,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave oven",
+      "location": "0.75,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black glass",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.7,0.6,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.8,0.75,0.95,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves and red flowers",
+        "size": "small"
+      },
+      "id": "flowers1",
+      "label": "flower bouquet",
+      "location": "0.0,0.2,0.2,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

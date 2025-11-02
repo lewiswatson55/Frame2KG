@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "meat1"
+    },
+    {
+      "predicate": "sprinkling_on",
+      "source": "hand1",
+      "target": "meat1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "meat1",
+      "target": "blender1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt with floral patterned sleeves",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.45,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.38,0.0,0.62,0.27,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red raw ground meat",
+        "size": "medium"
+      },
+      "id": "meat1",
+      "label": "raw meat patty",
+      "location": "0.45,0.25,0.75,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.0,0.5,0.2,1.0,0.8"
+    }
+  ]
+}

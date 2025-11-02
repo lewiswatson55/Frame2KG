@@ -1,0 +1,81 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "vase1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "vase2",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "vase1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "vase2",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "dark hair grey top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.1,0.65,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal bars",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "metal shelf",
+      "location": "0.0,0.0,1.0,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue white ceramic",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "decorative vase",
+      "location": "0.25,0.2,0.35,0.35,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white blue patterned",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "decorative plate",
+      "location": "0.35,0.15,0.45,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey ceramic",
+        "size": "small"
+      },
+      "id": "vase2",
+      "label": "decorative vase",
+      "location": "0.5,0.05,0.6,0.15,0.7"
+    }
+  ]
+}

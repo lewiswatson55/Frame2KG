@@ -1,0 +1,81 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "pepper_box"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "pepper_box",
+      "target": "chicken_bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken_bowl",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "egg_mixture_bowl",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chicken_bowl",
+      "target": "pepper_box"
+    },
+    {
+      "predicate": "right_of",
+      "source": "egg_mixture_bowl",
+      "target": "pepper_box"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.65,0.45,0.98,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black cardboard packaging with red label",
+        "size": "small"
+      },
+      "id": "pepper_box",
+      "label": "Ground Black Pepper Box",
+      "location": "0.45,0.30,0.75,0.70,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass bowl with raw chicken pieces",
+        "size": "large"
+      },
+      "id": "chicken_bowl",
+      "label": "Glass Bowl of Chicken",
+      "location": "0.05,0.05,0.55,0.45,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass bowl with yellow mixture",
+        "size": "medium"
+      },
+      "id": "egg_mixture_bowl",
+      "label": "Glass Bowl of Egg Mixture",
+      "location": "0.55,0.05,0.95,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown surface",
+        "size": "large"
+      },
+      "id": "cutting_board",
+      "label": "Cutting Board",
+      "location": "0.0,0.45,1.0,1.0,0.7"
+    }
+  ]
+}

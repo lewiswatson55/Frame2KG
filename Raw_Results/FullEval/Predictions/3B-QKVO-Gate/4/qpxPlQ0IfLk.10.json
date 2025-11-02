@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "cap1"
+    },
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "jacket1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "logo1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black leather jacket blue shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.45,0.0,1.0,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "brown brick",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "brick wall",
+      "location": "0.0,0.0,0.6,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "black fabric",
+        "size": "small"
+      },
+      "id": "cap1",
+      "label": "cap",
+      "location": "0.53,0.05,0.75,0.25,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "black leather",
+        "size": "medium"
+      },
+      "id": "jacket1",
+      "label": "leather jacket",
+      "location": "0.45,0.4,1.0,1.0,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "white fish graphic",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "logo",
+      "location": "0.0,0.0,0.2,0.15,0.85"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "fridge1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "mixer1",
+      "target": "person1"
+    },
+    {
+      "predicate": "on",
+      "source": "coffee_maker1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "teapot1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "microwave1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "above",
+      "source": "curtain1",
+      "target": "window1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chair1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "window1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blonde hair white t-shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.25,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave oven",
+      "location": "0.0,0.0,0.25,0.25,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "red black",
+        "size": "small"
+      },
+      "id": "mixer1",
+      "label": "stand mixer",
+      "location": "0.75,0.45,0.95,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "coffee_maker1",
+      "label": "coffee maker",
+      "location": "0.7,0.6,0.9,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "teapot1",
+      "label": "teapot",
+      "location": "0.6,0.75,0.7,0.9,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "kitchen countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass pane",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.2,0.0,0.8,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white fabric",
+        "size": "large"
+      },
+      "id": "curtain1",
+      "label": "curtain",
+      "location": "0.2,0.0,0.8,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "wooden shelf",
+      "location": "0.8,0.0,1.0,0.3,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "chair1",
+      "label": "chair",
+      "location": "0.3,0.6,0.5,0.9,0.6"
+    }
+  ]
+}

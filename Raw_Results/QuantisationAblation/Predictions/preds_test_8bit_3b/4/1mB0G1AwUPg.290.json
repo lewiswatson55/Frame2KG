@@ -1,0 +1,230 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "sign1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "sign2",
+      "target": "wall1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "lamp1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "rack1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "supports",
+      "source": "rack1",
+      "target": "bagels1"
+    },
+    {
+      "predicate": "on",
+      "source": "mixer1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "towel1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf1",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white sweater",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.48,0.05,0.96,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "salad bowl",
+      "location": "0.27,0.65,0.73,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.15,0.75,0.45,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "large"
+      },
+      "id": "mixer1",
+      "label": "stand mixer",
+      "location": "0.85,0.55,1.0,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "kitchen counter",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black chalkboard",
+        "size": "medium"
+      },
+      "id": "sign1",
+      "label": "menu sign",
+      "location": "0.0,0.0,0.3,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black chalkboard",
+        "size": "medium"
+      },
+      "id": "sign2",
+      "label": "menu sign",
+      "location": "0.3,0.0,0.6,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white pendant",
+        "size": "small"
+      },
+      "id": "lamp1",
+      "label": "pendant light",
+      "location": "0.45,0.0,0.55,0.15,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal rack with bagels",
+        "size": "medium"
+      },
+      "id": "rack1",
+      "label": "bagel rack",
+      "location": "0.6,0.2,0.95,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread",
+        "size": "small"
+      },
+      "id": "bagels1",
+      "label": "bagels",
+      "location": "0.6,0.2,0.95,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass door",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "display case",
+      "location": "0.6,0.2,1.0,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "towel1",
+      "label": "paper towel roll",
+      "location": "0.0,0.6,0.15,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear bottle",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "oil bottle",
+      "location": "0.85,0.6,0.9,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.6,0.2,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wooden wall",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

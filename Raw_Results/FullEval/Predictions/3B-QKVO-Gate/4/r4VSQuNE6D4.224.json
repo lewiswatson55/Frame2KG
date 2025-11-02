@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pancake_stack",
+      "target": "griddle"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "handle",
+      "target": "griddle"
+    },
+    {
+      "predicate": "on",
+      "source": "griddle",
+      "target": "stovetop"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "griddle",
+      "label": "Griddle",
+      "location": "0.35,0.1,0.98,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown",
+        "size": "medium"
+      },
+      "id": "pancake_stack",
+      "label": "Pancake Stack",
+      "location": "0.6,0.2,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "handle",
+      "label": "Pan Handle",
+      "location": "0.0,0.4,0.3,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white glossy",
+        "size": "large"
+      },
+      "id": "stovetop",
+      "label": "Stovetop",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

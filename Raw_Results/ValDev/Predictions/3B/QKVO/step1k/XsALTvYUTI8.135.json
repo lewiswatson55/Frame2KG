@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "pasta1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "sauce1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "holding",
+      "source": "spoon1",
+      "target": "pasta1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow creamy sauce",
+        "size": "large"
+      },
+      "id": "pasta1",
+      "label": "macaroni pasta",
+      "location": "0.05,0.3,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange creamy sauce",
+        "size": "large"
+      },
+      "id": "sauce1",
+      "label": "cheese sauce",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "spoon1",
+      "label": "spoon",
+      "location": "0.2,0.0,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "syrup1",
+      "target": "pancake_stack"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text_overlay1",
+      "target": "pancake_stack"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text_overlay2",
+      "target": "pancake_stack"
+    },
+    {
+      "predicate": "below",
+      "source": "copyright_text",
+      "target": "text_overlay2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "large"
+      },
+      "id": "pancake_stack",
+      "label": "stack of pancakes",
+      "location": "0.05,0.3,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "amber liquid",
+        "size": "small"
+      },
+      "id": "syrup1",
+      "label": "syrup",
+      "location": "0.4,0.6,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on purple gradient",
+        "size": "medium"
+      },
+      "id": "text_overlay1",
+      "label": "presentation text",
+      "location": "0.1,0.0,0.9,0.2,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on blue background",
+        "size": "medium"
+      },
+      "id": "text_overlay2",
+      "label": "video editing text",
+      "location": "0.1,0.2,0.9,0.4,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "black text",
+        "size": "small"
+      },
+      "id": "copyright_text",
+      "label": "copyright text",
+      "location": "0.2,0.75,0.8,0.9,0.9"
+    }
+  ]
+}

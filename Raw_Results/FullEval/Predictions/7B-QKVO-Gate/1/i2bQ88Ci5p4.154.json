@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bottle"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "fridge"
+    },
+    {
+      "predicate": "on",
+      "source": "glass",
+      "target": "table"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet",
+      "target": "fridge"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person1",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt glasses",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.0,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black jacket braided hair",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.47,0.0,0.96,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue glass",
+        "size": "medium"
+      },
+      "id": "bottle",
+      "label": "alcohol bottle",
+      "location": "0.55,0.55,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with ice cubes",
+        "size": "small"
+      },
+      "id": "glass",
+      "label": "measuring cup",
+      "location": "0.75,0.65,0.85,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "fridge",
+      "label": "refrigerator",
+      "location": "0.45,0.0,1.0,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.45,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "countertop",
+      "location": "0.0,0.7,1.0,1.0,0.7"
+    }
+  ]
+}

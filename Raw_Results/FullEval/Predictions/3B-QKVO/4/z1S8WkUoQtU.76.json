@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "spice1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand1",
+      "target": "chicken1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red powder",
+        "size": "small"
+      },
+      "id": "spice1",
+      "label": "red spice",
+      "location": "0.35,0.48,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white breaded",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "breaded chicken piece",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink skin",
+        "size": "large"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.5,0.7,1.0,1.0,0.8"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "bun1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato1",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "on",
+      "source": "bun1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bun2",
+      "target": "plate1"
+    },
+    {
+      "predicate": "behind",
+      "source": "salt_shaker1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "behind",
+      "source": "pepper_shaker1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.15,0.48,0.73,0.69,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown toasted",
+        "size": "medium"
+      },
+      "id": "bun1",
+      "label": "Burger Bun Bottom",
+      "location": "0.45,0.55,0.65,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown grilled",
+        "size": "small"
+      },
+      "id": "patty1",
+      "label": "Beef Patty",
+      "location": "0.48,0.58,0.62,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow melted",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "Cheese Slice",
+      "location": "0.5,0.58,0.65,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red fresh",
+        "size": "small"
+      },
+      "id": "tomato1",
+      "label": "Tomato Slices",
+      "location": "0.52,0.55,0.65,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown toasted",
+        "size": "medium"
+      },
+      "id": "bun2",
+      "label": "Burger Bun Top",
+      "location": "0.2,0.45,0.45,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass white salt",
+        "size": "small"
+      },
+      "id": "salt_shaker1",
+      "label": "Salt Shaker",
+      "location": "0.3,0.15,0.4,0.35,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark glass black pepper",
+        "size": "small"
+      },
+      "id": "pepper_shaker1",
+      "label": "Pepper Shaker",
+      "location": "0.4,0.15,0.5,0.35,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue jeans red shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.4,0.0,1.0,0.4,0.6"
+    }
+  ]
+}

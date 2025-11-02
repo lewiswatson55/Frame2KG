@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "egg1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.65,0.0,1.0,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange ceramic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "ceramic bowl",
+      "location": "0.1,0.1,0.8,0.7,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow yolk white",
+        "size": "small"
+      },
+      "id": "egg1",
+      "label": "egg",
+      "location": "0.35,0.3,0.45,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

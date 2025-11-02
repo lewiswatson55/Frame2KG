@@ -1,0 +1,89 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "tongs1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "on",
+      "source": "lemon1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar1",
+      "target": "can1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "chicken1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "tongs1",
+      "label": "Tongs",
+      "location": "0.45,0.0,0.75,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grilled white meat",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "Chicken piece",
+      "location": "0.45,0.2,0.65,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "large"
+      },
+      "id": "jar1",
+      "label": "Mayonnaise jar",
+      "location": "0.0,0.4,0.3,0.9,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "blue cardboard",
+        "size": "medium"
+      },
+      "id": "can1",
+      "label": "Can",
+      "location": "0.3,0.3,0.5,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "Bottle",
+      "location": "0.2,0.0,0.4,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white citrus",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "Lemon wedge",
+      "location": "0.2,0.7,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blurred green shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.6,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

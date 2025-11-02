@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "oil1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "in",
+      "source": "bubbles1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula1",
+      "target": "oil1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.05,0.45,0.95,0.98,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden liquid",
+        "size": "medium"
+      },
+      "id": "oil1",
+      "label": "hot oil",
+      "location": "0.1,0.3,0.9,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frothy",
+        "size": "small"
+      },
+      "id": "bubbles1",
+      "label": "bubbles",
+      "location": "0.6,0.4,0.95,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.3,0.1,0.7,0.4,0.6"
+    }
+  ]
+}

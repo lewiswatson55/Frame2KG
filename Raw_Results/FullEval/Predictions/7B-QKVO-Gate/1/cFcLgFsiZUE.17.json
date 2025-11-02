@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "label1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "on",
+      "source": "label2",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "text1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "above",
+      "source": "line1",
+      "target": "text1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "text2",
+      "target": "text1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "line2",
+      "target": "text2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red glass",
+        "size": "large"
+      },
+      "id": "bottle1",
+      "label": "Hot Sauce Bottle",
+      "location": "0.05,0.0,0.38,0.97,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white red text",
+        "size": "small"
+      },
+      "id": "label1",
+      "label": "Frank's RedHot Label",
+      "location": "0.14,0.6,0.32,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black white text",
+        "size": "medium"
+      },
+      "id": "label2",
+      "label": "Original Label",
+      "location": "0.14,0.8,0.32,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey sans-serif",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "CAYENNE RED PEPPERS Text",
+      "location": "0.4,0.2,0.6,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow line",
+        "size": "thin"
+      },
+      "id": "line1",
+      "label": "Yellow Line",
+      "location": "0.4,0.35,0.6,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey sans-serif",
+        "size": "medium"
+      },
+      "id": "text2",
+      "label": "WATER DISTILLED VINEGAR Text",
+      "location": "0.6,0.1,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue line",
+        "size": "thin"
+      },
+      "id": "line2",
+      "label": "Blue Line",
+      "location": "0.6,0.2,0.6,0.8,0.8"
+    }
+  ]
+}

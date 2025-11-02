@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl1",
+      "target": "breadcrumbs1"
+    },
+    {
+      "predicate": "on",
+      "source": "packaging1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "packaging1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green plastic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.35,0.15,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow bread crumbs",
+        "size": "medium"
+      },
+      "id": "breadcrumbs1",
+      "label": "bread crumbs",
+      "location": "0.45,0.35,0.9,0.65,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "spoon",
+      "location": "0.6,0.1,0.9,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.6,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "multicolored cardboard",
+        "size": "medium"
+      },
+      "id": "packaging1",
+      "label": "food packaging",
+      "location": "0.0,0.0,0.4,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.5,1.0,1.0,0.6"
+    }
+  ]
+}

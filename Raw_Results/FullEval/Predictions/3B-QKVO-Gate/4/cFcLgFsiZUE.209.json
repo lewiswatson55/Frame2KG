@@ -1,0 +1,135 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_of_wings",
+      "target": "countertop"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "cabinets"
+    },
+    {
+      "predicate": "next_to",
+      "source": "mixer",
+      "target": "kitchen_appliance"
+    },
+    {
+      "predicate": "left_of",
+      "source": "stove",
+      "target": "decorative_discs"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin blonde hair white shirt black apron",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.05,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark skin beard glasses black chef coat",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.47,0.05,0.96,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver stainless steel",
+        "size": "large"
+      },
+      "id": "fridge",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinets",
+      "label": "kitchen cabinets",
+      "location": "0.3,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate_of_wings",
+      "label": "plate of wings",
+      "location": "0.3,0.75,0.6,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass orange sauce",
+        "size": "small"
+      },
+      "id": "bowl",
+      "label": "glass bowl",
+      "location": "0.25,0.6,0.4,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "medium"
+      },
+      "id": "mixer",
+      "label": "stand mixer",
+      "location": "0.45,0.2,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "kitchen_appliance",
+      "label": "kitchen appliance",
+      "location": "0.1,0.1,0.25,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove",
+      "label": "stove",
+      "location": "0.8,0.6,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "round red patterned",
+        "size": "small"
+      },
+      "id": "decorative_discs",
+      "label": "decorative discs",
+      "location": "0.8,0.3,0.95,0.5,0.8"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "chicken_piece"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken_wings",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chicken_piece",
+      "target": "chicken_wings"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken_wings",
+      "label": "fried chicken wings",
+      "location": "0.05,0.3,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "white plate",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.6,0.0,1.0,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "chicken_piece",
+      "label": "fried chicken piece",
+      "location": "0.4,0.4,0.7,0.7,0.85"
+    }
+  ]
+}

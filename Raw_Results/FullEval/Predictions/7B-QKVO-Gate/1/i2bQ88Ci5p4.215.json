@@ -1,0 +1,146 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "glass1"
+    },
+    {
+      "predicate": "holding",
+      "source": "person2",
+      "target": "cup1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "on",
+      "source": "clock1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle2",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cabinet1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "can1",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt glasses",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black jacket braided hair",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.52,0.05,0.95,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with yellow liquid",
+        "size": "small"
+      },
+      "id": "glass1",
+      "label": "beer glass",
+      "location": "0.07,0.65,0.22,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "small"
+      },
+      "id": "cup1",
+      "label": "plastic cup",
+      "location": "0.8,0.65,0.95,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.45,0.0,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.45,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white face black numbers",
+        "size": "small"
+      },
+      "id": "clock1",
+      "label": "wall clock",
+      "location": "0.7,0.1,0.9,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow label",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "bottle",
+      "location": "0.6,0.0,0.7,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red label",
+        "size": "small"
+      },
+      "id": "bottle2",
+      "label": "bottle",
+      "location": "0.7,0.0,0.8,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver yellow",
+        "size": "small"
+      },
+      "id": "can1",
+      "label": "soda can",
+      "location": "0.9,0.8,1.0,1.0,0.8"
+    }
+  ]
+}

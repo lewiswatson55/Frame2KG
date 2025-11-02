@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "glove1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "in",
+      "source": "rack1",
+      "target": "oven1"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "rack1"
+    },
+    {
+      "predicate": "includes",
+      "source": "oven1",
+      "target": "rack1"
+    },
+    {
+      "predicate": "includes",
+      "source": "oven1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "stove1",
+      "target": "oven1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "plant1",
+      "target": "oven1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "oven1",
+      "label": "Oven",
+      "location": "0.05,0.0,0.95,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "control_panel1",
+      "label": "Control Panel",
+      "location": "0.3,0.0,0.7,0.2,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "tray1",
+      "label": "Baking Tray",
+      "location": "0.4,0.6,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow crispy",
+        "size": "small"
+      },
+      "id": "chicken_wings1",
+      "label": "Chicken Wings",
+      "location": "0.45,0.65,0.85,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red silicone",
+        "size": "medium"
+      },
+      "id": "glove1",
+      "label": "Gloves",
+      "location": "0.7,0.6,0.95,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal wire",
+        "size": "medium"
+      },
+      "id": "rack1",
+      "label": "Oven Rack",
+      "location": "0.1,0.3,0.9,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "Stove Top",
+      "location": "0.0,0.0,0.2,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "Houseplant",
+      "location": "0.9,0.2,1.0,0.5,0.7"
+    }
+  ]
+}

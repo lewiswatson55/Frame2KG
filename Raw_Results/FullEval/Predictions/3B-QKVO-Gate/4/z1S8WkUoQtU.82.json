@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "hand1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "on",
+      "source": "meat1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "behind",
+      "source": "bowl1",
+      "target": "tray1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "wooden tray",
+      "location": "0.05,0.45,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink flesh",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.6,0.6,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "reddish minced",
+        "size": "small"
+      },
+      "id": "meat1",
+      "label": "ground meat",
+      "location": "0.3,0.55,0.6,0.7,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "plastic bowl",
+      "location": "0.6,0.0,1.0,0.4,0.7"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "on",
+      "source": "patty2",
+      "target": "tray1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "patty3",
+      "target": "patty2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink raw meat with green herbs",
+        "size": "medium"
+      },
+      "id": "patty1",
+      "label": "raw burger patty",
+      "location": "0.05,0.45,0.45,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat with green herbs",
+        "size": "medium"
+      },
+      "id": "patty2",
+      "label": "raw burger patty",
+      "location": "0.45,0.15,0.75,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat with green herbs",
+        "size": "medium"
+      },
+      "id": "patty3",
+      "label": "raw burger patty",
+      "location": "0.0,0.0,0.3,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "baking tray",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    }
+  ]
+}

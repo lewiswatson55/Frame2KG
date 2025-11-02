@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bun1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "behind",
+      "source": "chips1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cup1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown minced meat",
+        "size": "medium"
+      },
+      "id": "patty1",
+      "label": "raw burger patty",
+      "location": "0.15,0.48,0.63,0.79,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red",
+        "size": "small"
+      },
+      "id": "tomato1",
+      "label": "sliced tomato",
+      "location": "0.30,0.65,0.55,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "large"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.00,0.60,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.00,0.50,1.00,1.00,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown bread",
+        "size": "small"
+      },
+      "id": "bun1",
+      "label": "burger bun",
+      "location": "0.45,0.75,0.60,0.90,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow paper",
+        "size": "medium"
+      },
+      "id": "cup1",
+      "label": "paper cup",
+      "location": "0.00,0.00,0.30,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige crispy",
+        "size": "medium"
+      },
+      "id": "chips1",
+      "label": "potato chips",
+      "location": "0.30,0.00,1.00,0.40,0.7"
+    }
+  ]
+}

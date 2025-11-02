@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "dish1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "orange glazed",
+        "size": "large"
+      },
+      "id": "chicken1",
+      "label": "raw chicken pieces",
+      "location": "0.35,0.05,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "dish1",
+      "label": "glass baking dish",
+      "location": "0.3,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with beige powder",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl of flour",
+      "location": "0.0,0.0,0.3,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "metal tray",
+      "location": "0.0,0.6,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text with grey chef silhouette",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Chef Ricardo logo",
+      "location": "0.6,0.75,1.0,1.0,0.9"
+    }
+  ]
+}

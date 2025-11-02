@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "in",
+      "source": "paper1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "logo1",
+      "target": "chicken1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "large"
+      },
+      "id": "chicken1",
+      "label": "fried chicken pieces",
+      "location": "0.05,0.05,0.98,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "baking tray",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "medium"
+      },
+      "id": "paper1",
+      "label": "parchment paper",
+      "location": "0.0,0.0,0.6,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white cursive text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Chef Ricardo logo",
+      "location": "0.4,0.7,0.9,0.95,0.8"
+    }
+  ]
+}

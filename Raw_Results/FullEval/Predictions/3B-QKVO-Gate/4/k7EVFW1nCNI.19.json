@@ -1,0 +1,123 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "mixer1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "vase1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "microwave1",
+      "target": "cabinets1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "vase1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinets1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "stove1",
+      "target": "mixer1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "medium skin tone blonde hair patterned shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "red metal silver bowl",
+        "size": "medium"
+      },
+      "id": "mixer1",
+      "label": "stand mixer",
+      "location": "0.75,0.6,0.98,0.98,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass red flowers",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "flower vase",
+      "location": "0.15,0.45,0.3,0.75,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic black pattern",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "ceramic bottle",
+      "location": "0.25,0.45,0.35,0.75,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "black stainless steel",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.7,0.5,0.98,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave",
+      "location": "0.75,0.0,0.98,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "cabinets1",
+      "label": "kitchen cabinets",
+      "location": "0.0,0.0,1.0,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.4,1.0,0.6,0.9"
+    }
+  ]
+}

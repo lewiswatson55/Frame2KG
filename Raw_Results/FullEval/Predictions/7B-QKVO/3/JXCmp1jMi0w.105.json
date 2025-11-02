@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "bowl_flour1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_flour1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_sugar1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_sugar1",
+      "target": "bowl_flour1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.0,0.35,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.2,0.05,0.6,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl_flour1",
+      "label": "Glass Bowl of Flour",
+      "location": "0.2,0.1,0.9,0.7,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl_sugar1",
+      "label": "Glass Bowl of Sugar",
+      "location": "0.0,0.2,0.3,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood grain",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Wooden Cutting Board",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "pasta1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "herb1",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bagel1",
+      "target": "bagel2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cheese1",
+      "target": "herb1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bagel1",
+      "target": "bagel2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow soft",
+        "size": "medium"
+      },
+      "id": "cheese1",
+      "label": "block of cheese",
+      "location": "0.05,0.0,0.35,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white shredded",
+        "size": "small"
+      },
+      "id": "herb1",
+      "label": "shredded herbs",
+      "location": "0.4,0.1,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "pasta1",
+      "label": "pasta",
+      "location": "0.3,0.2,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "large"
+      },
+      "id": "bagel1",
+      "label": "bagels",
+      "location": "0.7,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "medium"
+      },
+      "id": "bagel2",
+      "label": "bagels",
+      "location": "0.7,0.2,1.0,0.8,0.9"
+    }
+  ]
+}

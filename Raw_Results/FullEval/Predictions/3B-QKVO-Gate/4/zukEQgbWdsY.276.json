@@ -1,0 +1,247 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "holding",
+      "source": "person2",
+      "target": "sandwich2"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "blender1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "window1"
+    },
+    {
+      "predicate": "behind",
+      "source": "oven1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bottles_shelf1",
+      "target": "oven1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "utensils_holder1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "supports",
+      "source": "cutting_board1",
+      "target": "sandwich3"
+    },
+    {
+      "predicate": "supports",
+      "source": "plate1",
+      "target": "bread_slices1"
+    },
+    {
+      "predicate": "supports",
+      "source": "plate1",
+      "target": "lettuce_slices1"
+    },
+    {
+      "predicate": "supports",
+      "source": "plate1",
+      "target": "bacon_slices1"
+    },
+    {
+      "predicate": "supports",
+      "source": "plate1",
+      "target": "spoon1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.48,0.05,0.76,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread with lettuce and tomato",
+        "size": "small"
+      },
+      "id": "sandwich1",
+      "label": "sandwich",
+      "location": "0.25,0.45,0.40,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread with lettuce and tomato",
+        "size": "small"
+      },
+      "id": "sandwich2",
+      "label": "sandwich",
+      "location": "0.60,0.45,0.75,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread with lettuce and tomato",
+        "size": "small"
+      },
+      "id": "sandwich3",
+      "label": "sandwich",
+      "location": "0.70,0.65,0.85,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.00,0.60,0.40,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black cast iron",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.00,0.65,0.35,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.30,0.75,0.60,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown",
+        "size": "small"
+      },
+      "id": "bread_slices1",
+      "label": "bread slices",
+      "location": "0.35,0.80,0.55,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce_slices1",
+      "label": "lettuce slices",
+      "location": "0.50,0.80,0.70,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red crispy",
+        "size": "small"
+      },
+      "id": "bacon_slices1",
+      "label": "bacon strips",
+      "location": "0.55,0.75,0.65,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "spoon",
+      "location": "0.45,0.80,0.55,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.65,0.65,0.90,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.85,0.50,0.98,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottles",
+        "size": "medium"
+      },
+      "id": "bottles_shelf1",
+      "label": "wine bottles",
+      "location": "0.70,0.00,0.95,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal utensils",
+        "size": "small"
+      },
+      "id": "utensils_holder1",
+      "label": "utensil holder",
+      "location": "0.90,0.40,0.98,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "oven1",
+      "label": "oven",
+      "location": "0.45,0.10,0.65,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.00,0.00,0.40,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.60,0.00,1.00,0.30,0.8"
+    }
+  ]
+}

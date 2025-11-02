@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "on",
+      "source": "oil1",
+      "target": "pot1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "grey metal",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.05,0.3,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "fried chicken pieces",
+      "location": "0.1,0.4,0.9,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red silicone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "gloved hand",
+      "location": "0.0,0.0,0.6,0.3,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "clear bubbling",
+        "size": "large"
+      },
+      "id": "oil1",
+      "label": "hot oil",
+      "location": "0.0,0.3,1.0,1.0,0.7"
+    }
+  ]
+}

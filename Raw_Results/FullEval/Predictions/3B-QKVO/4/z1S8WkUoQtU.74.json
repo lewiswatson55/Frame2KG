@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall_art1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "vase1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "fork1",
+      "target": "spoon1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.0,0.95,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.45,0.75,0.6,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame",
+        "size": "medium"
+      },
+      "id": "wall_art1",
+      "label": "painting",
+      "location": "0.15,0.05,0.35,0.35,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "medium"
+      },
+      "id": "vase1",
+      "label": "vase",
+      "location": "0.8,0.3,0.95,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow metal",
+        "size": "small"
+      },
+      "id": "fork1",
+      "label": "fork icon",
+      "location": "0.05,0.0,0.15,0.15,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow metal",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "spoon icon",
+      "location": "0.15,0.0,0.25,0.15,0.6"
+    }
+  ]
+}

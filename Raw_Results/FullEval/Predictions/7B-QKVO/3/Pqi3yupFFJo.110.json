@@ -1,0 +1,67 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "bowl_large",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_small",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "flour_pile",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_small",
+      "target": "bowl_large"
+    },
+    {
+      "predicate": "right_of",
+      "source": "flour_pile",
+      "target": "bowl_small"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink plastic",
+        "size": "large"
+      },
+      "id": "bowl_large",
+      "label": "Large Bowl",
+      "location": "0.15,0.1,0.85,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "bowl_small",
+      "label": "Small Bowl",
+      "location": "0.0,0.6,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "medium"
+      },
+      "id": "flour_pile",
+      "label": "Flour Pile",
+      "location": "0.7,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark surface",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "Countertop",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

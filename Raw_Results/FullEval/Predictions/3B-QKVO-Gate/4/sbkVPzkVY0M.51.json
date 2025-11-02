@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl1",
+      "target": "meat1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "person1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text2",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "blender1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink sleeve denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.0,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.3,0.2,0.7,0.6,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "red raw meat",
+        "size": "small"
+      },
+      "id": "meat1",
+      "label": "Ground Chuck",
+      "location": "0.4,0.3,0.6,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Ingredients Text",
+      "location": "0.0,0.8,0.4,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black red plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "Blender",
+      "location": "0.85,0.3,1.0,0.8,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "small"
+      },
+      "id": "text2",
+      "label": "Popsugar Logo",
+      "location": "0.75,0.8,1.0,1.0,0.8"
+    }
+  ]
+}

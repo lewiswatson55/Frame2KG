@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "shape1"
+    },
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "shape2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "shape3",
+      "target": "shape1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "shape3",
+      "target": "shape2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green and white text",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Text 'Hod'",
+      "location": "0.45,0.25,0.75,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red gradient",
+        "size": "large"
+      },
+      "id": "shape1",
+      "label": "Red Gradient Shape",
+      "location": "0.0,0.0,0.5,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white gradient",
+        "size": "large"
+      },
+      "id": "shape2",
+      "label": "White Gradient Shape",
+      "location": "0.5,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red gradient",
+        "size": "large"
+      },
+      "id": "shape3",
+      "label": "Red Gradient Shape",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "meat1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "herbs1",
+      "target": "meat1"
+    },
+    {
+      "predicate": "in",
+      "source": "herbs1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink minced meat",
+        "size": "medium"
+      },
+      "id": "meat1",
+      "label": "ground meat",
+      "location": "0.05,0.1,0.95,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green chopped herbs",
+        "size": "small"
+      },
+      "id": "herbs1",
+      "label": "chopped herbs",
+      "location": "0.3,0.4,0.6,0.7,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

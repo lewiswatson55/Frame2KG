@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake2",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake3",
+      "target": "griddle"
+    },
+    {
+      "predicate": "on",
+      "source": "batter_stream",
+      "target": "griddle"
+    },
+    {
+      "predicate": "next_to",
+      "source": "griddle",
+      "target": "board"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop",
+      "target": "griddle"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text_overlay",
+      "target": "griddle"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "griddle",
+      "label": "Griddle",
+      "location": "0.05,0.05,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "board",
+      "label": "Cutting Board",
+      "location": "0.0,0.0,0.45,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "pancake1",
+      "label": "Pancake",
+      "location": "0.05,0.2,0.25,0.35,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "pancake2",
+      "label": "Pancake",
+      "location": "0.0,0.35,0.2,0.5,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow batter",
+        "size": "small"
+      },
+      "id": "pancake3",
+      "label": "Pancake",
+      "location": "0.7,0.05,0.9,0.3,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white liquid",
+        "size": "small"
+      },
+      "id": "batter_stream",
+      "label": "Batter Stream",
+      "location": "0.65,0.0,0.8,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "Countertop",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "small"
+      },
+      "id": "text_overlay",
+      "label": "Text Overlay",
+      "location": "0.6,0.85,0.95,0.95,0.9"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "onion_rings1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "in",
+      "source": "sauce1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "dish1",
+      "target": "basket1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "dish1",
+      "label": "rectangular dish",
+      "location": "0.05,0.0,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "onion_rings1",
+      "label": "fried onion rings",
+      "location": "0.1,0.05,0.9,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "red liquid",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "tomato sauce",
+      "location": "0.4,0.6,0.98,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown woven",
+        "size": "large"
+      },
+      "id": "basket1",
+      "label": "woven basket",
+      "location": "0.0,0.7,0.3,1.0,0.7"
+    }
+  ]
+}

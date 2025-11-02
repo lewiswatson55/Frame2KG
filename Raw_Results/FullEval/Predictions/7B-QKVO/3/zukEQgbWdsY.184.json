@@ -1,0 +1,187 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "window"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "measuring_cups",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "wine_bottles",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "olive_oil_jars",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "stove",
+      "target": "countertop"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "faucet",
+      "target": "sink"
+    },
+    {
+      "predicate": "behind",
+      "source": "sink",
+      "target": "countertop"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "grey shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.47,0.05,0.95,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bowl green contents",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.63,0.75,0.75,0.88,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bowl yellow contents",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "mixing bowl",
+      "location": "0.75,0.75,0.88,0.88,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "measuring_cups",
+      "label": "measuring cups",
+      "location": "0.88,0.75,0.99,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden cabinet",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "kitchen cabinet",
+      "location": "0.75,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden shelf",
+        "size": "medium"
+      },
+      "id": "shelf",
+      "label": "shelf",
+      "location": "0.75,0.3,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark bottles",
+        "size": "small"
+      },
+      "id": "wine_bottles",
+      "label": "wine bottles",
+      "location": "0.8,0.3,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green oil jars",
+        "size": "small"
+      },
+      "id": "olive_oil_jars",
+      "label": "olive oil jars",
+      "location": "0.8,0.0,0.95,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic sink",
+        "size": "medium"
+      },
+      "id": "sink",
+      "label": "sink",
+      "location": "0.5,0.6,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "faucet",
+      "label": "faucet",
+      "location": "0.55,0.5,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "stove",
+      "location": "0.0,0.7,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown stone countertop",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "large"
+      },
+      "id": "window",
+      "label": "window",
+      "location": "0.0,0.0,0.5,0.6,0.8"
+    }
+  ]
+}

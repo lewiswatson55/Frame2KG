@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "hand1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sink1",
+      "target": "dish1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.45,0.05,0.98,0.63,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "large"
+      },
+      "id": "dish1",
+      "label": "Baking Dish",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow white pasta",
+        "size": "medium"
+      },
+      "id": "cheese1",
+      "label": "Macaroni and Cheese",
+      "location": "0.05,0.5,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "sink1",
+      "label": "Sink",
+      "location": "0.0,0.0,0.5,0.4,0.8"
+    }
+  ]
+}

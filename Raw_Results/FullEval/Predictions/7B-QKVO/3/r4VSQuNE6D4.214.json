@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "syrup_bottle"
+    },
+    {
+      "predicate": "pouring_on",
+      "source": "syrup_bottle",
+      "target": "pan_cake_mix"
+    },
+    {
+      "predicate": "on",
+      "source": "pan_cake_mix",
+      "target": "griddle"
+    },
+    {
+      "predicate": "on",
+      "source": "griddle",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife",
+      "target": "griddle"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "griddle",
+      "label": "Griddle",
+      "location": "0.35,0.15,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "syrup_bottle",
+      "label": "Syrup Bottle",
+      "location": "0.45,0.0,0.65,0.35,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "light yellow liquid",
+        "size": "medium"
+      },
+      "id": "pan_cake_mix",
+      "label": "Pancake Mix",
+      "location": "0.55,0.35,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.6,0.0,1.0,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "medium"
+      },
+      "id": "knife",
+      "label": "Knife",
+      "location": "0.0,0.2,0.4,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white smooth surface",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "Countertop",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

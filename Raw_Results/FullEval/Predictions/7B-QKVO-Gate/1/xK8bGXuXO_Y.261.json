@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "herb1",
+      "target": "food1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "herb1",
+      "target": "food1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white crispy",
+        "size": "large"
+      },
+      "id": "food1",
+      "label": "fried food",
+      "location": "0.05,0.0,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves on thin stems",
+        "size": "small"
+      },
+      "id": "herb1",
+      "label": "herbs",
+      "location": "0.3,0.6,0.7,0.9,0.8"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "banner"
+    },
+    {
+      "predicate": "left_of",
+      "source": "blt_recipe",
+      "target": "mayonnaise_recipe"
+    },
+    {
+      "predicate": "above",
+      "source": "logo1",
+      "target": "blt_recipe"
+    },
+    {
+      "predicate": "above",
+      "source": "logo1",
+      "target": "mayonnaise_recipe"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green red text on beige background",
+        "size": "large"
+      },
+      "id": "banner",
+      "label": "Banner",
+      "location": "0.05,0.0,0.95,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red green flame graphic",
+        "size": "medium"
+      },
+      "id": "logo1",
+      "label": "Dude Food Logo",
+      "location": "0.47,0.05,0.53,0.25,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark green text on light brown background",
+        "size": "medium"
+      },
+      "id": "blt_recipe",
+      "label": "Swordfish BLT Recipe",
+      "location": "0.0,0.3,0.5,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark green text on light brown background",
+        "size": "medium"
+      },
+      "id": "mayonnaise_recipe",
+      "label": "Basil Mayonnaise Recipe",
+      "location": "0.5,0.3,1.0,0.9,0.9"
+    }
+  ]
+}

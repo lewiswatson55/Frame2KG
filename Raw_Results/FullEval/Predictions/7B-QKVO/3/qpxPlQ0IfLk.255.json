@@ -1,0 +1,192 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "bowl1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle2",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "stool1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "stool2",
+      "target": "table1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "pot1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "shelf1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.05,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.48,0.45,0.60,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.55,0.60,0.70,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "salad plate",
+      "location": "0.45,0.75,0.65,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread slices",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "bread slices",
+      "location": "0.60,0.70,0.75,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "oil bottle",
+      "location": "0.40,0.60,0.45,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark blue plastic",
+        "size": "small"
+      },
+      "id": "bottle2",
+      "label": "sauce bottle",
+      "location": "0.35,0.60,0.40,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.00,0.00,1.00,0.20,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "pot1",
+      "label": "hanging pots",
+      "location": "0.40,0.00,0.60,0.20,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey brick",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "brick wall",
+      "location": "0.00,0.00,1.00,1.00,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "table1",
+      "label": "bar table",
+      "location": "0.00,0.40,0.30,0.70,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal frame",
+        "size": "small"
+      },
+      "id": "stool1",
+      "label": "stool",
+      "location": "0.05,0.45,0.15,0.70,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal frame",
+        "size": "small"
+      },
+      "id": "stool2",
+      "label": "stool",
+      "location": "0.20,0.45,0.30,0.70,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.00,0.60,1.00,1.00,0.7"
+    }
+  ]
+}

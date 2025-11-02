@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "oil1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "rings1",
+      "target": "rack1"
+    },
+    {
+      "predicate": "on",
+      "source": "rack1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.05,0.05,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "rings1",
+      "label": "onion rings",
+      "location": "0.35,0.15,0.65,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "rack1",
+      "label": "metal rack",
+      "location": "0.30,0.10,0.70,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "bubbling yellow liquid",
+        "size": "large"
+      },
+      "id": "oil1",
+      "label": "cooking oil",
+      "location": "0.00,0.50,1.00,1.00,0.8"
+    }
+  ]
+}

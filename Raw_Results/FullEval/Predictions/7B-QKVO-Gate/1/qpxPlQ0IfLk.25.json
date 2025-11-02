@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "salt_bowl",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper_grinder",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lemon",
+      "target": "mustard_squeeze"
+    },
+    {
+      "predicate": "behind",
+      "source": "mustard_squeeze",
+      "target": "salt_bowl"
+    },
+    {
+      "predicate": "behind",
+      "source": "olive_oil_jar",
+      "target": "mustard_squeeze"
+    },
+    {
+      "predicate": "behind",
+      "source": "oil_bottle",
+      "target": "olive_oil_jar"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "plate_with_fish",
+      "target": "oil_bottle"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cutting_board",
+      "label": "Cutting Board",
+      "location": "0.05,0.48,0.95,0.76,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "small"
+      },
+      "id": "salt_bowl",
+      "label": "Salt Bowl",
+      "location": "0.30,0.55,0.45,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "small"
+      },
+      "id": "pepper_grinder",
+      "label": "Pepper Grinder",
+      "location": "0.45,0.55,0.60,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "medium"
+      },
+      "id": "lemon",
+      "label": "Lemon",
+      "location": "0.45,0.30,0.55,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "mustard_squeeze",
+      "label": "Mustard Squeeze Bottle",
+      "location": "0.25,0.35,0.45,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "olive_oil_jar",
+      "label": "Olive Oil Jar",
+      "location": "0.50,0.25,0.60,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark glass",
+        "size": "medium"
+      },
+      "id": "oil_bottle",
+      "label": "Oil Bottle",
+      "location": "0.60,0.00,0.70,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate_with_fish",
+      "label": "Plate of Fish",
+      "location": "0.65,0.45,0.95,0.75,0.8"
+    }
+  ]
+}

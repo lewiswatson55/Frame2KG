@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "meat1"
+    },
+    {
+      "predicate": "in",
+      "source": "meat1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "tongs1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "ring1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bag1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tongs1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "ring1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cloth1",
+      "target": "tongs1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white uniform",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.35,0.0,0.98,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.15,0.25,0.65,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red minced",
+        "size": "small"
+      },
+      "id": "meat1",
+      "label": "ground meat",
+      "location": "0.25,0.3,0.6,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "kitchen tongs",
+      "location": "0.0,0.45,0.3,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "ring1",
+      "label": "metal ring mold",
+      "location": "0.7,0.45,0.9,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "small"
+      },
+      "id": "bag1",
+      "label": "ziplock bag",
+      "location": "0.5,0.75,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow fabric",
+        "size": "small"
+      },
+      "id": "cloth1",
+      "label": "cloth",
+      "location": "0.0,0.7,0.2,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    }
+  ]
+}

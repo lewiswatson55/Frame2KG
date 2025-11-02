@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "mixture1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "foil1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "holding",
+      "source": "brush1",
+      "target": "mixture1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "hand1",
+      "target": "brush1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "Baking Bowl",
+      "location": "0.05,0.05,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy",
+        "size": "medium"
+      },
+      "id": "mixture1",
+      "label": "Milk Mixture",
+      "location": "0.1,0.15,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow bristles white handle",
+        "size": "small"
+      },
+      "id": "brush1",
+      "label": "Paint Brush",
+      "location": "0.6,0.3,0.95,0.45,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.75,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver crinkled",
+        "size": "medium"
+      },
+      "id": "foil1",
+      "label": "Aluminum Foil",
+      "location": "0.0,0.0,1.0,0.2,0.7"
+    }
+  ]
+}

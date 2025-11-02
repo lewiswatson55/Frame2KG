@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "bowl_flour1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_flour1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate_empty1",
+      "target": "bowl_flour1"
+    },
+    {
+      "predicate": "behind",
+      "source": "tray_baked_eggs1",
+      "target": "bowl_flour1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.35,0.15,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "bowl_flour1",
+      "label": "mixing bowl",
+      "location": "0.25,0.25,0.85,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown raw",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "raw chicken piece",
+      "location": "0.45,0.45,0.60,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black speckled",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "kitchen countertop",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate_empty1",
+      "label": "empty plate",
+      "location": "0.5,0.75,0.9,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "tray_baked_eggs1",
+      "label": "glass baking tray",
+      "location": "0.3,0.0,0.7,0.3,0.8"
+    }
+  ]
+}

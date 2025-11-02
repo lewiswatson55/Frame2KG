@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fridge1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar2",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "dishwasher1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "hood1",
+      "target": "cabinet1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blonde hair black top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.25,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.25,0.0,0.75,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white",
+        "size": "medium"
+      },
+      "id": "hood1",
+      "label": "range hood",
+      "location": "0.45,0.0,0.55,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.4,1.0,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.3,0.5,0.4,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass red lid",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "spice jar",
+      "location": "0.2,0.5,0.25,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass white lid",
+        "size": "small"
+      },
+      "id": "jar2",
+      "label": "salt shaker",
+      "location": "0.25,0.5,0.3,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black",
+        "size": "medium"
+      },
+      "id": "dishwasher1",
+      "label": "dishwasher",
+      "location": "0.8,0.6,1.0,1.0,0.7"
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle2",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "grill1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "stools1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "pot1",
+      "target": "hanging_rack1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lamp1",
+      "target": "bookshelf1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue red plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.35,0.05,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "Blender",
+      "location": "0.40,0.35,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "Mustard bottle",
+      "location": "0.50,0.60,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bottle2",
+      "label": "Condiment bottle",
+      "location": "0.55,0.60,0.60,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "Cutting board",
+      "location": "0.50,0.65,0.80,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "Knife",
+      "location": "0.55,0.60,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce",
+      "location": "0.50,0.80,0.80,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "Bread slices",
+      "location": "0.60,0.75,0.75,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey stone",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.00,0.60,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "Shelf",
+      "location": "0.00,0.00,1.00,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown metal",
+        "size": "medium"
+      },
+      "id": "stools1",
+      "label": "Bar stools",
+      "location": "0.00,0.30,0.30,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "hanging_rack1",
+      "label": "Hanging rack",
+      "location": "0.45,0.00,0.60,0.20,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pot1",
+      "label": "Pot",
+      "location": "0.50,0.00,0.60,0.15,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden frame white shade",
+        "size": "small"
+      },
+      "id": "lamp1",
+      "label": "Table lamp",
+      "location": "0.85,0.20,0.95,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden books",
+        "size": "medium"
+      },
+      "id": "bookshelf1",
+      "label": "Bookshelf",
+      "location": "0.80,0.20,0.90,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "grill1",
+      "label": "Grill",
+      "location": "0.70,0.70,1.00,0.90,0.8"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "onion_rings"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl1",
+      "target": "rack1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal grid on foil",
+        "size": "medium"
+      },
+      "id": "rack1",
+      "label": "Wire Rack",
+      "location": "0.1,0.1,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Bowl of Panko",
+      "location": "0.3,0.5,0.6,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white bowl with onion rings",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "Bowl of Onion Rings",
+      "location": "0.6,0.5,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "raw white",
+        "size": "small"
+      },
+      "id": "onion_rings",
+      "label": "Onion Rings",
+      "location": "0.5,0.4,0.8,0.7,0.8"
+    }
+  ]
+}

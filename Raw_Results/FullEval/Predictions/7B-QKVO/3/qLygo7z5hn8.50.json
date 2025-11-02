@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand_left",
+      "target": "bowl"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand_right",
+      "target": "spoon"
+    },
+    {
+      "predicate": "in",
+      "source": "spoon",
+      "target": "bowl"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl",
+      "target": "egg_mixture"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand_left",
+      "label": "left hand",
+      "location": "0.05,0.3,0.45,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand_right",
+      "label": "right hand",
+      "location": "0.55,0.3,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl",
+      "label": "glass bowl",
+      "location": "0.2,0.1,0.8,0.7,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow frothy",
+        "size": "medium"
+      },
+      "id": "egg_mixture",
+      "label": "egg mixture",
+      "location": "0.3,0.2,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "spoon",
+      "label": "spoon",
+      "location": "0.6,0.4,0.9,0.6,0.9"
+    }
+  ]
+}

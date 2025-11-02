@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "bun1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato1",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "tomato1"
+    },
+    {
+      "predicate": "on",
+      "source": "bun1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown toasted",
+        "size": "large"
+      },
+      "id": "bun1",
+      "label": "burger bun top",
+      "location": "0.05,0.0,0.95,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown grilled",
+        "size": "medium"
+      },
+      "id": "patty1",
+      "label": "beef patty",
+      "location": "0.1,0.4,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow melted",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "melted cheese",
+      "location": "0.1,0.6,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red fresh",
+        "size": "small"
+      },
+      "id": "tomato1",
+      "label": "tomato slice",
+      "location": "0.2,0.5,0.8,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.0,0.3,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

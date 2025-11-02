@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "meat_patties"
+    },
+    {
+      "predicate": "on",
+      "source": "meat_patties",
+      "target": "tray1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "hands",
+      "location": "0.05,0.05,0.95,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat with green herbs",
+        "size": "small"
+      },
+      "id": "meat_patties",
+      "label": "raw meat patties",
+      "location": "0.45,0.35,0.75,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "metal tray",
+      "location": "0.0,0.65,1.0,1.0,0.7"
+    }
+  ]
+}

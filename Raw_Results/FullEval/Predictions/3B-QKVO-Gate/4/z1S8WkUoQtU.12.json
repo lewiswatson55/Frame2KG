@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "cutting",
+      "source": "knife1",
+      "target": "onion1"
+    },
+    {
+      "predicate": "on",
+      "source": "onion_slice1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "onion1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.45,0.0,0.98,0.35,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal blade",
+        "size": "large"
+      },
+      "id": "knife1",
+      "label": "kitchen knife",
+      "location": "0.6,0.2,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple peeled",
+        "size": "small"
+      },
+      "id": "onion1",
+      "label": "red onion slice",
+      "location": "0.45,0.2,0.85,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white sliced",
+        "size": "small"
+      },
+      "id": "onion_slice1",
+      "label": "red onion slice",
+      "location": "0.0,0.7,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "wooden cutting board",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blurred light skin",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person torso",
+      "location": "0.0,0.0,0.6,0.6,0.6"
+    }
+  ]
+}

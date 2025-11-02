@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "hand1",
+      "target": "flour1"
+    },
+    {
+      "predicate": "in",
+      "source": "flour1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "flour1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "basket1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "orange patterned ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "decorative plate",
+      "location": "0.05,0.0,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown skin",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.3,0.4,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "medium"
+      },
+      "id": "flour1",
+      "label": "flour",
+      "location": "0.1,0.3,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "woven brown wood",
+        "size": "small"
+      },
+      "id": "basket1",
+      "label": "wooden basket",
+      "location": "0.0,0.0,0.3,0.3,0.8"
+    }
+  ]
+}

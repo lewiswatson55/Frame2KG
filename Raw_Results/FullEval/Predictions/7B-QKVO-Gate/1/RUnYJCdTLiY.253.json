@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake2",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake3",
+      "target": "plate2"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake4",
+      "target": "plate2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "plate2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "griddle1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "behind",
+      "source": "person1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.5,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.45,0.15,0.95,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "pancake1",
+      "label": "pancake",
+      "location": "0.55,0.2,0.85,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "pancake2",
+      "label": "pancake",
+      "location": "0.55,0.45,0.85,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate2",
+      "label": "plate",
+      "location": "0.0,0.6,0.6,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "pancake3",
+      "label": "pancake",
+      "location": "0.05,0.7,0.35,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "pancake4",
+      "label": "pancake",
+      "location": "0.2,0.75,0.5,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "griddle1",
+      "label": "griddle",
+      "location": "0.0,0.0,0.4,0.4,0.8"
+    }
+  ]
+}

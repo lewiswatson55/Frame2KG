@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl1",
+      "target": "breadcrumbs1"
+    },
+    {
+      "predicate": "on",
+      "source": "breadcrumbs1",
+      "target": "meat1"
+    },
+    {
+      "predicate": "on",
+      "source": "herbs1",
+      "target": "meat1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cheese1",
+      "target": "herbs1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.35,0.0,0.65,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.4,0.0,0.9,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "beige crumbly",
+        "size": "small"
+      },
+      "id": "breadcrumbs1",
+      "label": "Breadcrumbs",
+      "location": "0.45,0.05,0.85,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red minced",
+        "size": "large"
+      },
+      "id": "meat1",
+      "label": "Ground Meat",
+      "location": "0.0,0.3,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green chopped",
+        "size": "medium"
+      },
+      "id": "herbs1",
+      "label": "Chopped Herbs",
+      "location": "0.1,0.4,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white shredded",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "Shredded Cheese",
+      "location": "0.6,0.6,0.9,0.9,0.7"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "croutons1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "salt_shaker1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand1",
+      "target": "lettuce1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "large"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce",
+      "location": "0.05,0.0,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.4,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white granular",
+        "size": "small"
+      },
+      "id": "salt_shaker1",
+      "label": "Salt Shaker",
+      "location": "0.0,0.3,0.2,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "croutons1",
+      "label": "Croutons",
+      "location": "0.3,0.5,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.7,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

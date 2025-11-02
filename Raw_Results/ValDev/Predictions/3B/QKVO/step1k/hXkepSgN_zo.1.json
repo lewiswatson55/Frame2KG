@@ -1,0 +1,178 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "tablecloth1"
+    },
+    {
+      "predicate": "on",
+      "source": "fruit1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in",
+      "source": "bowl1",
+      "target": "fruit1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "meat1",
+      "target": "plate2"
+    },
+    {
+      "predicate": "on",
+      "source": "sauce1",
+      "target": "plate2"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "plate3"
+    },
+    {
+      "predicate": "on",
+      "source": "masonjar1",
+      "target": "tablecloth1"
+    },
+    {
+      "predicate": "on",
+      "source": "peaches1",
+      "target": "masonjar1"
+    },
+    {
+      "predicate": "on",
+      "source": "pizza1",
+      "target": "tablecloth1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "wineglass1",
+      "target": "bread1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "fruit plate",
+      "location": "0.15,0.4,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "dip bowl",
+      "location": "0.25,0.45,0.45,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green fabric",
+        "size": "large"
+      },
+      "id": "tablecloth1",
+      "label": "table cloth",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red",
+        "size": "small"
+      },
+      "id": "fruit1",
+      "label": "apple slices",
+      "location": "0.2,0.45,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate2",
+      "label": "plate",
+      "location": "0.1,0.7,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown cooked",
+        "size": "small"
+      },
+      "id": "meat1",
+      "label": "steak patty",
+      "location": "0.25,0.75,0.45,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red sauce",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "sauce",
+      "location": "0.25,0.8,0.45,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "multicolored ceramic",
+        "size": "medium"
+      },
+      "id": "plate3",
+      "label": "plate",
+      "location": "0.6,0.0,0.9,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "bread slice",
+      "location": "0.65,0.1,0.85,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "wineglass1",
+      "label": "wine glass",
+      "location": "0.7,0.0,0.85,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "masonjar1",
+      "label": "mason jar",
+      "location": "0.8,0.3,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "peach slices",
+        "size": "small"
+      },
+      "id": "peaches1",
+      "label": "peaches",
+      "location": "0.8,0.4,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white cheese",
+        "size": "medium"
+      },
+      "id": "pizza1",
+      "label": "pizza slice",
+      "location": "0.85,0.7,1.0,1.0,0.8"
+    }
+  ]
+}

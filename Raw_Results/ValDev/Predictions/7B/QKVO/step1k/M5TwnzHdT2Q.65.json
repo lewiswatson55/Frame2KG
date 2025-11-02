@@ -1,0 +1,51 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "grated_cheese"
+    },
+    {
+      "predicate": "on",
+      "source": "grated_cheese",
+      "target": "bread_slice"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_slice",
+      "target": "pan"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.45,0.0,0.98,0.6,0.7"
+    },
+    {
+      "id": "grated_cheese",
+      "label": "Grated Cheese",
+      "location": "0.35,0.4,0.65,0.6,0.8"
+    },
+    {
+      "id": "bread_slice",
+      "label": "Bread Slice",
+      "location": "0.3,0.4,0.7,0.6,0.8"
+    },
+    {
+      "id": "pan",
+      "label": "Frying Pan",
+      "location": "0.0,0.0,1.0,0.6,0.8"
+    },
+    {
+      "id": "plate",
+      "label": "Plate",
+      "location": "0.4,0.6,1.0,1.0,0.8"
+    },
+    {
+      "id": "cheese_plate",
+      "label": "Cheese Plate",
+      "location": "0.4,0.6,1.0,1.0,0.8"
+    }
+  ]
+}

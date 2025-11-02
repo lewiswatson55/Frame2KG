@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand_left",
+      "target": "knife"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand_right",
+      "target": "knife"
+    },
+    {
+      "predicate": "on",
+      "source": "knife",
+      "target": "rice"
+    },
+    {
+      "predicate": "in",
+      "source": "rice",
+      "target": "box"
+    },
+    {
+      "predicate": "on",
+      "source": "box",
+      "target": "table"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand_left",
+      "label": "left hand",
+      "location": "0.05,0.45,0.38,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand_right",
+      "label": "right hand",
+      "location": "0.6,0.1,0.9,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade wood handle",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.3,0.4,0.7,0.7,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white grainy",
+        "size": "large"
+      },
+      "id": "rice",
+      "label": "rice",
+      "location": "0.1,0.2,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "box",
+      "label": "wooden box",
+      "location": "0.0,0.2,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "table",
+      "location": "0.0,0.8,1.0,1.0,0.8"
+    }
+  ]
+}

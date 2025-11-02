@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bread_slice"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_slices",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lemon1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "behind",
+      "source": "apron1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown toasted",
+        "size": "small"
+      },
+      "id": "bread_slices",
+      "label": "Bread Slices",
+      "location": "0.1,0.5,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "Lemon Half",
+      "location": "0.0,0.0,0.2,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "Bottle",
+      "location": "0.2,0.0,0.3,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plaid fabric",
+        "size": "large"
+      },
+      "id": "apron1",
+      "label": "Apron",
+      "location": "0.7,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.8,0.7,1.0,1.0,0.8"
+    }
+  ]
+}

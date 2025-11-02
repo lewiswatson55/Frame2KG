@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "on",
+      "source": "patty2",
+      "target": "tray1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "patty1",
+      "target": "patty2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.35,0.0,0.98,0.67,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink minced meat with green herbs",
+        "size": "small"
+      },
+      "id": "patty1",
+      "label": "Raw Meat Patty",
+      "location": "0.45,0.1,0.95,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink minced meat with green herbs",
+        "size": "small"
+      },
+      "id": "patty2",
+      "label": "Raw Meat Patty",
+      "location": "0.0,0.1,0.45,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "Baking Tray",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    }
+  ]
+}

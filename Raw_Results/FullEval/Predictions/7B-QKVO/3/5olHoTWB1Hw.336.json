@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "food1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "crust1",
+      "target": "food1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "large"
+      },
+      "id": "food1",
+      "label": "baked dish",
+      "location": "0.05,0.05,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "baking pan",
+      "location": "0.0,0.75,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crumbly",
+        "size": "small"
+      },
+      "id": "crust1",
+      "label": "crumb topping",
+      "location": "0.0,0.0,1.0,0.6,0.85"
+    }
+  ]
+}

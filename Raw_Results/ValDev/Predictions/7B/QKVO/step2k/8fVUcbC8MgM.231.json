@@ -1,0 +1,161 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "in",
+      "source": "rice1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper_shaker1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "salt_container1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "paper_plate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "foil_wrap1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "pepper_shaker1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "pepper_shaker1",
+      "target": "salt_container1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "salt_container1",
+      "target": "pepper_shaker1"
+    },
+    {
+      "predicate": "behind",
+      "source": "person1",
+      "target": "table1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.45,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.05,0.2,0.4,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "rice1",
+      "label": "Rice",
+      "location": "0.07,0.25,0.35,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "pepper_shaker1",
+      "label": "Pepper Shaker",
+      "location": "0.35,0.4,0.45,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown ceramic",
+        "size": "small"
+      },
+      "id": "salt_container1",
+      "label": "Salt Container",
+      "location": "0.25,0.45,0.35,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "medium"
+      },
+      "id": "paper_plate1",
+      "label": "Paper Plate",
+      "location": "0.4,0.6,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "medium"
+      },
+      "id": "foil_wrap1",
+      "label": "Foil Wrap",
+      "location": "0.45,0.2,0.75,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden handle black blade",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "Spatula",
+      "location": "0.55,0.3,0.8,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.75,0.3,0.95,0.6,0.9"
+    }
+  ]
+}

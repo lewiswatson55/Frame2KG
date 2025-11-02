@@ -1,0 +1,91 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "tv_screen"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "tv_screen"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_salad",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "behind",
+      "source": "tv_screen",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "tv_screen",
+      "target": "person2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "person2",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person1",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "turquoise shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.0,0.15,0.48,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green dress",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.52,0.15,0.96,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink purple gradient",
+        "size": "large"
+      },
+      "id": "tv_screen",
+      "label": "TV screen",
+      "location": "0.3,0.0,0.7,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with green lettuce red tomato",
+        "size": "small"
+      },
+      "id": "plate_salad",
+      "label": "salad plate",
+      "location": "0.3,0.6,0.5,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.2,0.6,0.6,0.8,0.8"
+    }
+  ]
+}

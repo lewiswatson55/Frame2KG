@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "in",
+      "source": "soup1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "includes",
+      "source": "soup1",
+      "target": "beans1"
+    },
+    {
+      "predicate": "includes",
+      "source": "soup1",
+      "target": "carrots1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.05,0.0,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic black",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "slotted spatula",
+      "location": "0.43,0.0,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy liquid",
+        "size": "large"
+      },
+      "id": "soup1",
+      "label": "soup",
+      "location": "0.0,0.2,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown lentils",
+        "size": "small"
+      },
+      "id": "beans1",
+      "label": "lentils",
+      "location": "0.0,0.3,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange cubes",
+        "size": "small"
+      },
+      "id": "carrots1",
+      "label": "carrot pieces",
+      "location": "0.1,0.2,0.9,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.0,1.0,0.2,0.7"
+    }
+  ]
+}

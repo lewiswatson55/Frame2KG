@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "batter1"
+    },
+    {
+      "predicate": "in",
+      "source": "batter1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.45,0.0,0.75,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.1,0.0,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow liquid",
+        "size": "medium"
+      },
+      "id": "batter1",
+      "label": "Batter",
+      "location": "0.2,0.2,0.8,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "raw white meat",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "Chicken piece",
+      "location": "0.4,0.2,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black speckled surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

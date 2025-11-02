@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "basket1"
+    },
+    {
+      "predicate": "in",
+      "source": "oil1",
+      "target": "basket1"
+    },
+    {
+      "predicate": "on",
+      "source": "basket1",
+      "target": "tray1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.05,0.0,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal mesh",
+        "size": "large"
+      },
+      "id": "basket1",
+      "label": "frying basket",
+      "location": "0.3,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden liquid",
+        "size": "medium"
+      },
+      "id": "oil1",
+      "label": "cooking oil",
+      "location": "0.4,0.2,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic grey",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "baking tray",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

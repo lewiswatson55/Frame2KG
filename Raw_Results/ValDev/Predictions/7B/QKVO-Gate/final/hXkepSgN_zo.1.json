@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "play_icon",
+      "target": "background"
+    },
+    {
+      "predicate": "left_of",
+      "source": "apple_plate",
+      "target": "play_icon"
+    },
+    {
+      "predicate": "right_of",
+      "source": "cake_plate",
+      "target": "play_icon"
+    },
+    {
+      "predicate": "below",
+      "source": "steak_plate",
+      "target": "apple_plate"
+    },
+    {
+      "predicate": "above",
+      "source": "peach_jar",
+      "target": "tortilla_plate"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sauce_bowl",
+      "target": "apple_plate"
+    },
+    {
+      "predicate": "behind",
+      "source": "wine_glass",
+      "target": "cake_plate"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white",
+        "size": "medium"
+      },
+      "id": "play_icon",
+      "label": "Play Icon",
+      "location": "0.45,0.63,0.55,0.78,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue plastic",
+        "size": "large"
+      },
+      "id": "apple_plate",
+      "label": "Plate of Apple Slices",
+      "location": "0.15,0.15,0.45,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow ceramic",
+        "size": "medium"
+      },
+      "id": "cake_plate",
+      "label": "Cake Slice on Plate",
+      "location": "0.65,0.05,0.95,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown grilled",
+        "size": "small"
+      },
+      "id": "steak_plate",
+      "label": "Steak Piece",
+      "location": "0.15,0.55,0.45,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "peach_jar",
+      "label": "Jar of Peaches",
+      "location": "0.75,0.35,0.95,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige tortilla",
+        "size": "small"
+      },
+      "id": "tortilla_plate",
+      "label": "Tortillas",
+      "location": "0.75,0.65,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red sauce",
+        "size": "small"
+      },
+      "id": "sauce_bowl",
+      "label": "Bowl of Red Sauce",
+      "location": "0.25,0.15,0.45,0.35,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark glass",
+        "size": "small"
+      },
+      "id": "wine_glass",
+      "label": "Wine Glass",
+      "location": "0.65,0.0,0.75,0.15,0.7"
+    }
+  ]
+}

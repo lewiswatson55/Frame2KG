@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "in",
+      "source": "macaroni1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "on",
+      "source": "dish1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sink1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "sink1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.45,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "medium"
+      },
+      "id": "dish1",
+      "label": "baking dish",
+      "location": "0.1,0.3,0.8,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow pasta",
+        "size": "small"
+      },
+      "id": "macaroni1",
+      "label": "macaroni and cheese",
+      "location": "0.2,0.4,0.8,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "kitchen sink",
+      "location": "0.0,0.2,0.3,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "cabinet",
+      "location": "0.0,0.0,1.0,0.2,0.6"
+    }
+  ]
+}

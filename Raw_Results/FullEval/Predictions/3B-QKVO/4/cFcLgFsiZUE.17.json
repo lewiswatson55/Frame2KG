@@ -1,0 +1,75 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "bottle"
+    },
+    {
+      "predicate": "next_to",
+      "source": "text2",
+      "target": "text3"
+    },
+    {
+      "predicate": "right_of",
+      "source": "text4",
+      "target": "text5"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red glass bottle with red label",
+        "size": "large"
+      },
+      "id": "bottle",
+      "label": "Frank's RedHot hot sauce bottle",
+      "location": "0.00,0.00,0.48,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "water",
+      "location": "0.60,0.00,0.75,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "medium"
+      },
+      "id": "text2",
+      "label": "cayenne red peppers",
+      "location": "0.60,0.50,0.75,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on blue background",
+        "size": "small"
+      },
+      "id": "text3",
+      "label": "distilled vinegar",
+      "location": "0.75,0.00,0.90,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on yellow line",
+        "size": "small"
+      },
+      "id": "text4",
+      "label": "yellow line",
+      "location": "0.48,0.40,0.75,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on grey background",
+        "size": "small"
+      },
+      "id": "text5",
+      "label": "grey text",
+      "location": "0.48,0.20,0.75,0.40,0.8"
+    }
+  ]
+}

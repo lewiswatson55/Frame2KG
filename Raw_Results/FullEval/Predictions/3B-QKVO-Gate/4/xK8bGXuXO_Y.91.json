@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "whisk"
+    },
+    {
+      "predicate": "on",
+      "source": "knife",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "onion",
+      "target": "knife"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl_white",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "right_of",
+      "source": "pitcher",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "small_bowls",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "behind",
+      "source": "red_bowl",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "behind",
+      "source": "water_jug",
+      "target": "cutting_board"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.45,0.0,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "pitcher",
+      "label": "glass pitcher",
+      "location": "0.75,0.3,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.2,0.4,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink",
+        "size": "small"
+      },
+      "id": "onion",
+      "label": "onion",
+      "location": "0.35,0.45,0.45,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "medium"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.3,0.45,0.5,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "whisk",
+      "label": "whisk",
+      "location": "0.6,0.0,0.9,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass white powder",
+        "size": "medium"
+      },
+      "id": "bowl_white",
+      "label": "mixing bowl",
+      "location": "0.65,0.5,0.95,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "small_bowls",
+      "label": "small bowls",
+      "location": "0.45,0.6,0.6,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "red_bowl",
+      "label": "red bowl",
+      "location": "0.4,0.3,0.55,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "water_jug",
+      "label": "water jug",
+      "location": "0.0,0.2,0.2,0.5,0.8"
+    }
+  ]
+}

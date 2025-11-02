@@ -1,0 +1,195 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "burner1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "bottle2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle3",
+      "target": "bottle4"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "plate2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "frame1",
+      "target": "plant1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "frame2",
+      "target": "plant1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "counter1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.45,0.55,0.75,0.75,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.4,0.6,0.5,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate of lettuce",
+      "location": "0.65,0.75,0.85,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate2",
+      "label": "plate of burger patty",
+      "location": "0.5,0.75,0.65,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.0,0.75,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "wooden bowl",
+      "location": "0.0,0.5,0.2,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with yellow liquid",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "sauce bottle",
+      "location": "0.2,0.6,0.25,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with red cap",
+        "size": "small"
+      },
+      "id": "bottle2",
+      "label": "pepper shaker",
+      "location": "0.25,0.6,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass with brown liquid",
+        "size": "small"
+      },
+      "id": "bottle3",
+      "label": "oil bottle",
+      "location": "0.3,0.6,0.35,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass with white liquid",
+        "size": "small"
+      },
+      "id": "bottle4",
+      "label": "oil bottle",
+      "location": "0.35,0.6,0.4,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "burner1",
+      "label": "hot plate burner",
+      "location": "0.45,0.7,0.6,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "medium"
+      },
+      "id": "frame1",
+      "label": "picture frame",
+      "location": "0.0,0.4,0.2,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "potted plant",
+      "location": "0.15,0.4,0.25,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "medium"
+      },
+      "id": "frame2",
+      "label": "picture frame",
+      "location": "0.75,0.0,0.95,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey stone",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,0.7,0.9"
+    }
+  ]
+}

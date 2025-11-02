@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "on",
+      "source": "sculpture1",
+      "target": "table1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "table1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "behind",
+      "source": "painting1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "sculpture1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink shirt,long dark hair",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.0,0.6,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic with white powder",
+        "size": "medium"
+      },
+      "id": "bag1",
+      "label": "plastic bag",
+      "location": "0.3,0.7,0.7,0.9,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "orange carved wood",
+        "size": "small"
+      },
+      "id": "sculpture1",
+      "label": "wooden sculpture",
+      "location": "0.75,0.4,0.9,0.8,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "black glass surface",
+        "size": "medium"
+      },
+      "id": "table1",
+      "label": "glass table",
+      "location": "0.7,0.7,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "abstract black frame painting",
+        "size": "medium"
+      },
+      "id": "painting1",
+      "label": "framed painting",
+      "location": "0.0,0.0,0.3,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "beige painted wall",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

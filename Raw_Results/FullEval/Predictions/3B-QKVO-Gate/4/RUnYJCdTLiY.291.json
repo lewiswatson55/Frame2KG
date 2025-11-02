@@ -1,0 +1,145 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "fork"
+    },
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "plate"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake_stack",
+      "target": "plate"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "stove"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cutting_board",
+      "target": "salt_shaker"
+    },
+    {
+      "predicate": "left_of",
+      "source": "microwave",
+      "target": "cabinets_left"
+    },
+    {
+      "predicate": "right_of",
+      "source": "cabinets_right",
+      "target": "cabinets_left"
+    },
+    {
+      "predicate": "above",
+      "source": "hanging_pans",
+      "target": "stove"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "dark hair purple shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate",
+      "label": "plate",
+      "location": "0.45,0.7,0.75,0.9,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "pancake_stack",
+      "label": "pancakes",
+      "location": "0.50,0.75,0.70,0.85,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "fork",
+      "label": "fork",
+      "location": "0.40,0.45,0.55,0.65,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "black stainless steel",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "stove",
+      "location": "0.0,0.4,0.4,0.8,0.92"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinets_left",
+      "label": "kitchen cabinets",
+      "location": "0.0,0.0,0.4,0.3,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinets_right",
+      "label": "kitchen cabinets",
+      "location": "0.6,0.0,1.0,0.3,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "hanging_pans",
+      "label": "hanging pans",
+      "location": "0.45,0.0,0.55,0.3,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.75,0.5,0.9,0.7,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "glass white top",
+        "size": "small"
+      },
+      "id": "salt_shaker",
+      "label": "salt shaker",
+      "location": "0.85,0.55,0.9,0.65,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "microwave",
+      "label": "microwave",
+      "location": "0.0,0.0,0.4,0.2,0.88"
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "sink1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "faucet1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "jars1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "stove1",
+      "target": "microwave1"
+    },
+    {
+      "predicate": "above",
+      "source": "cabinet_left",
+      "target": "stove1"
+    },
+    {
+      "predicate": "above",
+      "source": "cabinet_right",
+      "target": "dishwasher1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "pan1",
+      "target": "pan2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "pan2",
+      "target": "pan3"
+    },
+    {
+      "predicate": "left_of",
+      "source": "pan3",
+      "target": "pan4"
+    },
+    {
+      "predicate": "right_of",
+      "source": "pan5",
+      "target": "pan4"
+    },
+    {
+      "predicate": "behind",
+      "source": "window1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "dark hair, red top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.28,0.0,0.72,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.0,0.6,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "kitchen sink",
+      "location": "0.25,0.55,0.45,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "chrome",
+        "size": "small"
+      },
+      "id": "faucet1",
+      "label": "faucet",
+      "location": "0.35,0.45,0.45,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.6,0.5,0.75,0.65,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jars with silver lids",
+        "size": "small"
+      },
+      "id": "jars1",
+      "label": "spice jars",
+      "location": "0.75,0.55,0.95,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.6,0.2,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave",
+      "location": "0.0,0.0,0.2,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "cabinet_left",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.3,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "cabinet_right",
+      "label": "kitchen cabinet",
+      "location": "0.7,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "pan1",
+      "label": "hanging pan",
+      "location": "0.3,0.0,0.4,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "pan2",
+      "label": "hanging pan",
+      "location": "0.4,0.0,0.5,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "pan3",
+      "label": "hanging pan",
+      "location": "0.5,0.0,0.6,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "pan4",
+      "label": "hanging pan",
+      "location": "0.6,0.0,0.7,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "pan5",
+      "label": "hanging pan",
+      "location": "0.7,0.0,0.8,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "medium"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.3,0.0,0.7,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "dishwasher1",
+      "label": "dishwasher",
+      "location": "0.6,0.7,0.8,0.9,0.8"
+    }
+  ]
+}

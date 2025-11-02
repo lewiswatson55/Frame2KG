@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in",
+      "source": "patty1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pepper_grinder1",
+      "target": "pepper_grinder2"
+    },
+    {
+      "predicate": "behind",
+      "source": "person1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black non-stick interior silver exterior",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.05,0.15,0.98,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown grilled",
+        "size": "medium"
+      },
+      "id": "patty1",
+      "label": "burger patty",
+      "location": "0.35,0.40,0.65,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red cap black body",
+        "size": "small"
+      },
+      "id": "pepper_grinder1",
+      "label": "pepper grinder",
+      "location": "0.00,0.50,0.15,0.90,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic red cap",
+        "size": "small"
+      },
+      "id": "pepper_grinder2",
+      "label": "pepper grinder",
+      "location": "0.15,0.50,0.25,0.90,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "electric stove burner",
+      "location": "0.20,0.60,0.90,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person torso",
+      "location": "0.00,0.00,1.00,0.40,0.6"
+    }
+  ]
+}

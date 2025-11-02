@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "burger1",
+      "target": "plate"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula",
+      "target": "burger1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate",
+      "target": "table"
+    },
+    {
+      "predicate": "behind",
+      "source": "bun2",
+      "target": "burger1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "bottle2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "toasted brown bun with melted yellow cheese",
+        "size": "medium"
+      },
+      "id": "burger1",
+      "label": "cheeseburger",
+      "location": "0.35,0.45,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red silicone handle",
+        "size": "small"
+      },
+      "id": "spatula",
+      "label": "spatula",
+      "location": "0.45,0.0,0.8,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate",
+      "label": "plate",
+      "location": "0.2,0.4,0.8,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown toasted bread",
+        "size": "small"
+      },
+      "id": "bun2",
+      "label": "bread slice",
+      "location": "0.0,0.2,0.3,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "glass bottle",
+      "location": "0.0,0.0,0.2,0.3,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "bottle2",
+      "label": "plastic bottle",
+      "location": "0.8,0.0,1.0,0.3,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood grain",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "wooden table",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    }
+  ]
+}

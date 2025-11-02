@@ -1,0 +1,159 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "sink1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "salt_shaker1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper_shaker1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "pots1",
+      "target": "cabinet_left"
+    },
+    {
+      "predicate": "next_to",
+      "source": "stove1",
+      "target": "microwave1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "stove1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "dishwasher1",
+      "target": "sink1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "cabinet_left",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.4,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "cabinet_right",
+      "label": "kitchen cabinet",
+      "location": "0.6,0.0,1.0,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "microwave1",
+      "label": "microwave",
+      "location": "0.0,0.0,0.3,0.2,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black stainless steel",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.2,0.3,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "kitchen sink",
+      "location": "0.3,0.4,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.75,0.4,0.9,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white glass",
+        "size": "small"
+      },
+      "id": "salt_shaker1",
+      "label": "salt shaker",
+      "location": "0.8,0.5,0.85,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "pepper_shaker1",
+      "label": "pepper shaker",
+      "location": "0.85,0.5,0.9,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "pots1",
+      "label": "hanging pots",
+      "location": "0.4,0.0,0.6,0.2,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black stainless steel",
+        "size": "medium"
+      },
+      "id": "dishwasher1",
+      "label": "dishwasher",
+      "location": "0.7,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.3,1.0,0.6,0.9"
+    }
+  ]
+}

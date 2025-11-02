@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl2",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl3",
+      "target": "bowl4"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl5",
+      "target": "bowl6"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.38,0.07,0.95,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.30,0.35,0.60,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow liquid",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "small glass bowl",
+      "location": "0.55,0.45,0.70,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl3",
+      "label": "white bowl",
+      "location": "0.70,0.55,0.90,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl4",
+      "label": "small glass bowl",
+      "location": "0.85,0.45,0.98,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "plastic bag",
+      "location": "0.75,0.00,1.00,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.00,0.00,1.00,1.00,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on white background",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "ingredients label",
+      "location": "0.00,0.80,0.50,1.00,0.9"
+    }
+  ]
+}

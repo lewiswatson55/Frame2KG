@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "painting1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "vase1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "logo1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink shirt,long dark hair",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.15,0.0,0.85,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame with white rabbit silhouette",
+        "size": "medium"
+      },
+      "id": "painting1",
+      "label": "abstract painting",
+      "location": "0.1,0.1,0.4,0.35,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "decorative vase",
+      "location": "0.8,0.3,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white icon with text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "YouTube logo",
+      "location": "0.0,0.0,0.2,0.15,0.6"
+    }
+  ]
+}

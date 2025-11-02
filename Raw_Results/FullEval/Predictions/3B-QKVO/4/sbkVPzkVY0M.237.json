@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "scissors1",
+      "target": "board1"
+    },
+    {
+      "predicate": "behind",
+      "source": "board1",
+      "target": "cheese1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.35,0.0,1.0,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "beige block",
+        "size": "medium"
+      },
+      "id": "cheese1",
+      "label": "block of cheese",
+      "location": "0.45,0.35,0.75,0.85,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "red handle black blade",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.60,0.55,0.80,0.85,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.65,0.5,1.0,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "scissors1",
+      "label": "scissors",
+      "location": "0.0,0.65,0.25,0.85,0.88"
+    }
+  ]
+}

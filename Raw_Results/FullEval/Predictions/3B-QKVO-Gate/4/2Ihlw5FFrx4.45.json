@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand_left",
+      "target": "knife"
+    },
+    {
+      "predicate": "on",
+      "source": "knife",
+      "target": "bread_slice"
+    },
+    {
+      "predicate": "on",
+      "source": "spread",
+      "target": "bread_slice"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl",
+      "target": "bread_slice"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text_overlay",
+      "target": "bread_slice"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand_left",
+      "label": "left hand",
+      "location": "0.05,0.0,0.45,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand_right",
+      "label": "right hand",
+      "location": "0.55,0.0,0.95,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade with white handle",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "spreader knife",
+      "location": "0.3,0.4,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown whole grain",
+        "size": "large"
+      },
+      "id": "bread_slice",
+      "label": "bread slice",
+      "location": "0.2,0.45,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white feta cheese",
+        "size": "small"
+      },
+      "id": "spread",
+      "label": "feta cream cheese mix",
+      "location": "0.6,0.5,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl",
+      "label": "glass bowl",
+      "location": "0.0,0.0,0.3,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink black text",
+        "size": "medium"
+      },
+      "id": "text_overlay",
+      "label": "overlay text",
+      "location": "0.0,0.8,0.5,1.0,0.9"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "rolling_pin1"
+    },
+    {
+      "predicate": "on",
+      "source": "rolling_pin1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "utensils1",
+      "target": "table1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "table1",
+      "target": "cabinet1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.35,0.0,1.0,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "beige wood",
+        "size": "medium"
+      },
+      "id": "rolling_pin1",
+      "label": "Rolling Pin",
+      "location": "0.45,0.3,0.65,0.75,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "utensils1",
+      "label": "Utensils",
+      "location": "0.0,0.65,0.2,0.8,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white painted",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "Cabinet",
+      "location": "0.0,0.0,0.5,0.3,0.8"
+    }
+  ]
+}

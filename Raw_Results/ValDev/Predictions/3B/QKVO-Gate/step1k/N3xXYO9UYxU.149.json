@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bowl"
+    },
+    {
+      "predicate": "in",
+      "source": "flour1",
+      "target": "bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl",
+      "target": "tray"
+    },
+    {
+      "predicate": "on",
+      "source": "tray",
+      "target": "table"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spatula",
+      "target": "bowl"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand1",
+      "target": "bowl"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand2",
+      "target": "bowl"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.05,0.45,0.35,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "small"
+      },
+      "id": "hand2",
+      "label": "human hand",
+      "location": "0.6,0.0,0.95,0.25,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl",
+      "label": "glass bowl",
+      "location": "0.1,0.15,0.9,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "medium"
+      },
+      "id": "flour1",
+      "label": "flour",
+      "location": "0.15,0.2,0.85,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "medium"
+      },
+      "id": "tray",
+      "label": "plastic tray",
+      "location": "0.2,0.7,0.8,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark blue surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "table surface",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spatula",
+      "label": "metal spatula",
+      "location": "0.5,0.1,0.7,0.3,0.8"
+    }
+  ]
+}

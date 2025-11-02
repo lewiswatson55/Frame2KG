@@ -1,0 +1,281 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "jar2",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "jar3",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomatoes1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread1",
+      "target": "tomatoes1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "fruit_bowl1",
+      "target": "frame1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "pepper_grinder1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "behind",
+      "source": "plant1",
+      "target": "fruits_frame1"
+    },
+    {
+      "predicate": "behind",
+      "source": "fruits_frame1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "behind",
+      "source": "picture_frame1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "behind",
+      "source": "picture_frame2",
+      "target": "blender1"
+    },
+    {
+      "predicate": "behind",
+      "source": "salt_shaker1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "behind",
+      "source": "pepper_shaker1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.4,0.6,0.5,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.3,0.75,0.4,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "wooden jar",
+      "location": "0.2,0.7,0.25,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "jar2",
+      "label": "glass jar",
+      "location": "0.25,0.7,0.3,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "jar3",
+      "label": "glass jar",
+      "location": "0.3,0.7,0.35,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.65,0.6,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "electric stove",
+      "location": "0.6,0.6,0.9,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce",
+      "location": "0.7,0.75,0.8,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red sliced",
+        "size": "small"
+      },
+      "id": "tomatoes1",
+      "label": "tomato slices",
+      "location": "0.8,0.75,0.9,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "bread loaf",
+      "location": "0.5,0.75,0.6,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "small"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.7,0.75,0.9,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "metal spatula",
+      "location": "0.8,0.75,0.9,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow ceramic",
+        "size": "small"
+      },
+      "id": "pepper_grinder1",
+      "label": "pepper grinder",
+      "location": "0.9,0.6,0.95,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow ceramic",
+        "size": "small"
+      },
+      "id": "salt_shaker1",
+      "label": "salt shaker",
+      "location": "0.95,0.6,1.0,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "woven basket",
+        "size": "small"
+      },
+      "id": "fruit_bowl1",
+      "label": "fruit bowl",
+      "location": "0.0,0.6,0.15,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "small"
+      },
+      "id": "fruits_frame1",
+      "label": "framed picture",
+      "location": "0.0,0.4,0.15,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "small"
+      },
+      "id": "picture_frame1",
+      "label": "framed picture",
+      "location": "0.3,0.2,0.45,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "small"
+      },
+      "id": "picture_frame2",
+      "label": "framed picture",
+      "location": "0.7,0.1,0.9,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "potted plant",
+      "location": "0.1,0.3,0.2,0.5,0.7"
+    }
+  ]
+}

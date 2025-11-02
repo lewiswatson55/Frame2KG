@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "wall"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "pot1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.0,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "pot1",
+      "label": "saucepan",
+      "location": "0.0,0.0,0.3,0.4,0.8"
+    }
+  ]
+}

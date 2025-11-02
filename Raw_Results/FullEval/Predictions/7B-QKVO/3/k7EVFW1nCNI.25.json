@@ -1,0 +1,127 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "icecream_container"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "dessert_glass"
+    },
+    {
+      "predicate": "on",
+      "source": "whipped_cream",
+      "target": "dessert_glass"
+    },
+    {
+      "predicate": "on",
+      "source": "chocolate_crumbles",
+      "target": "dessert_glass"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spoon",
+      "target": "bowl_chocolate"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cone",
+      "target": "dessert_glass"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_chocolate",
+      "target": "spoon"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_whipped",
+      "target": "spoon"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "grey shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.05,0.0,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "icecream_container",
+      "label": "Ice Cream Container",
+      "location": "0.48,0.3,0.75,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bowl",
+        "size": "small"
+      },
+      "id": "dessert_glass",
+      "label": "Dessert Glass Bowl",
+      "location": "0.45,0.5,0.7,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white foam",
+        "size": "small"
+      },
+      "id": "whipped_cream",
+      "label": "Whipped Cream",
+      "location": "0.5,0.45,0.7,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crumbs",
+        "size": "small"
+      },
+      "id": "chocolate_crumbles",
+      "label": "Chocolate Crumbs",
+      "location": "0.5,0.4,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic spoon",
+        "size": "small"
+      },
+      "id": "spoon",
+      "label": "Spoon",
+      "location": "0.0,0.6,0.2,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl_chocolate",
+      "label": "Bowl of Chocolate Chips",
+      "location": "0.2,0.6,0.4,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cone with chocolate ice cream",
+        "size": "small"
+      },
+      "id": "cone",
+      "label": "Ice Cream Cone",
+      "location": "0.8,0.4,0.9,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl_whipped",
+      "label": "Empty Bowl",
+      "location": "0.0,0.8,0.2,1.0,0.8"
+    }
+  ]
+}

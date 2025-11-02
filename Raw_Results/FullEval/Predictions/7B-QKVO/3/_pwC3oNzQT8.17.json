@@ -1,0 +1,117 @@
+{
+  "edges": [
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "hat1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "behind",
+      "source": "wall1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black chef coat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.45,0.0,1.0,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "white and black checkered fabric",
+        "size": "small"
+      },
+      "id": "hat1",
+      "label": "checkered hat",
+      "location": "0.63,0.0,0.78,0.2,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bowl with beige mixture",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.35,0.6,0.55,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread pieces",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "bread slices",
+      "location": "0.5,0.6,0.65,0.75,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.75,0.3,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white tiled backsplash",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "kitchen wall",
+      "location": "0.0,0.0,0.5,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white cabinet doors",
+        "size": "medium"
+      },
+      "id": "cabinet1",
+      "label": "upper cabinets",
+      "location": "0.0,0.0,0.5,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light-colored countertop",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black stove top",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.7,0.3,1.0,0.9"
+    }
+  ]
+}

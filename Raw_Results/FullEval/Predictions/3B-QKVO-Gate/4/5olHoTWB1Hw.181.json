@@ -1,0 +1,117 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "tongs1"
+    },
+    {
+      "predicate": "in",
+      "source": "tongs1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl1",
+      "target": "cheese_cubes1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "grinder1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "red_bowl1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "Stovetop",
+      "location": "0.0,0.65,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Mixing Bowl",
+      "location": "0.1,0.3,0.9,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "cheese_cubes1",
+      "label": "Cheese Cubes",
+      "location": "0.2,0.4,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.4,0.6,0.9,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "Tongs",
+      "location": "0.6,0.3,1.0,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green plastic",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "Cutting Board",
+      "location": "0.7,0.0,1.0,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange shredded",
+        "size": "small"
+      },
+      "id": "shredded_cheese1",
+      "label": "Shredded Cheese",
+      "location": "0.8,0.0,1.0,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue plastic",
+        "size": "small"
+      },
+      "id": "grinder1",
+      "label": "Pepper Grinder",
+      "location": "0.0,0.0,0.3,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "red_bowl1",
+      "label": "Red Bowl",
+      "location": "0.0,0.0,0.2,0.2,0.8"
+    }
+  ]
+}

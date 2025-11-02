@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "food_processor1"
+    },
+    {
+      "predicate": "on",
+      "source": "food_processor1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cheese_block1",
+      "target": "pepper1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cheese_block1",
+      "target": "food_processor1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "red_towel1",
+      "target": "food_processor1"
+    },
+    {
+      "predicate": "behind",
+      "source": "oven1",
+      "target": "food_processor1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white long-sleeve shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.0,0.0,0.45,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "medium"
+      },
+      "id": "spoon1",
+      "label": "spoon",
+      "location": "0.6,0.0,0.9,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "food_processor1",
+      "label": "food processor",
+      "location": "0.3,0.2,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow block",
+        "size": "small"
+      },
+      "id": "cheese_block1",
+      "label": "cheese block",
+      "location": "0.1,0.8,0.25,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark red",
+        "size": "small"
+      },
+      "id": "pepper1",
+      "label": "pepper",
+      "location": "0.25,0.8,0.3,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.7,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red striped cloth",
+        "size": "medium"
+      },
+      "id": "red_towel1",
+      "label": "towel",
+      "location": "0.6,0.2,0.9,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "oven1",
+      "label": "oven",
+      "location": "0.7,0.0,1.0,0.5,0.8"
+    }
+  ]
+}

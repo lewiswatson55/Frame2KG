@@ -1,0 +1,117 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chef1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "chef1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "sink1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bowl1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "shelf1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow chef coat",
+        "size": "large"
+      },
+      "id": "chef1",
+      "label": "Chef",
+      "location": "0.05,0.0,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "Induction Stove",
+      "location": "0.4,0.3,0.7,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "pan1",
+      "label": "Frying Pan",
+      "location": "0.6,0.5,0.8,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "Plate of Pasta",
+      "location": "0.2,0.7,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "glass1",
+      "label": "Glass Bowl",
+      "location": "0.0,0.75,0.2,0.95,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green plastic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.8,0.75,1.0,0.95,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "Metal Shelf",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey metal",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "Kitchen Cabinet",
+      "location": "0.0,0.0,1.0,0.3,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "Sink",
+      "location": "0.0,0.3,0.3,0.5,0.7"
+    }
+  ]
+}

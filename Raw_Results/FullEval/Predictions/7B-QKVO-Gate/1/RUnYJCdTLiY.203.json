@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "logo1",
+      "target": "text1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black non-stick",
+        "size": "large"
+      },
+      "id": "griddle1",
+      "label": "Griddle",
+      "location": "0.05,0.3,0.78,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white batter",
+        "size": "medium"
+      },
+      "id": "pancake1",
+      "label": "Pancake",
+      "location": "0.25,0.45,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Mixing Bowl",
+      "location": "0.75,0.2,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal handle white silicone head",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "Spatula",
+      "location": "0.1,0.0,0.4,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "Kitchen Cabinets",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue icon",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Facebook Logo",
+      "location": "0.0,0.75,0.2,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey text",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Text Overlay",
+      "location": "0.0,0.75,1.0,1.0,0.8"
+    }
+  ]
+}

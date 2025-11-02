@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "sandwich1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "oil_bottle1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "salt_bowl1",
+      "target": "oil_bottle1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "sandwich1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "toasted bread with lettuce and bacon",
+        "size": "medium"
+      },
+      "id": "sandwich1",
+      "label": "Sandwich",
+      "location": "0.65,0.35,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic with green dip",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Dip Bowl",
+      "location": "0.45,0.25,0.60,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.30,0.40,0.98,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade with red handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "Knife",
+      "location": "0.15,0.50,0.30,0.70,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with yellow oil",
+        "size": "medium"
+      },
+      "id": "oil_bottle1",
+      "label": "Oil Bottle",
+      "location": "0.30,0.05,0.45,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with white salt",
+        "size": "small"
+      },
+      "id": "salt_bowl1",
+      "label": "Salt Bowl",
+      "location": "0.60,0.05,0.75,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text on orange background",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "Text Overlay",
+      "location": "0.80,0.75,0.98,0.95,0.6"
+    }
+  ]
+}

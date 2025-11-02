@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "onion_slices",
+      "target": "bowl"
+    },
+    {
+      "predicate": "in",
+      "source": "onion_half",
+      "target": "bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl",
+      "target": "countertop"
+    },
+    {
+      "predicate": "behind",
+      "source": "window",
+      "target": "bowl"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "purple red",
+        "size": "medium"
+      },
+      "id": "onion_slices",
+      "label": "Onion Slices",
+      "location": "0.35,0.45,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red",
+        "size": "small"
+      },
+      "id": "onion_half",
+      "label": "Red Onion Half",
+      "location": "0.30,0.10,0.45,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "bowl",
+      "label": "Metal Bowl",
+      "location": "0.25,0.30,0.75,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey stone",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "Countertop",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame glass",
+        "size": "large"
+      },
+      "id": "window",
+      "label": "Window",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

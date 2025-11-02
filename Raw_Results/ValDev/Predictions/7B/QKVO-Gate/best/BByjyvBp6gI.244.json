@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "includes",
+      "source": "tray1",
+      "target": "pasta1"
+    },
+    {
+      "predicate": "includes",
+      "source": "tray1",
+      "target": "sauce1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray1",
+      "target": "tray2"
+    },
+    {
+      "predicate": "behind",
+      "source": "bowl1",
+      "target": "tray1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.35,0.45,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "Spatula",
+      "location": "0.1,0.3,0.5,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver foil",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "Aluminum Tray",
+      "location": "0.0,0.1,0.7,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white pasta",
+        "size": "medium"
+      },
+      "id": "pasta1",
+      "label": "Pasta",
+      "location": "0.1,0.2,0.6,0.8,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow creamy",
+        "size": "medium"
+      },
+      "id": "sauce1",
+      "label": "Cheese Sauce",
+      "location": "0.1,0.2,0.6,0.8,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "silver foil",
+        "size": "large"
+      },
+      "id": "tray2",
+      "label": "Aluminum Tray",
+      "location": "0.7,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Bowl of Cheese",
+      "location": "0.3,0.0,0.7,0.2,0.8"
+    }
+  ]
+}

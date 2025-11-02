@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "background1"
+    },
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "background1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "logo1",
+      "target": "text1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red gradient",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper with green text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "eHow logo",
+      "location": "0.45,0.0,0.6,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white bold font",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "food text",
+      "location": "0.3,0.3,0.7,0.6,0.95"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "hand1",
+      "target": "black_bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "black_bowl1",
+      "target": "white_sugar_bowl"
+    },
+    {
+      "predicate": "left_of",
+      "source": "white_sugar_bowl",
+      "target": "garlic_bowl"
+    },
+    {
+      "predicate": "right_of",
+      "source": "garlic_bowl",
+      "target": "black_bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "glass_bowl1",
+      "target": "black_bowl1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "small_glass_bowl1",
+      "target": "black_bowl1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "small_glass_bowl2",
+      "target": "small_glass_bowl1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "small_glass_bowl3",
+      "target": "small_glass_bowl2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "large_glass_bowl1",
+      "target": "small_glass_bowl3"
+    },
+    {
+      "predicate": "on",
+      "source": "small_sauce_bowl",
+      "target": "black_bowl2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "grater1",
+      "target": "mixing_bowl4"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cheese_container",
+      "target": "grater1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.35,0.0,0.65,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "glass_bowl1",
+      "label": "glass bowl",
+      "location": "0.75,0.0,0.98,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "medium"
+      },
+      "id": "small_glass_bowl1",
+      "label": "small glass bowl",
+      "location": "0.65,0.15,0.85,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "medium"
+      },
+      "id": "small_glass_bowl2",
+      "label": "small glass bowl",
+      "location": "0.85,0.15,0.98,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "medium"
+      },
+      "id": "small_glass_bowl3",
+      "label": "small glass bowl",
+      "location": "0.65,0.35,0.85,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "large"
+      },
+      "id": "large_glass_bowl1",
+      "label": "large glass bowl",
+      "location": "0.65,0.45,0.98,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black ceramic",
+        "size": "small"
+      },
+      "id": "black_bowl1",
+      "label": "black bowl",
+      "location": "0.35,0.25,0.55,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white granules",
+        "size": "small"
+      },
+      "id": "white_sugar_bowl",
+      "label": "sugar bowl",
+      "location": "0.35,0.45,0.55,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white paste",
+        "size": "small"
+      },
+      "id": "garlic_bowl",
+      "label": "garlic bowl",
+      "location": "0.45,0.25,0.65,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark brown liquid",
+        "size": "small"
+      },
+      "id": "small_sauce_bowl",
+      "label": "sauce bowl",
+      "location": "0.45,0.75,0.55,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "grater1",
+      "label": "metal grater",
+      "location": "0.85,0.0,0.98,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "cheese_container",
+      "label": "cheese container",
+      "location": "0.98,0.0,1.0,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "black_bowl2",
+      "label": "black bowl",
+      "location": "0.0,0.75,0.3,1.0,0.8"
+    }
+  ]
+}

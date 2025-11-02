@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread2",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread3",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "butter1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "behind",
+      "source": "hand1",
+      "target": "lettuce1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "large"
+      },
+      "id": "lettuce1",
+      "label": "Romaine lettuce leaves",
+      "location": "0.05,0.0,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Wooden cutting board",
+      "location": "0.0,0.4,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "Bread roll",
+      "location": "0.45,0.6,0.6,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "bread2",
+      "label": "Bread roll",
+      "location": "0.6,0.6,0.75,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "bread3",
+      "label": "Bread roll",
+      "location": "0.75,0.6,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy",
+        "size": "small"
+      },
+      "id": "butter1",
+      "label": "Butter pat",
+      "location": "0.0,0.7,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Human hand",
+      "location": "0.7,0.0,1.0,0.3,0.8"
+    }
+  ]
+}

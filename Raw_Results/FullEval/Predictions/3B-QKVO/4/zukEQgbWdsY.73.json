@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "cutting",
+      "source": "knife1",
+      "target": "fish1"
+    },
+    {
+      "predicate": "on",
+      "source": "fish1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "logo1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.35,0.0,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.45,0.15,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "raw pink",
+        "size": "small"
+      },
+      "id": "fish1",
+      "label": "fish fillet",
+      "location": "0.55,0.6,0.75,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "plastic tray",
+      "location": "0.0,0.2,0.5,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark metal",
+        "size": "large"
+      },
+      "id": "grill1",
+      "label": "grill pan",
+      "location": "0.6,0.7,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Tasted logo",
+      "location": "0.8,0.8,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

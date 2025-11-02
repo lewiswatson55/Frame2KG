@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "chicken_wings1",
+      "target": "baking_dish1"
+    },
+    {
+      "predicate": "on",
+      "source": "baking_dish1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "chicken_wing1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "blender1",
+      "target": "baking_dish1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "baking_dish1",
+      "label": "glass baking dish",
+      "location": "0.05,0.3,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange sauced",
+        "size": "medium"
+      },
+      "id": "chicken_wings1",
+      "label": "chicken wings",
+      "location": "0.1,0.4,0.9,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.75,0.2,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender base",
+      "location": "0.5,0.0,1.0,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white marble",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

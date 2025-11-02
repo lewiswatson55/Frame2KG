@@ -1,0 +1,109 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "onion1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "onion2",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "onion3",
+      "target": "board1"
+    },
+    {
+      "predicate": "in",
+      "source": "onions_in_bowl",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl1",
+      "target": "onion1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "onion2",
+      "target": "onion1"
+    },
+    {
+      "predicate": "behind",
+      "source": "logo1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "wooden cutting board",
+      "location": "0.05,0.4,0.95,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "purple peeled",
+        "size": "medium"
+      },
+      "id": "onion1",
+      "label": "red onion half",
+      "location": "0.45,0.15,0.65,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white peeled",
+        "size": "small"
+      },
+      "id": "onion2",
+      "label": "white onion slices",
+      "location": "0.55,0.35,0.75,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple peeled",
+        "size": "small"
+      },
+      "id": "onions_in_bowl",
+      "label": "red onion pieces",
+      "location": "0.0,0.5,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.0,0.5,0.5,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "kitchen knife",
+      "location": "0.0,0.7,0.6,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black red white",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "MasterChef logo",
+      "location": "0.75,0.0,0.95,0.2,0.9"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "fridge1",
+      "target": "person1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "shaker1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "hood1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "dishwasher1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blonde hair black top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.25,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.25,0.0,0.75,0.4,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.25,0.4,1.0,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "red bowl with fruit",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "fruit bowl",
+      "location": "0.35,0.45,0.45,0.55,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar red lid",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "spice jar",
+      "location": "0.28,0.45,0.32,0.55,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "metal shaker silver",
+        "size": "small"
+      },
+      "id": "shaker1",
+      "label": "salt shaker",
+      "location": "0.32,0.45,0.36,0.55,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "hood1",
+      "label": "range hood",
+      "location": "0.45,0.05,0.75,0.2,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "black panel white door",
+        "size": "medium"
+      },
+      "id": "dishwasher1",
+      "label": "dishwasher",
+      "location": "0.8,0.6,1.0,1.0,0.85"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "tongs1"
+    },
+    {
+      "predicate": "in",
+      "source": "tongs1",
+      "target": "flour1"
+    },
+    {
+      "predicate": "on",
+      "source": "fish1",
+      "target": "flour1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.0,0.0,0.3,0.4,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "tongs1",
+      "label": "metal tongs",
+      "location": "0.0,0.0,1.0,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "large"
+      },
+      "id": "flour1",
+      "label": "flour",
+      "location": "0.0,0.2,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "raw fish",
+        "size": "medium"
+      },
+      "id": "fish1",
+      "label": "raw fish piece",
+      "location": "0.6,0.4,1.0,0.7,0.9"
+    }
+  ]
+}

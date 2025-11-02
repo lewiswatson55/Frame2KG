@@ -1,0 +1,77 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "background"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "image1",
+      "target": "background"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "image2",
+      "target": "background"
+    },
+    {
+      "predicate": "next_to",
+      "source": "image1",
+      "target": "image2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "image1",
+      "target": "image2"
+    },
+    {
+      "predicate": "above",
+      "source": "logo1",
+      "target": "image1"
+    },
+    {
+      "predicate": "above",
+      "source": "logo1",
+      "target": "image2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue circular",
+        "size": "medium"
+      },
+      "id": "logo1",
+      "label": "Rajshri Food Logo",
+      "location": "0.35,0.0,0.65,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "image1",
+      "label": "Pakoda - Potato & Onion Fritters",
+      "location": "0.05,0.5,0.48,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige golden",
+        "size": "small"
+      },
+      "id": "image2",
+      "label": "Samosa",
+      "location": "0.52,0.5,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white beige seeds",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "Background of Seeds",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

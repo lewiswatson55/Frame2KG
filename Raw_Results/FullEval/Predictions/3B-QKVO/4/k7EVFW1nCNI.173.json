@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "food_grinder"
+    },
+    {
+      "predicate": "on",
+      "source": "food_grinder",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "red_towel",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "food_grinder",
+      "target": "red_towel"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "stove"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white floral shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.0,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic with red lid",
+        "size": "medium"
+      },
+      "id": "food_grinder",
+      "label": "food processor",
+      "location": "0.45,0.35,0.75,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red fabric",
+        "size": "small"
+      },
+      "id": "red_towel",
+      "label": "towel",
+      "location": "0.6,0.4,0.8,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "stove",
+      "location": "0.7,0.0,1.0,0.6,0.8"
+    }
+  ]
+}

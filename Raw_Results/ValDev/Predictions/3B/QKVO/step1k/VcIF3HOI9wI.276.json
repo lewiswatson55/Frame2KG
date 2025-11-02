@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cabinet1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "oven1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "behind",
+      "source": "window1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "shelf1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cabinet1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown hair, green shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.6,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow wood",
+        "size": "small"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.3,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "medium"
+      },
+      "id": "oven1",
+      "label": "oven",
+      "location": "0.0,0.3,0.3,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black grate",
+        "size": "small"
+      },
+      "id": "pan1",
+      "label": "cooking pan",
+      "location": "0.0,0.6,0.3,0.8,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "green bread with filling",
+        "size": "small"
+      },
+      "id": "sandwich1",
+      "label": "sandwich slice",
+      "location": "0.4,0.4,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white glass",
+        "size": "medium"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.2,0.0,0.4,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "kitchen shelf",
+      "location": "0.7,0.3,1.0,0.8,0.7"
+    }
+  ]
+}

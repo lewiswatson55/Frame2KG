@@ -1,0 +1,109 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "onion_slice"
+    },
+    {
+      "predicate": "in",
+      "source": "onion_slices",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "onion_half",
+      "target": "onion_slices"
+    },
+    {
+      "predicate": "next_to",
+      "source": "garlic_piece",
+      "target": "onion_half"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "onion_half",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "garlic_piece",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.0,0.45,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink translucent",
+        "size": "small"
+      },
+      "id": "onion_slice",
+      "label": "Onion Slice",
+      "location": "0.35,0.2,0.7,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink translucent",
+        "size": "large"
+      },
+      "id": "onion_half",
+      "label": "Half Onion",
+      "location": "0.45,0.1,0.85,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white translucent",
+        "size": "small"
+      },
+      "id": "garlic_piece",
+      "label": "Garlic Piece",
+      "location": "0.55,0.5,0.7,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.0,0.4,0.5,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red black white graphic",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Logo",
+      "location": "0.8,0.0,1.0,0.2,0.9"
+    }
+  ]
+}

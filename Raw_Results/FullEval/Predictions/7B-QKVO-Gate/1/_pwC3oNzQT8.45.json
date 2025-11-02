@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "in",
+      "source": "rice1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spoon1",
+      "target": "rice1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "logo1",
+      "target": "chicken1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "orange sauce",
+        "size": "large"
+      },
+      "id": "chicken1",
+      "label": "raw chicken",
+      "location": "0.05,0.05,0.98,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "glass baking tray",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white granular",
+        "size": "small"
+      },
+      "id": "rice1",
+      "label": "rice",
+      "location": "0.0,0.6,0.2,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "spoon1",
+      "label": "spoon",
+      "location": "0.0,0.4,0.2,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black white text",
+        "size": "medium"
+      },
+      "id": "logo1",
+      "label": "Chef Ricardo logo",
+      "location": "0.5,0.7,1.0,1.0,0.9"
+    }
+  ]
+}

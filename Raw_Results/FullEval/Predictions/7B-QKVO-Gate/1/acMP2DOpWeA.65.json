@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "milk_stream1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "egg_mixture1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.15,0.15,0.85,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow liquid",
+        "size": "medium"
+      },
+      "id": "egg_mixture1",
+      "label": "beaten egg mixture",
+      "location": "0.3,0.2,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white liquid",
+        "size": "small"
+      },
+      "id": "milk_stream1",
+      "label": "stream of milk",
+      "location": "0.45,0.0,0.75,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light beige speckled",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "kitchen countertop",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

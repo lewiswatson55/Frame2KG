@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "stars1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "star1",
+      "target": "text1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white glowing",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Thanks for watching text",
+      "location": "0.35,0.45,0.65,0.55,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "shimmering white",
+        "size": "large"
+      },
+      "id": "stars1",
+      "label": "sparkling stars",
+      "location": "0.0,0.0,1.0,1.0,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "bright white",
+        "size": "small"
+      },
+      "id": "star1",
+      "label": "glowing star",
+      "location": "0.75,0.35,0.95,0.55,0.90"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "pouring_into",
+      "source": "bag1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "breadcrumbs1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "stove1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow plastic bag with green label",
+        "size": "medium"
+      },
+      "id": "bag1",
+      "label": "breadcrumb_bag",
+      "location": "0.35,0.0,0.75,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green ceramic bowl",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing_bowl",
+      "location": "0.2,0.3,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown crumbs",
+        "size": "small"
+      },
+      "id": "breadcrumbs1",
+      "label": "breadcrumbs",
+      "location": "0.3,0.4,0.8,0.8,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal stove top",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.0,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green ceramic plate",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.8,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "pouring_on",
+      "source": "bowl1",
+      "target": "food1"
+    },
+    {
+      "predicate": "on",
+      "source": "food1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown metal",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "metal bowl",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green and white",
+        "size": "large"
+      },
+      "id": "food1",
+      "label": "mixed greens",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

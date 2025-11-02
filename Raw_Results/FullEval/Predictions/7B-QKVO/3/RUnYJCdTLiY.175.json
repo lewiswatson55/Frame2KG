@@ -1,0 +1,220 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "whisk1",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "grater1",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "dishwasher1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "microwave1",
+      "target": "cabinets"
+    },
+    {
+      "predicate": "next_to",
+      "source": "utensil_holder1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "board1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cabinet_left",
+      "target": "cabinet_right"
+    },
+    {
+      "predicate": "right_of",
+      "source": "cabinet_right",
+      "target": "cabinet_left"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "purple shirt white apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.7,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.5,0.6,0.9,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate of butter",
+      "location": "0.45,0.7,0.55,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden handle black blade",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.45,0.75,0.55,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal wire",
+        "size": "small"
+      },
+      "id": "whisk1",
+      "label": "whisk",
+      "location": "0.8,0.75,0.95,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic grating",
+        "size": "small"
+      },
+      "id": "grater1",
+      "label": "grater",
+      "location": "0.6,0.8,0.7,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver stainless steel",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.2,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave",
+      "location": "0.0,0.0,0.4,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet_left",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.3,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet_right",
+      "label": "kitchen cabinet",
+      "location": "0.7,0.0,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "utensil_holder1",
+      "label": "utensil holder",
+      "location": "0.0,0.2,0.1,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.7,0.2,0.9,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "salt shaker",
+      "location": "0.9,0.2,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "dishwasher1",
+      "label": "dishwasher",
+      "location": "0.6,0.5,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "marble",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    }
+  ]
+}

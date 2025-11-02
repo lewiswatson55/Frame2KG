@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "red_sauce1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "egg_mixture1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "fork1",
+      "target": "egg_mixture1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "flour1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.05,0.05,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "bright red liquid",
+        "size": "medium"
+      },
+      "id": "red_sauce1",
+      "label": "tomato sauce",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow frothy mixture",
+        "size": "medium"
+      },
+      "id": "egg_mixture1",
+      "label": "egg mixture",
+      "location": "0.1,0.3,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "fork1",
+      "label": "fork",
+      "location": "0.0,0.4,0.4,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.6,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "flour1",
+      "label": "flour",
+      "location": "0.8,0.0,1.0,0.2,0.6"
+    }
+  ]
+}

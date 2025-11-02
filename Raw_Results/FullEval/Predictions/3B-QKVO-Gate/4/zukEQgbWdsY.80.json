@@ -1,0 +1,195 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "raw_meat"
+    },
+    {
+      "predicate": "on",
+      "source": "raw_meat",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "stove"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "stove"
+    },
+    {
+      "predicate": "supports",
+      "source": "cabinet_shelf",
+      "target": "bottles"
+    },
+    {
+      "predicate": "supports",
+      "source": "cabinet_shelf",
+      "target": "kettle"
+    },
+    {
+      "predicate": "supports",
+      "source": "cabinet_shelf",
+      "target": "jars"
+    },
+    {
+      "predicate": "supports",
+      "source": "cabinet_shelf",
+      "target": "blender"
+    },
+    {
+      "predicate": "supports",
+      "source": "cabinet_shelf",
+      "target": "plant_pot"
+    },
+    {
+      "predicate": "left_of",
+      "source": "oven",
+      "target": "sink"
+    },
+    {
+      "predicate": "right_of",
+      "source": "person2",
+      "target": "stove"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.3,0.48,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.52,0.1,0.96,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.0,0.6,0.4,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "raw_meat",
+      "label": "raw meat",
+      "location": "0.1,0.7,0.3,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic black",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "gas stove",
+      "location": "0.4,0.6,0.95,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "oven",
+      "label": "oven",
+      "location": "0.0,0.0,0.3,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "cabinet_shelf",
+      "label": "cabinet shelf",
+      "location": "0.3,0.0,1.0,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottles",
+        "size": "small"
+      },
+      "id": "bottles",
+      "label": "bottles",
+      "location": "0.4,0.1,0.6,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "kettle",
+      "label": "kettle",
+      "location": "0.5,0.0,0.7,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jars",
+        "size": "small"
+      },
+      "id": "jars",
+      "label": "jars",
+      "location": "0.4,0.2,0.6,0.35,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "plastic container",
+        "size": "medium"
+      },
+      "id": "blender",
+      "label": "blender",
+      "location": "0.85,0.4,0.98,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green plant",
+        "size": "small"
+      },
+      "id": "plant_pot",
+      "label": "potted plant",
+      "location": "0.45,0.3,0.55,0.45,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white tiled backsplash",
+        "size": "large"
+      },
+      "id": "backsplash",
+      "label": "tile backsplash",
+      "location": "0.3,0.2,0.9,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel sink",
+        "size": "medium"
+      },
+      "label": "sink",
+      "location": "0.4,0.4,0.6,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text",
+        "size": "small"
+      },
+      "id": "logo_text",
+      "label": "TASTED logo",
+      "location": "0.75,0.8,0.98,0.98,0.9"
+    }
+  ]
+}

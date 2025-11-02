@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "cutting",
+      "source": "knife1",
+      "target": "avocado1"
+    },
+    {
+      "predicate": "on",
+      "source": "avocado1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lemon1",
+      "target": "avocado1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl1",
+      "target": "lemon1"
+    },
+    {
+      "predicate": "behind",
+      "source": "jar1",
+      "target": "lemon1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "can1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "logo1",
+      "target": "jar1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "striped shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.5,0.0,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black handle metal blade",
+        "size": "large"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.3,0.2,0.7,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown skin",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.6,0.5,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green flesh brown seed",
+        "size": "medium"
+      },
+      "id": "avocado1",
+      "label": "avocado half",
+      "location": "0.3,0.5,0.5,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow juicy",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "lemon half",
+      "location": "0.45,0.4,0.55,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl of cheese",
+      "location": "0.1,0.3,0.3,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue plastic",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "spice jar",
+      "location": "0.3,0.0,0.4,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red blue white",
+        "size": "small"
+      },
+      "id": "can1",
+      "label": "soda can",
+      "location": "0.45,0.0,0.55,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey black text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "logo",
+      "location": "0.0,0.0,0.2,0.2,0.9"
+    }
+  ]
+}

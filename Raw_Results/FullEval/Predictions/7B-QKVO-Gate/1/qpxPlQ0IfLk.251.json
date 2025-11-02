@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "croutons1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "croutons1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_salt1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "behind",
+      "source": "salt_shaker1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "behind",
+      "source": "pepper_grinder1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.05,0.35,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce Leaves",
+      "location": "0.1,0.4,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white grilled",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "Grilled Chicken Slices",
+      "location": "0.3,0.45,0.8,0.65,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "brown toasted",
+        "size": "small"
+      },
+      "id": "croutons1",
+      "label": "Croutons",
+      "location": "0.4,0.3,0.7,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.45,0.0,0.8,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "small"
+      },
+      "id": "bowl_salt1",
+      "label": "Salt Bowl",
+      "location": "0.85,0.5,0.98,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass white",
+        "size": "small"
+      },
+      "id": "salt_shaker1",
+      "label": "Salt Shaker",
+      "location": "0.8,0.0,0.9,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "plastic yellow",
+        "size": "small"
+      },
+      "id": "pepper_grinder1",
+      "label": "Pepper Grinder",
+      "location": "0.9,0.0,1.0,0.2,0.7"
+    }
+  ]
+}

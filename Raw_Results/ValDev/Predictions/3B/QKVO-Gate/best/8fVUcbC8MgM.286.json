@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lemon1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "towel1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "jar1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white t-shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.05,0.0,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "wooden bowl",
+      "location": "0.45,0.3,0.75,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "rectangular plate",
+      "location": "0.2,0.35,0.8,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "lemon",
+      "location": "0.8,0.45,0.95,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white cloth with floral pattern",
+        "size": "medium"
+      },
+      "id": "towel1",
+      "label": "kitchen towel",
+      "location": "0.0,0.3,0.3,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "ceramic with blue stripe",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "ceramic jar",
+      "location": "0.75,0.1,0.95,0.35,0.8"
+    }
+  ]
+}

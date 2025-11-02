@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "burger1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lettuce1",
+      "target": "burger1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "behind",
+      "source": "patties1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light brown bun with tomato slice and lettuce",
+        "size": "medium"
+      },
+      "id": "burger1",
+      "label": "Burger",
+      "location": "0.45,0.15,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce",
+      "location": "0.35,0.6,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "Red Bowl",
+      "location": "0.0,0.6,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.3,0.5,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown raw meat",
+        "size": "medium"
+      },
+      "id": "patties1",
+      "label": "Meat Patties",
+      "location": "0.0,0.0,0.6,0.4,0.7"
+    }
+  ]
+}

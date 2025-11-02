@@ -1,0 +1,182 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_meat1",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_meat2",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_empty",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese_slices",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "stove",
+      "target": "fryer"
+    },
+    {
+      "predicate": "left_of",
+      "source": "fryer",
+      "target": "stove"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "rack",
+      "target": "person1"
+    },
+    {
+      "predicate": "on",
+      "source": "clock",
+      "target": "wall"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white chef coat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.4,0.7,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with red meat",
+        "size": "small"
+      },
+      "id": "bowl_meat1",
+      "label": "glass bowl of ground meat",
+      "location": "0.45,0.75,0.55,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with red meat",
+        "size": "small"
+      },
+      "id": "bowl_meat2",
+      "label": "glass bowl of ground meat",
+      "location": "0.15,0.75,0.25,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl_empty",
+      "label": "empty glass bowl",
+      "location": "0.55,0.75,0.65,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cheese slices",
+        "size": "small"
+      },
+      "id": "cheese_slices",
+      "label": "cheese slices",
+      "location": "0.4,0.8,0.5,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "large"
+      },
+      "id": "shelf",
+      "label": "metal shelf",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "fryer",
+      "label": "deep fryer",
+      "location": "0.0,0.3,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "stove",
+      "location": "0.0,0.6,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "rack",
+      "label": "metal rack",
+      "location": "0.75,0.1,0.95,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame",
+        "size": "small"
+      },
+      "id": "clock",
+      "label": "wall clock",
+      "location": "0.6,0.0,0.7,0.15,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "medium"
+      },
+      "id": "bread_bowl",
+      "label": "bread bowl",
+      "location": "0.6,0.4,0.7,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green lettuce",
+        "size": "small"
+      },
+      "id": "lettuce",
+      "label": "lettuce",
+      "location": "0.3,0.4,0.4,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "jar_group",
+      "label": "spice jars",
+      "location": "0.0,0.2,1.0,0.3,0.7"
+    }
+  ]
+}

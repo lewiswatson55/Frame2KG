@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot2",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in",
+      "source": "food1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pot1",
+      "target": "pot2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.05,0.3,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.1,0.4,0.7,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "medium"
+      },
+      "id": "pot1",
+      "label": "red pot",
+      "location": "0.3,0.0,0.7,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "pot2",
+      "label": "metal pot",
+      "location": "0.75,0.0,1.0,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow red",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "vegetables",
+      "location": "0.25,0.45,0.6,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.0,0.3,0.2,0.5,0.8"
+    }
+  ]
+}

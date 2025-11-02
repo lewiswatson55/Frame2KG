@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "mustard1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "behind",
+      "source": "bottle1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "logo1",
+      "target": "bottle1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown leather bracelet",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Person's Hands",
+      "location": "0.45,0.0,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "large"
+      },
+      "id": "lettuce1",
+      "label": "Romaine Lettuce",
+      "location": "0.3,0.3,0.7,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic jar",
+        "size": "small"
+      },
+      "id": "mustard1",
+      "label": "Mustard Jar",
+      "location": "0.1,0.3,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass bottle",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "Glass Bottle",
+      "location": "0.3,0.0,0.5,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table Surface",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Logo",
+      "location": "0.0,0.0,0.2,0.2,0.6"
+    }
+  ]
+}

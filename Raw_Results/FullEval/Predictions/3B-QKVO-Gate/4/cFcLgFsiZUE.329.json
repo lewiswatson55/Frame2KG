@@ -1,0 +1,114 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinets1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "stand_mixer1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "kettle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "microwave1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "microwave1",
+      "target": "cabinets1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "blender1",
+      "target": "stand_mixer1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "stand_mixer1",
+      "target": "kettle1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "kettle1",
+      "target": "stand_mixer1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blonde hair white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinets1",
+      "label": "wooden cabinets",
+      "location": "0.0,0.0,1.0,0.4,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown granite",
+        "size": "medium"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.4,1.0,0.7,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic red base",
+        "size": "small"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.0,0.45,0.15,0.75,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "small"
+      },
+      "id": "stand_mixer1",
+      "label": "stand mixer",
+      "location": "0.15,0.45,0.25,0.75,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "kettle1",
+      "label": "electric kettle",
+      "location": "0.25,0.45,0.35,0.75,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "white glass black frame",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave oven",
+      "location": "0.7,0.4,1.0,0.7,0.85"
+    }
+  ]
+}

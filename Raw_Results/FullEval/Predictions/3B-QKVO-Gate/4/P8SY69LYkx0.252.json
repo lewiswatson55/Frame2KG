@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "background1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "background2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red white",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "red white background",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "green white",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "text 'Echod'",
+      "location": "0.3,0.4,0.7,0.6,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "white red gradient",
+        "size": "medium"
+      },
+      "id": "background2",
+      "label": "white red background",
+      "location": "0.0,0.0,0.5,1.0,0.85"
+    }
+  ]
+}

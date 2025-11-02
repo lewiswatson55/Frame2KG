@@ -1,0 +1,168 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl3",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "vase1",
+      "target": "table"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "board",
+      "target": "tv_screen"
+    },
+    {
+      "predicate": "behind",
+      "source": "window1",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "short brown hair turquoise shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.1,0.45,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "long dark hair green dress",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.6,0.1,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink background",
+        "size": "large"
+      },
+      "id": "tv_screen",
+      "label": "television screen",
+      "location": "0.1,0.0,0.7,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board",
+      "label": "cutting board",
+      "location": "0.0,0.6,0.5,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "bread slices",
+      "location": "0.1,0.7,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.2,0.7,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "ceramic bowl",
+      "location": "0.3,0.7,0.4,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl3",
+      "label": "ceramic bowl",
+      "location": "0.4,0.7,0.5,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate red tomatoes lettuce",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "salad plate",
+      "location": "0.3,0.6,0.6,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "metal vase",
+      "location": "0.5,0.6,0.6,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green cloth",
+        "size": "medium"
+      },
+      "id": "cloth1",
+      "label": "kitchen towel",
+      "location": "0.0,0.8,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.7,0.0,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "gray surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "table",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    }
+  ]
+}

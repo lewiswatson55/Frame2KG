@@ -1,0 +1,109 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "food1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "on",
+      "source": "microwave1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "toaster1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "behind",
+      "source": "counter1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "counter1",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "curly hair black glasses beard",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.0,0.48,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blonde hair pearl necklace",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.37,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden fried",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "fried food",
+      "location": "0.15,0.6,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave",
+      "location": "0.75,0.3,0.95,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black red plastic",
+        "size": "small"
+      },
+      "id": "toaster1",
+      "label": "toaster",
+      "location": "0.0,0.4,0.2,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige granite",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    }
+  ]
+}

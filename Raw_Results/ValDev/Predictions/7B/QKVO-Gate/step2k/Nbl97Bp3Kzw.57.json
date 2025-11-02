@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "sign1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "candle_holder1",
+      "target": "sign1"
+    },
+    {
+      "predicate": "on",
+      "source": "candles1",
+      "target": "candle_holder1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "sign1",
+      "target": "shelf1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt red collar",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.75,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green wood",
+        "size": "medium"
+      },
+      "id": "sign1",
+      "label": "Signboard",
+      "location": "0.0,0.3,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "candles1",
+      "label": "Candles",
+      "location": "0.1,0.45,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "candle_holder1",
+      "label": "Glass holder",
+      "location": "0.0,0.45,0.3,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "cream painted",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "Shelf",
+      "location": "0.0,0.0,1.0,0.2,0.7"
+    }
+  ]
+}

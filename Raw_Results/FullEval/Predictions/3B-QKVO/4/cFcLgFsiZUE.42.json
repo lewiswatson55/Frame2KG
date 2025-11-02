@@ -1,0 +1,177 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "display"
+    },
+    {
+      "predicate": "on",
+      "source": "text2",
+      "target": "display"
+    },
+    {
+      "predicate": "on",
+      "source": "text3",
+      "target": "display"
+    },
+    {
+      "predicate": "left_of",
+      "source": "button1",
+      "target": "display"
+    },
+    {
+      "predicate": "right_of",
+      "source": "button2",
+      "target": "display"
+    },
+    {
+      "predicate": "next_to",
+      "source": "button3",
+      "target": "button4"
+    },
+    {
+      "predicate": "next_to",
+      "source": "button5",
+      "target": "button6"
+    },
+    {
+      "predicate": "next_to",
+      "source": "button7",
+      "target": "button8"
+    },
+    {
+      "predicate": "next_to",
+      "source": "button9",
+      "target": "button0"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "large"
+      },
+      "id": "display",
+      "label": "Digital display",
+      "location": "0.35,0.05,1.00,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow orange",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Temperature indicator",
+      "location": "0.40,0.10,0.60,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green yellow",
+        "size": "small"
+      },
+      "id": "text2",
+      "label": "Cooking mode indicator",
+      "location": "0.60,0.10,0.75,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red white",
+        "size": "small"
+      },
+      "id": "text3",
+      "label": "Power indicator",
+      "location": "0.65,0.20,0.75,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey black",
+        "size": "medium"
+      },
+      "id": "button1",
+      "label": "Bake button",
+      "location": "0.00,0.30,0.30,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey black",
+        "size": "medium"
+      },
+      "id": "button2",
+      "label": "Toast button",
+      "location": "0.00,0.60,0.30,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey black",
+        "size": "medium"
+      },
+      "id": "button3",
+      "label": "Broil button",
+      "location": "0.30,0.60,0.60,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey black",
+        "size": "medium"
+      },
+      "id": "button4",
+      "label": "Clock button",
+      "location": "0.60,0.60,0.90,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey black",
+        "size": "medium"
+      },
+      "id": "button5",
+      "label": "Unlock button",
+      "location": "0.00,0.90,0.30,1.00,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey black",
+        "size": "medium"
+      },
+      "id": "button6",
+      "label": "Lock button",
+      "location": "0.30,0.90,0.60,1.00,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey black",
+        "size": "medium"
+      },
+      "id": "button7",
+      "label": "Number 1 button",
+      "location": "0.30,0.60,0.60,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey black",
+        "size": "medium"
+      },
+      "id": "button8",
+      "label": "Number 2 button",
+      "location": "0.60,0.60,0.90,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey black",
+        "size": "medium"
+      },
+      "id": "button9",
+      "label": "Number 9 button",
+      "location": "0.00,0.60,0.30,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white",
+        "size": "small"
+      },
+      "id": "text0",
+      "label": "Brand name text",
+      "location": "0.00,0.00,0.30,0.20,0.7"
+    }
+  ]
+}

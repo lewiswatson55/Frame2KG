@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person_hand1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl3",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl2",
+      "target": "bowl3"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person_hand1",
+      "label": "hand",
+      "location": "0.65,0.0,0.98,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with red liquid",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.2,0.3,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with yellowish liquid",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "glass bowl",
+      "location": "0.6,0.2,0.9,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with white powder",
+        "size": "small"
+      },
+      "id": "bowl3",
+      "label": "glass bowl",
+      "location": "0.75,0.3,1.0,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    }
+  ]
+}

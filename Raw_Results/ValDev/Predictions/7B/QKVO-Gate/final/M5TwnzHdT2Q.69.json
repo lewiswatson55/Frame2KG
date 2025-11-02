@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "pan"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread2",
+      "target": "pan"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese2",
+      "target": "bread2"
+    },
+    {
+      "predicate": "on",
+      "source": "pan",
+      "target": "stove"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl",
+      "target": "pan"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "gas stove",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "dark non-stick",
+        "size": "medium"
+      },
+      "id": "pan",
+      "label": "frying pan",
+      "location": "0.18,0.17,0.83,0.64,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread slice",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "bread slice",
+      "location": "0.35,0.45,0.60,0.65,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "orange shredded cheese",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "shredded cheese",
+      "location": "0.38,0.48,0.58,0.62,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread slice",
+        "size": "small"
+      },
+      "id": "bread2",
+      "label": "bread slice",
+      "location": "0.60,0.35,0.85,0.55,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "orange shredded cheese",
+        "size": "small"
+      },
+      "id": "cheese2",
+      "label": "shredded cheese",
+      "location": "0.63,0.38,0.83,0.52,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl",
+      "label": "glass bowl",
+      "location": "0.75,0.0,0.95,0.15,0.7"
+    }
+  ]
+}

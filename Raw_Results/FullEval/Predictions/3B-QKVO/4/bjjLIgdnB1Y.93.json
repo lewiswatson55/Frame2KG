@@ -1,0 +1,234 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "whisk1"
+    },
+    {
+      "predicate": "in",
+      "source": "whisk1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "griddle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "can1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "measuring_cup1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "mixing_bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "utensil_holder1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sink1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "behind",
+      "source": "fridge1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "window1",
+      "target": "fridge1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black apron, brown hair",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.05,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass bowl with yellow liquid",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.48,0.60,0.58,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass bowl with white powder",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "mixing bowl",
+      "location": "0.58,0.60,0.68,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal whisk",
+        "size": "small"
+      },
+      "id": "whisk1",
+      "label": "whisk",
+      "location": "0.45,0.55,0.55,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel griddle",
+        "size": "large"
+      },
+      "id": "griddle1",
+      "label": "griddle",
+      "location": "0.60,0.65,0.90,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow can with red label",
+        "size": "small"
+      },
+      "id": "can1",
+      "label": "spray can",
+      "location": "0.15,0.65,0.25,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar with blue lid",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "syrup bottle",
+      "location": "0.05,0.70,0.15,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic measuring cup",
+        "size": "small"
+      },
+      "id": "measuring_cup1",
+      "label": "measuring cup",
+      "location": "0.20,0.70,0.30,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden bowl with green contents",
+        "size": "small"
+      },
+      "id": "mixing_bowl1",
+      "label": "mixing bowl",
+      "location": "0.10,0.70,0.20,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal spatula on countertop",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.70,0.65,0.80,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden knife block",
+        "size": "small"
+      },
+      "id": "utensil_holder1",
+      "label": "utensil holder",
+      "location": "0.80,0.20,0.90,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel sink",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.85,0.45,0.98,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown granite countertop",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.00,0.60,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood cabinets",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.40,0.00,1.00,0.30,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel refrigerator",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.00,0.00,0.30,0.60,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white window frame",
+        "size": "medium"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.80,0.00,1.00,0.30,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel faucet",
+        "size": "medium"
+      },
+      "id": "faucet1",
+      "label": "faucet",
+      "location": "0.85,0.45,0.98,0.60,0.8"
+    }
+  ]
+}

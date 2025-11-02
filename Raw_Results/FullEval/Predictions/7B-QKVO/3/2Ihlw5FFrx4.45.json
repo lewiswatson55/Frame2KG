@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand_left",
+      "target": "spreader"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand_right",
+      "target": "spreader"
+    },
+    {
+      "predicate": "on",
+      "source": "spreader",
+      "target": "bread_slice"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese_mix",
+      "target": "spreader"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl",
+      "target": "board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl",
+      "target": "bread_slice"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand_left",
+      "label": "left hand",
+      "location": "0.05,0.3,0.4,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand_right",
+      "label": "right hand",
+      "location": "0.6,0.3,0.95,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "spreader",
+      "label": "knife",
+      "location": "0.3,0.45,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crust white interior",
+        "size": "medium"
+      },
+      "id": "bread_slice",
+      "label": "bread slice",
+      "location": "0.2,0.5,0.8,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white crumbly",
+        "size": "small"
+      },
+      "id": "cheese_mix",
+      "label": "feta cream cheese mix",
+      "location": "0.5,0.45,0.75,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl",
+      "label": "glass bowl",
+      "location": "0.0,0.0,0.3,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "cutting board",
+      "location": "0.0,0.3,1.0,1.0,0.7"
+    }
+  ]
+}

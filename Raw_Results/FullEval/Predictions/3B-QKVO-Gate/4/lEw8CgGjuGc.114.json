@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "tomato1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "burger_half1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "behind",
+      "source": "bottle_red1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "behind",
+      "source": "bottle_yellow1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "cheese_plate1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown bun with white cheese",
+        "size": "medium"
+      },
+      "id": "burger_top1",
+      "label": "Burger Top",
+      "location": "0.35,0.05,0.65,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown grilled meat",
+        "size": "small"
+      },
+      "id": "patty1",
+      "label": "Beef Patty",
+      "location": "0.4,0.35,0.7,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red slice",
+        "size": "small"
+      },
+      "id": "tomato1",
+      "label": "Tomato Slice",
+      "location": "0.4,0.45,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "large"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce Leaf",
+      "location": "0.3,0.5,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted brown bun",
+        "size": "small"
+      },
+      "id": "burger_half1",
+      "label": "Burger Half",
+      "location": "0.0,0.6,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "bottle_red1",
+      "label": "Sauce Bottle",
+      "location": "0.0,0.0,0.2,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "medium"
+      },
+      "id": "bottle_yellow1",
+      "label": "Sauce Bottle",
+      "location": "0.2,0.0,0.4,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow melted cheese",
+        "size": "small"
+      },
+      "id": "cheese_plate1",
+      "label": "Cheese Plate",
+      "location": "0.7,0.0,1.0,0.3,0.6"
+    }
+  ]
+}

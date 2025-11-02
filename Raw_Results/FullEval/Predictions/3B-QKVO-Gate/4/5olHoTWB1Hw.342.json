@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "food1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "large"
+      },
+      "id": "food1",
+      "label": "crispy baked macaroni and cheese",
+      "location": "0.0,0.0,0.75,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "baking pan",
+      "location": "0.6,0.4,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark grey metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop burner",
+      "location": "0.3,0.0,1.0,0.6,0.7"
+    }
+  ]
+}

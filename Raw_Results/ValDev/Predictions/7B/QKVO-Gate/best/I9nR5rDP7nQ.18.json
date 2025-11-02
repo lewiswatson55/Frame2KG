@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_lemons",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pot",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "rolling_pin",
+      "target": "countertop"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "utensils",
+      "target": "shelf"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_lemons",
+      "target": "pot"
+    },
+    {
+      "predicate": "left_of",
+      "source": "rolling_pin",
+      "target": "pot"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt bald head",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.0,0.68,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "medium"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.0,0.7,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue ceramic yellow lemons",
+        "size": "small"
+      },
+      "id": "bowl_lemons",
+      "label": "bowl of lemons",
+      "location": "0.73,0.74,0.85,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark metal",
+        "size": "medium"
+      },
+      "id": "pot",
+      "label": "cooking pot",
+      "location": "0.85,0.75,0.98,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "rolling_pin",
+      "label": "rolling pin",
+      "location": "0.9,0.75,1.0,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "small"
+      },
+      "id": "shelf",
+      "label": "wall shelf",
+      "location": "0.2,0.0,0.8,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal wooden",
+        "size": "small"
+      },
+      "id": "utensils",
+      "label": "hanging utensils",
+      "location": "0.3,0.15,0.45,0.35,0.7"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "food1"
+    },
+    {
+      "predicate": "in",
+      "source": "food1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "on",
+      "source": "oil1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white glove",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "gloved hand",
+      "location": "0.35,0.0,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown battered",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "fried food piece",
+      "location": "0.4,0.2,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "bubbling yellow liquid",
+        "size": "large"
+      },
+      "id": "oil1",
+      "label": "cooking oil",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

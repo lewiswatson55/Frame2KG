@@ -1,0 +1,140 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "whisk1"
+    },
+    {
+      "predicate": "in",
+      "source": "whisk1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "butter1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spatula1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "griddle1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "wooden_spoon1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "purple shirt white apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.35,0.0,0.65,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Mixing Bowl",
+      "location": "0.4,0.2,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal wire",
+        "size": "small"
+      },
+      "id": "whisk1",
+      "label": "Whisk",
+      "location": "0.5,0.0,0.7,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow block",
+        "size": "small"
+      },
+      "id": "butter1",
+      "label": "Butter",
+      "location": "0.45,0.35,0.55,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.45,0.3,0.55,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "griddle1",
+      "label": "Griddle",
+      "location": "0.0,0.2,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "ladle1",
+      "label": "Ladle",
+      "location": "0.1,0.5,0.3,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "small"
+      },
+      "id": "wooden_spoon1",
+      "label": "Wooden Spoon",
+      "location": "0.3,0.6,0.4,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "Spatula",
+      "location": "0.7,0.4,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark red wood",
+        "size": "medium"
+      },
+      "id": "wooden_bowl1",
+      "label": "Wooden Bowl",
+      "location": "0.85,0.4,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "Cabinets",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

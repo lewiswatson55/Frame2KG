@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "knife"
+    },
+    {
+      "predicate": "cutting",
+      "source": "knife",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce",
+      "target": "board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "butter",
+      "target": "lettuce"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bread1",
+      "target": "bread2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "butter",
+      "target": "bread2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "Cutting Board",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted white bread with spread",
+        "size": "medium"
+      },
+      "id": "bread1",
+      "label": "Bread Slice",
+      "location": "0.05,0.05,0.45,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted white bread with spread",
+        "size": "medium"
+      },
+      "id": "bread2",
+      "label": "Bread Slice",
+      "location": "0.05,0.35,0.45,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade with black handle",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "Knife",
+      "location": "0.3,0.2,0.7,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce",
+      "label": "Lettuce Leaf",
+      "location": "0.5,0.4,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white stick with red cap",
+        "size": "small"
+      },
+      "id": "butter",
+      "label": "Butter Stick",
+      "location": "0.8,0.1,0.98,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.45,0.0,0.8,0.4,0.8"
+    }
+  ]
+}

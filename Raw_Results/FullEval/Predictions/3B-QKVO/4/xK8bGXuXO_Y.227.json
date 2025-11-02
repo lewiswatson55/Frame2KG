@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "on",
+      "source": "logo2",
+      "target": "fridge2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fridge1",
+      "target": "fridge2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black hair pink shirt blue apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.1,0.95,0.98,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "large"
+      },
+      "id": "fridge2",
+      "label": "refrigerator",
+      "location": "0.6,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red black white",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Master Chef logo",
+      "location": "0.3,0.0,0.45,0.2,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red black white",
+        "size": "small"
+      },
+      "id": "logo2",
+      "label": "Master Chef logo",
+      "location": "0.85,0.0,0.98,0.2,0.9"
+    }
+  ]
+}

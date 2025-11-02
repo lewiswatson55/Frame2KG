@@ -1,0 +1,189 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle2",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle3",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar2",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "lemon1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "avocado1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "tongs1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "cloth1",
+      "target": "table1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "cloth1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "bottle2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bottle2",
+      "target": "bottle3"
+    },
+    {
+      "predicate": "behind",
+      "source": "blender1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "hand1",
+      "target": "avocado1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black plastic and glass",
+        "size": "large"
+      },
+      "id": "blender1",
+      "label": "Blender",
+      "location": "0.25,0.0,0.48,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic bottle with blue cap",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "Dijon Mustard Bottle",
+      "location": "0.37,0.35,0.48,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "medium"
+      },
+      "id": "bottle2",
+      "label": "Green Oil Bottle",
+      "location": "0.48,0.15,0.58,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with brown liquid",
+        "size": "medium"
+      },
+      "id": "bottle3",
+      "label": "Olive Oil Bottle",
+      "location": "0.58,0.15,0.68,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent jar with white contents",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "Small Glass Jar",
+      "location": "0.45,0.6,0.55,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic container with black lid",
+        "size": "small"
+      },
+      "id": "jar2",
+      "label": "Spice Container",
+      "location": "0.35,0.4,0.45,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow citrus fruit",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "Lemon",
+      "location": "0.55,0.7,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark green avocado half",
+        "size": "small"
+      },
+      "id": "avocado1",
+      "label": "Avocado Half",
+      "location": "0.65,0.7,0.75,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal tongs",
+        "size": "medium"
+      },
+      "id": "tongs1",
+      "label": "Metal Tongs",
+      "location": "0.0,0.75,0.4,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white cloth",
+        "size": "small"
+      },
+      "id": "cloth1",
+      "label": "Cloth",
+      "location": "0.75,0.6,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone hand",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.8,0.5,0.98,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    }
+  ]
+}

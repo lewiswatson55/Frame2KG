@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "jars1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "books1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "on",
+      "source": "lamp1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "sign1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "sign1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black chef coat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.0,0.6,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plaid shirt",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.48,0.0,0.93,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "wooden shelf",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jars with colorful candies",
+        "size": "small"
+      },
+      "id": "jars1",
+      "label": "jars of candy",
+      "location": "0.1,0.05,0.9,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey metal letters",
+        "size": "medium"
+      },
+      "id": "sign1",
+      "label": "metal sign",
+      "location": "0.2,0.0,0.8,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden countertop",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "countertop",
+      "location": "0.4,0.5,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stacked books",
+        "size": "small"
+      },
+      "id": "books1",
+      "label": "cookbooks",
+      "location": "0.6,0.5,0.9,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow bulb lamp",
+        "size": "small"
+      },
+      "id": "lamp1",
+      "label": "table lamp",
+      "location": "0.7,0.4,0.8,0.6,0.7"
+    }
+  ]
+}

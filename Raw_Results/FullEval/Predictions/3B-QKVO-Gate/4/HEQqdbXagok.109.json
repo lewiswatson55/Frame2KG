@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pattern1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "tray1",
+      "target": "background1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "metal tray",
+      "location": "0.05,0.05,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey floral",
+        "size": "medium"
+      },
+      "id": "pattern1",
+      "label": "embossed pattern",
+      "location": "0.3,0.4,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "dark background",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

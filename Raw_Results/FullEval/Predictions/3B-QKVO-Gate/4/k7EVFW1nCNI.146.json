@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "lid1"
+    },
+    {
+      "predicate": "on",
+      "source": "lid1",
+      "target": "container1"
+    },
+    {
+      "predicate": "in",
+      "source": "food1",
+      "target": "container1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "container1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "large"
+      },
+      "id": "container1",
+      "label": "Food Processor Container",
+      "location": "0.35,0.15,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "lid1",
+      "label": "Wooden Lid",
+      "location": "0.45,0.0,0.95,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.6,0.0,0.95,0.25,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "base1",
+      "label": "Processor Base",
+      "location": "0.7,0.5,0.98,0.98,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellowish",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "Pasta",
+      "location": "0.45,0.2,0.95,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.0,0.0,0.3,1.0,0.6"
+    }
+  ]
+}

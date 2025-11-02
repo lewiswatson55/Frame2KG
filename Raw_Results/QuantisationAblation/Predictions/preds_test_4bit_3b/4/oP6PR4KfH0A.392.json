@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "tongs1"
+    },
+    {
+      "predicate": "in",
+      "source": "tongs1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "food1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "grill1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "behind",
+      "source": "wall1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.0,0.0,0.45,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "tongs1",
+      "label": "metal tongs",
+      "location": "0.0,0.3,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.2,0.3,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "fried food rings",
+      "location": "0.3,0.4,0.8,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.6,0.5,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal bars",
+        "size": "medium"
+      },
+      "id": "grill1",
+      "label": "grill grate",
+      "location": "0.0,0.6,0.5,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wooden wall",
+      "location": "0.5,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

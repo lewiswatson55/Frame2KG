@@ -1,0 +1,100 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese2",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_crumbs",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "macaroni",
+      "target": "table"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cheese1",
+      "target": "cheese2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "cheese1",
+      "target": "cheese2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cheese2",
+      "target": "bread_crumbs"
+    },
+    {
+      "predicate": "right_of",
+      "source": "macaroni",
+      "target": "cheese1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red plastic packaging",
+        "size": "medium"
+      },
+      "id": "cheese1",
+      "label": "Sharp Cheddar Cheese",
+      "location": "0.35,0.4,0.75,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic container",
+        "size": "small"
+      },
+      "id": "cheese2",
+      "label": "Cheese Block",
+      "location": "0.0,0.0,0.3,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cardboard box",
+        "size": "large"
+      },
+      "id": "velveeta",
+      "label": "Velveeta Cheese",
+      "location": "0.4,0.0,0.6,0.3,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread crumbs",
+        "size": "small"
+      },
+      "id": "bread_crumbs",
+      "label": "Bread Crumbs Bag",
+      "location": "0.7,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green pasta",
+        "size": "medium"
+      },
+      "id": "macaroni",
+      "label": "Macaroni",
+      "location": "0.6,0.3,0.9,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark brown surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "Table Surface",
+      "location": "0.0,0.5,1.0,1.0,0.7"
+    }
+  ]
+}

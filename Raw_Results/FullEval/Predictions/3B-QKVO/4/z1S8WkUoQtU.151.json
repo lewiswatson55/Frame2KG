@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "donut1",
+      "target": "grater1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand1",
+      "target": "grater1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "donut1",
+      "label": "fried doughnut",
+      "location": "0.15,0.35,0.85,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "grater1",
+      "label": "metal grater",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.8,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

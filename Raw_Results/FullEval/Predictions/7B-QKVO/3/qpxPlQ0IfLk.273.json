@@ -1,0 +1,210 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "fork1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "pan1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "stool1",
+      "target": "stool2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "stool1",
+      "target": "stool2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "lamp1",
+      "target": "book_stack1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.45,0.05,0.78,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green liquid",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.36,0.45,0.48,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "mustard bottle",
+      "location": "0.48,0.55,0.53,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl",
+      "location": "0.53,0.65,0.58,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.60,0.60,0.75,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.75,0.60,0.98,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.00,0.00,0.60,0.20,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "hanging pans",
+      "location": "0.45,0.00,0.75,0.20,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "small"
+      },
+      "id": "stool1",
+      "label": "stool",
+      "location": "0.05,0.45,0.20,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "small"
+      },
+      "id": "stool2",
+      "label": "stool",
+      "location": "0.20,0.45,0.35,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white shade wooden stand",
+        "size": "medium"
+      },
+      "id": "lamp1",
+      "label": "floor lamp",
+      "location": "0.85,0.10,0.98,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stacked books",
+        "size": "medium"
+      },
+      "id": "book_stack1",
+      "label": "book stack",
+      "location": "0.80,0.20,0.90,0.60,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark gray stone",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "brick wall",
+      "location": "0.00,0.00,1.00,1.00,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.00,0.50,1.00,1.00,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "small"
+      },
+      "id": "fork1",
+      "label": "fork",
+      "location": "0.55,0.25,0.65,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "salad plate",
+      "location": "0.30,0.75,0.60,0.95,0.8"
+    }
+  ]
+}

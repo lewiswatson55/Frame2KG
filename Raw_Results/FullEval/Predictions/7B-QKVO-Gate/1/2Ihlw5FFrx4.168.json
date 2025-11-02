@@ -1,0 +1,160 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "object1"
+    },
+    {
+      "predicate": "holding",
+      "source": "person2",
+      "target": "object1"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "vase1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "screen1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "screen1"
+    },
+    {
+      "predicate": "behind",
+      "source": "monitor1",
+      "target": "person2"
+    },
+    {
+      "predicate": "behind",
+      "source": "chair1",
+      "target": "monitor1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "short dark hair teal shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.18,0.47,0.63,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "long brown hair green top",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.47,0.18,0.95,0.63,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink purple gradient",
+        "size": "large"
+      },
+      "id": "screen1",
+      "label": "background screen",
+      "location": "0.15,0.0,0.85,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.0,0.6,0.6,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.2,0.65,0.3,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "glass bowl",
+      "location": "0.3,0.65,0.4,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate of food",
+      "location": "0.35,0.6,0.5,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metallic",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "vase",
+      "location": "0.45,0.6,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame",
+        "size": "medium"
+      },
+      "id": "monitor1",
+      "label": "computer monitor",
+      "location": "0.8,0.3,0.95,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "chair1",
+      "label": "office chair",
+      "location": "0.85,0.4,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "table",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    }
+  ]
+}

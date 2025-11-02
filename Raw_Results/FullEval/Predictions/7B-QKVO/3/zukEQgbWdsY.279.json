@@ -1,0 +1,197 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "holding",
+      "source": "person2",
+      "target": "sandwich2"
+    },
+    {
+      "predicate": "on",
+      "source": "sandwich1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "sandwich2",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "blender",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "mug",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "glass",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "window"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet_shelf",
+      "target": "person2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "stove",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bottles",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "grey shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.47,0.05,0.93,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green lettuce sandwich",
+        "size": "small"
+      },
+      "id": "sandwich1",
+      "label": "sandwich",
+      "location": "0.25,0.6,0.45,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green lettuce sandwich",
+        "size": "small"
+      },
+      "id": "sandwich2",
+      "label": "sandwich",
+      "location": "0.55,0.6,0.75,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark countertop",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.7,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black blender with green mixture",
+        "size": "medium"
+      },
+      "id": "blender",
+      "label": "blender",
+      "location": "0.8,0.6,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass mug filled with oil",
+        "size": "small"
+      },
+      "id": "mug",
+      "label": "mug",
+      "location": "0.75,0.7,0.85,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass bowl",
+        "size": "small"
+      },
+      "id": "glass",
+      "label": "bowl",
+      "location": "0.6,0.8,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden cabinet shelf",
+        "size": "medium"
+      },
+      "id": "cabinet_shelf",
+      "label": "shelf",
+      "location": "0.7,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white tiled backsplash",
+        "size": "medium"
+      },
+      "id": "backsplash",
+      "label": "backsplash",
+      "location": "0.7,0.4,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal stove top",
+        "size": "medium"
+      },
+      "id": "stove",
+      "label": "stove",
+      "location": "0.0,0.7,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent window frame",
+        "size": "large"
+      },
+      "id": "window",
+      "label": "window",
+      "location": "0.0,0.0,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wooden cabinets",
+        "size": "medium"
+      },
+      "id": "cabinets",
+      "label": "cabinets",
+      "location": "0.4,0.0,0.7,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "assorted bottles on shelf",
+        "size": "small"
+      },
+      "id": "bottles",
+      "label": "bottles",
+      "location": "0.7,0.0,1.0,0.3,0.8"
+    }
+  ]
+}

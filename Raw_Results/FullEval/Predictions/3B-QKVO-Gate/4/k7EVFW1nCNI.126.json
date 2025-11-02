@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "bowl1",
+      "target": "food_processor1"
+    },
+    {
+      "predicate": "on",
+      "source": "red_towel1",
+      "target": "oven1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cheese1",
+      "target": "pepper1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cheese1",
+      "target": "food_processor1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "red_towel1",
+      "target": "oven1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "glass_bowl1",
+      "target": "food_processor1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white patterned shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.0,0.0,0.5,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.45,0.0,0.75,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "large"
+      },
+      "id": "food_processor1",
+      "label": "food processor",
+      "location": "0.35,0.3,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "small"
+      },
+      "id": "pepper1",
+      "label": "chili pepper",
+      "location": "0.2,0.75,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow block",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "cheese slice",
+      "location": "0.1,0.8,0.2,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red cloth",
+        "size": "medium"
+      },
+      "id": "red_towel1",
+      "label": "towel",
+      "location": "0.7,0.2,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "oven1",
+      "label": "oven",
+      "location": "0.7,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "glass_bowl1",
+      "label": "glass bowl",
+      "location": "0.8,0.8,1.0,1.0,0.7"
+    }
+  ]
+}

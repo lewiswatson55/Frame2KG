@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "towel1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "towel1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.45,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "cast iron pan",
+      "location": "0.0,0.3,1.0,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted brown",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "bread slices",
+      "location": "0.2,0.5,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white cloth",
+        "size": "medium"
+      },
+      "id": "towel1",
+      "label": "kitchen towel",
+      "location": "0.4,0.0,0.8,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.5,0.4,0.9,0.7,0.8"
+    }
+  ]
+}

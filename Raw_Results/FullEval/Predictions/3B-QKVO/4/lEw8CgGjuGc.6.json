@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "burger1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "burger1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "container1",
+      "target": "burger1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light brown bun with blue cheese patty",
+        "size": "medium"
+      },
+      "id": "burger1",
+      "label": "blue cheese burger",
+      "location": "0.35,0.15,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy lettuce",
+        "size": "large"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.4,0.6,0.8,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic plate",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.5,0.5,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic container",
+        "size": "small"
+      },
+      "id": "container1",
+      "label": "ketchup bottle",
+      "location": "0.0,0.0,0.3,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white text overlay",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "title text",
+      "location": "0.2,0.3,0.8,0.5,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "orange logo",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "allrecipes.com logo",
+      "location": "0.7,0.8,1.0,1.0,0.9"
+    }
+  ]
+}

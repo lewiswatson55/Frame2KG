@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "paper_towel1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken2",
+      "target": "paper_towel1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken3",
+      "target": "paper_towel1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken4",
+      "target": "paper_towel1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chicken5",
+      "target": "chicken6"
+    },
+    {
+      "predicate": "behind",
+      "source": "bowl1",
+      "target": "chicken1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.0,0.0,0.5,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "plastic bowl",
+      "location": "0.2,0.0,0.7,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "large"
+      },
+      "id": "chicken1",
+      "label": "fried chicken piece",
+      "location": "0.1,0.3,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "large"
+      },
+      "id": "chicken2",
+      "label": "fried chicken piece",
+      "location": "0.4,0.2,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken3",
+      "label": "fried chicken piece",
+      "location": "0.2,0.6,0.6,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken4",
+      "label": "fried chicken piece",
+      "location": "0.5,0.5,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "large"
+      },
+      "id": "paper_towel1",
+      "label": "paper towel",
+      "location": "0.0,0.3,1.0,1.0,0.8"
+    }
+  ]
+}

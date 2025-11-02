@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "rack"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "rack",
+      "target": "tray"
+    },
+    {
+      "predicate": "on",
+      "source": "tray",
+      "target": "countertop"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tray",
+      "label": "baking tray",
+      "location": "0.05,0.45,0.95,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal grid",
+        "size": "medium"
+      },
+      "id": "rack",
+      "label": "cooling rack",
+      "location": "0.1,0.3,0.9,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white flour-coated",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "raw chicken pieces",
+      "location": "0.05,0.05,0.95,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark grey stone",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.0,1.0,0.1,0.6"
+    }
+  ]
+}

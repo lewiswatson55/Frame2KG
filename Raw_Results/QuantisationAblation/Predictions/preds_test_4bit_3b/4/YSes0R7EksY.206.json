@@ -1,0 +1,131 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person2",
+      "target": "mixer"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "counter"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "oven1",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red plaid shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.58,0.07,0.93,0.64,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black jacket",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.00,0.50,0.45,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "sink1",
+      "label": "kitchen sink",
+      "location": "0.00,0.45,0.30,0.75,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "counter",
+      "label": "countertop",
+      "location": "0.00,0.60,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "mixer",
+      "label": "stand mixer",
+      "location": "0.60,0.40,0.75,0.60,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "green ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl",
+      "location": "0.45,0.70,0.55,0.80,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "dark metal",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "baking tray",
+      "location": "0.30,0.75,0.60,0.90,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "silver blade black handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.30,0.80,0.40,0.90,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "grey wood",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "wall shelf",
+      "location": "0.00,0.00,0.60,0.25,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "oven1",
+      "label": "double oven",
+      "location": "0.80,0.20,1.00,0.60,0.85"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "egg1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "egg1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "blender1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.45,0.0,0.98,0.36,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "beige shell",
+        "size": "small"
+      },
+      "id": "egg1",
+      "label": "Egg",
+      "location": "0.55,0.05,0.75,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "large"
+      },
+      "id": "blender1",
+      "label": "Blender Jar",
+      "location": "0.0,0.3,0.7,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "Bottle Cap",
+      "location": "0.75,0.7,0.9,0.9,0.6"
+    }
+  ]
+}

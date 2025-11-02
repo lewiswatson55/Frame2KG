@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "tray"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken2",
+      "target": "tray"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "hand1",
+      "target": "chicken2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tray",
+      "label": "baking tray",
+      "location": "0.0,0.35,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "raw pink",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "raw chicken drumsticks",
+      "location": "0.0,0.4,0.6,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "raw pink",
+        "size": "medium"
+      },
+      "id": "chicken2",
+      "label": "raw chicken drumsticks",
+      "location": "0.4,0.3,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.0,0.0,0.3,0.3,0.7"
+    }
+  ]
+}

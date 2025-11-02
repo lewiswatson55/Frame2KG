@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "meat1",
+      "target": "bowl_large"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_large",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_small",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_small",
+      "target": "bowl_large"
+    },
+    {
+      "predicate": "behind",
+      "source": "person1",
+      "target": "bowl_large"
+    },
+    {
+      "predicate": "left_of",
+      "source": "blender1",
+      "target": "bowl_large"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.05,0.0,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl_large",
+      "label": "Glass Bowl",
+      "location": "0.1,0.3,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red ground meat",
+        "size": "small"
+      },
+      "id": "meat1",
+      "label": "Ground Chuck",
+      "location": "0.2,0.4,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl_small",
+      "label": "Small Glass Bowl",
+      "location": "0.8,0.4,1.0,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "Blender Jar",
+      "location": "0.0,0.0,0.2,0.6,0.8"
+    }
+  ]
+}

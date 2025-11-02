@@ -1,0 +1,206 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "microwave1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "vase1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "tumbler1",
+      "target": "soap_dispenser1"
+    },
+    {
+      "predicate": "behind",
+      "source": "flowers1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "mug1",
+      "target": "soap_dispenser1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "teapot1",
+      "target": "mug1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "above",
+      "source": "microwave1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white lace top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.15,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "red silicone head white plastic handle",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.45,0.35,0.75,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.55,0.45,0.75,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white base clear glass",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.45,0.65,0.75,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.6,0.4,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave",
+      "location": "0.6,0.0,1.0,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,1.0,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.3,1.0,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass vase red tulips",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "flower vase",
+      "location": "0.0,0.2,0.2,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "small"
+      },
+      "id": "tumbler1",
+      "label": "tumbler",
+      "location": "0.1,0.4,0.2,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white pump bottle pink liquid",
+        "size": "small"
+      },
+      "id": "soap_dispenser1",
+      "label": "soap dispenser",
+      "location": "0.2,0.4,0.3,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white mug with red text",
+        "size": "small"
+      },
+      "id": "mug1",
+      "label": "coffee mug",
+      "location": "0.5,0.4,0.6,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "ceramic green lid",
+        "size": "small"
+      },
+      "id": "teapot1",
+      "label": "teapot",
+      "location": "0.6,0.4,0.7,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green enamel pot",
+        "size": "small"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.75,0.5,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red roses in vase",
+        "size": "small"
+      },
+      "id": "flowers1",
+      "label": "flower bouquet",
+      "location": "0.0,0.2,0.2,0.4,0.9"
+    }
+  ]
+}

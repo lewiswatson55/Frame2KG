@@ -1,0 +1,117 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "tongs"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon",
+      "target": "pan"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window"
+    },
+    {
+      "predicate": "next_to",
+      "source": "board",
+      "target": "stove"
+    },
+    {
+      "predicate": "behind",
+      "source": "car",
+      "target": "window"
+    },
+    {
+      "predicate": "left_of",
+      "source": "board",
+      "target": "pan"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.5,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan",
+      "label": "frying pan",
+      "location": "0.3,0.6,0.7,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "raw pink",
+        "size": "small"
+      },
+      "id": "bacon",
+      "label": "bacon strips",
+      "location": "0.45,0.7,0.65,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board",
+      "label": "cutting board",
+      "location": "0.0,0.4,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "spatula",
+      "label": "spatula",
+      "location": "0.3,0.4,0.5,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass",
+        "size": "large"
+      },
+      "id": "window",
+      "label": "window",
+      "location": "0.3,0.0,0.7,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green",
+        "size": "medium"
+      },
+      "id": "car",
+      "label": "car",
+      "location": "0.5,0.2,0.7,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text",
+        "size": "small"
+      },
+      "id": "logo",
+      "label": "TASTED logo",
+      "location": "0.8,0.8,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "gas stove",
+      "location": "0.0,0.6,0.5,1.0,0.8"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "herbs1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl1",
+      "target": "background1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green chopped",
+        "size": "medium"
+      },
+      "id": "herbs1",
+      "label": "Chopped Herbs",
+      "location": "0.05,0.3,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white crumbled",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "Cheese Crumbles",
+      "location": "0.4,0.5,0.7,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown ceramic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blurred green brown",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,0.5,0.6"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "dish1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "countertop"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic tiles",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "tiled wall",
+      "location": "0.0,0.0,1.0,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white marble",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.0,0.35,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with oatmeal",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl of oats",
+      "location": "0.15,0.3,0.45,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal tray with white flour",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "flour-covered baking sheet",
+      "location": "0.2,0.55,0.7,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with red sauce chicken",
+        "size": "medium"
+      },
+      "id": "dish1",
+      "label": "chicken casserole dish",
+      "location": "0.5,0.35,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver plastic container",
+        "size": "small"
+      },
+      "id": "blender1",
+      "label": "blender jug",
+      "location": "0.65,0.0,0.9,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone hand",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.8,0.0,1.0,0.2,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal pot",
+        "size": "medium"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.0,0.6,0.2,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal stove",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove burner",
+      "location": "0.0,0.5,0.2,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black script text",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "watermark text",
+      "location": "0.3,0.75,0.9,0.95,0.9"
+    }
+  ]
+}

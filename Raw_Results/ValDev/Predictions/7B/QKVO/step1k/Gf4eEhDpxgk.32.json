@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "eggs1",
+      "target": "refrigerator1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "handle1",
+      "target": "refrigerator1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "handle2",
+      "target": "refrigerator1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "handle1",
+      "target": "handle2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink metal",
+        "size": "large"
+      },
+      "id": "refrigerator1",
+      "label": "Refrigerator",
+      "location": "0.35,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white with yellow yolk",
+        "size": "small"
+      },
+      "id": "eggs1",
+      "label": "Fried Eggs",
+      "location": "0.48,0.27,0.52,0.33,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "handle1",
+      "label": "Handle",
+      "location": "0.55,0.0,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "handle2",
+      "label": "Handle",
+      "location": "0.65,0.0,0.7,0.4,0.8"
+    }
+  ]
+}

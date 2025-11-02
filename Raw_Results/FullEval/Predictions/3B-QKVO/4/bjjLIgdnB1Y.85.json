@@ -1,0 +1,202 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "on",
+      "source": "can1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "griddle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "mixer1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "coffee maker1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "cake stand1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "utensil_holder1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "mug1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "towel1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "griddle1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "can1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown hair, green top, black apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.0,0.45,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "can1",
+      "label": "spray can",
+      "location": "0.13,0.6,0.22,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with yellow liquid",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "measuring cup",
+      "location": "0.27,0.6,0.42,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass bowl with white powder",
+        "size": "medium"
+      },
+      "id": "bowl2",
+      "label": "mixing bowl",
+      "location": "0.45,0.55,0.6,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "griddle1",
+      "label": "hot plate grill",
+      "location": "0.6,0.5,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "mixer1",
+      "label": "stand mixer",
+      "location": "0.55,0.2,0.65,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "coffee maker1",
+      "label": "coffee maker",
+      "location": "0.65,0.2,0.75,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.4,0.0,0.9,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "cake_stand1",
+      "label": "cake stand",
+      "location": "0.75,0.25,0.85,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "utensil_holder1",
+      "label": "utensil holder",
+      "location": "0.8,0.15,0.9,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar with syrup",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "syrup jar",
+      "location": "0.05,0.7,0.15,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "mug1",
+      "label": "mugs",
+      "location": "0.45,0.15,0.55,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white cloth",
+        "size": "small"
+      },
+      "id": "towel1",
+      "label": "towel",
+      "location": "0.0,0.75,0.2,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    }
+  ]
+}

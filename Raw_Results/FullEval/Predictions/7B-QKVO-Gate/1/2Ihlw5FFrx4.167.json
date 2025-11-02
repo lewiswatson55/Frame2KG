@@ -1,0 +1,164 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "sandwich"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_of_food",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_of_sauce",
+      "target": "plate_of_food"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "tv_screen",
+      "target": "wall"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "logo",
+      "target": "tv_screen"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet",
+      "target": "tv_screen"
+    },
+    {
+      "predicate": "right_of",
+      "source": "chair",
+      "target": "cabinet"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "notebook",
+      "target": "table"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "turquoise top",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.18,0.47,0.63,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green dress",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.53,0.15,0.95,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink background",
+        "size": "large"
+      },
+      "id": "tv_screen",
+      "label": "television screen",
+      "location": "0.15,0.0,0.85,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on pink",
+        "size": "small"
+      },
+      "id": "logo",
+      "label": "POPSUGAR logo",
+      "location": "0.30,0.10,0.70,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.05,0.60,0.60,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with red peppers and lettuce",
+        "size": "small"
+      },
+      "id": "plate_of_food",
+      "label": "plate of food",
+      "location": "0.25,0.65,0.55,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with white sauce",
+        "size": "small"
+      },
+      "id": "bowl_of_sauce",
+      "label": "sauce bowl",
+      "location": "0.35,0.70,0.45,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "shaker",
+      "label": "pepper shaker",
+      "location": "0.45,0.65,0.55,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "table",
+      "location": "0.0,0.60,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green cover",
+        "size": "small"
+      },
+      "id": "notebook",
+      "label": "notebook",
+      "location": "0.0,0.75,0.30,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "cabinet",
+      "location": "0.60,0.0,1.0,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black",
+        "size": "medium"
+      },
+      "id": "chair",
+      "label": "office chair",
+      "location": "0.80,0.40,1.0,0.80,0.8"
+    }
+  ]
+}

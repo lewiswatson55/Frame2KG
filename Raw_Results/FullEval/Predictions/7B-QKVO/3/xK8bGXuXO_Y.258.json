@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "fries1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "herb1",
+      "target": "fries1"
+    },
+    {
+      "predicate": "behind",
+      "source": "basket1",
+      "target": "fries1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden crispy",
+        "size": "medium"
+      },
+      "id": "fries1",
+      "label": "French fries",
+      "location": "0.05,0.3,0.6,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.4,0.7,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "herb1",
+      "label": "Herb twig",
+      "location": "0.3,0.4,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wicker",
+        "size": "large"
+      },
+      "id": "basket1",
+      "label": "Wicker basket",
+      "location": "0.5,0.0,1.0,0.6,0.7"
+    }
+  ]
+}

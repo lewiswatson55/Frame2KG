@@ -1,0 +1,145 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "fork1"
+    },
+    {
+      "predicate": "holding",
+      "source": "person2",
+      "target": "fork2"
+    },
+    {
+      "predicate": "on",
+      "source": "glass1",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "cup1",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "can1",
+      "target": "table"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "refrigerator"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "refrigerator"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt glasses",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black jacket braid",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.47,0.05,0.95,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic orange food",
+        "size": "small"
+      },
+      "id": "fork1",
+      "label": "fork",
+      "location": "0.30,0.30,0.40,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic orange food",
+        "size": "small"
+      },
+      "id": "fork2",
+      "label": "fork",
+      "location": "0.60,0.30,0.70,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with yellow liquid",
+        "size": "small"
+      },
+      "id": "glass1",
+      "label": "glass of beer",
+      "location": "0.00,0.75,0.20,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic with ice",
+        "size": "small"
+      },
+      "id": "cup1",
+      "label": "plastic cup",
+      "location": "0.70,0.75,0.90,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow aluminum can",
+        "size": "small"
+      },
+      "id": "can1",
+      "label": "beer can",
+      "location": "0.90,0.75,1.00,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "refrigerator",
+      "label": "refrigerator",
+      "location": "0.45,0.00,1.00,0.80,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "kitchen cabinet",
+      "location": "0.00,0.00,0.45,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white tile backsplash",
+        "size": "medium"
+      },
+      "id": "backsplash",
+      "label": "tile backsplash",
+      "location": "0.00,0.30,0.45,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "table",
+      "location": "0.00,0.60,1.00,1.00,0.7"
+    }
+  ]
+}

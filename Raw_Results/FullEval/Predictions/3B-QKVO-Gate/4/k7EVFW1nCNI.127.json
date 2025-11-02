@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "bowl1",
+      "target": "mixer1"
+    },
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "mixer1"
+    },
+    {
+      "predicate": "on",
+      "source": "mixer1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cloth1",
+      "target": "mixer1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.0,0.0,0.45,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.35,0.0,0.75,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "large"
+      },
+      "id": "mixer1",
+      "label": "stand mixer",
+      "location": "0.25,0.3,0.75,0.9,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "red cloth",
+        "size": "medium"
+      },
+      "id": "cloth1",
+      "label": "kitchen towel",
+      "location": "0.75,0.2,1.0,1.0,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.45,0.3,0.55,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.8,1.0,1.0,0.7"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bread_slice"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_slice",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_of_cheese",
+      "target": "plate_of_vegetables"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "tv_screen"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "tv_screen"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "behind",
+      "source": "desk",
+      "target": "person2"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "bowl_of_cheese"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "plate_of_vegetables"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "vase"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "spatula"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "knife"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "person1"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "teal shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.15,0.48,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green dress",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.52,0.15,0.95,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink screen",
+        "size": "large"
+      },
+      "id": "tv_screen",
+      "label": "TV screen",
+      "location": "0.3,0.0,0.7,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.1,0.6,0.4,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread",
+        "size": "small"
+      },
+      "id": "bread_slice",
+      "label": "bread slice",
+      "location": "0.2,0.65,0.3,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass bowl with white cheese",
+        "size": "small"
+      },
+      "id": "bowl_of_cheese",
+      "label": "bowl of cheese",
+      "location": "0.4,0.65,0.5,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with green lettuce and red peppers",
+        "size": "small"
+      },
+      "id": "plate_of_vegetables",
+      "label": "plate of vegetables",
+      "location": "0.5,0.6,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "vase",
+      "label": "vase",
+      "location": "0.55,0.55,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "spatula",
+      "label": "spatula",
+      "location": "0.0,0.7,0.2,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic blade",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.0,0.75,0.2,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "desk",
+      "label": "desk",
+      "location": "0.6,0.3,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "table",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    }
+  ]
+}

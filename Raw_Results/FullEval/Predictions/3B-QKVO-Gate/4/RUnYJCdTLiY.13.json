@@ -1,0 +1,141 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "food_piece"
+    },
+    {
+      "predicate": "on",
+      "source": "utensils_container",
+      "target": "countertop"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "microwave",
+      "target": "cabinets"
+    },
+    {
+      "predicate": "above",
+      "source": "pans",
+      "target": "sink"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jars",
+      "target": "sink"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "stove"
+    },
+    {
+      "predicate": "left_of",
+      "source": "utensils_container",
+      "target": "stove"
+    },
+    {
+      "predicate": "right_of",
+      "source": "jars",
+      "target": "sink"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinets",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "gas stove",
+      "location": "0.0,0.4,0.5,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver black",
+        "size": "small"
+      },
+      "id": "microwave",
+      "label": "microwave oven",
+      "location": "0.05,0.0,0.45,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinets",
+      "label": "kitchen cabinets",
+      "location": "0.0,0.0,1.0,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.3,1.0,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal container with utensils",
+        "size": "small"
+      },
+      "id": "utensils_container",
+      "label": "utensil holder",
+      "location": "0.0,0.4,0.2,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jars with green lids",
+        "size": "small"
+      },
+      "id": "jars",
+      "label": "spice jars",
+      "location": "0.5,0.4,0.7,0.55,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "gray metal",
+        "size": "medium"
+      },
+      "id": "pans",
+      "label": "hanging pans",
+      "location": "0.55,0.0,0.85,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "sink",
+      "label": "sink",
+      "location": "0.6,0.45,0.9,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown",
+        "size": "small"
+      },
+      "id": "food_piece",
+      "label": "bread slice",
+      "location": "0.4,0.7,0.5,0.8,0.7"
+    }
+  ]
+}

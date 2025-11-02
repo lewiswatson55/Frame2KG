@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "cream1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spatula1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "metal bowl",
+      "location": "0.05,0.0,0.95,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink seasoned",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "raw chicken pieces",
+      "location": "0.1,0.1,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy",
+        "size": "small"
+      },
+      "id": "cream1",
+      "label": "cream dollop",
+      "location": "0.4,0.6,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic handle wooden",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.3,0.0,0.7,0.3,0.7"
+    }
+  ]
+}

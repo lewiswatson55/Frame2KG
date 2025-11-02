@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken_wings",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken_legs",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chicken_wings",
+      "target": "chicken_legs"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pinkish raw flesh",
+        "size": "medium"
+      },
+      "id": "chicken_wings",
+      "label": "raw chicken wings",
+      "location": "0.05,0.3,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pinkish raw flesh",
+        "size": "large"
+      },
+      "id": "chicken_legs",
+      "label": "raw chicken legs",
+      "location": "0.4,0.2,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "cutting_board",
+      "label": "wooden cutting board",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

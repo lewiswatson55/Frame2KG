@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bun_top1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "in",
+      "source": "sauce1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "dish1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "burger1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "behind",
+      "source": "tray1",
+      "target": "patty1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown grilled",
+        "size": "medium"
+      },
+      "id": "patty1",
+      "label": "burger patty",
+      "location": "0.05,0.6,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red onion ring",
+        "size": "small"
+      },
+      "id": "bun_top1",
+      "label": "top bun slice",
+      "location": "0.07,0.55,0.45,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.1,0.65,0.45,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow creamy",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "dip",
+      "location": "0.0,0.45,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "large"
+      },
+      "id": "dish1",
+      "label": "rectangular dish",
+      "location": "0.0,0.4,0.7,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.6,0.3,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bun with red tomato",
+        "size": "medium"
+      },
+      "id": "burger1",
+      "label": "burger",
+      "location": "0.7,0.3,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal tray",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "tray of patties",
+      "location": "0.0,0.0,1.0,0.4,0.8"
+    }
+  ]
+}

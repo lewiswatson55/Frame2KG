@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "painting1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sculpture1",
+      "target": "painting1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "lamp1",
+      "target": "painting1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "long dark hair pink shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.0,0.6,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame grey marble",
+        "size": "medium"
+      },
+      "id": "painting1",
+      "label": "artwork",
+      "location": "0.3,0.1,0.7,0.4,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "small"
+      },
+      "id": "sculpture1",
+      "label": "sculpture",
+      "location": "0.75,0.3,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "small"
+      },
+      "id": "lamp1",
+      "label": "wall lamp",
+      "location": "0.0,0.0,0.2,0.2,0.7"
+    }
+  ]
+}

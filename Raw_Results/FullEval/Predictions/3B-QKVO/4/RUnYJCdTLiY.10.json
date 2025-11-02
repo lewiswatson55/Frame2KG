@@ -1,0 +1,127 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "includes",
+      "source": "plate1",
+      "target": "cookies1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text2",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "text3",
+      "target": "text2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.45,0.0,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "metal spatula",
+      "location": "0.38,0.0,0.75,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "baking tray",
+      "location": "0.0,0.0,0.6,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.4,0.3,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown dough with chocolate filling",
+        "size": "small"
+      },
+      "id": "cookies1",
+      "label": "macarons",
+      "location": "0.45,0.35,0.85,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on white background",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "title text",
+      "location": "0.0,0.0,0.4,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "small"
+      },
+      "id": "text2",
+      "label": "subtitle text",
+      "location": "0.4,0.3,0.6,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "small"
+      },
+      "id": "text3",
+      "label": "host name text",
+      "location": "0.0,0.7,0.6,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    }
+  ]
+}

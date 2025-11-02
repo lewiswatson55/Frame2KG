@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "food"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "cabinet"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "curly hair black glasses beard",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.0,0.48,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blonde hair pearl necklace",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.37,0.0,0.95,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden fried",
+        "size": "small"
+      },
+      "id": "food",
+      "label": "fried food piece",
+      "location": "0.0,0.5,0.3,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

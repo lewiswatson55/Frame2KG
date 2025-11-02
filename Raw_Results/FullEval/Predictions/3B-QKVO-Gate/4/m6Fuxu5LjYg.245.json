@@ -1,0 +1,127 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "tongs1"
+    },
+    {
+      "predicate": "holding",
+      "source": "tongs1",
+      "target": "food1"
+    },
+    {
+      "predicate": "in",
+      "source": "oil1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "food1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "on",
+      "source": "food2",
+      "target": "oil1"
+    },
+    {
+      "predicate": "on",
+      "source": "food3",
+      "target": "oil1"
+    },
+    {
+      "predicate": "on",
+      "source": "food4",
+      "target": "oil1"
+    },
+    {
+      "predicate": "on",
+      "source": "food5",
+      "target": "oil1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "bubbling yellowish liquid",
+        "size": "medium"
+      },
+      "id": "oil1",
+      "label": "cooking oil",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "fried food piece",
+      "location": "0.6,0.0,1.0,0.3,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "food2",
+      "label": "fried food piece",
+      "location": "0.0,0.0,0.5,0.3,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "food3",
+      "label": "fried food piece",
+      "location": "0.0,0.3,0.5,0.7,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "food4",
+      "label": "fried food piece",
+      "location": "0.5,0.3,1.0,0.7,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "food5",
+      "label": "fried food piece",
+      "location": "0.0,0.7,0.5,1.0,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "tongs1",
+      "label": "metal tongs",
+      "location": "0.4,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.7,0.0,1.0,0.2,0.8"
+    }
+  ]
+}

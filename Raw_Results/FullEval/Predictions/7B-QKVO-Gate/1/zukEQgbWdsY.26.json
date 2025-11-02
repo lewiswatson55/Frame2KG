@@ -1,0 +1,66 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "object1"
+    },
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "ring1"
+    },
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "shirt1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black cotton shirt",
+        "size": "large"
+      },
+      "id": "shirt1",
+      "label": "shirt",
+      "location": "0.05,0.0,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hands1",
+      "label": "hands",
+      "location": "0.1,0.3,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white rectangular",
+        "size": "small"
+      },
+      "id": "object1",
+      "label": "card",
+      "location": "0.4,0.45,0.6,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "ring1",
+      "label": "ring",
+      "location": "0.5,0.55,0.55,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "logo",
+      "location": "0.8,0.75,0.98,0.95,0.8"
+    }
+  ]
+}

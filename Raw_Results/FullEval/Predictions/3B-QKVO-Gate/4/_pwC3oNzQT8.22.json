@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "hat1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "backsplash1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "cabinet1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "behind",
+      "source": "backsplash1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black chef coat and checkered headscarf",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.45,0.0,1.0,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic tiles with beige border",
+        "size": "medium"
+      },
+      "id": "backsplash1",
+      "label": "tile backsplash",
+      "location": "0.0,0.3,0.6,0.7,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden frame",
+        "size": "small"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.3,0.0,0.7,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige countertop",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal pot",
+        "size": "medium"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.0,0.75,0.4,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass bowl with white rice",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl of rice",
+      "location": "0.4,0.7,0.6,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black and white checkered fabric",
+        "size": "small"
+      },
+      "id": "hat1",
+      "label": "headscarf",
+      "location": "0.45,0.0,0.75,0.2,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white painted wall",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    }
+  ]
+}

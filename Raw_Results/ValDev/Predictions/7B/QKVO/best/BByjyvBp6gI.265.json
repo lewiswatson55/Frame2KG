@@ -1,0 +1,75 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "scoop1"
+    },
+    {
+      "predicate": "in",
+      "source": "scoop1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "scoop1",
+      "target": "tray1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.3,0.4,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "scoop1",
+      "label": "Scoop",
+      "location": "0.0,0.2,0.3,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "Baking Pan",
+      "location": "0.0,0.4,0.7,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cheese",
+        "size": "medium"
+      },
+      "id": "cheese1",
+      "label": "Cheese Shreds",
+      "location": "0.7,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cheese",
+        "size": "small"
+      },
+      "id": "cheese2",
+      "label": "Cheese Shreds",
+      "location": "0.5,0.0,0.7,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "aluminum foil",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "Aluminum Tray",
+      "location": "0.7,0.3,1.0,1.0,0.9"
+    }
+  ]
+}

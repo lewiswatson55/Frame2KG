@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "hat1"
+    },
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "cabinet1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "behind",
+      "source": "tile_wall1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black chef coat and black-and-white checkered hat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.45,0.0,1.0,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame glass",
+        "size": "medium"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.3,0.0,0.7,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "beige ceramic tiles",
+        "size": "large"
+      },
+      "id": "tile_wall1",
+      "label": "tiled wall",
+      "location": "0.0,0.0,0.5,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "small"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.3,0.0,0.7,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.0,0.75,0.4,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with white rice",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.4,0.7,0.6,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade with black handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.6,0.6,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black and white checkered fabric",
+        "size": "small"
+      },
+      "id": "hat1",
+      "label": "chef hat",
+      "location": "0.5,0.0,0.8,0.3,0.9"
+    }
+  ]
+}

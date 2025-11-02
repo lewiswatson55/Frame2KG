@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "knob1"
+    },
+    {
+      "predicate": "on",
+      "source": "knob1",
+      "target": "panel1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "text1",
+      "target": "ignition_burner1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "text2",
+      "target": "ignition_burner1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "text3",
+      "target": "text4"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "knob1",
+      "label": "Ignition Knob",
+      "location": "0.35,0.25,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "large"
+      },
+      "id": "panel1",
+      "label": "Control Panel",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "Warning Text",
+      "location": "0.0,0.0,0.4,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "small"
+      },
+      "id": "text2",
+      "label": "Text 'IGNITION BURNER'",
+      "location": "0.4,0.0,0.6,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "small"
+      },
+      "id": "text3",
+      "label": "Text 'OFF OFF'",
+      "location": "0.45,0.15,0.55,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "small"
+      },
+      "id": "text4",
+      "label": "Text 'HIGH LOW'",
+      "location": "0.35,0.35,0.65,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.7,0.2,1.0,0.8,0.9"
+    }
+  ]
+}

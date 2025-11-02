@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand_left",
+      "target": "fork"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand_right",
+      "target": "crouton"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "fork",
+      "target": "plate"
+    },
+    {
+      "predicate": "includes",
+      "source": "plate",
+      "target": "salad"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "plate"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "bowl"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand_left",
+      "label": "left hand",
+      "location": "0.05,0.0,0.35,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand_right",
+      "label": "right hand",
+      "location": "0.65,0.1,0.98,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "fork",
+      "label": "fork",
+      "location": "0.15,0.05,0.5,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crispy",
+        "size": "small"
+      },
+      "id": "crouton",
+      "label": "crouton",
+      "location": "0.45,0.05,0.65,0.25,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate",
+      "label": "plate",
+      "location": "0.1,0.6,0.9,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "salad",
+      "label": "salad",
+      "location": "0.2,0.7,0.8,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl",
+      "label": "bowl",
+      "location": "0.6,0.6,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "table",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    }
+  ]
+}

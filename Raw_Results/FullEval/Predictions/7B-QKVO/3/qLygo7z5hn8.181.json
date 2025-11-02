@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "logo1",
+      "target": "text1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "logo1",
+      "target": "text1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "URL Text",
+      "location": "0.35,0.48,0.97,0.60,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black circular logo",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Logo Icon",
+      "location": "0.25,0.45,0.35,0.60,0.9"
+    }
+  ]
+}

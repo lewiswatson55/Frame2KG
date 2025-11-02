@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake2",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake3",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spaghetti1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spaghetti1",
+      "target": "pancake1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "spaghetti1",
+      "target": "griddle1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "griddle1",
+      "label": "griddle",
+      "location": "0.05,0.4,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white batter",
+        "size": "small"
+      },
+      "id": "pancake1",
+      "label": "pancake",
+      "location": "0.6,0.2,0.75,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white batter",
+        "size": "small"
+      },
+      "id": "pancake2",
+      "label": "pancake",
+      "location": "0.45,0.35,0.6,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white batter",
+        "size": "small"
+      },
+      "id": "pancake3",
+      "label": "pancake",
+      "location": "0.3,0.2,0.45,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow pasta",
+        "size": "medium"
+      },
+      "id": "spaghetti1",
+      "label": "spaghetti",
+      "location": "0.0,0.75,0.4,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.0,0.75,0.2,1.0,0.8"
+    }
+  ]
+}

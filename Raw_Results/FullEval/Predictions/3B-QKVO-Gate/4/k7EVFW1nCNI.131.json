@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bag1",
+      "target": "onion_rings1"
+    },
+    {
+      "predicate": "in",
+      "source": "onion_rings1",
+      "target": "food_processor1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fridge1",
+      "target": "food_processor1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.0,0.0,0.6,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "medium"
+      },
+      "id": "bag1",
+      "label": "Plastic Bag",
+      "location": "0.45,0.0,1.0,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "food_processor1",
+      "label": "Food Processor",
+      "location": "0.2,0.2,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown",
+        "size": "small"
+      },
+      "id": "onion_rings1",
+      "label": "Onion Rings",
+      "location": "0.3,0.3,0.7,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "Refrigerator",
+      "location": "0.8,0.2,1.0,0.8,0.8"
+    }
+  ]
+}

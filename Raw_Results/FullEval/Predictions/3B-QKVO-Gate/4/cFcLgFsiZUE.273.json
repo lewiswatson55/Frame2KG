@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "food1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "on",
+      "source": "microwave1",
+      "target": "cabinet1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "bearded man wearing black glasses and black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.0,0.0,0.5,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "blonde woman wearing white top",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.4,0.0,1.0,1.0,0.97"
+    },
+    {
+      "attributes": {
+        "appearance": "orange fried piece",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "fried food",
+      "location": "0.3,0.4,0.6,0.7,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave oven",
+      "location": "0.7,0.5,1.0,0.8,0.8"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "honey1",
+      "target": "pancake_stack1"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake_stack1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "large"
+      },
+      "id": "pancake_stack1",
+      "label": "stack of pancakes",
+      "location": "0.05,0.0,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glistening",
+        "size": "small"
+      },
+      "id": "honey1",
+      "label": "drizzle of honey",
+      "location": "0.3,0.4,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.8,1.0,1.0,0.7"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "food1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "hand1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "food1",
+      "label": "fried food piece",
+      "location": "0.35,0.6,0.75,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.45,0.0,1.0,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal grate",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop burner",
+      "location": "0.0,0.4,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "bubbling dark liquid",
+        "size": "large"
+      },
+      "id": "oil1",
+      "label": "cooking oil",
+      "location": "0.0,0.4,0.6,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone blurred",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.75,0.6,1.0,1.0,0.6"
+    }
+  ]
+}

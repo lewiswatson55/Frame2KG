@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "on",
+      "source": "batter1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bottle1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black non-stick with silver handle",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "griddle pan",
+      "location": "0.05,0.1,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "sauce bottle",
+      "location": "0.6,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.7,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "creamy beige",
+        "size": "small"
+      },
+      "id": "batter1",
+      "label": "batter stream",
+      "location": "0.55,0.1,0.75,0.7,0.85"
+    }
+  ]
+}

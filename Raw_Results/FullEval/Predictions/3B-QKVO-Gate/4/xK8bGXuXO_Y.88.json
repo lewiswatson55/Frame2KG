@@ -1,0 +1,126 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl3",
+      "target": "bowl4"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl5",
+      "target": "stove1"
+    },
+    {
+      "predicate": "behind",
+      "source": "bowl6",
+      "target": "bowl5"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.0,0.4,0.4,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with white liquid",
+        "size": "large"
+      },
+      "id": "jar1",
+      "label": "glass jar",
+      "location": "0.2,0.0,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.5,0.5,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with white powder",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "small bowl",
+      "location": "0.3,0.6,0.5,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with brown powder",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "small bowl",
+      "location": "0.5,0.6,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with white powder",
+        "size": "small"
+      },
+      "id": "bowl3",
+      "label": "small bowl",
+      "location": "0.6,0.5,0.8,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with white powder",
+        "size": "small"
+      },
+      "id": "bowl4",
+      "label": "small bowl",
+      "location": "0.7,0.5,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic container with flour",
+        "size": "medium"
+      },
+      "id": "bowl5",
+      "label": "mixing bowl",
+      "location": "0.6,0.0,1.0,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with black logo",
+        "size": "medium"
+      },
+      "id": "bowl6",
+      "label": "mixing bowl",
+      "location": "0.7,0.3,1.0,0.6,0.9"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "oil1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "food1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "holding",
+      "source": "spatula1",
+      "target": "food1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow liquid",
+        "size": "medium"
+      },
+      "id": "oil1",
+      "label": "cooking oil",
+      "location": "0.0,0.4,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white batter-coated",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "battered food piece",
+      "location": "0.3,0.4,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey silicone",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "silicone spatula",
+      "location": "0.6,0.0,1.0,0.4,0.8"
+    }
+  ]
+}

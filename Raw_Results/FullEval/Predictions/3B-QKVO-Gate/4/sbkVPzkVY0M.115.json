@@ -1,0 +1,100 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl3",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl4",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl2",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl3",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bowl4",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.5,0.0,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with yellowish liquid",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Glass bowl of mayonnaise",
+      "location": "0.3,0.4,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with green lettuce",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "Glass bowl of lettuce",
+      "location": "0.4,0.0,0.7,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with yellow oil",
+        "size": "small"
+      },
+      "id": "bowl3",
+      "label": "Glass bowl of oil",
+      "location": "0.6,0.3,0.8,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic with red sauce",
+        "size": "small"
+      },
+      "id": "bowl4",
+      "label": "White bowl with red sauce",
+      "location": "0.7,0.5,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Wooden cutting board",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

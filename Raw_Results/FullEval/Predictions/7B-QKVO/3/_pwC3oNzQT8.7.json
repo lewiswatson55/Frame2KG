@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "hat1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "stove1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl1",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black chef coat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.58,0.03,0.97,0.94,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white and black checkered fabric",
+        "size": "small"
+      },
+      "id": "hat1",
+      "label": "kitchen hat",
+      "location": "0.65,0.05,0.80,0.20,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass bowl with white rice",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "rice bowl",
+      "location": "0.35,0.60,0.55,0.80,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.00,0.75,0.30,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white tiled",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "tile wall",
+      "location": "0.00,0.00,0.50,1.00,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white countertop",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.30,0.60,1.00,1.00,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.00,0.75,0.30,1.00,0.7"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "breadcrumbs1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "on",
+      "source": "hand1",
+      "target": "breadcrumbs1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spatula1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "baking tray",
+      "location": "0.05,0.0,0.95,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige granular",
+        "size": "medium"
+      },
+      "id": "breadcrumbs1",
+      "label": "breadcrumbs",
+      "location": "0.05,0.25,0.95,0.65,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown skin",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.0,0.45,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.0,0.5,0.4,1.0,0.8"
+    }
+  ]
+}

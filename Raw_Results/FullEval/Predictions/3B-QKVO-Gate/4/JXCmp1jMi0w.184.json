@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hands1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "whisk1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "egg_mixture1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chicken_pieces1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "includes",
+      "source": "tray1",
+      "target": "chicken_pieces1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hands1",
+      "label": "human hands",
+      "location": "0.05,0.0,0.45,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.0,0.1,0.7,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal wires",
+        "size": "small"
+      },
+      "id": "whisk1",
+      "label": "whisk",
+      "location": "0.1,0.2,0.6,0.8,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow liquid",
+        "size": "medium"
+      },
+      "id": "egg_mixture1",
+      "label": "egg mixture",
+      "location": "0.1,0.25,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "metal tray",
+      "location": "0.6,0.2,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white flour-coated",
+        "size": "medium"
+      },
+      "id": "chicken_pieces1",
+      "label": "flour-coated chicken pieces",
+      "location": "0.65,0.2,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "wooden table",
+      "location": "0.0,0.8,1.0,1.0,0.8"
+    }
+  ]
+}

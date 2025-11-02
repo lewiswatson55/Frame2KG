@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "container1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "container1",
+      "target": "food_processor1"
+    },
+    {
+      "predicate": "includes",
+      "source": "food_processor1",
+      "target": "dough1"
+    },
+    {
+      "predicate": "on",
+      "source": "food_processor1",
+      "target": "counter1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "hand",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "small"
+      },
+      "id": "container1",
+      "label": "plastic container",
+      "location": "0.55,0.0,0.95,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "large"
+      },
+      "id": "food_processor1",
+      "label": "stand mixer",
+      "location": "0.2,0.3,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige dough",
+        "size": "small"
+      },
+      "id": "dough1",
+      "label": "dough pieces",
+      "location": "0.45,0.4,0.75,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red surface",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.6"
+    }
+  ]
+}

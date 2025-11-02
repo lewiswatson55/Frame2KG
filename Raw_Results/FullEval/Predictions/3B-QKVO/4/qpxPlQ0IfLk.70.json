@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "fish1"
+    },
+    {
+      "predicate": "on",
+      "source": "fish1",
+      "target": "grill1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread1",
+      "target": "fish1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl1",
+      "target": "grill1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "grill1",
+      "label": "grill",
+      "location": "0.05,0.3,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white with brown grill marks",
+        "size": "large"
+      },
+      "id": "fish1",
+      "label": "fish fillet",
+      "location": "0.45,0.0,0.75,0.6,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.0,0.0,0.2,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crust",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "bread slices",
+      "location": "0.3,0.2,0.5,0.4,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "metal bowl with green contents",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl of greens",
+      "location": "0.8,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

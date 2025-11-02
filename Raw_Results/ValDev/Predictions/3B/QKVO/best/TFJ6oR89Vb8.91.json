@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "egg1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomatoes1",
+      "target": "egg1"
+    },
+    {
+      "predicate": "in",
+      "source": "rice1",
+      "target": "egg1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "wooden spatula",
+      "location": "0.3,0.0,0.7,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "light yellow",
+        "size": "large"
+      },
+      "id": "egg1",
+      "label": "scrambled eggs",
+      "location": "0.1,0.2,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red round",
+        "size": "small"
+      },
+      "id": "tomatoes1",
+      "label": "tomato pieces",
+      "location": "0.2,0.4,0.8,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white grainy",
+        "size": "medium"
+      },
+      "id": "rice1",
+      "label": "cooked rice",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

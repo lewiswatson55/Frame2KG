@@ -1,0 +1,214 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "chicken_piece"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken_package",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "pan2",
+      "target": "stove"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "oven"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "stove"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plant_pot",
+      "target": "bottles"
+    },
+    {
+      "predicate": "above",
+      "source": "cabinet_shelves",
+      "target": "sink"
+    },
+    {
+      "predicate": "left_of",
+      "source": "board",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "blender",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.3,0.48,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.52,0.15,0.95,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.0,0.6,0.5,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "small"
+      },
+      "id": "chicken_piece",
+      "label": "raw chicken piece",
+      "location": "0.25,0.65,0.45,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "plastic wrapped",
+        "size": "small"
+      },
+      "id": "chicken_package",
+      "label": "chicken package",
+      "location": "0.0,0.6,0.2,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.45,0.6,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan2",
+      "label": "frying pan",
+      "location": "0.65,0.6,0.85,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "gas stove",
+      "location": "0.4,0.6,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottles",
+        "size": "small"
+      },
+      "id": "bottles",
+      "label": "wine bottles",
+      "location": "0.45,0.0,0.65,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green plant",
+        "size": "small"
+      },
+      "id": "plant_pot",
+      "label": "potted plant",
+      "location": "0.55,0.35,0.65,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cabinet_shelves",
+      "label": "kitchen shelves",
+      "location": "0.4,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "oven",
+      "label": "oven",
+      "location": "0.0,0.0,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board",
+      "label": "cutting board",
+      "location": "0.0,0.0,0.2,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender",
+      "label": "blender",
+      "location": "0.85,0.4,0.98,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white brick",
+        "size": "large"
+      },
+      "id": "backsplash",
+      "label": "backsplash tiles",
+      "location": "0.4,0.2,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "sink",
+      "label": "sink",
+      "location": "0.5,0.4,0.6,0.5,0.8"
+    }
+  ]
+}

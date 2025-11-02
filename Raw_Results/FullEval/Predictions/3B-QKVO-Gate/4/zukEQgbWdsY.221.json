@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "blender1",
+      "target": "appliance1"
+    },
+    {
+      "predicate": "on",
+      "source": "appliance1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plant1",
+      "target": "appliance1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "plant1",
+      "target": "blender1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "hand",
+      "location": "0.0,0.35,0.4,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic with green liquid",
+        "size": "large"
+      },
+      "id": "blender1",
+      "label": "blender jug",
+      "location": "0.2,0.3,0.6,0.75,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "appliance1",
+      "label": "kitchen appliance",
+      "location": "0.4,0.4,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves brown pot",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "potted plant",
+      "location": "0.8,0.0,1.0,0.4,0.85"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken_wings",
+      "target": "plate"
+    },
+    {
+      "predicate": "on",
+      "source": "sauce_spoon",
+      "target": "plate"
+    },
+    {
+      "predicate": "in",
+      "source": "sauce_cup",
+      "target": "plate"
+    },
+    {
+      "predicate": "holding",
+      "source": "spoon",
+      "target": "sauce_cup"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate",
+      "target": "table_surface"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate",
+      "label": "Plate",
+      "location": "0.05,0.3,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken_wings",
+      "label": "Chicken Wings",
+      "location": "0.1,0.4,0.9,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spoon",
+      "label": "Sauce Spoon",
+      "location": "0.45,0.0,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with white sauce",
+        "size": "small"
+      },
+      "id": "sauce_cup",
+      "label": "Sauce Cup",
+      "location": "0.5,0.1,0.7,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey speckled stone",
+        "size": "large"
+      },
+      "id": "table_surface",
+      "label": "Table Surface",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

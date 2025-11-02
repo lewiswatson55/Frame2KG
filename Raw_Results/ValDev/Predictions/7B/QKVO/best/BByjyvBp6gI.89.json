@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "spaghetti1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "holding",
+      "source": "spatula1",
+      "target": "spaghetti1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cutting_board1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "lid1",
+      "target": "pot1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.35,0.4,0.98,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "metal spatula",
+      "location": "0.0,0.4,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow pasta",
+        "size": "small"
+      },
+      "id": "spaghetti1",
+      "label": "spaghetti noodles",
+      "location": "0.3,0.0,0.7,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "lid1",
+      "label": "pot lid",
+      "location": "0.5,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black glass",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stovetop burner",
+      "location": "0.0,0.8,0.5,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "wooden cutting board",
+      "location": "0.0,0.0,0.4,0.3,0.7"
+    }
+  ]
+}

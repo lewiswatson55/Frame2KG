@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "croutons1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "herb1",
+      "target": "croutons1"
+    },
+    {
+      "predicate": "behind",
+      "source": "basket1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "ceramic plate",
+      "location": "0.35,0.6,0.98,0.97,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "croutons1",
+      "label": "croutons",
+      "location": "0.0,0.4,0.6,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "herb1",
+      "label": "thyme sprig",
+      "location": "0.0,0.5,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "woven white",
+        "size": "large"
+      },
+      "id": "basket1",
+      "label": "wicker basket",
+      "location": "0.3,0.0,1.0,0.6,0.7"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper1",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "on",
+      "source": "bun_top1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "on",
+      "source": "bun_bottom1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "table1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "burger1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown grilled",
+        "size": "medium"
+      },
+      "id": "patty1",
+      "label": "beef patty",
+      "location": "0.45,0.38,0.97,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.45,0.15,0.97,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow melted",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "melted cheese",
+      "location": "0.45,0.35,0.97,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red sliced",
+        "size": "small"
+      },
+      "id": "pepper1",
+      "label": "red pepper slice",
+      "location": "0.55,0.25,0.97,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted brown",
+        "size": "large"
+      },
+      "id": "bun_top1",
+      "label": "top bun",
+      "location": "0.45,0.0,0.97,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white soft",
+        "size": "large"
+      },
+      "id": "bun_bottom1",
+      "label": "bottom bun",
+      "location": "0.45,0.6,0.97,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table surface",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "cutting",
+      "source": "knife1",
+      "target": "avocado1"
+    },
+    {
+      "predicate": "on",
+      "source": "avocado1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "lemon1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "avocado1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "can1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "multicolored plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.5,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black handle metal blade",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.3,0.2,0.8,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green flesh brown pit",
+        "size": "small"
+      },
+      "id": "avocado1",
+      "label": "avocado half",
+      "location": "0.3,0.6,0.5,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow rind white pulp",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "lemon half",
+      "location": "0.45,0.4,0.6,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl of cheese",
+      "location": "0.15,0.3,0.35,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue plastic",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "jar of spices",
+      "location": "0.25,0.0,0.35,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue aluminum",
+        "size": "small"
+      },
+      "id": "can1",
+      "label": "aluminum can",
+      "location": "0.35,0.0,0.45,0.3,0.8"
+    }
+  ]
+}

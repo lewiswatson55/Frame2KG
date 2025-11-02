@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "spaghetti1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "holding",
+      "source": "spatula1",
+      "target": "spaghetti1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "spaghetti1",
+      "label": "Spaghetti",
+      "location": "0.35,0.05,0.65,0.45,0.8"
+    },
+    {
+      "id": "pot1",
+      "label": "Cooking Pot",
+      "location": "0.25,0.15,0.75,0.9,0.9"
+    },
+    {
+      "id": "spatula1",
+      "label": "Silicone Spatula",
+      "location": "0.1,0.4,0.5,0.7,0.8"
+    },
+    {
+      "id": "stove1",
+      "label": "Stovetop",
+      "location": "0.6,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

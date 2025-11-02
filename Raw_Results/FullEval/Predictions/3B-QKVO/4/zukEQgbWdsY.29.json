@@ -1,0 +1,109 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "window1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottles1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person1",
+      "target": "microwave1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "person2",
+      "target": "microwave1"
+    },
+    {
+      "predicate": "behind",
+      "source": "fridge1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "fridge1",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt with bear graphic",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.52,0.05,0.97,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "glass pane with green foliage",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.0,0.0,0.6,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden cabinet",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "cabinet",
+      "location": "0.6,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white microwave",
+        "size": "small"
+      },
+      "id": "microwave1",
+      "label": "microwave",
+      "location": "0.55,0.2,0.75,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass bottles",
+        "size": "small"
+      },
+      "id": "bottles1",
+      "label": "bottles",
+      "location": "0.85,0.0,1.0,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic refrigerator",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.4,0.0,0.6,1.0,0.8"
+    }
+  ]
+}

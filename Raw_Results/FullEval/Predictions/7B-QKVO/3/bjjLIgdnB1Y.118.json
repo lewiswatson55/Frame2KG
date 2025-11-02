@@ -1,0 +1,192 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "measuring_cup"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "measuring_cup",
+      "target": "bowl_with_eggs"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "griddle",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_with_liquid",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_with_sugar",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "whisk",
+      "target": "bowl_with_liquid"
+    },
+    {
+      "predicate": "on",
+      "source": "canister",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "tray",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "window",
+      "target": "cabinets"
+    },
+    {
+      "predicate": "behind",
+      "source": "fridge",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown hair green top black apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.15,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "small"
+      },
+      "id": "measuring_cup",
+      "label": "measuring cup",
+      "location": "0.35,0.45,0.47,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bowl yellow liquid",
+        "size": "medium"
+      },
+      "id": "bowl_with_eggs",
+      "label": "bowl of eggs",
+      "location": "0.3,0.6,0.45,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bowl white powder",
+        "size": "medium"
+      },
+      "id": "bowl_with_sugar",
+      "label": "bowl of sugar",
+      "location": "0.45,0.6,0.6,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal whisk",
+        "size": "small"
+      },
+      "id": "whisk",
+      "label": "whisk",
+      "location": "0.35,0.6,0.45,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "griddle",
+      "label": "griddle",
+      "location": "0.6,0.5,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow can red cap",
+        "size": "small"
+      },
+      "id": "canister",
+      "label": "spray can",
+      "location": "0.2,0.7,0.25,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass blue lid",
+        "size": "small"
+      },
+      "id": "bottle",
+      "label": "bottle",
+      "location": "0.1,0.7,0.15,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinets",
+      "label": "kitchen cabinets",
+      "location": "0.0,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame blinds",
+        "size": "medium"
+      },
+      "id": "window",
+      "label": "window",
+      "location": "0.8,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "fridge",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.2,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "sink",
+      "label": "sink",
+      "location": "0.75,0.4,0.95,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal tray silver",
+        "size": "small"
+      },
+      "id": "tray",
+      "label": "baking tray",
+      "location": "0.0,0.6,0.2,0.8,0.7"
+    }
+  ]
+}

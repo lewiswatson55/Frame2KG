@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "dough1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "on",
+      "source": "flour1",
+      "target": "dough1"
+    },
+    {
+      "predicate": "on",
+      "source": "hand1",
+      "target": "flour1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "glass baking tray",
+      "location": "0.05,0.05,0.98,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pale beige",
+        "size": "medium"
+      },
+      "id": "dough1",
+      "label": "dough",
+      "location": "0.1,0.1,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "flour1",
+      "label": "flour",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.4,0.0,0.6,0.3,0.7"
+    }
+  ]
+}

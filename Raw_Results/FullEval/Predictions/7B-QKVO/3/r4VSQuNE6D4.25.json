@@ -1,0 +1,127 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "red_bottle"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "scissors"
+    },
+    {
+      "predicate": "on",
+      "source": "yellow_squeeze_bottle",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "red_squeeze_bottle",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "white_bag",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "box1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "box2",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "red_squeeze_bottle",
+      "target": "yellow_squeeze_bottle"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.6,0.45,0.98,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "red_bottle",
+      "label": "Red Squeeze Bottle",
+      "location": "0.3,0.5,0.5,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "scissors",
+      "label": "Scissors",
+      "location": "0.45,0.5,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "large"
+      },
+      "id": "yellow_squeeze_bottle",
+      "label": "Yellow Squeeze Bottle",
+      "location": "0.4,0.0,0.6,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "red_squeeze_bottle",
+      "label": "Red Squeeze Bottle",
+      "location": "0.0,0.2,0.2,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white fabric",
+        "size": "medium"
+      },
+      "id": "white_bag",
+      "label": "White Bag",
+      "location": "0.1,0.0,0.4,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown cardboard",
+        "size": "small"
+      },
+      "id": "box1",
+      "label": "Cardboard Box",
+      "location": "0.6,0.0,0.75,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown cardboard",
+        "size": "small"
+      },
+      "id": "box2",
+      "label": "Cardboard Box",
+      "location": "0.75,0.0,0.9,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "Countertop",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

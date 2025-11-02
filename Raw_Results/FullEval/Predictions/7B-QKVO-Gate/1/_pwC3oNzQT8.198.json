@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "hand1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "in",
+      "source": "flour1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "includes",
+      "source": "logo1",
+      "target": "knife1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown skin",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.35,0.0,0.98,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "baking tray",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "flour1",
+      "label": "flour",
+      "location": "0.1,0.6,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.0,0.0,0.6,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Chef Ricardo logo",
+      "location": "0.6,0.75,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey blade black handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "chef knife icon",
+      "location": "0.7,0.75,0.9,0.9,0.8"
+    }
+  ]
+}

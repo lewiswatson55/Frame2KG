@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "heart_left",
+      "target": "text1"
+    },
+    {
+      "predicate": "on",
+      "source": "heart_right",
+      "target": "text1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white sans-serif",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Text",
+      "location": "0.35,0.68,0.65,0.74,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red heart",
+        "size": "small"
+      },
+      "id": "heart_left",
+      "label": "Heart Icon Left",
+      "location": "0.32,0.72,0.35,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red heart",
+        "size": "small"
+      },
+      "id": "heart_right",
+      "label": "Heart Icon Right",
+      "location": "0.67,0.72,0.70,0.75,0.8"
+    }
+  ]
+}

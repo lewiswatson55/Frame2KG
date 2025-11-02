@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "plant1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "utensils1",
+      "target": "plant1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "utensils1",
+      "target": "plant1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.35,0.15,0.65,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic with green liquid",
+        "size": "large"
+      },
+      "id": "blender1",
+      "label": "personal blender",
+      "location": "0.30,0.30,0.70,0.80,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.00,0.75,1.00,1.00,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves black pot",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "potted plant",
+      "location": "0.75,0.35,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "utensils1",
+      "label": "kitchen utensils",
+      "location": "0.65,0.30,0.80,0.60,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "beige tile",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "tiled wall",
+      "location": "0.00,0.00,1.00,0.50,0.6"
+    }
+  ]
+}

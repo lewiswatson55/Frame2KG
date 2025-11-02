@@ -1,0 +1,145 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_lemons",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pot",
+      "target": "countertop"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "utensils_holder",
+      "target": "wall"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "spatula",
+      "target": "wall"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "bottle2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bottle3",
+      "target": "bottle4"
+    },
+    {
+      "predicate": "right_of",
+      "source": "roll_paper_towel",
+      "target": "bowl_lemons"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "medium"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.0,0.7,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "blue ceramic bowl with yellow lemons",
+        "size": "small"
+      },
+      "id": "bowl_lemons",
+      "label": "bowl of lemons",
+      "location": "0.65,0.75,0.85,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown ceramic pot",
+        "size": "small"
+      },
+      "id": "pot",
+      "label": "cooking pot",
+      "location": "0.85,0.75,0.98,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal rack",
+        "size": "small"
+      },
+      "id": "utensils_holder",
+      "label": "utensil holder",
+      "location": "0.2,0.0,0.4,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden spatula",
+        "size": "small"
+      },
+      "id": "spatula",
+      "label": "spatula",
+      "location": "0.3,0.15,0.35,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottle with green label",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "bottle",
+      "location": "0.45,0.0,0.5,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottle with white label",
+        "size": "small"
+      },
+      "id": "bottle2",
+      "label": "bottle",
+      "location": "0.5,0.0,0.55,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottle with red label",
+        "size": "small"
+      },
+      "id": "bottle3",
+      "label": "bottle",
+      "location": "0.55,0.0,0.6,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottle with blue label",
+        "size": "small"
+      },
+      "id": "bottle4",
+      "label": "bottle",
+      "location": "0.6,0.0,0.65,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper roll",
+        "size": "small"
+      },
+      "id": "roll_paper_towel",
+      "label": "paper towel roll",
+      "location": "0.9,0.75,1.0,0.9,0.8"
+    }
+  ]
+}

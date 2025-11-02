@@ -1,0 +1,184 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate2",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper_shaker1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "mustard_bottle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "pepper_shaker1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate2",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "plate2",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall_decor1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall_decor2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.05,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.45,0.55,0.75,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "stove1",
+      "label": "portable stove",
+      "location": "0.45,0.75,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic with red meat",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "meat plate",
+      "location": "0.6,0.75,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic with green lettuce and tomatoes",
+        "size": "small"
+      },
+      "id": "plate2",
+      "label": "vegetables plate",
+      "location": "0.75,0.75,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "wooden countertop",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "pepper_shaker1",
+      "label": "pepper shaker",
+      "location": "0.3,0.75,0.35,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent yellow liquid",
+        "size": "small"
+      },
+      "id": "mustard_bottle1",
+      "label": "mustard bottle",
+      "location": "0.25,0.75,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown basket with green apples",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "fruit bowl",
+      "location": "0.0,0.6,0.2,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "colorful abstract art",
+        "size": "medium"
+      },
+      "id": "wall_decor1",
+      "label": "artwork frame",
+      "location": "0.6,0.0,0.8,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "colorful abstract art",
+        "size": "medium"
+      },
+      "id": "wall_decor2",
+      "label": "artwork frame",
+      "location": "0.8,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey stone",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,1.0,0.4,0.8"
+    }
+  ]
+}

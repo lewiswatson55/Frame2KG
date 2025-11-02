@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "meat1"
+    },
+    {
+      "predicate": "in",
+      "source": "meat1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tongs1",
+      "target": "cloth1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "ziplock1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.35,0.28,0.67,0.64,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red minced meat",
+        "size": "small"
+      },
+      "id": "meat1",
+      "label": "ground meat",
+      "location": "0.40,0.30,0.65,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.45,0.00,0.60,0.25,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.00,0.55,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "metal tongs",
+      "location": "0.00,0.50,0.30,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow fabric",
+        "size": "small"
+      },
+      "id": "cloth1",
+      "label": "kitchen cloth",
+      "location": "0.00,0.75,0.20,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "small"
+      },
+      "id": "ziplock1",
+      "label": "plastic bag",
+      "location": "0.70,0.75,0.95,0.95,0.8"
+    }
+  ]
+}

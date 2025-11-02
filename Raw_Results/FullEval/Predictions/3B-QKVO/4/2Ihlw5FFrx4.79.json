@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "tomato_sliced"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese_mixture",
+      "target": "bread_slice"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato_sliced",
+      "target": "cheese_mixture"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "bread_slice"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.0,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red",
+        "size": "small"
+      },
+      "id": "tomato_sliced",
+      "label": "Tomato Slices",
+      "location": "0.3,0.4,0.7,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy",
+        "size": "small"
+      },
+      "id": "cheese_mixture",
+      "label": "Feta and Cream Cheese Mix",
+      "location": "0.3,0.5,0.7,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crusty",
+        "size": "medium"
+      },
+      "id": "bread_slice",
+      "label": "Bread Slice",
+      "location": "0.2,0.5,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.8,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

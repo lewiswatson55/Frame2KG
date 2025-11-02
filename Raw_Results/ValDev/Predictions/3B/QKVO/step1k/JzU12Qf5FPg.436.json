@@ -1,0 +1,117 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "tongs1"
+    },
+    {
+      "predicate": "in",
+      "source": "tongs1",
+      "target": "skillet1"
+    },
+    {
+      "predicate": "on",
+      "source": "skillet1",
+      "target": "rack1"
+    },
+    {
+      "predicate": "on",
+      "source": "rack1",
+      "target": "oven1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray1",
+      "target": "skillet1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "oven1",
+      "target": "cabinet1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "oven1",
+      "label": "oven",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "rack1",
+      "label": "oven rack",
+      "location": "0.05,0.0,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "skillet1",
+      "label": "skillet",
+      "location": "0.1,0.3,0.7,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crispy",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "chicken pieces",
+      "location": "0.2,0.4,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic brown handle",
+        "size": "medium"
+      },
+      "id": "handle1",
+      "label": "skillet handle",
+      "location": "0.4,0.6,0.6,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "baking tray",
+      "location": "0.5,0.5,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.6,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "tongs",
+      "location": "0.5,0.0,0.8,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "wooden cabinet",
+      "location": "0.6,0.0,1.0,0.4,0.8"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "burger1"
+    },
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "burger2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "burger1",
+      "target": "burger2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow bun with green lettuce",
+        "size": "small"
+      },
+      "id": "burger1",
+      "label": "burger",
+      "location": "0.3,0.4,0.6,0.7,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow bun with green lettuce",
+        "size": "small"
+      },
+      "id": "burger2",
+      "label": "burger",
+      "location": "0.6,0.1,0.9,0.4,0.85"
+    }
+  ]
+}

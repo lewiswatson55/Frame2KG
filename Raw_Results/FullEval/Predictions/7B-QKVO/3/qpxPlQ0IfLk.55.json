@@ -1,0 +1,262 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle2",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "jar2",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "lemon1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bread2",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "spoon1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "pan_hanger1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "frame1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "shelf1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "table1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue red yellow plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.45,0.05,0.68,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.05,0.45,0.27,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "olive oil bottle",
+      "location": "0.28,0.55,0.35,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "bottle2",
+      "label": "mayonnaise bottle",
+      "location": "0.35,0.65,0.42,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar white powder",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "jar of salt",
+      "location": "0.42,0.65,0.48,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar yellow powder",
+        "size": "small"
+      },
+      "id": "jar2",
+      "label": "jar of mustard",
+      "location": "0.48,0.65,0.54,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "lemon",
+      "location": "0.5,0.75,0.55,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "bread slice",
+      "location": "0.55,0.75,0.6,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread",
+        "size": "small"
+      },
+      "id": "bread2",
+      "label": "bread slice",
+      "location": "0.6,0.75,0.65,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.5,0.8,0.55,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden spoon",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "spoon",
+      "location": "0.55,0.8,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "grill tray",
+      "location": "0.7,0.75,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.9,0.75,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "medium"
+      },
+      "id": "table1",
+      "label": "side table",
+      "location": "0.8,0.4,0.95,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey brick",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "brick wall",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden shelf",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.0,0.0,0.5,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan_hanger1",
+      "label": "hanging pans",
+      "location": "0.6,0.0,0.8,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden frame",
+        "size": "small"
+      },
+      "id": "frame1",
+      "label": "picture frame",
+      "location": "0.85,0.1,0.95,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.0,0.5,1.0,1.0,0.7"
+    }
+  ]
+}

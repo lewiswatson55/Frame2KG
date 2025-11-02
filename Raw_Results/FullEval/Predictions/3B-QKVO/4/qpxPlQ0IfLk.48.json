@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread2",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread3",
+      "target": "bread1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "board1",
+      "target": "table1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.45,0.0,0.65,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "bottle",
+      "location": "0.55,0.0,0.75,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown toasted",
+        "size": "medium"
+      },
+      "id": "bread1",
+      "label": "toasted bread slice",
+      "location": "0.35,0.5,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown toasted",
+        "size": "medium"
+      },
+      "id": "bread2",
+      "label": "toasted bread slice",
+      "location": "0.2,0.45,0.5,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown toasted",
+        "size": "medium"
+      },
+      "id": "bread3",
+      "label": "toasted bread slice",
+      "location": "0.0,0.3,0.2,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "wooden board",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "metal table",
+      "location": "0.0,0.8,1.0,1.0,0.9"
+    }
+  ]
+}

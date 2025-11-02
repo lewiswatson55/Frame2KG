@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate2",
+      "target": "plate1"
+    },
+    {
+      "predicate": "behind",
+      "source": "fruits1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "basket1",
+      "target": "fruits1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "peppers1",
+      "target": "fruits1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fruits1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "portable stove",
+      "location": "0.47,0.65,0.65,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black non-stick",
+        "size": "small"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.55,0.6,0.75,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate of food",
+      "location": "0.45,0.75,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate2",
+      "label": "plate of vegetables",
+      "location": "0.7,0.75,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "sauce bottle",
+      "location": "0.3,0.65,0.38,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "small"
+      },
+      "id": "basket1",
+      "label": "fruit basket",
+      "location": "0.0,0.5,0.2,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "mixed fruits",
+        "size": "small"
+      },
+      "id": "fruits1",
+      "label": "fruit display",
+      "location": "0.35,0.3,0.55,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red yellow green",
+        "size": "small"
+      },
+      "id": "peppers1",
+      "label": "pepper shakers",
+      "location": "0.75,0.4,0.85,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves red tomatoes",
+        "size": "small"
+      },
+      "id": "plate2",
+      "label": "vegetables plate",
+      "location": "0.7,0.75,0.9,0.9,0.8"
+    }
+  ]
+}

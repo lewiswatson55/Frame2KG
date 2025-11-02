@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "whisk1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "on",
+      "source": "liquid1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "behind",
+      "source": "background_red",
+      "target": "bottle1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "large"
+      },
+      "id": "bottle1",
+      "label": "plastic bottle",
+      "location": "0.45,0.05,1.0,0.98,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "whisk1",
+      "label": "metal whisk",
+      "location": "0.0,0.0,0.35,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red liquid",
+        "size": "small"
+      },
+      "id": "liquid1",
+      "label": "red liquid stream",
+      "location": "0.47,0.3,0.6,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "solid red",
+        "size": "large"
+      },
+      "id": "background_red",
+      "label": "red background",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

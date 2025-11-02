@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "grater1"
+    },
+    {
+      "predicate": "on",
+      "source": "grater1",
+      "target": "food_processor1"
+    },
+    {
+      "predicate": "in",
+      "source": "shredded_cheese1",
+      "target": "food_processor1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "towel1",
+      "target": "food_processor1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "grater1",
+      "label": "metal grater",
+      "location": "0.25,0.0,0.75,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "large"
+      },
+      "id": "food_processor1",
+      "label": "food processor bowl",
+      "location": "0.15,0.3,0.85,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white shredded",
+        "size": "medium"
+      },
+      "id": "shredded_cheese1",
+      "label": "shredded cheese",
+      "location": "0.2,0.35,0.8,0.8,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "red striped fabric",
+        "size": "medium"
+      },
+      "id": "towel1",
+      "label": "kitchen towel",
+      "location": "0.6,0.3,1.0,0.9,0.8"
+    }
+  ]
+}

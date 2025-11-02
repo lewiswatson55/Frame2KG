@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato1",
+      "target": "bacon1"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "behind",
+      "source": "appliance1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "appliance1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person's hands",
+      "location": "0.05,0.0,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce leaves",
+      "location": "0.47,0.35,0.75,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red juicy",
+        "size": "small"
+      },
+      "id": "tomato1",
+      "label": "Tomato slices",
+      "location": "0.45,0.45,0.65,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "crispy red",
+        "size": "small"
+      },
+      "id": "bacon1",
+      "label": "Bacon strips",
+      "location": "0.45,0.55,0.7,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown toasted",
+        "size": "medium"
+      },
+      "id": "bread1",
+      "label": "Toast bread slice",
+      "location": "0.35,0.6,0.75,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Small bowl",
+      "location": "0.05,0.5,0.2,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "large"
+      },
+      "id": "appliance1",
+      "label": "Appliance",
+      "location": "0.3,0.0,0.7,0.4,0.8"
+    }
+  ]
+}

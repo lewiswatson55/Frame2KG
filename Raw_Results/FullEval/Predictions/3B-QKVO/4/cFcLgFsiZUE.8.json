@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "dog1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "dog1",
+      "target": "board1"
+    },
+    {
+      "predicate": "behind",
+      "source": "board1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "person2",
+      "target": "dog1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light brown fur",
+        "size": "large"
+      },
+      "id": "dog1",
+      "label": "Dog Mascot",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white and black striped shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.4,0.4,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue screen with white text",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Advertisement Board",
+      "location": "0.0,0.0,0.5,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark blue jacket",
+        "size": "small"
+      },
+      "id": "person2",
+      "label": "Person",
+      "location": "0.8,0.4,1.0,0.9,0.8"
+    }
+  ]
+}

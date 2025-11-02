@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "food1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "food2",
+      "target": "plate1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cloth1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.35,0.15,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cheesy",
+        "size": "medium"
+      },
+      "id": "food1",
+      "label": "Macaroni and Cheese",
+      "location": "0.40,0.30,0.90,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "food2",
+      "label": "Fried Food",
+      "location": "0.00,0.20,0.30,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink fabric",
+        "size": "medium"
+      },
+      "id": "cloth1",
+      "label": "Cloth",
+      "location": "0.70,0.00,1.00,0.40,0.7"
+    }
+  ]
+}

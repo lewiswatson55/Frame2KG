@@ -1,0 +1,40 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "text2",
+      "target": "background"
+    },
+    {
+      "predicate": "left_of",
+      "source": "text1",
+      "target": "text2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red text on black background",
+        "size": "large"
+      },
+      "id": "text1",
+      "label": "Text 'For Pancake Patterns Visit:'",
+      "location": "0.05,0.35,0.95,0.48,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on red background",
+        "size": "medium"
+      },
+      "id": "text2",
+      "label": "Website URL 'ZigsPics.com/pancakes'",
+      "location": "0.05,0.48,0.95,0.62,0.9"
+    }
+  ],
+  "background": "black"
+}

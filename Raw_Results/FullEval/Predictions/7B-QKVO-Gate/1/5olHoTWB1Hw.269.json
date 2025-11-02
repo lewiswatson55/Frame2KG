@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "package1"
+    },
+    {
+      "predicate": "on",
+      "source": "package1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "package1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cup1",
+      "target": "package1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "package1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "beige green red plastic",
+        "size": "large"
+      },
+      "id": "package1",
+      "label": "Texas Toasts package",
+      "location": "0.05,0.1,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown skin pink nails",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.4,0.6,0.9,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.0,0.3,0.2,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "cup1",
+      "label": "Cup",
+      "location": "0.6,0.7,0.8,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.8,0.7,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in",
+      "source": "apple_slices1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "plate2"
+    },
+    {
+      "predicate": "on",
+      "source": "sauce1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "meat1",
+      "target": "plate3"
+    },
+    {
+      "predicate": "on",
+      "source": "sauce2",
+      "target": "meat1"
+    },
+    {
+      "predicate": "on",
+      "source": "quesadilla1",
+      "target": "plate4"
+    },
+    {
+      "predicate": "on",
+      "source": "salsa1",
+      "target": "quesadilla1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown skin",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "roasted chicken",
+      "location": "0.05,0.28,0.36,0.79,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "fruit bowl",
+      "location": "0.35,0.28,0.65,0.79,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red and green apple slices",
+        "size": "small"
+      },
+      "id": "apple_slices1",
+      "label": "apple slices",
+      "location": "0.35,0.35,0.65,0.72,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "plate of roasted chicken",
+      "location": "0.05,0.28,0.36,0.79,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "multicolored ceramic",
+        "size": "medium"
+      },
+      "id": "plate2",
+      "label": "decorative plate",
+      "location": "0.65,0.05,0.95,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread with raisins",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "raisin bread slice",
+      "location": "0.65,0.05,0.95,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown meat with red sauce",
+        "size": "small"
+      },
+      "id": "plate3",
+      "label": "meat on plate",
+      "location": "0.35,0.79,0.65,0.99,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark brown meat",
+        "size": "small"
+      },
+      "id": "meat1",
+      "label": "meat piece",
+      "location": "0.35,0.79,0.65,0.99,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red sauce",
+        "size": "small"
+      },
+      "id": "sauce2",
+      "label": "sauce on meat",
+      "location": "0.35,0.79,0.65,0.99,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "flatbread with salsa",
+        "size": "medium"
+      },
+      "id": "plate4",
+      "label": "quesadilla plate",
+      "location": "0.75,0.79,0.99,0.99,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange salsa",
+        "size": "small"
+      },
+      "id": "salsa1",
+      "label": "salsa on quesadilla",
+      "location": "0.75,0.79,0.99,0.99,0.9"
+    }
+  ]
+}

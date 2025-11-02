@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "lid1"
+    },
+    {
+      "predicate": "on",
+      "source": "lid1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "in",
+      "source": "blend1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plant1",
+      "target": "knife_block1"
+    },
+    {
+      "predicate": "behind",
+      "source": "faucet1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "sink1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "logo1",
+      "target": "blender1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.35,0.05,0.65,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "lid1",
+      "label": "Blender Lid",
+      "location": "0.48,0.17,0.62,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green liquid",
+        "size": "large"
+      },
+      "id": "blend1",
+      "label": "Blend",
+      "location": "0.45,0.35,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass base black plastic top",
+        "size": "large"
+      },
+      "id": "blender1",
+      "label": "Blender Jar",
+      "location": "0.45,0.35,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "knife_block1",
+      "label": "Knife Block",
+      "location": "0.75,0.25,0.95,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves brown pot",
+        "size": "medium"
+      },
+      "id": "plant1",
+      "label": "Potted Plant",
+      "location": "0.85,0.3,0.98,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "faucet1",
+      "label": "Faucet",
+      "location": "0.1,0.2,0.3,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "Sink",
+      "location": "0.0,0.4,0.4,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Logo",
+      "location": "0.85,0.75,0.98,0.95,0.9"
+    }
+  ]
+}

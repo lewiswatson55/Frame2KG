@@ -1,0 +1,95 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in",
+      "source": "salad1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "includes",
+      "source": "salad1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "includes",
+      "source": "salad1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "includes",
+      "source": "salad1",
+      "target": "croutons1"
+    },
+    {
+      "predicate": "supports",
+      "source": "board1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.05,0.18,0.63,0.74,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "salad1",
+      "label": "Salad",
+      "location": "0.10,0.20,0.60,0.70,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "grilled white meat",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "Chicken slices",
+      "location": "0.20,0.25,0.50,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting board",
+      "location": "0.00,0.40,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "Jar",
+      "location": "0.85,0.00,1.00,0.20,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown toasted pieces",
+        "size": "small"
+      },
+      "id": "croutons1",
+      "label": "Croutons",
+      "location": "0.30,0.50,0.60,0.75,0.7"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "in",
+      "source": "flour1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "on",
+      "source": "bag1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "rolls1"
+    },
+    {
+      "predicate": "on",
+      "source": "rolls1",
+      "target": "table1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "striped green shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.0,0.0,0.6,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown paper bag",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "paper bag",
+      "location": "0.0,0.3,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "flour1",
+      "label": "flour",
+      "location": "0.4,0.3,0.6,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.5,0.5,0.8,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white dough with red sprinkles",
+        "size": "medium"
+      },
+      "id": "rolls1",
+      "label": "dough rolls",
+      "location": "0.7,0.4,1.0,0.7,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "grey surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    }
+  ]
+}

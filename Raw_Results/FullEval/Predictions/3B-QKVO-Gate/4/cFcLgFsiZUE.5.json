@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "plate1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "person1",
+      "target": "field1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "crowd1",
+      "target": "field1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "table1",
+      "target": "field1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green turf",
+        "size": "large"
+      },
+      "id": "field1",
+      "label": "football field",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white line",
+        "size": "medium"
+      },
+      "id": "line1",
+      "label": "yard lines",
+      "location": "0.3,0.4,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange crispy",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "fried chicken piece",
+      "location": "0.65,0.35,0.75,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.62,0.32,0.78,0.48,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black hair glasses",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man head",
+      "location": "0.6,0.2,0.8,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "mixed colors",
+        "size": "large"
+      },
+      "id": "crowd1",
+      "label": "spectators",
+      "location": "0.0,0.0,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.4,0.0,0.6,0.3,0.8"
+    }
+  ]
+}

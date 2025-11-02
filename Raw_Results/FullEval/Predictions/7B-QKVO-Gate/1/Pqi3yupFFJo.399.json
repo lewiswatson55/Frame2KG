@@ -1,0 +1,91 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "container1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "sauce_bottle",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "small_bowl",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "container1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "container1",
+      "target": "sauce_bottle"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl1",
+      "target": "container1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "sauce_bottle",
+      "target": "container1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "white bowl",
+      "location": "0.05,0.48,0.37,0.69,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic container white label",
+        "size": "medium"
+      },
+      "id": "container1",
+      "label": "Darigold sour cream container",
+      "location": "0.35,0.35,0.55,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass red sauce",
+        "size": "medium"
+      },
+      "id": "sauce_bottle",
+      "label": "hot sauce bottle",
+      "location": "0.60,0.30,0.75,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "small_bowl",
+      "label": "small empty bowl",
+      "location": "0.30,0.65,0.45,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.00,0.00,1.00,1.00,0.8"
+    }
+  ]
+}

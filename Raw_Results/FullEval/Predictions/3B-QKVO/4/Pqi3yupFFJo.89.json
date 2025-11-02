@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "baking_powder_container",
+      "target": "red_mixing_bowl"
+    },
+    {
+      "predicate": "in",
+      "source": "baking_powder",
+      "target": "red_mixing_bowl"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white plastic with red text",
+        "size": "medium"
+      },
+      "id": "baking_powder_container",
+      "label": "Clabber Girl Baking Powder Container",
+      "location": "0.05,0.05,0.45,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "small"
+      },
+      "id": "red_mixing_bowl",
+      "label": "Red Mixing Bowl",
+      "location": "0.35,0.35,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "baking_powder",
+      "label": "Baking Powder",
+      "location": "0.45,0.55,0.60,0.70,0.7"
+    }
+  ]
+}

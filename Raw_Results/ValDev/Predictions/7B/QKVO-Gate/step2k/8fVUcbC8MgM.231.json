@@ -1,0 +1,150 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "bowl_large1"
+    },
+    {
+      "predicate": "on",
+      "source": "rice_bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pepper_grinder1",
+      "target": "rice_bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "salt_shaker1",
+      "target": "pepper_grinder1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "wooden_board1",
+      "target": "plastic_bag1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "paper_towel_stack1",
+      "target": "wooden_board1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "rice_bowl1",
+      "target": "pepper_grinder1"
+    },
+    {
+      "predicate": "behind",
+      "source": "mixing_bowl1",
+      "target": "rice_bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.45,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "bowl_large1",
+      "label": "Mixing Bowl",
+      "location": "0.05,0.0,0.5,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black ceramic",
+        "size": "small"
+      },
+      "id": "rice_bowl1",
+      "label": "Rice Bowl",
+      "location": "0.0,0.3,0.25,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "small"
+      },
+      "id": "pepper_grinder1",
+      "label": "Pepper Grinder",
+      "location": "0.3,0.4,0.4,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "salt_shaker1",
+      "label": "Salt Shaker",
+      "location": "0.25,0.4,0.35,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "medium"
+      },
+      "id": "plastic_bag1",
+      "label": "Plastic Bag",
+      "location": "0.4,0.2,0.7,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "medium"
+      },
+      "id": "wooden_board1",
+      "label": "Wooden Board",
+      "location": "0.5,0.2,0.8,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "medium"
+      },
+      "id": "paper_towel_stack1",
+      "label": "Paper Towel Stack",
+      "location": "0.7,0.3,0.95,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate of Food",
+      "location": "0.3,0.6,0.9,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.0,0.3,0.15,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "rack"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pan1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bowl2",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "wall1",
+      "target": "rack"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal grid",
+        "size": "large"
+      },
+      "id": "rack",
+      "label": "cooling rack",
+      "location": "0.2,0.1,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "ceramic bowl",
+      "location": "0.3,0.4,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.6,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic with purple batter",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "ceramic bowl",
+      "location": "0.6,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "multicolored painted",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "colorful wall",
+      "location": "0.7,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

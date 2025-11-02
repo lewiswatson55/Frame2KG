@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "tomato_slices",
+      "target": "plate"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon",
+      "target": "plate"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tomato_slices",
+      "target": "bacon"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "glass_bowl",
+      "target": "plate"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red glossy",
+        "size": "medium"
+      },
+      "id": "tomato_slices",
+      "label": "Tomato Slices",
+      "location": "0.05,0.3,0.48,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "crispy brown",
+        "size": "medium"
+      },
+      "id": "bacon",
+      "label": "Bacon Strips",
+      "location": "0.6,0.3,0.95,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate",
+      "label": "Plate",
+      "location": "0.0,0.3,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "glass_bowl",
+      "label": "Glass Bowl",
+      "location": "0.0,0.75,0.5,1.0,0.8"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand_left",
+      "target": "whisk"
+    },
+    {
+      "predicate": "in",
+      "source": "whisk",
+      "target": "bowl"
+    },
+    {
+      "predicate": "in",
+      "source": "flour",
+      "target": "bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "batter",
+      "target": "bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl",
+      "target": "table"
+    },
+    {
+      "predicate": "mixing",
+      "source": "whisk",
+      "target": "batter"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand_left",
+      "label": "left hand",
+      "location": "0.05,0.0,0.45,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow silicone",
+        "size": "small"
+      },
+      "id": "whisk",
+      "label": "whisk",
+      "location": "0.3,0.1,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl",
+      "label": "glass bowl",
+      "location": "0.1,0.1,0.9,0.9,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "medium"
+      },
+      "id": "flour",
+      "label": "flour",
+      "location": "0.3,0.2,0.7,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "light yellow liquid",
+        "size": "medium"
+      },
+      "id": "batter",
+      "label": "batter",
+      "location": "0.2,0.3,0.8,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "table",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    }
+  ]
+}

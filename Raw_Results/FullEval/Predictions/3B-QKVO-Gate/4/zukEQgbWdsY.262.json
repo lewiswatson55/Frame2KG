@@ -1,0 +1,245 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "pan2",
+      "target": "stove"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "oven"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "oven"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter",
+      "target": "blender"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter",
+      "target": "sandwich_plate"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter",
+      "target": "lettuce_plate"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter",
+      "target": "tomato_plate"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinets",
+      "target": "oven"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinets",
+      "target": "shelf"
+    },
+    {
+      "predicate": "includes",
+      "source": "shelf",
+      "target": "bottles"
+    },
+    {
+      "predicate": "includes",
+      "source": "shelf",
+      "target": "teapot"
+    },
+    {
+      "predicate": "includes",
+      "source": "shelf",
+      "target": "bowls"
+    },
+    {
+      "predicate": "includes",
+      "source": "counter",
+      "target": "blender"
+    },
+    {
+      "predicate": "includes",
+      "source": "counter",
+      "target": "sandwich_plate"
+    },
+    {
+      "predicate": "includes",
+      "source": "counter",
+      "target": "lettuce_plate"
+    },
+    {
+      "predicate": "includes",
+      "source": "counter",
+      "target": "tomato_plate"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "bearded man wearing dark shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "tattooed man wearing black t-shirt",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.48,0.05,0.76,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal pans on gas stove",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.15,0.65,0.35,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black cast iron pans on gas stove",
+        "size": "medium"
+      },
+      "id": "pan2",
+      "label": "frying pan",
+      "location": "0.35,0.65,0.55,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden countertop",
+        "size": "large"
+      },
+      "id": "counter",
+      "label": "kitchen counter",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver stainless steel oven",
+        "size": "large"
+      },
+      "id": "oven",
+      "label": "oven",
+      "location": "0.0,0.0,0.3,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood cabinets",
+        "size": "large"
+      },
+      "id": "cabinets",
+      "label": "kitchen cabinets",
+      "location": "0.0,0.0,1.0,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden shelf with bottles",
+        "size": "medium"
+      },
+      "id": "shelf",
+      "label": "shelf",
+      "location": "0.3,0.0,0.7,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottles",
+        "size": "small"
+      },
+      "id": "bottles",
+      "label": "bottles",
+      "location": "0.35,0.0,0.65,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black teapot",
+        "size": "small"
+      },
+      "id": "teapot",
+      "label": "teapot",
+      "location": "0.55,0.0,0.65,0.15,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "ceramic bowls",
+        "size": "small"
+      },
+      "id": "bowls",
+      "label": "bowls",
+      "location": "0.75,0.0,0.95,0.15,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green smoothie in blender",
+        "size": "medium"
+      },
+      "id": "blender",
+      "label": "blender",
+      "location": "0.8,0.4,0.9,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "plate of sandwiches",
+        "size": "small"
+      },
+      "id": "sandwich_plate",
+      "label": "sandwich plate",
+      "location": "0.7,0.6,0.85,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "plate of lettuce",
+        "size": "small"
+      },
+      "id": "lettuce_plate",
+      "label": "lettuce plate",
+      "location": "0.85,0.6,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "plate of tomatoes",
+        "size": "small"
+      },
+      "id": "tomato_plate",
+      "label": "tomato plate",
+      "location": "0.9,0.6,1.0,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal spatula",
+        "size": "small"
+      },
+      "id": "spatula",
+      "label": "spatula",
+      "location": "0.05,0.6,0.2,0.75,0.7"
+    }
+  ]
+}

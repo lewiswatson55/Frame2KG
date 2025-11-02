@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "spoon1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "includes",
+      "source": "tray1",
+      "target": "flour1"
+    },
+    {
+      "predicate": "on",
+      "source": "powder1",
+      "target": "flour1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "powder1",
+      "target": "spoon1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.05,0.45,0.30,0.80,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "measuring spoon",
+      "location": "0.10,0.30,0.60,0.70,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "aluminum tray",
+      "location": "0.00,0.00,1.00,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "large"
+      },
+      "id": "flour1",
+      "label": "flour",
+      "location": "0.00,0.30,1.00,1.00,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange powder",
+        "size": "small"
+      },
+      "id": "powder1",
+      "label": "orange powder",
+      "location": "0.40,0.50,0.80,0.90,0.8"
+    }
+  ]
+}

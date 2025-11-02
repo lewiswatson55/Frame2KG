@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "sandwich1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "toasted brown bread",
+        "size": "medium"
+      },
+      "id": "bread1",
+      "label": "toast slices",
+      "location": "0.65,0.3,0.98,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted brown bread with lettuce and tomato",
+        "size": "small"
+      },
+      "id": "sandwich1",
+      "label": "sandwich half",
+      "location": "0.65,0.45,0.98,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic bowl with green sauce",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "sauce bowl",
+      "location": "0.2,0.2,0.45,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden cutting board",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal knife with red handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.0,0.5,0.3,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottle with yellow liquid",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "oil bottle",
+      "location": "0.0,0.0,0.2,0.3,0.8"
+    }
+  ]
+}

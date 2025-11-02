@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "burner1"
+    },
+    {
+      "predicate": "on",
+      "source": "toast1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "toast1"
+    },
+    {
+      "predicate": "on",
+      "source": "toast2",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese2",
+      "target": "toast2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.35,0.18,0.97,0.64,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread with orange cheese",
+        "size": "medium"
+      },
+      "id": "toast1",
+      "label": "bread slice",
+      "location": "0.45,0.35,0.75,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange shredded cheese",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "shredded cheese",
+      "location": "0.48,0.38,0.72,0.58,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread with orange cheese",
+        "size": "medium"
+      },
+      "id": "toast2",
+      "label": "bread slice",
+      "location": "0.65,0.25,0.9,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange shredded cheese",
+        "size": "small"
+      },
+      "id": "cheese2",
+      "label": "shredded cheese",
+      "location": "0.68,0.28,0.92,0.48,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "burner1",
+      "label": "gas burner",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

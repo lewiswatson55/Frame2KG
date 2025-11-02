@@ -1,0 +1,131 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "in",
+      "source": "chips1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "plant1"
+    },
+    {
+      "predicate": "behind",
+      "source": "fridge1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "window_left1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "window_right1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "grey t-shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.45,0.05,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl",
+      "location": "0.30,0.60,0.45,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green foliage red flowers",
+        "size": "medium"
+      },
+      "id": "plant1",
+      "label": "flower arrangement",
+      "location": "0.35,0.10,0.55,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.00,0.60,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.20,0.00,0.60,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plate with yellow chips",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "plate of chips",
+      "location": "0.55,0.70,0.85,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "chips1",
+      "label": "tortilla chips",
+      "location": "0.60,0.75,0.80,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "spoon",
+      "location": "0.50,0.60,0.60,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame glass",
+        "size": "large"
+      },
+      "id": "window_left1",
+      "label": "window",
+      "location": "0.00,0.00,0.25,1.00,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame glass",
+        "size": "large"
+      },
+      "id": "window_right1",
+      "label": "window",
+      "location": "0.75,0.00,1.00,1.00,0.8"
+    }
+  ]
+}

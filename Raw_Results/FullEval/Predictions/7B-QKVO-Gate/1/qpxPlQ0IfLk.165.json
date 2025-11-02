@@ -1,0 +1,103 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "blender1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "bottle2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle3",
+      "target": "bottle4"
+    },
+    {
+      "predicate": "behind",
+      "source": "cloth1",
+      "target": "blender1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "large"
+      },
+      "id": "blender1",
+      "label": "Blender Jar",
+      "location": "0.25,0.0,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light green liquid",
+        "size": "medium"
+      },
+      "id": "liquid1",
+      "label": "Green Liquid",
+      "location": "0.3,0.1,0.6,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with orange cap",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "Glass Bottle",
+      "location": "0.35,0.4,0.45,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with blue cap",
+        "size": "small"
+      },
+      "id": "bottle2",
+      "label": "Glass Bottle",
+      "location": "0.45,0.6,0.55,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "bottle3",
+      "label": "Glass Bottle",
+      "location": "0.7,0.6,0.8,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "bottle4",
+      "label": "Glass Bottle",
+      "location": "0.8,0.6,0.9,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.0,0.0,0.3,0.3,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "multicolored fabric",
+        "size": "medium"
+      },
+      "id": "cloth1",
+      "label": "Cloth",
+      "location": "0.6,0.0,1.0,0.3,0.6"
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_meat1",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_meat2",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_meat3",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_cheese",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_butter",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "plant1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "tomatoes1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "rack1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "scale1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "left_of",
+      "source": "shelf1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "rack1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white chef coat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.45,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.0,0.5,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.4,0.7,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bowl with red meat",
+        "size": "small"
+      },
+      "id": "bowl_meat1",
+      "label": "meat bowl",
+      "location": "0.5,0.75,0.6,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bowl with pink meat",
+        "size": "small"
+      },
+      "id": "bowl_meat2",
+      "label": "meat bowl",
+      "location": "0.2,0.75,0.3,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bowl with pink meat",
+        "size": "small"
+      },
+      "id": "bowl_meat3",
+      "label": "meat bowl",
+      "location": "0.1,0.8,0.2,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bowl with yellow cheese",
+        "size": "small"
+      },
+      "id": "bowl_cheese",
+      "label": "cheese bowl",
+      "location": "0.3,0.8,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow block of butter",
+        "size": "small"
+      },
+      "id": "bowl_butter",
+      "label": "butter bowl",
+      "location": "0.4,0.85,0.5,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy plant",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "herb plant",
+      "location": "0.35,0.45,0.45,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red tomatoes",
+        "size": "small"
+      },
+      "id": "tomatoes1",
+      "label": "tomatoes",
+      "location": "0.45,0.45,0.55,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green lettuce",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce",
+      "location": "0.55,0.45,0.65,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal rack",
+        "size": "large"
+      },
+      "id": "rack1",
+      "label": "baking rack",
+      "location": "0.75,0.0,1.0,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal shelf with containers",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "spice shelf",
+      "location": "0.0,0.0,0.6,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal scale",
+        "size": "medium"
+      },
+      "id": "scale1",
+      "label": "scale",
+      "location": "0.7,0.8,0.9,1.0,0.8"
+    }
+  ]
+}

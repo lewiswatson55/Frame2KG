@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "vase1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "teapot1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "pitcher1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "shelf1",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "grey lace top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.18,0.75,0.94,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "wall shelf",
+      "location": "0.16,0.0,0.84,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "ceramic vase",
+      "location": "0.25,0.25,0.35,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue patterned",
+        "size": "small"
+      },
+      "id": "teapot1",
+      "label": "teapot",
+      "location": "0.35,0.05,0.45,0.15,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "pitcher1",
+      "label": "metal pitcher",
+      "location": "0.45,0.05,0.55,0.15,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "decorative plate",
+      "location": "0.35,0.25,0.45,0.35,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "beige striped",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "striped wall",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

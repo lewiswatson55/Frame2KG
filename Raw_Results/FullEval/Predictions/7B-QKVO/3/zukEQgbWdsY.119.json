@@ -1,0 +1,155 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "paper_towel"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon_slices",
+      "target": "paper_towel"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "window"
+    },
+    {
+      "predicate": "left_of",
+      "source": "knife_block",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "oven",
+      "target": "person2"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop",
+      "target": "pot"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop",
+      "target": "bowl_set"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop",
+      "target": "paper_towel"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.65,0.05,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "window",
+      "label": "window",
+      "location": "0.0,0.0,0.7,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "knife_block",
+      "label": "knife block",
+      "location": "0.0,0.4,0.2,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl_set",
+      "label": "bowl set",
+      "location": "0.2,0.75,0.3,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "pot",
+      "label": "pot",
+      "location": "0.1,0.8,0.4,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "medium"
+      },
+      "id": "paper_towel",
+      "label": "paper towel",
+      "location": "0.4,0.6,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red raw",
+        "size": "small"
+      },
+      "id": "bacon_slices",
+      "label": "bacon slices",
+      "location": "0.5,0.65,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "oven",
+      "label": "oven",
+      "location": "0.8,0.0,1.0,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "kitchen cabinet",
+      "location": "0.8,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.7,1.0,1.0,0.7"
+    }
+  ]
+}

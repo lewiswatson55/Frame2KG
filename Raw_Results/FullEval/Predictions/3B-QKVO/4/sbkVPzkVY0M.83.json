@@ -1,0 +1,331 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "burner1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "fridge1",
+      "target": "fruit_shelf1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "salt_pepper1",
+      "target": "fruit_shelf1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "cutting_board1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato_slices1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar2",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar3",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar4",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "plant1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "picture_frame1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "picture_frame2",
+      "target": "wall1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "frame1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "behind",
+      "source": "fruit_shelf1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.58,0.07,0.96,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.65,0.60,0.85,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "burner1",
+      "label": "hot plate burner",
+      "location": "0.60,0.75,0.80,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "food processor",
+      "location": "0.30,0.55,0.40,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl of apples",
+      "location": "0.00,0.55,0.15,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate of meat",
+      "location": "0.75,0.80,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce",
+      "location": "0.65,0.75,0.80,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red slices",
+        "size": "small"
+      },
+      "id": "tomato_slices1",
+      "label": "tomato slices",
+      "location": "0.70,0.80,0.85,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.50,0.85,0.60,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar with green contents",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "jar of pickles",
+      "location": "0.20,0.75,0.30,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar with yellow contents",
+        "size": "small"
+      },
+      "id": "jar2",
+      "label": "jar of mustard",
+      "location": "0.25,0.75,0.35,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar with red contents",
+        "size": "small"
+      },
+      "id": "jar3",
+      "label": "jar of spices",
+      "location": "0.30,0.75,0.40,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar with white contents",
+        "size": "small"
+      },
+      "id": "jar4",
+      "label": "jar of cream cheese",
+      "location": "0.35,0.75,0.45,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.00,0.80,0.60,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.15,0.75,0.25,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "fruit_shelf1",
+      "label": "fruit shelf",
+      "location": "0.45,0.20,0.60,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "medium"
+      },
+      "id": "picture_frame1",
+      "label": "picture frame",
+      "location": "0.00,0.40,0.20,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "medium"
+      },
+      "id": "picture_frame2",
+      "label": "picture frame",
+      "location": "0.30,0.40,0.40,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "medium"
+      },
+      "id": "frame1",
+      "label": "picture frame",
+      "location": "0.70,0.10,0.90,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white cabinet",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.00,0.00,0.30,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "metal shelf",
+      "location": "0.45,0.20,0.60,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wall",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.30,0.00,0.70,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow glass",
+        "size": "small"
+      },
+      "id": "salt_pepper1",
+      "label": "salt and pepper shakers",
+      "location": "0.85,0.50,0.95,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green plant",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "potted plant",
+      "location": "0.05,0.30,0.15,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white countertop",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.00,0.40,1.00,0.60,0.8"
+    }
+  ]
+}

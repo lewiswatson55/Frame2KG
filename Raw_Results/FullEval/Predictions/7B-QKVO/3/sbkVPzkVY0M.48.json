@@ -1,0 +1,229 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "food_processor1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl3",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl4",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "spice_rack1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper_mill1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "framed_artwork1",
+      "target": "framed_artwork2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "fruit_basket1",
+      "target": "food_processor1"
+    },
+    {
+      "predicate": "behind",
+      "source": "art_frame1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.05,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "medium"
+      },
+      "id": "food_processor1",
+      "label": "food processor",
+      "location": "0.30,0.55,0.45,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.40,0.65,0.45,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "glass bowl",
+      "location": "0.45,0.75,0.50,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl3",
+      "label": "glass bowl",
+      "location": "0.50,0.75,0.55,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl4",
+      "label": "glass bowl",
+      "location": "0.55,0.75,0.60,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.65,0.55,0.90,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black electric stove",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "electric stove",
+      "location": "0.60,0.60,0.80,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.80,0.75,0.95,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate of lettuce",
+      "location": "0.70,0.75,0.80,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "kitchen countertop",
+      "location": "0.00,0.50,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green fruit",
+        "size": "small"
+      },
+      "id": "fruit_basket1",
+      "label": "basket of green apples",
+      "location": "0.00,0.45,0.15,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver frame",
+        "size": "medium"
+      },
+      "id": "art_frame1",
+      "label": "framed artwork",
+      "location": "0.70,0.00,0.90,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver frame",
+        "size": "medium"
+      },
+      "id": "framed_artwork1",
+      "label": "framed artwork",
+      "location": "0.00,0.20,0.20,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver frame",
+        "size": "medium"
+      },
+      "id": "framed_artwork2",
+      "label": "framed artwork",
+      "location": "0.80,0.20,1.00,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "spice_rack1",
+      "label": "spice rack",
+      "location": "0.60,0.45,0.70,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "pepper_mill1",
+      "label": "pepper mill",
+      "location": "0.90,0.55,0.95,0.75,0.8"
+    }
+  ]
+}

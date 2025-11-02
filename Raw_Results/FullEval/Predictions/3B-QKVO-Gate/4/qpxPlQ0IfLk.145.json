@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "lemon1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "behind",
+      "source": "person1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "blender1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "hands",
+      "location": "0.35,0.0,0.98,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow citrus",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "lemon",
+      "location": "0.45,0.05,0.60,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "large"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Hungry logo",
+      "location": "0.0,0.0,0.2,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark grey",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "background wall",
+      "location": "0.0,0.0,1.0,0.5,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.5,0.4,1.0,1.0,0.7"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "spaghetti1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "spaghetti1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.35,0.45,0.98,0.96,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellowish",
+        "size": "small"
+      },
+      "id": "spaghetti1",
+      "label": "Spaghetti",
+      "location": "0.45,0.55,0.95,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.00,0.00,1.00,1.00,0.6"
+    }
+  ]
+}

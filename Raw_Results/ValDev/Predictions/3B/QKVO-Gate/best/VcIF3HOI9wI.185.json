@@ -1,0 +1,127 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand_left",
+      "target": "bread_slice"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand_right",
+      "target": "knife"
+    },
+    {
+      "predicate": "cutting",
+      "source": "knife",
+      "target": "bread_slice"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_slice",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce",
+      "target": "board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tomato",
+      "target": "lettuce"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl",
+      "target": "board"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "lettuce",
+      "target": "bread_slice"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "Cutting Board",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted white bread with spread",
+        "size": "medium"
+      },
+      "id": "bread_slice",
+      "label": "Bread Slice",
+      "location": "0.05,0.3,0.45,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted white bread with spread",
+        "size": "small"
+      },
+      "id": "bread_slice2",
+      "label": "Bread Slice",
+      "location": "0.15,0.0,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "medium"
+      },
+      "id": "knife",
+      "label": "Knife",
+      "location": "0.3,0.2,0.7,0.5,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand_left",
+      "label": "Hand",
+      "location": "0.0,0.4,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand_right",
+      "label": "Hand",
+      "location": "0.5,0.0,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce",
+      "label": "Lettuce Leaf",
+      "location": "0.4,0.5,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red slice",
+        "size": "small"
+      },
+      "id": "tomato",
+      "label": "Tomato Slice",
+      "location": "0.7,0.3,0.9,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl",
+      "label": "Bowl",
+      "location": "0.8,0.0,1.0,0.4,0.8"
+    }
+  ]
+}

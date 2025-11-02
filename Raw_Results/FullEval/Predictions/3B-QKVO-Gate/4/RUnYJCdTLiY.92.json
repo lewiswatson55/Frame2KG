@@ -1,0 +1,164 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "salt_shaker",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper_shaker",
+      "target": "countertop"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "microwave",
+      "target": "cabinet_left"
+    },
+    {
+      "predicate": "above",
+      "source": "hanging_pans",
+      "target": "window"
+    },
+    {
+      "predicate": "next_to",
+      "source": "stove",
+      "target": "microwave"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cabinet_left",
+      "target": "window"
+    },
+    {
+      "predicate": "right_of",
+      "source": "cabinet_right",
+      "target": "window"
+    },
+    {
+      "predicate": "below",
+      "source": "dishwasher",
+      "target": "countertop"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "maroon top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "cabinet_left",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.4,0.3,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "cabinet_right",
+      "label": "kitchen cabinet",
+      "location": "0.6,0.0,1.0,0.3,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "microwave",
+      "label": "microwave oven",
+      "location": "0.0,0.0,0.4,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black stainless steel",
+        "size": "medium"
+      },
+      "id": "stove",
+      "label": "gas stove",
+      "location": "0.0,0.2,0.4,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver black",
+        "size": "medium"
+      },
+      "id": "dishwasher",
+      "label": "dishwasher",
+      "location": "0.5,0.7,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.4,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.7,0.4,0.9,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "salt_shaker",
+      "label": "salt shaker",
+      "location": "0.85,0.45,0.9,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass silver lid",
+        "size": "small"
+      },
+      "id": "pepper_shaker",
+      "label": "pepper shaker",
+      "location": "0.9,0.45,0.95,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "hanging_pans",
+      "label": "hanging pans",
+      "location": "0.45,0.0,0.6,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame glass",
+        "size": "medium"
+      },
+      "id": "window",
+      "label": "window",
+      "location": "0.4,0.0,0.6,0.3,0.8"
+    }
+  ]
+}

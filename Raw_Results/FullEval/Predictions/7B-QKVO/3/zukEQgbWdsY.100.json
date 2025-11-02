@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bacon1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black cast iron",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "cast iron skillet",
+      "location": "0.05,0.3,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink and brown crispy",
+        "size": "medium"
+      },
+      "id": "bacon1",
+      "label": "bacon strips",
+      "location": "0.2,0.45,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white glove",
+        "size": "small"
+      },
+      "id": "person1",
+      "label": "gloved hand",
+      "location": "0.4,0.0,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal grate",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "gas stove burner",
+      "location": "0.0,0.7,1.0,1.0,0.8"
+    }
+  ]
+}

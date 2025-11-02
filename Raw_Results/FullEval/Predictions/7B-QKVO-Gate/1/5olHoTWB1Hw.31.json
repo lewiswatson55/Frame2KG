@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "potato1"
+    },
+    {
+      "predicate": "in",
+      "source": "potato1",
+      "target": "colander1"
+    },
+    {
+      "predicate": "on",
+      "source": "colander1",
+      "target": "sink1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown skin",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.45,0.0,1.0,0.38,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow shredded",
+        "size": "small"
+      },
+      "id": "potato1",
+      "label": "shredded potato",
+      "location": "0.3,0.3,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "large"
+      },
+      "id": "colander1",
+      "label": "plastic colander",
+      "location": "0.0,0.0,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "sink1",
+      "label": "kitchen sink",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    }
+  ]
+}

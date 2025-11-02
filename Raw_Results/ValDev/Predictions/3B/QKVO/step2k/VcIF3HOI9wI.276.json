@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cabinet1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "behind",
+      "source": "window1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "shelf1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "plant1",
+      "target": "window1"
+    },
+    {
+      "predicate": "on",
+      "source": "towel1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown hair wearing green shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.45,0.0,1.0,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.6,0.3,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow wood",
+        "size": "small"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.3,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "glass pane with green foliage",
+        "size": "medium"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.2,0.0,0.4,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "plant",
+      "location": "0.25,0.2,0.35,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "wooden shelf",
+      "location": "0.75,0.3,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread with lettuce",
+        "size": "small"
+      },
+      "id": "sandwich1",
+      "label": "sandwich",
+      "location": "0.45,0.3,0.65,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue fabric",
+        "size": "small"
+      },
+      "id": "towel1",
+      "label": "towel",
+      "location": "0.0,0.8,0.2,1.0,0.8"
+    }
+  ]
+}

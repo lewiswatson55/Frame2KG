@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "fish1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "packaging1",
+      "target": "fish1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "board1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "logo1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.45,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal blade black handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.6,0.3,0.8,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.4,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink white wrapped",
+        "size": "medium"
+      },
+      "id": "fish1",
+      "label": "raw fish slices",
+      "location": "0.0,0.3,0.4,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "small"
+      },
+      "id": "packaging1",
+      "label": "plastic packaging",
+      "location": "0.0,0.2,0.3,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.8,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "TASTED logo",
+      "location": "0.8,0.8,1.0,1.0,0.9"
+    }
+  ]
+}

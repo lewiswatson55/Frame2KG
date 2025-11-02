@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "chicken_piece"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken_piece",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken_pieces",
+      "target": "tray1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bag1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "wall1",
+      "target": "table1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "hand",
+      "location": "0.05,0.05,0.45,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "plastic bowl",
+      "location": "0.05,0.45,0.6,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white flour-coated",
+        "size": "small"
+      },
+      "id": "chicken_piece",
+      "label": "flour-coated chicken piece",
+      "location": "0.3,0.3,0.45,0.55,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "metal tray",
+      "location": "0.5,0.5,0.95,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white flour-coated",
+        "size": "small"
+      },
+      "id": "chicken_pieces",
+      "label": "flour-coated chicken pieces",
+      "location": "0.55,0.55,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "wooden cutting board",
+      "location": "0.0,0.7,0.6,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige paper bag",
+        "size": "medium"
+      },
+      "id": "bag1",
+      "label": "paper bag",
+      "location": "0.0,0.0,0.5,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "plain light grey",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.5,0.0,1.0,0.6,0.9"
+    }
+  ]
+}

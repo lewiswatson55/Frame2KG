@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "tablecloth1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "tablecloth1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl3",
+      "target": "tablecloth1"
+    },
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "tablecloth1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "tablecloth1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "hand",
+      "location": "0.45,0.0,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black handle metal blade",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.4,0.2,0.9,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.3,0.3,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic patterned",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "bowl",
+      "location": "0.0,0.4,0.4,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl2",
+      "label": "bowl",
+      "location": "0.5,0.5,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl3",
+      "label": "bowl",
+      "location": "0.8,0.6,1.0,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "colorful patterned fabric",
+        "size": "large"
+      },
+      "id": "tablecloth1",
+      "label": "tablecloth",
+      "location": "0.0,0.4,1.0,1.0,0.8"
+    }
+  ]
+}

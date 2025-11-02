@@ -1,0 +1,127 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "board"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "pot",
+      "target": "stove"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf_bread",
+      "target": "person2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "paper_towel_stack",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "paper_towel_stack",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt,tattooed arms",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.0,0.48,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white sweater,long hair",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.47,0.0,0.95,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "bowl",
+      "label": "mixing bowl",
+      "location": "0.3,0.6,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "pot",
+      "label": "cooking pot",
+      "location": "0.8,0.5,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black chalkboard",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "menu board",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden shelves with bread loaves",
+        "size": "large"
+      },
+      "id": "shelf_bread",
+      "label": "bread shelf",
+      "location": "0.0,0.3,1.0,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stack of white paper towels",
+        "size": "small"
+      },
+      "id": "paper_towel_stack",
+      "label": "paper towel stack",
+      "location": "0.0,0.5,0.1,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "counter top",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove",
+      "label": "stove",
+      "location": "0.7,0.6,1.0,0.9,0.7"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "squeezer1"
+    },
+    {
+      "predicate": "pouring_on",
+      "source": "squeezer1",
+      "target": "pancake_mixture1"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake_mixture1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "on",
+      "source": "griddle1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "griddle1",
+      "label": "Griddle",
+      "location": "0.05,0.15,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "squeezer1",
+      "label": "Squeeze Bottle",
+      "location": "0.63,0.00,0.95,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy",
+        "size": "medium"
+      },
+      "id": "pancake_mixture1",
+      "label": "Pancake Mixture",
+      "location": "0.45,0.25,0.75,0.45,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.75,0.00,1.00,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white smooth",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.00,0.75,1.00,1.00,0.9"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "shirt1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "pan1",
+      "target": "person1"
+    },
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim fabric",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.35,0.0,0.98,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark blue cotton",
+        "size": "medium"
+      },
+      "id": "shirt1",
+      "label": "denim shirt",
+      "location": "0.4,0.0,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black non-stick metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red raw meat",
+        "size": "small"
+      },
+      "id": "patty1",
+      "label": "burger patty",
+      "location": "0.3,0.75,0.7,0.9,0.9"
+    }
+  ]
+}

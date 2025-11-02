@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "pasta1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "surface1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "large"
+      },
+      "id": "pasta1",
+      "label": "macaroni pasta",
+      "location": "0.05,0.05,0.95,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue plastic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "plastic bowl",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple",
+        "size": "small"
+      },
+      "id": "surface1",
+      "label": "table surface",
+      "location": "0.0,0.8,1.0,1.0,0.6"
+    }
+  ]
+}

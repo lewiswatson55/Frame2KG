@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "dish1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bag1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bag1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "Stove",
+      "location": "0.0,0.0,0.45,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cheese-coated pasta",
+        "size": "medium"
+      },
+      "id": "dish1",
+      "label": "Baked Macaroni Dish",
+      "location": "0.05,0.3,0.7,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic packaging",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "Sharp Cheddar Cheese Bag",
+      "location": "0.4,0.0,1.0,1.0,0.9"
+    }
+  ]
+}

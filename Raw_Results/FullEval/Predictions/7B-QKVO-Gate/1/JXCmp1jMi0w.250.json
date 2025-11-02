@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "oil1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "holding",
+      "source": "tongs1",
+      "target": "food1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cloth1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "grey metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.05,0.05,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "bubbling yellow",
+        "size": "medium"
+      },
+      "id": "oil1",
+      "label": "cooking oil",
+      "location": "0.1,0.1,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "kitchen tongs",
+      "location": "0.45,0.0,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "fried food pieces",
+      "location": "0.2,0.2,0.8,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black glass",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "electric stove",
+      "location": "0.0,0.7,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green white stripes",
+        "size": "medium"
+      },
+      "id": "cloth1",
+      "label": "striped cloth",
+      "location": "0.0,0.0,0.3,0.5,0.7"
+    }
+  ]
+}

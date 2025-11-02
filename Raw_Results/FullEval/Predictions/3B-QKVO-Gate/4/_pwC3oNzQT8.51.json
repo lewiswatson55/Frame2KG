@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fork1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "chicken1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.5,0.3,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange sauced chicken",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "Chicken Wings",
+      "location": "0.0,0.0,0.8,0.7,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "fork1",
+      "label": "Fork",
+      "location": "0.0,0.0,0.4,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black cursive font",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "Text 'Chef Ricardo'",
+      "location": "0.6,0.7,1.0,1.0,0.9"
+    }
+  ]
+}

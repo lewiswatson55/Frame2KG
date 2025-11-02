@@ -1,0 +1,271 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl3",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl4",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "spray1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake_mixer",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "griddle",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "kettle",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "mixer",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "canister",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "window_blinds",
+      "target": "wall"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fridge",
+      "target": "cabinet_left"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cabinet_left",
+      "target": "cabinet_right"
+    },
+    {
+      "predicate": "right_of",
+      "source": "cabinet_right",
+      "target": "cabinet_left"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown hair black apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.25,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "granite countertop",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.7,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass bowl with white batter",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl of batter",
+      "location": "0.45,0.75,0.55,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass bowl with yellow liquid",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "glass bowl with egg mixture",
+      "location": "0.35,0.8,0.45,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass bowl with white powder",
+        "size": "small"
+      },
+      "id": "bowl3",
+      "label": "glass bowl with flour",
+      "location": "0.45,0.8,0.55,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass bowl with yellow liquid",
+        "size": "small"
+      },
+      "id": "bowl4",
+      "label": "glass bowl with egg mixture",
+      "location": "0.55,0.8,0.65,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic bottle with blue cap",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "syrup bottle",
+      "location": "0.0,0.8,0.1,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow metal can with red label",
+        "size": "medium"
+      },
+      "id": "spray1",
+      "label": "cooking spray can",
+      "location": "0.1,0.8,0.2,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal pan with batter",
+        "size": "medium"
+      },
+      "id": "pancake_mixer",
+      "label": "pancake mixer",
+      "location": "0.6,0.75,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black flat top grill",
+        "size": "medium"
+      },
+      "id": "griddle",
+      "label": "griddle",
+      "location": "0.6,0.75,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden cutting board",
+        "size": "medium"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.75,0.5,0.9,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic rabbit figure",
+        "size": "small"
+      },
+      "id": "rabbit_figure",
+      "label": "rabbit figurine",
+      "location": "0.8,0.2,0.9,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel refrigerator",
+        "size": "large"
+      },
+      "id": "fridge",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.3,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood cabinets",
+        "size": "large"
+      },
+      "id": "cabinet_left",
+      "label": "cabinets",
+      "location": "0.0,0.0,0.3,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood cabinets",
+        "size": "large"
+      },
+      "id": "cabinet_right",
+      "label": "cabinets",
+      "location": "0.3,0.0,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel faucet",
+        "size": "medium"
+      },
+      "id": "faucet",
+      "label": "sink faucet",
+      "location": "0.85,0.4,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel kettle",
+        "size": "small"
+      },
+      "id": "kettle",
+      "label": "kettle",
+      "location": "0.65,0.3,0.75,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal stand mixer",
+        "size": "small"
+      },
+      "id": "mixer",
+      "label": "stand mixer",
+      "location": "0.55,0.2,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue ceramic bowl",
+        "size": "small"
+      },
+      "id": "canister",
+      "label": "canister",
+      "location": "0.45,0.2,0.55,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white blinds",
+        "size": "large"
+      },
+      "id": "window_blinds",
+      "label": "window blinds",
+      "location": "0.8,0.0,1.0,0.3,0.8"
+    }
+  ]
+}

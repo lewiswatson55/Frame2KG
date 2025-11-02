@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "meat1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "small_bowl1",
+      "target": "small_bowl2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "small_bowl3",
+      "target": "small_bowl2"
+    },
+    {
+      "predicate": "behind",
+      "source": "background1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.05,0.0,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw",
+        "size": "medium"
+      },
+      "id": "meat1",
+      "label": "ground meat",
+      "location": "0.2,0.4,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "wooden cutting board",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "small_bowl1",
+      "label": "small glass bowl",
+      "location": "0.3,0.8,0.5,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "small_bowl2",
+      "label": "small glass bowl",
+      "location": "0.5,0.8,0.7,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "small_bowl3",
+      "label": "small glass bowl",
+      "location": "0.8,0.7,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green foliage",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "outdoor background",
+      "location": "0.0,0.0,1.0,0.5,0.7"
+    }
+  ]
+}

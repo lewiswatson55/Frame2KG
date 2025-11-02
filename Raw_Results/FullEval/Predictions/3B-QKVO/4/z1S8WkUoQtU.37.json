@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "person1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "in",
+      "source": "flour1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "onion1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "on",
+      "source": "grater1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "cloth1",
+      "target": "table1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.05,0.0,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.35,0.05,0.75,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "ceramic bowl",
+      "location": "0.45,0.0,0.75,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "flour1",
+      "label": "flour",
+      "location": "0.45,0.45,0.75,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink slices",
+        "size": "small"
+      },
+      "id": "onion1",
+      "label": "onions",
+      "location": "0.75,0.6,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal grating",
+        "size": "medium"
+      },
+      "id": "grater1",
+      "label": "grater",
+      "location": "0.2,0.7,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "striped cloth",
+        "size": "medium"
+      },
+      "id": "cloth1",
+      "label": "cloth",
+      "location": "0.0,0.8,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "cabinet",
+      "location": "0.6,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    }
+  ]
+}

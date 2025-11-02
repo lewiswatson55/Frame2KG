@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "bowl1",
+      "target": "processor1"
+    },
+    {
+      "predicate": "on",
+      "source": "processor1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cloth1",
+      "target": "processor1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white long-sleeve shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.0,0.0,0.6,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.3,0.0,0.9,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.4,0.1,0.7,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic metal",
+        "size": "large"
+      },
+      "id": "processor1",
+      "label": "Food Processor",
+      "location": "0.2,0.3,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.6,1.0,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "red fabric",
+        "size": "medium"
+      },
+      "id": "cloth1",
+      "label": "Cloth",
+      "location": "0.7,0.2,1.0,0.9,0.7"
+    }
+  ]
+}

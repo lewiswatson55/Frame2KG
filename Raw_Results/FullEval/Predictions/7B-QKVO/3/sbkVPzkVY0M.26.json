@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "burger1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "burger1",
+      "target": "background1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown bun with lettuce tomato cheese patty",
+        "size": "medium"
+      },
+      "id": "burger1",
+      "label": "Cheeseburger",
+      "location": "0.58,0.03,1.00,0.97,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Wooden Board",
+      "location": "0.00,0.60,0.45,1.00,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white blurred circles",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "Background Blurs",
+      "location": "0.00,0.00,1.00,0.60,0.6"
+    }
+  ]
+}

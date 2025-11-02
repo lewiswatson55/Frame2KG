@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "dog1"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "person1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "framed_posters1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blonde hair, red nail polish",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.0,0.05,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white fluffy fur",
+        "size": "medium"
+      },
+      "id": "dog1",
+      "label": "poodle",
+      "location": "0.3,0.1,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.5,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "marble",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden frames with red posters",
+        "size": "small"
+      },
+      "id": "framed_posters1",
+      "label": "framed posters",
+      "location": "0.7,0.4,1.0,0.7,0.7"
+    }
+  ]
+}

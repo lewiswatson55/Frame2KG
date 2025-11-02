@@ -1,0 +1,131 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "lemon_bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "rolling_pin1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "above",
+      "source": "rack1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "grater1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.0,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light blue painted wood",
+        "size": "medium"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.4,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "small"
+      },
+      "id": "rolling_pin1",
+      "label": "wooden rolling pin",
+      "location": "0.25,0.15,0.35,0.6,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.0,0.0,0.2,0.2,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "blue ceramic",
+        "size": "small"
+      },
+      "id": "lemon_bowl1",
+      "label": "lemon bowl",
+      "location": "0.6,0.6,0.75,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark brown metal",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "bottle",
+      "location": "0.75,0.6,0.9,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "grater1",
+      "label": "metal grater",
+      "location": "0.9,0.6,1.0,0.9,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.0,0.6,0.5,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "small"
+      },
+      "id": "rack1",
+      "label": "plastic rack",
+      "location": "0.1,0.0,0.4,0.2,0.6"
+    }
+  ]
+}

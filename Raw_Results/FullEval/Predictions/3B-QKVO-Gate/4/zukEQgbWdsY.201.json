@@ -1,0 +1,345 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan2",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "blender1",
+      "target": "person2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "oven1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "supports",
+      "source": "shelf1",
+      "target": "bottles1"
+    },
+    {
+      "predicate": "supports",
+      "source": "shelf1",
+      "target": "jars1"
+    },
+    {
+      "predicate": "supports",
+      "source": "shelf1",
+      "target": "kettle1"
+    },
+    {
+      "predicate": "supports",
+      "source": "shelf1",
+      "target": "toaster1"
+    },
+    {
+      "predicate": "supports",
+      "source": "shelf1",
+      "target": "plant1"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "lettuce_plate1"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "pepper_shaker1"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "salt_shaker1"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "glass_bowl1"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "towel1"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "bacon1"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "water_glass1"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "oil_bottle1"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "blender1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.05,0.60,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.60,0.05,0.90,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "oven1",
+      "label": "double oven",
+      "location": "0.00,0.00,0.40,0.70,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.00,0.00,1.00,0.20,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white brick",
+        "size": "large"
+      },
+      "id": "backsplash1",
+      "label": "tile backsplash",
+      "location": "0.00,0.20,1.00,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "wall shelf",
+      "location": "0.00,0.00,1.00,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottles",
+        "size": "small"
+      },
+      "id": "bottles1",
+      "label": "bottles",
+      "location": "0.20,0.05,0.40,0.20,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jars",
+        "size": "small"
+      },
+      "id": "jars1",
+      "label": "jars",
+      "location": "0.40,0.05,0.60,0.20,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal kettle",
+        "size": "small"
+      },
+      "id": "kettle1",
+      "label": "kettle",
+      "location": "0.50,0.05,0.60,0.15,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver toaster",
+        "size": "small"
+      },
+      "id": "toaster1",
+      "label": "toaster",
+      "location": "0.70,0.05,0.80,0.15,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green plant",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "potted plant",
+      "location": "0.85,0.05,0.95,0.20,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.75,0.40,0.90,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.00,0.70,0.60,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.05,0.75,0.35,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black cast iron",
+        "size": "medium"
+      },
+      "id": "pan2",
+      "label": "cast iron skillet",
+      "location": "0.35,0.75,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.00,0.75,0.20,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with bread",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "bread plate",
+      "location": "0.60,0.75,0.80,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red lettuce",
+        "size": "small"
+      },
+      "id": "lettuce_plate1",
+      "label": "lettuce plate",
+      "location": "0.80,0.75,0.95,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink bacon strips",
+        "size": "small"
+      },
+      "id": "bacon1",
+      "label": "bacon slices",
+      "location": "0.60,0.80,0.80,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "water_glass1",
+      "label": "water glass",
+      "location": "0.70,0.75,0.75,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow oil bottle",
+        "size": "small"
+      },
+      "id": "oil_bottle1",
+      "label": "oil bottle",
+      "location": "0.40,0.40,0.45,0.60,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "glass_bowl1",
+      "label": "glass bowl",
+      "location": "0.00,0.80,0.15,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue cloth",
+        "size": "small"
+      },
+      "id": "towel1",
+      "label": "cloth towel",
+      "location": "0.05,0.75,0.20,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread",
+        "size": "small"
+      },
+      "id": "sandwich1",
+      "label": "sandwich",
+      "location": "0.80,0.80,0.90,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "salt_shaker1",
+      "label": "salt shaker",
+      "location": "0.60,0.75,0.65,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "pepper_shaker1",
+      "label": "pepper shaker",
+      "location": "0.65,0.75,0.70,0.85,0.8"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "on",
+      "source": "logo2",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "bottle2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle3",
+      "target": "bottle4"
+    },
+    {
+      "predicate": "left_of",
+      "source": "sign1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink shirt blue apron black hair glasses",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.1,0.98,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.5,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red white black graphic",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Master Chef logo",
+      "location": "0.37,0.0,0.43,0.15,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown glass",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "spice bottle",
+      "location": "0.55,0.05,0.6,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "medium"
+      },
+      "id": "bottle2",
+      "label": "spice bottle",
+      "location": "0.6,0.05,0.65,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass red liquid",
+        "size": "medium"
+      },
+      "id": "bottle3",
+      "label": "spice bottle",
+      "location": "0.65,0.05,0.7,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue plastic",
+        "size": "medium"
+      },
+      "id": "bottle4",
+      "label": "spice bottle",
+      "location": "0.7,0.05,0.75,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "medium"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.5,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on grey background",
+        "size": "small"
+      },
+      "id": "sign1",
+      "label": "ingredient sign",
+      "location": "0.0,0.75,0.3,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red white black graphic",
+        "size": "small"
+      },
+      "id": "logo2",
+      "label": "Master Chef logo",
+      "location": "0.8,0.0,0.9,0.15,0.8"
+    }
+  ]
+}

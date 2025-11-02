@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "towel1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in",
+      "source": "fish1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_salt1",
+      "target": "bowl_pepper1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl_salt1",
+      "target": "bowl_pepper1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "logo1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.0,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue fabric",
+        "size": "small"
+      },
+      "id": "towel1",
+      "label": "Towel",
+      "location": "0.35,0.0,0.7,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "Frying Pan",
+      "location": "0.1,0.3,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw",
+        "size": "small"
+      },
+      "id": "fish1",
+      "label": "Fish Fillet",
+      "location": "0.25,0.45,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "Stovetop",
+      "location": "0.0,0.7,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with white salt",
+        "size": "small"
+      },
+      "id": "bowl_salt1",
+      "label": "Salt Bowl",
+      "location": "0.1,0.2,0.25,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with black pepper",
+        "size": "small"
+      },
+      "id": "bowl_pepper1",
+      "label": "Pepper Bowl",
+      "location": "0.25,0.2,0.4,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Logo",
+      "location": "0.8,0.8,1.0,1.0,0.9"
+    }
+  ]
+}

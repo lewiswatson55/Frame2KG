@@ -1,0 +1,117 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "hand1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "egg1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread1",
+      "target": "bread2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread2",
+      "target": "bread3"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread3",
+      "target": "bread4"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl1",
+      "target": "lettuce1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.25,0.0,0.75,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "large"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce Leaf",
+      "location": "0.0,0.2,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white cooked",
+        "size": "small"
+      },
+      "id": "egg1",
+      "label": "Egg",
+      "location": "0.3,0.5,0.5,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted brown",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "Bread Slice",
+      "location": "0.5,0.5,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted brown",
+        "size": "small"
+      },
+      "id": "bread2",
+      "label": "Bread Slice",
+      "location": "0.6,0.5,0.7,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted brown",
+        "size": "small"
+      },
+      "id": "bread3",
+      "label": "Bread Slice",
+      "location": "0.7,0.5,0.8,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted brown",
+        "size": "small"
+      },
+      "id": "bread4",
+      "label": "Bread Slice",
+      "location": "0.8,0.5,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Wooden Bowl",
+      "location": "0.0,0.7,0.3,1.0,0.7"
+    }
+  ]
+}

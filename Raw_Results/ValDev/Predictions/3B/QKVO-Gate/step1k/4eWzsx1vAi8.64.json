@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "vase1",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "shelf"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "shelf"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown hair grey top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.15,0.65,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal bars white wood",
+        "size": "medium"
+      },
+      "id": "shelf",
+      "label": "wall shelf",
+      "location": "0.0,0.0,1.0,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue and white ceramic",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "decorative vase",
+      "location": "0.25,0.2,0.35,0.35,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "ceramic plate",
+      "location": "0.35,0.2,0.45,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "ceramic bowl",
+      "location": "0.45,0.2,0.55,0.3,0.7"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "ketchup1",
+      "target": "burger1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "burger1"
+    },
+    {
+      "predicate": "on",
+      "source": "onion1",
+      "target": "burger1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "burger1",
+      "target": "burger2"
+    },
+    {
+      "predicate": "on",
+      "source": "bun_top1",
+      "target": "burger2"
+    },
+    {
+      "predicate": "behind",
+      "source": "plate1",
+      "target": "burger1"
+    },
+    {
+      "predicate": "behind",
+      "source": "plate1",
+      "target": "burger2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown meat patty on green lettuce",
+        "size": "medium"
+      },
+      "id": "burger1",
+      "label": "burger",
+      "location": "0.05,0.45,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown meat patty on green lettuce",
+        "size": "medium"
+      },
+      "id": "burger2",
+      "label": "burger",
+      "location": "0.7,0.3,1.0,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red smooth",
+        "size": "small"
+      },
+      "id": "ketchup1",
+      "label": "ketchup",
+      "location": "0.2,0.3,0.4,0.45,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "purple rings",
+        "size": "small"
+      },
+      "id": "onion1",
+      "label": "onion slice",
+      "location": "0.0,0.45,0.3,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "large"
+      },
+      "id": "lettuce1",
+      "label": "lettuce",
+      "location": "0.0,0.5,0.7,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread top",
+        "size": "small"
+      },
+      "id": "bun_top1",
+      "label": "bread bun top",
+      "location": "0.7,0.2,1.0,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.0,0.6,0.3,0.6"
+    }
+  ]
+}

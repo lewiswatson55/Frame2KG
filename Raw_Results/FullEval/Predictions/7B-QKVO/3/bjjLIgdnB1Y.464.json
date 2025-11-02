@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake2",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake3",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "board1",
+      "target": "griddle1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.05,0.05,0.48,0.67,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "pancake1",
+      "label": "Pancake",
+      "location": "0.08,0.25,0.25,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "pancake2",
+      "label": "Pancake",
+      "location": "0.02,0.35,0.25,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "pancake3",
+      "label": "Pancake",
+      "location": "0.0,0.45,0.25,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "griddle1",
+      "label": "Griddle",
+      "location": "0.45,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "Spatula",
+      "location": "0.75,0.0,0.95,0.3,0.8"
+    }
+  ]
+}

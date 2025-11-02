@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "flour1"
+    },
+    {
+      "predicate": "on",
+      "source": "flour1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "plate1",
+      "target": "bag1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "large"
+      },
+      "id": "flour1",
+      "label": "flour",
+      "location": "0.05,0.3,0.95,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "raw pink",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "chicken pieces",
+      "location": "0.4,0.2,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "multicolored patterned plastic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plastic plate",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic bag",
+        "size": "small"
+      },
+      "id": "bag1",
+      "label": "plastic bag",
+      "location": "0.0,0.0,0.2,0.3,0.6"
+    }
+  ]
+}

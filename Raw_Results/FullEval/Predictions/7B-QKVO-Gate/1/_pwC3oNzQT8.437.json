@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text_subscribe",
+      "target": "food"
+    },
+    {
+      "predicate": "on",
+      "source": "text_now",
+      "target": "food"
+    },
+    {
+      "predicate": "on",
+      "source": "text_flavours",
+      "target": "food"
+    },
+    {
+      "predicate": "on",
+      "source": "text_caribbean",
+      "target": "food"
+    },
+    {
+      "predicate": "on",
+      "source": "text_chef_ricardo",
+      "target": "background"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text_chef_ricardo",
+      "target": "food"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red gradient",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "colorful fruits and rice",
+        "size": "medium"
+      },
+      "id": "food",
+      "label": "Caribbean Food Plate",
+      "location": "0.35,0.05,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white bold letters",
+        "size": "small"
+      },
+      "id": "text_subscribe",
+      "label": "Subscribe Text",
+      "location": "0.4,0.15,0.6,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow bold letters",
+        "size": "small"
+      },
+      "id": "text_now",
+      "label": "Now Text",
+      "location": "0.4,0.25,0.6,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange bold letters",
+        "size": "small"
+      },
+      "id": "text_flavours",
+      "label": "Flavours Text",
+      "location": "0.4,0.35,0.6,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bold letters",
+        "size": "small"
+      },
+      "id": "text_caribbean",
+      "label": "Caribbean Text",
+      "location": "0.4,0.45,0.6,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black cursive font",
+        "size": "medium"
+      },
+      "id": "text_chef_ricardo",
+      "label": "Chef Ricardo Text",
+      "location": "0.4,0.6,0.6,0.9,0.8"
+    }
+  ]
+}

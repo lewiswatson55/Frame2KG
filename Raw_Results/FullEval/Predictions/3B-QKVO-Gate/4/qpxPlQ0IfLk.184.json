@@ -1,0 +1,155 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "salt_bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper_bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tongs1",
+      "target": "salt_bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "jar1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "box1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bottle1",
+      "target": "box1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "striped apron",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.65,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "wine bottle",
+      "location": "0.75,0.0,0.95,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "romaine lettuce",
+      "location": "0.2,0.35,0.8,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white grilled",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "grilled chicken piece",
+      "location": "0.35,0.55,0.5,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crust",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "toasted bread pieces",
+      "location": "0.55,0.6,0.8,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden bowl with white salt",
+        "size": "small"
+      },
+      "id": "salt_bowl1",
+      "label": "salt bowl",
+      "location": "0.0,0.6,0.3,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden bowl with black pepper",
+        "size": "small"
+      },
+      "id": "pepper_bowl1",
+      "label": "pepper bowl",
+      "location": "0.2,0.6,0.45,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "metal tongs",
+      "location": "0.0,0.4,0.3,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue plastic jar",
+        "size": "medium"
+      },
+      "id": "jar1",
+      "label": "mayonnaise jar",
+      "location": "0.2,0.0,0.4,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige cardboard box",
+        "size": "medium"
+      },
+      "id": "box1",
+      "label": "cardboard box",
+      "location": "0.4,0.0,0.6,0.4,0.7"
+    }
+  ]
+}

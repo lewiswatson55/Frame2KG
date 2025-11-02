@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bun_top1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato_slice1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "plate1",
+      "target": "tray1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown bread",
+        "size": "medium"
+      },
+      "id": "bun_top1",
+      "label": "Bread Bun Top",
+      "location": "0.65,0.05,0.98,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown grilled meat",
+        "size": "small"
+      },
+      "id": "patty1",
+      "label": "Meat Patty",
+      "location": "0.45,0.35,0.95,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce Leaves",
+      "location": "0.45,0.45,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red slice",
+        "size": "small"
+      },
+      "id": "tomato_slice1",
+      "label": "Tomato Slice",
+      "location": "0.55,0.35,0.95,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.4,0.3,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal tray with parchment paper",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "Tray of Raw Patties",
+      "location": "0.0,0.0,0.6,0.4,0.8"
+    }
+  ]
+}

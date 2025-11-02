@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "holding",
+      "source": "spoon1",
+      "target": "pancake1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "spoon1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "countertop1",
+      "target": "griddle1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "griddle1",
+      "label": "Griddle",
+      "location": "0.05,0.0,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white batter",
+        "size": "small"
+      },
+      "id": "pancake1",
+      "label": "Pancake",
+      "location": "0.43,0.15,0.60,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic blue",
+        "size": "medium"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.45,0.0,0.60,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "speckled granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.0,0.30,0.30,0.7"
+    }
+  ]
+}

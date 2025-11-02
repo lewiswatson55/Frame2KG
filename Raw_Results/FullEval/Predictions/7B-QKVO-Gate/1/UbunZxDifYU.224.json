@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "flour1"
+    },
+    {
+      "predicate": "in",
+      "source": "flour1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "potato1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "potato1",
+      "target": "tray1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "orange ceramic with colorful patterns",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "baking tray",
+      "location": "0.05,0.0,0.98,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "medium"
+      },
+      "id": "flour1",
+      "label": "flour",
+      "location": "0.1,0.1,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "raw pinkish white",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "raw chicken pieces",
+      "location": "0.4,0.2,0.7,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "red skin",
+        "size": "medium"
+      },
+      "id": "potato1",
+      "label": "potato",
+      "location": "0.0,0.0,0.3,0.3,0.7"
+    }
+  ]
+}

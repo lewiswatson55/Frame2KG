@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pan1",
+      "target": "bottle1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.45,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red silicone",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "Spatula",
+      "location": "0.0,0.0,0.7,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black non-stick metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "Frying Pan",
+      "location": "0.0,0.2,1.0,0.7,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "black glass",
+        "size": "small"
+      },
+      "id": "stove1",
+      "label": "Stovetop Burner",
+      "location": "0.0,0.7,0.5,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic red cap",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "Spice Bottle",
+      "location": "0.0,0.75,0.2,1.0,0.9"
+    }
+  ]
+}

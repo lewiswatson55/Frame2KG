@@ -1,0 +1,159 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "fruit1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "dip1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl1",
+      "target": "fruit1"
+    },
+    {
+      "predicate": "on",
+      "source": "meat1",
+      "target": "plate2"
+    },
+    {
+      "predicate": "on",
+      "source": "sauce1",
+      "target": "plate2"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "plate3"
+    },
+    {
+      "predicate": "on",
+      "source": "wineglass1",
+      "target": "tablecloth1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "masonjar1",
+      "target": "peaches1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pizza1",
+      "target": "masonjar1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "fruit plate",
+      "location": "0.15,0.45,0.45,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl of dip",
+      "location": "0.25,0.45,0.45,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red and green",
+        "size": "large"
+      },
+      "id": "fruit1",
+      "label": "fruit slices",
+      "location": "0.15,0.45,0.45,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown grilled",
+        "size": "medium"
+      },
+      "id": "meat1",
+      "label": "grilled meat patty",
+      "location": "0.25,0.75,0.45,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red sauce",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "sauce",
+      "location": "0.25,0.8,0.45,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate2",
+      "label": "plate",
+      "location": "0.15,0.75,0.45,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "multicolored patterned",
+        "size": "large"
+      },
+      "id": "tablecloth1",
+      "label": "tablecloth",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with red wine",
+        "size": "small"
+      },
+      "id": "wineglass1",
+      "label": "wine glass",
+      "location": "0.6,0.0,0.7,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "masonjar1",
+      "label": "mason jar",
+      "location": "0.75,0.45,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "peach slices",
+        "size": "medium"
+      },
+      "id": "peaches1",
+      "label": "peaches",
+      "location": "0.75,0.45,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread with tomato sauce",
+        "size": "medium"
+      },
+      "id": "bread1",
+      "label": "bread slice",
+      "location": "0.8,0.75,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white pizza with red sauce",
+        "size": "medium"
+      },
+      "id": "pizza1",
+      "label": "pizza slice",
+      "location": "0.8,0.75,1.0,1.0,0.8"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "left_of",
+      "source": "logo1",
+      "target": "text1"
+    },
+    {
+      "predicate": "below",
+      "source": "text1",
+      "target": "logo2"
+    },
+    {
+      "predicate": "above",
+      "source": "text2",
+      "target": "copyright_text"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white text on green leaf logo",
+        "size": "medium"
+      },
+      "id": "logo1",
+      "label": "Rodale logo",
+      "location": "0.45,0.35,0.60,0.48,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green text on white background",
+        "size": "large"
+      },
+      "id": "text1",
+      "label": "Berman Braun text",
+      "location": "0.37,0.50,0.63,0.60,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "small"
+      },
+      "id": "logo2",
+      "label": "RB Media LLC copyright text",
+      "location": "0.30,0.80,0.70,0.90,0.8"
+    }
+  ]
+}

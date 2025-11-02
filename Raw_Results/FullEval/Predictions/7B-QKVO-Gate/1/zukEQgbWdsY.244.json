@@ -1,0 +1,416 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "pan2",
+      "target": "stove"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "oven"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "coffee_machine1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "oil_bottle1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "plant1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot2",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot3",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar2",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar3",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "canister1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "canister2",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "canister3",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "toaster1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "plant2",
+      "target": "shelf1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "grey shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.0,0.48,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.47,0.0,0.96,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.7,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black cast iron",
+        "size": "medium"
+      },
+      "id": "pan2",
+      "label": "skillet",
+      "location": "0.3,0.7,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "gas stove",
+      "location": "0.0,0.6,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.0,0.75,0.2,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "wine bottle",
+      "location": "0.15,0.2,0.25,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white brick",
+        "size": "large"
+      },
+      "id": "backsplash",
+      "label": "backsplash",
+      "location": "0.0,0.2,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "large"
+      },
+      "id": "oven",
+      "label": "oven",
+      "location": "0.0,0.0,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "jar",
+      "location": "0.25,0.1,0.3,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar",
+        "size": "small"
+      },
+      "id": "jar2",
+      "label": "jar",
+      "location": "0.3,0.1,0.35,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar",
+        "size": "small"
+      },
+      "id": "jar3",
+      "label": "jar",
+      "location": "0.35,0.1,0.4,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue can",
+        "size": "small"
+      },
+      "id": "canister1",
+      "label": "canister",
+      "location": "0.25,0.15,0.3,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue can",
+        "size": "small"
+      },
+      "id": "canister2",
+      "label": "canister",
+      "location": "0.3,0.15,0.35,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue can",
+        "size": "small"
+      },
+      "id": "canister3",
+      "label": "canister",
+      "location": "0.35,0.15,0.4,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.6,0.3,0.7,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "coffee_machine1",
+      "label": "coffee machine",
+      "location": "0.75,0.3,0.9,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate of food",
+      "location": "0.5,0.6,0.8,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce",
+      "location": "0.6,0.6,0.75,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "bread slices",
+      "location": "0.6,0.7,0.75,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red sliced",
+        "size": "small"
+      },
+      "id": "tomato1",
+      "label": "tomato slices",
+      "location": "0.7,0.7,0.85,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "oil_bottle1",
+      "label": "oil bottle",
+      "location": "0.8,0.7,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green plant",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "potted plant",
+      "location": "0.85,0.2,0.95,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black pot",
+        "size": "small"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.4,0.0,0.5,0.15,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black pot",
+        "size": "small"
+      },
+      "id": "pot2",
+      "label": "cooking pot",
+      "location": "0.5,0.0,0.6,0.15,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black pot",
+        "size": "small"
+      },
+      "id": "pot3",
+      "label": "cooking pot",
+      "location": "0.6,0.0,0.7,0.15,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "jar4",
+      "label": "jar",
+      "location": "0.65,0.0,0.75,0.15,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black plate",
+        "size": "small"
+      },
+      "id": "plate2",
+      "label": "stacked plates",
+      "location": "0.75,0.1,0.85,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black plate",
+        "size": "small"
+      },
+      "id": "plate3",
+      "label": "stacked plates",
+      "location": "0.85,0.1,0.95,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black pot",
+        "size": "small"
+      },
+      "id": "plant2",
+      "label": "potted plant",
+      "location": "0.9,0.1,1.0,0.25,0.7"
+    }
+  ]
+}

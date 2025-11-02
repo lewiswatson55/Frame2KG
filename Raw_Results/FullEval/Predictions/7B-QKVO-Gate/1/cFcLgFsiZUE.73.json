@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "food1"
+    },
+    {
+      "predicate": "on",
+      "source": "food1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.58,0.03,0.97,0.46,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow breaded",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "breaded food piece",
+      "location": "0.45,0.35,0.75,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "glass plate",
+      "location": "0.35,0.30,0.75,0.65,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "brown speckled granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "kitchen countertop",
+      "location": "0.00,0.00,1.00,1.00,0.7"
+    }
+  ]
+}

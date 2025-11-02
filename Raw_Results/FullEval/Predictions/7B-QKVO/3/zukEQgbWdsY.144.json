@@ -1,0 +1,220 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan2",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "window1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet_shelves1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "board1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "plate1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bowl1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "blender1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "toaster1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "above",
+      "source": "shelf_bottles1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "sign1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "grey shirt beard",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt pig graphic",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.52,0.05,0.95,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.37,0.65,0.63,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan2",
+      "label": "frying pan",
+      "location": "0.65,0.65,0.95,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.35,0.6,0.95,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.7,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "dish1",
+      "label": "small bowl",
+      "location": "0.15,0.75,0.25,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "dish2",
+      "label": "small bowl",
+      "location": "0.25,0.75,0.35,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "paper plate",
+      "location": "0.8,0.7,0.95,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.75,0.6,0.85,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.85,0.5,0.98,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic grey",
+        "size": "small"
+      },
+      "id": "toaster1",
+      "label": "toaster",
+      "location": "0.9,0.0,1.0,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cabinet_shelves1",
+      "label": "kitchen shelves",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass bottles",
+        "size": "medium"
+      },
+      "id": "shelf_bottles1",
+      "label": "bottles on shelf",
+      "location": "0.3,0.0,0.7,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text",
+        "size": "small"
+      },
+      "id": "sign1",
+      "label": "logo sign",
+      "location": "0.85,0.8,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.0,0.0,0.2,1.0,0.9"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person_hands",
+      "target": "spatula"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon_strips",
+      "target": "pan"
+    },
+    {
+      "predicate": "in",
+      "source": "spatula",
+      "target": "pan"
+    },
+    {
+      "predicate": "on",
+      "source": "pan",
+      "target": "stove_grate"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person_hands",
+      "label": "hands",
+      "location": "0.15,0.0,0.85,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan",
+      "label": "cast iron skillet",
+      "location": "0.0,0.3,1.0,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink white fatty",
+        "size": "small"
+      },
+      "id": "bacon_strips",
+      "label": "bacon strips",
+      "location": "0.2,0.45,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "spatula",
+      "label": "metal spatula",
+      "location": "0.3,0.2,0.7,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal bars",
+        "size": "large"
+      },
+      "id": "stove_grate",
+      "label": "stove grate",
+      "location": "0.0,0.75,1.0,1.0,0.9"
+    }
+  ]
+}

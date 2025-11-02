@@ -1,0 +1,145 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sink1",
+      "target": "faucet1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinets1"
+    },
+    {
+      "predicate": "above",
+      "source": "microwave1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "vase1",
+      "target": "tumbler1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "mug1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "behind",
+      "source": "flowers1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light blue lace top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black handle silver blade",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.45,0.45,0.55,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with yellow mixture",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "food processor",
+      "location": "0.75,0.7,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "large"
+      },
+      "id": "cabinets1",
+      "label": "kitchen cabinets",
+      "location": "0.0,0.0,1.0,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black stainless steel",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.6,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave",
+      "location": "0.75,0.0,1.0,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.3,0.3,0.5,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic",
+        "size": "small"
+      },
+      "id": "faucet1",
+      "label": "faucet",
+      "location": "0.4,0.2,0.5,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red flowers in clear vase",
+        "size": "small"
+      },
+      "id": "flowers1",
+      "label": "flower arrangement",
+      "location": "0.0,0.3,0.2,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass red liquid",
+        "size": "small"
+      },
+      "id": "tumbler1",
+      "label": "water bottle",
+      "location": "0.2,0.4,0.3,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "mug1",
+      "label": "mugs",
+      "location": "0.6,0.4,0.8,0.6,0.7"
+    }
+  ]
+}

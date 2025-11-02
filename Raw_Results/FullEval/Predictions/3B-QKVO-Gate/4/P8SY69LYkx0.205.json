@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "gloved_hand_left",
+      "target": "patty"
+    },
+    {
+      "predicate": "holding",
+      "source": "gloved_hand_right",
+      "target": "tray"
+    },
+    {
+      "predicate": "on",
+      "source": "patty",
+      "target": "tray"
+    },
+    {
+      "predicate": "on",
+      "source": "patty2",
+      "target": "tray"
+    },
+    {
+      "predicate": "on",
+      "source": "patty3",
+      "target": "tray"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl",
+      "target": "tray"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "tray",
+      "target": "person_body"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white latex",
+        "size": "medium"
+      },
+      "id": "gloved_hand_left",
+      "label": "left glove hand",
+      "location": "0.45,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white latex",
+        "size": "medium"
+      },
+      "id": "gloved_hand_right",
+      "label": "right glove hand",
+      "location": "0.75,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red minced meat",
+        "size": "small"
+      },
+      "id": "patty",
+      "label": "raw burger patty",
+      "location": "0.35,0.45,0.55,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red minced meat",
+        "size": "small"
+      },
+      "id": "patty2",
+      "label": "raw burger patty",
+      "location": "0.55,0.45,0.75,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red minced meat",
+        "size": "small"
+      },
+      "id": "patty3",
+      "label": "raw burger patty",
+      "location": "0.75,0.45,0.95,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "cutting board",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl",
+      "label": "glass bowl",
+      "location": "0.0,0.0,0.3,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "tray",
+      "label": "metal tray",
+      "location": "0.2,0.4,0.8,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin",
+        "size": "large"
+      },
+      "id": "person_body",
+      "label": "person torso",
+      "location": "0.2,0.0,0.8,0.4,0.8"
+    }
+  ]
+}

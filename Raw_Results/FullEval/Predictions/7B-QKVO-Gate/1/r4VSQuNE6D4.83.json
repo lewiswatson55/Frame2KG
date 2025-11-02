@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula1",
+      "target": "pancake1"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black handle metal",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "Spatula",
+      "location": "0.35,0.0,0.65,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow batter",
+        "size": "large"
+      },
+      "id": "pancake1",
+      "label": "Pancake",
+      "location": "0.4,0.1,0.95,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red floral pattern",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "Tray",
+      "location": "0.0,0.2,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

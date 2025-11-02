@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon1",
+      "target": "plate2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "knife1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cup1",
+      "target": "plate3"
+    },
+    {
+      "predicate": "left_of",
+      "source": "plate1",
+      "target": "plate2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "plate3",
+      "target": "plate2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.05,0.45,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted brown",
+        "size": "medium"
+      },
+      "id": "bread1",
+      "label": "Bread slices",
+      "location": "0.1,0.5,0.6,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black handle metal blade",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "Knife",
+      "location": "0.2,0.5,0.6,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate2",
+      "label": "Plate",
+      "location": "0.2,0.0,0.9,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "crispy red",
+        "size": "small"
+      },
+      "id": "bacon1",
+      "label": "Bacon strips",
+      "location": "0.3,0.1,0.8,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate3",
+      "label": "Plate",
+      "location": "0.5,0.45,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown toasted",
+        "size": "small"
+      },
+      "id": "bread2",
+      "label": "Bread slices",
+      "location": "0.6,0.55,0.9,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green sauce in white cup",
+        "size": "small"
+      },
+      "id": "cup1",
+      "label": "Sauce cup",
+      "location": "0.85,0.1,1.0,0.4,0.7"
+    }
+  ]
+}

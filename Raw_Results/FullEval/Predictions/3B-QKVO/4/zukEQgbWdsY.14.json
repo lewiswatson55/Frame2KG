@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "flame1",
+      "target": "food1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "arrow_left1",
+      "target": "food1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "arrow_right1",
+      "target": "food1"
+    },
+    {
+      "predicate": "above",
+      "source": "title1",
+      "target": "logo1"
+    },
+    {
+      "predicate": "below",
+      "source": "subtitle1",
+      "target": "logo1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green text on beige background",
+        "size": "large"
+      },
+      "id": "title1",
+      "label": "Title Text",
+      "location": "0.05,0.3,0.95,0.48,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red and green flame graphic",
+        "size": "medium"
+      },
+      "id": "logo1",
+      "label": "Flame Logo",
+      "location": "0.47,0.3,0.53,0.46,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green text on beige background",
+        "size": "small"
+      },
+      "id": "subtitle1",
+      "label": "Subtitle Text",
+      "location": "0.05,0.55,0.95,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green arrow left",
+        "size": "small"
+      },
+      "id": "arrow_left1",
+      "label": "Arrow Left",
+      "location": "0.02,0.45,0.12,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green arrow right",
+        "size": "small"
+      },
+      "id": "arrow_right1",
+      "label": "Arrow Right",
+      "location": "0.88,0.45,0.98,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow red orange flame",
+        "size": "small"
+      },
+      "id": "flame1",
+      "label": "Flame Graphic",
+      "location": "0.47,0.3,0.53,0.46,0.9"
+    }
+  ]
+}

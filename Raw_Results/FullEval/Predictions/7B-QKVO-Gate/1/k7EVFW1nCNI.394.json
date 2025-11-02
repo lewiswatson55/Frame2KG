@@ -1,0 +1,155 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "lemon1"
+    },
+    {
+      "predicate": "on",
+      "source": "lemon1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "in",
+      "source": "croutons1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "salad1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl2",
+      "target": "spoons1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "behind",
+      "source": "dishwasher1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "box1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white lace top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.35,0.0,0.65,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "lemon half",
+      "location": "0.48,0.25,0.55,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.45,0.2,0.6,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl of croutons",
+      "location": "0.25,0.45,0.4,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown toasted",
+        "size": "small"
+      },
+      "id": "croutons1",
+      "label": "croutons",
+      "location": "0.28,0.48,0.38,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl2",
+      "label": "salad bowl",
+      "location": "0.4,0.45,0.6,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "salad1",
+      "label": "salad",
+      "location": "0.45,0.5,0.6,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "spoons1",
+      "label": "spoons",
+      "location": "0.7,0.2,0.9,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "wooden countertop",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "dishwasher1",
+      "label": "dishwasher",
+      "location": "0.0,0.0,0.3,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black cardboard",
+        "size": "small"
+      },
+      "id": "box1",
+      "label": "cardboard box",
+      "location": "0.0,0.4,0.1,0.6,0.7"
+    }
+  ]
+}

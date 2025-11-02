@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "left_of",
+      "source": "pepper1",
+      "target": "text1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "text1",
+      "target": "logo1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red glossy",
+        "size": "medium"
+      },
+      "id": "pepper1",
+      "label": "Red Pepper",
+      "location": "0.05,0.35,0.30,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red text on white background",
+        "size": "large"
+      },
+      "id": "text1",
+      "label": "CaribbeanPot.com Text",
+      "location": "0.40,0.40,0.98,0.70,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white background",
+        "size": "large"
+      },
+      "id": "logo1",
+      "label": "White Background",
+      "location": "0.00,0.00,1.00,1.00,0.8"
+    }
+  ]
+}

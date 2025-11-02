@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "bag1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "crumbs1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bag1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "behind",
+      "source": "window1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "oven1",
+      "target": "bag1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white plastic with blue text and image of breaded chicken wings",
+        "size": "medium"
+      },
+      "id": "bag1",
+      "label": "Panko Bread Crumb Bag",
+      "location": "0.05,0.0,0.48,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic bowl filled with light beige breadcrumbs",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Bread Crumb Bowl",
+      "location": "0.48,0.35,0.85,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light beige granular",
+        "size": "small"
+      },
+      "id": "crumbs1",
+      "label": "Bread Crumbs",
+      "location": "0.55,0.45,0.80,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black smooth surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass with raindrops",
+        "size": "medium"
+      },
+      "id": "window1",
+      "label": "Window",
+      "location": "0.4,0.0,0.6,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "oven1",
+      "label": "Oven Door",
+      "location": "0.75,0.0,1.0,0.6,0.7"
+    }
+  ]
+}

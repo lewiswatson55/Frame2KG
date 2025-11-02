@@ -1,0 +1,168 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "microwave1",
+      "target": "cabinet_left"
+    },
+    {
+      "predicate": "next_to",
+      "source": "utensils_holder1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "fruit_bowl1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "sink1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "right_of",
+      "source": "toaster1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "behind",
+      "source": "window1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "striped apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.05,0.65,0.98,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.15,0.45,0.35,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver black",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.45,0.35,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black silver",
+        "size": "small"
+      },
+      "id": "microwave1",
+      "label": "microwave oven",
+      "location": "0.0,0.0,0.3,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet_left",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.3,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet_right",
+      "label": "kitchen cabinet",
+      "location": "0.7,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden utensils",
+        "size": "small"
+      },
+      "id": "utensils_holder1",
+      "label": "utensil holder",
+      "location": "0.0,0.4,0.15,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bowl fruit",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "fruit bowl",
+      "location": "0.35,0.55,0.45,0.65,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic bowls",
+        "size": "small"
+      },
+      "id": "fruit_bowl1",
+      "label": "decorative bowls",
+      "location": "0.55,0.45,0.7,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal sink",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "kitchen sink",
+      "location": "0.5,0.6,0.7,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "toaster1",
+      "label": "toaster",
+      "location": "0.85,0.6,0.95,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "beige tile",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.4,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame glass",
+        "size": "medium"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.4,0.0,0.6,0.3,0.7"
+    }
+  ]
+}

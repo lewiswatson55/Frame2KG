@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "oil1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "ring1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "bubbling yellowish liquid",
+        "size": "medium"
+      },
+      "id": "oil1",
+      "label": "cooking oil",
+      "location": "0.0,0.1,1.0,0.8,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "golden battered",
+        "size": "small"
+      },
+      "id": "ring1",
+      "label": "onion ring",
+      "location": "0.75,0.3,0.98,0.6,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "white red black",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "MasterChef logo",
+      "location": "0.8,0.0,1.0,0.2,0.92"
+    }
+  ]
+}

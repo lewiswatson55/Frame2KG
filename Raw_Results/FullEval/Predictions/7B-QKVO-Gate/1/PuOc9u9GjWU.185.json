@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "oil1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "ring1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "ring1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "bubbling yellow",
+        "size": "medium"
+      },
+      "id": "oil1",
+      "label": "hot oil",
+      "location": "0.0,0.6,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "ring1",
+      "label": "onion ring",
+      "location": "0.4,0.3,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.3,0.0,0.7,0.5,0.8"
+    }
+  ]
+}

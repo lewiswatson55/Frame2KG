@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "tongs1"
+    },
+    {
+      "predicate": "on",
+      "source": "tongs1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "grill_pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken2",
+      "target": "grill_pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_slices",
+      "target": "grill_pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread_slices",
+      "target": "chicken1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.0,0.45,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tongs1",
+      "label": "Tongs",
+      "location": "0.0,0.0,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "grill_pan1",
+      "label": "Grill Pan",
+      "location": "0.0,0.2,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "Chicken Breast",
+      "location": "0.45,0.5,0.75,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "small"
+      },
+      "id": "chicken2",
+      "label": "Chicken Breast",
+      "location": "0.3,0.3,0.6,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crusty",
+        "size": "small"
+      },
+      "id": "bread_slices",
+      "label": "Bread Slices",
+      "location": "0.3,0.1,0.7,0.3,0.8"
+    }
+  ]
+}

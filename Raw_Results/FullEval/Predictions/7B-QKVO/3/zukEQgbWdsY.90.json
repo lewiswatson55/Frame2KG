@@ -1,0 +1,89 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_salt1",
+      "target": "bowl_spice1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "pan1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink raw",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "raw chicken pieces",
+      "location": "0.05,0.48,0.63,0.79,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.45,0.7,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic blade black handle",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "kitchen knife",
+      "location": "0.0,0.35,0.6,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "glass white salt",
+        "size": "small"
+      },
+      "id": "bowl_salt1",
+      "label": "salt bowl",
+      "location": "0.55,0.35,0.65,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "glass brown spice",
+        "size": "small"
+      },
+      "id": "bowl_spice1",
+      "label": "spice bowl",
+      "location": "0.65,0.35,0.75,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.5,0.5,1.0,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person torso",
+      "location": "0.5,0.0,1.0,0.6,0.9"
+    }
+  ]
+}

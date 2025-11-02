@@ -1,0 +1,178 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "knife",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_slice",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_red_pepper",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_white_salad",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "vase",
+      "target": "table"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "tv_screen",
+      "target": "wall"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "logo",
+      "target": "tv_screen"
+    },
+    {
+      "predicate": "behind",
+      "source": "chair",
+      "target": "person2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person1",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "turquoise shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.18,0.47,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green dress",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.56,0.15,0.95,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.05,0.65,0.65,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.1,0.7,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread slice",
+        "size": "small"
+      },
+      "id": "bread_slice",
+      "label": "bread slice",
+      "location": "0.25,0.75,0.35,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate red peppers",
+        "size": "small"
+      },
+      "id": "bowl_red_pepper",
+      "label": "plate of red peppers",
+      "location": "0.3,0.65,0.45,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate green lettuce",
+        "size": "small"
+      },
+      "id": "bowl_white_salad",
+      "label": "plate of salad greens",
+      "location": "0.45,0.65,0.6,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "vase",
+      "label": "vase",
+      "location": "0.5,0.6,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink purple screen",
+        "size": "large"
+      },
+      "id": "tv_screen",
+      "label": "TV screen",
+      "location": "0.1,0.0,0.9,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black text pink background",
+        "size": "small"
+      },
+      "id": "logo",
+      "label": "POPSUGAR logo",
+      "location": "0.2,0.1,0.8,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "medium"
+      },
+      "id": "chair",
+      "label": "office chair",
+      "location": "0.8,0.3,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "table",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink painted",
+        "size": "large"
+      },
+      "id": "wall",
+      "label": "wall",
+      "location": "0.0,0.0,1.0,0.5,0.9"
+    }
+  ]
+}

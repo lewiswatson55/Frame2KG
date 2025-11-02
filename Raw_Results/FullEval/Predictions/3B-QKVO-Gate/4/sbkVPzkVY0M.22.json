@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person_group1",
+      "target": "building1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person_group1",
+      "target": "tree1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "lamp_post1",
+      "target": "tree1"
+    },
+    {
+      "predicate": "behind",
+      "source": "trees1",
+      "target": "person_group1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "car1",
+      "target": "person_group1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "gray brick",
+        "size": "large"
+      },
+      "id": "building1",
+      "label": "office building",
+      "location": "0.0,0.0,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves white blossoms",
+        "size": "medium"
+      },
+      "id": "tree1",
+      "label": "blossom tree",
+      "location": "0.4,0.0,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "small"
+      },
+      "id": "lamp_post1",
+      "label": "street lamp post",
+      "location": "0.7,0.3,0.8,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige sand-colored pavement",
+        "size": "large"
+      },
+      "id": "ground1",
+      "label": "pavement",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "mixed clothing colors",
+        "size": "large"
+      },
+      "id": "person_group1",
+      "label": "group of people",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white vehicle",
+        "size": "small"
+      },
+      "id": "car1",
+      "label": "car",
+      "location": "0.8,0.4,0.95,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green foliage",
+        "size": "large"
+      },
+      "id": "trees1",
+      "label": "background trees",
+      "location": "0.0,0.0,1.0,0.4,0.7"
+    }
+  ]
+}

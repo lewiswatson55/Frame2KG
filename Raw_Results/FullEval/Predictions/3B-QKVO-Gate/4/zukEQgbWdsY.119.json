@@ -1,0 +1,150 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person2",
+      "target": "plate"
+    },
+    {
+      "predicate": "on",
+      "source": "meat1",
+      "target": "plate"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "oven"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cutting_board",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "stove",
+      "target": "person2"
+    },
+    {
+      "predicate": "behind",
+      "source": "trees",
+      "target": "window"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "oven",
+      "target": "cabinets"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.05,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.65,0.05,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate",
+      "label": "plate",
+      "location": "0.45,0.7,0.65,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "raw red",
+        "size": "small"
+      },
+      "id": "meat1",
+      "label": "raw meat",
+      "location": "0.5,0.75,0.6,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.0,0.4,0.2,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pot",
+      "label": "cooking pot",
+      "location": "0.2,0.8,0.4,0.95,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass pane",
+        "size": "large"
+      },
+      "id": "window",
+      "label": "window",
+      "location": "0.0,0.0,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green foliage",
+        "size": "large"
+      },
+      "id": "trees",
+      "label": "trees",
+      "location": "0.0,0.0,0.6,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "oven",
+      "label": "oven",
+      "location": "0.75,0.1,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinets",
+      "label": "kitchen cabinets",
+      "location": "0.75,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text",
+        "size": "small"
+      },
+      "id": "logo",
+      "label": "TASTED logo",
+      "location": "0.85,0.8,1.0,1.0,0.9"
+    }
+  ]
+}

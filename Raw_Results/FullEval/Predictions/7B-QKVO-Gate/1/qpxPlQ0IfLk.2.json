@@ -1,0 +1,131 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "person1",
+      "target": "skateboard1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "skateboard1",
+      "target": "pipe1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "fence1",
+      "target": "building1"
+    },
+    {
+      "predicate": "behind",
+      "source": "tree1",
+      "target": "building1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "cable1",
+      "target": "pole1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "fence1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "wall1",
+      "target": "fence1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "grey jacket black pants",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.45,0.38,0.57,0.69,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black",
+        "size": "small"
+      },
+      "id": "skateboard1",
+      "label": "skateboard",
+      "location": "0.48,0.62,0.55,0.72,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "large"
+      },
+      "id": "fence1",
+      "label": "metal fence",
+      "location": "0.30,0.45,0.70,0.60,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue painted brick",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "graffiti wall",
+      "location": "0.70,0.00,1.00,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "fence2",
+      "label": "wooden fence",
+      "location": "0.00,0.00,0.30,0.60,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "pole1",
+      "label": "utility pole",
+      "location": "0.35,0.00,0.45,0.70,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black wires",
+        "size": "medium"
+      },
+      "id": "cable1",
+      "label": "power cables",
+      "location": "0.30,0.00,0.70,0.20,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "bare branches",
+        "size": "medium"
+      },
+      "id": "tree1",
+      "label": "tree",
+      "location": "0.40,0.00,0.60,0.60,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white facade",
+        "size": "large"
+      },
+      "id": "building1",
+      "label": "building",
+      "location": "0.30,0.20,0.60,0.60,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "pipe1",
+      "label": "pipe",
+      "location": "0.70,0.55,0.85,0.65,0.6"
+    }
+  ]
+}

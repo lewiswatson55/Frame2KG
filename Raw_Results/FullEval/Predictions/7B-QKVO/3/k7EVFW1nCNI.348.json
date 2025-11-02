@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "bowl1",
+      "target": "salad_bowl"
+    },
+    {
+      "predicate": "in",
+      "source": "lettuce",
+      "target": "salad_bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese_piece",
+      "target": "salad_bowl"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cheese_piece",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "mixer1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "grey floral shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.05,0.0,0.48,0.36,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.17,0.35,0.83,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce",
+      "label": "Lettuce Leaves",
+      "location": "0.20,0.45,0.80,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy",
+        "size": "small"
+      },
+      "id": "cheese_piece",
+      "label": "Cheese Piece",
+      "location": "0.55,0.30,0.65,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with white dressing",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "Dressing Jar",
+      "location": "0.85,0.45,1.00,0.80,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "mixer1",
+      "label": "Stand Mixer",
+      "location": "0.60,0.0,1.00,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "table_surface",
+      "label": "Table Surface",
+      "location": "0.0,0.35,1.0,1.0,0.9"
+    }
+  ]
+}

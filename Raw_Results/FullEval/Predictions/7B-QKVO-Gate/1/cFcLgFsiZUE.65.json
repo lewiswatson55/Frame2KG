@@ -1,0 +1,159 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "display1",
+      "target": "oven1"
+    },
+    {
+      "predicate": "on",
+      "source": "display2",
+      "target": "oven1"
+    },
+    {
+      "predicate": "on",
+      "source": "button1",
+      "target": "oven1"
+    },
+    {
+      "predicate": "on",
+      "source": "button2",
+      "target": "oven1"
+    },
+    {
+      "predicate": "on",
+      "source": "button3",
+      "target": "oven1"
+    },
+    {
+      "predicate": "on",
+      "source": "button4",
+      "target": "oven1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "button5",
+      "target": "button6"
+    },
+    {
+      "predicate": "left_of",
+      "source": "button7",
+      "target": "button8"
+    },
+    {
+      "predicate": "right_of",
+      "source": "button9",
+      "target": "button8"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "large"
+      },
+      "id": "oven1",
+      "label": "Oven Control Panel",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green digital",
+        "size": "medium"
+      },
+      "id": "display1",
+      "label": "Digital Display",
+      "location": "0.3,0.3,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange digital",
+        "size": "small"
+      },
+      "id": "display2",
+      "label": "Digital Display",
+      "location": "0.0,0.5,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "button1",
+      "label": "Start Button",
+      "location": "0.7,0.7,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "button2",
+      "label": "Cook Time Button",
+      "location": "0.8,0.2,0.95,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "button3",
+      "label": "Kitchen Timer On/Off Button",
+      "location": "0.8,0.4,0.95,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "button4",
+      "label": "Oven Light On/Off Button",
+      "location": "0.8,0.6,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "button5",
+      "label": "Timer Button",
+      "location": "0.7,0.6,0.8,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "button6",
+      "label": "Light Button",
+      "location": "0.8,0.6,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "button7",
+      "label": "Cook Time Button",
+      "location": "0.7,0.3,0.8,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "button8",
+      "label": "Kitchen Timer On/Off Button",
+      "location": "0.7,0.4,0.8,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "button9",
+      "label": "Oven Light On/Off Button",
+      "location": "0.7,0.5,0.8,0.6,0.8"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "jars1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "books1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "lamp1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cutting_board1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "ladder1",
+      "target": "cabinet1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black chef coat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.0,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plaid shirt",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.47,0.0,0.96,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey wood",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "wall shelf",
+      "location": "0.0,0.0,1.0,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jars with colorful contents",
+        "size": "small"
+      },
+      "id": "jars1",
+      "label": "jars",
+      "location": "0.1,0.05,0.9,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.0,0.35,0.3,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wooden drawers",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.3,0.6,0.9,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "colorful paperbacks",
+        "size": "small"
+      },
+      "id": "books1",
+      "label": "cookbooks",
+      "location": "0.6,0.5,0.9,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic lamp with bulb",
+        "size": "small"
+      },
+      "id": "lamp1",
+      "label": "table lamp",
+      "location": "0.65,0.45,0.75,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic steps",
+        "size": "medium"
+      },
+      "id": "ladder1",
+      "label": "ladder rack",
+      "location": "0.9,0.2,1.0,1.0,0.8"
+    }
+  ]
+}

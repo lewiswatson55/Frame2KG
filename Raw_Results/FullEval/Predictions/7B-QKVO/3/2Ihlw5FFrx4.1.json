@@ -1,0 +1,180 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "board"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "knife",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_slice",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce_plate",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "sauce_bowl",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "vase",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "behind",
+      "source": "tv_screen",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "tv_screen",
+      "target": "person2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "person2",
+      "target": "person1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "window"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "teal shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.1,0.48,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green dress",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.52,0.1,0.95,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink background",
+        "size": "large"
+      },
+      "id": "tv_screen",
+      "label": "TV screen",
+      "location": "0.3,0.0,0.7,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "table",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.1,0.65,0.6,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.15,0.7,0.3,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread slice",
+        "size": "small"
+      },
+      "id": "bread_slice",
+      "label": "bread slice",
+      "location": "0.25,0.75,0.35,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce_plate",
+      "label": "lettuce plate",
+      "location": "0.4,0.7,0.5,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass white sauce",
+        "size": "small"
+      },
+      "id": "sauce_bowl",
+      "label": "sauce bowl",
+      "location": "0.35,0.75,0.4,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metallic",
+        "size": "small"
+      },
+      "id": "vase",
+      "label": "vase",
+      "location": "0.45,0.65,0.5,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame",
+        "size": "medium"
+      },
+      "id": "window",
+      "label": "window",
+      "location": "0.7,0.0,1.0,0.4,0.8"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hands1",
+      "target": "tomato_slices1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato_slices1",
+      "target": "cheese_burger1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cheese_burger1",
+      "target": "cheese_burger2"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese_burger1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese_burger2",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "behind",
+      "source": "pepper_shaker1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "grill1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hands1",
+      "label": "human hands",
+      "location": "0.35,0.0,0.65,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red",
+        "size": "small"
+      },
+      "id": "tomato_slices1",
+      "label": "tomato slices",
+      "location": "0.48,0.27,0.55,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bun with yellow cheese",
+        "size": "small"
+      },
+      "id": "cheese_burger1",
+      "label": "cheeseburger patty",
+      "location": "0.45,0.45,0.6,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bun with yellow cheese",
+        "size": "small"
+      },
+      "id": "cheese_burger2",
+      "label": "cheeseburger patty",
+      "location": "0.3,0.45,0.45,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.1,0.4,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "pepper_shaker1",
+      "label": "pepper shaker",
+      "location": "0.3,0.0,0.4,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "grill1",
+      "label": "grill",
+      "location": "0.8,0.0,1.0,0.3,0.8"
+    }
+  ]
+}

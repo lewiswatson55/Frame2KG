@@ -1,0 +1,112 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "hood1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "scale1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelves1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow chef coat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.35,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.4,0.4,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.45,0.75,0.6,0.9,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "green logo",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "channel logo",
+      "location": "0.75,0.75,0.95,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "large"
+      },
+      "id": "hood1",
+      "label": "kitchen hood",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey metal",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "wall cabinet",
+      "location": "0.6,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "scale1",
+      "label": "digital scale",
+      "location": "0.6,0.6,0.8,0.8,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "shelves1",
+      "label": "shelf",
+      "location": "0.2,0.1,0.8,0.3,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "grey stone",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.7,1.0,1.0,0.7"
+    }
+  ]
+}

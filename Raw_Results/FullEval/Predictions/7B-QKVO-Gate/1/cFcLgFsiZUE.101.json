@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "wings1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "celery1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "carrots1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "celery1",
+      "target": "carrots1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "sauce_stream1",
+      "target": "wings1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "orange glazed",
+        "size": "large"
+      },
+      "id": "wings1",
+      "label": "chicken wings",
+      "location": "0.35,0.15,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.4,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green",
+        "size": "small"
+      },
+      "id": "celery1",
+      "label": "celery sticks",
+      "location": "0.0,0.6,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange",
+        "size": "small"
+      },
+      "id": "carrots1",
+      "label": "carrot sticks",
+      "location": "0.0,0.6,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red liquid",
+        "size": "medium"
+      },
+      "id": "sauce_stream1",
+      "label": "sauce stream",
+      "location": "0.4,0.0,0.6,0.4,0.7"
+    }
+  ]
+}

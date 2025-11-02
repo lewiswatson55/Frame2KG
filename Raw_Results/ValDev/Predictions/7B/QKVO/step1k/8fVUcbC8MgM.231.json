@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "rice1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pepper_shaker1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl2",
+      "target": "paper_plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "person1",
+      "label": "Person",
+      "location": "0.45,0.0,1.0,0.6,0.8"
+    },
+    {
+      "id": "bowl1",
+      "label": "Metal bowl",
+      "location": "0.0,0.0,0.3,0.3,0.9"
+    },
+    {
+      "id": "bowl2",
+      "label": "Wooden bowl",
+      "location": "0.1,0.3,0.3,0.7,0.9"
+    },
+    {
+      "id": "rice1",
+      "label": "Rice",
+      "location": "0.0,0.3,0.3,0.6,0.9"
+    },
+    {
+      "id": "spatula1",
+      "label": "Spatula",
+      "location": "0.3,0.0,0.6,0.3,0.8"
+    },
+    {
+      "id": "pepper_shaker1",
+      "label": "Pepper shaker",
+      "location": "0.3,0.3,0.45,0.7,0.9"
+    },
+    {
+      "id": "paper_plate1",
+      "label": "Paper plate",
+      "location": "0.4,0.6,0.8,1.0,0.9"
+    },
+    {
+      "id": "foil_wrap1",
+      "label": "Aluminum foil",
+      "location": "0.4,0.2,0.7,0.5,0.8"
+    }
+  ]
+}

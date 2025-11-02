@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "squid1"
+    },
+    {
+      "predicate": "on",
+      "source": "squid1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "squid2",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "squid1",
+      "target": "squid2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink slimy",
+        "size": "medium"
+      },
+      "id": "squid1",
+      "label": "raw squid piece",
+      "location": "0.35,0.4,0.98,0.76,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pale pink slimy",
+        "size": "small"
+      },
+      "id": "squid2",
+      "label": "raw squid piece",
+      "location": "0.05,0.05,0.45,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood grain",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "wooden cutting board",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.6,0.2,1.0,0.8,0.8"
+    }
+  ]
+}

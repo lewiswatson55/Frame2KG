@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bowl_rice",
+      "target": "tray"
+    },
+    {
+      "predicate": "on",
+      "source": "dish_chicken",
+      "target": "tray"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_rice",
+      "target": "dish_chicken"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "logo",
+      "target": "dish_chicken"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl_rice",
+      "label": "glass bowl of rice",
+      "location": "0.05,0.0,0.48,0.37,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "tray",
+      "label": "metal tray",
+      "location": "0.0,0.36,0.6,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange sauce",
+        "size": "medium"
+      },
+      "id": "dish_chicken",
+      "label": "chicken dish",
+      "location": "0.5,0.1,1.0,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "powder",
+      "label": "white powder",
+      "location": "0.2,0.6,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black cursive text",
+        "size": "small"
+      },
+      "id": "logo",
+      "label": "Chef Ricardo logo",
+      "location": "0.6,0.7,1.0,1.0,0.9"
+    }
+  ]
+}

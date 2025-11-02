@@ -1,0 +1,84 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "on",
+      "source": "lamp1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "table1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red shirt,long dark hair",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.0,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame",
+        "size": "medium"
+      },
+      "id": "picture1",
+      "label": "framed picture",
+      "location": "0.3,0.05,0.45,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey frame",
+        "size": "medium"
+      },
+      "id": "picture2",
+      "label": "framed picture",
+      "location": "0.6,0.05,0.85,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "orange fabric",
+        "size": "small"
+      },
+      "id": "lamp1",
+      "label": "decorative lamp",
+      "location": "0.85,0.3,0.98,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "table1",
+      "label": "wooden table",
+      "location": "0.7,0.6,0.98,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white background with red text",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "name text",
+      "location": "0.0,0.8,0.4,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige painted",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

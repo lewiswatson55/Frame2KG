@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "sofa"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "holding",
+      "source": "spatula1",
+      "target": "food1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "food1",
+      "target": "spatula1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "long brown hair black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.53,0.04,0.98,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.00,0.00,0.70,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden liquid",
+        "size": "medium"
+      },
+      "id": "oil1",
+      "label": "cooking oil",
+      "location": "0.00,0.00,0.70,0.50,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "metal spatula",
+      "location": "0.30,0.00,0.60,0.20,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "breaded white",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "breaded food pieces",
+      "location": "0.05,0.05,0.65,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown fabric",
+        "size": "large"
+      },
+      "id": "sofa",
+      "label": "couch",
+      "location": "0.00,0.50,1.00,1.00,0.6"
+    }
+  ]
+}

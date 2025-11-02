@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "sign1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "candle_holder1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "candle_holder1",
+      "target": "sign1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "sign1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green metal",
+        "size": "large"
+      },
+      "id": "sign1",
+      "label": "La Trattoria sign",
+      "location": "0.05,0.3,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "candle_holder1",
+      "label": "glass candle holder",
+      "location": "0.0,0.6,0.4,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black clothing",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.7,0.0,1.0,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "white painted wood",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "wooden shelf",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

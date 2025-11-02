@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "hat1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "behind",
+      "source": "tile_wall1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "logo1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black chef coat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.45,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white black checkered fabric",
+        "size": "small"
+      },
+      "id": "hat1",
+      "label": "headscarf",
+      "location": "0.53,0.08,0.67,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige ceramic tiles",
+        "size": "large"
+      },
+      "id": "tile_wall1",
+      "label": "tiled wall",
+      "location": "0.0,0.0,0.5,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white painted wood",
+        "size": "medium"
+      },
+      "id": "wall1",
+      "label": "wooden panel",
+      "location": "0.3,0.0,0.6,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.7,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black non-stick",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.05,0.75,0.45,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with white rice",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "rice bowl",
+      "location": "0.4,0.7,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white cursive text",
+        "size": "medium"
+      },
+      "id": "logo1",
+      "label": "Chef Ricardo logo",
+      "location": "0.5,0.7,1.0,1.0,0.9"
+    }
+  ]
+}

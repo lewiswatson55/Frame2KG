@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "herbs1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand1",
+      "target": "waterfall1"
+    },
+    {
+      "predicate": "behind",
+      "source": "waterfall1",
+      "target": "herbs1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green chopped",
+        "size": "medium"
+      },
+      "id": "herbs1",
+      "label": "chopped herbs",
+      "location": "0.35,0.4,0.98,0.96,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.0,0.5,0.4,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.0,0.5,0.3,0.9,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "white misty",
+        "size": "large"
+      },
+      "id": "waterfall1",
+      "label": "waterfall",
+      "location": "0.0,0.0,1.0,0.5,0.5"
+    }
+  ]
+}

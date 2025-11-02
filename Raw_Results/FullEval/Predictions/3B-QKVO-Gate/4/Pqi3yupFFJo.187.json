@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "onion_rings1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "onion_rings1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.05,0.05,0.48,0.36,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.47,0.25,0.95,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "purple",
+        "size": "small"
+      },
+      "id": "onion_rings1",
+      "label": "onion rings",
+      "location": "0.55,0.25,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.4,0.0,0.6,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white breaded",
+        "size": "small"
+      },
+      "id": "onion_rings2",
+      "label": "breaded onion rings",
+      "location": "0.0,0.6,0.5,1.0,0.8"
+    }
+  ]
+}

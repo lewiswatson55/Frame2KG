@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "salad1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "salad1",
+      "target": "chicken1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "fried chicken drumsticks",
+      "location": "0.35,0.45,0.98,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green purple leafy",
+        "size": "small"
+      },
+      "id": "salad1",
+      "label": "salad bowl",
+      "location": "0.00,0.00,0.35,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.00,0.50,1.00,1.00,0.7"
+    }
+  ]
+}

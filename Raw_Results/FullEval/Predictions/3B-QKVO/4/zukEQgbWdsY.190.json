@@ -1,0 +1,365 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "window1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "glass1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "utensil1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "towel1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle2",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle3",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle4",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle5",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle6",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle7",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle8",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle9",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle10",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle11",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle12",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "microwave1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "stove1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "behind",
+      "source": "window1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "window1",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.45,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt with graphic",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.45,0.05,0.85,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.0,0.0,0.5,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.7,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "microwave1",
+      "label": "microwave oven",
+      "location": "0.65,0.15,0.75,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.55,0.75,0.75,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "jar",
+      "location": "0.85,0.75,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "glass1",
+      "label": "glass",
+      "location": "0.9,0.75,1.0,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.0,0.75,0.2,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue cloth",
+        "size": "small"
+      },
+      "id": "towel1",
+      "label": "towel",
+      "location": "0.0,0.75,0.2,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "utensil1",
+      "label": "spatula",
+      "location": "0.2,0.75,0.3,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.7,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with green liquid",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "olive oil bottle",
+      "location": "0.75,0.0,0.8,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with white label",
+        "size": "small"
+      },
+      "id": "bottle2",
+      "label": "wine bottle",
+      "location": "0.8,0.0,0.85,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with dark liquid",
+        "size": "small"
+      },
+      "id": "bottle3",
+      "label": "alcohol bottle",
+      "location": "0.85,0.0,0.9,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with yellow liquid",
+        "size": "small"
+      },
+      "id": "bottle4",
+      "label": "sauce bottle",
+      "location": "0.9,0.0,0.95,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with red liquid",
+        "size": "small"
+      },
+      "id": "bottle5",
+      "label": "sauce bottle",
+      "location": "0.95,0.0,1.0,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with blue liquid",
+        "size": "small"
+      },
+      "id": "bottle6",
+      "label": "sauce bottle",
+      "location": "0.9,0.2,0.95,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with brown liquid",
+        "size": "small"
+      },
+      "id": "bottle7",
+      "label": "sauce bottle",
+      "location": "0.95,0.2,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with black liquid",
+        "size": "small"
+      },
+      "id": "bottle8",
+      "label": "sauce bottle",
+      "location": "0.9,0.3,0.95,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with clear liquid",
+        "size": "small"
+      },
+      "id": "bottle9",
+      "label": "sauce bottle",
+      "location": "0.95,0.3,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with red liquid",
+        "size": "small"
+      },
+      "id": "bottle10",
+      "label": "sauce bottle",
+      "location": "0.9,0.4,0.95,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with yellow liquid",
+        "size": "small"
+      },
+      "id": "bottle11",
+      "label": "sauce bottle",
+      "location": "0.95,0.4,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "logo",
+      "location": "0.8,0.75,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.6,0.3,0.9,0.8"
+    }
+  ]
+}

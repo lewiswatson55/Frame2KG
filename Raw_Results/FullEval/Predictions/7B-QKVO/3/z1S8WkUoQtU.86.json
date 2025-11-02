@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bottle1",
+      "target": "cloth1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent plastic with red liquid",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "plastic bottle",
+      "location": "0.35,0.0,0.98,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.75,0.4,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red fabric",
+        "size": "large"
+      },
+      "id": "cloth1",
+      "label": "red cloth background",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

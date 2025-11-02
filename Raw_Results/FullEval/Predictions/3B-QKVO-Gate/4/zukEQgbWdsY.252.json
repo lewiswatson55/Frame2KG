@@ -1,0 +1,117 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person_hands",
+      "target": "lettuce"
+    },
+    {
+      "predicate": "on",
+      "source": "sandwich",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "avocado_bowl",
+      "target": "glass_bowl"
+    },
+    {
+      "predicate": "left_of",
+      "source": "paper_towel",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "behind",
+      "source": "blender",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "right_of",
+      "source": "cable",
+      "target": "cutting_board"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person_hands",
+      "label": "hands",
+      "location": "0.35,0.0,0.65,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce",
+      "label": "lettuce leaves",
+      "location": "0.48,0.27,0.58,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread with bacon and lettuce",
+        "size": "medium"
+      },
+      "id": "sandwich",
+      "label": "sandwich",
+      "location": "0.35,0.5,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.25,0.5,0.75,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic bowl with green avocado",
+        "size": "small"
+      },
+      "id": "avocado_bowl",
+      "label": "bowl of avocados",
+      "location": "0.05,0.45,0.25,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass bowl with red sauce",
+        "size": "small"
+      },
+      "id": "glass_bowl",
+      "label": "glass bowl",
+      "location": "0.0,0.6,0.2,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper towel",
+        "size": "medium"
+      },
+      "id": "paper_towel",
+      "label": "paper towel",
+      "location": "0.0,0.75,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender",
+      "label": "blender",
+      "location": "0.5,0.0,0.8,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black cable",
+        "size": "medium"
+      },
+      "id": "cable",
+      "label": "power cable",
+      "location": "0.75,0.2,1.0,0.8,0.7"
+    }
+  ]
+}

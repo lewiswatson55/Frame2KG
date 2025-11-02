@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "eggs1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "handle1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "handle2",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "fridge1",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.35,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "white with yellow yolk",
+        "size": "small"
+      },
+      "id": "eggs1",
+      "label": "fried eggs",
+      "location": "0.47,0.25,0.53,0.35,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "handle1",
+      "label": "door handle",
+      "location": "0.65,0.0,0.75,0.6,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "handle2",
+      "label": "door handle",
+      "location": "0.65,0.6,0.75,1.0,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "red gradient",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "background wall",
+      "location": "0.0,0.0,1.0,1.0,0.80"
+    }
+  ]
+}

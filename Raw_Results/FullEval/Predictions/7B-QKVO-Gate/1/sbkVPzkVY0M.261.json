@@ -1,0 +1,135 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bun1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pepper_grinder1",
+      "target": "salt_grinder1"
+    },
+    {
+      "predicate": "behind",
+      "source": "artwork1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "artwork2",
+      "target": "artwork1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text_overlay",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.05,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.47,0.65,0.75,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "stove1",
+      "label": "portable stove",
+      "location": "0.45,0.75,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread",
+        "size": "small"
+      },
+      "id": "bun1",
+      "label": "burger bun",
+      "location": "0.45,0.7,0.55,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce",
+      "location": "0.75,0.8,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red tomato slices",
+        "size": "small"
+      },
+      "id": "tomato_slices1",
+      "label": "tomato slices",
+      "location": "0.8,0.85,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "pepper_grinder1",
+      "label": "pepper grinder",
+      "location": "0.85,0.6,0.9,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "salt_grinder1",
+      "label": "salt grinder",
+      "location": "0.9,0.6,0.95,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "colorful abstract",
+        "size": "medium"
+      },
+      "id": "artwork1",
+      "label": "framed artwork",
+      "location": "0.6,0.0,0.8,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "colorful abstract",
+        "size": "medium"
+      },
+      "id": "artwork2",
+      "label": "framed artwork",
+      "location": "0.8,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "medium"
+      },
+      "id": "text_overlay",
+      "label": "instructional text overlay",
+      "location": "0.0,0.8,1.0,1.0,0.9"
+    }
+  ]
+}

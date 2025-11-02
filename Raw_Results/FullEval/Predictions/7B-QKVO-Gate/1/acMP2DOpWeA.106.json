@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "towel1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black non-stick",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.53,0.08,0.97,0.86,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red and white checkered cotton",
+        "size": "medium"
+      },
+      "id": "towel1",
+      "label": "kitchen towel",
+      "location": "0.04,0.15,0.45,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.45,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text overlay",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "instructional text",
+      "location": "0.0,0.75,1.0,1.0,0.7"
+    }
+  ]
+}

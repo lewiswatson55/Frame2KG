@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand_left",
+      "target": "rolling_pin"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand_right",
+      "target": "rolling_pin"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl",
+      "target": "tablecloth"
+    },
+    {
+      "predicate": "on",
+      "source": "rolling_pin",
+      "target": "tablecloth"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl",
+      "target": "rolling_pin"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand_left",
+      "label": "left hand",
+      "location": "0.35,0.0,0.65,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand_right",
+      "label": "right hand",
+      "location": "0.6,0.0,1.0,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl",
+      "label": "glass bowl",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "small"
+      },
+      "id": "rolling_pin",
+      "label": "rolling pin",
+      "location": "0.4,0.4,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "striped multicolored fabric",
+        "size": "large"
+      },
+      "id": "tablecloth",
+      "label": "tablecloth",
+      "location": "0.0,0.4,1.0,1.0,0.7"
+    }
+  ]
+}

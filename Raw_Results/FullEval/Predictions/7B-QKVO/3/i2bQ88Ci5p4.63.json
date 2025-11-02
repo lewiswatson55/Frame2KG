@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "in",
+      "source": "butter1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "logo1",
+      "target": "list1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "orange background with white text",
+        "size": "large"
+      },
+      "id": "list1",
+      "label": "ingredient list",
+      "location": "0.0,0.0,0.45,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.6,0.3,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.3,0.1,0.7,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "wooden spoon",
+      "location": "0.4,0.0,0.6,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow solid",
+        "size": "small"
+      },
+      "id": "butter1",
+      "label": "butter cube",
+      "location": "0.45,0.4,0.55,0.5,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white logo on black",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "website logo",
+      "location": "0.0,0.7,0.2,1.0,0.9"
+    }
+  ]
+}

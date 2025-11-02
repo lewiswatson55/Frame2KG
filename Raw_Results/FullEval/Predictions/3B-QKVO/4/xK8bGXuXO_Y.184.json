@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "oil_stream1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "spatula1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "logo1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.05,0.3,0.95,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.0,0.0,0.4,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white red black",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "MasterChef logo",
+      "location": "0.75,0.0,0.95,0.25,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear bubbling",
+        "size": "medium"
+      },
+      "id": "oil_stream1",
+      "label": "oil stream",
+      "location": "0.0,0.4,1.0,0.8,0.8"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "chicken_piece"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken_pieces",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "lemon_half",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "knife1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "shaker1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "spice_bowl1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.05,0.0,0.45,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "large"
+      },
+      "id": "chicken_pieces",
+      "label": "raw chicken pieces",
+      "location": "0.15,0.25,0.75,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow juicy",
+        "size": "small"
+      },
+      "id": "lemon_half",
+      "label": "lemon half",
+      "location": "0.45,0.2,0.6,0.35,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.1,0.15,0.8,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown glass",
+        "size": "medium"
+      },
+      "id": "jar1",
+      "label": "glass jar",
+      "location": "0.7,0.0,0.9,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.0,0.4,0.2,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic with red spice",
+        "size": "small"
+      },
+      "id": "spice_bowl1",
+      "label": "small bowl of spices",
+      "location": "0.0,0.6,0.2,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic with white powder",
+        "size": "small"
+      },
+      "id": "shaker1",
+      "label": "spice shaker",
+      "location": "0.75,0.6,0.95,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue lid purple contents",
+        "size": "small"
+      },
+      "id": "spice_bowl2",
+      "label": "small bowl of spices",
+      "location": "0.6,0.5,0.8,0.7,0.7"
+    }
+  ]
+}

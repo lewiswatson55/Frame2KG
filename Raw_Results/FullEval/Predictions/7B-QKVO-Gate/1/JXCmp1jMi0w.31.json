@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bag1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bag1",
+      "target": "bottle1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass red sauce",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "Frank's RedHot bottle",
+      "location": "0.05,0.0,0.38,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic with red peppers",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "plastic bag of peppers",
+      "location": "0.45,0.0,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "wooden cutting board",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    }
+  ]
+}

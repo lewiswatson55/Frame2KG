@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "egg_shell"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand2",
+      "target": "egg_shell"
+    },
+    {
+      "predicate": "in",
+      "source": "egg_yolk",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "fork1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl2",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl2",
+      "target": "eggs1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "left hand",
+      "location": "0.35,0.4,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin",
+        "size": "medium"
+      },
+      "id": "hand2",
+      "label": "right hand",
+      "location": "0.6,0.4,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.3,0.2,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow yolk",
+        "size": "small"
+      },
+      "id": "egg_yolk",
+      "label": "egg yolk",
+      "location": "0.45,0.45,0.55,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white shells",
+        "size": "medium"
+      },
+      "id": "eggs1",
+      "label": "raw eggs",
+      "location": "0.8,0.5,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "fork1",
+      "label": "fork",
+      "location": "0.0,0.1,0.2,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "medium"
+      },
+      "id": "bowl2",
+      "label": "glass bowl",
+      "location": "0.75,0.3,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

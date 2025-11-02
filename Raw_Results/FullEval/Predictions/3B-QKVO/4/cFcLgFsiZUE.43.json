@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "rack1",
+      "target": "oven1"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "rack1"
+    },
+    {
+      "predicate": "supports",
+      "source": "tray1",
+      "target": "cookies1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "handle1",
+      "target": "oven1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "tray1",
+      "target": "rack1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "oven1",
+      "label": "Oven",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "rack1",
+      "label": "Baking Rack",
+      "location": "0.0,0.3,1.0,0.7,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "orange silicone",
+        "size": "small"
+      },
+      "id": "tray1",
+      "label": "Baking Tray",
+      "location": "0.6,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "cookies1",
+      "label": "Cookies",
+      "location": "0.6,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "handle1",
+      "label": "Oven Handle",
+      "location": "0.4,0.0,0.6,0.2,0.8"
+    }
+  ]
+}

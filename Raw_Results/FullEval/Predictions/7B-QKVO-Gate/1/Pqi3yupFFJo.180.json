@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "onion_rings1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "onion_rings2",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "onion_rings3",
+      "target": "plate1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "onion_rings1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "onion_rings3",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.05,0.05,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white flour",
+        "size": "medium"
+      },
+      "id": "onion_rings1",
+      "label": "onion rings",
+      "location": "0.1,0.1,0.48,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple red",
+        "size": "medium"
+      },
+      "id": "onion_rings2",
+      "label": "onion rings",
+      "location": "0.45,0.15,0.85,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.4,0.1,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white flour-coated",
+        "size": "small"
+      },
+      "id": "onion_rings3",
+      "label": "onion rings",
+      "location": "0.0,0.6,0.4,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.4,0.0,0.6,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey metal",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.6"
+    }
+  ]
+}

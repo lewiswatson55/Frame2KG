@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "bun1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bun1",
+      "target": "bun2"
+    },
+    {
+      "predicate": "behind",
+      "source": "ketchup_bottle1",
+      "target": "bun2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "plate1",
+      "target": "bun2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown seasoned",
+        "size": "medium"
+      },
+      "id": "patty1",
+      "label": "burger patty",
+      "location": "0.05,0.48,0.63,0.79,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red juicy",
+        "size": "small"
+      },
+      "id": "tomato1",
+      "label": "sliced tomato",
+      "location": "0.05,0.45,0.63,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.05,0.6,0.63,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread",
+        "size": "medium"
+      },
+      "id": "bun1",
+      "label": "top bun",
+      "location": "0.05,0.75,0.63,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown toasted",
+        "size": "medium"
+      },
+      "id": "bun2",
+      "label": "bottom bun",
+      "location": "0.7,0.4,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "ketchup_bottle1",
+      "label": "ketchup bottle",
+      "location": "0.6,0.0,0.8,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "tray of patties",
+      "location": "0.0,0.0,0.6,0.4,0.8"
+    }
+  ]
+}

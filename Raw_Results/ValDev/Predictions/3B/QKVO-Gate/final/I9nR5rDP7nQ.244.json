@@ -1,0 +1,53 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "subscribe_signs"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text2",
+      "target": "subscribe_signs"
+    },
+    {
+      "predicate": "left_of",
+      "source": "subscribe_signs",
+      "target": "text1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "subscribe_signs",
+      "target": "text2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white bold font",
+        "size": "large"
+      },
+      "id": "text1",
+      "label": "Choose what videos",
+      "location": "0.35,0.45,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white bold font",
+        "size": "medium"
+      },
+      "id": "text2",
+      "label": "came to",
+      "location": "0.48,0.55,0.52,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow paper",
+        "size": "medium"
+      },
+      "id": "subscribe_signs",
+      "label": "Subscribe signs",
+      "location": "0.2,0.1,0.8,0.9,0.8"
+    }
+  ]
+}

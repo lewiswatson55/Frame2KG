@@ -1,0 +1,155 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "spice_bottle1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "salt_pepper_shakers1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "artwork1",
+      "target": "wall"
+    },
+    {
+      "predicate": "on",
+      "source": "artwork2",
+      "target": "wall"
+    },
+    {
+      "predicate": "next_to",
+      "source": "artwork1",
+      "target": "artwork2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.05,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.47,0.55,0.75,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "stove1",
+      "label": "electric stove",
+      "location": "0.45,0.65,0.75,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic with red sauce",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate of food",
+      "location": "0.15,0.75,0.35,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "wooden countertop",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green limes",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "basket of limes",
+      "location": "0.0,0.5,0.2,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottle yellow liquid",
+        "size": "small"
+      },
+      "id": "spice_bottle1",
+      "label": "spice bottle",
+      "location": "0.3,0.6,0.35,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black glass",
+        "size": "small"
+      },
+      "id": "salt_pepper_shakers1",
+      "label": "salt pepper shakers",
+      "location": "0.85,0.55,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "framed colorful art",
+        "size": "medium"
+      },
+      "id": "artwork1",
+      "label": "artwork frame",
+      "location": "0.6,0.0,0.8,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "framed colorful art",
+        "size": "medium"
+      },
+      "id": "artwork2",
+      "label": "artwork frame",
+      "location": "0.8,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey stone",
+        "size": "large"
+      },
+      "id": "wall",
+      "label": "kitchen wall",
+      "location": "0.0,0.0,1.0,0.6,0.9"
+    }
+  ]
+}

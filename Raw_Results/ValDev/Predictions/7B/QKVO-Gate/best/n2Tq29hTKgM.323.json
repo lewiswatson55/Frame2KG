@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "includes",
+      "source": "dish1",
+      "target": "food1"
+    },
+    {
+      "predicate": "on",
+      "source": "dish1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "dish1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.35,0.0,1.0,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "green ceramic",
+        "size": "medium"
+      },
+      "id": "dish1",
+      "label": "Baking Dish",
+      "location": "0.05,0.45,0.95,0.95,0.96"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cheesy pasta",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "Macaroni and Cheese",
+      "location": "0.1,0.5,0.9,0.9,0.97"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.2,0.3,0.5,0.7,0.94"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.4,1.0,1.0,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.0,0.0,0.2,0.2,0.85"
+    }
+  ]
+}

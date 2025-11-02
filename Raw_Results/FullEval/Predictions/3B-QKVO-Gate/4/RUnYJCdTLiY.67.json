@@ -1,0 +1,178 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "whisk"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "whisk",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl1",
+      "target": "cup1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "cup1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cup1",
+      "target": "ramekin1"
+    },
+    {
+      "predicate": "on",
+      "source": "ramekin1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "butter1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "container1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "text_overlay1",
+      "target": "table1"
+    },
+    {
+      "predicate": "includes",
+      "source": "text_overlay1",
+      "target": "photo1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "maroon shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.05,0.0,0.95,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Wooden Bowl",
+      "location": "0.0,0.4,0.35,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "flour1",
+      "label": "Flour",
+      "location": "0.05,0.45,0.3,0.65,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "cup1",
+      "label": "Measuring Cup",
+      "location": "0.3,0.2,0.55,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "ramekin1",
+      "label": "Ramekin",
+      "location": "0.5,0.4,0.75,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow yolk",
+        "size": "small"
+      },
+      "id": "egg1",
+      "label": "Egg Yolk",
+      "location": "0.55,0.5,0.65,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.8,0.1,0.98,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pale yellow",
+        "size": "small"
+      },
+      "id": "butter1",
+      "label": "Butter Block",
+      "location": "0.85,0.15,0.95,0.25,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "small"
+      },
+      "id": "container1",
+      "label": "Small Container",
+      "location": "0.75,0.45,0.9,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "small"
+      },
+      "id": "whisk",
+      "label": "Whisk",
+      "location": "0.0,0.1,0.3,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue banner",
+        "size": "large"
+      },
+      "id": "text_overlay1",
+      "label": "Text Overlay",
+      "location": "0.0,0.75,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "woman smiling",
+        "size": "small"
+      },
+      "id": "photo1",
+      "label": "Photo of Woman",
+      "location": "0.75,0.75,0.95,0.95,0.9"
+    }
+  ]
+}

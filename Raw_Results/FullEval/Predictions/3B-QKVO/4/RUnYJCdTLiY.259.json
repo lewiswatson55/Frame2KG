@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pancake_stack",
+      "target": "plate"
+    },
+    {
+      "predicate": "on",
+      "source": "plate",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fork",
+      "target": "plate"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person",
+      "target": "cabinet"
+    },
+    {
+      "predicate": "left_of",
+      "source": "toaster",
+      "target": "plate"
+    },
+    {
+      "predicate": "behind",
+      "source": "person",
+      "target": "plate"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white cotton",
+        "size": "large"
+      },
+      "id": "person",
+      "label": "person",
+      "location": "0.58,0.0,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "wooden cabinet",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "toaster",
+      "label": "toaster",
+      "location": "0.0,0.4,0.2,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate",
+      "label": "plate",
+      "location": "0.35,0.35,0.65,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "pancake_stack",
+      "label": "pancakes",
+      "location": "0.4,0.4,0.6,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "fork",
+      "label": "fork",
+      "location": "0.85,0.5,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    }
+  ]
+}

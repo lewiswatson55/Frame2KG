@@ -1,0 +1,86 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "container1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "sauce_bottle",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "small_bowl",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "container1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "sauce_bottle",
+      "target": "container1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "small_bowl",
+      "target": "sauce_bottle"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Bowl of Whipped Cream",
+      "location": "0.05,0.48,0.37,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic container with white lid",
+        "size": "medium"
+      },
+      "id": "container1",
+      "label": "Darigold Sour Cream Container",
+      "location": "0.37,0.35,0.58,0.72,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass bottle with red sauce",
+        "size": "small"
+      },
+      "id": "sauce_bottle",
+      "label": "Red Hot Sauce Bottle",
+      "location": "0.62,0.25,0.75,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "small_bowl",
+      "label": "Small Bowl",
+      "location": "0.45,0.75,0.60,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black granite surface",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "Countertop",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

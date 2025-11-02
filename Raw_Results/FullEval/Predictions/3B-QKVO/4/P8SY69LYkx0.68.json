@@ -1,0 +1,154 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl2",
+      "target": "bowl3"
+    },
+    {
+      "predicate": "left_of",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "rack1",
+      "target": "board1"
+    },
+    {
+      "predicate": "behind",
+      "source": "clock1",
+      "target": "person1"
+    },
+    {
+      "predicate": "supports",
+      "source": "shelf1",
+      "target": "jars1"
+    },
+    {
+      "predicate": "supports",
+      "source": "shelf1",
+      "target": "containers1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white chef coat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.25,0.0,0.75,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.4,0.6,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with red meat",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.5,0.65,0.65,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with raw meat",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "glass bowl",
+      "location": "0.1,0.65,0.25,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with raw meat",
+        "size": "small"
+      },
+      "id": "bowl3",
+      "label": "glass bowl",
+      "location": "0.25,0.65,0.4,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.4,0.4,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal pan with food",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.45,0.3,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "shelves",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic with red lids",
+        "size": "medium"
+      },
+      "id": "containers1",
+      "label": "storage containers",
+      "location": "0.3,0.0,0.7,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jars with spices",
+        "size": "medium"
+      },
+      "id": "jars1",
+      "label": "spice jars",
+      "location": "0.0,0.2,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame",
+        "size": "small"
+      },
+      "id": "clock1",
+      "label": "wall clock",
+      "location": "0.7,0.0,0.8,0.15,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal rack",
+        "size": "large"
+      },
+      "id": "rack1",
+      "label": "baking rack",
+      "location": "0.8,0.1,1.0,0.9,0.8"
+    }
+  ]
+}

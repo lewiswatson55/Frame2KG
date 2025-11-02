@@ -1,0 +1,117 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person_hand",
+      "target": "chicken_piece"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken_piece",
+      "target": "bowl_of_sauce"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_of_sauce",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "tray_of_chicken",
+      "target": "table"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bag_of_flour",
+      "target": "bowl_of_sauce"
+    },
+    {
+      "predicate": "behind",
+      "source": "wall",
+      "target": "table"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person_hand",
+      "label": "human hand",
+      "location": "0.05,0.3,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "chicken_piece",
+      "label": "fried chicken piece",
+      "location": "0.25,0.35,0.35,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "large"
+      },
+      "id": "bowl_of_sauce",
+      "label": "sauce bowl",
+      "location": "0.0,0.5,0.7,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "tray_of_chicken",
+      "label": "metal tray of breaded chicken pieces",
+      "location": "0.4,0.5,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown paper bag",
+        "size": "medium"
+      },
+      "id": "bag_of_flour",
+      "label": "flour bag",
+      "location": "0.0,0.0,0.5,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.0,0.6,0.6,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass",
+        "size": "small"
+      },
+      "id": "glass_container",
+      "label": "glass container",
+      "location": "0.6,0.4,0.7,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white painted",
+        "size": "large"
+      },
+      "id": "wall",
+      "label": "wall",
+      "location": "0.5,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey glass",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "table",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    }
+  ]
+}

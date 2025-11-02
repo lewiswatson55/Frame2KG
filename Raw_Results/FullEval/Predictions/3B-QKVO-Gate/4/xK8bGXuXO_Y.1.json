@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "rings1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "sauce1",
+      "target": "rings1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spoon1",
+      "target": "sauce1"
+    },
+    {
+      "predicate": "above",
+      "source": "text1",
+      "target": "rings1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "rings1",
+      "label": "Onion Rings",
+      "location": "0.35,0.45,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red smooth",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "Ketchup",
+      "location": "0.38,0.65,0.62,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.30,0.60,0.65,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.20,0.50,0.35,0.70,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red bold",
+        "size": "large"
+      },
+      "id": "text1",
+      "label": "Title Text",
+      "location": "0.30,0.05,0.70,0.25,0.9"
+    }
+  ]
+}

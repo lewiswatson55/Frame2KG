@@ -1,0 +1,173 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "fruit_bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "hanging_rack1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "stool1",
+      "target": "couch1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "brick_wall1"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "lamp1",
+      "target": "couch1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass base black plastic top",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.45,0.55,0.57,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "kitchen table",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottle with yellow liquid",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "oil bottle",
+      "location": "0.55,0.7,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow ceramic jar",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "jar of mustard",
+      "location": "0.5,0.75,0.55,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden bowl with oranges",
+        "size": "small"
+      },
+      "id": "fruit_bowl1",
+      "label": "fruit bowl",
+      "location": "0.75,0.55,0.9,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic pans",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "cooking pans",
+      "location": "0.75,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal rack",
+        "size": "medium"
+      },
+      "id": "hanging_rack1",
+      "label": "hanging rack",
+      "location": "0.75,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey brick",
+        "size": "large"
+      },
+      "id": "brick_wall1",
+      "label": "brick wall",
+      "location": "0.0,0.0,1.0,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal stool",
+        "size": "small"
+      },
+      "id": "stool1",
+      "label": "bar stool",
+      "location": "0.2,0.4,0.3,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown leather couch",
+        "size": "large"
+      },
+      "id": "couch1",
+      "label": "couch",
+      "location": "0.0,0.4,0.2,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white lamp shade",
+        "size": "small"
+      },
+      "id": "lamp1",
+      "label": "lamp",
+      "location": "0.1,0.3,0.2,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden shelf with jars",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.3,0.1,0.7,0.3,0.8"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "egg1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fork1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand_left",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand_right",
+      "target": "eggs1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "eggs1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.35,0.05,0.75,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow yolk white eggshell",
+        "size": "small"
+      },
+      "id": "egg1",
+      "label": "egg",
+      "location": "0.48,0.25,0.58,0.38,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "fork1",
+      "label": "fork",
+      "location": "0.02,0.15,0.15,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white smooth",
+        "size": "medium"
+      },
+      "id": "eggs1",
+      "label": "eggs",
+      "location": "0.75,0.45,0.98,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand_left",
+      "label": "left hand",
+      "location": "0.25,0.30,0.55,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand_right",
+      "label": "right hand",
+      "location": "0.55,0.35,0.90,0.80,0.9"
+    }
+  ]
+}

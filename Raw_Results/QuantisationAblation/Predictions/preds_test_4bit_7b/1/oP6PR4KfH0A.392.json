@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in",
+      "source": "food1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "grill1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "grill1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "behind",
+      "source": "wall1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt and brown hair",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.0,0.0,0.45,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.3,0.3,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden fried",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "fried food",
+      "location": "0.4,0.4,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "grill1",
+      "label": "portable grill",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "corrugated metal",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "metal wall",
+      "location": "0.5,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

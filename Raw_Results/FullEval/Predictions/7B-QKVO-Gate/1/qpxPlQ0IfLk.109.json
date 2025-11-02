@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "bottle1",
+      "target": "jug1"
+    },
+    {
+      "predicate": "on",
+      "source": "jug1",
+      "target": "blender_base1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar1",
+      "target": "blender_base1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "glass bottle",
+      "location": "0.45,0.05,0.78,0.36,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.45,0.0,0.85,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "large"
+      },
+      "id": "jug1",
+      "label": "measuring jug",
+      "location": "0.1,0.3,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "large"
+      },
+      "id": "blender_base1",
+      "label": "blender base",
+      "location": "0.1,0.3,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "wooden jar lid",
+      "location": "0.6,0.8,0.7,0.95,0.8"
+    }
+  ]
+}

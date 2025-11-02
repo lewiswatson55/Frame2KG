@@ -1,0 +1,200 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_slices1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "bottle2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle2",
+      "target": "mustard_bottle"
+    },
+    {
+      "predicate": "next_to",
+      "source": "mustard_bottle",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "behind",
+      "source": "stools1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "pot_rack1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "shelf1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue red plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.05,0.68,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.40,0.45,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "small"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.55,0.65,0.75,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.58,0.60,0.70,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown toasted",
+        "size": "small"
+      },
+      "id": "bread_slices1",
+      "label": "bread slices",
+      "location": "0.60,0.65,0.75,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "mustard_bottle",
+      "label": "mustard bottle",
+      "location": "0.50,0.60,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass yellow cap",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "oil bottle",
+      "location": "0.48,0.55,0.52,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass white cap",
+        "size": "small"
+      },
+      "id": "bottle2",
+      "label": "salt shaker",
+      "location": "0.52,0.55,0.56,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "spoon holder",
+      "location": "0.55,0.55,0.60,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "lettuce",
+      "location": "0.60,0.80,0.80,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey stone",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "brick wall",
+      "location": "0.00,0.00,1.00,0.40,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.00,0.20,1.00,0.40,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic grey",
+        "size": "medium"
+      },
+      "id": "pot_rack1",
+      "label": "pot rack",
+      "location": "0.45,0.00,0.75,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic green",
+        "size": "small"
+      },
+      "id": "stools1",
+      "label": "bar stools",
+      "location": "0.00,0.40,0.30,0.70,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "grill1",
+      "label": "grill",
+      "location": "0.75,0.60,1.00,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white lampshade",
+        "size": "medium"
+      },
+      "id": "lamp1",
+      "label": "lamp",
+      "location": "0.85,0.20,1.00,0.60,0.7"
+    }
+  ]
+}

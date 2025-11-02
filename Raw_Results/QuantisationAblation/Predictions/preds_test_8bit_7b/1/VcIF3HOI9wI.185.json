@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand_left",
+      "target": "knife"
+    },
+    {
+      "predicate": "cutting",
+      "source": "knife",
+      "target": "bread_slice"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_slice",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce",
+      "target": "board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle",
+      "target": "lettuce"
+    },
+    {
+      "predicate": "behind",
+      "source": "bread_stack",
+      "target": "bread_slice"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand_left",
+      "label": "left hand",
+      "location": "0.05,0.4,0.38,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand_right",
+      "label": "right hand",
+      "location": "0.4,0.0,0.65,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.2,0.3,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown toasted bread",
+        "size": "small"
+      },
+      "id": "bread_slice",
+      "label": "bread slice",
+      "location": "0.1,0.4,0.4,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce",
+      "label": "lettuce",
+      "location": "0.4,0.5,0.8,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic red cap",
+        "size": "small"
+      },
+      "id": "bottle",
+      "label": "sauce bottle",
+      "location": "0.75,0.1,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted brown bread",
+        "size": "medium"
+      },
+      "id": "bread_stack",
+      "label": "bread stack",
+      "location": "0.1,0.0,0.4,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "cutting board",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

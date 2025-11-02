@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "on",
+      "source": "strip1",
+      "target": "chicken1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "large"
+      },
+      "id": "chicken1",
+      "label": "fried chicken pieces",
+      "location": "0.0,0.0,1.0,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white background with colorful dots",
+        "size": "medium"
+      },
+      "id": "strip1",
+      "label": "wave pattern",
+      "location": "0.0,0.75,1.0,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red text on white background",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "next video text",
+      "location": "0.0,0.85,1.0,1.0,0.9"
+    }
+  ]
+}

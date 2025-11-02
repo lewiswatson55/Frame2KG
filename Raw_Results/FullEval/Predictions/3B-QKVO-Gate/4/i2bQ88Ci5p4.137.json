@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken_wings",
+      "target": "plate"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_of_sauce",
+      "target": "plate"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand",
+      "target": "plate"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand",
+      "target": "bowl_of_sauce"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate",
+      "label": "Plate",
+      "location": "0.05,0.35,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken_wings",
+      "label": "Chicken Wings",
+      "location": "0.15,0.45,0.85,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl_of_sauce",
+      "label": "Bowl of Sauce",
+      "location": "0.45,0.0,0.65,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand",
+      "label": "Hand",
+      "location": "0.4,0.0,0.7,0.3,0.8"
+    }
+  ]
+}

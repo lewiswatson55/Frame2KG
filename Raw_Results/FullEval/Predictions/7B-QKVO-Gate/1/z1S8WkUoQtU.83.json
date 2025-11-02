@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "painting1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "vase1",
+      "target": "person1"
+    },
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "painting1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "logo1",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "dark hair red shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame",
+        "size": "medium"
+      },
+      "id": "painting1",
+      "label": "framed painting",
+      "location": "0.18,0.14,0.37,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange ceramic",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "ceramic vase",
+      "location": "0.75,0.3,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white background",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "YouTube logo",
+      "location": "0.0,0.0,0.2,0.15,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige painted",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

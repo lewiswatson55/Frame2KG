@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "fork1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "painting1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sculpture1",
+      "target": "painting1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown hair pink shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.0,0.75,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "fork1",
+      "label": "fork",
+      "location": "0.45,0.65,0.55,0.9,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame white canvas",
+        "size": "medium"
+      },
+      "id": "painting1",
+      "label": "painting",
+      "location": "0.0,0.1,0.3,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange ceramic",
+        "size": "medium"
+      },
+      "id": "sculpture1",
+      "label": "sculpture",
+      "location": "0.75,0.3,0.95,0.8,0.7"
+    }
+  ]
+}

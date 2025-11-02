@@ -1,0 +1,66 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "table1"
+    },
+    {
+      "predicate": "in",
+      "source": "food1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "holding",
+      "source": "spatula1",
+      "target": "food1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "object_name": "food1",
+      "image_url": "https://i.imgur.com/3Q5zG4p.jpg"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "object_name": "pan1",
+      "image_url": "https://i.imgur.com/3Q5zG4p.jpg"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "object_name": "spatula1",
+      "image_url": "https://i.imgur.com/3Q5zG4p.jpg"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone long hair black shirt",
+        "size": "large"
+      },
+      "object_name": "person1",
+      "image_url": "https://i.imgur.com/3Q5zG4p.jpg"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "object_name": "table1",
+      "image_url": "https://i.imgur.com/3Q5zG4p.jpg"
+    }
+  ]
+}

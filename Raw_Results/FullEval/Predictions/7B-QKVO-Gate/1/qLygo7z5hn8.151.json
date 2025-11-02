@@ -1,0 +1,155 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "range_hood1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "pans1",
+      "target": "range_hood1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cabinet_left1",
+      "target": "range_hood1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "fridge1",
+      "target": "range_hood1"
+    },
+    {
+      "predicate": "includes",
+      "source": "counter1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "includes",
+      "source": "counter1",
+      "target": "bananas1"
+    },
+    {
+      "predicate": "includes",
+      "source": "counter1",
+      "target": "fruit_bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow chef coat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.05,0.0,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.35,0.45,0.7,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black glass",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "electric stove",
+      "location": "0.3,0.6,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate of corn",
+      "location": "0.0,0.75,0.3,0.95,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver stainless steel",
+        "size": "large"
+      },
+      "id": "range_hood1",
+      "label": "range hood",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey metal",
+        "size": "large"
+      },
+      "id": "cabinet_left1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.3,0.3,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.7,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light grey",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.7,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "bananas1",
+      "label": "bananas",
+      "location": "0.8,0.8,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "multicolored fruit",
+        "size": "small"
+      },
+      "id": "fruit_bowl1",
+      "label": "fruit bowl",
+      "location": "0.6,0.8,0.8,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "pans1",
+      "label": "stacked pans",
+      "location": "0.4,0.1,0.8,0.3,0.6"
+    }
+  ]
+}

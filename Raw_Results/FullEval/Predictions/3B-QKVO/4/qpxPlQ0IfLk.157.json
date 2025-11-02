@@ -1,0 +1,117 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "bracelet1"
+    },
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "bracelet2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "logo1",
+      "target": "background1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "multicolored plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.45,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender jar",
+      "location": "0.3,0.4,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "blender_base1",
+      "label": "blender base",
+      "location": "0.6,0.4,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "gold glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "wine bottle",
+      "location": "0.75,0.7,0.9,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown leather",
+        "size": "small"
+      },
+      "id": "bracelet1",
+      "label": "leather bracelet",
+      "location": "0.45,0.2,0.55,0.35,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown leather",
+        "size": "small"
+      },
+      "id": "bracelet2",
+      "label": "leather bracelet",
+      "location": "0.5,0.2,0.6,0.35,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "logo",
+      "location": "0.0,0.0,0.2,0.2,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "gray stone",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "stone wall",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.6"
+    }
+  ]
+}

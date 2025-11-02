@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "batter1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "batter1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "behind",
+      "source": "dish1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "blender1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "tile_wall1",
+      "target": "dish1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "hand",
+      "location": "0.65,0.3,0.98,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white flour mixture",
+        "size": "small"
+      },
+      "id": "batter1",
+      "label": "flour pile",
+      "location": "0.6,0.45,0.8,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.6,0.5,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "dish1",
+      "label": "glass baking dish",
+      "location": "0.3,0.3,0.6,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "baked chicken tray",
+      "location": "0.6,0.45,1.0,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender jug",
+      "location": "0.7,0.0,1.0,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic tiles",
+        "size": "large"
+      },
+      "id": "tile_wall1",
+      "label": "tiled wall",
+      "location": "0.0,0.0,1.0,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.0,0.5,0.5,1.0,0.9"
+    }
+  ]
+}

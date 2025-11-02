@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "in",
+      "source": "salad1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "includes",
+      "source": "salad1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "includes",
+      "source": "salad1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "includes",
+      "source": "salad1",
+      "target": "croutons1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.15,0.18,0.75,0.63,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "salad1",
+      "label": "Salad",
+      "location": "0.20,0.25,0.70,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink grilled",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "Chicken",
+      "location": "0.30,0.25,0.60,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light green",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce",
+      "location": "0.25,0.30,0.75,0.60,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown toasted",
+        "size": "small"
+      },
+      "id": "croutons1",
+      "label": "Croutons",
+      "location": "0.35,0.40,0.65,0.60,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.05,0.30,0.95,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.00,0.00,1.00,1.00,0.8"
+    }
+  ]
+}

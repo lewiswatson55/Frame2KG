@@ -1,0 +1,173 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottles1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "behind",
+      "source": "stools1",
+      "target": "person1"
+    },
+    {
+      "predicate": "above",
+      "source": "shelf1",
+      "target": "stools1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "rack1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue red plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.47,0.55,0.55,0.65,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "griddle1",
+      "label": "griddle",
+      "location": "0.45,0.65,0.6,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crust",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "bread slices",
+      "location": "0.3,0.7,0.4,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.0,0.7,0.4,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade wooden handle",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.1,0.75,0.3,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass plastic",
+        "size": "small"
+      },
+      "id": "bottles1",
+      "label": "condiment bottles",
+      "location": "0.0,0.6,0.2,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "large"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.0,0.5,0.2,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "grey brick",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "brick wall",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.1,0.1,0.9,0.3,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "rack1",
+      "label": "hanging rack",
+      "location": "0.5,0.0,0.8,0.2,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "medium"
+      },
+      "id": "stools1",
+      "label": "bar stools",
+      "location": "0.2,0.4,0.4,0.7,0.6"
+    }
+  ]
+}

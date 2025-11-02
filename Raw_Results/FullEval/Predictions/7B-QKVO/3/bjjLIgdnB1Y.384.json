@@ -1,0 +1,249 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake2",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "can1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "can1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "window_left1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "window_right1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "on",
+      "source": "mixer1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "statue1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "sink1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "griddle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "can1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green top black apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.2,0.0,0.4,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "medium"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinets",
+      "location": "0.5,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame glass panes",
+        "size": "small"
+      },
+      "id": "window_left1",
+      "label": "window",
+      "location": "0.0,0.0,0.2,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white blinds",
+        "size": "small"
+      },
+      "id": "window_right1",
+      "label": "window",
+      "location": "0.8,0.0,1.0,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow metal",
+        "size": "small"
+      },
+      "id": "can1",
+      "label": "PAM spray can",
+      "location": "0.25,0.6,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.3,0.6,0.5,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic bottle orange label",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "maple syrup bottle",
+      "location": "0.1,0.6,0.2,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "griddle1",
+      "label": "electric griddle",
+      "location": "0.6,0.5,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "pancake1",
+      "label": "pancake",
+      "location": "0.7,0.55,0.75,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "pancake2",
+      "label": "pancake",
+      "location": "0.75,0.55,0.8,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal handle",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.45,0.5,0.55,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.4,0.6,0.6,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metallic",
+        "size": "medium"
+      },
+      "id": "mixer1",
+      "label": "stand mixer",
+      "location": "0.55,0.2,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "statue1",
+      "label": "ceramic horse statue",
+      "location": "0.7,0.1,0.8,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.8,0.4,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "granite patterned",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    }
+  ]
+}

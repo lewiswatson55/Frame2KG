@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "on",
+      "source": "griddle1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spatula1",
+      "target": "griddle1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "griddle1",
+      "label": "Griddle",
+      "location": "0.05,0.0,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige batter",
+        "size": "medium"
+      },
+      "id": "pancake1",
+      "label": "Pancake horse",
+      "location": "0.34,0.15,0.75,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white enamel",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "Stove top",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black handle silver blade",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "Spatula",
+      "location": "0.0,0.1,0.3,0.3,0.8"
+    }
+  ]
+}

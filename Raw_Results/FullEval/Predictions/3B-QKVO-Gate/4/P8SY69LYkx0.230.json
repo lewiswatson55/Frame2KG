@@ -1,0 +1,173 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "patties1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cheese1",
+      "target": "patties1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "stove1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "rack1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "buns1",
+      "target": "person1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tomatoes1",
+      "target": "buns1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spoon1",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "mixer1",
+      "target": "scale1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white chef coat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.45,0.7,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "small"
+      },
+      "id": "patties1",
+      "label": "raw burger patties",
+      "location": "0.55,0.75,0.7,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cheese block",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "block of cheese",
+      "location": "0.45,0.75,0.55,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "commercial stove",
+      "location": "0.0,0.3,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "wall shelf",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "glass jars",
+      "location": "0.0,0.1,0.4,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread",
+        "size": "small"
+      },
+      "id": "buns1",
+      "label": "bread buns",
+      "location": "0.6,0.4,0.75,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red tomatoes",
+        "size": "small"
+      },
+      "id": "tomatoes1",
+      "label": "tomatoes",
+      "location": "0.65,0.5,0.75,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green plastic",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "measuring spoon",
+      "location": "0.4,0.75,0.5,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "rack1",
+      "label": "metal rack",
+      "location": "0.8,0.1,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "mixer1",
+      "label": "stand mixer",
+      "location": "0.8,0.7,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "scale1",
+      "label": "kitchen scale",
+      "location": "0.7,0.8,0.85,0.95,0.7"
+    }
+  ]
+}

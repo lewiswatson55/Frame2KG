@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "bag1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red plastic bag with yellow shredded cheese",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "Shredded Cheddar Cheese Bag",
+      "location": "0.05,0.0,0.95,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal tray with yellow pasta",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "Pasta Tray",
+      "location": "0.7,0.3,1.0,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal stove top",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "Stove Top",
+      "location": "0.0,0.6,1.0,1.0,0.6"
+    }
+  ]
+}

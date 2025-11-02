@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "sponge1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sponge1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "hand",
+      "location": "0.65,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.1,0.45,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow sponge",
+        "size": "small"
+      },
+      "id": "sponge1",
+      "label": "sponge",
+      "location": "0.55,0.1,0.75,0.3,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.2,1.0,0.6,0.9"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "on",
+      "source": "bag1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "rolling_pin1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "batter1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "batter1",
+      "target": "batter2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.45,0.0,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown paper bag",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "flour bag",
+      "location": "0.0,0.0,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.3,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige wood",
+        "size": "small"
+      },
+      "id": "rolling_pin1",
+      "label": "rolling pin",
+      "location": "0.3,0.2,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "metal tray",
+      "location": "0.4,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder coated",
+        "size": "medium"
+      },
+      "id": "batter1",
+      "label": "dough ball",
+      "location": "0.6,0.5,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder coated",
+        "size": "medium"
+      },
+      "id": "batter2",
+      "label": "dough ball",
+      "location": "0.8,0.5,1.0,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white painted wall",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

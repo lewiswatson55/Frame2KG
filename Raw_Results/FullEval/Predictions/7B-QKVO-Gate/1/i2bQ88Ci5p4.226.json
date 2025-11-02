@@ -1,0 +1,169 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "chip1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person2",
+      "target": "person1"
+    },
+    {
+      "predicate": "on",
+      "source": "dip1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "chips1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "mac1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "beer1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "glass1",
+      "target": "table1"
+    },
+    {
+      "predicate": "behind",
+      "source": "stove1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "logo1",
+      "target": "dip1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "logo2",
+      "target": "dip1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.45,0.05,0.98,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.0,0.2,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown ceramic bowl with green dip",
+        "size": "small"
+      },
+      "id": "dip1",
+      "label": "spinach artichoke dip",
+      "location": "0.27,0.16,0.55,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow tortilla chips",
+        "size": "small"
+      },
+      "id": "chips1",
+      "label": "tortilla chips",
+      "location": "0.15,0.35,0.4,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white pasta with red sauce",
+        "size": "small"
+      },
+      "id": "mac1",
+      "label": "macaroni and cheese",
+      "location": "0.7,0.55,0.98,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver can",
+        "size": "small"
+      },
+      "id": "beer1",
+      "label": "beer can",
+      "location": "0.9,0.8,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "glass1",
+      "label": "glass",
+      "location": "0.0,0.8,0.2,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.5,0.0,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.3,0.4,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Applebee's logo",
+      "location": "0.0,0.0,0.3,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "small"
+      },
+      "id": "logo2",
+      "label": "Applebee's logo",
+      "location": "0.7,0.5,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    }
+  ]
+}

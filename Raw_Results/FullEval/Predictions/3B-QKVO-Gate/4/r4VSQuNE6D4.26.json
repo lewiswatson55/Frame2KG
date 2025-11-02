@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle2",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bag1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "box1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "box2",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "scissors",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand1",
+      "target": "bottle1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "large"
+      },
+      "id": "bottle1",
+      "label": "squeeze bottle",
+      "location": "0.35,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "bottle2",
+      "label": "squeeze bottle",
+      "location": "0.0,0.2,0.25,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "bag1",
+      "label": "plastic bag",
+      "location": "0.2,0.0,0.45,0.3,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "brown cardboard",
+        "size": "small"
+      },
+      "id": "box1",
+      "label": "cardboard box",
+      "location": "0.6,0.0,0.75,0.25,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "brown cardboard",
+        "size": "small"
+      },
+      "id": "box2",
+      "label": "cardboard box",
+      "location": "0.75,0.0,0.9,0.25,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "scissors",
+      "label": "scissors",
+      "location": "0.4,0.7,0.6,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.3,0.75,0.5,0.95,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    }
+  ]
+}

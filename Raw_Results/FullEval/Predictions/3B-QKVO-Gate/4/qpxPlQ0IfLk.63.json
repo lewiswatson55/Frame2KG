@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "griddle"
+    },
+    {
+      "predicate": "on",
+      "source": "bread2",
+      "target": "griddle"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lettuce",
+      "target": "griddle"
+    },
+    {
+      "predicate": "behind",
+      "source": "cloth",
+      "target": "griddle"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "griddle",
+      "label": "Griddle",
+      "location": "0.05,0.3,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown crust",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "Bread Slice",
+      "location": "0.45,0.45,0.6,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown crust",
+        "size": "small"
+      },
+      "id": "bread2",
+      "label": "Bread Slice",
+      "location": "0.0,0.45,0.2,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce",
+      "label": "Lettuce",
+      "location": "0.6,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue red plaid fabric",
+        "size": "medium"
+      },
+      "id": "cloth",
+      "label": "Cloth",
+      "location": "0.75,0.0,1.0,0.6,0.7"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "milk_bag"
+    },
+    {
+      "predicate": "in",
+      "source": "whisk1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "egg_yolk1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "milk_bag",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow liquid",
+        "size": "medium"
+      },
+      "id": "egg_yolk1",
+      "label": "egg yolk mixture",
+      "location": "0.35,0.45,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic bag",
+        "size": "small"
+      },
+      "id": "milk_bag",
+      "label": "milk bag",
+      "location": "0.6,0.1,0.9,0.5,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "metal wire",
+        "size": "large"
+      },
+      "id": "whisk1",
+      "label": "wire whisk",
+      "location": "0.0,0.0,0.5,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange plastic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.1,0.2,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.6,0.0,1.0,0.4,0.7"
+    }
+  ]
+}

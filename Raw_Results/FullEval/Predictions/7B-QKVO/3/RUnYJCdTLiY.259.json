@@ -1,0 +1,132 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pancake_stack1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "syrup_stream1",
+      "target": "pancake_stack1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "fork1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "stove1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "fork1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.35,0.45,0.68,0.79,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "pancake_stack1",
+      "label": "Pancake Stack",
+      "location": "0.45,0.55,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown liquid",
+        "size": "small"
+      },
+      "id": "syrup_stream1",
+      "label": "Syrup Stream",
+      "location": "0.55,0.05,0.60,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "fork1",
+      "label": "Fork",
+      "location": "0.85,0.55,0.95,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.00,0.40,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "Stove",
+      "location": "0.00,0.00,0.30,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "Cabinets",
+      "location": "0.00,0.00,1.00,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white apron",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.50,0.00,1.00,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.00,0.75,0.40,1.00,0.8"
+    }
+  ]
+}

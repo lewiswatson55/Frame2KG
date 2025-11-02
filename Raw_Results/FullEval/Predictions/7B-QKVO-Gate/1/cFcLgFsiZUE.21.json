@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "label1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "on",
+      "source": "label2",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "on",
+      "source": "cap1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "salt1",
+      "target": "garlic_powder1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red glass",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "Hot Sauce Bottle",
+      "location": "0.05,0.0,0.48,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on red background",
+        "size": "small"
+      },
+      "id": "label1",
+      "label": "Frank's RedHot Label",
+      "location": "0.13,0.37,0.35,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on red background",
+        "size": "small"
+      },
+      "id": "label2",
+      "label": "Original Label",
+      "location": "0.13,0.65,0.35,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "cap1",
+      "label": "Cap",
+      "location": "0.15,0.0,0.35,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey text on black background",
+        "size": "small"
+      },
+      "id": "salt1",
+      "label": "Salt Text",
+      "location": "0.75,0.0,0.95,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey text on black background",
+        "size": "small"
+      },
+      "id": "garlic_powder1",
+      "label": "Garlic Powder Text",
+      "location": "0.75,0.8,0.95,1.0,0.7"
+    }
+  ]
+}

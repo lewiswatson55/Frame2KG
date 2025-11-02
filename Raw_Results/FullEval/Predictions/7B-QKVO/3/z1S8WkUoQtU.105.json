@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "whisk1"
+    },
+    {
+      "predicate": "in",
+      "source": "whisk1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl1",
+      "target": "mixture1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "tablecloth1"
+    },
+    {
+      "predicate": "behind",
+      "source": "utensil_holder1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal wires",
+        "size": "large"
+      },
+      "id": "whisk1",
+      "label": "Whisk",
+      "location": "0.2,0.1,0.7,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.05,0.4,0.95,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow liquid",
+        "size": "small"
+      },
+      "id": "mixture1",
+      "label": "Mixture",
+      "location": "0.1,0.5,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "striped fabric",
+        "size": "large"
+      },
+      "id": "tablecloth1",
+      "label": "Tablecloth",
+      "location": "0.0,0.4,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "utensil_holder1",
+      "label": "Utensil Holder",
+      "location": "0.6,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

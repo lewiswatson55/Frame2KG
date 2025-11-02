@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken_wings",
+      "target": "plate"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "tongs",
+      "target": "chicken_wings"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tongs",
+      "target": "plate"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "large"
+      },
+      "id": "chicken_wings",
+      "label": "fried chicken wings",
+      "location": "0.0,0.0,0.85,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate",
+      "label": "ceramic plate",
+      "location": "0.6,0.3,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "tongs",
+      "label": "metal tongs",
+      "location": "0.7,0.4,1.0,1.0,0.85"
+    }
+  ]
+}

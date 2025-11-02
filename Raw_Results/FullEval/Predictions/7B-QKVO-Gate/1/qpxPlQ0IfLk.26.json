@@ -1,0 +1,66 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "bottle_green",
+      "target": "bottle_gold"
+    },
+    {
+      "predicate": "left_of",
+      "source": "jar_yellow",
+      "target": "bottle_green"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand",
+      "target": "blender"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "blender",
+      "label": "Blender",
+      "location": "0.05,0.0,0.48,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "medium"
+      },
+      "id": "bottle_green",
+      "label": "Green bottle",
+      "location": "0.36,0.2,0.52,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "gold glass",
+        "size": "medium"
+      },
+      "id": "bottle_gold",
+      "label": "Gold bottle",
+      "location": "0.52,0.15,0.65,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "jar_yellow",
+      "label": "Jar of mustard",
+      "location": "0.0,0.6,0.2,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand",
+      "label": "Hand",
+      "location": "0.6,0.0,1.0,0.6,0.9"
+    }
+  ]
+}

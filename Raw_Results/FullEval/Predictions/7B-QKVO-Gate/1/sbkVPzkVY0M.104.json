@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "shirt1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "mug1",
+      "target": "shirt1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim",
+        "size": "large"
+      },
+      "id": "shirt1",
+      "label": "Denim Shirt",
+      "location": "0.05,0.0,0.98,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "mug1",
+      "label": "Ceramic Mug",
+      "location": "0.0,0.3,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on red background",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "POPSUGAR Logo",
+      "location": "0.8,0.8,1.0,1.0,0.9"
+    }
+  ]
+}

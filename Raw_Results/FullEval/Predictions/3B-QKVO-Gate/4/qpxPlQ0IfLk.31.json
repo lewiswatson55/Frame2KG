@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "grill1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "behind",
+      "source": "lemon1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "plate1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "herbs1",
+      "target": "grill1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "grill1",
+      "label": "Grill Pan",
+      "location": "0.05,0.35,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "raw pinkish",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "Chicken Piece",
+      "location": "0.45,0.45,0.65,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Wooden Bowl",
+      "location": "0.25,0.05,0.45,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "Wooden Bowl",
+      "location": "0.45,0.05,0.65,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.65,0.0,0.95,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "Lemon Wedge",
+      "location": "0.45,0.0,0.55,0.15,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "herbs1",
+      "label": "Herbs",
+      "location": "0.8,0.6,1.0,1.0,0.7"
+    }
+  ]
+}

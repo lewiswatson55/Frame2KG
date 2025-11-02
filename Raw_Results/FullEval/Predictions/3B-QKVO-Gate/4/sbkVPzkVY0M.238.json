@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "on",
+      "source": "burger1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "burger2",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "burger1",
+      "target": "burger2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "plate1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.35,0.0,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "Sauce Bottle",
+      "location": "0.45,0.0,0.75,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bun with melted yellow cheese",
+        "size": "small"
+      },
+      "id": "burger1",
+      "label": "Burger",
+      "location": "0.55,0.6,0.85,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bun with brown patty",
+        "size": "small"
+      },
+      "id": "burger2",
+      "label": "Burger",
+      "location": "0.35,0.6,0.65,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.3,0.6,0.9,0.95,0.9"
+    }
+  ]
+}

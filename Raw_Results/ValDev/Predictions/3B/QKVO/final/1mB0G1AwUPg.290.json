@@ -1,0 +1,146 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "holding",
+      "source": "person2",
+      "target": "knife1"
+    },
+    {
+      "predicate": "above",
+      "source": "sign1",
+      "target": "board1"
+    },
+    {
+      "predicate": "above",
+      "source": "sign2",
+      "target": "board1"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf1",
+      "target": "board1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "lamp1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "lamp2",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt red logo",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white sweater",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.48,0.05,0.95,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.3,0.6,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.1,0.7,0.3,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.7,0.5,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black chalkboard",
+        "size": "large"
+      },
+      "id": "sign1",
+      "label": "menu sign",
+      "location": "0.0,0.0,0.4,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black chalkboard",
+        "size": "large"
+      },
+      "id": "sign2",
+      "label": "menu sign",
+      "location": "0.4,0.0,1.0,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal rack with bread rolls",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "bread shelf",
+      "location": "0.5,0.2,1.0,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "lamp1",
+      "label": "table lamp",
+      "location": "0.0,0.0,0.2,0.3,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "lamp2",
+      "label": "table lamp",
+      "location": "0.8,0.0,1.0,0.3,0.6"
+    }
+  ]
+}

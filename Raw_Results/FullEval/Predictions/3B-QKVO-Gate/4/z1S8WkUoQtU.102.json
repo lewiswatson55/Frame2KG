@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "whisk1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "whisk1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.45,0.0,0.75,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal wires",
+        "size": "large"
+      },
+      "id": "whisk1",
+      "label": "Whisk",
+      "location": "0.6,0.2,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.0,0.8,0.3,1.0,0.7"
+    }
+  ]
+}

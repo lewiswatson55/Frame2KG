@@ -1,0 +1,220 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "fruit_bowl",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper_grinder",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "salt_shaker",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pepper_grinder",
+      "target": "salt_shaker"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "table1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "rack1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "utensils1",
+      "target": "rack1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "microwave1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "sink1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "fridge1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt black apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.35,0.18,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.45,0.45,0.55,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "kitchen table",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal bowl",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.2,0.7,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bowl",
+        "size": "medium"
+      },
+      "id": "bowl2",
+      "label": "glass bowl",
+      "location": "0.4,0.7,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "mixed fruits",
+        "size": "small"
+      },
+      "id": "fruit_bowl",
+      "label": "fruit bowl",
+      "location": "0.5,0.75,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue plastic",
+        "size": "small"
+      },
+      "id": "pepper_grinder",
+      "label": "pepper grinder",
+      "location": "0.75,0.7,0.8,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "salt_shaker",
+      "label": "salt shaker",
+      "location": "0.8,0.7,0.85,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.75,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave",
+      "location": "0.75,0.1,0.9,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "oven",
+      "location": "0.75,0.3,0.9,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.1,0.4,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.5,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal rack",
+        "size": "medium"
+      },
+      "id": "rack1",
+      "label": "hanging rack",
+      "location": "0.0,0.0,0.6,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "various utensils",
+        "size": "small"
+      },
+      "id": "utensils1",
+      "label": "utensils",
+      "location": "0.0,0.0,0.6,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey painted",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.0,0.0,1.0,0.5,0.7"
+    }
+  ]
+}

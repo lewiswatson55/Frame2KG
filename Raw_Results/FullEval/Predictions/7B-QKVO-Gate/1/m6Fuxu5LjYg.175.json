@@ -1,0 +1,119 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "rack1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "rack1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken2",
+      "target": "rack1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken3",
+      "target": "rack1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken4",
+      "target": "rack1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken5",
+      "target": "rack1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chicken1",
+      "target": "chicken2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chicken2",
+      "target": "chicken3"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chicken3",
+      "target": "chicken4"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chicken4",
+      "target": "chicken5"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "baking tray",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal grid",
+        "size": "medium"
+      },
+      "id": "rack1",
+      "label": "cooling rack",
+      "location": "0.0,0.5,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "raw breaded",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "breaded chicken piece",
+      "location": "0.0,0.0,0.3,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "raw breaded",
+        "size": "medium"
+      },
+      "id": "chicken2",
+      "label": "breaded chicken piece",
+      "location": "0.3,0.0,0.7,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "raw breaded",
+        "size": "medium"
+      },
+      "id": "chicken3",
+      "label": "breaded chicken piece",
+      "location": "0.4,0.2,0.8,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "raw breaded",
+        "size": "medium"
+      },
+      "id": "chicken4",
+      "label": "breaded chicken piece",
+      "location": "0.6,0.2,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "raw breaded",
+        "size": "medium"
+      },
+      "id": "chicken5",
+      "label": "breaded chicken piece",
+      "location": "0.5,0.5,1.0,0.8,0.8"
+    }
+  ]
+}

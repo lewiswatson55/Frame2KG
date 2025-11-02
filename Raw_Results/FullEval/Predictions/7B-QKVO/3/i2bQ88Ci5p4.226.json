@@ -1,0 +1,112 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person2",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "logo1",
+      "target": "dip_bowl1"
+    },
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "chips1"
+    },
+    {
+      "predicate": "on",
+      "source": "mac_cheese1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.45,0.05,0.98,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.0,0.3,0.4,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown ceramic bowl with green dip",
+        "size": "small"
+      },
+      "id": "dip_bowl1",
+      "label": "spinach artichoke dip bowl",
+      "location": "0.1,0.1,0.6,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow text on black background",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Applebee's logo",
+      "location": "0.05,0.05,0.45,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "chips1",
+      "label": "tortilla chips",
+      "location": "0.15,0.2,0.45,0.45,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.5,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with pasta and meatballs",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "mac & cheese plate",
+      "location": "0.6,0.6,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow beverage can",
+        "size": "small"
+      },
+      "id": "can1",
+      "label": "beverage can",
+      "location": "0.8,0.75,0.95,0.95,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic cup",
+        "size": "small"
+      },
+      "id": "cup1",
+      "label": "plastic cup",
+      "location": "0.0,0.75,0.2,0.95,0.7"
+    }
+  ]
+}

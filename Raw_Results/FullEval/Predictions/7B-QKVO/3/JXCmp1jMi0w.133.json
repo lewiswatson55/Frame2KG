@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bag1",
+      "target": "flour1"
+    },
+    {
+      "predicate": "on",
+      "source": "flour1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "table1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "table1",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.3,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige paper",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "Paper Bag",
+      "location": "0.0,0.0,0.7,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown powder",
+        "size": "medium"
+      },
+      "id": "flour1",
+      "label": "Flour",
+      "location": "0.1,0.2,0.6,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.4,0.2,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white painted wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige carpet",
+        "size": "large"
+      },
+      "id": "carpet1",
+      "label": "Carpet",
+      "location": "0.0,0.7,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue painted wall",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "Wall",
+      "location": "0.0,0.0,1.0,0.2,0.8"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "hand1",
+      "target": "bowl_salt"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_salt",
+      "target": "bowl_garlic"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_garlic",
+      "target": "bowl_spice"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_spice",
+      "target": "bowl_rice"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_rice",
+      "target": "bowl_brown_sauce"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_brown_sauce",
+      "target": "bowl_clear_sauce"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_clear_sauce",
+      "target": "bowl_water"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.0,0.35,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "bowl_salt",
+      "label": "Salt Bowl",
+      "location": "0.25,0.25,0.45,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "bowl_garlic",
+      "label": "Garlic Bowl",
+      "location": "0.45,0.25,0.65,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl_spice",
+      "label": "Spice Bowl",
+      "location": "0.65,0.25,0.85,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl_rice",
+      "label": "Rice Bowl",
+      "location": "0.75,0.35,0.95,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl_brown_sauce",
+      "label": "Brown Sauce Bowl",
+      "location": "0.25,0.65,0.45,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl_clear_sauce",
+      "label": "Clear Sauce Bowl",
+      "location": "0.45,0.65,0.65,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl_water",
+      "label": "Water Bowl",
+      "location": "0.65,0.65,0.85,0.9,0.9"
+    }
+  ]
+}

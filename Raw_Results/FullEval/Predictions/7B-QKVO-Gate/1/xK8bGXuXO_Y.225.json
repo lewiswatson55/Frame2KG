@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "apron1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle2",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle3",
+      "target": "bottle2"
+    },
+    {
+      "predicate": "behind",
+      "source": "window1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "fridge1",
+      "target": "shelf1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black hair pink shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.25,0.0,0.75,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue white striped fabric",
+        "size": "medium"
+      },
+      "id": "apron1",
+      "label": "apron",
+      "location": "0.3,0.4,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass green liquid",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "oil bottle",
+      "location": "0.7,0.05,0.8,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass yellow liquid",
+        "size": "small"
+      },
+      "id": "bottle2",
+      "label": "oil bottle",
+      "location": "0.8,0.05,0.9,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass clear liquid",
+        "size": "small"
+      },
+      "id": "bottle3",
+      "label": "oil bottle",
+      "location": "0.9,0.05,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "kitchen shelf",
+      "location": "0.5,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass panes",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.6,0.3,1.0,1.0,0.7"
+    }
+  ]
+}

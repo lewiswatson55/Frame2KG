@@ -1,0 +1,67 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "tray"
+    },
+    {
+      "predicate": "on",
+      "source": "patty2",
+      "target": "tray"
+    },
+    {
+      "predicate": "on",
+      "source": "patty3",
+      "target": "tray"
+    },
+    {
+      "predicate": "next_to",
+      "source": "patty1",
+      "target": "patty2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "patty2",
+      "target": "patty3"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink minced meat with green herbs",
+        "size": "medium"
+      },
+      "id": "patty1",
+      "label": "raw burger patty",
+      "location": "0.05,0.45,0.48,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink minced meat with green herbs",
+        "size": "medium"
+      },
+      "id": "patty2",
+      "label": "raw burger patty",
+      "location": "0.45,0.05,0.95,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink minced meat with green herbs",
+        "size": "medium"
+      },
+      "id": "patty3",
+      "label": "raw burger patty",
+      "location": "0.05,0.05,0.45,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tray",
+      "label": "baking tray",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    }
+  ]
+}

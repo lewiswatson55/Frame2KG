@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "background1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text_food",
+      "target": "background1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cinnamon_stick1",
+      "target": "background1"
+    },
+    {
+      "predicate": "behind",
+      "source": "star_anise1",
+      "target": "background1"
+    },
+    {
+      "predicate": "behind",
+      "source": "red_pepper1",
+      "target": "background1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "pakoda_image1",
+      "target": "samosa_image1"
+    },
+    {
+      "predicate": "below",
+      "source": "pakoda_text1",
+      "target": "pakoda_image1"
+    },
+    {
+      "predicate": "below",
+      "source": "samosa_text1",
+      "target": "samosa_image1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue circular",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Rajshri logo",
+      "location": "0.45,0.05,0.60,0.30,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "teal text",
+        "size": "medium"
+      },
+      "id": "text_food",
+      "label": "food text",
+      "location": "0.48,0.30,0.52,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "wooden surface",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "small"
+      },
+      "id": "cinnamon_stick1",
+      "label": "cinnamon stick",
+      "location": "0.15,0.15,0.25,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark brown wood",
+        "size": "small"
+      },
+      "id": "star_anise1",
+      "label": "star anise pod",
+      "location": "0.05,0.15,0.15,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red glossy",
+        "size": "medium"
+      },
+      "id": "red_pepper1",
+      "label": "red pepper half",
+      "location": "0.75,0.10,0.90,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden fried",
+        "size": "medium"
+      },
+      "id": "pakoda_image1",
+      "label": "potato & onion fritters",
+      "location": "0.05,0.50,0.45,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden fried",
+        "size": "medium"
+      },
+      "id": "samosa_image1",
+      "label": "samosa",
+      "location": "0.55,0.50,0.95,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white cursive",
+        "size": "small"
+      },
+      "id": "pakoda_text1",
+      "label": "pakoda text",
+      "location": "0.05,0.90,0.45,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white cursive",
+        "size": "small"
+      },
+      "id": "samosa_text1",
+      "label": "samosa text",
+      "location": "0.55,0.90,0.95,1.0,0.8"
+    }
+  ]
+}

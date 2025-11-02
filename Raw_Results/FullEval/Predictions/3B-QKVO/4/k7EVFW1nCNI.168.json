@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "in",
+      "source": "food1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cloth1",
+      "target": "blender1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white plastic with red accents",
+        "size": "large"
+      },
+      "id": "blender1",
+      "label": "mixing blender",
+      "location": "0.35,0.45,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.6,0.0,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellowish creamy",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "creamy mixture",
+      "location": "0.45,0.2,0.75,0.5,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "wooden table",
+      "location": "0.0,0.7,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red fabric",
+        "size": "medium"
+      },
+      "id": "cloth1",
+      "label": "red cloth",
+      "location": "0.75,0.0,1.0,0.5,0.8"
+    }
+  ]
+}

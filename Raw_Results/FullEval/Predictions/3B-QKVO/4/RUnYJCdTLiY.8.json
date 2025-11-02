@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "fruit_bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "fruit_bowl",
+      "target": "countertop"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "fruit_bowl",
+      "target": "stove"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spatula",
+      "target": "tongs"
+    },
+    {
+      "predicate": "left_of",
+      "source": "tongs",
+      "target": "spatula"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "grey sweater",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.35,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red and black berries",
+        "size": "medium"
+      },
+      "id": "fruit_bowl",
+      "label": "fruit bowl",
+      "location": "0.45,0.5,0.75,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "tongs",
+      "label": "tongs",
+      "location": "0.0,0.7,0.2,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "spatula",
+      "label": "spatula",
+      "location": "0.2,0.7,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.3,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove",
+      "label": "stove",
+      "location": "0.7,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown stone",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    }
+  ]
+}

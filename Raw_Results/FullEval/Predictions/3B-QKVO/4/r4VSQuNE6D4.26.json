@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bottle_red",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle_yellow",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bag_white",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "box_left",
+      "target": "box_right"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "scissors",
+      "target": "bottle_yellow"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "large"
+      },
+      "id": "bottle_red",
+      "label": "Red bottle",
+      "location": "0.00,0.35,0.28,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "medium"
+      },
+      "id": "bottle_yellow",
+      "label": "Yellow bottle",
+      "location": "0.40,0.10,0.60,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "bag_white",
+      "label": "Plastic bag",
+      "location": "0.20,0.00,0.50,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown cardboard",
+        "size": "small"
+      },
+      "id": "box_left",
+      "label": "Cardboard box",
+      "location": "0.60,0.00,0.70,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown cardboard",
+        "size": "small"
+      },
+      "id": "box_right",
+      "label": "Cardboard box",
+      "location": "0.70,0.00,0.80,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "scissors",
+      "label": "Scissors",
+      "location": "0.45,0.60,0.60,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark brown granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "Countertop",
+      "location": "0.00,0.00,1.00,1.00,0.9"
+    }
+  ]
+}

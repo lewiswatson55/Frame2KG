@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in",
+      "source": "oil1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray2",
+      "target": "tray1"
+    },
+    {
+      "predicate": "behind",
+      "source": "blender1",
+      "target": "tray2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "hand1",
+      "target": "tray2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "Stove",
+      "location": "0.0,0.65,0.48,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "Frying Pan",
+      "location": "0.03,0.7,0.45,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear liquid",
+        "size": "small"
+      },
+      "id": "oil1",
+      "label": "Cooking Oil",
+      "location": "0.05,0.75,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.35,0.4,0.65,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark metal",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "Baking Tray",
+      "location": "0.45,0.6,0.75,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown sauce",
+        "size": "medium"
+      },
+      "id": "tray2",
+      "label": "Casserole Dish",
+      "location": "0.6,0.55,0.95,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.6,0.5,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "Blender Jar",
+      "location": "0.65,0.1,0.9,0.5,0.9"
+    }
+  ]
+}

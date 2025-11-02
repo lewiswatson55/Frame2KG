@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "brush1"
+    },
+    {
+      "predicate": "on",
+      "source": "shelf1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "on",
+      "source": "vase1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lamp1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar2",
+      "target": "table1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown hair, grey top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink plastic",
+        "size": "small"
+      },
+      "id": "brush1",
+      "label": "hair brush",
+      "location": "0.48,0.75,0.55,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white vertical stripes",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.0,0.0,0.4,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue and white ceramic",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "ceramic vase",
+      "location": "0.05,0.15,0.15,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark brown wood",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "decorative plate",
+      "location": "0.15,0.15,0.25,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow light shade",
+        "size": "medium"
+      },
+      "id": "lamp1",
+      "label": "lamp",
+      "location": "0.8,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black wooden",
+        "size": "small"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.75,0.6,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue ceramic",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "ceramic jar",
+      "location": "0.85,0.6,0.95,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "jar2",
+      "label": "glass jar",
+      "location": "0.95,0.7,1.0,0.85,0.7"
+    }
+  ]
+}

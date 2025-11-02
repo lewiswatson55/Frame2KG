@@ -1,0 +1,281 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "oven"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "oven"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "pan2",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_bread",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_green",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "blender",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "plant",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "jar_oil",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_bacon",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce_plate",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato_plate",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_plate",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "spice_jar",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "kettle",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "toaster",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "jars",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "utensils",
+      "target": "shelf"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "grey shirt beard",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.05,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.45,0.05,0.75,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "oven",
+      "label": "double oven",
+      "location": "0.0,0.0,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove",
+      "label": "gas stove",
+      "location": "0.0,0.6,0.6,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.7,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black cast iron",
+        "size": "small"
+      },
+      "id": "pan2",
+      "label": "skillet",
+      "location": "0.3,0.7,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate_bread",
+      "label": "plate of bread slices",
+      "location": "0.6,0.7,0.8,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl_green",
+      "label": "bowl of green salad",
+      "location": "0.65,0.6,0.75,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "medium"
+      },
+      "id": "blender",
+      "label": "stand blender",
+      "location": "0.75,0.4,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "plant",
+      "label": "potted plant",
+      "location": "0.85,0.4,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar",
+        "size": "small"
+      },
+      "id": "jar_oil",
+      "label": "oil bottle",
+      "location": "0.7,0.7,0.75,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate_bacon",
+      "label": "plate of bacon strips",
+      "location": "0.6,0.8,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green lettuce",
+        "size": "small"
+      },
+      "id": "lettuce_plate",
+      "label": "plate of lettuce",
+      "location": "0.8,0.8,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red tomato slices",
+        "size": "small"
+      },
+      "id": "tomato_plate",
+      "label": "plate of tomato slices",
+      "location": "0.7,0.8,0.8,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bread_plate",
+      "label": "plate of bread slices",
+      "location": "0.75,0.8,0.85,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden shelf",
+        "size": "large"
+      },
+      "id": "shelf",
+      "label": "cabinet shelf",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal kettle",
+        "size": "small"
+      },
+      "id": "kettle",
+      "label": "teapot",
+      "location": "0.5,0.0,0.6,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "gray plastic",
+        "size": "small"
+      },
+      "id": "toaster",
+      "label": "toaster",
+      "location": "0.8,0.0,0.9,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jars",
+        "size": "small"
+      },
+      "id": "jars",
+      "label": "spice jars",
+      "location": "0.7,0.0,0.9,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal utensils",
+        "size": "small"
+      },
+      "id": "utensils",
+      "label": "utensil holder",
+      "location": "0.9,0.0,1.0,0.2,0.7"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "cutting",
+      "source": "knife1",
+      "target": "onion1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "onion1",
+      "target": "onion_slices1"
+    },
+    {
+      "predicate": "in",
+      "source": "onion_slices1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "onion_slices1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "onion1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.45,0.0,0.98,0.37,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "Knife",
+      "location": "0.6,0.0,0.95,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple white",
+        "size": "large"
+      },
+      "id": "onion1",
+      "label": "Whole Onion",
+      "location": "0.55,0.2,0.9,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white purple",
+        "size": "medium"
+      },
+      "id": "onion_slices1",
+      "label": "Onion Slices",
+      "location": "0.4,0.5,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.0,0.5,0.5,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden light brown",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    }
+  ]
+}

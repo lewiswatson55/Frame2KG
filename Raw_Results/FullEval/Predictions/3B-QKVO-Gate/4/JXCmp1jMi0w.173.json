@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "food1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bag1",
+      "target": "tray1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green striped shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.0,0.0,0.6,1.0,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "brown paper bag with red text",
+        "size": "medium"
+      },
+      "id": "bag1",
+      "label": "Paper Bag",
+      "location": "0.4,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal tray with white flour-coated food",
+        "size": "small"
+      },
+      "id": "tray1",
+      "label": "Tray of Food",
+      "location": "0.0,0.7,0.6,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "Flour-Coated Food",
+      "location": "0.05,0.75,0.55,0.95,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table",
+      "location": "0.0,0.8,1.0,1.0,0.9"
+    }
+  ]
+}

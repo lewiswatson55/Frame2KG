@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "onion_rings1"
+    },
+    {
+      "predicate": "in",
+      "source": "onion_rings1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "napkin1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "onion_rings2",
+      "target": "napkin1"
+    },
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "table1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.05,0.0,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic with blue rim",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "ceramic bowl",
+      "location": "0.0,0.3,0.5,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "onion_rings1",
+      "label": "onion rings",
+      "location": "0.1,0.4,0.4,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pale yellow paper",
+        "size": "medium"
+      },
+      "id": "napkin1",
+      "label": "paper napkin",
+      "location": "0.4,0.3,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "onion_rings2",
+      "label": "onion rings",
+      "location": "0.5,0.4,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red black white graphic",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "MasterChef logo",
+      "location": "0.75,0.0,1.0,0.2,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

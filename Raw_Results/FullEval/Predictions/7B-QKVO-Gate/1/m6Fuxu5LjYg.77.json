@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "liquid1",
+      "target": "glass1"
+    },
+    {
+      "predicate": "on",
+      "source": "red_dot1",
+      "target": "liquid1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "glass1",
+      "label": "glass bowl",
+      "location": "0.05,0.0,0.95,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frothy",
+        "size": "medium"
+      },
+      "id": "liquid1",
+      "label": "foamy liquid",
+      "location": "0.1,0.1,0.9,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red small",
+        "size": "small"
+      },
+      "id": "red_dot1",
+      "label": "red dot",
+      "location": "0.45,0.6,0.55,0.7,0.6"
+    }
+  ]
+}

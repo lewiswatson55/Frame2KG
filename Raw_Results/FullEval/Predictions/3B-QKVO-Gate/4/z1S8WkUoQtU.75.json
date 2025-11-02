@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "painting1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "vase1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "logo1",
+      "target": "painting1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink shirt,long dark hair",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.15,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic with yellow content",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl",
+      "location": "0.45,0.75,0.55,0.85,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "medium"
+      },
+      "id": "vase1",
+      "label": "vase",
+      "location": "0.75,0.3,0.95,0.8,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "abstract black frame painting",
+        "size": "medium"
+      },
+      "id": "painting1",
+      "label": "wall art",
+      "location": "0.15,0.1,0.45,0.4,0.75"
+    },
+    {
+      "attributes": {
+        "appearance": "golden utensils icon",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "logo",
+      "location": "0.0,0.0,0.15,0.15,0.9"
+    }
+  ]
+}

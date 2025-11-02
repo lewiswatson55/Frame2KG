@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text_pop_sugar",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "text_music_info",
+      "target": "background"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text_pop_sugar",
+      "target": "text_music_info"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink gradient",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "pink letters with white star",
+        "size": "medium"
+      },
+      "id": "text_pop_sugar",
+      "label": "Text 'POPSUGAR'",
+      "location": "0.3,0.4,0.7,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on pink background",
+        "size": "small"
+      },
+      "id": "text_music_info",
+      "label": "Text 'FEATURED MUSIC: ON YOUR SIDE BY SILVER BULLETS MUSIC LIBRARY'",
+      "location": "0.6,0.75,0.95,0.9,0.8"
+    }
+  ]
+}

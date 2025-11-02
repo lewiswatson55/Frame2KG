@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "herbs1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "herbs1",
+      "target": "cheese1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown minced meat",
+        "size": "large"
+      },
+      "id": "chicken1",
+      "label": "raw chicken mixture",
+      "location": "0.05,0.3,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green chopped herbs",
+        "size": "small"
+      },
+      "id": "herbs1",
+      "label": "chopped herbs",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white cheese cubes",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "cheese cubes",
+      "location": "0.4,0.7,0.6,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "metal bowl",
+      "location": "0.3,0.0,0.7,0.4,0.8"
+    }
+  ]
+}

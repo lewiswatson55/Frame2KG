@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "chicken_piece"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "paper_bag"
+    },
+    {
+      "predicate": "on",
+      "source": "plastic_bowl",
+      "target": "wooden_board"
+    },
+    {
+      "predicate": "includes",
+      "source": "plastic_bowl",
+      "target": "pink_sauce"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray",
+      "target": "plastic_bowl"
+    },
+    {
+      "predicate": "supports",
+      "source": "tray",
+      "target": "raw_chicken_wings"
+    },
+    {
+      "predicate": "behind",
+      "source": "glass_jar",
+      "target": "tray"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "hand",
+      "location": "0.05,0.3,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "chicken_piece",
+      "label": "fried chicken piece",
+      "location": "0.25,0.35,0.35,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown paper",
+        "size": "large"
+      },
+      "id": "paper_bag",
+      "label": "paper bag",
+      "location": "0.0,0.0,0.5,0.7,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "medium"
+      },
+      "id": "plastic_bowl",
+      "label": "bowl",
+      "location": "0.0,0.5,0.6,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red liquid",
+        "size": "small"
+      },
+      "id": "pink_sauce",
+      "label": "sauce",
+      "location": "0.1,0.6,0.5,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "tray",
+      "label": "metal tray",
+      "location": "0.5,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white flour-coated",
+        "size": "medium"
+      },
+      "id": "raw_chicken_wings",
+      "label": "raw chicken wings",
+      "location": "0.6,0.6,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "glass_jar",
+      "label": "jar",
+      "location": "0.6,0.4,0.7,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "medium"
+      },
+      "id": "wooden_board",
+      "label": "cutting board",
+      "location": "0.0,0.7,0.5,1.0,0.8"
+    }
+  ]
+}

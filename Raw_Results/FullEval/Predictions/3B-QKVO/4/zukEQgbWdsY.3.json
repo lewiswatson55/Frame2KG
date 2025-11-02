@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "sandwich1",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "sandwich2",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "dip_bowl",
+      "target": "board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "oil_jar",
+      "target": "dip_bowl"
+    },
+    {
+      "predicate": "next_to",
+      "source": "salt_shaker",
+      "target": "dip_bowl"
+    },
+    {
+      "predicate": "left_of",
+      "source": "sauce_pack",
+      "target": "board"
+    },
+    {
+      "predicate": "behind",
+      "source": "tablecloth",
+      "target": "board"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "toasted bread with lettuce and bacon",
+        "size": "medium"
+      },
+      "id": "sandwich1",
+      "label": "Sandwich half",
+      "location": "0.65,0.45,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread with lettuce and bacon",
+        "size": "medium"
+      },
+      "id": "sandwich2",
+      "label": "Sandwich half",
+      "location": "0.35,0.45,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "dip_bowl",
+      "label": "Dip bowl",
+      "location": "0.35,0.35,0.55,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown glass",
+        "size": "medium"
+      },
+      "id": "oil_jar",
+      "label": "Oil jar",
+      "location": "0.15,0.05,0.35,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with white powder",
+        "size": "small"
+      },
+      "id": "salt_shaker",
+      "label": "Salt shaker",
+      "location": "0.55,0.05,0.75,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with green sauce",
+        "size": "small"
+      },
+      "id": "dip_container",
+      "label": "Sauce container",
+      "location": "0.35,0.35,0.55,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "Cutting board",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "sauce_pack",
+      "label": "Sauce packet",
+      "location": "0.0,0.6,0.15,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange fabric",
+        "size": "large"
+      },
+      "id": "tablecloth",
+      "label": "Tablecloth",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

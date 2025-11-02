@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "small_bottle"
+    },
+    {
+      "predicate": "next_to",
+      "source": "green_bottle1",
+      "target": "gold_bottle1"
+    },
+    {
+      "predicate": "on",
+      "source": "green_bottle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "gold_bottle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "small_bottle",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "watch1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "multicolored plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.45,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with gold cap",
+        "size": "medium"
+      },
+      "id": "gold_bottle1",
+      "label": "Bottle",
+      "location": "0.3,0.3,0.48,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark green glass",
+        "size": "medium"
+      },
+      "id": "green_bottle1",
+      "label": "Bottle",
+      "location": "0.0,0.4,0.25,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with dark liquid",
+        "size": "small"
+      },
+      "id": "small_bottle",
+      "label": "Small Bottle",
+      "location": "0.6,0.4,0.75,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.7,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey concrete",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "Wall",
+      "location": "0.0,0.0,1.0,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown leather strap",
+        "size": "small"
+      },
+      "id": "watch1",
+      "label": "Watch",
+      "location": "0.75,0.4,0.9,0.6,0.8"
+    }
+  ]
+}

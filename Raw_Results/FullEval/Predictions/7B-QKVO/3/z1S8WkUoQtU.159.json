@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "waffle1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "waffle1",
+      "target": "background1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "waffle1",
+      "label": "Waffle",
+      "location": "0.05,0.3,0.95,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.0,0.4,1.0,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "red blurred",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,0.4,0.5"
+    }
+  ]
+}

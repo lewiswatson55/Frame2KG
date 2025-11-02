@@ -1,0 +1,114 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "in",
+      "source": "pasta1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray1",
+      "target": "tray2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray1",
+      "target": "tray3"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray1",
+      "target": "tray4"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray2",
+      "target": "tray3"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray2",
+      "target": "tray4"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray3",
+      "target": "tray4"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.05,0.0,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "aluminum tray",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white pasta",
+        "size": "large"
+      },
+      "id": "pasta1",
+      "label": "macaroni",
+      "location": "0.05,0.3,0.95,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow shredded",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "shredded cheese",
+      "location": "0.1,0.4,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tray2",
+      "label": "aluminum tray",
+      "location": "0.0,0.0,0.5,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tray3",
+      "label": "aluminum tray",
+      "location": "0.5,0.0,1.0,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tray4",
+      "label": "aluminum tray",
+      "location": "0.5,0.4,1.0,1.0,0.9"
+    }
+  ]
+}

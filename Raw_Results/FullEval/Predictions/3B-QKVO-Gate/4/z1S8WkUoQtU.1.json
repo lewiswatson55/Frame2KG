@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "logo_circle",
+      "target": "background"
+    },
+    {
+      "predicate": "below",
+      "source": "text_food",
+      "target": "logo_circle"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "dark black",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "black background",
+      "location": "0.0,0.0,1.0,1.0,0.99"
+    },
+    {
+      "attributes": {
+        "appearance": "blue circular graphic",
+        "size": "medium"
+      },
+      "id": "logo_circle",
+      "label": "Rajshri logo",
+      "location": "0.35,0.15,0.65,0.45,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "light blue text",
+        "size": "small"
+      },
+      "id": "text_food",
+      "label": "food text",
+      "location": "0.45,0.55,0.75,0.75,0.85"
+    }
+  ]
+}

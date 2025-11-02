@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "tongs1"
+    },
+    {
+      "predicate": "holding",
+      "source": "tongs1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "grill1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lettuce1",
+      "target": "grill1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.05,0.0,0.35,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "tongs1",
+      "label": "metal tongs",
+      "location": "0.1,0.0,0.6,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white with brown grill marks",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "grilled chicken breast",
+      "location": "0.4,0.1,0.7,0.6,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal grid",
+        "size": "large"
+      },
+      "id": "grill1",
+      "label": "grill grate",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.7,0.0,1.0,0.4,0.85"
+    }
+  ]
+}

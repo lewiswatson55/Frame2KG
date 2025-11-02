@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "tray1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "dish1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "behind",
+      "source": "tile_backsplash1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt and hat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.5,0.0,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "medium"
+      },
+      "id": "dish1",
+      "label": "glass dish",
+      "location": "0.35,0.4,0.7,0.8,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.6,0.5,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.6,0.5,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "tray1",
+      "label": "aluminum tray",
+      "location": "0.4,0.6,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "rack1",
+      "label": "wooden rack",
+      "location": "0.6,0.5,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white tiled",
+        "size": "large"
+      },
+      "id": "tile_backsplash1",
+      "label": "tile backsplash",
+      "location": "0.0,0.0,1.0,0.5,0.8"
+    }
+  ]
+}

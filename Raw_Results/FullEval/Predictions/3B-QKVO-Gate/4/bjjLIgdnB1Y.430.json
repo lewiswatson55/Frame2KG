@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "towel1"
+    },
+    {
+      "predicate": "on",
+      "source": "towel1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "griddle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "holding",
+      "source": "spatula1",
+      "target": "pancake2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "pancake2",
+      "target": "griddle1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "pancake1",
+      "label": "Pancake",
+      "location": "0.05,0.6,0.35,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light golden",
+        "size": "medium"
+      },
+      "id": "pancake2",
+      "label": "Pancake",
+      "location": "0.45,0.15,0.75,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white cloth",
+        "size": "large"
+      },
+      "id": "towel1",
+      "label": "Towel",
+      "location": "0.0,0.2,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "griddle1",
+      "label": "Griddle",
+      "location": "0.4,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "Spatula",
+      "location": "0.4,0.0,0.7,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

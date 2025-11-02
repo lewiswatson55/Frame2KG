@@ -1,0 +1,66 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "sauce_bottle1"
+    },
+    {
+      "predicate": "on",
+      "source": "sauce_stream1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "pan1",
+      "target": "stove_surface1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black non-stick",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.05,0.05,0.98,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "sauce_bottle1",
+      "label": "sauce bottle",
+      "location": "0.67,0.0,0.94,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy",
+        "size": "medium"
+      },
+      "id": "sauce_stream1",
+      "label": "sauce stream",
+      "location": "0.55,0.3,0.75,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.75,0.0,1.0,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white glossy",
+        "size": "large"
+      },
+      "id": "stove_surface1",
+      "label": "stove surface",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

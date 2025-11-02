@@ -1,0 +1,67 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "bowl1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "in",
+      "source": "powder1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "on",
+      "source": "powder1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "bowl1",
+      "target": "powder1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.58,0.36,0.94,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.35,0.05,0.75,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "sink1",
+      "label": "Sink",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "powder1",
+      "label": "Cornstarch",
+      "location": "0.2,0.4,0.8,0.8,0.8"
+    }
+  ]
+}

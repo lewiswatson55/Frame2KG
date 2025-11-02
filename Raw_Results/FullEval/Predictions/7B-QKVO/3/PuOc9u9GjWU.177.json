@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "oil1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "on",
+      "source": "chips1",
+      "target": "rack1"
+    },
+    {
+      "predicate": "holding",
+      "source": "tongs1",
+      "target": "chips1"
+    },
+    {
+      "predicate": "in",
+      "source": "tongs1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "in",
+      "source": "chips1",
+      "target": "oil1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.0,0.65,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "bubbling yellowish",
+        "size": "medium"
+      },
+      "id": "oil1",
+      "label": "cooking oil",
+      "location": "0.0,0.3,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "chips1",
+      "label": "fried chips",
+      "location": "0.4,0.0,0.9,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "rack1",
+      "label": "frying rack",
+      "location": "0.3,0.0,0.9,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "tongs1",
+      "label": "tongs",
+      "location": "0.5,0.2,0.9,0.5,0.8"
+    }
+  ]
+}

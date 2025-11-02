@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "food1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "rack1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cup1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "book1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.35,0.25,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow creamy",
+        "size": "medium"
+      },
+      "id": "food1",
+      "label": "cheese sauce",
+      "location": "0.45,0.35,0.95,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "rack1",
+      "label": "dish rack",
+      "location": "0.00,0.00,0.60,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "cup1",
+      "label": "cup",
+      "location": "0.20,0.00,0.40,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "medium"
+      },
+      "id": "book1",
+      "label": "cookbook",
+      "location": "0.00,0.00,0.30,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.00,0.60,1.00,1.00,0.8"
+    }
+  ]
+}

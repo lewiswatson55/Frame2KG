@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "ignition_burner"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "ignition_burner",
+      "target": "control_panel"
+    },
+    {
+      "predicate": "on",
+      "source": "text_label1",
+      "target": "control_panel"
+    },
+    {
+      "predicate": "on",
+      "source": "text_label2",
+      "target": "control_panel"
+    },
+    {
+      "predicate": "on",
+      "source": "text_label3",
+      "target": "control_panel"
+    },
+    {
+      "predicate": "on",
+      "source": "text_label4",
+      "target": "control_panel"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.5,0.0,1.0,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "small"
+      },
+      "id": "ignition_burner",
+      "label": "Ignition Burner Lever",
+      "location": "0.6,0.2,0.8,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "control_panel",
+      "label": "Control Panel",
+      "location": "0.0,0.2,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white bold text on brown background",
+        "size": "medium"
+      },
+      "id": "text_label1",
+      "label": "Text Label 'OUTDOOR USE ONLY'",
+      "location": "0.0,0.0,0.7,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white bold text on black background",
+        "size": "small"
+      },
+      "id": "text_label2",
+      "label": "Text Label 'IGNITION BURNER OFF HIGH LOW'",
+      "location": "0.4,0.2,0.8,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white bold text on green background",
+        "size": "small"
+      },
+      "id": "text_label3",
+      "label": "Text Label 'IGNITE'",
+      "location": "0.3,0.4,0.4,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white bold text on white background",
+        "size": "small"
+      },
+      "id": "text_label4",
+      "label": "Text Label 'ASSISTANCE,'",
+      "location": "0.0,0.8,0.3,1.0,0.8"
+    }
+  ]
+}

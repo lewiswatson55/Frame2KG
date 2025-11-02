@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pancake_stack",
+      "target": "griddle"
+    },
+    {
+      "predicate": "in",
+      "source": "pancake_stack",
+      "target": "frying_pan"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "handle",
+      "target": "frying_pan"
+    },
+    {
+      "predicate": "on",
+      "source": "frying_pan",
+      "target": "stove_surface"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "frying_pan",
+      "label": "Frying Pan",
+      "location": "0.05,0.05,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white batter",
+        "size": "medium"
+      },
+      "id": "pancake_stack",
+      "label": "Pancake Stack",
+      "location": "0.45,0.15,0.75,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "handle",
+      "label": "Pan Handle",
+      "location": "0.0,0.3,0.3,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white glossy",
+        "size": "large"
+      },
+      "id": "stove_surface",
+      "label": "Stovetop Surface",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

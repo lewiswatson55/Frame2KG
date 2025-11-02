@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "on",
+      "source": "bag1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "pepper1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "behind",
+      "source": "spatula1",
+      "target": "bag1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent plastic with red green label",
+        "size": "medium"
+      },
+      "id": "bag1",
+      "label": "croutons bag",
+      "location": "0.05,0.1,0.75,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.45,0.6,0.75,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "red bowl",
+      "location": "0.0,0.3,0.25,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red glossy",
+        "size": "medium"
+      },
+      "id": "pepper1",
+      "label": "red pepper",
+      "location": "0.8,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey metal grid",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "metal spatula",
+      "location": "0.5,0.0,1.0,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white smooth surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

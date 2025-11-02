@@ -1,0 +1,125 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "snake1",
+      "target": "banner1"
+    },
+    {
+      "predicate": "on",
+      "source": "avocado1",
+      "target": "banner1"
+    },
+    {
+      "predicate": "on",
+      "source": "grapes1",
+      "target": "banner1"
+    },
+    {
+      "predicate": "on",
+      "source": "person1",
+      "target": "banner1"
+    },
+    {
+      "predicate": "on",
+      "source": "person2",
+      "target": "banner1"
+    },
+    {
+      "predicate": "on",
+      "source": "text_snake_wine_taste_test",
+      "target": "banner1"
+    },
+    {
+      "predicate": "on",
+      "source": "text_drink_your_bacon",
+      "target": "banner1"
+    },
+    {
+      "predicate": "on",
+      "source": "text_tasted_subscribe",
+      "target": "banner1"
+    },
+    {
+      "predicate": "on",
+      "source": "text_ooey_gooey_seaurchin",
+      "target": "banner1"
+    },
+    {
+      "predicate": "on",
+      "source": "text_hot_pepper_burgers",
+      "target": "banner1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "grapes1",
+      "target": "person2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "avocado1",
+      "target": "grapes1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown snake head",
+        "size": "medium"
+      },
+      "id": "snake1",
+      "label": "snake",
+      "location": "0.05,0.05,0.48,0.36,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green avocado half",
+        "size": "small"
+      },
+      "id": "avocado1",
+      "label": "avocado",
+      "location": "0.75,0.05,0.95,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "purple grapes",
+        "size": "small"
+      },
+      "id": "grapes1",
+      "label": "grapes",
+      "location": "0.75,0.6,0.95,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "smiling woman face",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman_face",
+      "location": "0.05,0.5,0.48,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "man cooking on rooftop",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man_on_roof",
+      "location": "0.5,0.5,0.95,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blackboard background",
+        "size": "large"
+      },
+      "id": "banner1",
+      "label": "chalkboard_banner",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    }
+  ]
+}

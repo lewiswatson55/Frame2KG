@@ -1,0 +1,89 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "burger_top"
+    },
+    {
+      "predicate": "on",
+      "source": "burger_bottom",
+      "target": "plate"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle",
+      "target": "plate"
+    },
+    {
+      "predicate": "behind",
+      "source": "chair",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.35,0.0,0.95,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bun with melted cheese",
+        "size": "small"
+      },
+      "id": "burger_top",
+      "label": "cheeseburger top",
+      "location": "0.45,0.05,0.75,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green lettuce on toasted bun",
+        "size": "small"
+      },
+      "id": "burger_bottom",
+      "label": "cheeseburger bottom",
+      "location": "0.55,0.6,0.85,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate",
+      "label": "plate",
+      "location": "0.4,0.55,0.95,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "wooden table",
+      "location": "0.0,0.4,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "medium"
+      },
+      "id": "chair",
+      "label": "wooden chair leg",
+      "location": "0.0,0.0,0.2,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark glass",
+        "size": "small"
+      },
+      "id": "bottle",
+      "label": "bottle",
+      "location": "0.5,0.1,0.6,0.4,0.7"
+    }
+  ]
+}

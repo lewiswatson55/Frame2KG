@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "wings1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "celery_sticks1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in",
+      "source": "dip1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "celery_sticks1",
+      "target": "dip1"
+    },
+    {
+      "predicate": "behind",
+      "source": "bowl1",
+      "target": "wings1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.05,0.35,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange sauced",
+        "size": "medium"
+      },
+      "id": "wings1",
+      "label": "Wing pieces",
+      "location": "0.1,0.4,0.9,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green",
+        "size": "small"
+      },
+      "id": "celery_sticks1",
+      "label": "Celery sticks",
+      "location": "0.6,0.2,0.9,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Dipping bowl",
+      "location": "0.4,0.1,0.7,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy",
+        "size": "small"
+      },
+      "id": "dip1",
+      "label": "Dip",
+      "location": "0.45,0.15,0.65,0.3,0.8"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "can1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "can1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "croutons1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green plastic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.15,0.3,0.85,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow metal",
+        "size": "medium"
+      },
+      "id": "can1",
+      "label": "soup can",
+      "location": "0.4,0.0,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.3,0.0,0.6,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crumbly",
+        "size": "small"
+      },
+      "id": "croutons1",
+      "label": "croutons",
+      "location": "0.2,0.4,0.8,0.8,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.75,0.0,1.0,0.4,0.8"
+    }
+  ]
+}

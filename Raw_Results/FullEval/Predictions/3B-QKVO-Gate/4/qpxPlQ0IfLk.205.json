@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "brick_wall1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "hanging_pans1",
+      "target": "brick_wall1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fruit_basket1",
+      "target": "wooden_cabinet1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "wooden_cabinet1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "multicolored plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.15,0.0,0.85,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl of cream",
+      "location": "0.75,0.45,0.93,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.45,0.1,0.65,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey brick",
+        "size": "large"
+      },
+      "id": "brick_wall1",
+      "label": "brick wall",
+      "location": "0.0,0.0,1.0,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal shelf with jars",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "wall shelf",
+      "location": "0.0,0.0,0.6,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "wooden_cabinet1",
+      "label": "wooden cabinet",
+      "location": "0.0,0.5,0.3,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow fruits",
+        "size": "small"
+      },
+      "id": "fruit_basket1",
+      "label": "fruit basket",
+      "location": "0.0,0.5,0.2,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame",
+        "size": "small"
+      },
+      "id": "framed_sign1",
+      "label": "framed sign",
+      "location": "0.8,0.2,0.98,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "hanging_pans1",
+      "label": "hanging pans",
+      "location": "0.3,0.0,0.7,0.3,0.7"
+    }
+  ]
+}

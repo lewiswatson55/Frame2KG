@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "sauce_bottle1"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake_dough1",
+      "target": "griddle_pan1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "sauce_bottle1",
+      "target": "pancake_dough1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "griddle_pan1",
+      "label": "Griddle Pan",
+      "location": "0.05,0.05,0.98,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "medium"
+      },
+      "id": "sauce_bottle1",
+      "label": "Sauce Bottle",
+      "location": "0.67,0.04,0.92,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.75,0.15,0.98,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige batter",
+        "size": "medium"
+      },
+      "id": "pancake_dough1",
+      "label": "Pancake Dough",
+      "location": "0.45,0.35,0.85,0.85,0.8"
+    }
+  ]
+}

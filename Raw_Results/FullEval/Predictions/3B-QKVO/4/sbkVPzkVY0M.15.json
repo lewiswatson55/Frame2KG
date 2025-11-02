@@ -1,0 +1,67 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "cupcake1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "cupcake2",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "cupcake3",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cupcake1",
+      "target": "cupcake2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cupcake2",
+      "target": "cupcake3"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green frosting with white sprinkles",
+        "size": "medium"
+      },
+      "id": "cupcake1",
+      "label": "cupcake",
+      "location": "0.05,0.45,0.6,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange frosting with pink flowers",
+        "size": "medium"
+      },
+      "id": "cupcake2",
+      "label": "cupcake",
+      "location": "0.3,0.1,0.7,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple frosting with pink flowers",
+        "size": "medium"
+      },
+      "id": "cupcake3",
+      "label": "cupcake",
+      "location": "0.7,0.2,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    }
+  ]
+}

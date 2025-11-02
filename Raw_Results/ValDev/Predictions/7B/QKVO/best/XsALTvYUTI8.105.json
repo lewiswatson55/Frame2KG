@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "soup1"
+    },
+    {
+      "predicate": "in",
+      "source": "squash1",
+      "target": "soup1"
+    },
+    {
+      "predicate": "in",
+      "source": "lentils1",
+      "target": "soup1"
+    },
+    {
+      "predicate": "on",
+      "source": "soup1",
+      "target": "pot1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.05,0.0,0.95,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "creamy white",
+        "size": "medium"
+      },
+      "id": "soup1",
+      "label": "cream soup",
+      "location": "0.0,0.3,1.0,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange cubes",
+        "size": "small"
+      },
+      "id": "squash1",
+      "label": "squash pieces",
+      "location": "0.4,0.3,0.6,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown lentil",
+        "size": "small"
+      },
+      "id": "lentils1",
+      "label": "lentils",
+      "location": "0.1,0.4,0.9,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.5,0.0,1.0,0.5,0.85"
+    }
+  ]
+}

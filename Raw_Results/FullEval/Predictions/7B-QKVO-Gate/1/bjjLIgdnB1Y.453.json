@@ -1,0 +1,202 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spray1"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "maple_syrup1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "table1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "sink1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "behind",
+      "source": "window1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "faucet1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "maple_syrup1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "includes",
+      "source": "cabinet1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "includes",
+      "source": "cabinet1",
+      "target": "sink1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green top black apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.2,0.0,0.4,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black non-stick",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "griddle",
+      "location": "0.55,0.55,0.9,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "pancake1",
+      "label": "pancakes",
+      "location": "0.55,0.6,0.7,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass yellow label",
+        "size": "small"
+      },
+      "id": "spray1",
+      "label": "cooking spray",
+      "location": "0.45,0.4,0.55,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass white batter",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.2,0.6,0.4,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown plastic blue cap",
+        "size": "small"
+      },
+      "id": "maple_syrup1",
+      "label": "syrup bottle",
+      "location": "0.0,0.7,0.1,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate of pancakes",
+      "location": "0.4,0.6,0.5,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.7,0.3,0.9,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "faucet1",
+      "label": "faucet",
+      "location": "0.85,0.3,0.95,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass panes",
+        "size": "medium"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.0,0.0,0.2,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "table1",
+      "label": "side table",
+      "location": "0.0,0.4,0.3,0.7,0.7"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "herb1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "herb2",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "herb3",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "herb4",
+      "target": "herb5"
+    },
+    {
+      "predicate": "left_of",
+      "source": "jar1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "herb1",
+      "label": "chopped parsley",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.4,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "herb2",
+      "label": "parsley leaves",
+      "location": "0.3,0.0,0.7,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "herb3",
+      "label": "parsley leaves",
+      "location": "0.0,0.0,0.3,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "herb4",
+      "label": "parsley leaves",
+      "location": "0.7,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "herb5",
+      "label": "parsley leaves",
+      "location": "0.0,0.6,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass brown",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "glass jar",
+      "location": "0.0,0.0,0.2,0.3,0.7"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text2",
+      "target": "bread1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown toasted",
+        "size": "medium"
+      },
+      "id": "bread1",
+      "label": "slice of bread",
+      "location": "0.05,0.45,0.78,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white crumbly",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "feta and cream cheese mix",
+      "location": "0.1,0.45,0.6,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood grain",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "wooden cutting board",
+      "location": "0.0,0.3,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "metal bowl",
+      "location": "0.0,0.0,0.4,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "metal bowl",
+      "location": "0.6,0.0,1.0,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "pink background white text",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "instruction text",
+      "location": "0.0,0.8,0.4,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on grey background",
+        "size": "small"
+      },
+      "id": "text2",
+      "label": "city name text",
+      "location": "0.75,0.0,1.0,0.15,0.9"
+    }
+  ]
+}

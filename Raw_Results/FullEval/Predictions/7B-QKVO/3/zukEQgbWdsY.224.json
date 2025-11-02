@@ -1,0 +1,160 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "window"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_bread",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "blender",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "glass_jars",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "stove",
+      "target": "countertop"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinets",
+      "target": "countertop"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "person2",
+      "target": "person1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "logo",
+      "target": "countertop"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.0,0.0,0.45,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt with pig graphic",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "Person",
+      "location": "0.35,0.0,0.85,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green smoothie",
+        "size": "medium"
+      },
+      "id": "blender",
+      "label": "Blender",
+      "location": "0.6,0.4,0.9,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper towel with bread slices and bacon strips",
+        "size": "medium"
+      },
+      "id": "plate_bread",
+      "label": "Plate of Bread and Bacon",
+      "location": "0.2,0.6,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass jars with green contents",
+        "size": "small"
+      },
+      "id": "glass_jars",
+      "label": "Glass Jars",
+      "location": "0.75,0.5,0.95,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "Countertop",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove",
+      "label": "Stovetop",
+      "location": "0.0,0.7,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board",
+      "label": "Cutting Board",
+      "location": "0.7,0.7,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cabinets",
+      "label": "Cabinets",
+      "location": "0.6,0.0,1.0,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "window",
+      "label": "Window",
+      "location": "0.0,0.0,0.5,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text on black background",
+        "size": "small"
+      },
+      "id": "logo",
+      "label": "Tasted Logo",
+      "location": "0.85,0.8,1.0,1.0,0.9"
+    }
+  ]
+}

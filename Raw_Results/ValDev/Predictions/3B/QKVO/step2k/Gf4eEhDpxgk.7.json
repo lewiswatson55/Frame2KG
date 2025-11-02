@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window1"
+    },
+    {
+      "predicate": "on",
+      "source": "fridge1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "rack1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "mixer1",
+      "target": "coffee_machine1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "fridge1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "coffee_machine1",
+      "target": "mixer1"
+    },
+    {
+      "predicate": "behind",
+      "source": "curtains1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white t-shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.0,0.1,0.2,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "mixer1",
+      "label": "stand mixer",
+      "location": "0.8,0.6,0.95,0.95,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "coffee_machine1",
+      "label": "coffee machine",
+      "location": "0.9,0.6,1.0,0.95,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white curtain",
+        "size": "large"
+      },
+      "id": "curtains1",
+      "label": "curtains",
+      "location": "0.4,0.0,0.6,0.9,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.7,0.0,1.0,0.3,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.0,0.0,0.2,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.2,0.0,0.8,0.9,0.6"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "pots1",
+      "target": "rack1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "stool1",
+      "target": "stool2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "multicolored plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic black base",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "stand blender",
+      "location": "0.45,0.45,0.55,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl of fruit",
+      "location": "0.6,0.5,0.75,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottle red liquid",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "sauce bottle",
+      "location": "0.75,0.5,0.8,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "spice jar",
+      "location": "0.1,0.3,0.2,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal shelf with jars",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.0,0.0,0.4,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "rack1",
+      "label": "hanging pot rack",
+      "location": "0.6,0.0,0.9,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pots1",
+      "label": "hanging pots",
+      "location": "0.6,0.0,0.9,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden stools",
+        "size": "medium"
+      },
+      "id": "stool1",
+      "label": "bar stool",
+      "location": "0.0,0.6,0.2,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden stools",
+        "size": "medium"
+      },
+      "id": "stool2",
+      "label": "bar stool",
+      "location": "0.2,0.6,0.4,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey brick",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "brick wall",
+      "location": "0.0,0.0,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,0.8,0.8"
+    }
+  ]
+}

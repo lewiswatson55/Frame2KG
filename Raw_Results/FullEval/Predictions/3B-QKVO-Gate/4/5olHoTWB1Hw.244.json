@@ -1,0 +1,81 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "bag1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bag1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bag1",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red and transparent plastic",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "Shredded Cheddar Cheese Bag",
+      "location": "0.05,0.0,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow shredded",
+        "size": "medium"
+      },
+      "id": "cheese1",
+      "label": "shredded cheese",
+      "location": "0.05,0.3,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "baking tray",
+      "location": "0.65,0.4,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow pasta",
+        "size": "small"
+      },
+      "id": "pan1",
+      "label": "pasta pan",
+      "location": "0.7,0.45,0.95,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.8,1.0,1.0,0.6"
+    }
+  ]
+}

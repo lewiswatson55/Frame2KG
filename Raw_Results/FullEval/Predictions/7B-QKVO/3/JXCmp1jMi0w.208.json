@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "chicken_piece1"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken_piece1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken_pieces1",
+      "target": "tray1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "beige apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.0,0.0,0.45,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Plastic Bowl",
+      "location": "0.03,0.48,0.67,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder-coated",
+        "size": "small"
+      },
+      "id": "chicken_piece1",
+      "label": "Chicken Piece",
+      "location": "0.35,0.45,0.55,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "Baking Tray",
+      "location": "0.55,0.55,0.95,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white flour-coated",
+        "size": "small"
+      },
+      "id": "chicken_pieces1",
+      "label": "Chicken Pieces",
+      "location": "0.6,0.6,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cutting_board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.8,1.0,1.0,0.9"
+    }
+  ]
+}

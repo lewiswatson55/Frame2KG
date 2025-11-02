@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "tongs1"
+    },
+    {
+      "predicate": "holding",
+      "source": "tongs1",
+      "target": "steak1"
+    },
+    {
+      "predicate": "on",
+      "source": "grill1",
+      "target": "table1"
+    },
+    {
+      "predicate": "supports",
+      "source": "table1",
+      "target": "grill1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "brick_wall1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "curtain1",
+      "target": "brick_wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "grill1",
+      "label": "charcoal grill",
+      "location": "0.35,0.45,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown grilled",
+        "size": "small"
+      },
+      "id": "steak1",
+      "label": "steak",
+      "location": "0.48,0.45,0.58,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "tongs1",
+      "label": "metal tongs",
+      "location": "0.35,0.25,0.55,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.30,0.15,0.45,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red brick",
+        "size": "large"
+      },
+      "id": "brick_wall1",
+      "label": "brick wall",
+      "location": "0.0,0.0,1.0,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige fabric",
+        "size": "medium"
+      },
+      "id": "curtain1",
+      "label": "curtain",
+      "location": "0.7,0.0,0.9,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "striped shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.4,0.0,0.8,0.4,0.9"
+    }
+  ]
+}

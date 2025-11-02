@@ -1,0 +1,117 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "brush1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "on",
+      "source": "vase1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lamp1",
+      "target": "vase2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "vase3",
+      "target": "lamp1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown hair grey shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.25,0.0,0.75,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink plastic",
+        "size": "small"
+      },
+      "id": "brush1",
+      "label": "hair brush",
+      "location": "0.48,0.65,0.55,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white vertical stripes",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "striped wall",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "metal shelf",
+      "location": "0.0,0.0,0.5,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue white ceramic",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "ceramic vase",
+      "location": "0.05,0.1,0.2,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark brown wood",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "decorative plate",
+      "location": "0.2,0.1,0.3,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "vase2",
+      "label": "green vase",
+      "location": "0.85,0.7,0.95,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow light shade",
+        "size": "medium"
+      },
+      "id": "lamp1",
+      "label": "table lamp",
+      "location": "0.8,0.2,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue ceramic",
+        "size": "small"
+      },
+      "id": "vase3",
+      "label": "blue vase",
+      "location": "0.85,0.6,0.95,0.8,0.8"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bread_slices",
+      "target": "plate"
+    },
+    {
+      "predicate": "on",
+      "source": "knife",
+      "target": "plate"
+    },
+    {
+      "predicate": "on",
+      "source": "fork",
+      "target": "plate"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_green",
+      "target": "plate"
+    },
+    {
+      "predicate": "behind",
+      "source": "plate_bacon",
+      "target": "plate"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "plate",
+      "target": "plate_bacon"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate",
+      "label": "Plate of Bread Slices",
+      "location": "0.05,0.48,0.63,0.97,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown toasted",
+        "size": "medium"
+      },
+      "id": "bread_slices",
+      "label": "Sliced Bread",
+      "location": "0.05,0.55,0.63,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black handle metal blade",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "Knife",
+      "location": "0.35,0.45,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "fork",
+      "label": "Fork",
+      "location": "0.3,0.5,0.5,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green sauce white bowl",
+        "size": "small"
+      },
+      "id": "bowl_green",
+      "label": "Dipping Bowl",
+      "location": "0.75,0.2,0.98,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate_bacon",
+      "label": "Plate of Bacon",
+      "location": "0.2,0.0,0.9,0.4,0.9"
+    }
+  ]
+}

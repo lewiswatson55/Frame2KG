@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake2",
+      "target": "tray1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pancake3",
+      "target": "pancake4"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "spatula1",
+      "target": "pancake1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "tray1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bowl1",
+      "target": "griddle1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "griddle1",
+      "label": "Griddle",
+      "location": "0.05,0.2,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "Spatula",
+      "location": "0.45,0.0,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.45,0.0,0.6,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "Tray",
+      "location": "0.0,0.0,0.5,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "pancake2",
+      "label": "Pancake",
+      "location": "0.05,0.1,0.25,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "pancake3",
+      "label": "Pancake",
+      "location": "0.0,0.25,0.2,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "pancake4",
+      "label": "Pancake",
+      "location": "0.05,0.4,0.25,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pale beige batter",
+        "size": "small"
+      },
+      "id": "pancake1",
+      "label": "Pancake batter",
+      "location": "0.6,0.2,0.8,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.85,0.0,1.0,0.3,0.8"
+    }
+  ]
+}

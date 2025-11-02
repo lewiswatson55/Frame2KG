@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "container1"
+    },
+    {
+      "predicate": "on",
+      "source": "container1",
+      "target": "surface1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow plastic with blue label",
+        "size": "medium"
+      },
+      "id": "container1",
+      "label": "Corn Starch Container",
+      "location": "0.05,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.3,0.0,0.7,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey speckled",
+        "size": "large"
+      },
+      "id": "surface1",
+      "label": "Countertop Surface",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

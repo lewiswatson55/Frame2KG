@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "batter1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "butter1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife1",
+      "target": "butter1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "microwave1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "fork1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "spoon1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "apron1",
+      "target": "person1"
+    },
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "maroon shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Mixing Bowl",
+      "location": "0.3,0.2,0.7,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white liquid",
+        "size": "small"
+      },
+      "id": "batter1",
+      "label": "Batter",
+      "location": "0.4,0.4,0.6,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow block on red plate",
+        "size": "small"
+      },
+      "id": "butter1",
+      "label": "Butter",
+      "location": "0.2,0.3,0.3,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.25,0.35,0.35,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "Knife",
+      "location": "0.2,0.3,0.3,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Wooden Spoon",
+      "location": "0.3,0.5,0.4,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "fork1",
+      "label": "Fork",
+      "location": "0.7,0.5,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black stainless steel",
+        "size": "large"
+      },
+      "id": "microwave1",
+      "label": "Microwave Oven",
+      "location": "0.0,0.0,0.3,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white cotton",
+        "size": "medium"
+      },
+      "id": "apron1",
+      "label": "Apron",
+      "location": "0.4,0.0,0.6,0.3,0.8"
+    }
+  ]
+}

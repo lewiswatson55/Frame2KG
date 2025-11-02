@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "lemon1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "bracelet1"
+    },
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "background1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.35,0.0,1.0,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "Lemon half",
+      "location": "0.45,0.05,0.6,0.25,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "Blender jar",
+      "location": "0.1,0.5,0.9,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "brown leather",
+        "size": "small"
+      },
+      "id": "bracelet1",
+      "label": "Bracelet",
+      "location": "0.5,0.3,0.75,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on grey background",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Logo",
+      "location": "0.0,0.0,0.2,0.15,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey blurred",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

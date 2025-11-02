@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "burner1"
+    },
+    {
+      "predicate": "on",
+      "source": "burner1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife1",
+      "target": "burner1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cloth1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.45,0.0,1.0,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "large"
+      },
+      "id": "burner1",
+      "label": "hot plate burner",
+      "location": "0.4,0.2,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "wooden table",
+      "location": "0.0,0.4,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.0,0.7,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue fabric",
+        "size": "medium"
+      },
+      "id": "cloth1",
+      "label": "blue cloth",
+      "location": "0.0,0.0,0.5,0.3,0.6"
+    }
+  ]
+}

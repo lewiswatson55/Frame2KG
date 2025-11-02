@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "chicken_wings",
+      "target": "glass_bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "glass_bowl",
+      "target": "wooden_countertop"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "glass_bowl",
+      "label": "Glass Bowl",
+      "location": "0.05,0.0,0.95,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "raw pinkish white",
+        "size": "medium"
+      },
+      "id": "chicken_wings",
+      "label": "Chicken Wings",
+      "location": "0.3,0.4,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood grain",
+        "size": "large"
+      },
+      "id": "wooden_countertop",
+      "label": "Wooden Countertop",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    }
+  ]
+}

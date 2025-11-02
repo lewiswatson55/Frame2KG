@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "tablecloth1"
+    },
+    {
+      "predicate": "on",
+      "source": "cake1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "fork1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife1",
+      "target": "fork1"
+    },
+    {
+      "predicate": "on",
+      "source": "butter1",
+      "target": "cake1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "syrup1",
+      "target": "cake1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.15,0.3,0.85,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow sponge cake",
+        "size": "large"
+      },
+      "id": "cake1",
+      "label": "cake",
+      "location": "0.2,0.4,0.8,0.9,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "butter1",
+      "label": "butter piece",
+      "location": "0.45,0.1,0.6,0.3,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "fork1",
+      "label": "fork",
+      "location": "0.7,0.1,0.9,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.6,0.0,0.9,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "amber liquid",
+        "size": "small"
+      },
+      "id": "syrup1",
+      "label": "maple syrup",
+      "location": "0.4,0.4,0.8,0.9,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "orange plaid fabric",
+        "size": "large"
+      },
+      "id": "tablecloth1",
+      "label": "tablecloth",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    }
+  ]
+}

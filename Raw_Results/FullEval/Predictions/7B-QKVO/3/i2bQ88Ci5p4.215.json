@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "glass"
+    },
+    {
+      "predicate": "holding",
+      "source": "person2",
+      "target": "container"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "fridge"
+    },
+    {
+      "predicate": "on",
+      "source": "can",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "food_item",
+      "target": "table"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "clock",
+      "target": "fridge"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt glasses",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black jacket braid",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.47,0.05,0.95,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "glass",
+      "label": "glass of beer",
+      "location": "0.03,0.65,0.25,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "small"
+      },
+      "id": "container",
+      "label": "plastic container",
+      "location": "0.75,0.65,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange fried",
+        "size": "small"
+      },
+      "id": "food_item",
+      "label": "fried food piece",
+      "location": "0.55,0.65,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow can",
+        "size": "small"
+      },
+      "id": "can",
+      "label": "beer can",
+      "location": "0.90,0.75,1.00,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "fridge",
+      "label": "refrigerator",
+      "location": "0.48,0.05,0.95,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white face black numbers",
+        "size": "small"
+      },
+      "id": "clock",
+      "label": "wall clock",
+      "location": "0.75,0.15,0.90,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "kitchen cabinet",
+      "location": "0.00,0.00,0.48,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "table surface",
+      "location": "0.00,0.75,1.00,1.00,0.7"
+    }
+  ]
+}

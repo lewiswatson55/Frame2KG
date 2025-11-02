@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "rolling_pin"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_of_rice",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pan_on_stove",
+      "target": "stove_top"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_of_rice",
+      "target": "pan_on_stove"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall_tiles"
+    },
+    {
+      "predicate": "behind",
+      "source": "cutting_board",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black chef coat, black headscarf",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.45,0.0,1.0,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden handle",
+        "size": "medium"
+      },
+      "id": "rolling_pin",
+      "label": "rolling pin",
+      "location": "0.35,0.15,0.65,0.35,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "beige ceramic tiles",
+        "size": "large"
+      },
+      "id": "wall_tiles",
+      "label": "tiled wall",
+      "location": "0.0,0.0,0.4,1.0,0.75"
+    },
+    {
+      "attributes": {
+        "appearance": "white bowl with brown rice",
+        "size": "small"
+      },
+      "id": "bowl_of_rice",
+      "label": "bowl of rice",
+      "location": "0.45,0.65,0.6,0.8,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal pan on stove top",
+        "size": "medium"
+      },
+      "id": "pan_on_stove",
+      "label": "cooking pan",
+      "location": "0.0,0.75,0.4,1.0,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "light-colored countertop",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.70"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden board",
+        "size": "medium"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.3,0.0,0.7,0.3,0.70"
+    }
+  ]
+}

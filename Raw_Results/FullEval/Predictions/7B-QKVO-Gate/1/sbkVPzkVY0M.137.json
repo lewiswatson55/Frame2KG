@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "blender1",
+      "target": "container1"
+    },
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "container1"
+    },
+    {
+      "predicate": "in",
+      "source": "fruit1",
+      "target": "container1"
+    },
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "container1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "large"
+      },
+      "id": "container1",
+      "label": "Food Processor Container",
+      "location": "0.05,0.0,0.95,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "Blender Blade Assembly",
+      "location": "0.35,0.0,0.65,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.45,0.0,0.55,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green yellow",
+        "size": "small"
+      },
+      "id": "fruit1",
+      "label": "Fruit Pieces",
+      "location": "0.2,0.4,0.8,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Logo",
+      "location": "0.75,0.85,0.95,0.95,0.6"
+    }
+  ]
+}

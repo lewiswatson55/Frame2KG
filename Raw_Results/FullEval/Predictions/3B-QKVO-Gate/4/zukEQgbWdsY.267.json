@@ -1,0 +1,247 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "pan2",
+      "target": "stove"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle_group",
+      "target": "oven"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "includes",
+      "source": "shelf1",
+      "target": "blender"
+    },
+    {
+      "predicate": "includes",
+      "source": "shelf1",
+      "target": "toaster"
+    },
+    {
+      "predicate": "includes",
+      "source": "shelf1",
+      "target": "plant"
+    },
+    {
+      "predicate": "includes",
+      "source": "counter",
+      "target": "sandwich"
+    },
+    {
+      "predicate": "includes",
+      "source": "counter",
+      "target": "lettuce"
+    },
+    {
+      "predicate": "includes",
+      "source": "counter",
+      "target": "tomato_slices"
+    },
+    {
+      "predicate": "includes",
+      "source": "counter",
+      "target": "spatula"
+    },
+    {
+      "predicate": "includes",
+      "source": "counter",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "left_of",
+      "source": "oven",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.05,0.75,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "oven",
+      "label": "double oven",
+      "location": "0.0,0.0,0.4,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinet_left",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.3,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinet_right",
+      "label": "kitchen cabinet",
+      "location": "0.7,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white brick",
+        "size": "large"
+      },
+      "id": "backsplash",
+      "label": "tiled backsplash",
+      "location": "0.3,0.2,0.7,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottles",
+        "size": "small"
+      },
+      "id": "bottle_group",
+      "label": "wine bottles",
+      "location": "0.3,0.1,0.5,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "wall shelf",
+      "location": "0.3,0.0,1.0,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent green plastic",
+        "size": "medium"
+      },
+      "id": "blender",
+      "label": "blender",
+      "location": "0.7,0.3,0.85,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "toaster",
+      "label": "toaster",
+      "location": "0.85,0.0,1.0,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "plant",
+      "label": "potted plant",
+      "location": "0.85,0.3,0.95,0.45,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.0,0.7,0.2,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black cast iron",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.1,0.7,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black cast iron",
+        "size": "medium"
+      },
+      "id": "pan2",
+      "label": "frying pan",
+      "location": "0.4,0.7,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "counter",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "bread sandwich",
+        "size": "small"
+      },
+      "id": "sandwich",
+      "label": "sandwich",
+      "location": "0.75,0.6,0.9,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green lettuce",
+        "size": "small"
+      },
+      "id": "lettuce",
+      "label": "lettuce",
+      "location": "0.8,0.7,0.95,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red slices",
+        "size": "small"
+      },
+      "id": "tomato_slices",
+      "label": "tomato slices",
+      "location": "0.6,0.6,0.7,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal spatula",
+        "size": "small"
+      },
+      "id": "spatula",
+      "label": "spatula",
+      "location": "0.5,0.7,0.6,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.5,0.4,0.8,0.5,0.8"
+    }
+  ]
+}

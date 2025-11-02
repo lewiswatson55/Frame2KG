@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "jug1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "jug1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "blender1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "plant1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife_block1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plant1",
+      "target": "knife_block1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "human arm",
+      "location": "0.0,0.0,0.6,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with brown liquid",
+        "size": "small"
+      },
+      "id": "jug1",
+      "label": "glass measuring jug",
+      "location": "0.3,0.0,0.7,0.3,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "large"
+      },
+      "id": "blender1",
+      "label": "smoothie blender",
+      "location": "0.3,0.3,0.7,0.9,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "kitchen countertop",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "medium"
+      },
+      "id": "plant1",
+      "label": "potted plant",
+      "location": "0.75,0.4,0.95,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black handle",
+        "size": "small"
+      },
+      "id": "knife_block1",
+      "label": "knife block",
+      "location": "0.6,0.3,0.75,0.6,0.8"
+    }
+  ]
+}

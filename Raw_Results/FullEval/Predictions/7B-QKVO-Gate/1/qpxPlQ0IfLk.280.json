@@ -1,0 +1,192 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "logo1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "logo1",
+      "target": "text1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "panel1",
+      "target": "panel2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "panel2",
+      "target": "panel3"
+    },
+    {
+      "predicate": "includes",
+      "source": "panel1",
+      "target": "hands1"
+    },
+    {
+      "predicate": "includes",
+      "source": "panel1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "includes",
+      "source": "panel1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "includes",
+      "source": "panel2",
+      "target": "person2"
+    },
+    {
+      "predicate": "includes",
+      "source": "panel2",
+      "target": "blender1"
+    },
+    {
+      "predicate": "includes",
+      "source": "panel3",
+      "target": "person3"
+    },
+    {
+      "predicate": "includes",
+      "source": "panel3",
+      "target": "food1"
+    },
+    {
+      "predicate": "includes",
+      "source": "panel3",
+      "target": "bottle1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.45,0.18,0.97,0.86,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue teal",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Hungry logo",
+      "location": "0.75,0.0,0.98,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on white background",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Brothers Green text",
+      "location": "0.0,0.0,0.4,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "colorful hands",
+        "size": "small"
+      },
+      "id": "hands1",
+      "label": "hands",
+      "location": "0.0,0.0,0.4,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.05,0.05,0.35,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "glass jar",
+      "location": "0.3,0.05,0.4,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red sweater",
+        "size": "small"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.0,0.25,0.4,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.15,0.3,0.25,0.45,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black hair",
+        "size": "small"
+      },
+      "id": "person3",
+      "label": "woman",
+      "location": "0.0,0.5,0.4,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown meat",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "meat",
+      "location": "0.1,0.6,0.3,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow bottle",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "bottle",
+      "location": "0.3,0.6,0.4,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey",
+        "size": "large"
+      },
+      "id": "panel1",
+      "label": "thumbnail panel 1",
+      "location": "0.0,0.0,0.4,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey",
+        "size": "large"
+      },
+      "id": "panel2",
+      "label": "thumbnail panel 2",
+      "location": "0.0,0.4,0.4,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey",
+        "size": "large"
+      },
+      "id": "panel3",
+      "label": "thumbnail panel 3",
+      "location": "0.0,0.8,0.4,1.0,0.8"
+    }
+  ]
+}

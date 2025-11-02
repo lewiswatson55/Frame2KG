@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "above",
+      "source": "text_master",
+      "target": "chef_icon"
+    },
+    {
+      "predicate": "below",
+      "source": "text_chef",
+      "target": "chef_icon"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black text on white background",
+        "size": "medium"
+      },
+      "id": "text_master",
+      "label": "Master Text",
+      "location": "0.35,0.2,0.65,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red background with black silhouette of chef head",
+        "size": "large"
+      },
+      "id": "chef_icon",
+      "label": "Chef Icon",
+      "location": "0.3,0.4,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on white background",
+        "size": "small"
+      },
+      "id": "text_chef",
+      "label": "Chef Text",
+      "location": "0.3,0.75,0.7,0.95,0.9"
+    }
+  ]
+}

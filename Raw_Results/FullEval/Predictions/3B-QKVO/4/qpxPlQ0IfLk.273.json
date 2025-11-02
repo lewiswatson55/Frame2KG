@@ -1,0 +1,209 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "food1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate2",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "utensils1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottles1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "pots1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "books1",
+      "target": "shelf2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lamp1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "counter1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "multicolored plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.45,0.05,0.75,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.35,0.45,0.45,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green smoothie",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "smoothie",
+      "location": "0.38,0.48,0.42,0.52,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "blender_bowl1",
+      "label": "blender bowl",
+      "location": "0.38,0.48,0.42,0.52,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.25,0.75,0.35,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "plate2",
+      "label": "salad plate",
+      "location": "0.55,0.75,0.75,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "small"
+      },
+      "id": "utensils1",
+      "label": "utensil holder",
+      "location": "0.35,0.25,0.45,0.35,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jars",
+        "size": "small"
+      },
+      "id": "bottles1",
+      "label": "bottles",
+      "location": "0.15,0.15,0.35,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "small"
+      },
+      "id": "pots1",
+      "label": "hanging pots",
+      "location": "0.5,0.0,0.6,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "small"
+      },
+      "id": "books1",
+      "label": "stacked books",
+      "location": "0.75,0.15,0.85,0.35,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white lampshade",
+        "size": "medium"
+      },
+      "id": "lamp1",
+      "label": "floor lamp",
+      "location": "0.85,0.15,0.95,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "griddle stove",
+      "location": "0.75,0.6,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey brick",
+        "size": "large"
+      },
+      "id": "wall_shelf1",
+      "label": "brick wall shelf",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "medium"
+      },
+      "id": "bar_stools1",
+      "label": "bar stools",
+      "location": "0.1,0.3,0.4,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark grey stone",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.0,0.0,1.0,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black chalkboard",
+        "size": "medium"
+      },
+      "id": "shelf2",
+      "label": "chalkboard shelf",
+      "location": "0.6,0.0,0.8,0.2,0.8"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "kettle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife_block1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "stove1",
+      "target": "backsplash1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "hood1",
+      "target": "cabinets1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fridge1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "fridge1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt and black apron with pink polka dots",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass bowl with golden brown food pieces",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.4,0.7,0.6,0.9,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal kettle",
+        "size": "small"
+      },
+      "id": "kettle1",
+      "label": "electric kettle",
+      "location": "0.3,0.3,0.4,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic stand mixer",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "stand mixer",
+      "location": "0.1,0.3,0.2,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black wooden block with knives",
+        "size": "small"
+      },
+      "id": "knife_block1",
+      "label": "knife block",
+      "location": "0.0,0.3,0.1,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown granite countertop",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.4,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood cabinets",
+        "size": "large"
+      },
+      "id": "cabinets1",
+      "label": "kitchen cabinets",
+      "location": "0.0,0.0,1.0,0.25,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden backsplash tiles",
+        "size": "medium"
+      },
+      "id": "backsplash1",
+      "label": "tile backsplash",
+      "location": "0.5,0.25,1.0,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black gas stove",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.6,0.5,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic hood",
+        "size": "medium"
+      },
+      "id": "hood1",
+      "label": "range hood",
+      "location": "0.5,0.0,0.9,0.2,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white refrigerator",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.0,0.6,0.2,1.0,0.9"
+    }
+  ]
+}

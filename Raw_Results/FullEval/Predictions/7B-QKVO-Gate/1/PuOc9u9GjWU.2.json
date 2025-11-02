@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "text2",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "text3",
+      "target": "background"
+    },
+    {
+      "predicate": "next_to",
+      "source": "strip1",
+      "target": "strip2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "strip1",
+      "target": "strip2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink gradient",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white sans-serif",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Ninik text",
+      "location": "0.45,0.18,0.75,0.36,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light pink sans-serif",
+        "size": "medium"
+      },
+      "id": "text2",
+      "label": "Becker text",
+      "location": "0.45,0.36,0.75,0.54,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light pink sans-serif",
+        "size": "medium"
+      },
+      "id": "text3",
+      "label": "Channel text",
+      "location": "0.45,0.54,0.75,0.72,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige",
+        "size": "small"
+      },
+      "id": "strip1",
+      "label": "Vertical strip",
+      "location": "0.0,0.0,0.05,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige",
+        "size": "small"
+      },
+      "id": "strip2",
+      "label": "Vertical strip",
+      "location": "0.05,0.0,0.1,1.0,0.8"
+    }
+  ]
+}

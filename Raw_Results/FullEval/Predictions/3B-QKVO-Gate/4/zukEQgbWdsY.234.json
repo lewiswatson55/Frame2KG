@@ -1,0 +1,131 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread2",
+      "target": "board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cloth1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "spoon1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "cord1",
+      "target": "board1"
+    },
+    {
+      "predicate": "behind",
+      "source": "appliance1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.0,0.35,0.28,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.0,0.1,0.45,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.2,0.3,0.75,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread with green spread",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "Toast Slice",
+      "location": "0.35,0.45,0.55,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread with green spread",
+        "size": "small"
+      },
+      "id": "bread2",
+      "label": "Toast Slice",
+      "location": "0.55,0.45,0.75,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green paste in white cup",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Bowl of Spread",
+      "location": "0.1,0.7,0.3,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.2,0.3,0.3,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red cloth",
+        "size": "small"
+      },
+      "id": "cloth1",
+      "label": "Cloth",
+      "location": "0.0,0.6,0.2,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "appliance1",
+      "label": "Appliance",
+      "location": "0.4,0.0,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white cord",
+        "size": "small"
+      },
+      "id": "cord1",
+      "label": "Cord",
+      "location": "0.6,0.2,0.9,0.4,0.8"
+    }
+  ]
+}

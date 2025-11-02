@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "cheese1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "hand1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "plate1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.05,0.3,0.98,0.97,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cheese cubes",
+        "size": "medium"
+      },
+      "id": "cheese1",
+      "label": "cheese pieces",
+      "location": "0.1,0.4,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green plastic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.6,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown skin",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.5,0.7,1.0,1.0,0.8"
+    }
+  ]
+}

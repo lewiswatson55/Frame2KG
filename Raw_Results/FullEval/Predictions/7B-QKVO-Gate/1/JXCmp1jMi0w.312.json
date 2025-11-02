@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "wing1"
+    },
+    {
+      "predicate": "on",
+      "source": "wing1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "wing2",
+      "target": "wing1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "wing1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "herbs1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "wing1",
+      "label": "fried chicken wing",
+      "location": "0.05,0.3,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.0,0.4,0.2,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange sauce",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "spilled sauce",
+      "location": "0.3,0.75,0.7,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "wing2",
+      "label": "fried chicken wing",
+      "location": "0.6,0.2,0.9,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl",
+      "location": "0.3,0.0,0.6,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "herbs1",
+      "label": "herbs",
+      "location": "0.6,0.0,1.0,0.3,0.6"
+    }
+  ]
+}

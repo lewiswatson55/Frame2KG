@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "raw_fish1",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "raw_fish2",
+      "target": "tray"
+    },
+    {
+      "predicate": "next_to",
+      "source": "raw_fish1",
+      "target": "raw_fish2"
+    },
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "raw_fish1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "cutting_board",
+      "target": "stove"
+    },
+    {
+      "predicate": "behind",
+      "source": "fridge_glass_door",
+      "target": "cutting_board"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black jacket",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.5,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "medium"
+      },
+      "id": "cutting_board",
+      "label": "wooden cutting board",
+      "location": "0.0,0.4,0.8,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw fish",
+        "size": "small"
+      },
+      "id": "raw_fish1",
+      "label": "raw fish piece",
+      "location": "0.3,0.6,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw fish",
+        "size": "small"
+      },
+      "id": "raw_fish2",
+      "label": "raw fish piece",
+      "location": "0.0,0.4,0.3,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "tray",
+      "label": "plastic tray",
+      "location": "0.0,0.3,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "stovetop",
+      "location": "0.0,0.7,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass door",
+        "size": "large"
+      },
+      "id": "fridge_glass_door",
+      "label": "refrigerator glass door",
+      "location": "0.3,0.0,0.7,0.6,0.7"
+    }
+  ]
+}

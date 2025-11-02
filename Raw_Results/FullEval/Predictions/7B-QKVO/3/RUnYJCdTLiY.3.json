@@ -1,0 +1,220 @@
+{
+  "edges": [
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "apron1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "plant1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "saltshaker1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "peppergrinder1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "oilbottle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "spicejar1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "stove1",
+      "target": "oven1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "cabinet1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "cabinet2",
+      "target": "wall1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cabinet1",
+      "target": "cabinet2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink blouse white apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "white cotton",
+        "size": "medium"
+      },
+      "id": "apron1",
+      "label": "kitchen apron",
+      "location": "0.4,0.4,0.7,0.9,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "brown granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.4,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.0,0.3,0.2,0.5,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "metal bowl",
+      "location": "0.0,0.6,0.2,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "container",
+      "location": "0.2,0.3,0.3,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves glass vase",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "herb plant",
+      "location": "0.75,0.3,0.85,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "saltshaker1",
+      "label": "salt shaker",
+      "location": "0.85,0.35,0.9,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "peppergrinder1",
+      "label": "pepper grinder",
+      "location": "0.9,0.35,0.95,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottle black label",
+        "size": "small"
+      },
+      "id": "oilbottle1",
+      "label": "olive oil bottle",
+      "location": "0.35,0.2,0.4,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "small"
+      },
+      "id": "spicejar1",
+      "label": "spice jar",
+      "location": "0.45,0.2,0.5,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.0,0.3,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "oven1",
+      "label": "oven",
+      "location": "0.0,0.3,0.3,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "upper cabinet",
+      "location": "0.0,0.0,0.3,0.2,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "cabinet2",
+      "label": "upper cabinet",
+      "location": "0.7,0.0,1.0,0.2,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white painted",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    }
+  ]
+}

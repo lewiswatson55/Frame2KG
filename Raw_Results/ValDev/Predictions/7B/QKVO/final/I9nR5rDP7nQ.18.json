@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_lemons",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pot",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "roll_paper_towel",
+      "target": "countertop"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "spatula_hanging",
+      "target": "wall"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "shelves",
+      "target": "wall"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "bowl_lemons"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.0,0.75,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "medium"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.0,0.6,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "blue bowl with yellow lemons",
+        "size": "small"
+      },
+      "id": "bowl_lemons",
+      "label": "bowl of lemons",
+      "location": "0.65,0.65,0.8,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark metal pot",
+        "size": "medium"
+      },
+      "id": "pot",
+      "label": "cooking pot",
+      "location": "0.8,0.6,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver roll",
+        "size": "small"
+      },
+      "id": "roll_paper_towel",
+      "label": "paper towel roll",
+      "location": "0.93,0.65,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal rack with spice jars",
+        "size": "medium"
+      },
+      "id": "shelves",
+      "label": "spice shelves",
+      "location": "0.4,0.0,0.6,0.2,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden spatula",
+        "size": "small"
+      },
+      "id": "spatula_hanging",
+      "label": "hanging spatula",
+      "location": "0.3,0.1,0.4,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple wall",
+        "size": "large"
+      },
+      "id": "wall",
+      "label": "wall",
+      "location": "0.0,0.0,1.0,0.6,0.9"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall_art"
+    },
+    {
+      "predicate": "on",
+      "source": "fork1",
+      "target": "wall_art"
+    },
+    {
+      "predicate": "on",
+      "source": "spoon1",
+      "target": "wall_art"
+    },
+    {
+      "predicate": "next_to",
+      "source": "decorative_object1",
+      "target": "couch1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame",
+        "size": "medium"
+      },
+      "id": "wall_art",
+      "label": "painting",
+      "location": "0.15,0.1,0.45,0.4,0.87"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden fork and spoon",
+        "size": "small"
+      },
+      "id": "fork1",
+      "label": "fork icon",
+      "location": "0.05,0.0,0.15,0.15,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden spoon",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "spoon icon",
+      "location": "0.15,0.0,0.25,0.15,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "decorative_object1",
+      "label": "decorative object",
+      "location": "0.75,0.4,0.95,0.9,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "brown fabric",
+        "size": "large"
+      },
+      "id": "couch1",
+      "label": "couch",
+      "location": "0.0,0.7,1.0,1.0,0.80"
+    }
+  ]
+}

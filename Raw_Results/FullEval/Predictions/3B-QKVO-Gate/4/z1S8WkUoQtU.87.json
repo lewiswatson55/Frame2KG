@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "pouring_into",
+      "source": "bottle1",
+      "target": "container1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "rack1",
+      "target": "background1"
+    },
+    {
+      "predicate": "on",
+      "source": "container1",
+      "target": "background1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass with red liquid",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "glass bottle",
+      "location": "0.45,0.05,1.00,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "large"
+      },
+      "id": "container1",
+      "label": "plastic container",
+      "location": "0.30,0.60,0.70,1.00,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "rack1",
+      "label": "wire rack",
+      "location": "0.00,0.00,0.40,1.00,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "solid red",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "red background",
+      "location": "0.00,0.00,1.00,1.00,0.9"
+    }
+  ]
+}

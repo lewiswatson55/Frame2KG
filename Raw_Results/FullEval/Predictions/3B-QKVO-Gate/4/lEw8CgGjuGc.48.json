@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "spoon1",
+      "target": "meat1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "spoon1",
+      "target": "greens1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cheese1",
+      "target": "greens1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "meat1",
+      "target": "cheese1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red raw meat",
+        "size": "medium"
+      },
+      "id": "meat1",
+      "label": "ground beef",
+      "location": "0.05,0.6,0.45,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "large"
+      },
+      "id": "greens1",
+      "label": "lettuce leaves",
+      "location": "0.3,0.4,0.7,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white shredded",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "shredded cheese",
+      "location": "0.6,0.5,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "spoon1",
+      "label": "spoon",
+      "location": "0.35,0.0,0.65,0.4,0.7"
+    }
+  ]
+}

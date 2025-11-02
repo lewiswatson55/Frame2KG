@@ -1,0 +1,105 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "grill1"
+    },
+    {
+      "predicate": "on",
+      "source": "patty2",
+      "target": "grill1"
+    },
+    {
+      "predicate": "on",
+      "source": "patty3",
+      "target": "grill1"
+    },
+    {
+      "predicate": "on",
+      "source": "patty4",
+      "target": "grill1"
+    },
+    {
+      "predicate": "on",
+      "source": "patty5",
+      "target": "grill1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "patty1",
+      "target": "patty2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "patty2",
+      "target": "patty3"
+    },
+    {
+      "predicate": "next_to",
+      "source": "patty3",
+      "target": "patty4"
+    },
+    {
+      "predicate": "next_to",
+      "source": "patty4",
+      "target": "patty5"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red raw meat with green herbs",
+        "size": "medium"
+      },
+      "id": "patty1",
+      "label": "burger patty",
+      "location": "0.0,0.0,0.6,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red raw meat with green herbs",
+        "size": "medium"
+      },
+      "id": "patty2",
+      "label": "burger patty",
+      "location": "0.3,0.0,0.7,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red raw meat with green herbs",
+        "size": "medium"
+      },
+      "id": "patty3",
+      "label": "burger patty",
+      "location": "0.4,0.3,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red raw meat with green herbs",
+        "size": "medium"
+      },
+      "id": "patty4",
+      "label": "burger patty",
+      "location": "0.7,0.0,1.0,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red raw meat with green herbs",
+        "size": "medium"
+      },
+      "id": "patty5",
+      "label": "burger patty",
+      "location": "0.7,0.4,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal grid",
+        "size": "large"
+      },
+      "id": "grill1",
+      "label": "grill grate",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

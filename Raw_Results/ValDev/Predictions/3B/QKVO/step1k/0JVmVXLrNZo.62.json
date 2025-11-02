@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "burger1",
+      "target": "pan"
+    },
+    {
+      "predicate": "on",
+      "source": "burger2",
+      "target": "pan"
+    },
+    {
+      "predicate": "next_to",
+      "source": "burger1",
+      "target": "burger2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red raw ground beef",
+        "size": "medium"
+      },
+      "id": "burger1",
+      "label": "raw hamburger patty",
+      "location": "0.05,0.3,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red raw ground beef",
+        "size": "medium"
+      },
+      "id": "burger2",
+      "label": "raw hamburger patty",
+      "location": "0.4,0.4,0.85,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan",
+      "label": "cast iron pan",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

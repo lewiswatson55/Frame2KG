@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "food1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text2",
+      "target": "food1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text3",
+      "target": "food1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text4",
+      "target": "food1"
+    },
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "food1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "text5",
+      "target": "logo1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red raw meat",
+        "size": "large"
+      },
+      "id": "food1",
+      "label": "raw_meat",
+      "location": "0.28,0.05,0.72,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on blue background",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "subscribe_text",
+      "location": "0.36,0.15,0.64,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow text on white background",
+        "size": "medium"
+      },
+      "id": "text2",
+      "label": "delicious_text",
+      "location": "0.36,0.35,0.64,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on white background",
+        "size": "medium"
+      },
+      "id": "text3",
+      "label": "flavours_text",
+      "location": "0.36,0.55,0.64,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on white background",
+        "size": "medium"
+      },
+      "id": "text4",
+      "label": "caribbean_text",
+      "location": "0.36,0.75,0.64,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey text",
+        "size": "small"
+      },
+      "id": "text5",
+      "label": "chef_ricardo_text",
+      "location": "0.45,0.75,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "multicolored abstract shapes",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "abstract_logo",
+      "location": "0.36,0.25,0.64,0.55,0.7"
+    }
+  ]
+}

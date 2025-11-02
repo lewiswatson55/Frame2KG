@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand_left",
+      "target": "spatula"
+    },
+    {
+      "predicate": "in",
+      "source": "spatula",
+      "target": "bowl"
+    },
+    {
+      "predicate": "in",
+      "source": "mixture",
+      "target": "bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl",
+      "target": "board"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl",
+      "label": "glass bowl",
+      "location": "0.05,0.0,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow silicone",
+        "size": "medium"
+      },
+      "id": "spatula",
+      "label": "silicone spatula",
+      "location": "0.3,0.2,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pale yellow liquid",
+        "size": "medium"
+      },
+      "id": "mixture",
+      "label": "liquid mixture",
+      "location": "0.1,0.2,0.9,0.8,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand_left",
+      "label": "left hand",
+      "location": "0.0,0.0,0.4,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand_right",
+      "label": "right hand",
+      "location": "0.6,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood grain",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "wooden cutting board",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    }
+  ]
+}

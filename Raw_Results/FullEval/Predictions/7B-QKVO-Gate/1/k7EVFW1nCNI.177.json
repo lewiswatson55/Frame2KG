@@ -1,0 +1,229 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "microwave1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "sink1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "vase1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "soap1",
+      "target": "vase1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "towel1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "canister1",
+      "target": "soap1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar1",
+      "target": "canister1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "mug1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "mug1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spice_rack1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "behind",
+      "source": "stove1",
+      "target": "blender1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white lace top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "measuring bowl",
+      "location": "0.47,0.55,0.55,0.65,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white base with yellow lid",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.55,0.75,0.75,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "teal metal",
+        "size": "small"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.8,0.6,0.9,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black glass",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave oven",
+      "location": "0.6,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "electric stove",
+      "location": "0.6,0.3,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "kitchen countertop",
+      "location": "0.0,0.4,1.0,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass vase with red flowers",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "flower vase",
+      "location": "0.0,0.3,0.15,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "soap1",
+      "label": "hand soap bottle",
+      "location": "0.15,0.45,0.2,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red cloth",
+        "size": "small"
+      },
+      "id": "towel1",
+      "label": "dish towel",
+      "location": "0.2,0.5,0.3,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "kitchen sink",
+      "location": "0.1,0.4,0.4,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "canister1",
+      "label": "canister",
+      "location": "0.25,0.45,0.3,0.55,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "glass jar",
+      "location": "0.3,0.45,0.35,0.55,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "mug1",
+      "label": "coffee mug",
+      "location": "0.45,0.45,0.5,0.55,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with red rim",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.5,0.45,0.55,0.55,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal rack with spices",
+        "size": "small"
+      },
+      "id": "spice_rack1",
+      "label": "spice rack",
+      "location": "0.55,0.45,0.6,0.55,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

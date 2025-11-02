@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "omelette1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "includes",
+      "source": "omelette1",
+      "target": "tomato1"
+    },
+    {
+      "predicate": "includes",
+      "source": "omelette1",
+      "target": "green_pepper1"
+    },
+    {
+      "predicate": "includes",
+      "source": "omelette1",
+      "target": "cheese1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.05,0.0,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "large"
+      },
+      "id": "omelette1",
+      "label": "omelette",
+      "location": "0.05,0.3,0.95,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red",
+        "size": "small"
+      },
+      "id": "tomato1",
+      "label": "cherry tomatoes",
+      "location": "0.3,0.4,0.7,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green",
+        "size": "small"
+      },
+      "id": "green_pepper1",
+      "label": "green pepper pieces",
+      "location": "0.4,0.45,0.6,0.65,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "shredded cheese",
+      "location": "0.5,0.2,0.8,0.5,0.7"
+    }
+  ]
+}

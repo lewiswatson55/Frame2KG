@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "grated_cheese"
+    },
+    {
+      "predicate": "on",
+      "source": "grated_cheese",
+      "target": "bread_slice"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "plate_with_grated_cheese",
+      "target": "stove"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread_slice",
+      "target": "pan"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread_slice",
+      "target": "plate_with_grated_cheese"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.45,0.05,0.95,0.38,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow shredded",
+        "size": "small"
+      },
+      "id": "grated_cheese",
+      "label": "Grated Cheese",
+      "location": "0.45,0.35,0.65,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread",
+        "size": "medium"
+      },
+      "id": "bread_slice",
+      "label": "Bread Slice",
+      "location": "0.45,0.35,0.75,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan",
+      "label": "Frying Pan",
+      "location": "0.25,0.15,0.95,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate_with_grated_cheese",
+      "label": "Plate of Grated Cheese",
+      "location": "0.45,0.65,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "Stove",
+      "location": "0.0,0.0,1.0,0.6,0.7"
+    }
+  ]
+}

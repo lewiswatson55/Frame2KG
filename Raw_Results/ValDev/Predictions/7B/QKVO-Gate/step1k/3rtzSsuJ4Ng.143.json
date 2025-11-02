@@ -1,0 +1,145 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "on",
+      "source": "spoon1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "on",
+      "source": "mayo1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tongs1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "toast1",
+      "target": "paper_towel1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "plate2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "plate1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "plate2",
+      "target": "sandwich1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.35,0.0,0.65,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.0,0.0,0.4,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown toasted bread",
+        "size": "small"
+      },
+      "id": "toast1",
+      "label": "Toast",
+      "location": "0.05,0.1,0.35,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "small"
+      },
+      "id": "paper_towel1",
+      "label": "Paper Towel",
+      "location": "0.0,0.0,0.4,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate2",
+      "label": "Plate",
+      "location": "0.6,0.3,1.0,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce Leaf",
+      "location": "0.75,0.4,0.95,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "sandwich1",
+      "label": "Sandwich",
+      "location": "0.3,0.3,0.6,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow creamy",
+        "size": "small"
+      },
+      "id": "mayo1",
+      "label": "Mayonnaise",
+      "location": "0.5,0.2,0.7,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic black handle",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "Tongs",
+      "location": "0.0,0.6,0.2,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.4,0.2,0.5,0.4,0.9"
+    }
+  ]
+}

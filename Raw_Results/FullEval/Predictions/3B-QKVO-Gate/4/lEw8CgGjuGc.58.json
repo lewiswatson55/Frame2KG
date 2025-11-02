@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "meat"
+    },
+    {
+      "predicate": "on",
+      "source": "meat",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "herbs",
+      "target": "meat"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese",
+      "target": "meat"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "sprinkler",
+      "target": "meat"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.6,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red raw meat",
+        "size": "large"
+      },
+      "id": "meat",
+      "label": "Raw Meat",
+      "location": "0.0,0.4,0.7,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green chopped herbs",
+        "size": "medium"
+      },
+      "id": "herbs",
+      "label": "Chopped Herbs",
+      "location": "0.2,0.45,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white grated cheese",
+        "size": "small"
+      },
+      "id": "cheese",
+      "label": "Grated Cheese",
+      "location": "0.3,0.5,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "sprinkler",
+      "label": "Sprinkling Device",
+      "location": "0.5,0.0,0.9,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "Cutting Board",
+      "location": "0.0,0.3,1.0,1.0,0.7"
+    }
+  ]
+}

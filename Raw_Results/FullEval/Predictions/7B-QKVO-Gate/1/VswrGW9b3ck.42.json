@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "squid_rings",
+      "target": "flour"
+    },
+    {
+      "predicate": "on",
+      "source": "flour",
+      "target": "tray"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand",
+      "target": "squid_rings"
+    },
+    {
+      "predicate": "in",
+      "source": "pepper",
+      "target": "flour"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white coated",
+        "size": "medium"
+      },
+      "id": "squid_rings",
+      "label": "calamari rings",
+      "location": "0.05,0.3,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange plastic",
+        "size": "large"
+      },
+      "id": "tray",
+      "label": "plastic tray",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "flour",
+      "label": "flour",
+      "location": "0.0,0.4,1.0,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "black specks",
+        "size": "small"
+      },
+      "id": "pepper",
+      "label": "pepper",
+      "location": "0.0,0.4,1.0,1.0,0.5"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand",
+      "label": "human hand",
+      "location": "0.5,0.0,1.0,0.6,0.9"
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "herb1"
+    },
+    {
+      "predicate": "on",
+      "source": "herb1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_slices1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "bottle2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle3",
+      "target": "bottle4"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "board1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "grill1"
+    },
+    {
+      "predicate": "on",
+      "source": "baguette1",
+      "target": "cutting_board2"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "pan1",
+      "target": "rack1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "shelf1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "framed_map1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "plant1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.35,0.05,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "herb1",
+      "label": "Herbs",
+      "location": "0.45,0.55,0.55,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.2,0.6,0.5,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread slices",
+        "size": "small"
+      },
+      "id": "bread_slices1",
+      "label": "Bread Slices",
+      "location": "0.35,0.65,0.45,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cheese",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "Cheese",
+      "location": "0.45,0.65,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "Knife",
+      "location": "0.3,0.6,0.4,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottle yellow liquid",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "Bottle of Dressing",
+      "location": "0.15,0.6,0.2,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottle white liquid",
+        "size": "small"
+      },
+      "id": "bottle2",
+      "label": "Bottle of Mayonnaise",
+      "location": "0.2,0.6,0.25,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottle red liquid",
+        "size": "small"
+      },
+      "id": "bottle3",
+      "label": "Bottle of Sauce",
+      "location": "0.25,0.6,0.3,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottle clear liquid",
+        "size": "small"
+      },
+      "id": "bottle4",
+      "label": "Bottle of Oil",
+      "location": "0.3,0.6,0.35,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "Blender",
+      "location": "0.0,0.4,0.2,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "Stovetop Grill",
+      "location": "0.5,0.6,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce Leaves",
+      "location": "0.55,0.65,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board2",
+      "label": "Cutting Board",
+      "location": "0.8,0.7,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "long crusty",
+        "size": "small"
+      },
+      "id": "baguette1",
+      "label": "Baguette Bread",
+      "location": "0.85,0.75,0.95,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "Pans",
+      "location": "0.6,0.0,0.9,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "Shelf",
+      "location": "0.0,0.0,0.5,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame map",
+        "size": "small"
+      },
+      "id": "framed_map1",
+      "label": "Framed Map",
+      "location": "0.85,0.1,0.95,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic pot green plant",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "Plant Pot",
+      "location": "0.9,0.6,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal rack",
+        "size": "medium"
+      },
+      "id": "rack1",
+      "label": "Pot Rack",
+      "location": "0.6,0.0,0.9,0.3,0.8"
+    }
+  ]
+}

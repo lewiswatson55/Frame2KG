@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bowl_salt",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_cheese",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_fish",
+      "target": "board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lemon",
+      "target": "jar_mayo"
+    },
+    {
+      "predicate": "behind",
+      "source": "bottle_oil",
+      "target": "lemon"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bottle_oil",
+      "target": "jar_mayo"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "knife",
+      "target": "plate_fish"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "wooden bowl with white salt",
+        "size": "small"
+      },
+      "id": "bowl_salt",
+      "label": "salt bowl",
+      "location": "0.35,0.6,0.48,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden bowl with grated cheese",
+        "size": "small"
+      },
+      "id": "bowl_cheese",
+      "label": "cheese bowl",
+      "location": "0.48,0.6,0.6,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with raw fish fillet",
+        "size": "medium"
+      },
+      "id": "plate_fish",
+      "label": "fish plate",
+      "location": "0.7,0.5,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow round fruit",
+        "size": "small"
+      },
+      "id": "lemon",
+      "label": "lemon",
+      "location": "0.5,0.3,0.6,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass jar with yellow contents",
+        "size": "small"
+      },
+      "id": "jar_mayo",
+      "label": "mayonnaise jar",
+      "location": "0.45,0.2,0.55,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark bottle with gold cap",
+        "size": "medium"
+      },
+      "id": "bottle_oil",
+      "label": "oil bottle",
+      "location": "0.6,0.1,0.7,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic blade with black handle",
+        "size": "large"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.0,0.5,0.3,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wooden cutting board",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "cutting board",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    }
+  ]
+}

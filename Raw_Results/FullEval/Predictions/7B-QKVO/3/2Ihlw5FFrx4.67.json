@@ -1,0 +1,155 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_slice",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_of_feta",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_of_cheese",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "tray_of_vegetables",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "silver_vase",
+      "target": "table"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "background_screen"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "background_screen"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.1,0.48,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green dress",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.52,0.1,0.95,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink background",
+        "size": "large"
+      },
+      "id": "background_screen",
+      "label": "screen",
+      "location": "0.3,0.0,0.7,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.1,0.6,0.4,0.8,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread",
+        "size": "small"
+      },
+      "id": "bread_slice",
+      "label": "bread slice",
+      "location": "0.15,0.65,0.35,0.75,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.1,0.6,0.2,0.7,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass white feta",
+        "size": "small"
+      },
+      "id": "bowl_of_feta",
+      "label": "bowl of feta",
+      "location": "0.3,0.65,0.4,0.75,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass white cheese",
+        "size": "small"
+      },
+      "id": "bowl_of_cheese",
+      "label": "bowl of cheese",
+      "location": "0.4,0.65,0.5,0.75,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "rectangular metal tray green vegetables",
+        "size": "medium"
+      },
+      "id": "tray_of_vegetables",
+      "label": "vegetable tray",
+      "location": "0.45,0.6,0.6,0.75,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metallic",
+        "size": "small"
+      },
+      "id": "silver_vase",
+      "label": "vase",
+      "location": "0.55,0.6,0.65,0.75,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "grey surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "table",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    }
+  ]
+}

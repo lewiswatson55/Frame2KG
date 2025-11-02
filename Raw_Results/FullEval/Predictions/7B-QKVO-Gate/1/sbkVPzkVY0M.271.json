@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "includes",
+      "source": "sandwich1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "sandwich1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown hair, blue patterned denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread with lettuce",
+        "size": "medium"
+      },
+      "id": "sandwich1",
+      "label": "sandwich",
+      "location": "0.45,0.6,0.75,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce",
+      "location": "0.48,0.65,0.72,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green apples",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "fruit bowl",
+      "location": "0.0,0.8,0.3,1.0,0.6"
+    }
+  ]
+}

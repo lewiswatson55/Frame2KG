@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "knob1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "knob2",
+      "target": "stove1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "knob1",
+      "target": "knob2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "knob3",
+      "target": "knob2"
+    },
+    {
+      "predicate": "above",
+      "source": "knob4",
+      "target": "knob5"
+    },
+    {
+      "predicate": "below",
+      "source": "knob6",
+      "target": "knob7"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "knob1",
+      "label": "knob",
+      "location": "0.00,0.10,0.30,0.80,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "knob2",
+      "label": "knob",
+      "location": "0.30,0.10,0.60,0.80,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "knob3",
+      "label": "knob",
+      "location": "0.60,0.10,0.90,0.80,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "knob4",
+      "label": "knob",
+      "location": "0.00,0.00,0.20,0.20,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "knob5",
+      "label": "knob",
+      "location": "0.60,0.00,0.80,0.20,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "knob6",
+      "label": "knob",
+      "location": "0.00,0.80,0.20,1.00,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stove control panel",
+      "location": "0.00,0.00,1.00,1.00,0.9"
+    }
+  ]
+}

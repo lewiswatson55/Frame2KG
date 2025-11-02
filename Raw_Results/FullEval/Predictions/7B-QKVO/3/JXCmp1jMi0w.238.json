@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "pouring_into",
+      "source": "bottle1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "wire1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass yellow liquid",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "glass bottle",
+      "location": "0.05,0.0,0.48,0.63,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.27,0.15,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal coil",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "electric stove burner",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black cable",
+        "size": "small"
+      },
+      "id": "wire1",
+      "label": "power cord",
+      "location": "0.0,0.7,0.3,1.0,0.8"
+    }
+  ]
+}

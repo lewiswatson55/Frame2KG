@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bread1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "onion1",
+      "target": "bread1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.35,0.68,0.97,0.94,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crust",
+        "size": "large"
+      },
+      "id": "bread1",
+      "label": "slice of bread",
+      "location": "0.00,0.45,1.00,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red translucent",
+        "size": "small"
+      },
+      "id": "onion1",
+      "label": "chopped onion",
+      "location": "0.70,0.60,1.00,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "jar1",
+      "label": "glass jar",
+      "location": "0.00,0.00,1.00,0.50,0.7"
+    }
+  ]
+}

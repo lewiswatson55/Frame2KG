@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "knob1",
+      "target": "knob2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "button1",
+      "target": "button2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "plate1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "spoon1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "large"
+      },
+      "id": "knob1",
+      "label": "control knob",
+      "location": "0.05,0.3,0.48,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "large"
+      },
+      "id": "knob2",
+      "label": "control knob",
+      "location": "0.48,0.3,0.9,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "button1",
+      "label": "power button",
+      "location": "0.45,0.1,0.55,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "button2",
+      "label": "power button",
+      "location": "0.55,0.1,0.65,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.75,0.2,0.95,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "bowl",
+      "location": "0.8,0.2,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige wood",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "wooden spoon",
+      "location": "0.75,0.5,0.95,0.8,0.8"
+    }
+  ]
+}

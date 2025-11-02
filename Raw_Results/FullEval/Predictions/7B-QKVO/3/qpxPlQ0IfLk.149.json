@@ -1,0 +1,242 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "mustard_bottle1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "sauce_bowl1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "lemon_slice1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "spoon1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken_pieces1",
+      "target": "grill1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "pan_hanger1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "stool1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "above",
+      "source": "shelf1",
+      "target": "barrel1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bottles1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "plant1",
+      "target": "book_stack1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue red plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.05,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass base black plastic top",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.15,0.45,0.35,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "mustard_bottle1",
+      "label": "mustard bottle",
+      "location": "0.35,0.65,0.45,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass white sauce",
+        "size": "small"
+      },
+      "id": "sauce_bowl1",
+      "label": "sauce bowl",
+      "location": "0.45,0.65,0.55,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "lemon_slice1",
+      "label": "lemon slice",
+      "location": "0.55,0.65,0.65,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver blade black handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.50,0.75,0.60,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "spoon",
+      "location": "0.60,0.75,0.70,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "grill1",
+      "label": "grill",
+      "location": "0.70,0.70,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "chicken_pieces1",
+      "label": "chicken pieces",
+      "location": "0.75,0.75,0.90,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.05,0.10,0.50,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey brick",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "brick wall",
+      "location": "0.00,0.00,1.00,1.00,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "small"
+      },
+      "id": "stool1",
+      "label": "stool",
+      "location": "0.05,0.40,0.20,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown ceramic",
+        "size": "small"
+      },
+      "id": "barrel1",
+      "label": "barrel",
+      "location": "0.10,0.35,0.20,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jars with colorful contents",
+        "size": "small"
+      },
+      "id": "bottles1",
+      "label": "jars of spices",
+      "location": "0.15,0.30,0.35,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "pots1",
+      "label": "hanging pots",
+      "location": "0.55,0.00,0.90,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "potted plant",
+      "location": "0.85,0.40,0.95,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stacked books",
+        "size": "small"
+      },
+      "id": "book_stack1",
+      "label": "book stack",
+      "location": "0.90,0.30,1.00,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange frame",
+        "size": "small"
+      },
+      "id": "picture_frame1",
+      "label": "picture frame",
+      "location": "0.80,0.10,0.90,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "pan_hanger1",
+      "label": "pan hanger",
+      "location": "0.55,0.00,0.90,0.20,0.8"
+    }
+  ]
+}

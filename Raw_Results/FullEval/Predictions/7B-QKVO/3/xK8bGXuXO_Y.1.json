@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "rings1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sauce1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "rings1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text2",
+      "target": "rings1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown battered",
+        "size": "medium"
+      },
+      "id": "rings1",
+      "label": "Onion Rings",
+      "location": "0.35,0.25,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.48,0.55,0.62,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red ketchup",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "Sauce Bowl",
+      "location": "0.45,0.65,0.55,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red cursive font",
+        "size": "large"
+      },
+      "id": "text1",
+      "label": "Title Text 'Onion Rings'",
+      "location": "0.2,0.05,0.8,0.25,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red serif font",
+        "size": "medium"
+      },
+      "id": "text2",
+      "label": "Text 'Snacks By Tarla Dalal'",
+      "location": "0.4,0.8,0.6,0.95,0.9"
+    }
+  ]
+}

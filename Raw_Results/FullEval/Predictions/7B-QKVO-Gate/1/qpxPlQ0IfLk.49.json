@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "slice1",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "slice2",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "slice3",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "oil_stream",
+      "target": "slice1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle",
+      "target": "tongs"
+    },
+    {
+      "predicate": "behind",
+      "source": "tongs",
+      "target": "slice1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "wooden cutting board",
+      "location": "0.05,0.45,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread with yellow spread",
+        "size": "small"
+      },
+      "id": "slice1",
+      "label": "bread slice",
+      "location": "0.35,0.55,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread with yellow spread",
+        "size": "small"
+      },
+      "id": "slice2",
+      "label": "bread slice",
+      "location": "0.25,0.45,0.55,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread with yellow spread",
+        "size": "small"
+      },
+      "id": "slice3",
+      "label": "bread slice",
+      "location": "0.15,0.35,0.45,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass bottle",
+        "size": "medium"
+      },
+      "id": "bottle",
+      "label": "olive oil bottle",
+      "location": "0.6,0.0,0.9,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "tongs",
+      "label": "kitchen tongs",
+      "location": "0.1,0.0,0.6,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow liquid stream",
+        "size": "small"
+      },
+      "id": "oil_stream",
+      "label": "olive oil stream",
+      "location": "0.55,0.1,0.6,0.8,0.6"
+    }
+  ]
+}

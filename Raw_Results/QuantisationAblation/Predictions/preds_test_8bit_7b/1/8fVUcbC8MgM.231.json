@@ -1,0 +1,146 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "bowl_large1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_large1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_small1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "rice_bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper_grinder1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "plastic_bag1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "paper_towel1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "paper_towel1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.45,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "bowl_large1",
+      "label": "mixing bowl",
+      "location": "0.05,0.05,0.35,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "pepper_grinder1",
+      "label": "pepper grinder",
+      "location": "0.30,0.35,0.40,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown ceramic",
+        "size": "small"
+      },
+      "id": "bowl_small1",
+      "label": "small bowl",
+      "location": "0.20,0.45,0.35,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue ceramic",
+        "size": "small"
+      },
+      "id": "rice_bowl1",
+      "label": "rice bowl",
+      "location": "0.00,0.35,0.20,0.60,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "spoon",
+      "location": "0.00,0.30,0.15,0.50,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "medium"
+      },
+      "id": "plastic_bag1",
+      "label": "plastic bag",
+      "location": "0.35,0.25,0.60,0.50,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "medium"
+      },
+      "id": "paper_towel1",
+      "label": "paper towel",
+      "location": "0.60,0.30,0.90,0.60,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.40,0.50,0.80,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.00,0.00,1.00,1.00,0.8"
+    }
+  ]
+}

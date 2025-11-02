@@ -1,0 +1,177 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bun_stack",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese_slices",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "spoon",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "meat_patties",
+      "target": "board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person",
+      "target": "board"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "board",
+      "target": "stove"
+    },
+    {
+      "predicate": "left_of",
+      "source": "shelves",
+      "target": "clock"
+    },
+    {
+      "predicate": "right_of",
+      "source": "rack",
+      "target": "clock"
+    },
+    {
+      "predicate": "behind",
+      "source": "stove",
+      "target": "person"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white chef coat",
+        "size": "large"
+      },
+      "id": "person",
+      "label": "chef",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board",
+      "label": "cutting board",
+      "location": "0.4,0.7,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw",
+        "size": "small"
+      },
+      "id": "meat_patties",
+      "label": "raw meat patties",
+      "location": "0.5,0.75,0.6,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cheese slices",
+        "size": "small"
+      },
+      "id": "cheese_slices",
+      "label": "cheese slices",
+      "location": "0.45,0.75,0.55,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spoon",
+      "label": "metal spoon",
+      "location": "0.45,0.75,0.5,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bowl with red ground beef",
+        "size": "medium"
+      },
+      "id": "bowl_meat",
+      "label": "bowl of ground beef",
+      "location": "0.1,0.7,0.25,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bowl with yellow cheese",
+        "size": "medium"
+      },
+      "id": "bowl_cheese",
+      "label": "bowl of cheese",
+      "location": "0.25,0.7,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "stove",
+      "location": "0.0,0.4,0.4,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "shelf",
+      "label": "shelf",
+      "location": "0.0,0.0,1.0,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic lid",
+        "size": "medium"
+      },
+      "id": "container_shelf",
+      "label": "container shelf",
+      "location": "0.0,0.0,1.0,0.2,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jars with spices",
+        "size": "medium"
+      },
+      "id": "jars",
+      "label": "spice jars",
+      "location": "0.0,0.2,1.0,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden tray with buns",
+        "size": "medium"
+      },
+      "id": "bun_stack",
+      "label": "bun stack",
+      "location": "0.6,0.4,0.8,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel rack",
+        "size": "large"
+      },
+      "id": "rack",
+      "label": "tray rack",
+      "location": "0.8,0.2,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame",
+        "size": "small"
+      },
+      "id": "clock",
+      "label": "wall clock",
+      "location": "0.7,0.0,0.8,0.15,0.9"
+    }
+  ]
+}

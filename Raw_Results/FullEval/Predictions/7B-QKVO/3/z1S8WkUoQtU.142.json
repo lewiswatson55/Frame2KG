@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "onion_rings1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "in",
+      "source": "frying_tongs1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "holding",
+      "source": "frying_tongs1",
+      "target": "onion_rings1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "onion_rings1",
+      "label": "Onion Rings",
+      "location": "0.05,0.05,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "frying_tongs1",
+      "label": "Frying Tongs",
+      "location": "0.3,0.0,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "bubbling dark liquid",
+        "size": "large"
+      },
+      "id": "oil1",
+      "label": "Cooking Oil",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

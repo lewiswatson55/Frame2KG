@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "whisk1",
+      "target": "batter1"
+    },
+    {
+      "predicate": "in",
+      "source": "batter1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "whisk1",
+      "label": "Whisk",
+      "location": "0.05,0.0,0.48,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light beige liquid",
+        "size": "large"
+      },
+      "id": "batter1",
+      "label": "Batter",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "Cooking Pot",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "Stove",
+      "location": "0.0,0.8,1.0,1.0,0.8"
+    }
+  ]
+}

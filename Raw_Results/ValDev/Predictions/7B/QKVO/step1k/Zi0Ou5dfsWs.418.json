@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in",
+      "source": "salad1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "bowl1",
+      "label": "white bowl",
+      "location": "0.15,0.3,0.75,0.68,0.9"
+    },
+    {
+      "id": "salad1",
+      "label": "green salad",
+      "location": "0.2,0.4,0.6,0.6,0.8"
+    },
+    {
+      "id": "board1",
+      "label": "wooden cutting board",
+      "location": "0.0,0.3,1.0,1.0,0.8"
+    },
+    {
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.2,0.2,0.8,0.8,0.9"
+    }
+  ]
+}

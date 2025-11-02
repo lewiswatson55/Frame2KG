@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken2",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "sauce_bottle",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "dip_container",
+      "target": "board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "garlic_peel",
+      "target": "dip_container"
+    },
+    {
+      "predicate": "behind",
+      "source": "bag_of_potatoes",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "chicken2",
+      "target": "bag_of_potatoes"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden crispy",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "fried chicken piece",
+      "location": "0.05,0.3,0.48,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden crispy",
+        "size": "large"
+      },
+      "id": "chicken2",
+      "label": "fried chicken pieces",
+      "location": "0.52,0.3,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic red sauce bottle",
+        "size": "small"
+      },
+      "id": "sauce_bottle",
+      "label": "hot sauce bottle",
+      "location": "0.45,0.0,0.55,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic container with red sauce",
+        "size": "small"
+      },
+      "id": "dip_container",
+      "label": "dipping sauce container",
+      "location": "0.4,0.6,0.6,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "small"
+      },
+      "id": "garlic_peel",
+      "label": "garlic peel",
+      "location": "0.8,0.8,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic bag of red potatoes",
+        "size": "medium"
+      },
+      "id": "bag_of_potatoes",
+      "label": "potato bag",
+      "location": "0.0,0.0,0.4,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "cutting board",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    }
+  ]
+}

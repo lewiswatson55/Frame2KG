@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "meat_patties"
+    },
+    {
+      "predicate": "on",
+      "source": "meat_patties",
+      "target": "tray"
+    },
+    {
+      "predicate": "on",
+      "source": "tray",
+      "target": "board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl",
+      "target": "tray"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white gloves",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.35,0.0,0.65,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red minced meat",
+        "size": "medium"
+      },
+      "id": "meat_patties",
+      "label": "Meat patties",
+      "location": "0.4,0.3,0.9,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "small"
+      },
+      "id": "tray",
+      "label": "Plastic tray",
+      "location": "0.4,0.35,0.9,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "Cutting board",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl",
+      "label": "Glass bowl",
+      "location": "0.0,0.0,0.4,0.4,0.8"
+    }
+  ]
+}

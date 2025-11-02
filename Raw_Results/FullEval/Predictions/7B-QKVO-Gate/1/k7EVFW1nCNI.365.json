@@ -1,0 +1,174 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula2"
+    },
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "spatula2",
+      "target": "bowl3"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl1",
+      "target": "salad1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl3",
+      "target": "salad2"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl4",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl5",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl4",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl5",
+      "target": "bowl3"
+    },
+    {
+      "predicate": "behind",
+      "source": "plate1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white lace top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.0,0.0,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red silicone",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "Spatula",
+      "location": "0.28,0.05,0.45,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red silicone",
+        "size": "medium"
+      },
+      "id": "spatula2",
+      "label": "Spatula",
+      "location": "0.55,0.05,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Small bowl",
+      "location": "0.1,0.5,0.3,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green lettuce",
+        "size": "small"
+      },
+      "id": "salad1",
+      "label": "Salad",
+      "location": "0.15,0.55,0.28,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl2",
+      "label": "White bowl",
+      "location": "0.3,0.45,0.6,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green lettuce",
+        "size": "medium"
+      },
+      "id": "salad2",
+      "label": "Salad",
+      "location": "0.35,0.5,0.55,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "medium"
+      },
+      "id": "bowl3",
+      "label": "Glass bowl",
+      "location": "0.6,0.2,0.9,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown croutons",
+        "size": "small"
+      },
+      "id": "bowl4",
+      "label": "Croutons bowl",
+      "location": "0.0,0.6,0.2,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "bowl5",
+      "label": "Blender",
+      "location": "0.7,0.0,1.0,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.0,0.3,0.4,0.5,0.9"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "fork"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "bowl"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person2",
+      "target": "person1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl",
+      "target": "table"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "bowl"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf",
+      "target": "person1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "signs",
+      "target": "shelf"
+    },
+    {
+      "predicate": "includes",
+      "source": "shelf",
+      "target": "hotdogs"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white sweater",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.37,0.05,0.63,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "bowl",
+      "label": "salad bowl",
+      "location": "0.25,0.75,0.75,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "table",
+      "location": "0.0,0.75,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic",
+        "size": "large"
+      },
+      "id": "shelf",
+      "label": "food shelf",
+      "location": "0.0,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black chalkboard",
+        "size": "small"
+      },
+      "id": "signs",
+      "label": "menu signs",
+      "location": "0.0,0.0,1.0,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread rolls",
+        "size": "medium"
+      },
+      "id": "hotdogs",
+      "label": "hotdog buns",
+      "location": "0.3,0.2,0.7,0.35,0.7"
+    }
+  ]
+}

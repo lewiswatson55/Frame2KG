@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "sauce1",
+      "target": "mixture1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "mixture1",
+      "target": "background1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown liquid",
+        "size": "medium"
+      },
+      "id": "sauce1",
+      "label": "Sauce stream",
+      "location": "0.45,0.0,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "large"
+      },
+      "id": "mixture1",
+      "label": "Mixture of greens and white chunks",
+      "location": "0.1,0.3,0.9,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blurred green foliage",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "Background foliage",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

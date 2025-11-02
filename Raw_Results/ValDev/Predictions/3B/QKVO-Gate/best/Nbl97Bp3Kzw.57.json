@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "sign1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "sign1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "vase1",
+      "target": "vase2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "vase1",
+      "target": "vase2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "wooden shelf",
+      "location": "0.0,0.65,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame yellow background green letters",
+        "size": "medium"
+      },
+      "id": "sign1",
+      "label": "decorative sign",
+      "location": "0.05,0.15,0.95,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass white candle",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "glass vase",
+      "location": "0.0,0.5,0.3,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass white candle",
+        "size": "small"
+      },
+      "id": "vase2",
+      "label": "glass vase",
+      "location": "0.3,0.5,0.6,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark clothing",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.7,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

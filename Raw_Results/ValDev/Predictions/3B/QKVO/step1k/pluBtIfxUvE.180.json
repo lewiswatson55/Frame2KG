@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "spoon1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "in",
+      "source": "sauce1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread1",
+      "target": "sauce1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "dish1",
+      "label": "plate",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red and yellow creamy",
+        "size": "medium"
+      },
+      "id": "sauce1",
+      "label": "pasta sauce",
+      "location": "0.05,0.3,0.95,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "spoon1",
+      "label": "spoon",
+      "location": "0.0,0.4,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown toasted",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "toast",
+      "location": "0.0,0.0,0.6,0.3,0.8"
+    }
+  ]
+}

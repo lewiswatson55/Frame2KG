@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "powder1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "spoon1",
+      "target": "powder1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cloth1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.0,0.0,1.0,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige granular",
+        "size": "medium"
+      },
+      "id": "powder1",
+      "label": "breadcrumbs",
+      "location": "0.0,0.4,0.8,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink plastic",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "measuring spoon",
+      "location": "0.3,0.7,0.9,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red fabric",
+        "size": "medium"
+      },
+      "id": "cloth1",
+      "label": "kitchen cloth",
+      "location": "0.6,0.0,1.0,0.6,0.6"
+    }
+  ]
+}

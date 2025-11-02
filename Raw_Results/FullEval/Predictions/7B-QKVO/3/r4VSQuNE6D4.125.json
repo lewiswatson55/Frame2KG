@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pancake_dough1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "syrup_bottle1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "pouring_on",
+      "source": "syrup_bottle1",
+      "target": "pancake_dough1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black non-stick metal",
+        "size": "large"
+      },
+      "id": "griddle1",
+      "label": "Griddle",
+      "location": "0.05,0.05,0.98,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "syrup_bottle1",
+      "label": "Syrup Bottle",
+      "location": "0.67,0.0,0.85,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white batter",
+        "size": "medium"
+      },
+      "id": "pancake_dough1",
+      "label": "Pancake Dough Stripe",
+      "location": "0.45,0.2,0.55,0.8,0.85"
+    }
+  ]
+}

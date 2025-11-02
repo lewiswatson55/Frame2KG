@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "jug1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "jug1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "includes",
+      "source": "blender1",
+      "target": "greens1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "measuring_cup1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plant1",
+      "target": "knife_block1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "blender1",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "hand",
+      "location": "0.35,0.0,0.65,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "jug1",
+      "label": "glass measuring jug",
+      "location": "0.45,0.0,0.75,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "large"
+      },
+      "id": "blender1",
+      "label": "Vitamix blender",
+      "location": "0.45,0.2,0.75,0.8,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "greens1",
+      "label": "leafy greens",
+      "location": "0.5,0.4,0.7,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "medium"
+      },
+      "id": "measuring_cup1",
+      "label": "measuring cup",
+      "location": "0.0,0.7,0.3,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "knife_block1",
+      "label": "knife block",
+      "location": "0.75,0.1,0.95,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "potted plant",
+      "location": "0.85,0.2,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige brick",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "brick wall",
+      "location": "0.0,0.0,1.0,0.5,0.7"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cloth1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black non-stick",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.53,0.08,0.97,0.64,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink striped fabric",
+        "size": "medium"
+      },
+      "id": "cloth1",
+      "label": "kitchen cloth",
+      "location": "0.00,0.00,0.45,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal grate",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "gas stove burner",
+      "location": "0.45,0.00,1.00,1.00,0.8"
+    }
+  ]
+}

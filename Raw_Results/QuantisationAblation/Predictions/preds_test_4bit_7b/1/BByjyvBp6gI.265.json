@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "includes",
+      "source": "pan1",
+      "target": "macaroni1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray2",
+      "target": "tray3"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "tray2"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese2",
+      "target": "tray3"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.4,0.38,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.0,0.4,0.3,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "aluminum foil",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "Aluminum Pan",
+      "location": "0.0,0.5,0.7,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white pasta",
+        "size": "large"
+      },
+      "id": "macaroni1",
+      "label": "Macaroni",
+      "location": "0.05,0.55,0.65,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "aluminum foil",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "Aluminum Tray",
+      "location": "0.7,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow shredded cheese",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "Shredded Cheese",
+      "location": "0.6,0.0,0.9,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "tray2",
+      "label": "Ceramic Dish",
+      "location": "0.6,0.0,0.9,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow shredded cheese",
+        "size": "small"
+      },
+      "id": "cheese2",
+      "label": "Shredded Cheese",
+      "location": "0.65,0.0,0.95,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "aluminum foil",
+        "size": "large"
+      },
+      "id": "tray3",
+      "label": "Aluminum Tray",
+      "location": "0.7,0.3,1.0,0.7,0.9"
+    }
+  ]
+}

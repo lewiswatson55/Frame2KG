@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "candle_holder_left",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "candle_holder_right",
+      "target": "shelf"
+    },
+    {
+      "predicate": "next_to",
+      "source": "candle_holder_left",
+      "target": "candle_holder_right"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person",
+      "target": "signboard"
+    },
+    {
+      "predicate": "above",
+      "source": "shelf",
+      "target": "signboard"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "large"
+      },
+      "id": "shelf",
+      "label": "wooden shelf",
+      "location": "0.0,0.65,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame with green text",
+        "size": "medium"
+      },
+      "id": "signboard",
+      "label": "La Trattoria sign",
+      "location": "0.0,0.1,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "candle_holder_left",
+      "label": "glass candle holder",
+      "location": "0.0,0.7,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "candle_holder_right",
+      "label": "glass candle holder",
+      "location": "0.3,0.7,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black clothing",
+        "size": "large"
+      },
+      "id": "person",
+      "label": "person",
+      "location": "0.7,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

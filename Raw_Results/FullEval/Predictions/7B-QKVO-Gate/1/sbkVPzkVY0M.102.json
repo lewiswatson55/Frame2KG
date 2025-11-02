@@ -1,0 +1,89 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand2",
+      "target": "knife1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "box1",
+      "target": "pot1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "left hand",
+      "location": "0.05,0.05,0.48,0.63,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand2",
+      "label": "right hand",
+      "location": "0.37,0.15,0.75,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal blade black handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.15,0.15,0.60,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown crust",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "bread slice",
+      "location": "0.35,0.20,0.70,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black red",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.60,0.55,0.98,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.00,0.50,1.00,1.00,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red black plastic",
+        "size": "small"
+      },
+      "id": "box1",
+      "label": "spice box",
+      "location": "0.55,0.80,0.75,0.95,0.7"
+    }
+  ]
+}

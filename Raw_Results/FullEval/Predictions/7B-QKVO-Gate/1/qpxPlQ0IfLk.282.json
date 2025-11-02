@@ -1,0 +1,141 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "logo1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "logo1",
+      "target": "person1"
+    },
+    {
+      "predicate": "above",
+      "source": "logo2",
+      "target": "person1"
+    },
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "image1"
+    },
+    {
+      "predicate": "on",
+      "source": "text2",
+      "target": "image2"
+    },
+    {
+      "predicate": "on",
+      "source": "text3",
+      "target": "image3"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "image1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "image2",
+      "target": "wall1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "image3",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.45,0.18,0.97,0.86,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue teal",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Hungry logo",
+      "location": "0.75,0.0,0.98,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on grey background",
+        "size": "small"
+      },
+      "id": "logo2",
+      "label": "Hungry logo",
+      "location": "0.0,0.0,0.25,0.15,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver bowl with flour",
+        "size": "medium"
+      },
+      "id": "image1",
+      "label": "Brothers Green image",
+      "location": "0.0,0.0,0.35,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "woman in red shirt",
+        "size": "medium"
+      },
+      "id": "image2",
+      "label": "Eat My Vegan image",
+      "location": "0.0,0.25,0.35,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "woman in black shirt",
+        "size": "medium"
+      },
+      "id": "image3",
+      "label": "Bites & Booze image",
+      "location": "0.0,0.5,0.35,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey brick",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "brick wall",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "black text",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "Brothers Green text",
+      "location": "0.0,0.25,0.35,0.35,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black text",
+        "size": "small"
+      },
+      "id": "text2",
+      "label": "Eat My Vegan text",
+      "location": "0.0,0.5,0.35,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black text",
+        "size": "small"
+      },
+      "id": "text3",
+      "label": "Bites & Booze text",
+      "location": "0.0,0.75,0.35,0.85,0.7"
+    }
+  ]
+}

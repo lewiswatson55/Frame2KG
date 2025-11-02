@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "cheese1",
+      "target": "sauce1"
+    },
+    {
+      "predicate": "on",
+      "source": "sauce1",
+      "target": "pasta1"
+    },
+    {
+      "predicate": "in",
+      "source": "pasta1",
+      "target": "pot1"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "cheese1",
+      "label": "shredded cheese",
+      "attributes": {
+        "appearance": "orange",
+        "size": "medium"
+      },
+      "location": "0.35,0.15,0.65,0.45,0.8"
+    },
+    {
+      "id": "sauce1",
+      "label": "white sauce",
+      "attributes": {
+        "appearance": "creamy white",
+        "size": "large"
+      },
+      "location": "0.05,0.2,0.95,0.75,0.9"
+    },
+    {
+      "id": "pasta1",
+      "label": "macaroni pasta",
+      "attributes": {
+        "appearance": "white",
+        "size": "medium"
+      },
+      "location": "0.1,0.25,0.9,0.7,0.9"
+    },
+    {
+      "id": "pot1",
+      "label": "cooking pot",
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    }
+  ]
+}

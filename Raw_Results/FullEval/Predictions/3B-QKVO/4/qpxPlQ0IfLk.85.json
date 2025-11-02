@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "lemon1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "rice_bowl1",
+      "target": "lemon1"
+    },
+    {
+      "predicate": "behind",
+      "source": "box1",
+      "target": "lemon1"
+    },
+    {
+      "predicate": "behind",
+      "source": "box2",
+      "target": "lemon1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "medium"
+      },
+      "id": "lemon1",
+      "label": "lemon",
+      "location": "0.35,0.28,0.65,0.57,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal blade",
+        "size": "large"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.4,0.6,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.5,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "rice_bowl1",
+      "label": "glass bowl of rice",
+      "location": "0.6,0.2,0.95,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white cardboard",
+        "size": "small"
+      },
+      "id": "box1",
+      "label": "cardboard box",
+      "location": "0.45,0.0,0.6,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cardboard",
+        "size": "small"
+      },
+      "id": "box2",
+      "label": "cardboard box",
+      "location": "0.6,0.0,0.8,0.3,0.7"
+    }
+  ]
+}

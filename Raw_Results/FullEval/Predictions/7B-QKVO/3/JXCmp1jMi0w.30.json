@@ -1,0 +1,86 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "supports",
+      "source": "board1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "supports",
+      "source": "board1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "behind",
+      "source": "bag1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red glass with white label",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "hot sauce bottle",
+      "location": "0.05,0.0,0.35,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "ceramic bowl",
+      "location": "0.4,0.4,0.75,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "wooden cutting board",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.3,0.0,0.8,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic red contents",
+        "size": "medium"
+      },
+      "id": "bag1",
+      "label": "plastic bag",
+      "location": "0.6,0.0,1.0,0.5,0.7"
+    }
+  ]
+}

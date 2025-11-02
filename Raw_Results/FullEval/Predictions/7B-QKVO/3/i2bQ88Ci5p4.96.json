@@ -1,0 +1,95 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl1",
+      "target": "flour1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl2",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl3",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "supports",
+      "source": "countertop1",
+      "target": "bowl3"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "hands",
+      "location": "0.45,0.0,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.45,0.15,0.95,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow liquid",
+        "size": "medium"
+      },
+      "id": "bowl2",
+      "label": "batter bowl",
+      "location": "0.0,0.5,0.5,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "medium"
+      },
+      "id": "bowl3",
+      "label": "glass bowl",
+      "location": "0.75,0.0,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black speckled surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "flour1",
+      "label": "flour",
+      "location": "0.5,0.2,0.9,0.7,0.8"
+    }
+  ]
+}

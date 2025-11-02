@@ -1,0 +1,39 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "image_block1",
+      "target": "background"
+    },
+    {
+      "predicate": "left_of",
+      "source": "text1",
+      "target": "image_block1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black bold font",
+        "size": "large"
+      },
+      "id": "text1",
+      "label": "Title Text",
+      "location": "0.05,0.05,0.95,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown fried chicken pieces",
+        "size": "medium"
+      },
+      "id": "image_block1",
+      "label": "Image Block",
+      "location": "0.4,0.2,0.6,0.7,0.7"
+    }
+  ]
+}

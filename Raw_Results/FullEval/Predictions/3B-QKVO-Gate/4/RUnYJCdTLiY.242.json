@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "griddle"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake2",
+      "target": "griddle"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand",
+      "target": "spatula"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "spatula",
+      "target": "pancake2"
+    },
+    {
+      "predicate": "on",
+      "source": "griddle",
+      "target": "stove"
+    },
+    {
+      "predicate": "next_to",
+      "source": "stove",
+      "target": "cabinet"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cabinet",
+      "target": "oven"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "wooden cabinet",
+      "location": "0.0,0.0,0.35,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "oven",
+      "label": "built-in oven",
+      "location": "0.35,0.0,0.7,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black cast iron",
+        "size": "large"
+      },
+      "id": "griddle",
+      "label": "electric griddle",
+      "location": "0.0,0.3,0.8,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown batter",
+        "size": "small"
+      },
+      "id": "pancake1",
+      "label": "pancake",
+      "location": "0.2,0.45,0.45,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown batter",
+        "size": "small"
+      },
+      "id": "pancake2",
+      "label": "pancake",
+      "location": "0.5,0.45,0.75,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand",
+      "label": "human hand",
+      "location": "0.6,0.0,1.0,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic handle",
+        "size": "medium"
+      },
+      "id": "spatula",
+      "label": "spatula",
+      "location": "0.5,0.0,0.8,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "stove",
+      "label": "stove top",
+      "location": "0.0,0.8,0.5,1.0,0.8"
+    }
+  ]
+}

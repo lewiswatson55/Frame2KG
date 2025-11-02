@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "on",
+      "source": "sauce1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "sauce1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spoon1",
+      "target": "dish1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "dish1",
+      "label": "glass baking dish",
+      "location": "0.05,0.3,0.98,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "raw seasoned",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "raw chicken pieces",
+      "location": "0.1,0.4,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange liquid",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "marinade sauce",
+      "location": "0.4,0.0,0.7,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.45,0.0,0.75,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "metal spoon",
+      "location": "0.0,0.8,0.4,1.0,0.7"
+    }
+  ]
+}

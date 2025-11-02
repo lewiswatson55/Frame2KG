@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "table1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "bread1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink bread",
+        "size": "large"
+      },
+      "id": "bread1",
+      "label": "loaves of bread",
+      "location": "0.58,0.03,1.00,0.97,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on pink background",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "title text",
+      "location": "0.05,0.45,0.60,0.60,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.00,0.00,1.00,1.00,0.8"
+    }
+  ]
+}

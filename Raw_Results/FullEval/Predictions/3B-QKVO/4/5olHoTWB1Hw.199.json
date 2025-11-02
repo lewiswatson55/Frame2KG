@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pasta1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "pasta1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "Stove",
+      "location": "0.0,0.0,0.5,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown metal",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "Baking Tray",
+      "location": "0.3,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellowish",
+        "size": "large"
+      },
+      "id": "pasta1",
+      "label": "Pasta",
+      "location": "0.3,0.4,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Mixing Bowl",
+      "location": "0.7,0.0,1.0,0.3,0.85"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "includes",
+      "source": "dish1",
+      "target": "pasta1"
+    },
+    {
+      "predicate": "includes",
+      "source": "dish1",
+      "target": "sauce1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.3,0.4,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "Spatula",
+      "location": "0.1,0.28,0.6,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver foil",
+        "size": "large"
+      },
+      "id": "dish1",
+      "label": "Aluminum Dish",
+      "location": "0.0,0.1,0.7,0.9,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white pasta",
+        "size": "medium"
+      },
+      "id": "pasta1",
+      "label": "Pasta",
+      "location": "0.1,0.2,0.6,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow creamy",
+        "size": "medium"
+      },
+      "id": "sauce1",
+      "label": "Cheese Sauce",
+      "location": "0.1,0.2,0.6,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver foil",
+        "size": "large"
+      },
+      "id": "dish2",
+      "label": "Aluminum Dish",
+      "location": "0.7,0.0,1.0,1.0,0.9"
+    }
+  ]
+}

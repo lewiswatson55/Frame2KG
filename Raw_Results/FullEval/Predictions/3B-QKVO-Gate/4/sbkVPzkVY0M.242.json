@@ -1,0 +1,178 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "burner1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pepper_shaker1",
+      "target": "salt_shaker1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "pepper_shaker1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "salt_shaker1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "sandwich_plate1",
+      "target": "burner1"
+    },
+    {
+      "predicate": "behind",
+      "source": "fruit_basket1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "art_frame_left1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "art_frame_right1",
+      "target": "person1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lettuce_plate1",
+      "target": "watermelon_plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cutting_board1",
+      "target": "watermelon_plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "sauce bottle",
+      "location": "0.47,0.65,0.52,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "medium"
+      },
+      "id": "pepper_shaker1",
+      "label": "pepper shaker",
+      "location": "0.52,0.65,0.55,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "salt_shaker1",
+      "label": "salt shaker",
+      "location": "0.55,0.65,0.58,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.60,0.55,0.85,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "burner1",
+      "label": "portable burner",
+      "location": "0.60,0.75,0.85,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "bread with melted cheese",
+        "size": "small"
+      },
+      "id": "sandwich_plate1",
+      "label": "sandwich plate",
+      "location": "0.40,0.80,0.55,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce_plate1",
+      "label": "plate of lettuce",
+      "location": "0.75,0.80,0.90,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red slices",
+        "size": "small"
+      },
+      "id": "watermelon_plate1",
+      "label": "plate of watermelon",
+      "location": "0.80,0.80,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.85,0.75,0.98,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood bowl with green apples",
+        "size": "small"
+      },
+      "id": "fruit_basket1",
+      "label": "fruit basket",
+      "location": "0.00,0.50,0.20,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame colorful painting",
+        "size": "medium"
+      },
+      "id": "art_frame_left1",
+      "label": "framed art",
+      "location": "0.00,0.20,0.20,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame abstract painting",
+        "size": "medium"
+      },
+      "id": "art_frame_right1",
+      "label": "framed art",
+      "location": "0.75,0.10,0.98,0.40,0.8"
+    }
+  ]
+}

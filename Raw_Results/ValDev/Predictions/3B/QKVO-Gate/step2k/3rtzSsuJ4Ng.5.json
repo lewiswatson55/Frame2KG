@@ -1,0 +1,103 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "tongs1"
+    },
+    {
+      "predicate": "holding",
+      "source": "tongs1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "on",
+      "source": "grill1",
+      "target": "table1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "brick_wall1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "curtain1",
+      "target": "brick_wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.35,0.05,0.65,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "tongs1",
+      "label": "Tongs",
+      "location": "0.45,0.15,0.75,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown grilled",
+        "size": "small"
+      },
+      "id": "patty1",
+      "label": "Beef Patty",
+      "location": "0.55,0.30,0.75,0.50,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "grill1",
+      "label": "Grill",
+      "location": "0.25,0.30,0.75,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table",
+      "location": "0.20,0.50,0.80,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red brick",
+        "size": "large"
+      },
+      "id": "brick_wall1",
+      "label": "Brick Wall",
+      "location": "0.00,0.00,1.00,0.40,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige fabric",
+        "size": "medium"
+      },
+      "id": "curtain1",
+      "label": "Curtain",
+      "location": "0.75,0.05,0.95,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark grey frame",
+        "size": "large"
+      },
+      "id": "video_frame1",
+      "label": "Video Frame",
+      "location": "0.00,0.00,1.00,1.00,0.8"
+    }
+  ]
+}

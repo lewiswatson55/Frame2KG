@@ -1,0 +1,131 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "tablecloth1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "tablecloth1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl3",
+      "target": "tablecloth1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl4",
+      "target": "tablecloth1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl5",
+      "target": "bowl6"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl7",
+      "target": "bowl8"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.30,0.00,0.70,0.40,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic with floral pattern",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Small bowl",
+      "location": "0.10,0.30,0.40,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl2",
+      "label": "Bowl",
+      "location": "0.40,0.40,0.70,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl3",
+      "label": "Bowl",
+      "location": "0.70,0.40,0.95,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl4",
+      "label": "Bowl",
+      "location": "0.90,0.40,1.00,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "bowl5",
+      "label": "Large bowl",
+      "location": "0.00,0.50,0.30,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl6",
+      "label": "Bowl",
+      "location": "0.30,0.50,0.60,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "multicolored fabric",
+        "size": "large"
+      },
+      "id": "tablecloth1",
+      "label": "Tablecloth",
+      "location": "0.00,0.40,1.00,1.00,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "chair1",
+      "label": "Chair",
+      "location": "0.60,0.00,1.00,0.40,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "Spatula",
+      "location": "0.60,0.10,1.00,0.30,0.7"
+    }
+  ]
+}

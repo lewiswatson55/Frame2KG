@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "patty2",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "patty3",
+      "target": "board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "behind",
+      "source": "hand1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "towel1",
+      "target": "board"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red minced meat",
+        "size": "medium"
+      },
+      "id": "patty1",
+      "label": "raw burger patty",
+      "location": "0.45,0.38,0.67,0.59,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red minced meat",
+        "size": "medium"
+      },
+      "id": "patty2",
+      "label": "raw burger patty",
+      "location": "0.67,0.38,0.88,0.59,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red minced meat",
+        "size": "small"
+      },
+      "id": "patty3",
+      "label": "raw burger patty",
+      "location": "0.35,0.45,0.50,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.00,0.00,0.30,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone glove",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "gloved hand",
+      "location": "0.30,0.00,0.70,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "wooden cutting board",
+      "location": "0.00,0.50,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white fabric",
+        "size": "medium"
+      },
+      "id": "towel1",
+      "label": "kitchen towel",
+      "location": "0.80,0.70,1.00,1.00,0.7"
+    }
+  ]
+}

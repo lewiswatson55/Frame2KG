@@ -1,0 +1,127 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "fish_fillet1"
+    },
+    {
+      "predicate": "in",
+      "source": "fish_fillet1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_salt1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_pepper1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife1",
+      "target": "bowl_salt1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl_salt1",
+      "target": "bowl_pepper1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.35,0.0,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.2,0.4,0.8,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw",
+        "size": "small"
+      },
+      "id": "fish_fillet1",
+      "label": "fish fillet",
+      "location": "0.3,0.45,0.6,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.0,0.3,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass white salt",
+        "size": "small"
+      },
+      "id": "bowl_salt1",
+      "label": "glass bowl of salt",
+      "location": "0.1,0.3,0.3,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass brown pepper",
+        "size": "small"
+      },
+      "id": "bowl_pepper1",
+      "label": "glass bowl of pepper",
+      "location": "0.3,0.3,0.45,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.0,0.2,0.2,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

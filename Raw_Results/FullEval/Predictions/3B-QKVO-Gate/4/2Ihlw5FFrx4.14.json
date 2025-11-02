@@ -1,0 +1,159 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "tv_screen"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "tv_screen"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_salad",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_dressing",
+      "target": "plate_salad"
+    },
+    {
+      "predicate": "behind",
+      "source": "person3",
+      "target": "table"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "person2",
+      "target": "person1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "logo_tv",
+      "target": "tv_screen"
+    },
+    {
+      "predicate": "above",
+      "source": "text_between_the_bread",
+      "target": "text_make_feta_cheese_bl_t"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "short brown hair turquoise shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.15,0.48,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "long dark hair green dress",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.52,0.15,0.96,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink screen",
+        "size": "large"
+      },
+      "id": "tv_screen",
+      "label": "television screen",
+      "location": "0.2,0.0,0.8,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic plate with red bacon lettuce",
+        "size": "small"
+      },
+      "id": "plate_salad",
+      "label": "salad plate",
+      "location": "0.3,0.6,0.5,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver bowl with white dressing",
+        "size": "small"
+      },
+      "id": "bowl_dressing",
+      "label": "dressing bowl",
+      "location": "0.45,0.6,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden cutting board",
+        "size": "medium"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.0,0.6,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green cloth napkin",
+        "size": "small"
+      },
+      "id": "napkin",
+      "label": "napkin",
+      "location": "0.0,0.75,0.2,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black jacket",
+        "size": "medium"
+      },
+      "id": "person3",
+      "label": "man",
+      "location": "0.75,0.2,0.95,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text on black background",
+        "size": "small"
+      },
+      "id": "text_between_the_bread",
+      "label": "text overlay",
+      "location": "0.0,0.75,0.5,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text on black background",
+        "size": "small"
+      },
+      "id": "text_make_feta_cheese_bl_t",
+      "label": "text overlay",
+      "location": "0.5,0.75,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink and black text",
+        "size": "small"
+      },
+      "id": "logo_tv",
+      "label": "TV logo",
+      "location": "0.85,0.0,1.0,0.15,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "table",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    }
+  ]
+}

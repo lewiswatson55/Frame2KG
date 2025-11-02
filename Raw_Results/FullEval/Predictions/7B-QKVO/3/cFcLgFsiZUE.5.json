@@ -1,0 +1,77 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "player1",
+      "target": "field"
+    },
+    {
+      "predicate": "on",
+      "source": "player2",
+      "target": "field"
+    },
+    {
+      "predicate": "on",
+      "source": "player3",
+      "target": "field"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken_wings",
+      "target": "field"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "chicken_wings",
+      "target": "player1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "player1",
+      "target": "player2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "player2",
+      "target": "player3"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white uniform",
+        "size": "medium"
+      },
+      "id": "player1",
+      "label": "football player",
+      "location": "0.05,0.4,0.35,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white uniform",
+        "size": "medium"
+      },
+      "id": "player2",
+      "label": "football player",
+      "location": "0.65,0.4,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white uniform",
+        "size": "small"
+      },
+      "id": "player3",
+      "label": "football player",
+      "location": "0.35,0.1,0.65,0.35,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "orange crispy",
+        "size": "small"
+      },
+      "id": "chicken_wings",
+      "label": "chicken wings",
+      "location": "0.55,0.3,0.75,0.5,0.9"
+    }
+  ]
+}

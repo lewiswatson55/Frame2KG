@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "in",
+      "source": "eggs1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spatula1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.0,0.0,0.45,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red silicone handle metal head",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "Spatula",
+      "location": "0.3,0.0,0.5,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "pan1",
+      "label": "Frying pan",
+      "location": "0.35,0.3,0.65,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow liquid",
+        "size": "small"
+      },
+      "id": "eggs1",
+      "label": "Egg mixture",
+      "location": "0.4,0.4,0.6,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal grate",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "Stovetop burner",
+      "location": "0.3,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

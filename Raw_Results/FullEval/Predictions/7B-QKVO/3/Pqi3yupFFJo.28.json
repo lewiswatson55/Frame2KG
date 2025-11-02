@@ -1,0 +1,217 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bowl_salt",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "canister_clabbergirl",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "jar_nice",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bag_breadcrumbs",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_onion",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_flour",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_salt_red",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_egg",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_salt_purple",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pan",
+      "target": "stove"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bag_breadcrumbs",
+      "target": "jar_nice"
+    },
+    {
+      "predicate": "left_of",
+      "source": "canister_clabbergirl",
+      "target": "jar_nice"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bag_breadcrumbs",
+      "target": "canister_clabbergirl"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "plate_onion",
+      "target": "jar_nice"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet_left",
+      "target": "countertop"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet_right",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "stove",
+      "target": "countertop"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "Countertop",
+      "location": "0.0,0.45,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl_salt",
+      "label": "Bowl of Salt",
+      "location": "0.03,0.58,0.27,0.86,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "small"
+      },
+      "id": "canister_clabbergirl",
+      "label": "Canister Clabber Girl",
+      "location": "0.18,0.25,0.32,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "jar_nice",
+      "label": "Jar Nice",
+      "location": "0.32,0.25,0.45,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown paper bag",
+        "size": "medium"
+      },
+      "id": "bag_breadcrumbs",
+      "label": "Bag of Breadcrumbs",
+      "location": "0.55,0.05,0.75,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with purple onion rings",
+        "size": "medium"
+      },
+      "id": "plate_onion",
+      "label": "Plate of Onion Rings",
+      "location": "0.35,0.45,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black bowl with white flour",
+        "size": "medium"
+      },
+      "id": "bowl_flour",
+      "label": "Bowl of Flour",
+      "location": "0.75,0.55,0.95,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red square bowl with salt",
+        "size": "small"
+      },
+      "id": "bowl_salt_red",
+      "label": "Red Bowl of Salt",
+      "location": "0.25,0.75,0.45,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue square bowl with egg",
+        "size": "small"
+      },
+      "id": "bowl_egg",
+      "label": "Blue Bowl with Egg",
+      "location": "0.45,0.75,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple square bowl with sugar",
+        "size": "small"
+      },
+      "id": "bowl_salt_purple",
+      "label": "Purple Bowl of Sugar",
+      "location": "0.65,0.75,0.85,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "Stove",
+      "location": "0.85,0.2,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black cast iron",
+        "size": "medium"
+      },
+      "id": "pan",
+      "label": "Frying Pan",
+      "location": "0.85,0.2,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "cabinet_left",
+      "label": "Cabinet Left",
+      "location": "0.0,0.0,0.3,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "cabinet_right",
+      "label": "Cabinet Right",
+      "location": "0.7,0.0,1.0,0.4,0.7"
+    }
+  ]
+}

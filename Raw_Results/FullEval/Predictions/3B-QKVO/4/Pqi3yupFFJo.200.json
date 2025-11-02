@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person_left_hand",
+      "target": "red_bowl"
+    },
+    {
+      "predicate": "holding",
+      "source": "person_right_hand",
+      "target": "yellow_bowl"
+    },
+    {
+      "predicate": "in",
+      "source": "flour",
+      "target": "red_bowl"
+    },
+    {
+      "predicate": "in",
+      "source": "sauce",
+      "target": "yellow_bowl"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person_left_hand",
+      "label": "left hand",
+      "location": "0.05,0.3,0.45,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person_right_hand",
+      "label": "right hand",
+      "location": "0.6,0.3,0.95,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "large"
+      },
+      "id": "red_bowl",
+      "label": "red bowl",
+      "location": "0.0,0.3,0.5,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "large"
+      },
+      "id": "yellow_bowl",
+      "label": "yellow bowl",
+      "location": "0.5,0.3,1.0,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "medium"
+      },
+      "id": "flour",
+      "label": "flour",
+      "location": "0.1,0.4,0.45,0.8,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow liquid",
+        "size": "medium"
+      },
+      "id": "sauce",
+      "label": "sauce",
+      "location": "0.5,0.4,0.9,0.8,0.85"
+    }
+  ]
+}

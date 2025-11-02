@@ -1,0 +1,155 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "on",
+      "source": "spoon1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread2",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "in",
+      "source": "sauce1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cloth1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "behind",
+      "source": "oven1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.05,0.0,0.35,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "metal spoon",
+      "location": "0.15,0.4,0.3,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.2,0.4,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "wooden cutting board",
+      "location": "0.3,0.4,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted brown bread with green spread",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "toast slice",
+      "location": "0.45,0.45,0.6,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted brown bread with green spread",
+        "size": "small"
+      },
+      "id": "bread2",
+      "label": "toast slice",
+      "location": "0.4,0.55,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green paste",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl of sauce",
+      "location": "0.1,0.7,0.3,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green paste",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "sauce",
+      "location": "0.15,0.75,0.3,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red cloth",
+        "size": "small"
+      },
+      "id": "cloth1",
+      "label": "napkin",
+      "location": "0.0,0.6,0.2,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "wooden table",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "oven1",
+      "label": "oven",
+      "location": "0.4,0.0,0.6,0.3,0.8"
+    }
+  ]
+}

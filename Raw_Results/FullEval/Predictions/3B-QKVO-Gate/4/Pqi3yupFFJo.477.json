@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "fork1",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "spoon1",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "flame1",
+      "target": "background"
+    },
+    {
+      "predicate": "below",
+      "source": "text2",
+      "target": "flame1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "black text",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Text 'PLEASE VISIT US ON FACEBOOK'",
+      "location": "0.05,0.0,0.95,0.15,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black lines",
+        "size": "small"
+      },
+      "id": "fork1",
+      "label": "Fork silhouette",
+      "location": "0.3,0.4,0.6,0.7,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "black lines",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Spoon silhouette",
+      "location": "0.6,0.4,0.9,0.7,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "orange flame",
+        "size": "medium"
+      },
+      "id": "flame1",
+      "label": "Flame graphic",
+      "location": "0.35,0.2,0.65,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red cursive",
+        "size": "small"
+      },
+      "id": "text2",
+      "label": "Text 'Pinay Cooking Lessons'",
+      "location": "0.2,0.75,0.8,0.95,0.9"
+    }
+  ]
+}

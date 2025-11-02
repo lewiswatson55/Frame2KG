@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand_left",
+      "target": "bowl"
+    },
+    {
+      "predicate": "in",
+      "source": "flour_mixture",
+      "target": "bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "hand_right",
+      "target": "bowl"
+    },
+    {
+      "predicate": "supports",
+      "source": "towel",
+      "target": "bowl"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl",
+      "label": "mixing bowl",
+      "location": "0.15,0.18,0.85,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "flour_mixture",
+      "label": "flour mixture",
+      "location": "0.30,0.25,0.75,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand_left",
+      "label": "left hand",
+      "location": "0.00,0.45,0.35,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand_right",
+      "label": "right hand",
+      "location": "0.60,0.00,1.00,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark speckled surface",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.00,0.00,1.00,1.00,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow fabric",
+        "size": "small"
+      },
+      "id": "towel",
+      "label": "kitchen towel",
+      "location": "0.20,0.75,0.80,0.95,0.7"
+    }
+  ]
+}

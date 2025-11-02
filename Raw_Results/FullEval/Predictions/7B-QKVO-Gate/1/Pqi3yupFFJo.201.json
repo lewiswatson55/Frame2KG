@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl_flour"
+    },
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl_milk"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_flour",
+      "target": "bowl_milk"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.05,0.0,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "bowl_flour",
+      "label": "Bowl of Flour Mixture",
+      "location": "0.03,0.4,0.5,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige plastic",
+        "size": "medium"
+      },
+      "id": "bowl_milk",
+      "label": "Bowl of Milk and Egg Mixture",
+      "location": "0.5,0.4,0.97,0.75,0.9"
+    }
+  ]
+}

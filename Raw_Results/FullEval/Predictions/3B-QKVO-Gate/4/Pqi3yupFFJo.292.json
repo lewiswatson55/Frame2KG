@@ -1,0 +1,100 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "onion_rings"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wire_rack"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl1",
+      "target": "onion_rings"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl2",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "wire_rack"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "onion_rings"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Person's hands",
+      "location": "0.05,0.0,0.95,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal grid",
+        "size": "large"
+      },
+      "id": "wire_rack",
+      "label": "Wire rack",
+      "location": "0.1,0.1,0.9,0.45,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white flour-coated",
+        "size": "small"
+      },
+      "id": "onion_rings",
+      "label": "Onion rings",
+      "location": "0.6,0.3,0.9,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange plastic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Bowl of batter",
+      "location": "0.3,0.5,0.6,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "medium"
+      },
+      "id": "bowl2",
+      "label": "Plastic bowl",
+      "location": "0.6,0.5,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "Table",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "in",
+      "source": "mixture1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl2",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.45,0.0,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "glass bowl",
+      "location": "0.75,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white interior black rim",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "baking dish",
+      "location": "0.1,0.3,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow granular",
+        "size": "medium"
+      },
+      "id": "mixture1",
+      "label": "breadcrumbs mixture",
+      "location": "0.2,0.4,0.8,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "metal tray",
+      "location": "0.0,0.6,0.5,1.0,0.8"
+    }
+  ]
+}

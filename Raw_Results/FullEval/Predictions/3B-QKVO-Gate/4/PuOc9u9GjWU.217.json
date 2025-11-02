@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "onion_rings",
+      "target": "frying_pan"
+    },
+    {
+      "predicate": "in",
+      "source": "oil",
+      "target": "frying_pan"
+    },
+    {
+      "predicate": "holding",
+      "source": "spatula",
+      "target": "onion_rings"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "onion_rings",
+      "label": "Onion Rings",
+      "location": "0.35,0.15,0.75,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "frying_pan",
+      "label": "Frying Pan",
+      "location": "0.1,0.0,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "bubbling yellowish liquid",
+        "size": "large"
+      },
+      "id": "oil",
+      "label": "Oil",
+      "location": "0.0,0.4,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "spatula",
+      "label": "Spatula",
+      "location": "0.6,0.2,1.0,0.6,0.8"
+    }
+  ]
+}

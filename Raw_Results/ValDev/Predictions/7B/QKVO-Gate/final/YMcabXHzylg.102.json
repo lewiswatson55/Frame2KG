@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "container1"
+    },
+    {
+      "predicate": "includes",
+      "source": "container1",
+      "target": "herbs1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "herbs1",
+      "target": "window1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.75,0.35,0.98,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "container1",
+      "label": "Metal Container",
+      "location": "0.4,0.0,0.95,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "herbs1",
+      "label": "Herbs",
+      "location": "0.1,0.1,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "Window Frame",
+      "location": "0.0,0.0,1.0,0.3,0.5"
+    }
+  ]
+}

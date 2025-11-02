@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "in",
+      "source": "food1",
+      "target": "oven1"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "rack1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "rack1",
+      "target": "oven1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "countertop1",
+      "target": "oven1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt red gloves",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.5,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "oven1",
+      "label": "oven",
+      "location": "0.0,0.0,0.7,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal tray with food",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "baking tray",
+      "location": "0.1,0.4,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "chicken pieces",
+      "location": "0.15,0.45,0.55,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "rack1",
+      "label": "oven rack",
+      "location": "0.05,0.3,0.9,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "countertop1",
+      "label": "kitchen countertop",
+      "location": "0.0,0.6,0.3,1.0,0.7"
+    }
+  ]
+}

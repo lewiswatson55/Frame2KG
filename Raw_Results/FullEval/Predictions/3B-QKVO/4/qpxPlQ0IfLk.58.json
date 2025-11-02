@@ -1,0 +1,109 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "container1"
+    },
+    {
+      "predicate": "on",
+      "source": "lemon1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "avocado1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle2",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "bottle2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "lemon1",
+      "target": "avocado1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "container1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "wearing plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.45,0.0,1.0,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "container1",
+      "label": "plastic container",
+      "location": "0.38,0.2,0.62,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "olive oil bottle",
+      "location": "0.0,0.0,0.2,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown glass",
+        "size": "medium"
+      },
+      "id": "bottle2",
+      "label": "alcohol bottle",
+      "location": "0.2,0.0,0.35,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow skin",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "lemon",
+      "location": "0.0,0.75,0.15,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark green skin",
+        "size": "small"
+      },
+      "id": "avocado1",
+      "label": "avocado",
+      "location": "0.15,0.75,0.3,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    }
+  ]
+}

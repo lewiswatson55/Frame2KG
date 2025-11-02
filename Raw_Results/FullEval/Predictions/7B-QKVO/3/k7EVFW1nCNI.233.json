@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "mixer1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spatula1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl2",
+      "target": "mixer1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.05,0.0,0.48,0.36,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.47,0.0,0.75,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "Small Glass Bowl",
+      "location": "0.65,0.35,0.85,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red silicone lid white base",
+        "size": "medium"
+      },
+      "id": "mixer1",
+      "label": "Mixer",
+      "location": "0.75,0.15,0.98,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow triangular",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "Cheese Block",
+      "location": "0.6,0.05,0.7,0.15,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic handle red blade",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "Spatula",
+      "location": "0.0,0.3,0.3,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood grain",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Wooden Table",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    }
+  ]
+}

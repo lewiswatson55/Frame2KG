@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "can1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "can1",
+      "target": "background1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.75,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal with red label",
+        "size": "large"
+      },
+      "id": "can1",
+      "label": "Can of Sausages",
+      "location": "0.6,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red blurred background",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "Red Background",
+      "location": "0.0,0.0,0.6,1.0,0.7"
+    }
+  ]
+}

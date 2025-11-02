@@ -1,0 +1,145 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "ring1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "in",
+      "source": "mustard1",
+      "target": "ring1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bun1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "herbs1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "behind",
+      "source": "tray1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "patty2",
+      "target": "patty3"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown grilled meat with green herbs",
+        "size": "medium"
+      },
+      "id": "patty1",
+      "label": "burger patty",
+      "location": "0.05,0.48,0.65,0.92,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red onion slice",
+        "size": "small"
+      },
+      "id": "ring1",
+      "label": "onion ring",
+      "location": "0.15,0.37,0.55,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow sauce",
+        "size": "small"
+      },
+      "id": "mustard1",
+      "label": "mustard",
+      "location": "0.20,0.38,0.50,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy lettuce",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "lettuce",
+      "location": "0.00,0.60,0.70,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic plate",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "ceramic plate",
+      "location": "0.00,0.50,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown bread",
+        "size": "medium"
+      },
+      "id": "bun1",
+      "label": "top bun",
+      "location": "0.80,0.20,1.00,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy herb",
+        "size": "small"
+      },
+      "id": "herbs1",
+      "label": "herbs",
+      "location": "0.75,0.40,0.95,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal tray",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "tray",
+      "location": "0.00,0.00,1.00,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown grilled meat",
+        "size": "medium"
+      },
+      "id": "patty2",
+      "label": "burger patty",
+      "location": "0.05,0.05,0.50,0.35,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown grilled meat",
+        "size": "medium"
+      },
+      "id": "patty3",
+      "label": "burger patty",
+      "location": "0.50,0.05,0.95,0.35,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.00,0.80,1.00,1.00,0.6"
+    }
+  ]
+}

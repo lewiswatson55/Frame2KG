@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "board1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "behind",
+      "source": "tile_wall1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "blender1",
+      "target": "pot1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.35,0.25,0.98,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal lid black handle",
+        "size": "small"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.05,0.45,0.55,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black glass",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.4,0.6,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic tiles with pattern",
+        "size": "large"
+      },
+      "id": "tile_wall1",
+      "label": "wall tile",
+      "location": "0.0,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "glass baking tray",
+      "location": "0.5,0.5,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.5,0.6,1.0,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender jar",
+      "location": "0.75,0.0,1.0,0.3,0.8"
+    }
+  ]
+}

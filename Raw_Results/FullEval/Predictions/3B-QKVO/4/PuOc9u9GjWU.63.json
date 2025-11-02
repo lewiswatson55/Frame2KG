@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "flour1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "squid1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "flour1",
+      "target": "squid1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "medium"
+      },
+      "id": "flour1",
+      "label": "rice flour",
+      "location": "0.45,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pale beige spiral",
+        "size": "small"
+      },
+      "id": "squid1",
+      "label": "squid rings",
+      "location": "0.0,0.3,0.5,0.7,0.9"
+    }
+  ]
+}

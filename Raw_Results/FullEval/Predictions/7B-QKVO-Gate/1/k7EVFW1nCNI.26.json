@@ -1,0 +1,234 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_red",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "vase1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "plant1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "behind",
+      "source": "microwave1",
+      "target": "person1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "faucet1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar1",
+      "target": "vase1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "soap1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "oil_bottle1",
+      "target": "soap1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl2",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lettuce1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blonde hair grey top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.05,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.47,0.55,0.75,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "microwave1",
+      "label": "microwave oven",
+      "location": "0.6,0.1,0.9,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver stainless steel",
+        "size": "medium"
+      },
+      "id": "dishwasher1",
+      "label": "dishwasher",
+      "location": "0.0,0.5,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass vase red flowers",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "flower vase",
+      "location": "0.1,0.2,0.25,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "canister",
+      "location": "0.05,0.45,0.15,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red liquid soap bottle",
+        "size": "small"
+      },
+      "id": "soap1",
+      "label": "soap dispenser",
+      "location": "0.25,0.45,0.3,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass oil bottle",
+        "size": "small"
+      },
+      "id": "oil_bottle1",
+      "label": "oil bottle",
+      "location": "0.35,0.45,0.4,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.6,0.4,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic bowl",
+        "size": "small"
+      },
+      "id": "bowl_red",
+      "label": "bowl",
+      "location": "0.75,0.45,0.85,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "herb plant",
+      "location": "0.9,0.3,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden countertop",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plate with food",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate of food",
+      "location": "0.3,0.7,0.5,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown sauce",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "sauce bowl",
+      "location": "0.4,0.75,0.5,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown sauce",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "sauce bowl",
+      "location": "0.6,0.75,0.7,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce",
+      "location": "0.5,0.8,0.6,0.9,0.8"
+    }
+  ]
+}

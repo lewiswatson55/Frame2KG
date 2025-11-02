@@ -1,0 +1,86 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "onion_rings"
+    },
+    {
+      "predicate": "in",
+      "source": "onion_rings",
+      "target": "batter_bowl"
+    },
+    {
+      "predicate": "next_to",
+      "source": "flour_tray",
+      "target": "batter_bowl"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate_of_onions",
+      "target": "batter_bowl"
+    },
+    {
+      "predicate": "behind",
+      "source": "rack",
+      "target": "batter_bowl"
+    },
+    {
+      "predicate": "left_of",
+      "source": "flour_tray",
+      "target": "batter_bowl"
+    },
+    {
+      "predicate": "right_of",
+      "source": "plate_of_onions",
+      "target": "batter_bowl"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "medium"
+      },
+      "id": "batter_bowl",
+      "label": "Batter Bowl",
+      "location": "0.4,0.4,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "rack",
+      "label": "Wire Rack",
+      "location": "0.1,0.1,0.9,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "medium"
+      },
+      "id": "flour_tray",
+      "label": "Flour Tray",
+      "location": "0.0,0.6,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with red onions",
+        "size": "small"
+      },
+      "id": "plate_of_onions",
+      "label": "Plate of Onions",
+      "location": "0.7,0.6,1.0,1.0,0.8"
+    }
+  ]
+}

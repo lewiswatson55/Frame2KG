@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "liquid1",
+      "target": "cup1"
+    },
+    {
+      "predicate": "on",
+      "source": "cup1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "cup1",
+      "label": "coffee cup",
+      "location": "0.05,0.0,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark brown liquid",
+        "size": "small"
+      },
+      "id": "liquid1",
+      "label": "coffee",
+      "location": "0.1,0.05,0.9,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "metal pan",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    }
+  ]
+}

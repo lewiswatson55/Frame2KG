@@ -1,0 +1,154 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "fruit_bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "utensil_holder1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "mugs1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "pots1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "books_stack1",
+      "target": "blackboard1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue red yellow plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.0,0.65,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender jar",
+      "location": "0.0,0.7,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass bottle with gold cap",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "wine bottle",
+      "location": "0.25,0.75,0.3,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden bowl with oranges",
+        "size": "small"
+      },
+      "id": "fruit_bowl1",
+      "label": "fruit bowl",
+      "location": "0.4,0.6,0.55,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "utensil_holder1",
+      "label": "utensil holder",
+      "location": "0.05,0.4,0.2,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "mugs1",
+      "label": "mugs",
+      "location": "0.1,0.2,0.3,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark brown wood",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.0,0.2,0.4,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pots1",
+      "label": "hanging pots",
+      "location": "0.4,0.0,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black chalkboard",
+        "size": "medium"
+      },
+      "id": "blackboard1",
+      "label": "chalkboard",
+      "location": "0.6,0.2,0.8,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stack of colorful books",
+        "size": "medium"
+      },
+      "id": "books_stack1",
+      "label": "book stack",
+      "location": "0.8,0.3,0.95,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey stone",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "brick wall",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "grey granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,0.8,0.6"
+    }
+  ]
+}

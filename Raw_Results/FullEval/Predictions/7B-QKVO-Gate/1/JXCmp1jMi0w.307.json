@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "paper1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chicken2",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "behind",
+      "source": "chicken3",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand1",
+      "target": "chicken1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "fried chicken drumstick",
+      "location": "0.25,0.4,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "chicken2",
+      "label": "fried chicken piece",
+      "location": "0.0,0.2,0.4,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "chicken3",
+      "label": "fried chicken piece",
+      "location": "0.4,0.0,0.7,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper with red sauce stains",
+        "size": "large"
+      },
+      "id": "paper1",
+      "label": "wax paper",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.8,0.2,1.0,0.6,0.7"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "board1"
+    },
+    {
+      "predicate": "in",
+      "source": "seasoning1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "hand1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.05,0.0,0.48,0.37,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "raw chicken pieces",
+      "location": "0.1,0.05,0.46,0.32,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl2",
+      "label": "glass bowl",
+      "location": "0.45,0.15,0.98,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown granular",
+        "size": "medium"
+      },
+      "id": "seasoning1",
+      "label": "seasoning powder",
+      "location": "0.5,0.2,0.95,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.2,0.2,0.8,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

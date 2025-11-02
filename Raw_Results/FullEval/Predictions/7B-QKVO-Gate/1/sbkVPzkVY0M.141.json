@@ -1,0 +1,192 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "hotplate1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "hotplate1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper_grinder1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "salt_grinder1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "art_frame1",
+      "target": "wall"
+    },
+    {
+      "predicate": "on",
+      "source": "art_frame2",
+      "target": "wall"
+    },
+    {
+      "predicate": "next_to",
+      "source": "art_frame1",
+      "target": "art_frame2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.05,0.65,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.4,0.55,0.5,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "hotplate1",
+      "label": "hot plate",
+      "location": "0.6,0.6,0.75,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.65,0.6,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl of green vegetables",
+      "location": "0.3,0.75,0.4,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "small"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.1,0.7,0.3,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar with red lid",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "spice jar",
+      "location": "0.15,0.7,0.2,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "pepper_grinder1",
+      "label": "pepper grinder",
+      "location": "0.85,0.6,0.9,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "salt_grinder1",
+      "label": "salt grinder",
+      "location": "0.75,0.6,0.8,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey stone",
+        "size": "large"
+      },
+      "id": "backsplash",
+      "label": "backsplash",
+      "location": "0.0,0.4,1.0,0.6,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "medium"
+      },
+      "id": "art_frame1",
+      "label": "framed art",
+      "location": "0.6,0.0,0.75,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "medium"
+      },
+      "id": "art_frame2",
+      "label": "framed art",
+      "location": "0.75,0.0,0.9,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light grey",
+        "size": "large"
+      },
+      "id": "cabinets",
+      "label": "kitchen cabinets",
+      "location": "0.0,0.0,1.0,0.4,0.6"
+    }
+  ]
+}

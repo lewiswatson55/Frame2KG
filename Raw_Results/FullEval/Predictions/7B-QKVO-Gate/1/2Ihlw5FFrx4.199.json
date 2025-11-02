@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person2",
+      "target": "sandwich"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_of_food",
+      "target": "table"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle",
+      "target": "plate_of_food"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "tv_screen"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "tv_screen"
+    },
+    {
+      "predicate": "behind",
+      "source": "office_space",
+      "target": "person2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person1",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "short brown hair teal top",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Nancy Einhart",
+      "location": "0.05,0.18,0.43,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "long dark hair green dress",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "Lauren Bradshaw",
+      "location": "0.55,0.15,0.95,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink purple gradient",
+        "size": "large"
+      },
+      "id": "tv_screen",
+      "label": "TV Screen",
+      "location": "0.2,0.0,0.8,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "Table",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red lettuce tomato cheese",
+        "size": "small"
+      },
+      "id": "sandwich",
+      "label": "Sandwich",
+      "location": "0.6,0.45,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "plate_of_food",
+      "label": "Plate of Food",
+      "location": "0.3,0.6,0.5,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "bottle",
+      "label": "Bottle",
+      "location": "0.45,0.6,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black chairs",
+        "size": "large"
+      },
+      "id": "office_space",
+      "label": "Office Space",
+      "location": "0.6,0.2,1.0,0.8,0.7"
+    }
+  ]
+}

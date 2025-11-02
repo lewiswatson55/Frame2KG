@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "holding",
+      "source": "person2",
+      "target": "sandwich2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "bald head red beard black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.0,0.0,0.5,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wearing black apron",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "chef",
+      "location": "0.4,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green lettuce bun",
+        "size": "small"
+      },
+      "id": "sandwich1",
+      "label": "sandwich",
+      "location": "0.1,0.3,0.4,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bun",
+        "size": "small"
+      },
+      "id": "sandwich2",
+      "label": "sandwich",
+      "location": "0.5,0.0,0.8,0.3,0.7"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in",
+      "source": "oil1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "behind",
+      "source": "dish1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "blender1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "crumb1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "jar1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "supports",
+      "source": "board1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "includes",
+      "source": "dish1",
+      "target": "chicken1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "Stovetop",
+      "location": "0.0,0.65,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "Frying pan",
+      "location": "0.0,0.7,0.45,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "oil1",
+      "label": "Cooking oil",
+      "location": "0.05,0.75,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Glass bowl",
+      "location": "0.35,0.45,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crumbly",
+        "size": "medium"
+      },
+      "id": "crumb1",
+      "label": "Breadcrumbs",
+      "location": "0.4,0.5,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "Wooden board",
+      "location": "0.6,0.5,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden baked chicken",
+        "size": "medium"
+      },
+      "id": "dish1",
+      "label": "Chicken casserole dish",
+      "location": "0.6,0.5,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.8,0.3,1.0,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "Blender jug",
+      "location": "0.7,0.1,0.9,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "Jar",
+      "location": "0.9,0.1,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white tiled",
+        "size": "large"
+      },
+      "id": "tile_wall1",
+      "label": "Tile wall",
+      "location": "0.0,0.0,1.0,0.6,0.7"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pakoda1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "samosa1",
+      "target": "plate2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "pakoda1",
+      "target": "spices1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "samosa1",
+      "target": "spices1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cinnamon1",
+      "target": "pepper1"
+    },
+    {
+      "predicate": "behind",
+      "source": "logo1",
+      "target": "spices1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue circular",
+        "size": "medium"
+      },
+      "id": "logo1",
+      "label": "Rajshri Food Logo",
+      "location": "0.35,0.0,0.65,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "Plate of Pakoda",
+      "location": "0.05,0.45,0.48,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "pakoda1",
+      "label": "Pakoda - Potato & Onion Fritters",
+      "location": "0.1,0.5,0.4,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate2",
+      "label": "Plate of Samosa",
+      "location": "0.55,0.45,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "samosa1",
+      "label": "Samosa",
+      "location": "0.6,0.5,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cinnamon1",
+      "label": "Cinnamon Stick",
+      "location": "0.4,0.3,0.6,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red glossy",
+        "size": "small"
+      },
+      "id": "pepper1",
+      "label": "Red Pepper",
+      "location": "0.7,0.1,0.9,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "mixed seeds and spices",
+        "size": "large"
+      },
+      "id": "spices1",
+      "label": "Spice Mix",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

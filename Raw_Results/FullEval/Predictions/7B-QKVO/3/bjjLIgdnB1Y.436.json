@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "tray"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake2",
+      "target": "tray"
+    },
+    {
+      "predicate": "on",
+      "source": "tray",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "towel",
+      "target": "tray"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text_overlay",
+      "target": "tray"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "medium"
+      },
+      "id": "pancake1",
+      "label": "Pancake",
+      "location": "0.35,0.48,0.67,0.79,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "medium"
+      },
+      "id": "pancake2",
+      "label": "Pancake",
+      "location": "0.65,0.45,0.92,0.78,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "tray",
+      "label": "Tray",
+      "location": "0.0,0.0,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "speckled granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "Countertop",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white cloth",
+        "size": "small"
+      },
+      "id": "towel",
+      "label": "Towel",
+      "location": "0.0,0.6,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "small"
+      },
+      "id": "text_overlay",
+      "label": "Text Overlay",
+      "location": "0.6,0.8,1.0,1.0,0.9"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "spatula1",
+      "target": "grill1"
+    },
+    {
+      "predicate": "in",
+      "source": "batter1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "on",
+      "source": "batter1",
+      "target": "grill1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "grill1",
+      "label": "Grill Grate",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic handle silver metal head",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "Spatula",
+      "location": "0.65,0.0,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white liquid",
+        "size": "small"
+      },
+      "id": "batter1",
+      "label": "Batter",
+      "location": "0.7,0.4,0.9,0.7,0.7"
+    }
+  ]
+}

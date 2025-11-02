@@ -1,0 +1,52 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "tube1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "logo1",
+      "target": "background1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red plastic tube with white label",
+        "size": "medium"
+      },
+      "id": "tube1",
+      "label": "Anchovy Paste Tube",
+      "location": "0.15,0.35,0.65,0.48,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "large"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.45,0.05,0.95,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Hungry Logo",
+      "location": "0.0,0.0,0.2,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blurred greenish",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

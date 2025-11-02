@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pancake_stack1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake_stack2",
+      "target": "plate2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "plate2",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pancake_stack1",
+      "target": "pancake_stack2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "medium"
+      },
+      "id": "pancake_stack1",
+      "label": "stack of pancakes",
+      "location": "0.53,0.18,0.94,0.67,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "medium"
+      },
+      "id": "pancake_stack2",
+      "label": "stack of pancakes",
+      "location": "0.02,0.60,0.50,0.98,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "white plate",
+      "location": "0.45,0.10,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate2",
+      "label": "white plate",
+      "location": "0.00,0.55,0.55,1.00,0.9"
+    }
+  ]
+}

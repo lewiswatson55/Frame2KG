@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "background"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text2",
+      "target": "background"
+    },
+    {
+      "predicate": "next_to",
+      "source": "text3",
+      "target": "text4"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "large"
+      },
+      "id": "text1",
+      "label": "Subscribe stickers",
+      "location": "0.05,0.05,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white",
+        "size": "medium"
+      },
+      "id": "text2",
+      "label": "Choose what videos text",
+      "location": "0.15,0.35,0.85,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white",
+        "size": "small"
+      },
+      "id": "text3",
+      "label": "came to text",
+      "location": "0.35,0.75,0.65,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red gradient",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

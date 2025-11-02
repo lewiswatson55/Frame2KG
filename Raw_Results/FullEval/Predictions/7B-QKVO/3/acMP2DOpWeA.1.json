@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "butter1",
+      "target": "pancakes1"
+    },
+    {
+      "predicate": "on",
+      "source": "pancakes1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife1",
+      "target": "fork1"
+    },
+    {
+      "predicate": "behind",
+      "source": "syrup_bottle1",
+      "target": "pancakes1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "tablecloth1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "large"
+      },
+      "id": "pancakes1",
+      "label": "stack of pancakes",
+      "location": "0.15,0.30,0.85,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white cube",
+        "size": "small"
+      },
+      "id": "butter1",
+      "label": "butter cube",
+      "location": "0.45,0.15,0.60,0.30,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal with wooden handle",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.75,0.20,0.98,0.80,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal with wooden handle",
+        "size": "medium"
+      },
+      "id": "fork1",
+      "label": "fork",
+      "location": "0.70,0.20,0.90,0.80,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with amber liquid",
+        "size": "medium"
+      },
+      "id": "syrup_bottle1",
+      "label": "syrup bottle",
+      "location": "0.00,0.00,0.20,0.40,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.10,0.30,0.90,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow orange patterned fabric",
+        "size": "large"
+      },
+      "id": "tablecloth1",
+      "label": "tablecloth",
+      "location": "0.00,0.00,1.00,1.00,0.8"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "griddle"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "spatula1",
+      "target": "pancake1"
+    },
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "griddle"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "griddle"
+    },
+    {
+      "predicate": "left_of",
+      "source": "stove1",
+      "target": "griddle"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white cotton apron",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.65,0.0,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.75,0.3,1.0,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "griddle",
+      "label": "griddle pan",
+      "location": "0.0,0.2,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light beige batter",
+        "size": "small"
+      },
+      "id": "pancake1",
+      "label": "pancake",
+      "location": "0.3,0.45,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.2,0.0,0.5,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "gas stove burner",
+      "location": "0.0,0.7,0.4,1.0,0.8"
+    }
+  ]
+}

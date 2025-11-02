@@ -1,0 +1,194 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bowl_white1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "canister_clabber_girl",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "container_nice",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bag_anko",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_onion",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_salt_red",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_salt_blue",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_salt_purple",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "egg",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_salt_red",
+      "target": "bowl_salt_blue"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_salt_blue",
+      "target": "bowl_salt_purple"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl_salt_red",
+      "target": "egg"
+    },
+    {
+      "predicate": "right_of",
+      "source": "egg",
+      "target": "bowl_salt_blue"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bowl_salt_purple",
+      "target": "egg"
+    },
+    {
+      "predicate": "behind",
+      "source": "stove",
+      "target": "bag_anko"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bag_anko",
+      "target": "cabinet"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "Countertop",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl_white1",
+      "label": "Bowl of flour",
+      "location": "0.03,0.48,0.27,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "canister_clabber_girl",
+      "label": "Canister Clabber Girl",
+      "location": "0.25,0.35,0.35,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "container_nice",
+      "label": "Container Nice",
+      "location": "0.35,0.35,0.45,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent white",
+        "size": "medium"
+      },
+      "id": "bag_anko",
+      "label": "Bag Panko",
+      "location": "0.45,0.0,0.65,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with purple onion rings",
+        "size": "medium"
+      },
+      "id": "plate_onion",
+      "label": "Plate of sliced onions",
+      "location": "0.3,0.5,0.6,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "small"
+      },
+      "id": "bowl_salt_red",
+      "label": "Red bowl salt",
+      "location": "0.15,0.7,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue ceramic",
+        "size": "small"
+      },
+      "id": "bowl_salt_blue",
+      "label": "Blue bowl salt",
+      "location": "0.3,0.7,0.45,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "small"
+      },
+      "id": "bowl_salt_purple",
+      "label": "Purple bowl salt",
+      "location": "0.45,0.7,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white",
+        "size": "small"
+      },
+      "id": "egg",
+      "label": "Egg",
+      "location": "0.4,0.65,0.5,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "Stove",
+      "location": "0.7,0.2,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "Kitchen cabinet",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    }
+  ]
+}

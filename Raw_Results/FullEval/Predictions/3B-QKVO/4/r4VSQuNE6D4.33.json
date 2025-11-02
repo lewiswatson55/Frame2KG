@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "squeeze_bottle"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand2",
+      "target": "squeeze_bottle"
+    },
+    {
+      "predicate": "on",
+      "source": "scissors",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "squeeze_bottle",
+      "target": "red_container"
+    },
+    {
+      "predicate": "behind",
+      "source": "plastic_bag",
+      "target": "squeeze_bottle"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "left hand",
+      "location": "0.35,0.0,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand2",
+      "label": "right hand",
+      "location": "0.45,0.1,0.95,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "squeeze_bottle",
+      "label": "squeeze bottle",
+      "location": "0.4,0.3,0.6,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "scissors",
+      "label": "scissors",
+      "location": "0.75,0.5,0.98,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "large"
+      },
+      "id": "red_container",
+      "label": "red container",
+      "location": "0.0,0.2,0.25,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "plastic_bag",
+      "label": "plastic bag",
+      "location": "0.2,0.0,0.6,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black speckled",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    }
+  ]
+}

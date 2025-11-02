@@ -1,0 +1,127 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "button_up",
+      "target": "panel"
+    },
+    {
+      "predicate": "on",
+      "source": "button_down",
+      "target": "panel"
+    },
+    {
+      "predicate": "on",
+      "source": "power_led",
+      "target": "panel"
+    },
+    {
+      "predicate": "on",
+      "source": "display",
+      "target": "panel"
+    },
+    {
+      "predicate": "on",
+      "source": "knob",
+      "target": "panel"
+    },
+    {
+      "predicate": "on",
+      "source": "sensor",
+      "target": "panel"
+    },
+    {
+      "predicate": "next_to",
+      "source": "finger",
+      "target": "display"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand",
+      "target": "panel"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "panel",
+      "label": "oven panel",
+      "location": "0.05,0.0,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "button_up",
+      "label": "up arrow button",
+      "location": "0.34,0.06,0.47,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "button_down",
+      "label": "down arrow button",
+      "location": "0.34,0.25,0.47,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red illuminated",
+        "size": "small"
+      },
+      "id": "power_led",
+      "label": "power LED",
+      "location": "0.34,0.5,0.47,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue digital",
+        "size": "medium"
+      },
+      "id": "display",
+      "label": "digital display",
+      "location": "0.45,0.05,0.85,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "knob",
+      "label": "control knob",
+      "location": "0.55,0.5,0.65,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green plastic",
+        "size": "small"
+      },
+      "id": "sensor",
+      "label": "temperature sensor",
+      "location": "0.7,0.5,0.8,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "finger",
+      "label": "finger",
+      "location": "0.85,0.1,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand",
+      "label": "hand",
+      "location": "0.8,0.1,1.0,0.5,0.8"
+    }
+  ]
+}

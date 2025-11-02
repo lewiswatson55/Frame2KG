@@ -1,0 +1,123 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "hand1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "dish1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "stove1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "pot1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "dish1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "tile_wall1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown skin",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.45,0.15,0.98,0.63,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.20,0.30,0.55,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "Metal Tray",
+      "location": "0.15,0.55,0.70,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "medium"
+      },
+      "id": "dish1",
+      "label": "Glass Dish",
+      "location": "0.55,0.35,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white marble",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.00,0.40,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "Stove",
+      "location": "0.00,0.00,0.30,0.50,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black pot",
+        "size": "medium"
+      },
+      "id": "pot1",
+      "label": "Pot",
+      "location": "0.00,0.50,0.30,0.90,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic tiles",
+        "size": "large"
+      },
+      "id": "tile_wall1",
+      "label": "Tile Wall",
+      "location": "0.00,0.00,1.00,0.40,0.6"
+    }
+  ]
+}

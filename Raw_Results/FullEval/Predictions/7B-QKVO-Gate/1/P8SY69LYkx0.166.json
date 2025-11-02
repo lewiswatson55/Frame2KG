@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "meat1"
+    },
+    {
+      "predicate": "in",
+      "source": "meat1",
+      "target": "mold1"
+    },
+    {
+      "predicate": "on",
+      "source": "mold1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tongs1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cloth1",
+      "target": "tongs1"
+    },
+    {
+      "predicate": "behind",
+      "source": "sink1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white gloves",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "chef's hands",
+      "location": "0.58,0.03,0.97,0.64,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink minced meat",
+        "size": "small"
+      },
+      "id": "meat1",
+      "label": "ground meat",
+      "location": "0.60,0.45,0.80,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal ring mold",
+        "size": "small"
+      },
+      "id": "mold1",
+      "label": "molding tin",
+      "location": "0.55,0.45,0.75,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.15,0.15,0.60,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "tongs1",
+      "label": "kitchen tongs",
+      "location": "0.00,0.40,0.30,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow fabric",
+        "size": "small"
+      },
+      "id": "cloth1",
+      "label": "dish towel",
+      "location": "0.00,0.60,0.20,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.00,0.50,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "sink faucet",
+      "location": "0.00,0.00,0.20,0.30,0.7"
+    }
+  ]
+}

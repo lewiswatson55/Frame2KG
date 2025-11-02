@@ -1,0 +1,66 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "grated_cheese"
+    },
+    {
+      "predicate": "in",
+      "source": "herbs1",
+      "target": "pasta1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread1",
+      "target": "pasta1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow cheese slice",
+        "size": "medium"
+      },
+      "id": "cheese1",
+      "label": "Cheese Slice",
+      "location": "0.05,0.05,0.35,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white pasta with green herbs",
+        "size": "large"
+      },
+      "id": "pasta1",
+      "label": "Pasta Dish",
+      "location": "0.35,0.05,0.65,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown bread rolls",
+        "size": "large"
+      },
+      "id": "bread1",
+      "label": "Bread Rolls",
+      "location": "0.70,0.05,1.00,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "shredded white cheese",
+        "size": "small"
+      },
+      "id": "grated_cheese",
+      "label": "Grated Cheese",
+      "location": "0.40,0.20,0.60,0.40,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy herb",
+        "size": "small"
+      },
+      "id": "herbs1",
+      "label": "Herb Leaves",
+      "location": "0.45,0.30,0.55,0.45,0.7"
+    }
+  ]
+}

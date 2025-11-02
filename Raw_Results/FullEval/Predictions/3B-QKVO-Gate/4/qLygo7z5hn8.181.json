@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "logo1",
+      "target": "text1"
+    },
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "background1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black stylized",
+        "size": "medium"
+      },
+      "id": "logo1",
+      "label": "Logo",
+      "location": "0.35,0.45,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "URL Text",
+      "location": "0.65,0.48,0.95,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark gray gradient",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

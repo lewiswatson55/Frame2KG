@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "background1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text_food",
+      "target": "logo1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cinnamon_stick_group",
+      "target": "logo1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "red_pepper",
+      "target": "cinnamon_stick_group"
+    },
+    {
+      "predicate": "left_of",
+      "source": "star_anise",
+      "target": "cinnamon_stick_group"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pakoda_plate",
+      "target": "samosa_plate"
+    },
+    {
+      "predicate": "includes",
+      "source": "pakoda_plate",
+      "target": "pakoda_fritters"
+    },
+    {
+      "predicate": "includes",
+      "source": "samosa_plate",
+      "target": "samosa_puffs"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue circular",
+        "size": "medium"
+      },
+      "id": "logo1",
+      "label": "Rajshri Food Logo",
+      "location": "0.45,0.05,0.60,0.30,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light blue text",
+        "size": "small"
+      },
+      "id": "text_food",
+      "label": "Text 'food'",
+      "location": "0.48,0.30,0.52,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown blurred",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "Spice Background",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "cinnamon_stick_group",
+      "label": "Cinnamon Sticks",
+      "location": "0.30,0.20,0.70,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark brown wood",
+        "size": "small"
+      },
+      "id": "star_anise",
+      "label": "Star Anise Pods",
+      "location": "0.05,0.15,0.25,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red glossy",
+        "size": "medium"
+      },
+      "id": "red_pepper",
+      "label": "Red Pepper",
+      "location": "0.75,0.10,0.95,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white rectangular frame",
+        "size": "medium"
+      },
+      "id": "pakoda_plate",
+      "label": "Pakoda Plate",
+      "location": "0.05,0.50,0.45,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden fried",
+        "size": "small"
+      },
+      "id": "pakoda_fritters",
+      "label": "Potato & Onion Fritters",
+      "location": "0.10,0.55,0.40,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white rectangular frame",
+        "size": "medium"
+      },
+      "id": "samosa_plate",
+      "label": "Samosa Plate",
+      "location": "0.55,0.50,0.95,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden fried",
+        "size": "small"
+      },
+      "id": "samosa_puffs",
+      "label": "Samosa Puffs",
+      "location": "0.60,0.55,0.90,0.85,0.9"
+    }
+  ]
+}

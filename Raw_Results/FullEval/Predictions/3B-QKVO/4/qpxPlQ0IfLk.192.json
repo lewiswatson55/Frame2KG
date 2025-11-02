@@ -1,0 +1,127 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "board1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "behind",
+      "source": "watermelon1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar1",
+      "target": "watermelon1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "plant1",
+      "target": "watermelon1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "wooden cutting board",
+      "location": "0.05,0.45,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted brown crust",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "bread slices",
+      "location": "0.30,0.50,0.60,0.70,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "salt bowl",
+      "location": "0.00,0.55,0.20,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige ceramic",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "spice bowl",
+      "location": "0.15,0.55,0.35,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "griddle pan",
+      "location": "0.00,0.75,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green rind",
+        "size": "medium"
+      },
+      "id": "watermelon1",
+      "label": "watermelon half",
+      "location": "0.10,0.30,0.70,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "sauce jar",
+      "location": "0.20,0.20,0.30,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "medium"
+      },
+      "id": "plant1",
+      "label": "house plant",
+      "location": "0.30,0.00,0.60,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey surface",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.00,0.70,1.00,1.00,0.9"
+    }
+  ]
+}

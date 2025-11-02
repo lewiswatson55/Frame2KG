@@ -1,0 +1,210 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "tongs1"
+    },
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "tongs1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "grill1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread1",
+      "target": "grill1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife1",
+      "target": "butter1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "butter1",
+      "target": "mustard1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "mustard1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf1",
+      "target": "person1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "stool1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "plant1",
+      "target": "blackboard1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "stacked_books1",
+      "target": "blackboard1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "tongs",
+      "location": "0.47,0.45,0.55,0.55,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.48,0.55,0.60,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "grill1",
+      "label": "grill",
+      "location": "0.45,0.75,0.75,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crust",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "baguette slices",
+      "location": "0.60,0.80,0.75,0.90,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.15,0.75,0.30,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "mustard1",
+      "label": "mustard bottle",
+      "location": "0.05,0.75,0.15,0.90,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "butter1",
+      "label": "butter container",
+      "location": "0.15,0.75,0.25,0.90,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.00,0.60,0.20,0.90,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.00,0.00,0.50,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic grey",
+        "size": "small"
+      },
+      "id": "hanging_pots1",
+      "label": "hanging pots",
+      "location": "0.50,0.00,0.70,0.20,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey brick",
+        "size": "large"
+      },
+      "id": "brick_wall1",
+      "label": "brick wall",
+      "location": "0.00,0.00,1.00,1.00,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "stool1",
+      "label": "bar stool",
+      "location": "0.10,0.30,0.30,0.60,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green plant",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "potted plant",
+      "location": "0.80,0.30,0.90,0.50,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden frame blackboard",
+        "size": "small"
+      },
+      "id": "blackboard1",
+      "label": "blackboard",
+      "location": "0.75,0.20,0.90,0.40,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "colored books",
+        "size": "small"
+      },
+      "id": "stacked_books1",
+      "label": "stack of books",
+      "location": "0.90,0.20,1.00,0.60,0.7"
+    }
+  ]
+}

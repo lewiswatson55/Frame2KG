@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "onion_ring"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "batter_bowl",
+      "target": "wire_rack"
+    },
+    {
+      "predicate": "next_to",
+      "source": "onion_slices",
+      "target": "batter_bowl"
+    },
+    {
+      "predicate": "next_to",
+      "source": "onion_slices",
+      "target": "onion_ring"
+    },
+    {
+      "predicate": "left_of",
+      "source": "tray",
+      "target": "batter_bowl"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.05,0.35,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal grid",
+        "size": "large"
+      },
+      "id": "wire_rack",
+      "label": "Wire Rack",
+      "location": "0.15,0.15,0.65,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow batter",
+        "size": "small"
+      },
+      "id": "batter_bowl",
+      "label": "Batter Bowl",
+      "location": "0.35,0.55,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white onion slices",
+        "size": "small"
+      },
+      "id": "onion_slices",
+      "label": "Onion Slices",
+      "location": "0.65,0.55,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "onion_ring",
+      "label": "Onion Ring",
+      "location": "0.45,0.45,0.55,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal tray",
+        "size": "medium"
+      },
+      "id": "tray",
+      "label": "Tray",
+      "location": "0.0,0.55,0.35,0.9,0.8"
+    }
+  ]
+}

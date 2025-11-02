@@ -1,0 +1,161 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl1",
+      "target": "mixing_bowl"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spice_jar",
+      "target": "small_bowl"
+    },
+    {
+      "predicate": "left_of",
+      "source": "small_bowl",
+      "target": "spice_jar"
+    },
+    {
+      "predicate": "right_of",
+      "source": "paper_towel",
+      "target": "foil_pack"
+    },
+    {
+      "predicate": "on",
+      "source": "foil_pack",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "paper_towel",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "mixing_bowl",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_with_rice",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "small_bowl",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "spice_jar",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_with_dumplings",
+      "target": "table"
+    },
+    {
+      "predicate": "behind",
+      "source": "person1",
+      "target": "table"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.45,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "plastic bowl",
+      "location": "0.35,0.0,0.75,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "mixing_bowl",
+      "label": "metal mixing bowl",
+      "location": "0.1,0.0,0.6,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue ceramic",
+        "size": "small"
+      },
+      "id": "small_bowl",
+      "label": "small bowl",
+      "location": "0.0,0.3,0.2,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown glass",
+        "size": "small"
+      },
+      "id": "spice_jar",
+      "label": "spice jar",
+      "location": "0.3,0.4,0.4,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "medium"
+      },
+      "id": "foil_pack",
+      "label": "aluminum foil pack",
+      "location": "0.4,0.2,0.7,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "medium"
+      },
+      "id": "paper_towel",
+      "label": "paper towel roll",
+      "location": "0.7,0.2,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with dumplings",
+        "size": "medium"
+      },
+      "id": "plate_with_dumplings",
+      "label": "plate of dumplings",
+      "location": "0.3,0.5,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white rice",
+        "size": "small"
+      },
+      "id": "bowl_with_rice",
+      "label": "bowl of rice",
+      "location": "0.0,0.3,0.2,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "table",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

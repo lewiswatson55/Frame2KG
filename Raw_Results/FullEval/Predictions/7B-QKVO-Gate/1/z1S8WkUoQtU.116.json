@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "painting1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sculpture1",
+      "target": "painting1"
+    },
+    {
+      "predicate": "on",
+      "source": "table1",
+      "target": "floor1"
+    },
+    {
+      "predicate": "behind",
+      "source": "painting1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "sculpture1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "dark hair pink shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.0,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame",
+        "size": "medium"
+      },
+      "id": "painting1",
+      "label": "framed painting",
+      "location": "0.1,0.1,0.4,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "orange ceramic",
+        "size": "small"
+      },
+      "id": "sculpture1",
+      "label": "ceramic sculpture",
+      "location": "0.7,0.3,0.9,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "table1",
+      "label": "wooden table",
+      "location": "0.4,0.7,0.7,0.9,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "beige carpet",
+        "size": "large"
+      },
+      "id": "floor1",
+      "label": "carpeted floor",
+      "location": "0.0,0.8,1.0,1.0,0.5"
+    }
+  ]
+}

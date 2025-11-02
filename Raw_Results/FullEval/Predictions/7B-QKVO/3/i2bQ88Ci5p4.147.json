@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "wings1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "sauce1",
+      "target": "wings1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "celery1",
+      "target": "sauce1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "logo1",
+      "target": "text1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "apple1",
+      "target": "text1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "orange glazed",
+        "size": "medium"
+      },
+      "id": "wings1",
+      "label": "Buffalo Wings",
+      "location": "0.05,0.15,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.0,0.3,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black bowl white sauce",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "Dipping Sauce Bowl",
+      "location": "0.45,0.0,0.75,0.3,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "green stalk",
+        "size": "medium"
+      },
+      "id": "celery1",
+      "label": "Celery Sticks",
+      "location": "0.65,0.0,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange banner text",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Calorie Comparison Text",
+      "location": "0.0,0.75,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red apple green text",
+        "size": "small"
+      },
+      "id": "apple1",
+      "label": "Applebee's Logo",
+      "location": "0.8,0.75,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text black logo",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Healthy Junk Food Logo",
+      "location": "0.0,0.75,0.2,1.0,0.9"
+    }
+  ]
+}

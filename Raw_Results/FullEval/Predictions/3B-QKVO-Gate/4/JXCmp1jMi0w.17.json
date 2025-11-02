@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "plate"
+    },
+    {
+      "predicate": "on",
+      "source": "salad_bowl",
+      "target": "table"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chicken1",
+      "target": "salad_bowl"
+    },
+    {
+      "predicate": "right_of",
+      "source": "sauce_bottle",
+      "target": "chicken1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "fried chicken pieces",
+      "location": "0.15,0.3,0.85,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "salad_bowl",
+      "label": "salad bowl",
+      "location": "0.0,0.0,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate",
+      "label": "plate",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange plastic",
+        "size": "small"
+      },
+      "id": "sauce_bottle",
+      "label": "sauce bottle",
+      "location": "0.85,0.0,1.0,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood grain",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "wooden table",
+      "location": "0.0,0.5,1.0,1.0,0.6"
+    }
+  ]
+}

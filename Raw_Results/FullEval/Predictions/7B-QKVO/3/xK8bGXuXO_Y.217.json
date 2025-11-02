@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "onion_rings1"
+    },
+    {
+      "predicate": "in",
+      "source": "onion_rings1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "onion_rings2",
+      "target": "paper_towel1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "paper_towel1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.0,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic with blue rim",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.0,0.3,0.5,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "onion_rings1",
+      "label": "Onion Rings",
+      "location": "0.1,0.4,0.45,0.8,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "light beige paper",
+        "size": "large"
+      },
+      "id": "paper_towel1",
+      "label": "Paper Towel",
+      "location": "0.4,0.2,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "onion_rings2",
+      "label": "Onion Rings",
+      "location": "0.5,0.3,0.9,0.8,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "red black white logo",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Logo",
+      "location": "0.8,0.0,1.0,0.2,0.9"
+    }
+  ]
+}

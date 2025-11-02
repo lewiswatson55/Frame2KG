@@ -1,0 +1,235 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "on",
+      "source": "spoon1",
+      "target": "food1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "vase1",
+      "target": "can1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "jar1",
+      "target": "vase1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bowl1",
+      "target": "vase1"
+    },
+    {
+      "predicate": "behind",
+      "source": "microwave1",
+      "target": "person1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "stove1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "vase1"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "can1"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "mug1"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "pepper_grinder1"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "mixer1"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "towel1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blonde hair glasses white lace top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "leafy greens",
+      "location": "0.47,0.25,0.55,0.35,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "spoon1",
+      "label": "spoon",
+      "location": "0.45,0.2,0.55,0.35,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,1.0,0.3,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave oven",
+      "location": "0.75,0.0,1.0,0.3,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.3,1.0,0.5,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass red flowers",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "flower vase",
+      "location": "0.15,0.35,0.25,0.55,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red cylindrical",
+        "size": "small"
+      },
+      "id": "can1",
+      "label": "can",
+      "location": "0.25,0.4,0.3,0.55,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "storage jar",
+      "location": "0.0,0.4,0.1,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl",
+      "location": "0.6,0.4,0.7,0.55,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "mug1",
+      "label": "mug",
+      "location": "0.7,0.45,0.75,0.55,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic black pepper",
+        "size": "small"
+      },
+      "id": "pepper_grinder1",
+      "label": "pepper grinder",
+      "location": "0.75,0.45,0.8,0.55,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.8,0.45,0.85,0.55,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic red handle",
+        "size": "medium"
+      },
+      "id": "mixer1",
+      "label": "stand mixer",
+      "location": "0.6,0.7,0.8,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red cloth",
+        "size": "small"
+      },
+      "id": "towel1",
+      "label": "dish towel",
+      "location": "0.8,0.7,0.9,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.7,0.5,1.0,1.0,0.6"
+    }
+  ]
+}

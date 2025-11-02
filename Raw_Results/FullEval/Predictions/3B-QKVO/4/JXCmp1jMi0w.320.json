@@ -1,0 +1,150 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "banner1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "banner1",
+      "target": "banner2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "banner3",
+      "target": "banner4"
+    },
+    {
+      "predicate": "right_of",
+      "source": "banner5",
+      "target": "banner6"
+    },
+    {
+      "predicate": "above",
+      "source": "banner1",
+      "target": "menu1"
+    },
+    {
+      "predicate": "below",
+      "source": "menu1",
+      "target": "banner2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "banner3",
+      "target": "banner4"
+    },
+    {
+      "predicate": "next_to",
+      "source": "banner4",
+      "target": "banner5"
+    },
+    {
+      "predicate": "next_to",
+      "source": "banner5",
+      "target": "banner6"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink circular",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Divas Can Cook logo",
+      "location": "0.00,0.00,0.30,0.28,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white background with colorful images",
+        "size": "large"
+      },
+      "id": "banner1",
+      "label": "Main banner",
+      "location": "0.00,0.28,1.00,0.50,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on pink background",
+        "size": "small"
+      },
+      "id": "text2",
+      "label": "Over 300 videos recipes!",
+      "location": "0.20,0.30,0.70,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple banner with white text",
+        "size": "medium"
+      },
+      "id": "banner2",
+      "label": "Menu planning tool",
+      "location": "0.00,0.50,0.20,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green banner with white text",
+        "size": "medium"
+      },
+      "id": "banner3",
+      "label": "Grocery coupons",
+      "location": "0.20,0.50,0.30,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue banner with white text",
+        "size": "medium"
+      },
+      "id": "banner4",
+      "label": "Recipe box",
+      "location": "0.30,0.50,0.40,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange banner with white text",
+        "size": "medium"
+      },
+      "id": "banner5",
+      "label": "Cookbooks",
+      "location": "0.40,0.50,0.50,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "gray banner with black text",
+        "size": "medium"
+      },
+      "id": "banner6",
+      "label": "Contact",
+      "location": "0.50,0.50,0.60,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow banner with red text",
+        "size": "medium"
+      },
+      "id": "banner7",
+      "label": "AT&T deal",
+      "location": "0.60,0.50,0.70,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red banner with yellow text",
+        "size": "medium"
+      },
+      "id": "banner8",
+      "label": "BlogHer network",
+      "location": "0.70,0.50,0.80,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white background with food photos",
+        "size": "large"
+      },
+      "id": "menu1",
+      "label": "Menu grid",
+      "location": "0.00,0.60,1.00,1.00,0.9"
+    }
+  ]
+}

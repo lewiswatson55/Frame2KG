@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "pouring_into",
+      "source": "bag_of_crumb",
+      "target": "bowl_of_breadcrumbs"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_of_breadcrumbs",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "green_plate",
+      "target": "bowl_of_breadcrumbs"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow plastic with white interior",
+        "size": "medium"
+      },
+      "id": "bag_of_crumb",
+      "label": "plastic bag of breadcrumbs",
+      "location": "0.35,0.0,0.85,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green plastic",
+        "size": "large"
+      },
+      "id": "bowl_of_breadcrumbs",
+      "label": "green bowl of breadcrumbs",
+      "location": "0.2,0.3,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green ceramic",
+        "size": "small"
+      },
+      "id": "green_plate",
+      "label": "green plate",
+      "location": "0.8,0.0,1.0,0.3,0.8"
+    }
+  ]
+}

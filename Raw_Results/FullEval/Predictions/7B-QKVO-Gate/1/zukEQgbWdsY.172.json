@@ -1,0 +1,206 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "oven"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "pan2",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_bacon",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_vegetables",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_green",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "blender",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "plant",
+      "target": "countertop"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "cabinet_left",
+      "target": "backsplash"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "cabinet_right",
+      "target": "backsplash"
+    },
+    {
+      "predicate": "above",
+      "source": "shelf_ceramic",
+      "target": "countertop"
+    },
+    {
+      "predicate": "behind",
+      "source": "backsplash",
+      "target": "countertop"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "grey shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.0,0.68,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.47,0.0,0.75,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "oven",
+      "label": "double oven",
+      "location": "0.0,0.0,0.35,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black cast iron",
+        "size": "small"
+      },
+      "id": "pan1",
+      "label": "cast iron pan",
+      "location": "0.2,0.7,0.5,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "pan2",
+      "label": "skillet",
+      "location": "0.4,0.7,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate_bacon",
+      "label": "plate of bacon",
+      "location": "0.6,0.75,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal tray",
+        "size": "small"
+      },
+      "id": "plate_vegetables",
+      "label": "plate of vegetables",
+      "location": "0.75,0.75,0.95,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl_green",
+      "label": "glass bowl",
+      "location": "0.55,0.6,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender",
+      "label": "blender",
+      "location": "0.75,0.4,0.85,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "plant",
+      "label": "potted plant",
+      "location": "0.85,0.4,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet_left",
+      "label": "wooden cabinet",
+      "location": "0.0,0.0,0.3,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet_right",
+      "label": "wooden cabinet",
+      "location": "0.7,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white brick",
+        "size": "large"
+      },
+      "id": "backsplash",
+      "label": "backsplash",
+      "location": "0.3,0.0,0.7,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue ceramic",
+        "size": "small"
+      },
+      "id": "shelf_ceramic",
+      "label": "ceramic bowls",
+      "location": "0.7,0.1,0.9,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    }
+  ]
+}

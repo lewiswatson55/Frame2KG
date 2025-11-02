@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "powder1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "on",
+      "source": "spice1",
+      "target": "powder1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "dish1",
+      "label": "baking dish",
+      "location": "0.0,0.05,1.0,0.98,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white granular",
+        "size": "medium"
+      },
+      "id": "powder1",
+      "label": "breadcrumbs",
+      "location": "0.03,0.17,0.97,0.86,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red powder",
+        "size": "small"
+      },
+      "id": "spice1",
+      "label": "seasoning",
+      "location": "0.2,0.4,0.8,0.7,0.85"
+    }
+  ]
+}

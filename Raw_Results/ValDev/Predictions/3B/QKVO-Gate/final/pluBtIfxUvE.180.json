@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "spoon1",
+      "target": "food1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bread1",
+      "target": "food1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread1",
+      "target": "food1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.0,0.65,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow creamy with red chili pieces",
+        "size": "medium"
+      },
+      "id": "food1",
+      "label": "Couscous dish",
+      "location": "0.0,0.3,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown toasted bread",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "Bread slice",
+      "location": "0.0,0.0,0.7,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.0,0.4,1.0,0.7,0.85"
+    }
+  ]
+}

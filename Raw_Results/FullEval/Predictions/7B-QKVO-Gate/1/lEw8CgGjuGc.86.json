@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "patty"
+    },
+    {
+      "predicate": "on",
+      "source": "patty",
+      "target": "bowl"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand1",
+      "target": "background"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.35,0.25,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink minced meat",
+        "size": "small"
+      },
+      "id": "patty",
+      "label": "raw burger patty",
+      "location": "0.45,0.45,0.65,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl",
+      "label": "glass bowl",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green foliage",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "blurred greenery",
+      "location": "0.0,0.0,1.0,0.4,0.7"
+    }
+  ]
+}

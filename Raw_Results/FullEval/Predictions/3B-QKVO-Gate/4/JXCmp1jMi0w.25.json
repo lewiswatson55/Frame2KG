@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "liquid1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "stream1",
+      "target": "liquid1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bag1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "plastic bag",
+      "location": "0.05,0.05,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white liquid",
+        "size": "medium"
+      },
+      "id": "liquid1",
+      "label": "white liquid stream",
+      "location": "0.45,0.0,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.85,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "thin white",
+        "size": "small"
+      },
+      "id": "stream1",
+      "label": "white liquid stream",
+      "location": "0.45,0.0,0.6,0.7,0.8"
+    }
+  ]
+}

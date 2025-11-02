@@ -1,0 +1,192 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar2",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar3",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar4",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "toaster1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "books1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "box1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "lamp1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "cabinet1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf1",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black chef coat",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plaid shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.47,0.05,0.88,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.0,0.0,0.8,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar with candy",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "jar of candy",
+      "location": "0.15,0.05,0.25,0.15,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass jar with nuts",
+        "size": "small"
+      },
+      "id": "jar2",
+      "label": "jar of nuts",
+      "location": "0.25,0.05,0.35,0.15,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass jar with metal contents",
+        "size": "small"
+      },
+      "id": "jar3",
+      "label": "metal jar",
+      "location": "0.35,0.05,0.45,0.15,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass jar with red contents",
+        "size": "small"
+      },
+      "id": "jar4",
+      "label": "jar of red candies",
+      "location": "0.45,0.05,0.55,0.15,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "toaster1",
+      "label": "toaster",
+      "location": "0.65,0.45,0.75,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "colorful books",
+        "size": "medium"
+      },
+      "id": "books1",
+      "label": "stack of books",
+      "location": "0.75,0.45,0.9,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple cardboard box",
+        "size": "small"
+      },
+      "id": "box1",
+      "label": "cardboard box",
+      "location": "0.9,0.45,0.98,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic lamp",
+        "size": "small"
+      },
+      "id": "lamp1",
+      "label": "lamp",
+      "location": "0.8,0.2,0.9,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey brick wall",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.0,0.0,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "cabinet",
+      "location": "0.0,0.6,0.3,1.0,0.8"
+    }
+  ]
+}

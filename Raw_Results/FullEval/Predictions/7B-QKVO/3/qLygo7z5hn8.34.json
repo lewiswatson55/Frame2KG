@@ -1,0 +1,81 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "egg_yolk1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "fork1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl2",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "fork1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bowl2",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.35,0.1,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow liquid",
+        "size": "small"
+      },
+      "id": "egg_yolk1",
+      "label": "egg yolk",
+      "location": "0.47,0.35,0.53,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "fork1",
+      "label": "fork",
+      "location": "0.0,0.1,0.15,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white eggs",
+        "size": "medium"
+      },
+      "id": "bowl2",
+      "label": "eggs bowl",
+      "location": "0.75,0.2,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

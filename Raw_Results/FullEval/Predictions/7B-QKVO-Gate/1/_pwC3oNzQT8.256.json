@@ -1,0 +1,141 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in",
+      "source": "food1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "behind",
+      "source": "tile_backsplash",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "blender1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "jar1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "dish1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.05,0.68,0.47,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white batter",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "pancake",
+      "location": "0.15,0.75,0.40,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.35,0.45,0.65,0.70,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender jar",
+      "location": "0.65,0.15,0.85,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "jar1",
+      "label": "metal jar",
+      "location": "0.85,0.15,0.98,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown ceramic",
+        "size": "medium"
+      },
+      "id": "dish1",
+      "label": "casserole dish",
+      "location": "0.60,0.55,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.75,0.45,0.95,0.70,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal spoon",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "spoon",
+      "location": "0.70,0.50,0.85,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige tiles",
+        "size": "large"
+      },
+      "id": "tile_backsplash",
+      "label": "tiled backsplash",
+      "location": "0.00,0.00,1.00,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.00,0.60,0.50,1.00,0.8"
+    }
+  ]
+}

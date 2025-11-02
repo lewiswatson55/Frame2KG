@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "squash1"
+    },
+    {
+      "predicate": "on",
+      "source": "mat1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "mat1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.35,0.0,0.98,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "orange flesh",
+        "size": "small"
+      },
+      "id": "squash1",
+      "label": "squash slice",
+      "location": "0.45,0.05,0.65,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white silicone with orange pattern",
+        "size": "large"
+      },
+      "id": "mat1",
+      "label": "silicone baking mat",
+      "location": "0.05,0.1,0.95,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown speckled granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "kitchen countertop",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

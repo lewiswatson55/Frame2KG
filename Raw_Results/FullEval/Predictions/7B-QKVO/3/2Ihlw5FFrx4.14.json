@@ -1,0 +1,165 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "table"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "board",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "knife",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "pitcher",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato_slices",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon",
+      "target": "board"
+    },
+    {
+      "predicate": "behind",
+      "source": "monitor",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "monitor",
+      "target": "person2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "short brown hair teal shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.1,0.48,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "long dark hair green dress",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.52,0.1,0.95,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "kitchen table",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "board",
+      "label": "cutting board",
+      "location": "0.03,0.7,0.45,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade plastic handle",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.05,0.75,0.4,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bowl red tomatoes",
+        "size": "small"
+      },
+      "id": "bowl",
+      "label": "bowl of tomato slices",
+      "location": "0.3,0.65,0.45,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "pitcher",
+      "label": "pitcher",
+      "location": "0.45,0.6,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce",
+      "label": "lettuce leaves",
+      "location": "0.45,0.65,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red sliced",
+        "size": "small"
+      },
+      "id": "tomato_slices",
+      "label": "tomato slices",
+      "location": "0.3,0.6,0.4,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink bacon strips",
+        "size": "small"
+      },
+      "id": "bacon",
+      "label": "bacon pieces",
+      "location": "0.4,0.6,0.5,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple screen with logo",
+        "size": "large"
+      },
+      "id": "monitor",
+      "label": "screen",
+      "location": "0.1,0.0,0.9,0.3,0.9"
+    }
+  ]
+}

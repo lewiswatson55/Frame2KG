@@ -1,0 +1,131 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "plant1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "tablecloth1",
+      "target": "table1"
+    },
+    {
+      "predicate": "behind",
+      "source": "fireplace1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "window_left",
+      "target": "fireplace1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "window_right",
+      "target": "fireplace1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "grey t-shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.47,0.45,0.75,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "pancake1",
+      "label": "pancake",
+      "location": "0.52,0.5,0.7,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves red flowers",
+        "size": "medium"
+      },
+      "id": "plant1",
+      "label": "potted plant",
+      "location": "0.1,0.3,0.3,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "sauce bottle",
+      "location": "0.35,0.4,0.45,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.7,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red fabric",
+        "size": "medium"
+      },
+      "id": "tablecloth1",
+      "label": "tablecloth",
+      "location": "0.0,0.75,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "fireplace1",
+      "label": "fireplace",
+      "location": "0.2,0.0,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "large"
+      },
+      "id": "window_left",
+      "label": "window",
+      "location": "0.0,0.0,0.2,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "large"
+      },
+      "id": "window_right",
+      "label": "window",
+      "location": "0.8,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

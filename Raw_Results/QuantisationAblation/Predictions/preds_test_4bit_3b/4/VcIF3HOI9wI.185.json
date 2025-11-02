@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "knife"
+    },
+    {
+      "predicate": "cutting",
+      "source": "knife",
+      "target": "bread_slice"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce",
+      "target": "board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tomato",
+      "target": "lettuce"
+    },
+    {
+      "predicate": "right_of",
+      "source": "butter_roll",
+      "target": "tomato"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bread_slice",
+      "target": "lettuce"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "wooden cutting board",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted white bread",
+        "size": "medium"
+      },
+      "id": "bread_slice",
+      "label": "slice of bread",
+      "location": "0.05,0.05,0.45,0.35,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted white bread",
+        "size": "medium"
+      },
+      "id": "bread_slice2",
+      "label": "slice of bread",
+      "location": "0.05,0.35,0.45,0.65,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "silver blade black handle",
+        "size": "medium"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.2,0.2,0.7,0.5,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.4,0.0,0.8,0.4,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy lettuce",
+        "size": "medium"
+      },
+      "id": "lettuce",
+      "label": "lettuce leaves",
+      "location": "0.5,0.4,0.9,0.9,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "red sliced tomato",
+        "size": "small"
+      },
+      "id": "tomato",
+      "label": "sliced tomato",
+      "location": "0.7,0.3,0.85,0.5,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "white spreadable butter roll",
+        "size": "small"
+      },
+      "id": "butter_roll",
+      "label": "butter roll",
+      "location": "0.85,0.1,1.0,0.6,0.88"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "onion_ring"
+    },
+    {
+      "predicate": "in",
+      "source": "onion_ring",
+      "target": "batter_bowl"
+    },
+    {
+      "predicate": "next_to",
+      "source": "onion_rings_plate",
+      "target": "batter_bowl"
+    },
+    {
+      "predicate": "behind",
+      "source": "rack",
+      "target": "batter_bowl"
+    },
+    {
+      "predicate": "supports",
+      "source": "foil",
+      "target": "rack"
+    },
+    {
+      "predicate": "left_of",
+      "source": "plate",
+      "target": "batter_bowl"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.65,0.05,0.98,0.35,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white battered",
+        "size": "small"
+      },
+      "id": "onion_ring",
+      "label": "Onion Ring",
+      "location": "0.45,0.25,0.55,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange plastic",
+        "size": "large"
+      },
+      "id": "batter_bowl",
+      "label": "Batter Bowl",
+      "location": "0.30,0.45,0.60,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "onion_rings_plate",
+      "label": "Plate of Onion Rings",
+      "location": "0.60,0.55,0.90,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal grid",
+        "size": "large"
+      },
+      "id": "rack",
+      "label": "Cooling Rack",
+      "location": "0.10,0.10,0.90,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver foil",
+        "size": "large"
+      },
+      "id": "foil",
+      "label": "Aluminum Foil",
+      "location": "0.05,0.05,0.95,0.50,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate",
+      "label": "Plate",
+      "location": "0.00,0.60,0.20,0.85,0.7"
+    }
+  ]
+}

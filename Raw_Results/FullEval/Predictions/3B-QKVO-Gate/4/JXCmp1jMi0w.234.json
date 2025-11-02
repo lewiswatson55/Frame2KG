@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "garlic1"
+    },
+    {
+      "predicate": "in",
+      "source": "garlic1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "on",
+      "source": "bag1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "dough1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "dough2",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "dough1",
+      "target": "dough2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "striped green shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown paper",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "Paper Bag",
+      "location": "0.0,0.2,0.7,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white",
+        "size": "small"
+      },
+      "id": "garlic1",
+      "label": "Garlic Clove",
+      "location": "0.4,0.1,0.55,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "flour-coated",
+        "size": "medium"
+      },
+      "id": "dough1",
+      "label": "Dough Ball",
+      "location": "0.6,0.5,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "flour-coated",
+        "size": "medium"
+      },
+      "id": "dough2",
+      "label": "Dough Ball",
+      "location": "0.8,0.5,1.0,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey metal",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table",
+      "location": "0.0,0.4,1.0,1.0,0.8"
+    }
+  ]
+}

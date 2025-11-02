@@ -1,0 +1,95 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "green1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "white1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "green1",
+      "target": "white1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "chicken1",
+      "target": "green1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "wooden table",
+      "location": "0.0,0.65,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "metal bowl",
+      "location": "0.3,0.4,0.7,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wooden handle",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "wooden spoon",
+      "location": "0.45,0.0,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "raw chicken pieces",
+      "location": "0.0,0.5,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "green1",
+      "label": "green vegetables",
+      "location": "0.2,0.5,0.8,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white crumbly",
+        "size": "medium"
+      },
+      "id": "white1",
+      "label": "cheese cubes",
+      "location": "0.7,0.5,1.0,0.9,0.8"
+    }
+  ]
+}

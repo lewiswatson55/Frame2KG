@@ -1,0 +1,211 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife"
+    },
+    {
+      "predicate": "on",
+      "source": "knife",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "raw_fish",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "stove"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "shelves"
+    },
+    {
+      "predicate": "includes",
+      "source": "bottles",
+      "target": "shelf"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter",
+      "target": "blender"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter",
+      "target": "plate_with_food"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter",
+      "target": "pan_on_stove"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter",
+      "target": "pot_on_shelf"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter",
+      "target": "jar_of_oil"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter",
+      "target": "jar_of_spices"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter",
+      "target": "jar_of_lemon_juice"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter",
+      "target": "jar_of_mustard"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.52,0.05,0.93,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.0,0.6,0.5,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic blade",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.2,0.65,0.3,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan_on_stove",
+      "label": "frying pan",
+      "location": "0.45,0.7,0.65,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pot_on_shelf",
+      "label": "kettle",
+      "location": "0.65,0.0,0.85,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottles",
+        "size": "medium"
+      },
+      "id": "bottles",
+      "label": "wine bottles",
+      "location": "0.45,0.2,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white tiles",
+        "size": "large"
+      },
+      "id": "shelf",
+      "label": "cabinet shelf",
+      "location": "0.4,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "jar_of_oil",
+      "label": "oil jar",
+      "location": "0.85,0.6,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "jar_of_spices",
+      "label": "spice jar",
+      "location": "0.8,0.6,0.85,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "jar_of_lemon_juice",
+      "label": "lemon juice jar",
+      "location": "0.75,0.6,0.8,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow glass",
+        "size": "small"
+      },
+      "id": "jar_of_mustard",
+      "label": "mustard jar",
+      "location": "0.7,0.6,0.75,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender",
+      "label": "blender",
+      "location": "0.9,0.4,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate_with_food",
+      "label": "plate of food",
+      "location": "0.85,0.75,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "gas stove",
+      "location": "0.3,0.6,0.7,0.9,0.8"
+    }
+  ]
+}

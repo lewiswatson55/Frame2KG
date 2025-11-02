@@ -1,0 +1,81 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "burger1",
+      "target": "plate"
+    },
+    {
+      "predicate": "on",
+      "source": "burger2",
+      "target": "plate"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl",
+      "target": "burger1"
+    },
+    {
+      "predicate": "behind",
+      "source": "jar",
+      "target": "burger1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl",
+      "target": "burger1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "jar",
+      "target": "burger1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown patty with lettuce and tomato slice",
+        "size": "medium"
+      },
+      "id": "burger1",
+      "label": "Hamburger",
+      "location": "0.53,0.48,1.00,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy lettuce with red tomato slice",
+        "size": "medium"
+      },
+      "id": "burger2",
+      "label": "Hamburger",
+      "location": "0.00,0.57,0.45,0.98,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate",
+      "label": "Plate",
+      "location": "0.00,0.45,1.00,1.00,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "bowl",
+      "label": "Bowl",
+      "location": "0.00,0.00,0.30,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red glass",
+        "size": "medium"
+      },
+      "id": "jar",
+      "label": "Jar",
+      "location": "0.30,0.00,0.60,0.50,0.8"
+    }
+  ]
+}

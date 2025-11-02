@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "oil1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in",
+      "source": "fritter1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "holding",
+      "source": "spatula1",
+      "target": "fritter1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "Frying Pan",
+      "location": "0.05,0.05,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow bubbling liquid",
+        "size": "medium"
+      },
+      "id": "oil1",
+      "label": "Cooking Oil",
+      "location": "0.1,0.1,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic mesh",
+        "size": "small"
+      },
+      "id": "fritter1",
+      "label": "Fritter Masher",
+      "location": "0.3,0.0,0.6,0.4,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "Spatula",
+      "location": "0.7,0.0,1.0,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black speckled surface",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "Stovetop",
+      "location": "0.0,0.8,1.0,1.0,0.7"
+    }
+  ]
+}

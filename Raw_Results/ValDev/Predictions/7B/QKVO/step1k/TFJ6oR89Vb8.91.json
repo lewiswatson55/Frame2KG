@@ -1,0 +1,51 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in",
+      "source": "eggs1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomatoes1",
+      "target": "eggs1"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.0,0.35,0.25,0.8"
+    },
+    {
+      "id": "spatula1",
+      "label": "Wooden Spatula",
+      "location": "0.1,0.0,0.6,0.4,0.9"
+    },
+    {
+      "id": "pan1",
+      "label": "Frying Pan",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "id": "eggs1",
+      "label": "Egg Mixture",
+      "location": "0.1,0.2,0.9,0.8,0.9"
+    },
+    {
+      "id": "tomatoes1",
+      "label": "Tomato Slices",
+      "location": "0.2,0.4,0.8,0.8,0.9"
+    }
+  ]
+}

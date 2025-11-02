@@ -1,0 +1,109 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "scissors1"
+    },
+    {
+      "predicate": "on",
+      "source": "scissors1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bag1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "box1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "scissors1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bag1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "box1",
+      "target": "bottle1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "sauce bottle",
+      "location": "0.00,0.35,0.28,0.90,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "scissors1",
+      "label": "pair of scissors",
+      "location": "0.40,0.60,0.60,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.20,0.70,0.50,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "large"
+      },
+      "id": "bottle2",
+      "label": "yellow bottle",
+      "location": "0.50,0.10,0.75,0.80,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "bag1",
+      "label": "plastic bag",
+      "location": "0.20,0.00,0.60,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown cardboard",
+        "size": "medium"
+      },
+      "id": "box1",
+      "label": "cardboard box",
+      "location": "0.60,0.00,0.80,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.00,0.00,1.00,1.00,0.6"
+    }
+  ]
+}

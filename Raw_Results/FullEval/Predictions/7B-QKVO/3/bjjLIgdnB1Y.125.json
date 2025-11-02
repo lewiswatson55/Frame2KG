@@ -1,0 +1,155 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "bowl_yellow1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_yellow1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_white1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "griddle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "spraycan1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle_maple1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_yellow1",
+      "target": "bowl_white1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "window1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown hair black apron green top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.0,0.6,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass bowl yellow batter",
+        "size": "small"
+      },
+      "id": "bowl_yellow1",
+      "label": "mixing bowl",
+      "location": "0.3,0.45,0.45,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass bowl white batter",
+        "size": "small"
+      },
+      "id": "bowl_white1",
+      "label": "mixing bowl",
+      "location": "0.45,0.45,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver handle",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "spoon",
+      "location": "0.35,0.4,0.5,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "griddle1",
+      "label": "electric griddle",
+      "location": "0.6,0.5,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow red label",
+        "size": "small"
+      },
+      "id": "spraycan1",
+      "label": "cooking spray can",
+      "location": "0.2,0.6,0.25,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic blue cap",
+        "size": "small"
+      },
+      "id": "bottle_maple1",
+      "label": "maple syrup bottle",
+      "location": "0.1,0.6,0.15,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "granite brown stone",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "kitchen countertop",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinets",
+      "location": "0.0,0.0,1.0,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame blinds",
+        "size": "medium"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.8,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.75,0.4,0.95,0.6,0.8"
+    }
+  ]
+}

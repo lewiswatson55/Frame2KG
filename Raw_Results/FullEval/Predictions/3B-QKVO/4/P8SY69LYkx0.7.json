@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bowl_mince1",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_empty1",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_cheese1",
+      "target": "board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "board",
+      "target": "stove"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "shelf"
+    },
+    {
+      "predicate": "left_of",
+      "source": "pan1",
+      "target": "stove"
+    },
+    {
+      "predicate": "right_of",
+      "source": "rack1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "clock1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white chef coat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "stove",
+      "label": "stove",
+      "location": "0.0,0.4,0.4,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl_mince1",
+      "label": "glass bowl of minced meat",
+      "location": "0.3,0.6,0.45,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl_empty1",
+      "label": "empty glass bowl",
+      "location": "0.45,0.6,0.6,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cheese slices",
+        "size": "small"
+      },
+      "id": "bowl_cheese1",
+      "label": "cheese bowl",
+      "location": "0.4,0.7,0.5,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board",
+      "label": "cutting board",
+      "location": "0.3,0.7,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "large"
+      },
+      "id": "shelf",
+      "label": "shelves",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "rack1",
+      "label": "baking rack",
+      "location": "0.75,0.2,0.95,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame",
+        "size": "small"
+      },
+      "id": "clock1",
+      "label": "wall clock",
+      "location": "0.6,0.0,0.7,0.15,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.4,0.3,0.6,0.8"
+    }
+  ]
+}

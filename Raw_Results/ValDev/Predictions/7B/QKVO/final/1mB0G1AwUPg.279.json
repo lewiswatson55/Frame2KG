@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "fork"
+    },
+    {
+      "predicate": "holding",
+      "source": "person2",
+      "target": "lettuce_piece"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "salad_bowl"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "salad_bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "salad_bowl",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "hot_dog_buns",
+      "target": "shelf"
+    },
+    {
+      "predicate": "above",
+      "source": "menu_board",
+      "target": "counter"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pot",
+      "target": "salad_bowl"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt,tattooed arms",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white sweater,long hair",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.47,0.05,0.65,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "salad_bowl",
+      "label": "salad bowl",
+      "location": "0.25,0.75,0.75,0.98,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce_piece",
+      "label": "lettuce piece",
+      "location": "0.55,0.75,0.65,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread rolls wrapped in plastic",
+        "size": "medium"
+      },
+      "id": "hot_dog_buns",
+      "label": "hot dog buns",
+      "location": "0.5,0.2,0.9,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black chalkboard",
+        "size": "large"
+      },
+      "id": "menu_board",
+      "label": "menu board",
+      "location": "0.0,0.0,1.0,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "counter",
+      "label": "counter",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "pot",
+      "label": "cooking pot",
+      "location": "0.85,0.6,1.0,1.0,0.7"
+    }
+  ]
+}

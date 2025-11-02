@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "vase1",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "shelf"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wallpaper1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lamp1",
+      "target": "vase1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "grey lace top,long dark hair,pink lipstick",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf",
+      "label": "wooden shelf",
+      "location": "0.0,0.0,0.4,0.7,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "blue white ceramic",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "decorative vase",
+      "location": "0.05,0.1,0.2,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "decorative plate",
+      "location": "0.2,0.2,0.3,0.35,0.75"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow shade",
+        "size": "medium"
+      },
+      "id": "lamp1",
+      "label": "table lamp",
+      "location": "0.8,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige vertical stripes",
+        "size": "large"
+      },
+      "id": "wallpaper1",
+      "label": "striped wallpaper",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    }
+  ]
+}

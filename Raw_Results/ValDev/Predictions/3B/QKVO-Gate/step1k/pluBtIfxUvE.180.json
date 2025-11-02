@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "spoon1",
+      "target": "couscous1"
+    },
+    {
+      "predicate": "in",
+      "source": "chili1",
+      "target": "couscous1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "toast1",
+      "target": "couscous1"
+    },
+    {
+      "predicate": "on",
+      "source": "toast1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown toasted",
+        "size": "medium"
+      },
+      "id": "toast1",
+      "label": "toasted bread slice",
+      "location": "0.05,0.0,0.95,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow grainy",
+        "size": "large"
+      },
+      "id": "couscous1",
+      "label": "couscous",
+      "location": "0.0,0.2,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red glossy",
+        "size": "small"
+      },
+      "id": "chili1",
+      "label": "chili pepper pieces",
+      "location": "0.1,0.4,0.9,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "spoon1",
+      "label": "spoon",
+      "location": "0.0,0.3,1.0,0.7,0.8"
+    }
+  ]
+}

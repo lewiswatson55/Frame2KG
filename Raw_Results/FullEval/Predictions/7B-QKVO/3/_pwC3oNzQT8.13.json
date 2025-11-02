@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "hat1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "stove1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black chef coat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.53,0.0,1.0,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "white and black checkered fabric",
+        "size": "small"
+      },
+      "id": "hat1",
+      "label": "kitchen hat",
+      "location": "0.64,0.05,0.78,0.25,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass bowl with white rice",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "rice bowl",
+      "location": "0.35,0.6,0.55,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.75,0.4,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white tiled backsplash",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "tile wall",
+      "location": "0.0,0.0,0.6,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white countertop",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.7,0.3,1.0,0.9"
+    }
+  ]
+}

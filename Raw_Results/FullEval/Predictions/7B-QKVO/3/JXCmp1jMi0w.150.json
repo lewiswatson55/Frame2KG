@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "rolling_pin1"
+    },
+    {
+      "predicate": "on",
+      "source": "rolling_pin1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "towel1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "person1",
+      "target": "rolling_pin1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green and white striped shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.0,0.0,0.65,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "medium"
+      },
+      "id": "rolling_pin1",
+      "label": "Rolling Pin",
+      "location": "0.0,0.68,1.0,0.83,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.75,0.45,0.95,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white cloth",
+        "size": "small"
+      },
+      "id": "towel1",
+      "label": "Towel",
+      "location": "0.5,0.5,0.75,0.65,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    }
+  ]
+}

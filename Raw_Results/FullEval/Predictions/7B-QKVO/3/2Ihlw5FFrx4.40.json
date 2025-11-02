@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_of_vegetables",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "small_bowls",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "vase",
+      "target": "table"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "tv_screen"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "tv_screen"
+    },
+    {
+      "predicate": "behind",
+      "source": "people",
+      "target": "table"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "short dark hair teal shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.18,0.47,0.63,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "long brown hair green dress",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.53,0.18,0.95,0.63,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink purple screen",
+        "size": "large"
+      },
+      "id": "tv_screen",
+      "label": "TV Screen",
+      "location": "0.25,0.05,0.75,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "Table",
+      "location": "0.0,0.55,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board",
+      "label": "Cutting Board",
+      "location": "0.1,0.6,0.6,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red lettuce",
+        "size": "small"
+      },
+      "id": "bowl_of_vegetables",
+      "label": "Bowl of Vegetables",
+      "location": "0.35,0.6,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass",
+        "size": "small"
+      },
+      "id": "small_bowls",
+      "label": "Small Bowls",
+      "location": "0.4,0.65,0.5,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metallic",
+        "size": "small"
+      },
+      "id": "vase",
+      "label": "Vase",
+      "location": "0.5,0.6,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black",
+        "size": "medium"
+      },
+      "id": "microphone",
+      "label": "Microphone",
+      "location": "0.75,0.2,0.85,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "various colors",
+        "size": "medium"
+      },
+      "id": "people",
+      "label": "People",
+      "location": "0.6,0.2,0.9,0.6,0.7"
+    }
+  ]
+}

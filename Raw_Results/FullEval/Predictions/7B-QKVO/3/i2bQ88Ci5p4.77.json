@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "wine_glass_holder1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle_soap1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle_water1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fridge1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "wallpaper1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black chef jacket",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.98,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "medium"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.6,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "wine_glass_holder1",
+      "label": "wine glass holder",
+      "location": "0.15,0.3,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "bottle_soap1",
+      "label": "soap bottle",
+      "location": "0.3,0.6,0.35,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "small"
+      },
+      "id": "bottle_water1",
+      "label": "water bottle",
+      "location": "0.35,0.6,0.4,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.8,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brick pattern",
+        "size": "medium"
+      },
+      "id": "wallpaper1",
+      "label": "wallpaper",
+      "location": "0.6,0.0,1.0,0.4,0.6"
+    }
+  ]
+}

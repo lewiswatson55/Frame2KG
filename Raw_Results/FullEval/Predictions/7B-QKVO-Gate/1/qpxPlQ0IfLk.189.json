@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "salt1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "salt1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "logo1",
+      "target": "lettuce1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "large"
+      },
+      "id": "lettuce1",
+      "label": "Romaine lettuce",
+      "location": "0.05,0.05,0.98,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white grilled",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "Grilled chicken breast",
+      "location": "0.3,0.45,0.5,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown toasted",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "Toasted bread slices",
+      "location": "0.5,0.5,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Wooden cutting board",
+      "location": "0.0,0.4,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink ceramic",
+        "size": "small"
+      },
+      "id": "salt1",
+      "label": "Salt bowl",
+      "location": "0.0,0.7,0.2,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey white",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Hungry logo",
+      "location": "0.0,0.0,0.2,0.15,0.7"
+    }
+  ]
+}

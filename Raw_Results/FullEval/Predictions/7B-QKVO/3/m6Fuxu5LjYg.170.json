@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "fish1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand2",
+      "target": "fish1"
+    },
+    {
+      "predicate": "in",
+      "source": "fish1",
+      "target": "flour1"
+    },
+    {
+      "predicate": "on",
+      "source": "flour1",
+      "target": "tray1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "left hand",
+      "location": "0.58,0.03,0.97,0.46,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand2",
+      "label": "right hand",
+      "location": "0.45,0.05,0.75,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white raw",
+        "size": "small"
+      },
+      "id": "fish1",
+      "label": "raw fish fillet",
+      "location": "0.45,0.15,0.75,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "large"
+      },
+      "id": "flour1",
+      "label": "flour pile",
+      "location": "0.0,0.0,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "baking tray",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    }
+  ]
+}

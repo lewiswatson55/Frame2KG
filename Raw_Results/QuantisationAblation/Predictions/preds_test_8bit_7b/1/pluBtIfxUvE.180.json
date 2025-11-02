@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "eggs1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "eggs1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bacon1",
+      "target": "eggs1"
+    },
+    {
+      "predicate": "behind",
+      "source": "toast1",
+      "target": "eggs1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.0,0.45,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow soft",
+        "size": "medium"
+      },
+      "id": "eggs1",
+      "label": "Scrambled Eggs",
+      "location": "0.0,0.3,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red crispy",
+        "size": "small"
+      },
+      "id": "bacon1",
+      "label": "Bacon Strips",
+      "location": "0.2,0.1,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.3,0.3,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown toasted",
+        "size": "medium"
+      },
+      "id": "toast1",
+      "label": "Toast Slice",
+      "location": "0.0,0.0,0.6,0.3,0.8"
+    }
+  ]
+}

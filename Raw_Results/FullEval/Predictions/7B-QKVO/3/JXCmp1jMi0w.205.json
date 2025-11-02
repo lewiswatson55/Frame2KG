@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "batter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.0,0.45,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white battered",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "Chicken pieces",
+      "location": "0.6,0.0,1.0,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "Bowl of batter",
+      "location": "0.0,0.2,1.0,0.7,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "red liquid",
+        "size": "medium"
+      },
+      "id": "batter1",
+      "label": "Red batter",
+      "location": "0.1,0.3,0.9,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal tray",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "Tray",
+      "location": "0.4,0.0,1.0,0.3,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting board",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    }
+  ]
+}

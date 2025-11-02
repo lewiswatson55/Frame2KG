@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "text1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "text2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blonde hair red lipstick",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman face",
+      "location": "0.35,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "light blue text",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "title text",
+      "location": "0.05,0.4,0.95,0.7,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "small"
+      },
+      "id": "text2",
+      "label": "subtitle text",
+      "location": "0.1,0.8,0.9,0.95,0.9"
+    }
+  ]
+}

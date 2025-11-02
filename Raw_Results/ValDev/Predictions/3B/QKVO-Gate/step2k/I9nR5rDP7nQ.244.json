@@ -1,0 +1,53 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "background"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text2",
+      "target": "background"
+    },
+    {
+      "predicate": "behind",
+      "source": "stripes",
+      "target": "text1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "stripes",
+      "target": "text1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white bold",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Text 'Choose what videos come to'",
+      "location": "0.35,0.45,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow orange gradient",
+        "size": "large"
+      },
+      "id": "stripes",
+      "label": "Colorful stripes",
+      "location": "0.1,0.0,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

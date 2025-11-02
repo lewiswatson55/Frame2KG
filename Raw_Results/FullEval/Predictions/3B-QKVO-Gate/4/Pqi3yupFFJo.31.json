@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "in",
+      "source": "onion_rings1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "behind",
+      "source": "bottle1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "onion_rings1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.15,0.45,0.85,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "purple translucent",
+        "size": "small"
+      },
+      "id": "onion_rings1",
+      "label": "Onion rings",
+      "location": "0.3,0.5,0.7,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "large"
+      },
+      "id": "bottle1",
+      "label": "Bottle",
+      "location": "0.2,0.0,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark surface",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table",
+      "location": "0.0,0.7,1.0,1.0,0.8"
+    }
+  ]
+}

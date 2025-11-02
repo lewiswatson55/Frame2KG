@@ -1,0 +1,86 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese2",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese3",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese4",
+      "target": "table"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cheese1",
+      "target": "cheese2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cheese2",
+      "target": "cheese3"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cheese3",
+      "target": "cheese4"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red plastic packaging",
+        "size": "medium"
+      },
+      "id": "cheese1",
+      "label": "Sharp Cheddar Cheese",
+      "location": "0.25,0.3,0.75,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cardboard box",
+        "size": "large"
+      },
+      "id": "cheese2",
+      "label": "Velveeta Cheese",
+      "location": "0.4,0.0,0.8,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green plastic container",
+        "size": "small"
+      },
+      "id": "cheese3",
+      "label": "Butter",
+      "location": "0.0,0.0,0.3,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic container",
+        "size": "small"
+      },
+      "id": "cheese4",
+      "label": "Milk",
+      "location": "0.3,0.0,0.5,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "Table",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    }
+  ]
+}

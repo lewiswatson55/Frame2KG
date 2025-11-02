@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "knife"
+    },
+    {
+      "predicate": "cutting",
+      "source": "knife",
+      "target": "bread_bottom"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce",
+      "target": "board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tomato",
+      "target": "lettuce"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bottle",
+      "target": "lettuce"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bread_top",
+      "target": "bread_bottom"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.45,0.0,0.98,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver blade black handle",
+        "size": "large"
+      },
+      "id": "knife",
+      "label": "Knife",
+      "location": "0.3,0.3,0.8,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted brown",
+        "size": "small"
+      },
+      "id": "bread_top",
+      "label": "Bread Slice",
+      "location": "0.1,0.0,0.45,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted brown",
+        "size": "small"
+      },
+      "id": "bread_bottom",
+      "label": "Bread Slice",
+      "location": "0.1,0.4,0.45,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce",
+      "label": "Lettuce",
+      "location": "0.45,0.5,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red round",
+        "size": "small"
+      },
+      "id": "tomato",
+      "label": "Tomato",
+      "location": "0.6,0.45,0.75,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic red cap",
+        "size": "small"
+      },
+      "id": "bottle",
+      "label": "Sauce Bottle",
+      "location": "0.8,0.1,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "Cutting Board",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

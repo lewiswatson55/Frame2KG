@@ -1,0 +1,109 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl1",
+      "target": "macaroni1"
+    },
+    {
+      "predicate": "in",
+      "source": "macaroni1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray1",
+      "target": "tray2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "tray3",
+      "target": "tray1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "container1",
+      "target": "container2"
+    },
+    {
+      "predicate": "behind",
+      "source": "container1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "behind",
+      "source": "container2",
+      "target": "tray1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.4,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Metal Bowl",
+      "location": "0.0,0.3,0.3,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy",
+        "size": "large"
+      },
+      "id": "macaroni1",
+      "label": "Macaroni",
+      "location": "0.0,0.0,0.6,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "aluminum foil",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "Aluminum Tray",
+      "location": "0.0,0.4,0.6,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "aluminum foil",
+        "size": "large"
+      },
+      "id": "tray2",
+      "label": "Aluminum Tray",
+      "location": "0.6,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "container1",
+      "label": "Cheese Container",
+      "location": "0.6,0.0,0.8,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "container2",
+      "label": "Cheese Container",
+      "location": "0.8,0.0,1.0,0.3,0.9"
+    }
+  ]
+}

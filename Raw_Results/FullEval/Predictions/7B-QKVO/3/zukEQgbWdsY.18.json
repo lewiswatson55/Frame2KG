@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "meat1"
+    },
+    {
+      "predicate": "on",
+      "source": "cloth1",
+      "target": "table1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "table1",
+      "target": "window1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "logo1",
+      "target": "table1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.15,0.0,0.85,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw",
+        "size": "small"
+      },
+      "id": "meat1",
+      "label": "Raw Meat Piece",
+      "location": "0.47,0.3,0.63,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "table1",
+      "label": "Wooden Table",
+      "location": "0.0,0.7,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue fabric",
+        "size": "medium"
+      },
+      "id": "cloth1",
+      "label": "Cloth",
+      "location": "0.1,0.75,0.6,0.95,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame glass",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "Window",
+      "location": "0.0,0.0,0.3,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Tasted Logo",
+      "location": "0.85,0.8,1.0,1.0,0.9"
+    }
+  ]
+}

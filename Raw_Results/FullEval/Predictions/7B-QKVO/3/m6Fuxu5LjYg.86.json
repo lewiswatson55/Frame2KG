@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "foam1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "red_stain1",
+      "target": "foam1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.05,0.05,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frothy",
+        "size": "medium"
+      },
+      "id": "foam1",
+      "label": "foam",
+      "location": "0.1,0.1,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red liquid",
+        "size": "small"
+      },
+      "id": "red_stain1",
+      "label": "red stain",
+      "location": "0.3,0.4,0.6,0.7,0.85"
+    }
+  ]
+}

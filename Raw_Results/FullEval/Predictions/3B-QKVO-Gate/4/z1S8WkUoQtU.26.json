@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "onion_rings"
+    },
+    {
+      "predicate": "supports",
+      "source": "board1",
+      "target": "onion_rings"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.0,0.0,0.6,0.8,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "purple white rings",
+        "size": "small"
+      },
+      "id": "onion_rings",
+      "label": "red onion slices",
+      "location": "0.3,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.7,1.0,1.0,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "red shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person torso",
+      "location": "0.0,0.0,1.0,0.5,0.8"
+    }
+  ]
+}

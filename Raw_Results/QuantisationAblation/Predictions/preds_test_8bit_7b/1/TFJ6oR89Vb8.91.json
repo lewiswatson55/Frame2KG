@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula1",
+      "target": "omelette1"
+    },
+    {
+      "predicate": "in",
+      "source": "tomatoes1",
+      "target": "omelette1"
+    },
+    {
+      "predicate": "on",
+      "source": "omelette1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.0,0.45,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic handle",
+        "size": "large"
+      },
+      "id": "spatula1",
+      "label": "Spatula",
+      "location": "0.1,0.0,0.9,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow egg mixture",
+        "size": "large"
+      },
+      "id": "omelette1",
+      "label": "Omelette",
+      "location": "0.1,0.2,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red round",
+        "size": "small"
+      },
+      "id": "tomatoes1",
+      "label": "Tomato pieces",
+      "location": "0.3,0.5,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "Frying pan",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    }
+  ]
+}

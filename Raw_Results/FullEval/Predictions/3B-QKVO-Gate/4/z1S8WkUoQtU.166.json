@@ -1,0 +1,67 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "painting1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "sculpture1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "utensils_icon1",
+      "target": "painting1"
+    },
+    {
+      "predicate": "behind",
+      "source": "painting1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "sculpture1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red shirt,long brown hair",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.25,0.0,0.75,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame",
+        "size": "medium"
+      },
+      "id": "painting1",
+      "label": "abstract painting",
+      "location": "0.15,0.1,0.45,0.35,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden utensils silhouette",
+        "size": "small"
+      },
+      "id": "utensils_icon1",
+      "label": "fork and spoon icon",
+      "location": "0.05,0.0,0.15,0.15,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "red abstract",
+        "size": "medium"
+      },
+      "id": "sculpture1",
+      "label": "sculpture",
+      "location": "0.75,0.3,0.95,0.8,0.88"
+    }
+  ]
+}

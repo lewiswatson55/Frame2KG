@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "dog1"
+    },
+    {
+      "predicate": "on",
+      "source": "paper_towel1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "dog1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "framed_artwork1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person1",
+      "target": "dog1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blonde hair white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.0,0.05,0.45,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white curly fur",
+        "size": "medium"
+      },
+      "id": "dog1",
+      "label": "poodle",
+      "location": "0.35,0.2,0.65,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.6,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "beige granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.4,1.0,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.6,0.6,1.0,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "multicolored frames",
+        "size": "small"
+      },
+      "id": "framed_artwork1",
+      "label": "picture frame",
+      "location": "0.7,0.45,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper towel",
+        "size": "small"
+      },
+      "id": "paper_towel1",
+      "label": "paper towel roll",
+      "location": "0.25,0.45,0.5,0.7,0.7"
+    }
+  ]
+}

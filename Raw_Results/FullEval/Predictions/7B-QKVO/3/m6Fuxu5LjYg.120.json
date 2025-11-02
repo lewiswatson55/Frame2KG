@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "bag1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "flour1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "logo1",
+      "target": "bag1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white cardboard with red and blue text",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "Gluten Free Rice Flour Blend Bag",
+      "location": "0.05,0.0,0.95,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Bowl of Flour",
+      "location": "0.35,0.6,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.4,0.6,0.6,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "medium"
+      },
+      "id": "flour1",
+      "label": "Flour",
+      "location": "0.4,0.65,0.7,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red spoon graphic with white text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Betty Crocker Logo",
+      "location": "0.7,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey speckled surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

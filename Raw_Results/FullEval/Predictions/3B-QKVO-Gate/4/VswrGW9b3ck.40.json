@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "squid_rings"
+    },
+    {
+      "predicate": "in",
+      "source": "squid_rings",
+      "target": "flour_bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "orange_sauce",
+      "target": "flour_bowl"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.45,0.0,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white flour-coated",
+        "size": "large"
+      },
+      "id": "squid_rings",
+      "label": "squid rings",
+      "location": "0.0,0.3,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange liquid",
+        "size": "small"
+      },
+      "id": "orange_sauce",
+      "label": "orange sauce",
+      "location": "0.0,0.7,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "orange plastic",
+        "size": "large"
+      },
+      "id": "flour_bowl",
+      "label": "bowl",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

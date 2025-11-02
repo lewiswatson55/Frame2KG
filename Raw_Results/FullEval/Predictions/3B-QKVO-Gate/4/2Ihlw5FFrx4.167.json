@@ -1,0 +1,171 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bread"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "vase1",
+      "target": "board"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "board",
+      "target": "tv_screen"
+    },
+    {
+      "predicate": "behind",
+      "source": "tv_screen",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "person2",
+      "target": "person1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "table",
+      "target": "tv_screen"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "board"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "vase1"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "cloth"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "plate1"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "knife1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "turquoise shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.15,0.48,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green dress",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.52,0.15,0.93,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink purple graphic",
+        "size": "large"
+      },
+      "id": "tv_screen",
+      "label": "television screen",
+      "location": "0.15,0.0,0.65,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board",
+      "label": "cutting board",
+      "location": "0.0,0.6,0.6,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with meat and salad",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate of food",
+      "location": "0.25,0.65,0.45,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal bowl with white sauce",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "sauce bowl",
+      "location": "0.35,0.65,0.45,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "flower vase",
+      "location": "0.45,0.6,0.55,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black handle silver blade",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.0,0.75,0.3,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green striped cloth",
+        "size": "small"
+      },
+      "id": "cloth",
+      "label": "kitchen towel",
+      "location": "0.0,0.8,0.3,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    }
+  ]
+}

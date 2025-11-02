@@ -1,0 +1,154 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "cutting",
+      "source": "knife1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lemon1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bottle1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "grater1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "tray1",
+      "target": "board1"
+    },
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "watch1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "multicolored plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.45,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black handle metal blade",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.48,0.3,0.75,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown crust",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "bread loaf",
+      "location": "0.45,0.45,0.65,0.65,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "wooden cutting board",
+      "location": "0.3,0.4,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow citrus",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "lemon half",
+      "location": "0.1,0.5,0.2,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with white sauce",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.05,0.4,0.2,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green plastic",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "beer bottle",
+      "location": "0.0,0.0,0.15,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with gold liquid",
+        "size": "medium"
+      },
+      "id": "jar1",
+      "label": "oil jar",
+      "location": "0.15,0.0,0.25,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "metal grater",
+        "size": "medium"
+      },
+      "id": "grater1",
+      "label": "grater",
+      "location": "0.25,0.3,0.45,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red tube",
+        "size": "small"
+      },
+      "id": "spice1",
+      "label": "spice container",
+      "location": "0.0,0.5,0.1,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "baking tray",
+      "location": "0.0,0.7,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "watch1",
+      "label": "wrist watch",
+      "location": "0.6,0.3,0.7,0.4,0.8"
+    }
+  ]
+}

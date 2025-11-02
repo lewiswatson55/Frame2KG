@@ -1,0 +1,164 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_lime",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "spice_rack",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "hotplate",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pan",
+      "target": "hotplate"
+    },
+    {
+      "predicate": "on",
+      "source": "herbs_plate",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato_plate",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "spoon",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "artwork1",
+      "target": "artwork2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.05,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.0,0.7,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.4,0.6,0.5,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "small"
+      },
+      "id": "spice_rack",
+      "label": "spice rack",
+      "location": "0.75,0.45,0.85,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "hotplate",
+      "label": "hot plate",
+      "location": "0.6,0.7,0.8,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan",
+      "label": "frying pan",
+      "location": "0.65,0.65,0.9,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "herbs_plate",
+      "label": "plate of herbs",
+      "location": "0.75,0.8,0.9,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red sliced tomatoes",
+        "size": "small"
+      },
+      "id": "tomato_plate",
+      "label": "plate of tomatoes",
+      "location": "0.85,0.8,0.98,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red handle",
+        "size": "small"
+      },
+      "id": "spoon",
+      "label": "spoon",
+      "location": "0.9,0.8,1.0,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "medium"
+      },
+      "id": "artwork1",
+      "label": "framed artwork",
+      "location": "0.7,0.0,0.85,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "medium"
+      },
+      "id": "artwork2",
+      "label": "framed artwork",
+      "location": "0.85,0.0,1.0,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bowl green limes",
+        "size": "small"
+      },
+      "id": "bowl_lime",
+      "label": "bowl of limes",
+      "location": "0.0,0.6,0.15,0.75,0.8"
+    }
+  ]
+}

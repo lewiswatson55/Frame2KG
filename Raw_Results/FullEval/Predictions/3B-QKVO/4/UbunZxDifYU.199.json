@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "cat1",
+      "target": "blanket1"
+    },
+    {
+      "predicate": "on",
+      "source": "blanket1",
+      "target": "table1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "table1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "hand",
+      "location": "0.05,0.0,0.45,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white fluffy",
+        "size": "small"
+      },
+      "id": "cat1",
+      "label": "cat",
+      "location": "0.55,0.3,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "multicolored patterned fabric",
+        "size": "large"
+      },
+      "id": "blanket1",
+      "label": "blanket",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    }
+  ]
+}

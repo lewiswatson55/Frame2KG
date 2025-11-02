@@ -1,0 +1,150 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "blender1",
+      "target": "person1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "glass1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "pots1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf1",
+      "target": "person1"
+    },
+    {
+      "predicate": "on",
+      "source": "fruit_bowl1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "rack1",
+      "target": "shelf1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.58,0.34,0.96,0.97,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden bowl with raw chicken",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "bowl of chicken",
+      "location": "0.02,0.05,0.35,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic plate with fried food",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate of food",
+      "location": "0.02,0.65,0.35,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow glass with orange juice",
+        "size": "small"
+      },
+      "id": "glass1",
+      "label": "glass of juice",
+      "location": "0.02,0.65,0.35,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic blender jar",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.45,0.65,0.60,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey brick wall",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "brick wall",
+      "location": "0.35,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal pots hanging",
+        "size": "medium"
+      },
+      "id": "pots1",
+      "label": "hanging pots",
+      "location": "0.60,0.15,0.85,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden shelf with jars and utensils",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.35,0.20,0.60,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange fruit bowl",
+        "size": "small"
+      },
+      "id": "fruit_bowl1",
+      "label": "fruit bowl",
+      "location": "0.65,0.70,0.80,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden rack with bottles",
+        "size": "medium"
+      },
+      "id": "rack1",
+      "label": "wine rack",
+      "location": "0.85,0.45,1.0,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wooden table",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.50,0.50,1.0,0.7"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "picture_frame_left",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "vase_blue",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "vase_black",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "sign",
+      "target": "shelf"
+    },
+    {
+      "predicate": "left_of",
+      "source": "picture_frame_right",
+      "target": "vase_blue"
+    },
+    {
+      "predicate": "right_of",
+      "source": "curtain",
+      "target": "shelf"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "grey hair black hoodie",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.0,1.0,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "medium"
+      },
+      "id": "shelf",
+      "label": "wall shelf",
+      "location": "0.0,0.4,0.6,0.7,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "orange frame",
+        "size": "small"
+      },
+      "id": "picture_frame_left",
+      "label": "framed picture",
+      "location": "0.0,0.0,0.2,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow frame",
+        "size": "small"
+      },
+      "id": "picture_frame_right",
+      "label": "framed picture",
+      "location": "0.0,0.25,0.2,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue ceramic",
+        "size": "small"
+      },
+      "id": "vase_blue",
+      "label": "decorative vase",
+      "location": "0.3,0.3,0.4,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black ceramic",
+        "size": "small"
+      },
+      "id": "vase_black",
+      "label": "decorative vase",
+      "location": "0.35,0.5,0.45,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden sign",
+        "size": "small"
+      },
+      "id": "sign",
+      "label": "sign",
+      "location": "0.3,0.6,0.5,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green striped fabric",
+        "size": "large"
+      },
+      "id": "curtain",
+      "label": "curtain",
+      "location": "0.6,0.0,1.0,1.0,0.9"
+    }
+  ]
+}

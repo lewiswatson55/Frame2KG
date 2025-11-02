@@ -1,0 +1,141 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person_hands",
+      "target": "knife"
+    },
+    {
+      "predicate": "cutting",
+      "source": "knife",
+      "target": "herbs"
+    },
+    {
+      "predicate": "on",
+      "source": "herbs",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "wearing",
+      "source": "person_hands",
+      "target": "ring"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text_Laura",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text_IN_THE",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text_Kitchen",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text_Hosted_by",
+      "target": "cutting_board"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person_hands",
+      "label": "hands",
+      "location": "0.35,0.0,0.65,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal blade",
+        "size": "large"
+      },
+      "id": "knife",
+      "label": "kitchen knife",
+      "location": "0.2,0.1,0.8,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "herbs",
+      "label": "chopped herbs",
+      "location": "0.3,0.3,0.6,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.0,0.2,1.0,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl",
+      "label": "bowl",
+      "location": "0.8,0.2,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal ring",
+        "size": "small"
+      },
+      "id": "ring",
+      "label": "ring",
+      "location": "0.55,0.2,0.65,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white cursive font",
+        "size": "medium"
+      },
+      "id": "text_Laura",
+      "label": "text 'Laura'",
+      "location": "0.0,0.0,0.4,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white cursive font",
+        "size": "medium"
+      },
+      "id": "text_IN_THE",
+      "label": "text 'IN THE'",
+      "location": "0.4,0.3,0.6,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white cursive font",
+        "size": "medium"
+      },
+      "id": "text_Kitchen",
+      "label": "text 'Kitchen'",
+      "location": "0.5,0.5,1.0,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "small"
+      },
+      "id": "text_Hosted_by",
+      "label": "text 'Hosted by:'",
+      "location": "0.0,0.7,0.4,0.9,0.9"
+    }
+  ]
+}

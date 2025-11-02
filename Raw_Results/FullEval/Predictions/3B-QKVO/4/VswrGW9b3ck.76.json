@@ -1,0 +1,81 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "calamari1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "lemon1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "lemon2",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "dip1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lemon1",
+      "target": "dip1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lemon2",
+      "target": "dip1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "large"
+      },
+      "id": "calamari1",
+      "label": "fried calamari",
+      "location": "0.05,0.3,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "medium"
+      },
+      "id": "dip1",
+      "label": "sauce bowl",
+      "location": "0.45,0.0,0.65,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow citrus",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "lemon slice",
+      "location": "0.75,0.15,0.9,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow citrus",
+        "size": "small"
+      },
+      "id": "lemon2",
+      "label": "lemon slice",
+      "location": "0.0,0.15,0.2,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    }
+  ]
+}

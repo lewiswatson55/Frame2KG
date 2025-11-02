@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall_art1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "vase1",
+      "target": "person1"
+    },
+    {
+      "predicate": "on",
+      "source": "utensil_icon1",
+      "target": "wall_art1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "vase1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "dark hair red shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.85,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "medium"
+      },
+      "id": "vase1",
+      "label": "decorative vase",
+      "location": "0.75,0.4,0.95,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame white painting",
+        "size": "small"
+      },
+      "id": "wall_art1",
+      "label": "framed artwork",
+      "location": "0.1,0.0,0.4,0.4,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "metal utensils icon",
+        "size": "small"
+      },
+      "id": "utensil_icon1",
+      "label": "utensil icons",
+      "location": "0.0,0.0,0.1,0.1,0.7"
+    }
+  ]
+}

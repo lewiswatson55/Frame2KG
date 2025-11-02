@@ -1,0 +1,84 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "oven1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pot1",
+      "target": "oven1"
+    },
+    {
+      "predicate": "behind",
+      "source": "stove1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "stove1",
+      "target": "oven1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "oven1",
+      "target": "tray1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow creamy pasta",
+        "size": "large"
+      },
+      "object_name": "macaroni_and_cheese1",
+      "position": "0.05,0.3,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "object_name": "spatula1",
+      "position": "0.45,0.0,0.75,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "object_name": "tray1",
+      "position": "0.0,0.3,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "large"
+      },
+      "object_name": "oven1",
+      "position": "0.6,0.0,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "object_name": "pot1",
+      "position": "0.4,0.0,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "object_name": "stove1",
+      "position": "0.0,0.0,0.4,0.5,0.8"
+    }
+  ]
+}

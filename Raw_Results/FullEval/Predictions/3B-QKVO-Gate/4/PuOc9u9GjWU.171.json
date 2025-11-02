@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "tongs1",
+      "target": "onion_ring1"
+    },
+    {
+      "predicate": "in",
+      "source": "onion_ring1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "in",
+      "source": "bubbles1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "in",
+      "source": "onion_rings2",
+      "target": "oil1"
+    },
+    {
+      "predicate": "includes",
+      "source": "pot1",
+      "target": "oil1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "tongs1",
+      "label": "Tongs",
+      "location": "0.58,0.17,0.96,0.43,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "onion_ring1",
+      "label": "Onion Ring",
+      "location": "0.45,0.25,0.65,0.60,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "onion_rings2",
+      "label": "Onion Rings",
+      "location": "0.05,0.45,0.35,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear bubbling liquid",
+        "size": "large"
+      },
+      "id": "oil1",
+      "label": "Oil",
+      "location": "0.00,0.30,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "Pot",
+      "location": "0.00,0.60,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white frothy bubbles",
+        "size": "small"
+      },
+      "id": "bubbles1",
+      "label": "Bubbles",
+      "location": "0.00,0.30,1.00,0.60,0.7"
+    }
+  ]
+}

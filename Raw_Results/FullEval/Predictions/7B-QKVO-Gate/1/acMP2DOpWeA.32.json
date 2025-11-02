@@ -1,0 +1,150 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "flour1",
+      "target": "bowl_large"
+    },
+    {
+      "predicate": "in",
+      "source": "brown_powder1",
+      "target": "bowl_medium"
+    },
+    {
+      "predicate": "in",
+      "source": "milk1",
+      "target": "jug1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "egg1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "oil1",
+      "target": "egg1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl_small1",
+      "target": "bowl_small2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl_small2",
+      "target": "bowl_small3"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl_small3",
+      "target": "bowl_small4"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bowl_small4",
+      "target": "bowl_small3"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "bowl_large",
+      "label": "Large Bowl of Flour",
+      "location": "0.05,0.05,0.48,0.67,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl_medium",
+      "label": "Glass Bowl of Brown Powder",
+      "location": "0.45,0.15,0.65,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl_small1",
+      "label": "Small Glass Bowl of White Powder",
+      "location": "0.15,0.65,0.30,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl_small2",
+      "label": "Small Glass Bowl of White Powder",
+      "location": "0.30,0.65,0.45,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl_small3",
+      "label": "Small Glass Bowl of Salt",
+      "location": "0.45,0.65,0.60,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl_small4",
+      "label": "Small Glass Bowl of Oil",
+      "location": "0.60,0.65,0.75,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red shell",
+        "size": "medium"
+      },
+      "id": "egg1",
+      "label": "Egg",
+      "location": "0.75,0.65,0.90,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic with red markings",
+        "size": "medium"
+      },
+      "id": "jug1",
+      "label": "Measuring Jug of Milk",
+      "location": "0.65,0.05,0.95,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "flour1",
+      "label": "Flour",
+      "location": "0.05,0.15,0.48,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige powder",
+        "size": "small"
+      },
+      "id": "brown_powder1",
+      "label": "Brown Powder",
+      "location": "0.45,0.20,0.65,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow liquid",
+        "size": "small"
+      },
+      "id": "oil1",
+      "label": "Oil",
+      "location": "0.60,0.65,0.75,0.85,0.8"
+    }
+  ]
+}

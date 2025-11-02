@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "background"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "fork1",
+      "target": "logo1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "spatula1",
+      "target": "logo1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "fork1",
+      "target": "spatula1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow background",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "red cursive text",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Text 'Pinay Cooking Lessons'",
+      "location": "0.35,0.75,0.65,0.95,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "orange flame graphic",
+        "size": "medium"
+      },
+      "id": "logo1",
+      "label": "Flame logo",
+      "location": "0.4,0.2,0.6,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black line art",
+        "size": "small"
+      },
+      "id": "fork1",
+      "label": "Fork icon",
+      "location": "0.1,0.4,0.3,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "black line art",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "Spatula icon",
+      "location": "0.7,0.4,0.9,0.6,0.85"
+    }
+  ]
+}

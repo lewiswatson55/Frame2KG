@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "tomato_slices",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon_strips",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "feta_cheese",
+      "target": "bacon_strips"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "lettuce_leaf",
+      "target": "bread_slice"
+    },
+    {
+      "predicate": "left_of",
+      "source": "text_panel",
+      "target": "cutting_board"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red juicy",
+        "size": "medium"
+      },
+      "id": "tomato_slices",
+      "label": "sliced tomato",
+      "location": "0.05,0.45,0.38,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "crispy brown",
+        "size": "small"
+      },
+      "id": "bacon_strips",
+      "label": "bacon strips",
+      "location": "0.36,0.35,0.64,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white block",
+        "size": "small"
+      },
+      "id": "feta_cheese",
+      "label": "feta cheese",
+      "location": "0.45,0.55,0.60,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce_leaf",
+      "label": "lettuce leaf",
+      "location": "0.75,0.55,0.95,0.80,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "multigrain brown",
+        "size": "medium"
+      },
+      "id": "bread_slice",
+      "label": "bread slice",
+      "location": "0.75,0.75,0.95,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey background white text",
+        "size": "large"
+      },
+      "id": "text_panel",
+      "label": "ingredients list panel",
+      "location": "0.60,0.00,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "large"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.00,0.30,0.60,0.90,0.9"
+    }
+  ]
+}

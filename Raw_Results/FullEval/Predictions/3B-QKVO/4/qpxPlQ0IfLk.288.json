@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "kitchen_background"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake_bowl",
+      "target": "table"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_flour",
+      "target": "pancake_bowl"
+    },
+    {
+      "predicate": "left_of",
+      "source": "photo1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "photo2",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "photo3",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "multicolored plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.58,0.47,0.96,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey brick wall",
+        "size": "large"
+      },
+      "id": "kitchen_background",
+      "label": "kitchen wall",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic bowl with flour",
+        "size": "medium"
+      },
+      "id": "bowl_flour",
+      "label": "flour bowl",
+      "location": "0.0,0.0,0.3,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic pie dish with golden brown pancakes",
+        "size": "medium"
+      },
+      "id": "pancake_bowl",
+      "label": "pie dish of pancakes",
+      "location": "0.0,0.3,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "colorful photo frame",
+        "size": "small"
+      },
+      "id": "photo1",
+      "label": "photo frame",
+      "location": "0.0,0.6,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "colorful photo frame",
+        "size": "small"
+      },
+      "id": "photo2",
+      "label": "photo frame",
+      "location": "0.0,0.3,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "colorful photo frame",
+        "size": "small"
+      },
+      "id": "photo3",
+      "label": "photo frame",
+      "location": "0.0,0.6,0.3,0.9,0.8"
+    }
+  ]
+}

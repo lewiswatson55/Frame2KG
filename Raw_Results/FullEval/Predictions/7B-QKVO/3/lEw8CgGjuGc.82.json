@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "knob1"
+    },
+    {
+      "predicate": "on",
+      "source": "knob1",
+      "target": "panel1"
+    },
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "panel1"
+    },
+    {
+      "predicate": "on",
+      "source": "text2",
+      "target": "panel1"
+    },
+    {
+      "predicate": "on",
+      "source": "icon1",
+      "target": "panel1"
+    },
+    {
+      "predicate": "on",
+      "source": "icon2",
+      "target": "panel1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.65,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "knob1",
+      "label": "Knob",
+      "location": "0.48,0.3,0.75,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "large"
+      },
+      "id": "panel1",
+      "label": "Control Panel",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Text 'OUTDOOR USE ONLY'",
+      "location": "0.0,0.0,0.5,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "medium"
+      },
+      "id": "text2",
+      "label": "Text 'IGNITION BURNER OFF HIGH LOW'",
+      "location": "0.4,0.0,1.0,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white flame icon",
+        "size": "small"
+      },
+      "id": "icon1",
+      "label": "Ignite Icon",
+      "location": "0.3,0.5,0.4,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white flame icon",
+        "size": "small"
+      },
+      "id": "icon2",
+      "label": "Ignite Icon",
+      "location": "0.7,0.0,0.8,0.1,0.7"
+    }
+  ]
+}

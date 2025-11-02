@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "vase1",
+      "target": "table"
+    },
+    {
+      "predicate": "behind",
+      "source": "window1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "yellow_food",
+      "target": "table"
+    },
+    {
+      "predicate": "right_of",
+      "source": "pink_panel",
+      "target": "table"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green dress",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.65,0.05,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "table",
+      "location": "0.45,0.5,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "vase",
+      "location": "0.53,0.55,0.58,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bowl with green salad",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "salad plate",
+      "location": "0.45,0.55,0.55,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple screen with white text",
+        "size": "medium"
+      },
+      "id": "pink_panel",
+      "label": "panel",
+      "location": "0.4,0.0,0.6,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame glass",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.6,0.0,1.0,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow food",
+        "size": "large"
+      },
+      "id": "yellow_food",
+      "label": "food block",
+      "location": "0.0,0.0,0.4,1.0,0.8"
+    }
+  ]
+}

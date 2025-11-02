@@ -1,0 +1,224 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "counter"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person2",
+      "target": "chicken_nuggets"
+    },
+    {
+      "predicate": "right_of",
+      "source": "subscribe_button",
+      "target": "person2"
+    },
+    {
+      "predicate": "above",
+      "source": "subscribe_button",
+      "target": "chicken_nuggets"
+    },
+    {
+      "predicate": "below",
+      "source": "social_media_icons",
+      "target": "person2"
+    },
+    {
+      "predicate": "below",
+      "source": "chef_stef_icon",
+      "target": "social_media_icons"
+    },
+    {
+      "predicate": "right_of",
+      "source": "chef_stef_icon",
+      "target": "text1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "text2",
+      "target": "text1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "text3",
+      "target": "text2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt with black apron",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.05,0.48,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black chef coat",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.48,0.05,0.85,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "fridge",
+      "label": "refrigerator",
+      "location": "0.00,0.00,0.25,0.76,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "counter",
+      "label": "kitchen counter",
+      "location": "0.00,0.50,1.00,0.76,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with orange food",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate of food",
+      "location": "0.20,0.55,0.35,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bowl with red sauce",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "sauce bowl",
+      "location": "0.85,0.55,0.98,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.35,0.15,0.45,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red background white text",
+        "size": "small"
+      },
+      "id": "subscribe_button",
+      "label": "Subscribe button",
+      "location": "0.75,0.00,0.98,0.15,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "medium"
+      },
+      "id": "chicken_nuggets",
+      "label": "chicken nuggets",
+      "location": "0.75,0.15,0.98,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue square with 'f' logo",
+        "size": "small"
+      },
+      "id": "facebook_icon",
+      "label": "Facebook icon",
+      "location": "0.05,0.76,0.20,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light blue square with 'b' logo",
+        "size": "small"
+      },
+      "id": "twitter_icon",
+      "label": "Twitter icon",
+      "location": "0.20,0.76,0.35,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige camera with rainbow stripes",
+        "size": "small"
+      },
+      "id": "instagram_icon",
+      "label": "Instagram icon",
+      "location": "0.35,0.76,0.50,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "multicolored graphic",
+        "size": "medium"
+      },
+      "id": "social_media_icons",
+      "label": "Social media icons",
+      "location": "0.00,0.76,0.50,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "cartoon chef head",
+        "size": "small"
+      },
+      "id": "chef_stef_icon",
+      "label": "Chef Stef icon",
+      "location": "0.60,0.76,0.75,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white cursive font",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "Class Cookin' text",
+      "location": "0.40,0.76,0.60,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white cursive font",
+        "size": "small"
+      },
+      "id": "text2",
+      "label": "Healthy Cookin' Mondays text",
+      "location": "0.75,0.76,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white cursive font",
+        "size": "small"
+      },
+      "id": "text3",
+      "label": "Sweet Tooth Thursdays text",
+      "location": "0.75,0.85,0.95,0.95,0.9"
+    }
+  ]
+}

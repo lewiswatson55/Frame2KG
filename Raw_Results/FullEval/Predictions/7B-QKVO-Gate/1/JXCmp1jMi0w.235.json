@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "in",
+      "source": "flour1",
+      "target": "chicken1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "metal tray",
+      "location": "0.05,0.0,0.95,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "pinkish breaded",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "breaded chicken pieces",
+      "location": "0.0,0.0,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "flour1",
+      "label": "flour dust",
+      "location": "0.0,0.6,1.0,1.0,0.4"
+    }
+  ]
+}

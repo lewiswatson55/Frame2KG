@@ -1,0 +1,117 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bun_top"
+    },
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "tomato_slice"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato_slice",
+      "target": "lettuce_layer"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce_layer",
+      "target": "bottom_bun"
+    },
+    {
+      "predicate": "next_to",
+      "source": "condiment1",
+      "target": "burger1"
+    },
+    {
+      "predicate": "behind",
+      "source": "bowl1",
+      "target": "burger1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread",
+        "size": "large"
+      },
+      "id": "bun_top",
+      "label": "Burger Bun Top",
+      "location": "0.25,0.1,0.75,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown meat",
+        "size": "medium"
+      },
+      "id": "patty1",
+      "label": "Burger Patty",
+      "location": "0.3,0.4,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red slice",
+        "size": "small"
+      },
+      "id": "tomato_slice",
+      "label": "Tomato Slice",
+      "location": "0.3,0.55,0.7,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce_layer",
+      "label": "Lettuce Layer",
+      "location": "0.2,0.6,0.8,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread",
+        "size": "medium"
+      },
+      "id": "bottom_bun",
+      "label": "Burger Bun Bottom",
+      "location": "0.2,0.75,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic bottle",
+        "size": "medium"
+      },
+      "id": "condiment1",
+      "label": "Condiment Bottle",
+      "location": "0.0,0.0,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "Wooden Bowl",
+      "location": "0.6,0.0,1.0,0.4,0.8"
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person2",
+      "target": "blender1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "glass1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "window1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "person2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "can1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bottle1",
+      "target": "can1"
+    },
+    {
+      "predicate": "above",
+      "source": "shelf1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "faucet1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sink1",
+      "target": "shelf1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "bearded red hair black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.00,0.05,0.48,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "tattooed dark hair black t-shirt",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.36,0.05,0.78,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "stand blender",
+      "location": "0.70,0.45,0.95,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass green liquid",
+        "size": "small"
+      },
+      "id": "glass1",
+      "label": "glass of beer",
+      "location": "0.60,0.60,0.70,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.40,0.75,0.60,0.90,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "kitchen counter",
+      "location": "0.00,0.60,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.40,0.00,0.80,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottles",
+        "size": "small"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.70,0.00,1.00,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "oven1",
+      "label": "built-in oven",
+      "location": "0.45,0.10,0.60,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.00,0.00,0.40,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.80,0.60,1.00,0.80,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "TASTED logo",
+      "location": "0.85,0.80,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue white can",
+        "size": "small"
+      },
+      "id": "can1",
+      "label": "can",
+      "location": "0.75,0.15,0.80,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark bottle",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "bottle",
+      "location": "0.80,0.15,0.85,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal faucet",
+        "size": "small"
+      },
+      "id": "faucet1",
+      "label": "faucet",
+      "location": "0.85,0.50,0.95,0.65,0.7"
+    }
+  ]
+}

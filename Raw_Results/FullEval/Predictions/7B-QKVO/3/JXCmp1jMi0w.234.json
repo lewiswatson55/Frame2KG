@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bag1",
+      "target": "flour1"
+    },
+    {
+      "predicate": "on",
+      "source": "flour1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chicken2",
+      "target": "chicken1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green striped shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.35,0.0,0.65,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown paper",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "Paper Bag",
+      "location": "0.0,0.2,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "flour1",
+      "label": "Flour Pile",
+      "location": "0.4,0.4,0.6,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "raw battered",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "Chicken Cutlet",
+      "location": "0.6,0.5,0.8,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "raw battered",
+        "size": "medium"
+      },
+      "id": "chicken2",
+      "label": "Chicken Cutlet",
+      "location": "0.8,0.5,0.98,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey metal",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pancake_stack",
+      "target": "plate"
+    },
+    {
+      "predicate": "on",
+      "source": "plate",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake_stack",
+      "target": "countertop"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person",
+      "target": "cabinet"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife",
+      "target": "person"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "medium"
+      },
+      "id": "person",
+      "label": "person",
+      "location": "0.45,0.0,0.95,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pancake_stack",
+      "label": "pancakes",
+      "location": "0.25,0.6,0.75,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate",
+      "label": "plate",
+      "location": "0.25,0.55,0.75,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "wooden countertop",
+      "location": "0.0,0.3,1.0,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver blade black handle",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.6,0.0,0.8,0.3,0.8"
+    }
+  ]
+}

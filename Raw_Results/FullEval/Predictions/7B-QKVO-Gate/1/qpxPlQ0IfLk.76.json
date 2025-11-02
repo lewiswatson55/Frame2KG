@@ -1,0 +1,303 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "tongs1"
+    },
+    {
+      "predicate": "on",
+      "source": "tongs1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "on",
+      "source": "meat1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "bottle2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lemon1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife1",
+      "target": "jar2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar3",
+      "target": "jar4"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf1",
+      "target": "person1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "pots1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "table1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "includes",
+      "source": "table1",
+      "target": "oranges1"
+    },
+    {
+      "predicate": "includes",
+      "source": "table1",
+      "target": "bananas1"
+    },
+    {
+      "predicate": "includes",
+      "source": "table1",
+      "target": "tomatoes1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lamp1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "board1",
+      "target": "griddle1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "baguette1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue red plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.5,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.0,0.6,0.2,0.98,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "oil bottle",
+      "location": "0.2,0.7,0.25,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "bottle2",
+      "label": "mustard bottle",
+      "location": "0.25,0.7,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "spice jar",
+      "location": "0.2,0.7,0.25,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "jar2",
+      "label": "mayo jar",
+      "location": "0.3,0.7,0.35,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "lemon",
+      "location": "0.35,0.75,0.4,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.4,0.75,0.5,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "small"
+      },
+      "id": "jar3",
+      "label": "salt shaker",
+      "location": "0.45,0.75,0.5,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "small"
+      },
+      "id": "jar4",
+      "label": "pepper grinder",
+      "location": "0.5,0.75,0.55,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.3,0.4,0.7,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange",
+        "size": "small"
+      },
+      "id": "oranges1",
+      "label": "oranges",
+      "location": "0.35,0.45,0.45,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "bananas1",
+      "label": "bananas",
+      "location": "0.45,0.45,0.55,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red",
+        "size": "small"
+      },
+      "id": "tomatoes1",
+      "label": "tomatoes",
+      "location": "0.55,0.45,0.65,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pots1",
+      "label": "hanging pots",
+      "location": "0.4,0.0,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white shade brown stand",
+        "size": "medium"
+      },
+      "id": "lamp1",
+      "label": "floor lamp",
+      "location": "0.8,0.1,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "griddle1",
+      "label": "griddle",
+      "location": "0.5,0.7,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw",
+        "size": "small"
+      },
+      "id": "meat1",
+      "label": "raw meat",
+      "location": "0.6,0.75,0.7,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "tongs",
+      "location": "0.6,0.6,0.75,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.7,0.6,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce",
+      "location": "0.75,0.65,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crust white bread",
+        "size": "small"
+      },
+      "id": "baguette1",
+      "label": "baguette",
+      "location": "0.85,0.7,0.95,0.85,0.8"
+    }
+  ]
+}

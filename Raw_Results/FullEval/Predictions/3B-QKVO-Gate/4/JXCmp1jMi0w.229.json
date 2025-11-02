@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bag1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "dough1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "dough1",
+      "target": "dough2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "tray1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "behind",
+      "source": "person1",
+      "target": "bag1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown paper bag with red label",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "paper bag",
+      "location": "0.05,0.0,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green striped shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "person torso",
+      "location": "0.0,0.0,0.3,0.7,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "wooden board",
+      "location": "0.0,0.4,0.6,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "metal tray",
+      "location": "0.5,0.5,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white flour-coated dough",
+        "size": "small"
+      },
+      "id": "dough1",
+      "label": "dough ball",
+      "location": "0.6,0.55,0.75,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white flour-coated dough",
+        "size": "small"
+      },
+      "id": "dough2",
+      "label": "dough ball",
+      "location": "0.75,0.55,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey smooth surface",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.6,0.0,1.0,0.5,0.7"
+    }
+  ]
+}

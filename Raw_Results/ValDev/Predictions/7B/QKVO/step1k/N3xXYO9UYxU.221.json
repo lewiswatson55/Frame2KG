@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "cup1"
+    },
+    {
+      "predicate": "in",
+      "source": "egg_mixture1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "trivet1"
+    },
+    {
+      "predicate": "on",
+      "source": "trivet1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate_stack1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "spatula1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "cup1",
+      "label": "measuring cup",
+      "location": "0.05,0.3,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.4,0.8,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow liquid",
+        "size": "small"
+      },
+      "id": "egg_mixture1",
+      "label": "egg mixture",
+      "location": "0.4,0.0,0.9,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.4,0.0,0.9,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange silicone",
+        "size": "small"
+      },
+      "id": "trivet1",
+      "label": "trivet mat",
+      "location": "0.5,0.2,0.9,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow ceramic",
+        "size": "small"
+      },
+      "id": "plate_stack1",
+      "label": "stacked plates",
+      "location": "0.7,0.4,1.0,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.0,0.0,0.3,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white enamel",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.0,0.0,1.0,0.4,0.6"
+    }
+  ]
+}

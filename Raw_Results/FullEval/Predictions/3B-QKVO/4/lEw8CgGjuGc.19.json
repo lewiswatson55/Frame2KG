@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "burger1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "burger1",
+      "target": "burger2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown meat patty with red onion slice on toasted bun",
+        "size": "medium"
+      },
+      "id": "burger1",
+      "label": "Hamburger",
+      "location": "0.35,0.45,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy lettuce",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce",
+      "location": "0.0,0.7,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink strips of bacon",
+        "size": "small"
+      },
+      "id": "bacon1",
+      "label": "Bacon Strips",
+      "location": "0.0,0.6,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic plate",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted brown bun",
+        "size": "medium"
+      },
+      "id": "burger2",
+      "label": "Hamburger Bun",
+      "location": "0.3,0.0,0.7,0.4,0.9"
+    }
+  ]
+}

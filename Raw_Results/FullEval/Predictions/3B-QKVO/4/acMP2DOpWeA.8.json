@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pancake_stack",
+      "target": "plate"
+    },
+    {
+      "predicate": "on",
+      "source": "butter_block",
+      "target": "pancake_stack"
+    },
+    {
+      "predicate": "on",
+      "source": "honey_bottle",
+      "target": "table_mats"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fork",
+      "target": "knife"
+    },
+    {
+      "predicate": "on",
+      "source": "napkin",
+      "target": "table_mats"
+    },
+    {
+      "predicate": "on",
+      "source": "knife",
+      "target": "napkin"
+    },
+    {
+      "predicate": "on",
+      "source": "fork",
+      "target": "napkin"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "plate",
+      "target": "table_mats"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "medium"
+      },
+      "id": "pancake_stack",
+      "label": "stack of pancakes",
+      "location": "0.15,0.30,0.85,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white",
+        "size": "small"
+      },
+      "id": "butter_block",
+      "label": "butter block",
+      "location": "0.45,0.15,0.60,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown glass",
+        "size": "small"
+      },
+      "id": "honey_bottle",
+      "label": "honey bottle",
+      "location": "0.00,0.00,0.20,0.40,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "plate",
+      "label": "plate",
+      "location": "0.05,0.25,0.95,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden handle",
+        "size": "medium"
+      },
+      "id": "fork",
+      "label": "fork",
+      "location": "0.75,0.20,0.95,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade with wooden handle",
+        "size": "medium"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.70,0.00,0.95,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "medium"
+      },
+      "id": "napkin",
+      "label": "napkin",
+      "location": "0.75,0.40,0.95,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange striped fabric",
+        "size": "large"
+      },
+      "id": "table_mats",
+      "label": "table mats",
+      "location": "0.00,0.00,1.00,1.00,0.6"
+    }
+  ]
+}

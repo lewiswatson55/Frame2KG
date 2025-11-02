@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "person1",
+      "target": "banner1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "background1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "logo1",
+      "target": "background1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "background1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text2",
+      "target": "background1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "text3",
+      "target": "logo1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red fabric",
+        "size": "large"
+      },
+      "id": "banner1",
+      "label": "Banner",
+      "location": "0.15,0.0,0.85,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black silhouette",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Person Silhouette",
+      "location": "0.4,0.1,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on red background",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "Subscribe Now Text",
+      "location": "0.3,0.2,0.7,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "multicolored gradient",
+        "size": "medium"
+      },
+      "id": "text2",
+      "label": "Caribbean Cuisine Text",
+      "location": "0.3,0.5,0.7,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black script",
+        "size": "small"
+      },
+      "id": "text3",
+      "label": "Chef Ricardo Text",
+      "location": "0.7,0.7,0.95,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey silhouette",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Chef Hat Logo",
+      "location": "0.8,0.7,0.95,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "solid red",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "Red Background",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

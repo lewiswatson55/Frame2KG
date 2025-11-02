@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "food1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "in",
+      "source": "basket1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "on",
+      "source": "basket1",
+      "target": "food1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden bubbling",
+        "size": "medium"
+      },
+      "id": "food1",
+      "label": "fried food",
+      "location": "0.35,0.25,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark brown liquid",
+        "size": "large"
+      },
+      "id": "oil1",
+      "label": "cooking oil",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal mesh",
+        "size": "medium"
+      },
+      "id": "basket1",
+      "label": "frying basket",
+      "location": "0.0,0.4,0.4,1.0,0.7"
+    }
+  ]
+}

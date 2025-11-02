@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "includes",
+      "source": "sandwich1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "includes",
+      "source": "sandwich1",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "includes",
+      "source": "sandwich1",
+      "target": "meat1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "behind",
+      "source": "background1",
+      "target": "sandwich1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.65,0.35,0.98,0.95,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bun with lettuce, cheese, meat",
+        "size": "large"
+      },
+      "id": "sandwich1",
+      "label": "Sandwich",
+      "location": "0.45,0.15,0.95,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce",
+      "location": "0.60,0.20,0.80,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow melted",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "Cheese",
+      "location": "0.55,0.35,0.75,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pinkish red cooked",
+        "size": "small"
+      },
+      "id": "meat1",
+      "label": "Meat",
+      "location": "0.50,0.30,0.70,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blurred purple gradient",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

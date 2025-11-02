@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "tomatoes1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "tomatoes1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "hand1",
+      "target": "tomatoes1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "text_box1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red slices",
+        "size": "medium"
+      },
+      "id": "tomatoes1",
+      "label": "sliced tomatoes",
+      "location": "0.05,0.45,0.35,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crispy",
+        "size": "small"
+      },
+      "id": "bacon1",
+      "label": "bacon strips",
+      "location": "0.45,0.45,0.65,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.3,0.6,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.0,0.8,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.0,0.0,0.4,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey background with black text",
+        "size": "large"
+      },
+      "id": "text_box1",
+      "label": "ingredients list",
+      "location": "0.6,0.0,1.0,1.0,0.9"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_stack",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_red_pepper",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "jar_olive_oil",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "blender",
+      "target": "countertop"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "window"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.0,0.48,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt with graphic",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.47,0.0,0.86,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal spatula with black handle",
+        "size": "small"
+      },
+      "id": "spatula",
+      "label": "spatula",
+      "location": "0.15,0.6,0.35,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread slices",
+        "size": "small"
+      },
+      "id": "bread_stack",
+      "label": "bread stack",
+      "location": "0.35,0.75,0.55,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red pepper pieces",
+        "size": "small"
+      },
+      "id": "bowl_red_pepper",
+      "label": "bowl of red pepper",
+      "location": "0.55,0.75,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar with green lid",
+        "size": "small"
+      },
+      "id": "jar_olive_oil",
+      "label": "olive oil jar",
+      "location": "0.75,0.7,0.85,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green plastic",
+        "size": "medium"
+      },
+      "id": "blender",
+      "label": "blender",
+      "location": "0.85,0.5,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass window with foliage view",
+        "size": "large"
+      },
+      "id": "window",
+      "label": "window",
+      "location": "0.0,0.0,0.5,0.6,0.7"
+    }
+  ]
+}

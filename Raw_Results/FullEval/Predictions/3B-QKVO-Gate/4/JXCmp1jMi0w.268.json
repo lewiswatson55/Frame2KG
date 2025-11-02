@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "frying_pan"
+    },
+    {
+      "predicate": "on",
+      "source": "frying_pan",
+      "target": "hot_plate"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "tray_with_chicken",
+      "target": "hot_plate"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_white",
+      "target": "chicken_stack"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl_white",
+      "target": "chicken_stack"
+    },
+    {
+      "predicate": "behind",
+      "source": "tray_with_chicken",
+      "target": "chicken_stack"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green striped shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.0,0.0,0.35,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "frying_pan",
+      "label": "frying pan",
+      "location": "0.45,0.0,0.75,0.25,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver foil",
+        "size": "large"
+      },
+      "id": "tray_with_chicken",
+      "label": "foil tray",
+      "location": "0.2,0.2,0.9,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken_stack",
+      "label": "fried chicken pieces",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl_white",
+      "label": "bowl of white powder",
+      "location": "0.0,0.5,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey plastic",
+        "size": "medium"
+      },
+      "id": "hot_plate",
+      "label": "hot plate",
+      "location": "0.3,0.1,0.7,0.3,0.8"
+    }
+  ]
+}

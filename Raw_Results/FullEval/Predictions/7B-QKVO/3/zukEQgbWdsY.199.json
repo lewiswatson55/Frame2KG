@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "pouring_into",
+      "source": "bowl1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "includes",
+      "source": "blender1",
+      "target": "herbs1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "measuring_cup1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "on",
+      "source": "plant_pot1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "blender1",
+      "target": "backsplash1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Person's Hand",
+      "location": "0.35,0.0,0.65,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.47,0.0,0.75,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "large"
+      },
+      "id": "blender1",
+      "label": "Blender Base",
+      "location": "0.35,0.3,0.75,0.9,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "herbs1",
+      "label": "Herbs",
+      "location": "0.45,0.4,0.65,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with red markings",
+        "size": "small"
+      },
+      "id": "measuring_cup1",
+      "label": "Measuring Cup",
+      "location": "0.0,0.7,0.3,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white tiled",
+        "size": "large"
+      },
+      "id": "backsplash1",
+      "label": "Tiled Backsplash",
+      "location": "0.0,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black ceramic",
+        "size": "medium"
+      },
+      "id": "plant_pot1",
+      "label": "Plant Pot",
+      "location": "0.75,0.1,0.95,0.4,0.8"
+    }
+  ]
+}

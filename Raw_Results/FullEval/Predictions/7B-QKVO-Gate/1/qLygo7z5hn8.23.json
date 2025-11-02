@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "hood1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "includes",
+      "source": "counter1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cabinet_left1",
+      "target": "cabinet_right1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "cabinet_right1",
+      "target": "counter1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow chef coat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Teenage Chef Justin Miller",
+      "location": "0.35,0.0,0.65,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "Gas Stove",
+      "location": "0.0,0.4,0.4,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "hood1",
+      "label": "Range Hood",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "large"
+      },
+      "id": "cabinet_left1",
+      "label": "Kitchen Cabinet Left",
+      "location": "0.0,0.7,0.3,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "grey metal",
+        "size": "large"
+      },
+      "id": "cabinet_right1",
+      "label": "Kitchen Cabinet Right",
+      "location": "0.7,0.7,1.0,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "dark grey granite",
+        "size": "medium"
+      },
+      "id": "counter1",
+      "label": "Countertop",
+      "location": "0.3,0.6,0.7,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "pan1",
+      "label": "Frying Pan",
+      "location": "0.1,0.4,0.3,0.6,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "Sink",
+      "location": "0.6,0.6,0.8,0.8,0.6"
+    }
+  ]
+}

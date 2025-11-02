@@ -1,0 +1,163 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in",
+      "source": "food1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "food2"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "behind",
+      "source": "tile_wall1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "Stove",
+      "location": "0.05,0.6,0.48,0.97,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black non-stick",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "Frying Pan",
+      "location": "0.03,0.65,0.5,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white rice",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "Rice Patty",
+      "location": "0.15,0.75,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.45,0.45,0.65,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown rice",
+        "size": "medium"
+      },
+      "id": "rice1",
+      "label": "Brown Rice",
+      "location": "0.5,0.5,0.65,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass baking dish with brown sauce",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "Baking Dish",
+      "location": "0.6,0.45,0.95,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden-brown chicken pieces",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "Chicken Pieces",
+      "location": "0.65,0.5,0.95,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.55,0.2,0.95,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white fluffy",
+        "size": "small"
+      },
+      "id": "food2",
+      "label": "Fluffy Food",
+      "location": "0.5,0.3,0.7,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "Blender Jar",
+      "location": "0.75,0.1,0.95,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "Jar",
+      "location": "0.9,0.1,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "Countertop",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white tiles with patterned accents",
+        "size": "large"
+      },
+      "id": "tile_wall1",
+      "label": "Tile Wall",
+      "location": "0.0,0.0,1.0,0.6,0.9"
+    }
+  ]
+}

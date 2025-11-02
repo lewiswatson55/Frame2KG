@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "food1"
+    },
+    {
+      "predicate": "in",
+      "source": "food1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "in",
+      "source": "basket1",
+      "target": "oil1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal mesh",
+        "size": "large"
+      },
+      "id": "basket1",
+      "label": "fryer basket",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "golden bubbling liquid",
+        "size": "medium"
+      },
+      "id": "oil1",
+      "label": "cooking oil",
+      "location": "0.0,0.3,1.0,1.0,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "white battered",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "fried food piece",
+      "location": "0.4,0.4,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.4,0.0,0.6,0.2,0.85"
+    }
+  ]
+}

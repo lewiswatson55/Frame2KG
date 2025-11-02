@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "tube1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "bottle2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red plastic tube with white label",
+        "size": "medium"
+      },
+      "id": "tube1",
+      "label": "Anchovy Paste Tube",
+      "location": "0.35,0.45,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "large"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.45,0.25,0.85,0.85,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass bottle",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "Green Glass Bottle",
+      "location": "0.0,0.3,0.2,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow glass bottle",
+        "size": "small"
+      },
+      "id": "bottle2",
+      "label": "Yellow Glass Bottle",
+      "location": "0.0,0.7,0.2,1.0,0.8"
+    }
+  ]
+}

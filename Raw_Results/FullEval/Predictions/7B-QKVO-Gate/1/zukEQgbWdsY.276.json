@@ -1,0 +1,262 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "holding",
+      "source": "person2",
+      "target": "sandwich2"
+    },
+    {
+      "predicate": "on",
+      "source": "sandwich3",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "blender",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "window"
+    },
+    {
+      "predicate": "behind",
+      "source": "oven",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "oven",
+      "target": "person2"
+    },
+    {
+      "predicate": "above",
+      "source": "shelf",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bottles",
+      "target": "shelf"
+    },
+    {
+      "predicate": "on",
+      "source": "pan",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "plate",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "glass_jars",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "sink",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "faucet",
+      "target": "sink"
+    },
+    {
+      "predicate": "on",
+      "source": "mixing_bowl",
+      "target": "countertop"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red hair beard black shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "short dark hair black t-shirt",
+        "size": "large"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.47,0.05,0.95,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "oven",
+      "label": "oven",
+      "location": "0.36,0.15,0.64,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "shelf",
+      "label": "shelf",
+      "location": "0.65,0.0,1.0,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "assorted glass bottles",
+        "size": "small"
+      },
+      "id": "bottles",
+      "label": "bottles",
+      "location": "0.7,0.0,0.95,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green plastic",
+        "size": "medium"
+      },
+      "id": "blender",
+      "label": "blender",
+      "location": "0.85,0.35,0.98,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "sink",
+      "label": "sink",
+      "location": "0.8,0.3,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "faucet",
+      "label": "faucet",
+      "location": "0.85,0.3,0.9,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "glass_jars",
+      "label": "jars",
+      "location": "0.75,0.3,0.85,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.6,0.6,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread with lettuce tomato",
+        "size": "small"
+      },
+      "id": "sandwich1",
+      "label": "sandwich",
+      "location": "0.3,0.6,0.45,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread with lettuce tomato",
+        "size": "small"
+      },
+      "id": "sandwich2",
+      "label": "sandwich",
+      "location": "0.55,0.6,0.7,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread with lettuce tomato",
+        "size": "small"
+      },
+      "id": "sandwich3",
+      "label": "sandwich",
+      "location": "0.65,0.65,0.8,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate",
+      "label": "plate",
+      "location": "0.3,0.75,0.6,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black cast iron",
+        "size": "medium"
+      },
+      "id": "pan",
+      "label": "skillet",
+      "location": "0.0,0.6,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue cloth",
+        "size": "small"
+      },
+      "id": "cloth",
+      "label": "dish towel",
+      "location": "0.25,0.6,0.4,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "window",
+      "label": "window",
+      "location": "0.0,0.0,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text",
+        "size": "small"
+      },
+      "id": "logo",
+      "label": "TASTED logo",
+      "location": "0.85,0.8,1.0,1.0,0.8"
+    }
+  ]
+}

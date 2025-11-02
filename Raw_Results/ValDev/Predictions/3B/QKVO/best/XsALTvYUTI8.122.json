@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "macaroni1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese_shreds1",
+      "target": "macaroni1"
+    },
+    {
+      "predicate": "holding",
+      "source": "spatula1",
+      "target": "cheese_shreds1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy sauce",
+        "size": "medium"
+      },
+      "id": "macaroni1",
+      "label": "macaroni pasta",
+      "location": "0.0,0.3,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange shredded",
+        "size": "small"
+      },
+      "id": "cheese_shreds1",
+      "label": "shredded cheese",
+      "location": "0.0,0.4,1.0,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.6,0.0,1.0,0.4,0.85"
+    }
+  ]
+}

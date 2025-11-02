@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "grater1"
+    },
+    {
+      "predicate": "in",
+      "source": "grater1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "shaker1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "jar1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "bowl2",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.3,0.6,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "grater1",
+      "label": "Grater",
+      "location": "0.0,0.0,0.7,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.2,0.2,0.8,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "shaker1",
+      "label": "Shaker",
+      "location": "0.8,0.7,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown glass",
+        "size": "medium"
+      },
+      "id": "jar1",
+      "label": "Jar",
+      "location": "0.75,0.0,0.95,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "multicolored ceramic",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "Decorative Bowl",
+      "location": "0.4,0.0,0.6,0.2,0.7"
+    }
+  ]
+}

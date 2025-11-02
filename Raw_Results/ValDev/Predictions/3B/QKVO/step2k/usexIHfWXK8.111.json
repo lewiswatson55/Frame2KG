@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "pepper1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "pepper1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl2",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.65,0.35,1.0,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic with red label",
+        "size": "small"
+      },
+      "id": "pepper1",
+      "label": "Ground Black Pepper Packet",
+      "location": "0.45,0.25,0.75,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "Glass Bowl",
+      "location": "0.0,0.0,0.5,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl2",
+      "label": "Glass Bowl",
+      "location": "0.5,0.0,1.0,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Wooden Cutting Board",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    }
+  ]
+}

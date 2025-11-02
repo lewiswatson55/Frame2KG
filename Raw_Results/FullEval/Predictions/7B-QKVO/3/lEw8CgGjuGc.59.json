@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "pile1"
+    },
+    {
+      "predicate": "includes",
+      "source": "pile1",
+      "target": "herb1"
+    },
+    {
+      "predicate": "includes",
+      "source": "pile1",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "pile1",
+      "target": "waterfall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.6,0.35,0.98,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "large"
+      },
+      "id": "pile1",
+      "label": "Pile of Herbs",
+      "location": "0.1,0.4,0.9,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white granular",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "Cheese",
+      "location": "0.4,0.5,0.6,0.7,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "herb1",
+      "label": "Herb Leaves",
+      "location": "0.2,0.4,0.8,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white mist",
+        "size": "large"
+      },
+      "id": "waterfall1",
+      "label": "Waterfall",
+      "location": "0.3,0.0,0.7,0.4,0.6"
+    }
+  ]
+}

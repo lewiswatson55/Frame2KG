@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "plate1",
+      "target": "herb_platter1"
+    },
+    {
+      "predicate": "behind",
+      "source": "herb_platter1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tomato_slice1",
+      "target": "herb_platter1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink raw ground meat",
+        "size": "medium"
+      },
+      "id": "patty1",
+      "label": "raw burger patty",
+      "location": "0.35,0.45,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "rectangular plate",
+      "location": "0.0,0.3,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "herb_platter1",
+      "label": "herb platter",
+      "location": "0.1,0.0,0.9,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red slice",
+        "size": "small"
+      },
+      "id": "tomato_slice1",
+      "label": "tomato slice",
+      "location": "0.8,0.0,1.0,0.2,0.8"
+    }
+  ]
+}

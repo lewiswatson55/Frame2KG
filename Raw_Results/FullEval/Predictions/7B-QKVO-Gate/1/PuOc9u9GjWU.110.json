@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "bowl_large"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_small",
+      "target": "table_red"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_large",
+      "target": "table_red"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_small",
+      "target": "bowl_large"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "bowl_large",
+      "label": "mixing bowl",
+      "location": "0.35,0.05,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow creamy",
+        "size": "medium"
+      },
+      "id": "bowl_small",
+      "label": "small bowl",
+      "location": "0.02,0.15,0.40,0.60,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "large"
+      },
+      "id": "table_red",
+      "label": "table surface",
+      "location": "0.00,0.00,1.00,1.00,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic red handle",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.60,0.05,0.98,0.70,0.8"
+    }
+  ]
+}

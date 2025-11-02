@@ -1,0 +1,150 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bread_left",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_right",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce",
+      "target": "bread_right"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon",
+      "target": "bread_right"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato1",
+      "target": "bread_right"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato2",
+      "target": "bread_right"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "pepper_grinder"
+    },
+    {
+      "predicate": "next_to",
+      "source": "hand1",
+      "target": "bread_right"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person_body",
+      "target": "tablecloth"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white cotton shirt",
+        "size": "large"
+      },
+      "id": "person_body",
+      "label": "Person torso",
+      "location": "0.35,0.0,0.65,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.55,0.0,0.95,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pepper_grinder",
+      "label": "Pepper grinder",
+      "location": "0.6,0.0,0.8,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "Cutting board",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue floral fabric",
+        "size": "large"
+      },
+      "id": "tablecloth",
+      "label": "Tablecloth",
+      "location": "0.0,0.4,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread",
+        "size": "medium"
+      },
+      "id": "bread_left",
+      "label": "Bread slice",
+      "location": "0.0,0.6,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread",
+        "size": "medium"
+      },
+      "id": "bread_right",
+      "label": "Bread slice",
+      "location": "0.4,0.6,0.8,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce",
+      "label": "Lettuce leaves",
+      "location": "0.45,0.65,0.6,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "crispy brown",
+        "size": "small"
+      },
+      "id": "bacon",
+      "label": "Bacon strips",
+      "location": "0.45,0.65,0.6,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red sliced",
+        "size": "small"
+      },
+      "id": "tomato1",
+      "label": "Tomato slices",
+      "location": "0.5,0.6,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red sliced",
+        "size": "small"
+      },
+      "id": "tomato2",
+      "label": "Tomato slices",
+      "location": "0.6,0.6,0.8,0.8,0.8"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken2",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken3",
+      "target": "pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "tongs1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "holding",
+      "source": "tongs1",
+      "target": "chicken3"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "breaded chicken piece",
+      "location": "0.05,0.05,0.48,0.36,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken2",
+      "label": "breaded chicken piece",
+      "location": "0.52,0.05,0.95,0.36,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "large"
+      },
+      "id": "chicken3",
+      "label": "breaded chicken piece",
+      "location": "0.05,0.45,0.75,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "kitchen tongs",
+      "location": "0.75,0.2,1.0,0.4,0.8"
+    }
+  ]
+}

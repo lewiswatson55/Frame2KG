@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "players_group"
+    },
+    {
+      "predicate": "behind",
+      "source": "players_group",
+      "target": "player1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue uniform",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman holding plate",
+      "location": "0.05,0.3,0.4,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate of wings",
+      "location": "0.1,0.4,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black and green uniforms",
+        "size": "large"
+      },
+      "id": "players_group",
+      "label": "football players group",
+      "location": "0.4,0.2,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black and white uniforms",
+        "size": "medium"
+      },
+      "id": "player1",
+      "label": "football player",
+      "location": "0.7,0.4,0.95,0.85,0.8"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken_wings",
+      "target": "tray"
+    },
+    {
+      "predicate": "in",
+      "source": "celery_sticks",
+      "target": "bowl_dipping_sauce"
+    },
+    {
+      "predicate": "next_to",
+      "source": "celery_sticks",
+      "target": "chicken_wings"
+    },
+    {
+      "predicate": "next_to",
+      "source": "dipping_sauce_bowl",
+      "target": "chicken_wings"
+    },
+    {
+      "predicate": "left_of",
+      "source": "towel",
+      "target": "tray"
+    },
+    {
+      "predicate": "behind",
+      "source": "glass_bottle",
+      "target": "tray"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red sauced",
+        "size": "medium"
+      },
+      "id": "chicken_wings",
+      "label": "Chicken Wings",
+      "location": "0.35,0.4,0.9,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green",
+        "size": "small"
+      },
+      "id": "celery_sticks",
+      "label": "Celery Sticks",
+      "location": "0.2,0.1,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark blue ceramic",
+        "size": "small"
+      },
+      "id": "bowl_dipping_sauce",
+      "label": "Dipping Sauce Bowl",
+      "location": "0.15,0.2,0.35,0.45,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy",
+        "size": "small"
+      },
+      "id": "dipping_sauce",
+      "label": "Dipping Sauce",
+      "location": "0.2,0.25,0.35,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tray",
+      "label": "Metal Tray",
+      "location": "0.2,0.3,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue cloth",
+        "size": "medium"
+      },
+      "id": "towel",
+      "label": "Towel",
+      "location": "0.0,0.6,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "glass_bottle",
+      "label": "Glass Bottle",
+      "location": "0.0,0.0,0.3,0.2,0.7"
+    }
+  ]
+}

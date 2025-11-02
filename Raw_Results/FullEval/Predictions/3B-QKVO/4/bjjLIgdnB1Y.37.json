@@ -1,0 +1,146 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "small_bowl"
+    },
+    {
+      "predicate": "in",
+      "source": "sugar1",
+      "target": "small_bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "small_bowl",
+      "target": "bowl_large1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "whisk1",
+      "target": "bowl_large1"
+    },
+    {
+      "predicate": "on",
+      "source": "cloth1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_small1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_medium1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_large1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "counter1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "behind",
+      "source": "countertop1",
+      "target": "counter1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "hands",
+      "location": "0.45,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "small_bowl",
+      "label": "small bowl of sugar",
+      "location": "0.35,0.0,0.75,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white granular",
+        "size": "small"
+      },
+      "id": "sugar1",
+      "label": "sugar",
+      "location": "0.4,0.1,0.7,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "large"
+      },
+      "id": "bowl_large1",
+      "label": "large mixing bowl",
+      "location": "0.2,0.2,0.8,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "whisk1",
+      "label": "whisk",
+      "location": "0.0,0.5,0.5,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white cloth",
+        "size": "medium"
+      },
+      "id": "cloth1",
+      "label": "towel",
+      "location": "0.2,0.5,0.6,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl_small1",
+      "label": "small bowl of nuts",
+      "location": "0.0,0.2,0.3,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl_medium1",
+      "label": "medium-sized bowl of nuts",
+      "location": "0.3,0.2,0.6,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown granite",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.0,1.0,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige marble",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    }
+  ]
+}

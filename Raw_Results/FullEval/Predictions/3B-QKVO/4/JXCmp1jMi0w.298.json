@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "hot_sauce1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "hot_sauce2",
+      "target": "hot_sauce1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "plate1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "fried chicken pieces",
+      "location": "0.05,0.6,0.75,0.98,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.4,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with green lettuce",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "salad bowl",
+      "location": "0.3,0.0,0.7,0.5,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow label red sauce",
+        "size": "large"
+      },
+      "id": "hot_sauce1",
+      "label": "Cholula hot sauce bottle",
+      "location": "0.65,0.0,0.9,0.9,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "red label orange sauce",
+        "size": "large"
+      },
+      "id": "hot_sauce2",
+      "label": "hot sauce bottle",
+      "location": "0.8,0.0,1.0,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "wooden table",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    }
+  ]
+}

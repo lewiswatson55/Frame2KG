@@ -1,0 +1,214 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "tongs"
+    },
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "lettuce"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce",
+      "target": "griddle"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife",
+      "target": "bread_slices"
+    },
+    {
+      "predicate": "left_of",
+      "source": "blender",
+      "target": "bottle_yellow"
+    },
+    {
+      "predicate": "right_of",
+      "source": "jar_white",
+      "target": "bottle_yellow"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "board_left",
+      "target": "griddle"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf",
+      "target": "person1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "pans",
+      "target": "shelf"
+    },
+    {
+      "predicate": "supports",
+      "source": "table",
+      "target": "plant_basket"
+    },
+    {
+      "predicate": "next_to",
+      "source": "board_right",
+      "target": "griddle"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "multicolored plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "griddle",
+      "label": "electric griddle",
+      "location": "0.45,0.7,0.75,0.95,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce",
+      "label": "lettuce",
+      "location": "0.5,0.6,0.6,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "tongs",
+      "label": "tongs",
+      "location": "0.45,0.5,0.55,0.65,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "small"
+      },
+      "id": "bread_slices",
+      "label": "bread slices",
+      "location": "0.3,0.75,0.45,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver blade black handle",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.2,0.75,0.3,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass green liquid",
+        "size": "medium"
+      },
+      "id": "blender",
+      "label": "blender",
+      "location": "0.0,0.5,0.2,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "bottle_yellow",
+      "label": "sauce bottle",
+      "location": "0.1,0.7,0.15,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic yellow lid",
+        "size": "small"
+      },
+      "id": "jar_white",
+      "label": "jar",
+      "location": "0.15,0.7,0.2,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "board_left",
+      "label": "cutting board",
+      "location": "0.0,0.75,0.3,0.95,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown bread",
+        "size": "medium"
+      },
+      "id": "bread_loaf",
+      "label": "bread loaf",
+      "location": "0.75,0.8,0.95,0.95,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "medium"
+      },
+      "id": "board_right",
+      "label": "cutting board",
+      "location": "0.7,0.75,0.95,0.95,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey brick",
+        "size": "large"
+      },
+      "id": "wall_shelf",
+      "label": "brick wall shelf",
+      "location": "0.0,0.0,0.7,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "hanging_pans",
+      "label": "hanging pans",
+      "location": "0.45,0.0,0.75,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame",
+        "size": "small"
+      },
+      "id": "framed_sign",
+      "label": "framed sign",
+      "location": "0.8,0.1,0.9,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves white pot",
+        "size": "small"
+      },
+      "id": "plant_basket",
+      "label": "potted plant",
+      "location": "0.85,0.5,0.95,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden table",
+        "size": "medium"
+      },
+      "id": "table",
+      "label": "table",
+      "location": "0.0,0.4,0.5,0.6,0.7"
+    }
+  ]
+}

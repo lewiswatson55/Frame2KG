@@ -1,0 +1,53 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "food1"
+    },
+    {
+      "predicate": "on",
+      "source": "food1",
+      "target": "person1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "team1"
+    },
+    {
+      "predicate": "behind",
+      "source": "team1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "purple uniform",
+        "size": "large"
+      },
+      "id": "team1",
+      "label": "football team",
+      "location": "0.35,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue purple jersey",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.0,0.4,0.3,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange sauce-coated",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "chicken wing",
+      "location": "0.1,0.45,0.3,0.6,0.8"
+    }
+  ]
+}

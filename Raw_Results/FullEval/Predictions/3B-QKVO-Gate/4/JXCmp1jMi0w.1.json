@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "spatula1",
+      "target": "food1"
+    },
+    {
+      "predicate": "in",
+      "source": "food1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "in",
+      "source": "oil1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.05,0.3,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "bubbling clear liquid",
+        "size": "medium"
+      },
+      "id": "oil1",
+      "label": "hot oil",
+      "location": "0.1,0.4,0.9,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "fried food pieces",
+      "location": "0.2,0.45,0.8,0.65,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "red silicone handle silver metal head",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "silicone spatula",
+      "location": "0.0,0.0,0.5,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic orange tip",
+        "size": "small"
+      },
+      "id": "handle1",
+      "label": "kitchen utensil handle",
+      "location": "0.75,0.0,1.0,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic gray",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop burner",
+      "location": "0.0,0.85,1.0,1.0,0.6"
+    }
+  ]
+}

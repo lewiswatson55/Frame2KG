@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "glove1",
+      "target": "food1"
+    },
+    {
+      "predicate": "in",
+      "source": "food1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "in",
+      "source": "food2",
+      "target": "oil1"
+    },
+    {
+      "predicate": "on",
+      "source": "oil1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white latex",
+        "size": "medium"
+      },
+      "id": "glove1",
+      "label": "Gloved Hand",
+      "location": "0.35,0.0,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown battered",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "Fried Food Piece",
+      "location": "0.45,0.15,0.65,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown battered",
+        "size": "small"
+      },
+      "id": "food2",
+      "label": "Fried Food Piece",
+      "location": "0.65,0.45,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "Frying Pan",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "bubbling yellowish",
+        "size": "large"
+      },
+      "id": "oil1",
+      "label": "Cooking Oil",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

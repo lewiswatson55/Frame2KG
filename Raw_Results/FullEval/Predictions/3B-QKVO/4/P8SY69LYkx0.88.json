@@ -1,0 +1,280 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in",
+      "source": "meat1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cheese1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "shelves1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "rack1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "clock1",
+      "target": "person1"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "board1"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "bowl3"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "bowl4"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "utensil1"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "towel1"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "scale1"
+    },
+    {
+      "predicate": "supports",
+      "source": "counter1",
+      "target": "tray1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white chef coat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.45,0.0,0.75,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "metal shelf",
+      "location": "0.0,0.0,1.0,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jars with spices",
+        "size": "small"
+      },
+      "id": "jars1",
+      "label": "spice jars",
+      "location": "0.0,0.15,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce",
+      "location": "0.35,0.45,0.45,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red tomatoes",
+        "size": "small"
+      },
+      "id": "tomatoes1",
+      "label": "tomatoes",
+      "location": "0.45,0.45,0.55,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.3,0.7,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "mixing bowl",
+      "location": "0.45,0.75,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink ground meat",
+        "size": "small"
+      },
+      "id": "meat1",
+      "label": "ground meat",
+      "location": "0.45,0.75,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cheese",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "cheese block",
+      "location": "0.4,0.8,0.5,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "glass bowl",
+      "location": "0.0,0.75,0.2,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl3",
+      "label": "glass bowl",
+      "location": "0.2,0.75,0.4,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl4",
+      "label": "glass bowl",
+      "location": "0.4,0.75,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.5,0.3,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "wooden plate",
+      "location": "0.6,0.5,0.8,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal",
+        "size": "small"
+      },
+      "id": "utensil1",
+      "label": "spoon",
+      "location": "0.5,0.7,0.6,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue cloth",
+        "size": "small"
+      },
+      "id": "towel1",
+      "label": "cloth towel",
+      "location": "0.6,0.8,0.7,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "rack1",
+      "label": "baking rack",
+      "location": "0.75,0.2,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "clock1",
+      "label": "wall clock",
+      "location": "0.6,0.0,0.7,0.15,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "scale1",
+      "label": "scale",
+      "location": "0.8,0.7,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal tray",
+        "size": "small"
+      },
+      "id": "tray1",
+      "label": "tray",
+      "location": "0.75,0.5,0.9,0.7,0.8"
+    }
+  ]
+}

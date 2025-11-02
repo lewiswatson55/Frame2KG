@@ -1,0 +1,165 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle2",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar2",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "lemon1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "avocado1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "blender1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "jar1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bottle2",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand1",
+      "target": "bottle2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "olive oil bottle",
+      "location": "0.35,0.18,0.47,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden metal cap",
+        "size": "medium"
+      },
+      "id": "bottle2",
+      "label": "wine bottle",
+      "location": "0.47,0.18,0.59,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue plastic",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "sauce jar",
+      "location": "0.00,0.55,0.15,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "jar2",
+      "label": "sauce jar",
+      "location": "0.15,0.55,0.28,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "lemon",
+      "location": "0.28,0.75,0.38,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black",
+        "size": "small"
+      },
+      "id": "avocado1",
+      "label": "avocado half",
+      "location": "0.38,0.75,0.50,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver blade black handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.50,0.75,0.70,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "large"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.00,0.00,0.30,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.60,0.00,0.95,0.40,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.40,0.40,0.95,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.00,0.60,1.00,1.00,0.7"
+    }
+  ]
+}

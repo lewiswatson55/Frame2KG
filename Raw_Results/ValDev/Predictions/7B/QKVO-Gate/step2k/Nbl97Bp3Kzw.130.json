@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "vase1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper_shaker1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper_shaker2",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "curtain1",
+      "target": "shelf1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "grey hair grey beard wearing dark jacket and t-shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.0,1.0,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "white wooden",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "wall shelf",
+      "location": "0.0,0.0,0.45,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue ceramic",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "vase",
+      "location": "0.3,0.2,0.4,0.4,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "pepper_shaker1",
+      "label": "pepper shaker",
+      "location": "0.27,0.5,0.32,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "pepper_shaker2",
+      "label": "pepper shaker",
+      "location": "0.32,0.5,0.37,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green patterned fabric",
+        "size": "large"
+      },
+      "id": "curtain1",
+      "label": "curtain",
+      "location": "0.6,0.0,1.0,1.0,0.9"
+    }
+  ]
+}

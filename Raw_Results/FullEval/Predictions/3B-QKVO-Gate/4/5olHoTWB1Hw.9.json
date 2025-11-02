@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "cheese1",
+      "target": "cheese2"
+    },
+    {
+      "predicate": "behind",
+      "source": "cheese3",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "cheese4",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cheese5",
+      "target": "cheese6"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red plastic packaging with yellow cheese image",
+        "size": "medium"
+      },
+      "id": "cheese1",
+      "label": "Sharp Cheddar Cheese Packet",
+      "location": "0.15,0.35,0.75,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cardboard box with red and white text",
+        "size": "large"
+      },
+      "id": "cheese2",
+      "label": "Velveeta Cheese Box",
+      "location": "0.35,0.0,0.75,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white and green cardboard box with blue and red text",
+        "size": "small"
+      },
+      "id": "cheese3",
+      "label": "Schepps Cheese Box",
+      "location": "0.0,0.0,0.3,0.3,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "blue and white cardboard box with red and white text",
+        "size": "small"
+      },
+      "id": "cheese4",
+      "label": "Heritage Heritage Cheese Box",
+      "location": "0.0,0.3,0.3,0.6,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "green and orange cardboard box with red and yellow text",
+        "size": "medium"
+      },
+      "id": "cheese5",
+      "label": "New York Style Cheese Bites Bag",
+      "location": "0.6,0.4,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic bag with yellow pasta pieces",
+        "size": "medium"
+      },
+      "id": "cheese6",
+      "label": "Pasta Bag",
+      "location": "0.6,0.0,1.0,0.5,0.7"
+    }
+  ]
+}

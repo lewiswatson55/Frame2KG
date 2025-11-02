@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "bun1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato1",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "logo1",
+      "target": "burger1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown bun with lettuce and patty",
+        "size": "large"
+      },
+      "id": "burger1",
+      "label": "Cheeseburger",
+      "location": "0.05,0.0,0.98,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on white background",
+        "size": "medium"
+      },
+      "id": "logo1",
+      "label": "Get The Dish Logo",
+      "location": "0.27,0.06,0.74,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce Leaf",
+      "location": "0.15,0.15,0.85,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red slice",
+        "size": "small"
+      },
+      "id": "tomato1",
+      "label": "Tomato Slice",
+      "location": "0.6,0.3,0.98,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beef patty with melted cheese",
+        "size": "medium"
+      },
+      "id": "patty1",
+      "label": "Beef Patty",
+      "location": "0.3,0.4,0.9,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow melted",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "Melted Cheese",
+      "location": "0.4,0.45,0.9,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown bread",
+        "size": "medium"
+      },
+      "id": "bun1",
+      "label": "Bun Top",
+      "location": "0.0,0.0,1.0,0.2,0.8"
+    }
+  ]
+}

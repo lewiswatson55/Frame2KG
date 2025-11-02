@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "whisk1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "whisk1",
+      "target": "cloth1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.45,0.0,0.98,0.36,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal wires",
+        "size": "large"
+      },
+      "id": "whisk1",
+      "label": "Whisk",
+      "location": "0.35,0.25,0.98,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red fabric",
+        "size": "large"
+      },
+      "id": "cloth1",
+      "label": "Red Cloth",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

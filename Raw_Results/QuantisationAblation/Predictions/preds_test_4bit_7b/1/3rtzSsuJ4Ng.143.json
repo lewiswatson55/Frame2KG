@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "on",
+      "source": "spoon1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "in",
+      "source": "mayo1",
+      "target": "glass1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tongs1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "plate1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "lettuce1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "behind",
+      "source": "person1",
+      "target": "sandwich1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.35,0.0,0.65,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.0,0.0,0.4,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown grilled",
+        "size": "small"
+      },
+      "id": "toast1",
+      "label": "Toast",
+      "location": "0.05,0.15,0.3,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate2",
+      "label": "Plate",
+      "location": "0.4,0.3,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "tomato slices with bacon and mayo",
+        "size": "medium"
+      },
+      "id": "sandwich1",
+      "label": "Sandwich",
+      "location": "0.45,0.35,0.55,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic black handle",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "Tongs",
+      "location": "0.0,0.6,0.2,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "glass1",
+      "label": "Glass Bowl",
+      "location": "0.6,0.2,0.75,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow creamy",
+        "size": "small"
+      },
+      "id": "mayo1",
+      "label": "Mayonnaise",
+      "location": "0.62,0.25,0.72,0.38,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce Leaf",
+      "location": "0.75,0.35,0.9,0.5,0.8"
+    }
+  ]
+}

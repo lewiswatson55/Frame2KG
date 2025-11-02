@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "egg1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand2",
+      "target": "egg1"
+    },
+    {
+      "predicate": "on",
+      "source": "egg1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "fork1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "eggs2",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bowl2",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "left hand",
+      "location": "0.35,0.4,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand2",
+      "label": "right hand",
+      "location": "0.65,0.4,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white smooth",
+        "size": "small"
+      },
+      "id": "egg1",
+      "label": "egg shell",
+      "location": "0.47,0.45,0.53,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.3,0.1,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "fork1",
+      "label": "fork",
+      "location": "0.0,0.1,0.15,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl2",
+      "label": "glass bowl",
+      "location": "0.75,0.2,1.0,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white smooth",
+        "size": "small"
+      },
+      "id": "eggs2",
+      "label": "eggs",
+      "location": "0.78,0.3,0.98,0.7,0.8"
+    }
+  ]
+}

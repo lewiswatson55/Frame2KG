@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "knob1",
+      "target": "knob2"
+    },
+    {
+      "predicate": "left_of",
+      "source": "switch1",
+      "target": "knob2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "light1",
+      "target": "knob2"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "indicator1",
+      "target": "knob2"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "indicator2",
+      "target": "knob1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "light1",
+      "target": "wall1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "knob1",
+      "label": "Control Knob",
+      "location": "0.05,0.3,0.48,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "knob2",
+      "label": "Control Knob",
+      "location": "0.48,0.25,0.85,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "switch1",
+      "label": "Toggle Switch",
+      "location": "0.55,0.0,0.85,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red light",
+        "size": "small"
+      },
+      "id": "light1",
+      "label": "Indicator Light",
+      "location": "0.0,0.8,0.2,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black dots on white background",
+        "size": "small"
+      },
+      "id": "indicator1",
+      "label": "Indicator Dots",
+      "location": "0.45,0.0,0.6,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black dots on white background",
+        "size": "small"
+      },
+      "id": "indicator2",
+      "label": "Indicator Dots",
+      "location": "0.0,0.8,0.2,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark brown wood",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "Wall Panel",
+      "location": "0.8,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

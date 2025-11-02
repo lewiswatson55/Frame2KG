@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "chef_head",
+      "target": "red_background"
+    },
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "chef_head"
+    },
+    {
+      "predicate": "on",
+      "source": "text2",
+      "target": "chef_head"
+    },
+    {
+      "predicate": "left_of",
+      "source": "text1",
+      "target": "text2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black chef hat on red background",
+        "size": "medium"
+      },
+      "id": "chef_head",
+      "label": "Chef Head Icon",
+      "location": "0.35,0.45,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "Master Text",
+      "location": "0.38,0.25,0.62,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "small"
+      },
+      "id": "text2",
+      "label": "Chef Text",
+      "location": "0.38,0.75,0.62,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red",
+        "size": "medium"
+      },
+      "id": "red_background",
+      "label": "Red Background",
+      "location": "0.35,0.45,0.65,0.75,0.8"
+    }
+  ]
+}

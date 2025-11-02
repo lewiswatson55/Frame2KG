@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "meatball1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "meatball1",
+      "target": "glass1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue floral shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.35,0.0,1.0,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "small"
+      },
+      "id": "meatball1",
+      "label": "Meatball",
+      "location": "0.47,0.26,0.53,0.35,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "glass1",
+      "label": "Glass",
+      "location": "0.0,0.8,0.2,1.0,0.8"
+    }
+  ]
+}

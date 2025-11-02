@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "crumb_layer1",
+      "target": "cheese_layer1"
+    },
+    {
+      "predicate": "in",
+      "source": "cheese_layer1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crumbly",
+        "size": "large"
+      },
+      "id": "crumb_layer1",
+      "label": "crumb topping",
+      "location": "0.0,0.35,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow melted",
+        "size": "medium"
+      },
+      "id": "cheese_layer1",
+      "label": "melted cheese",
+      "location": "0.0,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "baking pan",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

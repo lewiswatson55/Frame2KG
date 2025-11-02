@@ -1,0 +1,127 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "tongs1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_salt1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "behind",
+      "source": "lemon_half1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "jar1",
+      "target": "lemon_half1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "spoon1",
+      "target": "lemon_half1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "tongs1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "croutons1",
+      "target": "bread1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.65,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "Tongs",
+      "location": "0.7,0.1,1.0,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted brown",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "Bread Slice",
+      "location": "0.3,0.5,0.5,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white granules",
+        "size": "small"
+      },
+      "id": "bowl_salt1",
+      "label": "Salt Bowl",
+      "location": "0.0,0.6,0.3,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "lemon_half1",
+      "label": "Lemon Half",
+      "location": "0.2,0.2,0.4,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "medium"
+      },
+      "id": "jar1",
+      "label": "Jar",
+      "location": "0.1,0.0,0.3,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.0,0.3,0.2,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "croutons1",
+      "label": "Croutons",
+      "location": "0.7,0.6,1.0,0.9,0.8"
+    }
+  ]
+}

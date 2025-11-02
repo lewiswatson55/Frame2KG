@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "hotplate1"
+    },
+    {
+      "predicate": "in",
+      "source": "buns1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pepper_grinder1",
+      "target": "salt_shaker1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "pepper_grinder1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "spatula1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.05,0.3,0.98,0.67,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown sesame seeds",
+        "size": "medium"
+      },
+      "id": "buns1",
+      "label": "bread buns",
+      "location": "0.1,0.4,0.8,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.3,0.0,0.7,0.5,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "pepper_grinder1",
+      "label": "pepper grinder",
+      "location": "0.0,0.6,0.15,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "salt_shaker1",
+      "label": "salt shaker",
+      "location": "0.15,0.6,0.25,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "hotplate1",
+      "label": "portable hot plate",
+      "location": "0.0,0.6,0.6,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red silicone",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.75,0.6,1.0,0.9,0.8"
+    }
+  ]
+}

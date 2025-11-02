@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "on",
+      "source": "text_subscribe",
+      "target": "frame1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "frame1",
+      "target": "frame2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "frame3",
+      "target": "frame2"
+    },
+    {
+      "predicate": "includes",
+      "source": "frame3",
+      "target": "like_button"
+    },
+    {
+      "predicate": "above",
+      "source": "text_hosted",
+      "target": "frame3"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.05,0.6,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow border",
+        "size": "large"
+      },
+      "id": "frame1",
+      "label": "subscribe frame",
+      "location": "0.0,0.0,0.7,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue border",
+        "size": "medium"
+      },
+      "id": "frame2",
+      "label": "thumbs up frame",
+      "location": "0.4,0.4,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on white background",
+        "size": "small"
+      },
+      "id": "text_subscribe",
+      "label": "Please SUBSCRIBE! text",
+      "location": "0.05,0.6,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "color photo",
+        "size": "small"
+      },
+      "id": "frame3",
+      "label": "kitchen photo",
+      "location": "0.6,0.0,0.9,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black text",
+        "size": "small"
+      },
+      "id": "text_hosted",
+      "label": "Hosted by Laura Vitale text",
+      "location": "0.6,0.3,0.9,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue thumbs-up icon",
+        "size": "small"
+      },
+      "id": "like_button",
+      "label": "LIKE button",
+      "location": "0.5,0.7,0.7,0.9,0.8"
+    }
+  ]
+}

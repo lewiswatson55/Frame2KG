@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "on",
+      "source": "frame1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "shelf1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "long brown hair red shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.0,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "beige painted",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.45,0.0,1.0,1.0,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame gold border",
+        "size": "small"
+      },
+      "id": "frame1",
+      "label": "picture frame",
+      "location": "0.0,0.0,0.3,0.3,0.75"
+    },
+    {
+      "attributes": {
+        "appearance": "glass shelves with books",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "bookshelf",
+      "location": "0.75,0.6,1.0,1.0,0.80"
+    }
+  ]
+}

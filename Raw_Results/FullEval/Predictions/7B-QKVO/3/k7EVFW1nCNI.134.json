@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "food_processor1"
+    },
+    {
+      "predicate": "in",
+      "source": "mixture1",
+      "target": "food_processor1"
+    },
+    {
+      "predicate": "on",
+      "source": "lid1",
+      "target": "food_processor1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.05,0.0,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red silicone",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "Spatula",
+      "location": "0.45,0.05,0.75,0.35,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic white base",
+        "size": "medium"
+      },
+      "id": "food_processor1",
+      "label": "Food Processor",
+      "location": "0.3,0.3,0.7,0.9,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "creamy white",
+        "size": "small"
+      },
+      "id": "mixture1",
+      "label": "Mixture",
+      "location": "0.45,0.4,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "lid1",
+      "label": "Lid",
+      "location": "0.35,0.2,0.65,0.4,0.85"
+    }
+  ]
+}

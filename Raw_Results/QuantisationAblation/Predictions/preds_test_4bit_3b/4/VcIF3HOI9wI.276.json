@@ -1,0 +1,103 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "window1",
+      "target": "curtain1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "shelf1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "plant1",
+      "target": "window1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.00,0.00,0.35,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.00,0.60,0.35,0.90,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown skin",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.00,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread filling",
+        "size": "small"
+      },
+      "id": "sandwich1",
+      "label": "sandwich",
+      "location": "0.45,0.30,0.75,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "medium"
+      },
+      "id": "plant1",
+      "label": "potted plant",
+      "location": "0.20,0.20,0.40,0.60,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark curtain",
+        "size": "medium"
+      },
+      "id": "curtain1",
+      "label": "curtains",
+      "location": "0.40,0.00,0.60,0.60,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass window",
+        "size": "medium"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.20,0.00,0.60,0.40,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white shelf with bottles",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.80,0.40,1.00,0.80,0.7"
+    }
+  ]
+}

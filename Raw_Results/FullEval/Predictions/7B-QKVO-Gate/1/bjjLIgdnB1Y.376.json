@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "spatula1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in",
+      "source": "batter1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "on",
+      "source": "batter1",
+      "target": "pan1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black speckled non-stick",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic handle red silicone head",
+        "size": "medium"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.05,0.0,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pale yellow liquid",
+        "size": "small"
+      },
+      "id": "batter1",
+      "label": "egg batter",
+      "location": "0.4,0.1,0.7,0.3,0.8"
+    }
+  ]
+}

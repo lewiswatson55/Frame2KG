@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "label1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "on",
+      "source": "label2",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "text1",
+      "target": "text2"
+    },
+    {
+      "predicate": "above",
+      "source": "line1",
+      "target": "text1"
+    },
+    {
+      "predicate": "below",
+      "source": "line2",
+      "target": "text2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red glass bottle with red label",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "hot sauce bottle",
+      "location": "0.05,0.0,0.35,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on red background",
+        "size": "small"
+      },
+      "id": "label1",
+      "label": "Frank's RedHot logo",
+      "location": "0.1,0.4,0.3,0.6,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on white background",
+        "size": "small"
+      },
+      "id": "label2",
+      "label": "Original text",
+      "location": "0.1,0.7,0.3,0.9,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "grey sans-serif font",
+        "size": "large"
+      },
+      "id": "text1",
+      "label": "CAYENNE RED PEPPERS",
+      "location": "0.35,0.2,0.6,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey sans-serif font",
+        "size": "large"
+      },
+      "id": "text2",
+      "label": "WATER DISTILLED VINEGAR",
+      "location": "0.65,0.2,0.9,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow line",
+        "size": "small"
+      },
+      "id": "line1",
+      "label": "horizontal yellow line",
+      "location": "0.35,0.4,0.65,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue vertical line",
+        "size": "small"
+      },
+      "id": "line2",
+      "label": "vertical blue line",
+      "location": "0.65,0.2,0.68,0.8,0.8"
+    }
+  ]
+}

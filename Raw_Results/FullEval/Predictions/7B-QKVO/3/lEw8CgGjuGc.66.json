@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "lettuce1",
+      "target": "meat1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown crust",
+        "size": "large"
+      },
+      "id": "bread1",
+      "label": "Bread Slice",
+      "location": "0.05,0.3,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce Leaves",
+      "location": "0.0,0.7,0.4,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw",
+        "size": "medium"
+      },
+      "id": "meat1",
+      "label": "Ground Meat",
+      "location": "0.6,0.0,1.0,0.6,0.7"
+    }
+  ]
+}

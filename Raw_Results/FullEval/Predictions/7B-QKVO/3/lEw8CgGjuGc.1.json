@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "play_button",
+      "target": "plate_meat"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate_apples",
+      "target": "plate_meat"
+    },
+    {
+      "predicate": "right_of",
+      "source": "jar_peaches",
+      "target": "plate_apples"
+    },
+    {
+      "predicate": "above",
+      "source": "plate_bread",
+      "target": "jar_peaches"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white circle with black triangle",
+        "size": "medium"
+      },
+      "id": "play_button",
+      "label": "Play Button",
+      "location": "0.45,0.6,0.55,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue plate with red and green apple slices and white dip",
+        "size": "small"
+      },
+      "id": "plate_apples",
+      "label": "Plate of Apple Slices",
+      "location": "0.3,0.2,0.5,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plate with grilled meat and red sauce",
+        "size": "small"
+      },
+      "id": "plate_meat",
+      "label": "Plate of Grilled Meat",
+      "location": "0.3,0.5,0.5,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "colorful patterned plate with bread slice",
+        "size": "small"
+      },
+      "id": "plate_bread",
+      "label": "Plate of Bread Slice",
+      "location": "0.6,0.0,0.8,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent jar filled with peach slices",
+        "size": "small"
+      },
+      "id": "jar_peaches",
+      "label": "Jar of Peach Slices",
+      "location": "0.75,0.25,0.95,0.5,0.8"
+    }
+  ]
+}

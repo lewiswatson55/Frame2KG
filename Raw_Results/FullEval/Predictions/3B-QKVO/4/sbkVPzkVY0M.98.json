@@ -1,0 +1,220 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomatoes1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "burner1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "fridge1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "spice_jars1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "artwork1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "artwork2"
+    },
+    {
+      "predicate": "behind",
+      "source": "plant1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "pot_holder1",
+      "target": "burner1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "peppers1",
+      "target": "tomatoes1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "peppers1",
+      "target": "lettuce1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.45,0.0,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.6,0.7,0.75,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.3,0.75,0.7,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce",
+      "location": "0.65,0.75,0.8,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red sliced",
+        "size": "small"
+      },
+      "id": "tomatoes1",
+      "label": "tomatoes",
+      "location": "0.7,0.75,0.85,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.75,0.6,0.95,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "burner1",
+      "label": "hot plate burner",
+      "location": "0.75,0.6,0.95,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "food processor",
+      "location": "0.35,0.6,0.45,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass yellow",
+        "size": "small"
+      },
+      "id": "spice_jars1",
+      "label": "spice jars",
+      "location": "0.2,0.5,0.3,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "fruit bowl",
+      "location": "0.0,0.5,0.2,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "medium"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.3,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "potted plant",
+      "location": "0.1,0.1,0.2,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "colorful abstract",
+        "size": "medium"
+      },
+      "id": "artwork1",
+      "label": "abstract artwork",
+      "location": "0.6,0.0,0.8,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "colorful abstract",
+        "size": "medium"
+      },
+      "id": "artwork2",
+      "label": "abstract artwork",
+      "location": "0.8,0.0,1.0,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "peppers1",
+      "label": "pepper shakers",
+      "location": "0.9,0.5,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "pot_holder1",
+      "label": "pot holder",
+      "location": "0.85,0.7,0.95,0.85,0.8"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "flour1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bag1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "person1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bag1",
+      "target": "tray1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green and white striped shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.0,0.0,0.5,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown paper bag with red logo",
+        "size": "medium"
+      },
+      "id": "bag1",
+      "label": "Paper Bag",
+      "location": "0.4,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal tray",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "Baking Tray",
+      "location": "0.0,0.6,0.7,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "flour1",
+      "label": "Flour",
+      "location": "0.0,0.6,0.7,0.9,0.8"
+    }
+  ]
+}

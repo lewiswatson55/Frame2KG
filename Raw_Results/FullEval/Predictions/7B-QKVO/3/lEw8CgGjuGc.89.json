@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand_left",
+      "target": "meatball"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand_right",
+      "target": "meatball"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "meatball",
+      "target": "bowl"
+    },
+    {
+      "predicate": "behind",
+      "source": "background_greenery",
+      "target": "hands"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand_left",
+      "label": "left hand",
+      "location": "0.05,0.15,0.65,0.48,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand_right",
+      "label": "right hand",
+      "location": "0.35,0.25,0.75,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pinkish red with green specks",
+        "size": "small"
+      },
+      "id": "meatball",
+      "label": "raw meatball",
+      "location": "0.45,0.35,0.65,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl",
+      "label": "glass bowl",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blurred green foliage",
+        "size": "large"
+      },
+      "id": "background_greenery",
+      "label": "greenery background",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

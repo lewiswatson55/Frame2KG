@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "background1"
+    },
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "background1"
+    },
+    {
+      "predicate": "on",
+      "source": "text_caribbean_cuisine",
+      "target": "logo1"
+    },
+    {
+      "predicate": "on",
+      "source": "text_chef_ricardo",
+      "target": "background1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "text_caribbean_cuisine",
+      "target": "text_chef_ricardo"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white chef coat",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.35,0.05,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange gradient",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "background",
+      "location": "0.28,0.0,0.72,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "multicolor rainbow",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "logo",
+      "location": "0.4,0.6,0.6,0.8,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on white background",
+        "size": "small"
+      },
+      "id": "text_caribbean_cuisine",
+      "label": "title_text",
+      "location": "0.35,0.6,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black text",
+        "size": "small"
+      },
+      "id": "text_chef_ricardo",
+      "label": "subtitle_text",
+      "location": "0.6,0.75,0.95,0.95,0.9"
+    }
+  ]
+}

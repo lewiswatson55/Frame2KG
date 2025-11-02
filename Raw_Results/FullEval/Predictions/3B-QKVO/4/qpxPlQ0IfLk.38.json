@@ -1,0 +1,141 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "cutting",
+      "source": "knife1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "lemon1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper_shaker1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "salt_shaker1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle2",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "board1",
+      "target": "grill1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "multicolored plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.45,0.0,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic handle",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.6,0.3,0.75,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crust",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "bread loaf",
+      "location": "0.55,0.5,0.75,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "wooden cutting board",
+      "location": "0.0,0.4,0.8,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow citrus",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "lemon",
+      "location": "0.1,0.5,0.2,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown ceramic",
+        "size": "small"
+      },
+      "id": "salt_shaker1",
+      "label": "salt shaker",
+      "location": "0.05,0.6,0.2,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown ceramic",
+        "size": "small"
+      },
+      "id": "pepper_shaker1",
+      "label": "pepper shaker",
+      "location": "0.2,0.6,0.35,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "alcohol bottle",
+      "location": "0.0,0.0,0.2,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "gold metal",
+        "size": "medium"
+      },
+      "id": "bottle2",
+      "label": "oil bottle",
+      "location": "0.2,0.0,0.3,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "grill1",
+      "label": "grill",
+      "location": "0.0,0.7,1.0,1.0,0.9"
+    }
+  ]
+}

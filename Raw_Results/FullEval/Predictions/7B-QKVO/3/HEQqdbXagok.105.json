@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "batter1"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken2",
+      "target": "batter1"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula1",
+      "target": "batter1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.0,0.45,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white battered",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "Chicken piece",
+      "location": "0.3,0.1,0.7,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white battered",
+        "size": "small"
+      },
+      "id": "chicken2",
+      "label": "Chicken piece",
+      "location": "0.5,0.2,0.9,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "large"
+      },
+      "id": "spatula1",
+      "label": "Spatula",
+      "location": "0.4,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy",
+        "size": "large"
+      },
+      "id": "batter1",
+      "label": "Batter",
+      "location": "0.0,0.3,1.0,1.0,0.9"
+    }
+  ]
+}

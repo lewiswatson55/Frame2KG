@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "on",
+      "source": "spoon1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato_slices1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon_strips1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "sauce_bowl1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tongs1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bread_slice1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "lettuce_leaf1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "bare arms",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.35,0.0,0.65,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.35,0.35,0.75,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread",
+        "size": "small"
+      },
+      "id": "bread_slice1",
+      "label": "bread slice",
+      "location": "0.05,0.25,0.25,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "kitchen tongs",
+      "location": "0.0,0.6,0.25,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce_leaf1",
+      "label": "lettuce leaves",
+      "location": "0.75,0.45,0.95,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bowl with yellow sauce",
+        "size": "small"
+      },
+      "id": "sauce_bowl1",
+      "label": "bowl of sauce",
+      "location": "0.6,0.3,0.75,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal spoon with sauce",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "spoon",
+      "location": "0.4,0.2,0.5,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red slices",
+        "size": "small"
+      },
+      "id": "tomato_slices1",
+      "label": "tomato slices",
+      "location": "0.4,0.4,0.6,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "crispy strips",
+        "size": "small"
+      },
+      "id": "bacon_strips1",
+      "label": "bacon strips",
+      "location": "0.4,0.4,0.6,0.6,0.9"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "star_clusters",
+      "target": "background"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "star_clusters",
+      "target": "text1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white text on black background",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "thanks for watching text",
+      "location": "0.35,0.45,0.65,0.55,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "glittering white stars",
+        "size": "large"
+      },
+      "id": "star_clusters",
+      "label": "star clusters",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "black background",
+      "location": "0.0,0.0,1.0,1.0,0.99"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_slices",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "salad_plate",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "knife",
+      "target": "table"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "board",
+      "target": "tv_screen"
+    },
+    {
+      "predicate": "behind",
+      "source": "curtain_left",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "curtain_right",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "table",
+      "target": "window_frame"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "short brown hair, turquoise shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.1,0.45,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "long dark hair, green dress",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.55,0.1,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink background with logo",
+        "size": "large"
+      },
+      "id": "tv_screen",
+      "label": "television screen",
+      "location": "0.3,0.0,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.1,0.6,0.4,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread slices",
+        "size": "small"
+      },
+      "id": "bread_slices",
+      "label": "bread slices",
+      "location": "0.15,0.65,0.35,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with salad",
+        "size": "small"
+      },
+      "id": "salad_plate",
+      "label": "salad plate",
+      "location": "0.35,0.6,0.5,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "bowl",
+      "label": "bowl",
+      "location": "0.25,0.6,0.35,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade on wooden handle",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.05,0.7,0.2,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green cloth",
+        "size": "medium"
+      },
+      "id": "table",
+      "label": "table",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink curtain",
+        "size": "large"
+      },
+      "id": "curtain_left",
+      "label": "curtain",
+      "location": "0.0,0.0,0.3,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "pink curtain",
+        "size": "large"
+      },
+      "id": "curtain_right",
+      "label": "curtain",
+      "location": "0.7,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass window frame",
+        "size": "medium"
+      },
+      "id": "window_frame",
+      "label": "window frame",
+      "location": "0.7,0.0,0.9,0.3,0.7"
+    }
+  ]
+}

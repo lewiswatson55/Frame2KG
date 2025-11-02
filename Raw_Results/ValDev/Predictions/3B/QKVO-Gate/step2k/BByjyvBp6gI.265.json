@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "in",
+      "source": "pasta1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray2",
+      "target": "tray3"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl1",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl2",
+      "target": "cheese1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.05,0.45,0.30,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "aluminum tray",
+      "location": "0.00,0.40,0.70,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl of shredded cheese",
+      "location": "0.60,0.00,0.90,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "bowl of shredded cheese",
+      "location": "0.40,0.00,0.60,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "shredded cheese",
+      "location": "0.60,0.05,0.90,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver foil",
+        "size": "large"
+      },
+      "id": "tray2",
+      "label": "aluminum tray",
+      "location": "0.70,0.40,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver foil",
+        "size": "large"
+      },
+      "id": "tray3",
+      "label": "aluminum tray",
+      "location": "0.00,0.40,0.30,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "beige",
+        "size": "large"
+      },
+      "id": "pasta1",
+      "label": "macaroni pasta",
+      "location": "0.00,0.00,0.70,0.50,0.9"
+    }
+  ]
+}

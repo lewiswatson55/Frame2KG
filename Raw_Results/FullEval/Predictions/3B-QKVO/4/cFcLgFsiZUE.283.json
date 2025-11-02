@@ -1,0 +1,109 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "fridge1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "kitchen_appliances1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "coffee_jug1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_bowl1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread_bowl1",
+      "target": "coffee_jug1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "fridge1",
+      "target": "kitchen_appliances1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bread_bowl1",
+      "target": "coffee_jug1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blonde hair white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.4,0.65,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.2,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinets1",
+      "label": "kitchen cabinets",
+      "location": "0.0,0.0,1.0,0.3,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.3,1.0,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black red silver",
+        "size": "small"
+      },
+      "id": "kitchen_appliances1",
+      "label": "kitchen appliances",
+      "location": "0.1,0.3,0.4,0.6,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "red glass",
+        "size": "small"
+      },
+      "id": "coffee_jug1",
+      "label": "coffee pot",
+      "location": "0.35,0.4,0.45,0.6,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden bowl",
+        "size": "small"
+      },
+      "id": "bread_bowl1",
+      "label": "bread bowl",
+      "location": "0.75,0.45,0.9,0.65,0.6"
+    }
+  ]
+}

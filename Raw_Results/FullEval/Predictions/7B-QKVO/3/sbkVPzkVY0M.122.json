@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "spoon1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "jar1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "table1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue patterned shirt and jeans",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.35,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.45,0.05,0.65,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "Bottle of Mustard",
+      "location": "0.4,0.4,0.6,0.7,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with yellow mustard",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "Jar of Mustard",
+      "location": "0.3,0.45,0.45,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white background black text",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Text Overlay",
+      "location": "0.0,0.75,0.5,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table Surface",
+      "location": "0.0,0.0,1.0,0.5,0.7"
+    }
+  ]
+}

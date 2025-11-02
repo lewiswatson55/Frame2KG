@@ -1,0 +1,141 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in",
+      "source": "batter1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "dish1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "dish2",
+      "target": "dish1"
+    },
+    {
+      "predicate": "behind",
+      "source": "blender1",
+      "target": "dish2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "jar1",
+      "target": "blender1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "towel1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "dish1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.05,0.6,0.48,0.93,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white foamy",
+        "size": "small"
+      },
+      "id": "batter1",
+      "label": "batter",
+      "location": "0.15,0.75,0.35,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "dish1",
+      "label": "metal tray",
+      "location": "0.45,0.6,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "dish2",
+      "label": "glass baking dish",
+      "location": "0.75,0.6,0.98,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender jug",
+      "location": "0.7,0.0,0.9,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "small"
+      },
+      "id": "towel1",
+      "label": "wooden towel rack",
+      "location": "0.9,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "glass jar",
+      "location": "0.9,0.3,1.0,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.4,0.3,0.8,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "glass plate",
+      "location": "0.4,0.3,0.6,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.0,0.6,0.3,1.0,0.8"
+    }
+  ]
+}

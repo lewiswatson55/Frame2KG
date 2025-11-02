@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "squeeze_bottle1"
+    },
+    {
+      "predicate": "on",
+      "source": "squeeze_bottle1",
+      "target": "griddle_pan1"
+    },
+    {
+      "predicate": "on",
+      "source": "griddle_pan1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black non-stick metal",
+        "size": "large"
+      },
+      "id": "griddle_pan1",
+      "label": "Griddle Pan",
+      "location": "0.05,0.15,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "medium"
+      },
+      "id": "squeeze_bottle1",
+      "label": "Squeeze Bottle",
+      "location": "0.6,0.0,0.75,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.7,0.0,1.0,0.3,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white smooth",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.8,1.0,1.0,0.7"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand_left",
+      "target": "cheese_shreds"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand_right",
+      "target": "cheese_shreds"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "cheese_shreds",
+      "target": "dish"
+    },
+    {
+      "predicate": "on",
+      "source": "dish",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl",
+      "target": "dish"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand_left",
+      "label": "left hand",
+      "location": "0.0,0.35,0.45,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand_right",
+      "label": "right hand",
+      "location": "0.0,0.15,0.45,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green plastic",
+        "size": "small"
+      },
+      "id": "bowl",
+      "label": "bowl",
+      "location": "0.0,0.0,0.3,0.2,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow shredded cheese",
+        "size": "large"
+      },
+      "id": "cheese_shreds",
+      "label": "shredded cheese",
+      "location": "0.2,0.1,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "dish",
+      "label": "casserole dish",
+      "location": "0.1,0.1,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey stone",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.7,1.0,1.0,0.8"
+    }
+  ]
+}

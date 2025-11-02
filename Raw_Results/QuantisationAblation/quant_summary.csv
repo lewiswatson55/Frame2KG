@@ -1,0 +1,5 @@
+quantization,size,dataset,node_micro_f1,edge_micro_f1,box_mean_iou,box_iou@0.5_coverage,box_iou@0.75_coverage,validity_rate,conformity_rate,node_macro_f1,result_path,pred_dir
+4bit,3B,valdev,0.635897,0.231943,0.611641,0.66,0.29,99.00,99.00,0.647988,quantEval/quant_4bit_3B_valdev.csv,quantEval/preds_test_4bit_3b/4
+8bit,3B,valdev,0.645799,0.253788,0.619105,0.69,0.27,100.00,100.00,0.666628,quantEval/quant_8bit_3B_valdev.csv,quantEval/preds_test_8bit_3b/4
+4bit,7B,valdev,0.658456,0.278146,0.616122,0.68,0.30,99.00,99.00,0.673598,quantEval/quant_4bit_7B_valdev.csv,quantEval/preds_test_4bit_7b/1
+8bit,7B,valdev,0.686323,0.287345,0.620047,0.71,0.28,100.00,100.00,0.698606,quantEval/quant_8bit_7B_valdev.csv,quantEval/preds_test_8bit_7b/1

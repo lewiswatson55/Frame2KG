@@ -1,0 +1,138 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "whisk1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "bowl_flour1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_flour1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "measuring_cup1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_egg1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_butter1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "tray_salt1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_flour1",
+      "target": "measuring_cup1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "measuring_cup1",
+      "target": "bowl_egg1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bowl_egg1",
+      "target": "measuring_cup1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "plate_butter1",
+      "target": "bowl_egg1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "tray_salt1",
+      "target": "bowl_egg1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "maroon shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.35,0.0,0.65,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "bowl_flour1",
+      "label": "Wooden Bowl of Flour",
+      "location": "0.0,0.3,0.3,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "measuring_cup1",
+      "label": "Measuring Cup",
+      "location": "0.3,0.1,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl_egg1",
+      "label": "Bowl of Eggs",
+      "location": "0.5,0.4,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "plate_butter1",
+      "label": "Plate of Butter",
+      "location": "0.8,0.2,0.95,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white rectangular",
+        "size": "small"
+      },
+      "id": "tray_salt1",
+      "label": "Salt Tray",
+      "location": "0.75,0.5,0.9,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal black handle",
+        "size": "small"
+      },
+      "id": "whisk1",
+      "label": "Whisk",
+      "location": "0.0,0.1,0.2,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood grain",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

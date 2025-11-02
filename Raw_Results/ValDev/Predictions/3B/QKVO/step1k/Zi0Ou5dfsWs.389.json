@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in",
+      "source": "lettuce1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "board1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "above",
+      "source": "tile1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "tile1",
+      "target": "tile2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "tile2",
+      "target": "tile3"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "wooden cutting board",
+      "location": "0.05,0.85,0.95,0.97,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "plastic bowl",
+      "location": "0.45,0.85,0.95,0.98,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.6,0.85,0.9,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange pieces",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "chicken pieces",
+      "location": "0.65,0.85,0.85,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black speckled granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "granite countertop",
+      "location": "0.0,0.75,1.0,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue ceramic",
+        "size": "medium"
+      },
+      "id": "tile1",
+      "label": "blue tile",
+      "location": "0.0,0.0,0.5,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige ceramic",
+        "size": "medium"
+      },
+      "id": "tile2",
+      "label": "beige tile",
+      "location": "0.5,0.0,1.0,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wooden",
+        "size": "medium"
+      },
+      "id": "tile3",
+      "label": "brown tile",
+      "location": "0.5,0.2,1.0,0.4,0.8"
+    }
+  ]
+}

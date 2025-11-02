@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "attached_to",
+      "source": "stem1",
+      "target": "pepper1"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper1",
+      "target": "stick1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red glossy",
+        "size": "small"
+      },
+      "id": "pepper1",
+      "label": "cherry pepper",
+      "location": "0.05,0.35,0.45,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "stem1",
+      "label": "stem",
+      "location": "0.02,0.38,0.17,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink translucent",
+        "size": "large"
+      },
+      "id": "stick1",
+      "label": "stick",
+      "location": "0.0,0.45,1.0,0.75,0.8"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "hat1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_flour",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_bread",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "bowl_flour"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cabinet_left",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "cabinet_right",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black chef coat and checkered hat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.53,0.04,0.98,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white with black pattern",
+        "size": "medium"
+      },
+      "id": "hat1",
+      "label": "chef hat",
+      "location": "0.60,0.00,0.90,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige tiles with diamond patterns",
+        "size": "large"
+      },
+      "id": "tile_backsplash",
+      "label": "tile backsplash",
+      "location": "0.00,0.20,0.50,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.00,0.60,1.00,1.00,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass bowl with white flour",
+        "size": "small"
+      },
+      "id": "bowl_flour",
+      "label": "flour bowl",
+      "location": "0.35,0.75,0.55,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.00,0.80,0.30,1.00,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic bowl with brown bread pieces",
+        "size": "small"
+      },
+      "id": "bowl_bread",
+      "label": "bread bowl",
+      "location": "0.45,0.75,0.60,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden frame",
+        "size": "medium"
+      },
+      "id": "cabinet_left",
+      "label": "kitchen cabinet",
+      "location": "0.00,0.00,0.30,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden frame",
+        "size": "medium"
+      },
+      "id": "cabinet_right",
+      "label": "kitchen cabinet",
+      "location": "0.30,0.00,0.60,0.30,0.7"
+    }
+  ]
+}

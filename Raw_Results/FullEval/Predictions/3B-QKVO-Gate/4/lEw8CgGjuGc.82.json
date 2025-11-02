@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "knob1"
+    },
+    {
+      "predicate": "on",
+      "source": "knob1",
+      "target": "panel1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "text_outdoor",
+      "target": "text_use_only"
+    },
+    {
+      "predicate": "above",
+      "source": "text_ignition_burner",
+      "target": "knob1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "large"
+      },
+      "id": "panel1",
+      "label": "control panel",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "knob1",
+      "label": "knob",
+      "location": "0.35,0.2,0.65,0.7,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.6,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white uppercase letters",
+        "size": "small"
+      },
+      "id": "text_outdoor",
+      "label": "text 'OUTDOOR USE ONLY'",
+      "location": "0.0,0.0,0.4,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white uppercase letters",
+        "size": "small"
+      },
+      "id": "text_use_only",
+      "label": "text 'USE ONLY'",
+      "location": "0.0,0.2,0.4,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white uppercase letters",
+        "size": "small"
+      },
+      "id": "text_ignition_burner",
+      "label": "text 'IGNITION BURNER'",
+      "location": "0.4,0.0,0.8,0.15,0.8"
+    }
+  ]
+}

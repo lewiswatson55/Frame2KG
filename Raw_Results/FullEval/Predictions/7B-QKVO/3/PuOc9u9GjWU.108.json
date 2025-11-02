@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "sauce1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pot1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic with floral pattern",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "small bowl",
+      "location": "0.05,0.3,0.48,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow smooth",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "orange sauce",
+      "location": "0.1,0.35,0.45,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "metal pot",
+      "location": "0.45,0.0,1.0,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table surface",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    }
+  ]
+}

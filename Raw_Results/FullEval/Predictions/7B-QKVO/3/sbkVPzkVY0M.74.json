@@ -1,0 +1,66 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "object1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "object1",
+      "target": "mirror1"
+    },
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "mirror1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.0,0.98,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue denim",
+        "size": "large"
+      },
+      "id": "shirt1",
+      "label": "Shirt",
+      "location": "0.0,0.4,0.7,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "object1",
+      "label": "Glass Object",
+      "location": "0.3,0.2,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "mirror1",
+      "label": "Mirror",
+      "location": "0.3,0.2,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on grey background",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Logo",
+      "location": "0.75,0.8,1.0,1.0,0.9"
+    }
+  ]
+}

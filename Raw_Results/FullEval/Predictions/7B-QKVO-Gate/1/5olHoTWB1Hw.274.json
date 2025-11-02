@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "on",
+      "source": "bag1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tomato1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bell_pepper1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "behind",
+      "source": "stove1",
+      "target": "bag1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green white red plastic",
+        "size": "medium"
+      },
+      "id": "bag1",
+      "label": "croutons bag",
+      "location": "0.05,0.3,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.4,0.7,0.8,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red smooth",
+        "size": "small"
+      },
+      "id": "tomato1",
+      "label": "tomato",
+      "location": "0.0,0.7,0.2,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange glossy",
+        "size": "small"
+      },
+      "id": "bell_pepper1",
+      "label": "bell pepper",
+      "location": "0.8,0.7,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.0,0.5,0.4,0.7"
+    }
+  ]
+}

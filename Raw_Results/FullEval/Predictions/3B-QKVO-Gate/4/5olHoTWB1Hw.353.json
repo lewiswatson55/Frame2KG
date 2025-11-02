@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "food1",
+      "target": "fryer1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "handle1"
+    },
+    {
+      "predicate": "on",
+      "source": "handle1",
+      "target": "fryer1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "large"
+      },
+      "id": "food1",
+      "label": "fried chicken pieces",
+      "location": "0.0,0.0,0.85,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "fryer1",
+      "label": "deep fryer",
+      "location": "0.6,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.75,0.4,1.0,0.8,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metallic",
+        "size": "small"
+      },
+      "id": "handle1",
+      "label": "fryer handle",
+      "location": "0.6,0.0,0.8,0.3,0.8"
+    }
+  ]
+}

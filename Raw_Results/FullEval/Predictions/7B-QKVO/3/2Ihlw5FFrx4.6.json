@@ -1,0 +1,117 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "vase1",
+      "target": "counter"
+    },
+    {
+      "predicate": "on",
+      "source": "salad1",
+      "target": "counter"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plant1",
+      "target": "vase1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "background1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green dress",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "Woman",
+      "location": "0.65,0.05,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow textured",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "Background Image of Cheese",
+      "location": "0.0,0.0,0.45,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink purple screen",
+        "size": "small"
+      },
+      "id": "screen1",
+      "label": "TV Screen",
+      "location": "0.35,0.0,0.65,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metallic",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "Metal Vase",
+      "location": "0.45,0.45,0.55,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "salad1",
+      "label": "Salad Bowl",
+      "location": "0.4,0.45,0.5,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "Potted Plant",
+      "location": "0.3,0.3,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark wood",
+        "size": "medium"
+      },
+      "id": "cabinet1",
+      "label": "Cabinet",
+      "location": "0.6,0.2,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on pink background",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "Text Overlay",
+      "location": "0.75,0.0,1.0,0.1,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey bar with white text",
+        "size": "small"
+      },
+      "id": "title_bar1",
+      "label": "Title Bar",
+      "location": "0.0,0.0,0.2,0.1,0.8"
+    }
+  ]
+}

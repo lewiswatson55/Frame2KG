@@ -1,0 +1,134 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "strip1",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "strip2",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "strip3",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "strip4",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "strip5",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "strip6",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "strip7",
+      "target": "background"
+    },
+    {
+      "predicate": "left_of",
+      "source": "strip1",
+      "target": "strip2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "strip5",
+      "target": "strip4"
+    },
+    {
+      "predicate": "above",
+      "source": "strip2",
+      "target": "strip3"
+    },
+    {
+      "predicate": "below",
+      "source": "strip3",
+      "target": "strip4"
+    },
+    {
+      "predicate": "above",
+      "source": "strip4",
+      "target": "strip5"
+    },
+    {
+      "predicate": "above",
+      "source": "strip5",
+      "target": "strip6"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "bright pink",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "pink background",
+      "location": "0.0,0.0,1.0,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "light pink gradient",
+        "size": "small"
+      },
+      "id": "strip1",
+      "label": "vertical stripe",
+      "location": "0.0,0.0,0.1,1.0,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "light pink gradient",
+        "size": "small"
+      },
+      "id": "strip2",
+      "label": "vertical stripe",
+      "location": "0.0,0.0,0.1,0.2,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "gray gradient",
+        "size": "medium"
+      },
+      "id": "strip3",
+      "label": "horizontal stripe",
+      "location": "0.0,0.2,1.0,0.3,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "dark pink gradient",
+        "size": "small"
+      },
+      "id": "strip4",
+      "label": "vertical stripe",
+      "location": "0.0,0.3,0.1,1.0,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "light pink gradient",
+        "size": "small"
+      },
+      "id": "strip5",
+      "label": "vertical stripe",
+      "location": "0.0,0.3,0.1,0.5,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "gray gradient",
+        "size": "small"
+      },
+      "id": "strip6",
+      "label": "vertical stripe",
+      "location": "0.0,0.5,0.1,1.0,0.80"
+    }
+  ]
+}

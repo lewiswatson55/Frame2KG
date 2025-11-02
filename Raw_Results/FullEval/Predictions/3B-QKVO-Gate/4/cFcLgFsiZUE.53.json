@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "in",
+      "source": "tray1",
+      "target": "oven1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "control_panel1",
+      "target": "oven1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "board1",
+      "target": "oven1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "oven1",
+      "label": "oven",
+      "location": "0.05,0.0,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "control_panel1",
+      "label": "control panel",
+      "location": "0.3,0.0,0.7,0.2,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "fried chicken pieces",
+      "location": "0.4,0.45,0.6,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "baking tray",
+      "location": "0.3,0.4,0.7,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red silicone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "gloved hand",
+      "location": "0.6,0.45,0.9,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.3,0.2,0.6,0.7"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "fork1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "on",
+      "source": "dish1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "behind",
+      "source": "pot1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "blender1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "shoes1",
+      "target": "dish1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow pasta with cheese topping",
+        "size": "large"
+      },
+      "id": "dish1",
+      "label": "glass baking dish",
+      "location": "0.05,0.3,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "fork1",
+      "label": "metal fork",
+      "location": "0.4,0.1,0.8,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.0,0.7,0.5,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.0,0.0,0.3,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "medium"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.4,0.0,0.7,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass with white label",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "sauce bottle",
+      "location": "0.7,0.0,0.9,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white leather",
+        "size": "small"
+      },
+      "id": "shoes1",
+      "label": "pair of shoes",
+      "location": "0.8,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

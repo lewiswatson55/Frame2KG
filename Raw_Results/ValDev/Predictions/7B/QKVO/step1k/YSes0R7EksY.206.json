@@ -1,0 +1,96 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "mixer1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "oven1"
+    },
+    {
+      "predicate": "on",
+      "source": "tray1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "measuring_cup1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "dog1",
+      "target": "cabinet1"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "person1",
+      "label": "man",
+      "location": "0.53,0.08,0.94,0.76,0.9"
+    },
+    {
+      "id": "person2",
+      "label": "man",
+      "location": "0.20,0.60,0.50,0.95,0.8"
+    },
+    {
+      "id": "mixer1",
+      "label": "stand mixer",
+      "location": "0.60,0.50,0.85,0.85,0.8"
+    },
+    {
+      "id": "tray1",
+      "label": "metal tray",
+      "location": "0.45,0.75,0.75,0.95,0.8"
+    },
+    {
+      "id": "bowl1",
+      "label": "ceramic bowl",
+      "location": "0.60,0.70,0.70,0.80,0.8"
+    },
+    {
+      "id": "measuring_cup1",
+      "label": "glass measuring cup",
+      "location": "0.00,0.60,0.15,0.80,0.8"
+    },
+    {
+      "id": "sink1",
+      "label": "stainless steel sink",
+      "location": "0.00,0.50,0.25,0.75,0.8"
+    },
+    {
+      "id": "oven1",
+      "label": "electric oven",
+      "location": "0.85,0.20,1.00,0.80,0.8"
+    },
+    {
+      "id": "shelf1",
+      "label": "wooden shelf",
+      "location": "0.00,0.00,0.60,0.25,0.8"
+    },
+    {
+      "id": "cabinet1",
+      "label": "white cabinet",
+      "location": "0.00,0.50,0.60,1.00,0.8"
+    },
+    {
+      "id": "countertop1",
+      "label": "wooden countertop",
+      "location": "0.00,0.40,1.00,0.60,0.8"
+    },
+    {
+      "id": "dog1",
+      "label": "black dog",
+      "location": "0.20,0.60,0.50,0.95,0.8"
+    }
+  ]
+}

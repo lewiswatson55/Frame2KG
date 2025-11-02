@@ -1,0 +1,123 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "knife"
+    },
+    {
+      "predicate": "cutting",
+      "source": "knife",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "butter",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "butter",
+      "target": "bread2"
+    },
+    {
+      "predicate": "on",
+      "source": "bread2",
+      "target": "board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lettuce",
+      "target": "bread1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "rolling_pin",
+      "target": "bread1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "wooden cutting board",
+      "location": "0.05,0.0,0.95,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted white bread",
+        "size": "medium"
+      },
+      "id": "bread1",
+      "label": "bread slice",
+      "location": "0.3,0.1,0.6,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted white bread",
+        "size": "medium"
+      },
+      "id": "bread2",
+      "label": "bread slice",
+      "location": "0.1,0.4,0.5,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal blade",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.3,0.3,0.6,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "hand",
+      "location": "0.5,0.0,0.8,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce",
+      "label": "lettuce leaves",
+      "location": "0.5,0.4,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "rolling_pin",
+      "label": "rolling pin",
+      "location": "0.8,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow creamy",
+        "size": "small"
+      },
+      "id": "butter",
+      "label": "butter spread",
+      "location": "0.2,0.1,0.4,0.3,0.7"
+    }
+  ]
+}

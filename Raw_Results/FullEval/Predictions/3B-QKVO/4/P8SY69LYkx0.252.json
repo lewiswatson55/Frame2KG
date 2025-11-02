@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "background1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "background2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red fabric",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "Red Fabric",
+      "location": "0.0,0.0,0.5,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white fabric",
+        "size": "large"
+      },
+      "id": "background2",
+      "label": "White Fabric",
+      "location": "0.4,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green text",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Green Text 'Echod'",
+      "location": "0.3,0.3,0.7,0.6,0.95"
+    }
+  ]
+}

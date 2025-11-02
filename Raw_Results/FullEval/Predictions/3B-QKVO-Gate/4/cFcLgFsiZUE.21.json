@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "text2",
+      "target": "salt1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "garlic_powder1",
+      "target": "salt1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red glass",
+        "size": "large"
+      },
+      "id": "bottle1",
+      "label": "hot sauce bottle",
+      "location": "0.05,0.0,0.48,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text on red background",
+        "size": "small"
+      },
+      "id": "text1",
+      "label": "brand label",
+      "location": "0.13,0.6,0.47,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey text",
+        "size": "small"
+      },
+      "id": "text2",
+      "label": "salt text",
+      "location": "0.85,0.2,0.98,0.35,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey text",
+        "size": "small"
+      },
+      "id": "garlic_powder1",
+      "label": "garlic powder text",
+      "location": "0.85,0.5,0.98,0.65,0.7"
+    }
+  ]
+}

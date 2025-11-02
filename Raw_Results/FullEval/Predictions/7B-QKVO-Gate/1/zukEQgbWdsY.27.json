@@ -1,0 +1,81 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "meat1"
+    },
+    {
+      "predicate": "on",
+      "source": "meat1",
+      "target": "hand1"
+    },
+    {
+      "predicate": "on",
+      "source": "meat1",
+      "target": "hand2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand1",
+      "target": "shirt1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand2",
+      "target": "shirt1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "logo1",
+      "target": "hand2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black cotton",
+        "size": "large"
+      },
+      "id": "shirt1",
+      "label": "shirt",
+      "location": "0.05,0.0,0.95,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "left hand",
+      "location": "0.0,0.4,0.35,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand2",
+      "label": "right hand",
+      "location": "0.35,0.4,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw",
+        "size": "small"
+      },
+      "id": "meat1",
+      "label": "raw meat",
+      "location": "0.2,0.45,0.45,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "TASTED logo",
+      "location": "0.8,0.75,0.98,0.95,0.9"
+    }
+  ]
+}

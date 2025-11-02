@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "table1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "cabinet1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "vase1",
+      "target": "table1"
+    },
+    {
+      "predicate": "behind",
+      "source": "window1",
+      "target": "table1"
+    },
+    {
+      "predicate": "above",
+      "source": "curtain1",
+      "target": "window1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink shirt blue apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.1,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.4,0.7,0.6,0.9,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.45,0.6,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.2,0.75,0.8,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.7,0.5,1.0,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white refrigerator",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.3,0.0,0.5,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass vase red pattern",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "vase",
+      "location": "0.25,0.45,0.3,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "medium"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.6,0.4,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow fabric",
+        "size": "large"
+      },
+      "id": "curtain1",
+      "label": "curtains",
+      "location": "0.0,0.0,0.4,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame glass windows",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.0,0.0,0.4,0.6,0.7"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl1",
+      "target": "food1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plant1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "on",
+      "source": "jars1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "logo1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "logo2",
+      "target": "cabinet1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black hair pink shirt blue apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.05,0.68,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.47,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "medium"
+      },
+      "id": "plant1",
+      "label": "potted plant",
+      "location": "0.0,0.0,0.15,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue green patterned",
+        "size": "small"
+      },
+      "id": "cabinet1",
+      "label": "decorative cabinet",
+      "location": "0.75,0.5,1.0,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jars with colorful liquids",
+        "size": "small"
+      },
+      "id": "jars1",
+      "label": "jars of sauces",
+      "location": "0.55,0.05,0.75,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white bowl with brown food",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl of food",
+      "location": "0.45,0.55,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crispy",
+        "size": "small"
+      },
+      "id": "food1",
+      "label": "fried food pieces",
+      "location": "0.48,0.58,0.62,0.72,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red black white logo",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Master Chef logo",
+      "location": "0.35,0.0,0.45,0.15,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red black white logo",
+        "size": "small"
+      },
+      "id": "logo2",
+      "label": "Master Chef logo",
+      "location": "0.75,0.0,0.85,0.15,0.7"
+    }
+  ]
+}

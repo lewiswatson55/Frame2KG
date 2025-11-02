@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "board1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "behind",
+      "source": "box1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "oven1",
+      "target": "pot1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.1,0.45,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red silicone head with clear handle",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "Spatula",
+      "location": "0.3,0.3,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black interior red exterior metal",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "Cooking Pot",
+      "location": "0.2,0.2,0.8,0.8,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "Stovetop",
+      "location": "0.6,0.2,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.0,0.5,0.3,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white cardboard",
+        "size": "small"
+      },
+      "id": "box1",
+      "label": "Cardboard Box",
+      "location": "0.3,0.0,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white glossy",
+        "size": "large"
+      },
+      "id": "oven1",
+      "label": "Oven Door",
+      "location": "0.6,0.0,1.0,0.6,0.9"
+    }
+  ]
+}

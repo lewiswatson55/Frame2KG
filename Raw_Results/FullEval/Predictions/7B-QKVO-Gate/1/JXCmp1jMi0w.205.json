@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "in",
+      "source": "chicken1",
+      "target": "flour_tray"
+    },
+    {
+      "predicate": "on",
+      "source": "flour_tray",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "in",
+      "source": "sauce",
+      "target": "bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray",
+      "target": "bowl"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.0,0.48,0.36,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white flour-coated",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "Chicken piece",
+      "location": "0.37,0.05,0.65,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal tray with white powder",
+        "size": "medium"
+      },
+      "id": "flour_tray",
+      "label": "Flour tray",
+      "location": "0.35,0.0,0.95,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "large"
+      },
+      "id": "bowl",
+      "label": "Bowl",
+      "location": "0.0,0.25,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red liquid",
+        "size": "medium"
+      },
+      "id": "sauce",
+      "label": "Sauce",
+      "location": "0.1,0.3,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cutting_board",
+      "label": "Cutting board",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "tray",
+      "label": "Tray of chicken pieces",
+      "location": "0.6,0.0,1.0,0.4,0.8"
+    }
+  ]
+}

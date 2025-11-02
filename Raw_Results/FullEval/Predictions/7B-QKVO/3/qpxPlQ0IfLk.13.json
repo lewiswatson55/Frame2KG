@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "bench1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "bench1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bench1",
+      "target": "table1"
+    },
+    {
+      "predicate": "behind",
+      "source": "fence1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "tree1",
+      "target": "fence1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "house1",
+      "target": "fence1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "dark silhouette",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.53,0.08,0.97,0.64,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "bench1",
+      "label": "bench",
+      "location": "0.00,0.60,0.50,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.20,0.75,0.30,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.00,0.50,0.50,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "fence1",
+      "label": "fence",
+      "location": "0.40,0.00,1.00,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green foliage",
+        "size": "large"
+      },
+      "id": "tree1",
+      "label": "tree",
+      "location": "0.00,0.00,0.40,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey roof",
+        "size": "medium"
+      },
+      "id": "house1",
+      "label": "building",
+      "location": "0.50,0.00,1.00,0.30,0.8"
+    }
+  ]
+}

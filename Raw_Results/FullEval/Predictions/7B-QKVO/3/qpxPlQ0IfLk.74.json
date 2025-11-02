@@ -1,0 +1,252 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "tongs1"
+    },
+    {
+      "predicate": "on",
+      "source": "tongs1",
+      "target": "grill1"
+    },
+    {
+      "predicate": "on",
+      "source": "fish1",
+      "target": "grill1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bread1",
+      "target": "grill1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "avocado1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lemon1",
+      "target": "avocado1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "mustard1",
+      "target": "olive_oil1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "mayonnaise1",
+      "target": "olive_oil1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "butter1",
+      "target": "mayonnaise1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "knife1",
+      "target": "butter1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spatula1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "blender1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "shelf1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "board1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "behind",
+      "source": "lamp1",
+      "target": "board1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue red plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.45,0.05,0.78,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.02,0.46,0.25,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green glass",
+        "size": "small"
+      },
+      "id": "olive_oil1",
+      "label": "olive oil bottle",
+      "location": "0.25,0.55,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "mustard1",
+      "label": "mustard jar",
+      "location": "0.2,0.65,0.25,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "mayonnaise1",
+      "label": "mayonnaise jar",
+      "location": "0.25,0.65,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "butter1",
+      "label": "butter container",
+      "location": "0.35,0.7,0.4,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "small"
+      },
+      "id": "knife1",
+      "label": "knife",
+      "location": "0.3,0.75,0.4,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.35,0.75,0.45,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "bread slices",
+      "location": "0.4,0.7,0.5,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green",
+        "size": "small"
+      },
+      "id": "avocado1",
+      "label": "avocado half",
+      "location": "0.45,0.7,0.55,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "lemon",
+      "location": "0.5,0.7,0.55,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "tongs1",
+      "label": "tongs",
+      "location": "0.6,0.5,0.7,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "raw fish",
+        "size": "medium"
+      },
+      "id": "fish1",
+      "label": "fish fillet",
+      "location": "0.6,0.55,0.75,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "grill1",
+      "label": "griddle",
+      "location": "0.55,0.5,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.75,0.6,0.95,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaves",
+      "location": "0.8,0.6,0.9,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.0,0.0,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange frame",
+        "size": "small"
+      },
+      "id": "picture_frame1",
+      "label": "picture frame",
+      "location": "0.75,0.1,0.9,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden base white shade",
+        "size": "small"
+      },
+      "id": "lamp1",
+      "label": "table lamp",
+      "location": "0.9,0.2,1.0,0.8,0.8"
+    }
+  ]
+}

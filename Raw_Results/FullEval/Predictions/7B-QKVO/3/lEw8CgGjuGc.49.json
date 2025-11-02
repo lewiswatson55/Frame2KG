@@ -1,0 +1,89 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar2",
+      "target": "jar3"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "jar4",
+      "target": "jar5"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.0,0.0,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "Glass Jar",
+      "location": "0.2,0.3,0.8,0.7,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "jar2",
+      "label": "Glass Jar",
+      "location": "0.0,0.2,0.4,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "jar3",
+      "label": "Glass Jar",
+      "location": "0.6,0.2,1.0,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "jar4",
+      "label": "Glass Jar",
+      "location": "0.0,0.5,0.4,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "jar5",
+      "label": "Glass Jar",
+      "location": "0.6,0.5,1.0,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood grain",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Wooden Table",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    }
+  ]
+}

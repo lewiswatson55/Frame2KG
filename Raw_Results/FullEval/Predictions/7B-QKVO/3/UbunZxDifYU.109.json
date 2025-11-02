@@ -1,0 +1,86 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "hand1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hand1",
+      "target": "flour1"
+    },
+    {
+      "predicate": "on",
+      "source": "flour1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "behind",
+      "source": "can1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "jar1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "can1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow ceramic with colorful floral pattern",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "decorative plate",
+      "location": "0.05,0.1,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "medium"
+      },
+      "id": "flour1",
+      "label": "flour mound",
+      "location": "0.3,0.4,0.7,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.2,0.0,0.6,0.3,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "metal jar",
+      "location": "0.0,0.6,0.1,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver can",
+        "size": "small"
+      },
+      "id": "can1",
+      "label": "can",
+      "location": "0.7,0.0,0.9,0.2,0.8"
+    }
+  ]
+}

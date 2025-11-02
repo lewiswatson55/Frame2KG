@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "eggs1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "eggs1"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon1",
+      "target": "eggs1"
+    },
+    {
+      "predicate": "on",
+      "source": "toast1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "eggs1",
+      "label": "scrambled eggs",
+      "attributes": {
+        "appearance": "yellow",
+        "size": "large"
+      },
+      "location": "0.05,0.3,0.98,0.75,0.9"
+    },
+    {
+      "id": "bacon1",
+      "label": "bacon strips",
+      "attributes": {
+        "appearance": "red",
+        "size": "medium"
+      },
+      "location": "0.1,0.1,0.6,0.4,0.8"
+    },
+    {
+      "id": "spoon1",
+      "label": "metal spoon",
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "location": "0.3,0.3,0.9,0.7,0.8"
+    },
+    {
+      "id": "toast1",
+      "label": "toasted bread slice",
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "location": "0.0,0.0,0.6,0.3,0.8"
+    },
+    {
+      "id": "plate1",
+      "label": "white plate",
+      "attributes": {
+        "appearance": "ceramic white",
+        "size": "large"
+      },
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

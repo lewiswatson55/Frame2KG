@@ -1,0 +1,137 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bottle1",
+      "target": "plant1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "tablecloth1",
+      "target": "table1"
+    },
+    {
+      "predicate": "supports",
+      "source": "table1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "supports",
+      "source": "table1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "supports",
+      "source": "table1",
+      "target": "plant1"
+    },
+    {
+      "predicate": "behind",
+      "source": "window_left",
+      "target": "table1"
+    },
+    {
+      "predicate": "behind",
+      "source": "window_right",
+      "target": "table1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "plant1",
+      "target": "bottle1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "grey t-shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.45,0.0,0.95,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "decorative plate",
+      "location": "0.6,0.35,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "pancake1",
+      "label": "pancake",
+      "location": "0.7,0.45,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves red flowers",
+        "size": "medium"
+      },
+      "id": "plant1",
+      "label": "potted plant",
+      "location": "0.2,0.2,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark glass",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "syrup bottle",
+      "location": "0.45,0.4,0.55,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame glass",
+        "size": "large"
+      },
+      "id": "window_left",
+      "label": "window",
+      "location": "0.0,0.0,0.2,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame glass",
+        "size": "large"
+      },
+      "id": "window_right",
+      "label": "window",
+      "location": "0.8,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red fabric",
+        "size": "medium"
+      },
+      "id": "tablecloth1",
+      "label": "tablecloth",
+      "location": "0.0,0.7,1.0,1.0,0.7"
+    }
+  ]
+}

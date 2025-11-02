@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "painting1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "vase1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "vase2",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown hair red shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.15,0.0,0.85,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame grey background",
+        "size": "medium"
+      },
+      "id": "painting1",
+      "label": "artwork",
+      "location": "0.3,0.1,0.7,0.4,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "orange ceramic",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "ceramic vase",
+      "location": "0.85,0.5,1.0,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "small"
+      },
+      "id": "vase2",
+      "label": "ceramic vase",
+      "location": "0.9,0.6,1.0,1.0,0.7"
+    }
+  ]
+}

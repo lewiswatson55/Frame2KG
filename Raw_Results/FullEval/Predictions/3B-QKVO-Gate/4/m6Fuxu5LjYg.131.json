@@ -1,0 +1,176 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "salt1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "cumin1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "red_sesame1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "white_sesame1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "black_sesame1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "brown_powder1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "red_powder1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "white_powder1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pepper1",
+      "target": "salt1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cumin1",
+      "target": "red_sesame1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "white_sesame1",
+      "target": "red_sesame1"
+    },
+    {
+      "predicate": "below",
+      "source": "black_sesame1",
+      "target": "red_sesame1"
+    },
+    {
+      "predicate": "below",
+      "source": "brown_powder1",
+      "target": "white_sesame1"
+    },
+    {
+      "predicate": "below",
+      "source": "red_powder1",
+      "target": "brown_powder1"
+    },
+    {
+      "predicate": "below",
+      "source": "white_powder1",
+      "target": "red_powder1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white granules",
+        "size": "small"
+      },
+      "id": "salt1",
+      "label": "Salt",
+      "location": "0.15,0.05,0.35,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange powder",
+        "size": "medium"
+      },
+      "id": "pepper1",
+      "label": "Red Pepper Powder",
+      "location": "0.45,0.05,0.65,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige granules",
+        "size": "small"
+      },
+      "id": "cumin1",
+      "label": "Cumin Powder",
+      "location": "0.25,0.35,0.35,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark red powder",
+        "size": "small"
+      },
+      "id": "red_sesame1",
+      "label": "Red Sesame Powder",
+      "location": "0.35,0.35,0.5,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "off-white granules",
+        "size": "small"
+      },
+      "id": "white_sesame1",
+      "label": "White Sesame Powder",
+      "location": "0.5,0.35,0.65,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark brown granules",
+        "size": "small"
+      },
+      "id": "black_sesame1",
+      "label": "Black Sesame Powder",
+      "location": "0.55,0.35,0.7,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown powder",
+        "size": "small"
+      },
+      "id": "brown_powder1",
+      "label": "Brown Powder",
+      "location": "0.35,0.55,0.5,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red powder",
+        "size": "small"
+      },
+      "id": "red_powder1",
+      "label": "Red Powder",
+      "location": "0.55,0.55,0.7,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "small"
+      },
+      "id": "white_powder1",
+      "label": "White Powder",
+      "location": "0.7,0.55,0.85,0.7,0.7"
+    }
+  ]
+}

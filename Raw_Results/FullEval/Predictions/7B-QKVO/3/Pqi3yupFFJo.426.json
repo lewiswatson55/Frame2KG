@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "milk1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "sauce1",
+      "target": "milk1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "surface1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.15,0.15,0.85,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white liquid",
+        "size": "small"
+      },
+      "id": "milk1",
+      "label": "Milk",
+      "location": "0.35,0.45,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown liquid",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "Sauce",
+      "location": "0.30,0.40,0.70,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark surface",
+        "size": "large"
+      },
+      "id": "surface1",
+      "label": "Surface",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

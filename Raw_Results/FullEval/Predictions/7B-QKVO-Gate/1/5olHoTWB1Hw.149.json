@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "cheese_cubes1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese_cubes1",
+      "target": "mixture1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "dish1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "behind",
+      "source": "stove1",
+      "target": "dish1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "dish1",
+      "label": "glass baking dish",
+      "location": "0.05,0.1,0.98,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cheese cubes",
+        "size": "medium"
+      },
+      "id": "cheese_cubes1",
+      "label": "cheese cubes",
+      "location": "0.15,0.2,0.85,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy mixture",
+        "size": "medium"
+      },
+      "id": "mixture1",
+      "label": "batter",
+      "location": "0.1,0.2,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green plate with yellow cheese",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate of cheese",
+      "location": "0.65,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.8,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.0,0.6,0.3,0.7"
+    }
+  ]
+}

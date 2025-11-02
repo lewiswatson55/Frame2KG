@@ -1,0 +1,81 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "bowl1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl2",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "table1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "table1"
+    },
+    {
+      "predicate": "behind",
+      "source": "plate1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "Plastic Bowl",
+      "location": "0.35,0.2,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue rim glass",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "Glass Bowl",
+      "location": "0.0,0.4,0.2,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crust",
+        "size": "medium"
+      },
+      "id": "bread1",
+      "label": "Bread Slice",
+      "location": "0.0,0.75,0.6,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood grain",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Wooden Table",
+      "location": "0.0,0.5,1.0,1.0,0.7"
+    }
+  ]
+}

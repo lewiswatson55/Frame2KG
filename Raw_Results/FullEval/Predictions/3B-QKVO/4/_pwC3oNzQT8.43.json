@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "headband1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "backsplash1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "stove1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black chef coat, black headband",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.58,0.03,0.97,0.96,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white tile with beige diamond pattern",
+        "size": "large"
+      },
+      "id": "backsplash1",
+      "label": "tile backsplash",
+      "location": "0.0,0.0,0.4,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "beige countertop",
+        "size": "medium"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.6,0.6,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass bowl with flour",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "flour bowl",
+      "location": "0.35,0.7,0.55,0.9,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal pan",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.0,0.8,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal stove",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.8,0.3,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black and white checkered fabric",
+        "size": "small"
+      },
+      "id": "headband1",
+      "label": "chef headband",
+      "location": "0.6,0.0,0.8,0.2,0.9"
+    }
+  ]
+}

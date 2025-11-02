@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "salad1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "rice1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "meat1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "fruit1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text1",
+      "target": "food1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text2",
+      "target": "food1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "text3",
+      "target": "text2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "salad1",
+      "label": "Salad",
+      "location": "0.25,0.0,0.75,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown grainy",
+        "size": "medium"
+      },
+      "id": "rice1",
+      "label": "Rice",
+      "location": "0.6,0.0,0.8,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "charred black",
+        "size": "small"
+      },
+      "id": "meat1",
+      "label": "Grilled meat",
+      "location": "0.3,0.4,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "colorful",
+        "size": "small"
+      },
+      "id": "fruit1",
+      "label": "Fruit",
+      "location": "0.6,0.4,0.9,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow bold",
+        "size": "large"
+      },
+      "id": "text1",
+      "label": "Text 'DELICIOUS FLAVOURS OF THE CARIBBEAN'",
+      "location": "0.2,0.4,0.8,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black cursive",
+        "size": "medium"
+      },
+      "id": "text2",
+      "label": "Chef Ricardo text",
+      "location": "0.3,0.6,0.7,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white stylized",
+        "size": "medium"
+      },
+      "id": "text3",
+      "label": "Chef text",
+      "location": "0.4,0.6,0.6,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue ocean white sand",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "Beach background",
+      "location": "0.2,0.6,0.8,1.0,0.8"
+    }
+  ]
+}

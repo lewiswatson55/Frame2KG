@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "text2",
+      "target": "background"
+    },
+    {
+      "predicate": "left_of",
+      "source": "circle_left",
+      "target": "text1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "circle_right",
+      "target": "text1"
+    },
+    {
+      "predicate": "below",
+      "source": "text2",
+      "target": "text1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink gradient",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "gradient background",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "purple bold",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Popsugar logo",
+      "location": "0.3,0.4,0.7,0.6,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "small"
+      },
+      "id": "text2",
+      "label": "music credit text",
+      "location": "0.6,0.7,0.9,0.9,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "light pink blur",
+        "size": "small"
+      },
+      "id": "circle_left",
+      "label": "circle left",
+      "location": "0.1,0.2,0.3,0.4,0.75"
+    },
+    {
+      "attributes": {
+        "appearance": "light pink blur",
+        "size": "small"
+      },
+      "id": "circle_right",
+      "label": "circle right",
+      "location": "0.7,0.2,0.9,0.4,0.75"
+    }
+  ]
+}

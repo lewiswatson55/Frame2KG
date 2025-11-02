@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "sandwich_half"
+    },
+    {
+      "predicate": "on",
+      "source": "sandwich_half",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_slice",
+      "target": "board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "lettuce_leaf",
+      "target": "bread_slice"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "board",
+      "target": "appliance"
+    },
+    {
+      "predicate": "behind",
+      "source": "appliance",
+      "target": "person_hand"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.35,0.15,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread with lettuce and bacon",
+        "size": "small"
+      },
+      "id": "sandwich_half",
+      "label": "sandwich half",
+      "location": "0.45,0.45,0.85,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "cutting board",
+      "location": "0.2,0.5,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce_leaf",
+      "label": "lettuce leaf",
+      "location": "0.55,0.6,0.75,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "bread_slice",
+      "label": "bread slice",
+      "location": "0.4,0.55,0.6,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "appliance",
+      "label": "appliance",
+      "location": "0.3,0.0,0.7,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate",
+      "label": "plate",
+      "location": "0.0,0.6,0.3,0.9,0.8"
+    }
+  ]
+}

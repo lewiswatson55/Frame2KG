@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "cutting",
+      "source": "knife1",
+      "target": "fish1"
+    },
+    {
+      "predicate": "on",
+      "source": "fish1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "behind",
+      "source": "jar1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "lemon1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "watch1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.5,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black handle metal blade",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "Knife",
+      "location": "0.45,0.3,0.8,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark skin",
+        "size": "small"
+      },
+      "id": "hands1",
+      "label": "Hands",
+      "location": "0.4,0.3,0.8,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "Table",
+      "location": "0.0,0.5,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "Jar",
+      "location": "0.3,0.0,0.45,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Bowl",
+      "location": "0.2,0.2,0.4,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "Lemon Slice",
+      "location": "0.45,0.3,0.55,0.45,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black leather",
+        "size": "small"
+      },
+      "id": "watch1",
+      "label": "Watch",
+      "location": "0.75,0.4,0.9,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "raw dark",
+        "size": "small"
+      },
+      "id": "fish1",
+      "label": "Fish Fillet",
+      "location": "0.45,0.5,0.6,0.7,0.8"
+    }
+  ]
+}

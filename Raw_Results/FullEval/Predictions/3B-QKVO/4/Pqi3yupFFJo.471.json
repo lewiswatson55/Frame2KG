@@ -1,0 +1,52 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "image1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "long black hair wearing dark top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "white painted wood",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wooden wall",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on white background",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "watermark text",
+      "location": "0.0,0.8,1.0,1.0,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent frame",
+        "size": "large"
+      },
+      "id": "image1",
+      "label": "frame",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    }
+  ]
+}

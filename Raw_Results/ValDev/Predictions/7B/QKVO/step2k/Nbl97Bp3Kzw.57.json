@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "sign1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "sign1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "candle_holder1",
+      "target": "candle_holder2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "candle_holder1",
+      "target": "candle_holder2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "sign1",
+      "label": "restaurant sign",
+      "location": "0.05,0.15,0.95,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white painted wood",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.0,0.7,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black fabric",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.75,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "candle_holder1",
+      "label": "glass candle holder",
+      "location": "0.0,0.6,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "candle_holder2",
+      "label": "glass candle holder",
+      "location": "0.25,0.6,0.45,0.8,0.8"
+    }
+  ]
+}

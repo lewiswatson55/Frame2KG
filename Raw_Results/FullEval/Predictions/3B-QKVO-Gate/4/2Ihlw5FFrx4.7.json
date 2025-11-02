@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "bread1",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "cheese1",
+      "target": "herbs1"
+    },
+    {
+      "predicate": "on",
+      "source": "herbs1",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cheese1",
+      "target": "rolls1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow soft",
+        "size": "medium"
+      },
+      "id": "bread1",
+      "label": "slice of bread",
+      "location": "0.05,0.05,0.35,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white shredded",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "shredded cheese",
+      "location": "0.4,0.05,0.7,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "herbs1",
+      "label": "chopped herbs",
+      "location": "0.45,0.05,0.75,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "large"
+      },
+      "id": "rolls1",
+      "label": "baguette rolls",
+      "location": "0.7,0.05,1.0,0.65,0.9"
+    }
+  ]
+}

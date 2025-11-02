@@ -1,0 +1,253 @@
+{
+  "edges": [
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "measuring_cup1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle2",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle3",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle4",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle5",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle6",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle7",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle8",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "window1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "window1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "window1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person1",
+      "target": "person2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.00,0.00,0.50,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.45,0.00,1.00,1.00,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green liquid",
+        "size": "small"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.75,0.45,0.95,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "measuring_cup1",
+      "label": "measuring cup",
+      "location": "0.55,0.75,0.65,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "wooden bowl",
+      "location": "0.60,0.75,0.70,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.50,0.00,1.00,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottles",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.60,0.00,1.00,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "jar",
+      "location": "0.75,0.15,0.85,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark green bottle",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "bottle",
+      "location": "0.80,0.15,0.85,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark green bottle",
+        "size": "small"
+      },
+      "id": "bottle2",
+      "label": "bottle",
+      "location": "0.85,0.15,0.90,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark green bottle",
+        "size": "small"
+      },
+      "id": "bottle3",
+      "label": "bottle",
+      "location": "0.90,0.15,0.95,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark green bottle",
+        "size": "small"
+      },
+      "id": "bottle4",
+      "label": "bottle",
+      "location": "0.95,0.15,1.00,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark green bottle",
+        "size": "small"
+      },
+      "id": "bottle5",
+      "label": "bottle",
+      "location": "0.00,0.00,0.20,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark green bottle",
+        "size": "small"
+      },
+      "id": "bottle6",
+      "label": "bottle",
+      "location": "0.20,0.00,0.40,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark green bottle",
+        "size": "small"
+      },
+      "id": "bottle7",
+      "label": "bottle",
+      "location": "0.40,0.00,0.60,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark green bottle",
+        "size": "small"
+      },
+      "id": "bottle8",
+      "label": "bottle",
+      "location": "0.60,0.00,0.80,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white brick",
+        "size": "large"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.00,0.00,0.50,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown granite",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "countertop",
+      "location": "0.00,0.50,1.00,1.00,0.8"
+    }
+  ]
+}

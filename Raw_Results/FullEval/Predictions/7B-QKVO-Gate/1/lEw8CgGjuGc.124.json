@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bun_top"
+    },
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "bottom_bun1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottom_bun1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bun_side1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.35,0.0,0.65,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown toasted",
+        "size": "large"
+      },
+      "id": "bun_top",
+      "label": "Burger Bun Top",
+      "location": "0.2,0.05,0.8,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown grilled",
+        "size": "medium"
+      },
+      "id": "patty1",
+      "label": "Burger Patty",
+      "location": "0.25,0.45,0.75,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce Leaf",
+      "location": "0.15,0.6,0.85,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white bread",
+        "size": "small"
+      },
+      "id": "bottom_bun1",
+      "label": "Burger Bun Bottom",
+      "location": "0.1,0.75,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown toasted",
+        "size": "small"
+      },
+      "id": "bun_side1",
+      "label": "Burger Bun Side",
+      "location": "0.85,0.1,1.0,0.5,0.8"
+    }
+  ]
+}

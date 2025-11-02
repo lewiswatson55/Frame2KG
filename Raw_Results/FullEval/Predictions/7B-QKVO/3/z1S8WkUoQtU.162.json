@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "jacket1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "on",
+      "source": "shelf1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "mirror1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "shelf1",
+      "target": "mirror1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "brown hair, red jacket",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "red fabric",
+        "size": "medium"
+      },
+      "id": "jacket1",
+      "label": "jacket",
+      "location": "0.0,0.4,0.7,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "beige painted",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.3,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "mirror1",
+      "label": "mirror",
+      "location": "0.0,0.0,0.2,0.3,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "glass top wood frame",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.7,0.7,1.0,1.0,0.8"
+    }
+  ]
+}

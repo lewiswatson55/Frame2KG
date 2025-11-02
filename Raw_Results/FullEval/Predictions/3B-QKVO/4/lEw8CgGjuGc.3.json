@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "fork1",
+      "target": "pie_slice1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "baked_bread1",
+      "target": "bowl_rice1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chopsticks1",
+      "target": "bowl_rice1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "pie_slice1",
+      "target": "baked_bread1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "veggie_plate1",
+      "target": "baked_bread1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "veggie_plate1",
+      "target": "beans_corn1"
+    },
+    {
+      "predicate": "below",
+      "source": "salad_bowl1",
+      "target": "beans_corn1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green plate with slice of pie",
+        "size": "medium"
+      },
+      "id": "pie_slice1",
+      "label": "slice of pie",
+      "location": "0.05,0.05,0.3,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread with croutons",
+        "size": "medium"
+      },
+      "id": "baked_bread1",
+      "label": "baked bread",
+      "location": "0.3,0.05,0.6,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white bowl with rice",
+        "size": "small"
+      },
+      "id": "bowl_rice1",
+      "label": "rice bowl",
+      "location": "0.6,0.05,0.75,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black chopsticks",
+        "size": "small"
+      },
+      "id": "chopsticks1",
+      "label": "chopsticks",
+      "location": "0.55,0.05,0.7,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white rectangular plate with vegetables",
+        "size": "medium"
+      },
+      "id": "veggie_plate1",
+      "label": "vegetable plate",
+      "location": "0.3,0.2,0.6,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green bowl with beans and corn",
+        "size": "medium"
+      },
+      "id": "beans_corn1",
+      "label": "bean and corn mixture",
+      "location": "0.6,0.4,0.9,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white bowl with red salad",
+        "size": "medium"
+      },
+      "id": "salad_bowl1",
+      "label": "salad bowl",
+      "location": "0.3,0.6,0.6,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal fork",
+        "size": "small"
+      },
+      "id": "fork1",
+      "label": "fork",
+      "location": "0.0,0.0,0.3,0.2,0.8"
+    }
+  ]
+}

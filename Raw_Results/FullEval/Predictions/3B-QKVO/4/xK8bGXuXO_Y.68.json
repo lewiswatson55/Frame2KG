@@ -1,0 +1,165 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "onion_rings"
+    },
+    {
+      "predicate": "on",
+      "source": "knife",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "onion_rings",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_onions",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_onions",
+      "target": "knife"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl_onions",
+      "target": "onion_rings"
+    },
+    {
+      "predicate": "right_of",
+      "source": "small_bowl_white",
+      "target": "small_bowl_sugar"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "small_bowl_white",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "small_bowl_sugar",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "behind",
+      "source": "apple_basket",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "apron1"
+    },
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "watch1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.35,0.0,0.95,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue cotton",
+        "size": "large"
+      },
+      "id": "apron1",
+      "label": "apron",
+      "location": "0.4,0.0,0.9,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "pink plastic",
+        "size": "small"
+      },
+      "id": "onion_rings",
+      "label": "onion rings",
+      "location": "0.45,0.45,0.75,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl_onions",
+      "label": "glass bowl of onions",
+      "location": "0.0,0.4,0.3,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade with black handle",
+        "size": "medium"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.2,0.5,0.45,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.0,0.5,1.0,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "small_bowl_white",
+      "label": "small bowl of white powder",
+      "location": "0.75,0.75,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "small_bowl_sugar",
+      "label": "small bowl of sugar",
+      "location": "0.6,0.75,0.75,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "apple_basket",
+      "label": "apple basket",
+      "location": "0.0,0.0,0.2,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black and red logo",
+        "size": "small"
+      },
+      "id": "master_chef_logo",
+      "label": "Master Chef logo",
+      "location": "0.85,0.05,0.98,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown leather",
+        "size": "small"
+      },
+      "id": "watch1",
+      "label": "watch",
+      "location": "0.6,0.1,0.75,0.3,0.8"
+    }
+  ]
+}

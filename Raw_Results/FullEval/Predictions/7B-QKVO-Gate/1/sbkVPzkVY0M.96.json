@@ -1,0 +1,230 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bread1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread2",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "hotplate1"
+    },
+    {
+      "predicate": "on",
+      "source": "hotplate1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "basket1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "salt1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "artwork1",
+      "target": "artwork2"
+    },
+    {
+      "predicate": "behind",
+      "source": "artwork1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "artwork2",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue denim shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown bread",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "bread slice",
+      "location": "0.47,0.55,0.55,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown bread",
+        "size": "small"
+      },
+      "id": "bread2",
+      "label": "bread slice",
+      "location": "0.45,0.75,0.55,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "lettuce",
+      "location": "0.75,0.75,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic plate",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.7,0.7,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.6,0.6,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "hotplate1",
+      "label": "hot plate",
+      "location": "0.55,0.6,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.25,0.5,0.35,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.3,0.75,0.35,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent jar",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "jar",
+      "location": "0.35,0.7,0.4,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "basket1",
+      "label": "fruit basket",
+      "location": "0.0,0.4,0.2,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "pepper1",
+      "label": "pepper grinder",
+      "location": "0.9,0.5,0.95,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver",
+        "size": "small"
+      },
+      "id": "salt1",
+      "label": "salt shaker",
+      "location": "0.95,0.5,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey stone",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "medium"
+      },
+      "id": "artwork1",
+      "label": "framed artwork",
+      "location": "0.6,0.0,0.75,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame",
+        "size": "medium"
+      },
+      "id": "artwork2",
+      "label": "framed artwork",
+      "location": "0.75,0.0,0.9,0.3,0.7"
+    }
+  ]
+}

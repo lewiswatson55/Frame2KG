@@ -1,0 +1,137 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "pitcher1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_large1",
+      "target": "pitcher1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bowl_small1",
+      "target": "bowl_small2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bowl_small3",
+      "target": "bowl_small2"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_small1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_small2",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_small3",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.4,0.45,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.6,0.5,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "pitcher1",
+      "label": "Glass Pitcher",
+      "location": "0.2,0.0,0.6,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "bowl_large1",
+      "label": "Large Bowl",
+      "location": "0.6,0.0,1.0,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl_small1",
+      "label": "Small Glass Bowl",
+      "location": "0.3,0.6,0.5,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl_small2",
+      "label": "Small Glass Bowl",
+      "location": "0.5,0.6,0.7,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "bowl_small3",
+      "label": "Small Glass Bowl",
+      "location": "0.7,0.6,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "Stove",
+      "location": "0.0,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    }
+  ]
+}

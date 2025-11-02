@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "patty2",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "patty3",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "patty4",
+      "target": "board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl",
+      "target": "board"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "board"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.05,0.0,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "cutting board",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red minced meat",
+        "size": "medium"
+      },
+      "id": "patty1",
+      "label": "burger patty",
+      "location": "0.2,0.5,0.45,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red minced meat",
+        "size": "medium"
+      },
+      "id": "patty2",
+      "label": "burger patty",
+      "location": "0.45,0.5,0.7,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red minced meat",
+        "size": "medium"
+      },
+      "id": "patty3",
+      "label": "burger patty",
+      "location": "0.2,0.3,0.45,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red minced meat",
+        "size": "medium"
+      },
+      "id": "patty4",
+      "label": "burger patty",
+      "location": "0.45,0.3,0.7,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl",
+      "label": "glass bowl",
+      "location": "0.0,0.0,0.3,0.4,0.8"
+    }
+  ]
+}

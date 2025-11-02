@@ -1,0 +1,201 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "lettuce"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "on",
+      "source": "knife_block",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "oil_bottle",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper_mill",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "yellow_kettle",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "white_plate",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_white",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_red",
+      "target": "countertop"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "shelf"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "shelf"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "utensil_holder",
+      "target": "shelf"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black chef coat",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.35,0.08,0.64,0.97,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red plaid shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.64,0.08,0.95,0.97,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce",
+      "label": "lettuce",
+      "location": "0.45,0.35,0.55,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "shelf",
+      "label": "kitchen shelf",
+      "location": "0.00,0.00,1.00,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic",
+        "size": "small"
+      },
+      "id": "jars",
+      "label": "glass jars",
+      "location": "0.10,0.05,0.40,0.20,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "knife_block",
+      "label": "knife block",
+      "location": "0.00,0.45,0.15,0.75,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass yellow liquid",
+        "size": "small"
+      },
+      "id": "oil_bottle",
+      "label": "oil bottle",
+      "location": "0.15,0.55,0.25,0.80,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "pink plastic",
+        "size": "small"
+      },
+      "id": "pepper_mill",
+      "label": "pepper mill",
+      "location": "0.25,0.55,0.30,0.80,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow metal",
+        "size": "small"
+      },
+      "id": "yellow_kettle",
+      "label": "electric kettle",
+      "location": "0.30,0.55,0.40,0.80,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "white_plate",
+      "label": "plate",
+      "location": "0.10,0.75,0.20,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl_white",
+      "label": "bowl",
+      "location": "0.15,0.75,0.25,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "small"
+      },
+      "id": "bowl_red",
+      "label": "bowl",
+      "location": "0.25,0.75,0.35,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "oven",
+      "label": "oven",
+      "location": "0.85,0.40,1.00,1.00,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue metal",
+        "size": "small"
+      },
+      "id": "utensil_holder",
+      "label": "utensil holder",
+      "location": "0.75,0.05,0.90,0.20,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.00,0.60,1.00,1.00,0.8"
+    }
+  ]
+}

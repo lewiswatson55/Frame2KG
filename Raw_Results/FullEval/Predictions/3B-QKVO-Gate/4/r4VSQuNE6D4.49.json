@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "cabinet1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "utensil_holder1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "includes",
+      "source": "utensil_holder1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "includes",
+      "source": "utensil_holder1",
+      "target": "whisk1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bag1",
+      "target": "utensil_holder1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "Stove",
+      "location": "0.0,0.35,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "cream-colored wood",
+        "size": "medium"
+      },
+      "id": "cabinet1",
+      "label": "Cabinet",
+      "location": "0.4,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "marble brown",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.0,0.3,1.0,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic with heart cutouts",
+        "size": "small"
+      },
+      "id": "utensil_holder1",
+      "label": "Utensil Holder",
+      "location": "0.65,0.45,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden handle black head",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.68,0.45,0.75,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red silicone",
+        "size": "small"
+      },
+      "id": "whisk1",
+      "label": "Whisk",
+      "location": "0.75,0.45,0.9,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic bag",
+        "size": "medium"
+      },
+      "id": "bag1",
+      "label": "Bag",
+      "location": "0.85,0.7,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "dark red painted",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "Wall",
+      "location": "0.0,0.0,1.0,0.3,0.6"
+    }
+  ]
+}

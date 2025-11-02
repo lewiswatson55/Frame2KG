@@ -1,0 +1,132 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife"
+    },
+    {
+      "predicate": "on",
+      "source": "bread_slice",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese_cup",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cheese_cup",
+      "target": "bowl_of_basil"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "cutting_board",
+      "target": "tv_screen"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "person2",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "chair",
+      "target": "person2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "table",
+      "target": "tv_screen"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "turquoise shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.18,0.43,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green dress",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.57,0.15,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink background",
+        "size": "large"
+      },
+      "id": "tv_screen",
+      "label": "TV screen",
+      "location": "0.2,0.0,0.8,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.1,0.6,0.5,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread",
+        "size": "small"
+      },
+      "id": "bread_slice",
+      "label": "bread slice",
+      "location": "0.2,0.65,0.3,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "cheese_cup",
+      "label": "cheese cup",
+      "location": "0.3,0.65,0.35,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white leaves",
+        "size": "small"
+      },
+      "id": "bowl_of_basil",
+      "label": "bowl of basil",
+      "location": "0.45,0.6,0.55,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black",
+        "size": "medium"
+      },
+      "id": "chair",
+      "label": "chair",
+      "location": "0.7,0.3,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "table",
+      "location": "0.0,0.7,1.0,1.0,0.8"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "avocado1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "lemon1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "jar1",
+      "target": "can1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "jar1",
+      "target": "lemon1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "salt1",
+      "target": "jar1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "pepper1",
+      "target": "jar1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.5,0.0,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black handle metal blade",
+        "size": "medium"
+      },
+      "id": "knife1",
+      "label": "Knife",
+      "location": "0.3,0.2,0.8,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark green",
+        "size": "small"
+      },
+      "id": "avocado1",
+      "label": "Avocado half",
+      "location": "0.3,0.6,0.5,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "lemon1",
+      "label": "Lemon half",
+      "location": "0.45,0.5,0.55,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "Jar of cheese",
+      "location": "0.1,0.3,0.25,0.5,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue label yellow cap",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "Bottle",
+      "location": "0.25,0.0,0.35,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver can blue label",
+        "size": "small"
+      },
+      "id": "can1",
+      "label": "Can",
+      "location": "0.35,0.0,0.45,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white granules wooden bowl",
+        "size": "small"
+      },
+      "id": "salt1",
+      "label": "Salt bowl",
+      "location": "0.0,0.7,0.2,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown pepper grains wooden bowl",
+        "size": "small"
+      },
+      "id": "pepper1",
+      "label": "Pepper bowl",
+      "location": "0.0,0.8,0.2,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting board",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    }
+  ]
+}

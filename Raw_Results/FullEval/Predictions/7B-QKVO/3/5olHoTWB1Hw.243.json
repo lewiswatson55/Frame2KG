@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "dish1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "garlic_bulbs1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "garlic_bulbs1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "behind",
+      "source": "toaster1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "stove1",
+      "target": "dish1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black glass",
+        "size": "large"
+      },
+      "id": "dish1",
+      "label": "baking dish",
+      "location": "0.05,0.3,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "toaster1",
+      "label": "toaster",
+      "location": "0.4,0.0,0.6,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stovetop",
+      "location": "0.0,0.0,0.4,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "garlic_bulbs1",
+      "label": "garlic bulbs",
+      "location": "0.8,0.2,1.0,0.5,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "light-colored surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.9"
+    }
+  ]
+}

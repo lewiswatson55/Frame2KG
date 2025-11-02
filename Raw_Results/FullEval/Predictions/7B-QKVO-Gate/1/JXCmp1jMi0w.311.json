@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "wing1",
+      "target": "plate"
+    },
+    {
+      "predicate": "on",
+      "source": "wing2",
+      "target": "plate"
+    },
+    {
+      "predicate": "next_to",
+      "source": "wing1",
+      "target": "wing2"
+    },
+    {
+      "predicate": "on",
+      "source": "crumbs",
+      "target": "plate"
+    },
+    {
+      "predicate": "on",
+      "source": "sauce",
+      "target": "plate"
+    },
+    {
+      "predicate": "behind",
+      "source": "bowl",
+      "target": "plate"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "wing1",
+      "label": "fried chicken wing",
+      "location": "0.05,0.0,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white raw meat",
+        "size": "small"
+      },
+      "id": "wing2",
+      "label": "raw chicken piece",
+      "location": "0.3,0.1,0.8,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate",
+      "label": "plate",
+      "location": "0.0,0.4,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red sauce",
+        "size": "small"
+      },
+      "id": "sauce",
+      "label": "sauce",
+      "location": "0.0,0.7,0.3,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crumbs",
+        "size": "small"
+      },
+      "id": "crumbs",
+      "label": "crumbs",
+      "location": "0.2,0.6,0.6,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green blurred",
+        "size": "medium"
+      },
+      "id": "bowl",
+      "label": "bowl of greens",
+      "location": "0.7,0.0,1.0,0.4,0.6"
+    }
+  ]
+}

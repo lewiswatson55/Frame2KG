@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "wine_glass_holder1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "soap_dispenser1",
+      "target": "wine_glass_holder1"
+    },
+    {
+      "predicate": "on",
+      "source": "sink1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "behind",
+      "source": "fridge1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "door1",
+      "target": "fridge1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black jacket with white trim",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.98,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "medium"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.4,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "wine_glass_holder1",
+      "label": "wine glass holder",
+      "location": "0.1,0.3,0.3,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "purple plastic bottle",
+        "size": "small"
+      },
+      "id": "soap_dispenser1",
+      "label": "soap dispenser",
+      "location": "0.2,0.5,0.3,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.2,0.6,0.5,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.7,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white painted",
+        "size": "medium"
+      },
+      "id": "door1",
+      "label": "door",
+      "location": "0.9,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

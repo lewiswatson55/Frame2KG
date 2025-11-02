@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "banner1",
+      "target": "background1"
+    },
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "banner1"
+    },
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "background1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "logo1",
+      "target": "text1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red fabric",
+        "size": "large"
+      },
+      "id": "banner1",
+      "label": "subscribe banner",
+      "location": "0.35,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white bold font",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "subscribe text",
+      "location": "0.4,0.2,0.7,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black cursive font",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "chef ricardo logo",
+      "location": "0.6,0.7,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "solid red gradient",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "background",
+      "location": "0.0,0.0,1.0,1.0,0.9"
+    }
+  ]
+}

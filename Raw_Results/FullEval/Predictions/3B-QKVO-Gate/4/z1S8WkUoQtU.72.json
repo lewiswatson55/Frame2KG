@@ -1,0 +1,94 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "onion1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "meat1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "chopsticks1"
+    },
+    {
+      "predicate": "supports",
+      "source": "board1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "behind",
+      "source": "pot1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.05,0.35,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "purple rings",
+        "size": "small"
+      },
+      "id": "onion1",
+      "label": "red onion slices",
+      "location": "0.6,0.45,0.9,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink minced",
+        "size": "small"
+      },
+      "id": "meat1",
+      "label": "ground meat",
+      "location": "0.2,0.6,0.5,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "chopsticks1",
+      "label": "wooden chopsticks",
+      "location": "0.0,0.0,1.0,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.0,0.0,0.2,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pot1",
+      "label": "metal pot",
+      "location": "0.2,0.0,0.8,0.2,0.7"
+    }
+  ]
+}

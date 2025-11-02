@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "sandwich1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato_slices1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "on",
+      "source": "bacon1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "sandwich1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "sandwich1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person's Hands",
+      "location": "0.05,0.0,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.3,0.4,0.7,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "toasted bread with lettuce tomato bacon",
+        "size": "small"
+      },
+      "id": "sandwich1",
+      "label": "BLT Sandwich",
+      "location": "0.4,0.5,0.6,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce Leaves",
+      "location": "0.5,0.45,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red juicy",
+        "size": "small"
+      },
+      "id": "tomato_slices1",
+      "label": "Tomato Slices",
+      "location": "0.45,0.55,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "crispy red",
+        "size": "small"
+      },
+      "id": "bacon1",
+      "label": "Bacon Strips",
+      "location": "0.45,0.6,0.6,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "Small Bowl of Guacamole",
+      "location": "0.1,0.5,0.25,0.65,0.9"
+    }
+  ]
+}

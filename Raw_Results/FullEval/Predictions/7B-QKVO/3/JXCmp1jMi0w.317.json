@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cake1",
+      "target": "chicken1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chicken1",
+      "target": "smoothie1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "woman1",
+      "target": "smoothie1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "salad1",
+      "target": "slushies1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "rehab1",
+      "target": "salad1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "slushies1",
+      "target": "ad1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "ad1",
+      "target": "pizza_ad1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink circular graphic",
+        "size": "medium"
+      },
+      "id": "logo1",
+      "label": "Logo",
+      "location": "0.05,0.0,0.38,0.27,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.0,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown cake",
+        "size": "small"
+      },
+      "id": "cake1",
+      "label": "Cake Slice",
+      "location": "0.26,0.1,0.38,0.25,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "golden fried",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "Chicken Wings",
+      "location": "0.4,0.1,0.52,0.25,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "red smoothie",
+        "size": "small"
+      },
+      "id": "smoothie1",
+      "label": "Smoothie Cups",
+      "location": "0.55,0.1,0.67,0.25,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "black and white photo of woman",
+        "size": "medium"
+      },
+      "id": "woman1",
+      "label": "Woman Photo",
+      "location": "0.7,0.0,0.95,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white bowl with mixed vegetables",
+        "size": "small"
+      },
+      "id": "salad1",
+      "label": "Broccoli Salad",
+      "location": "0.3,0.45,0.45,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange slushies with fruit",
+        "size": "small"
+      },
+      "id": "slushies1",
+      "label": "Peach Moscato Wine Slushies",
+      "location": "0.45,0.45,0.6,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "text-based ad",
+        "size": "medium"
+      },
+      "id": "ad1",
+      "label": "AT&T Wireless Ad",
+      "location": "0.6,0.45,0.8,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow orange promotional ad",
+        "size": "medium"
+      },
+      "id": "pizza_ad1",
+      "label": "Pizza Promotion Ad",
+      "location": "0.8,0.45,1.0,0.75,0.8"
+    }
+  ]
+}

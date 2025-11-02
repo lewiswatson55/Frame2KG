@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hands1",
+      "target": "burger1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "bun1"
+    },
+    {
+      "predicate": "on",
+      "source": "burger1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "bun1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hands1",
+      "label": "human hands",
+      "location": "0.0,0.0,0.85,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "lettuce1",
+      "label": "lettuce leaf",
+      "location": "0.4,0.3,1.0,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown toasted",
+        "size": "small"
+      },
+      "id": "bun1",
+      "label": "bread bun",
+      "location": "0.4,0.3,0.8,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.0,0.6,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "medium"
+      },
+      "id": "burger1",
+      "label": "burger patty",
+      "location": "0.4,0.3,0.8,0.6,0.8"
+    }
+  ]
+}

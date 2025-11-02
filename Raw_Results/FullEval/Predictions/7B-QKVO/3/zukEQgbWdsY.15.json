@@ -1,0 +1,211 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "pan2",
+      "target": "stove"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "behind",
+      "source": "shelf1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person2",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "blender1",
+      "target": "person1"
+    },
+    {
+      "predicate": "above",
+      "source": "bottles1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "knife_block1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "spice_bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "egg_bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "herbs1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "paper_towel1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "raw_meat1",
+      "target": "countertop1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black t-shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.45,0.05,0.78,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey jacket",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.05,0.05,0.45,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "gas stove",
+      "location": "0.25,0.6,0.75,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.35,0.65,0.55,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black cast iron",
+        "size": "small"
+      },
+      "id": "pan2",
+      "label": "skillet",
+      "location": "0.6,0.65,0.8,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden shelf",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "wall shelf",
+      "location": "0.2,0.0,0.8,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottles",
+        "size": "small"
+      },
+      "id": "bottles1",
+      "label": "wine bottles",
+      "location": "0.3,0.2,0.7,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden block",
+        "size": "small"
+      },
+      "id": "knife_block1",
+      "label": "knife block",
+      "location": "0.75,0.35,0.85,0.45,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green bowl",
+        "size": "small"
+      },
+      "id": "spice_bowl1",
+      "label": "spice bowl",
+      "location": "0.7,0.55,0.78,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "egg_bowl1",
+      "label": "egg bowl",
+      "location": "0.78,0.55,0.85,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves",
+        "size": "small"
+      },
+      "id": "herbs1",
+      "label": "herb container",
+      "location": "0.8,0.45,0.88,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "small"
+      },
+      "id": "paper_towel1",
+      "label": "paper towel roll",
+      "location": "0.85,0.6,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "small"
+      },
+      "id": "raw_meat1",
+      "label": "raw meat",
+      "location": "0.8,0.7,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark plastic",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.85,0.3,0.95,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "kitchen countertop",
+      "location": "0.0,0.4,1.0,0.6,0.8"
+    }
+  ]
+}

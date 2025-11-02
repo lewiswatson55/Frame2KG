@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "left_of",
+      "source": "icon1",
+      "target": "text1"
+    },
+    {
+      "predicate": "above",
+      "source": "shadow1",
+      "target": "icon1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green circle with white play triangle",
+        "size": "medium"
+      },
+      "id": "icon1",
+      "label": "Play Button Icon",
+      "location": "0.35,0.45,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "grey text",
+        "size": "large"
+      },
+      "id": "text1",
+      "label": "Website Text",
+      "location": "0.3,0.7,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light grey shadow",
+        "size": "small"
+      },
+      "id": "shadow1",
+      "label": "Shadow",
+      "location": "0.3,0.6,0.6,0.8,0.8"
+    }
+  ]
+}

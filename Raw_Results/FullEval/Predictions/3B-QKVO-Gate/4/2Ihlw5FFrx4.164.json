@@ -1,0 +1,132 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "sandwich"
+    },
+    {
+      "predicate": "on",
+      "source": "sandwich",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "table"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "tv_screen"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_salad",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_dressing",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "vase_flower",
+      "target": "table"
+    },
+    {
+      "predicate": "behind",
+      "source": "tv_screen",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "person2",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "turquoise shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.00,0.35,0.45,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green dress",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.55,0.25,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink purple graphic",
+        "size": "large"
+      },
+      "id": "tv_screen",
+      "label": "television screen",
+      "location": "0.20,0.00,0.60,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.10,0.70,0.40,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "bread with lettuce and tomato",
+        "size": "small"
+      },
+      "id": "sandwich",
+      "label": "sandwich",
+      "location": "0.15,0.75,0.35,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with salad",
+        "size": "small"
+      },
+      "id": "plate_salad",
+      "label": "salad plate",
+      "location": "0.40,0.70,0.55,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bowl with white dressing",
+        "size": "small"
+      },
+      "id": "bowl_dressing",
+      "label": "dressing bowl",
+      "location": "0.35,0.75,0.45,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver vase with white flower",
+        "size": "small"
+      },
+      "id": "vase_flower",
+      "label": "flower vase",
+      "location": "0.50,0.70,0.60,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "table",
+      "location": "0.00,0.60,1.00,1.00,0.9"
+    }
+  ]
+}

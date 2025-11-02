@@ -1,0 +1,193 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "whisk1"
+    },
+    {
+      "predicate": "in",
+      "source": "whisk1",
+      "target": "bowl3"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl3",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl4",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "spraycan1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "measuringcup1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl4",
+      "target": "bowl3"
+    },
+    {
+      "predicate": "left_of",
+      "source": "spraycan1",
+      "target": "bottle1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "pan1",
+      "target": "bowl3"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet1",
+      "target": "person1"
+    },
+    {
+      "predicate": "above",
+      "source": "window1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "faucet1",
+      "target": "sink1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black apron green top",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.15,0.05,0.60,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "whisk1",
+      "label": "whisk",
+      "location": "0.40,0.50,0.50,0.70,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass white batter",
+        "size": "medium"
+      },
+      "id": "bowl3",
+      "label": "mixing bowl",
+      "location": "0.45,0.55,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow liquid",
+        "size": "small"
+      },
+      "id": "bowl4",
+      "label": "bowl of eggs",
+      "location": "0.35,0.65,0.45,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow canister red cap",
+        "size": "small"
+      },
+      "id": "spraycan1",
+      "label": "cooking spray",
+      "location": "0.20,0.65,0.28,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent plastic blue lid",
+        "size": "small"
+      },
+      "id": "bottle1",
+      "label": "bottle of maple syrup",
+      "location": "0.10,0.70,0.18,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass measuring cup white markings",
+        "size": "small"
+      },
+      "id": "measuringcup1",
+      "label": "measuring cup",
+      "location": "0.30,0.75,0.38,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black non-stick",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "griddle pan",
+      "location": "0.65,0.60,0.95,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "kitchen countertop",
+      "location": "0.00,0.50,1.00,1.00,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden brown",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinets",
+      "location": "0.00,0.00,1.00,0.50,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white frame blinds",
+        "size": "medium"
+      },
+      "id": "window1",
+      "label": "window",
+      "location": "0.80,0.00,1.00,0.30,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.75,0.30,0.95,0.50,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "faucet1",
+      "label": "faucet",
+      "location": "0.90,0.30,0.98,0.45,0.7"
+    }
+  ]
+}

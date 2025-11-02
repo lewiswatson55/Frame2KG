@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "shirt1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "hands1",
+      "target": "background1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hands1",
+      "label": "hands",
+      "location": "0.35,0.0,0.98,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark blue fabric",
+        "size": "large"
+      },
+      "id": "shirt1",
+      "label": "shirt",
+      "location": "0.0,0.4,0.7,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white blurred",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "background",
+      "location": "0.0,0.0,1.0,1.0,0.6"
+    }
+  ]
+}

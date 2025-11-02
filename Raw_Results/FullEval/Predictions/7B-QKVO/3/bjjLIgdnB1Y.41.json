@@ -1,0 +1,164 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "small_bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "glass_bowl",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "measuring_cup",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "spray_can",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pancake_griddle",
+      "target": "countertop"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge"
+    },
+    {
+      "predicate": "next_to",
+      "source": "window",
+      "target": "sink"
+    },
+    {
+      "predicate": "left_of",
+      "source": "fridge",
+      "target": "cabinet_group"
+    },
+    {
+      "predicate": "right_of",
+      "source": "cabinet_group",
+      "target": "fridge"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green top black apron",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "fridge",
+      "label": "refrigerator",
+      "location": "0.2,0.0,0.4,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "medium"
+      },
+      "id": "cabinet_group",
+      "label": "kitchen cabinets",
+      "location": "0.5,0.0,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white blinds",
+        "size": "medium"
+      },
+      "id": "window",
+      "label": "window",
+      "location": "0.8,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "sink",
+      "label": "sink",
+      "location": "0.75,0.3,0.95,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black non-stick",
+        "size": "medium"
+      },
+      "id": "pancake_griddle",
+      "label": "pancake griddle",
+      "location": "0.6,0.5,0.9,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "glass_bowl",
+      "label": "mixing bowl",
+      "location": "0.45,0.55,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "spray_can",
+      "label": "cooking spray can",
+      "location": "0.15,0.6,0.25,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "small"
+      },
+      "id": "measuring_cup",
+      "label": "measuring cup",
+      "location": "0.25,0.65,0.35,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "blue plastic",
+        "size": "small"
+      },
+      "id": "bottle",
+      "label": "bottle of syrup",
+      "location": "0.05,0.6,0.15,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "small_bowl",
+      "label": "small bowl",
+      "location": "0.45,0.45,0.55,0.55,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "tool1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand2",
+      "target": "tool1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "hand1",
+      "target": "hand2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "left hand",
+      "location": "0.05,0.0,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand2",
+      "label": "right hand",
+      "location": "0.3,0.4,0.8,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic handle metal blade",
+        "size": "small"
+      },
+      "id": "tool1",
+      "label": "knife",
+      "location": "0.1,0.0,0.5,0.4,0.8"
+    }
+  ]
+}

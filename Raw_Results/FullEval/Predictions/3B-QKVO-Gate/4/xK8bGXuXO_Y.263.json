@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "crumb1",
+      "target": "food1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "food1",
+      "target": "background1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "medium"
+      },
+      "id": "food1",
+      "label": "fried food pieces",
+      "location": "0.05,0.3,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light beige granular",
+        "size": "small"
+      },
+      "id": "crumb1",
+      "label": "breadcrumbs",
+      "location": "0.1,0.4,0.9,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blurred white",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "white background",
+      "location": "0.6,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

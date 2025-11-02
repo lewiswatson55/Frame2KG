@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "tongs1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "cloth1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "cloth2",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "board1"
+    },
+    {
+      "predicate": "behind",
+      "source": "stove1",
+      "target": "board1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white chef coat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.35,0.0,0.98,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with red meat and green herbs",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.45,0.6,0.75,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "tongs1",
+      "label": "metal tongs",
+      "location": "0.2,0.65,0.4,0.8,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow cloth",
+        "size": "small"
+      },
+      "id": "cloth1",
+      "label": "yellow towel",
+      "location": "0.05,0.75,0.25,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "blue and white cloth",
+        "size": "small"
+      },
+      "id": "cloth2",
+      "label": "blue napkin",
+      "location": "0.75,0.75,0.95,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.0,0.0,0.5,0.6,0.8"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "microwave1",
+      "target": "cabinet_left1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "pot_hanger1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cutting_board1",
+      "target": "toaster1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "utensil_holder1",
+      "target": "microwave1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "cutting_board1",
+      "target": "toaster1"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet_right1",
+      "target": "person1"
+    },
+    {
+      "predicate": "above",
+      "source": "wall1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "countertop1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "on",
+      "source": "countertop1",
+      "target": "cutting_board1"
+    },
+    {
+      "predicate": "on",
+      "source": "countertop1",
+      "target": "toaster1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "purple shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "over-the-range microwave",
+      "location": "0.05,0.05,0.45,0.25,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "silver stainless steel",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.0,0.3,0.4,0.7,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet_left1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.3,0.3,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "cabinet_right1",
+      "label": "kitchen cabinet",
+      "location": "0.7,0.0,1.0,0.3,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "cutting_board1",
+      "label": "cutting board",
+      "location": "0.75,0.4,0.9,0.6,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "toaster1",
+      "label": "toaster",
+      "location": "0.9,0.6,1.0,0.8,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow ceramic",
+        "size": "small"
+      },
+      "id": "utensil_holder1",
+      "label": "utensil holder",
+      "location": "0.0,0.4,0.1,0.55,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "pot_hanger1",
+      "label": "pan hanger",
+      "location": "0.5,0.0,0.7,0.2,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "beige tile",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "tile backsplash",
+      "location": "0.0,0.2,1.0,0.4,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "marble brown",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.4,1.0,0.6,0.80"
+    }
+  ]
+}

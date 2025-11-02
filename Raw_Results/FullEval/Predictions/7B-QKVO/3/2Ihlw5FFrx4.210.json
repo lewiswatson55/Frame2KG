@@ -1,0 +1,99 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "text2",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "logo",
+      "target": "background"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "light_circle1",
+      "target": "logo"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "light_circle2",
+      "target": "logo"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "light_circle3",
+      "target": "logo"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink gradient",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "Background Gradient",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "black text",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Featured Music Text",
+      "location": "0.04,0.78,0.6,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "small"
+      },
+      "id": "text2",
+      "label": "By Line Text",
+      "location": "0.04,0.85,0.6,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black letters with orange star",
+        "size": "large"
+      },
+      "id": "logo",
+      "label": "Popsugar Logo",
+      "location": "0.2,0.2,0.8,0.6,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "purple blurred circle",
+        "size": "medium"
+      },
+      "id": "light_circle1",
+      "label": "Light Circle 1",
+      "location": "0.3,0.3,0.5,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink blurred circle",
+        "size": "medium"
+      },
+      "id": "light_circle2",
+      "label": "Light Circle 2",
+      "location": "0.5,0.3,0.7,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink blurred circle",
+        "size": "medium"
+      },
+      "id": "light_circle3",
+      "label": "Light Circle 3",
+      "location": "0.6,0.3,0.8,0.5,0.8"
+    }
+  ]
+}

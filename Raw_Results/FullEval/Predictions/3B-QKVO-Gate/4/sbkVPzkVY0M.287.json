@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "text1",
+      "target": "background"
+    },
+    {
+      "predicate": "on",
+      "source": "logo",
+      "target": "background"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "icon",
+      "target": "background"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink gradient",
+        "size": "large"
+      },
+      "id": "background",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "medium"
+      },
+      "id": "text1",
+      "label": "Text Overlay",
+      "location": "0.6,0.75,0.98,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "gray text",
+        "size": "small"
+      },
+      "id": "logo",
+      "label": "Logo Text",
+      "location": "0.85,0.85,0.98,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black silhouette",
+        "size": "small"
+      },
+      "id": "icon",
+      "label": "Icon",
+      "location": "0.45,0.35,0.55,0.5,0.8"
+    }
+  ]
+}

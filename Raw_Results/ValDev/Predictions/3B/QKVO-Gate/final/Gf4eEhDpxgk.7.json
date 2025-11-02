@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "fridge1",
+      "target": "curtain1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "mixer1",
+      "target": "person1"
+    },
+    {
+      "predicate": "on",
+      "source": "cup1",
+      "target": "table1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "mixer1",
+      "target": "table1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "rack1",
+      "target": "fridge1"
+    },
+    {
+      "predicate": "behind",
+      "source": "curtain1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white t-shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.05,0.65,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "fridge1",
+      "label": "refrigerator",
+      "location": "0.0,0.0,0.25,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white translucent",
+        "size": "large"
+      },
+      "id": "curtain1",
+      "label": "window curtain",
+      "location": "0.25,0.0,0.75,1.0,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "mixer1",
+      "label": "stand mixer",
+      "location": "0.75,0.45,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "small"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.6,0.7,0.95,0.95,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "cup1",
+      "label": "mug",
+      "location": "0.7,0.8,0.8,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal rack",
+        "size": "small"
+      },
+      "id": "rack1",
+      "label": "utensil rack",
+      "location": "0.0,0.3,0.2,0.6,0.6"
+    }
+  ]
+}

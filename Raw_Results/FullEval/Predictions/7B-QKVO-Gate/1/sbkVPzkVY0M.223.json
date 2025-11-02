@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "cheese1",
+      "target": "patty1"
+    },
+    {
+      "predicate": "on",
+      "source": "patty1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in",
+      "source": "pan1",
+      "target": "pot1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black non-stick",
+        "size": "large"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.05,0.0,0.95,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown beef patty with melted yellow cheese",
+        "size": "medium"
+      },
+      "id": "patty1",
+      "label": "beef patty with cheese",
+      "location": "0.3,0.1,0.9,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow melted",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "melted cheese",
+      "location": "0.4,0.15,0.9,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    }
+  ]
+}

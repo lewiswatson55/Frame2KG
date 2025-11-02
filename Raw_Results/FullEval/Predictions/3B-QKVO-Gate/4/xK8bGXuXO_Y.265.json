@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "logo1",
+      "target": "background1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "shadow1",
+      "target": "background1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white",
+        "size": "large"
+      },
+      "id": "background1",
+      "label": "Background",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "red black white",
+        "size": "medium"
+      },
+      "id": "logo1",
+      "label": "Logo",
+      "location": "0.38,0.47,0.62,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black",
+        "size": "small"
+      },
+      "id": "shadow1",
+      "label": "Shadow",
+      "location": "0.38,0.47,0.62,0.75,0.8"
+    }
+  ]
+}

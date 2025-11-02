@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "fryer1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "in",
+      "source": "potato1",
+      "target": "oil1"
+    },
+    {
+      "predicate": "on",
+      "source": "potato1",
+      "target": "potato2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "fryer1",
+      "label": "Frying Pan",
+      "location": "0.0,0.0,0.5,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow crispy",
+        "size": "medium"
+      },
+      "id": "potato1",
+      "label": "Potato Slice",
+      "location": "0.4,0.1,0.9,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow crispy",
+        "size": "small"
+      },
+      "id": "potato2",
+      "label": "Potato Slice",
+      "location": "0.7,0.2,1.0,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "bubbling yellow",
+        "size": "large"
+      },
+      "id": "oil1",
+      "label": "Cooking Oil",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    }
+  ]
+}

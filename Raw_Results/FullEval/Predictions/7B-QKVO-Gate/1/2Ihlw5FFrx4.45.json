@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand_left",
+      "target": "spreader"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand_right",
+      "target": "spreader"
+    },
+    {
+      "predicate": "on",
+      "source": "spreader",
+      "target": "bread"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese",
+      "target": "bread"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "bowl2"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text_overlay",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "text_overlay",
+      "target": "bowl2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand_left",
+      "label": "left hand",
+      "location": "0.05,0.3,0.48,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand_right",
+      "label": "right hand",
+      "location": "0.52,0.3,0.95,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade white handle",
+        "size": "small"
+      },
+      "id": "spreader",
+      "label": "knife",
+      "location": "0.3,0.5,0.7,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown crust white interior",
+        "size": "large"
+      },
+      "id": "bread",
+      "label": "slice of bread",
+      "location": "0.1,0.5,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white crumbly",
+        "size": "small"
+      },
+      "id": "cheese",
+      "label": "feta cream cheese mix",
+      "location": "0.55,0.55,0.85,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.0,0.0,0.3,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl2",
+      "label": "glass bowl",
+      "location": "0.6,0.0,1.0,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink black text",
+        "size": "small"
+      },
+      "id": "text_overlay",
+      "label": "overlay text",
+      "location": "0.0,0.8,1.0,1.0,0.7"
+    }
+  ]
+}

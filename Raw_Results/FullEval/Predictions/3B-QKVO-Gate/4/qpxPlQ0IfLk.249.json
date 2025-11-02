@@ -1,0 +1,113 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "crouton1"
+    },
+    {
+      "predicate": "on",
+      "source": "crouton1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_salt1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "behind",
+      "source": "jar1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "logo1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.35,0.0,0.65,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.0,0.4,0.8,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce leaves",
+      "location": "0.05,0.45,0.7,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grilled white meat",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "Grilled chicken slices",
+      "location": "0.2,0.5,0.7,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown toasted",
+        "size": "small"
+      },
+      "id": "crouton1",
+      "label": "Croutons",
+      "location": "0.3,0.55,0.6,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "small"
+      },
+      "id": "bowl_salt1",
+      "label": "Wooden bowl of salt",
+      "location": "0.8,0.6,0.98,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass with beige contents",
+        "size": "medium"
+      },
+      "id": "jar1",
+      "label": "Jar",
+      "location": "0.7,0.0,0.9,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white fish silhouette",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "Hungry logo",
+      "location": "0.0,0.0,0.2,0.2,0.9"
+    }
+  ]
+}

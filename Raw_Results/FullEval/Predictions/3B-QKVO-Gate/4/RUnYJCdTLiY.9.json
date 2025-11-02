@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "stove",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper_mill",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle_group",
+      "target": "countertop"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "microwave",
+      "target": "cabinet_left"
+    },
+    {
+      "predicate": "next_to",
+      "source": "sink",
+      "target": "stove"
+    },
+    {
+      "predicate": "above",
+      "source": "cabinet_right",
+      "target": "countertop"
+    },
+    {
+      "predicate": "left_of",
+      "source": "cabinet_left",
+      "target": "cabinet_right"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "grey knitted sweater",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.65,1.0,0.98"
+    },
+    {
+      "attributes": {
+        "appearance": "brown granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "kitchen countertop",
+      "location": "0.0,0.4,1.0,0.7,0.90"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove",
+      "label": "stove",
+      "location": "0.0,0.3,0.3,0.6,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "silver black",
+        "size": "small"
+      },
+      "id": "microwave",
+      "label": "microwave oven",
+      "location": "0.0,0.0,0.2,0.3,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "medium"
+      },
+      "id": "cabinet_left",
+      "label": "wooden cabinet",
+      "location": "0.0,0.0,0.2,0.4,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "medium"
+      },
+      "id": "cabinet_right",
+      "label": "wooden cabinet",
+      "location": "0.8,0.0,1.0,0.4,0.80"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "sink",
+      "label": "sink",
+      "location": "0.3,0.4,0.5,0.6,0.75"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "pepper_mill",
+      "label": "pepper mill",
+      "location": "0.25,0.4,0.3,0.6,0.70"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottles",
+        "size": "small"
+      },
+      "id": "bottle_group",
+      "label": "bottles",
+      "location": "0.35,0.3,0.5,0.5,0.70"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "dish_rack",
+      "label": "dish rack",
+      "location": "0.7,0.4,0.9,0.6,0.70"
+    }
+  ]
+}

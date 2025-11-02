@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "utensil1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "wall_decor1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "vase1",
+      "target": "wall_decor1"
+    },
+    {
+      "predicate": "on",
+      "source": "vase1",
+      "target": "table1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "dark hair red shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.0,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "utensil1",
+      "label": "utensil",
+      "location": "0.45,0.55,0.65,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black frame gold border",
+        "size": "medium"
+      },
+      "id": "wall_decor1",
+      "label": "framed art",
+      "location": "0.0,0.0,0.3,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange ceramic",
+        "size": "medium"
+      },
+      "id": "vase1",
+      "label": "sculpture",
+      "location": "0.75,0.3,0.95,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "table1",
+      "label": "table",
+      "location": "0.0,0.7,1.0,1.0,0.7"
+    }
+  ]
+}

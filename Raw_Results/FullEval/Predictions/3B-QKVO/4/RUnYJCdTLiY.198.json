@@ -1,0 +1,133 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "spatula1"
+    },
+    {
+      "predicate": "in",
+      "source": "spatula1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "tomato1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "cheese_block1",
+      "target": "tomato1"
+    },
+    {
+      "predicate": "on",
+      "source": "utensil_holder1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pan1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "tomato1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "cheese_block1",
+      "target": "tomato1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "utensil_holder1",
+      "target": "bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white shirt red sleeves",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.45,0.0,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "glass bowl",
+      "location": "0.35,0.2,0.9,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "spatula1",
+      "label": "spatula",
+      "location": "0.55,0.1,0.65,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "griddle pan",
+      "location": "0.0,0.3,0.35,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "small"
+      },
+      "id": "tomato1",
+      "label": "tomato slice",
+      "location": "0.45,0.25,0.55,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white block",
+        "size": "small"
+      },
+      "id": "cheese_block1",
+      "label": "cheese block",
+      "location": "0.48,0.25,0.52,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "utensil_holder1",
+      "label": "utensil holder",
+      "location": "0.85,0.4,0.98,0.7,0.8"
+    }
+  ]
+}

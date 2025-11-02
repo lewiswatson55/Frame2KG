@@ -1,0 +1,196 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "cloth1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_lemons1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "jar1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plant1",
+      "target": "person1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "pan1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "pan2",
+      "target": "wall1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "pan3",
+      "target": "pan4"
+    },
+    {
+      "predicate": "right_of",
+      "source": "pan5",
+      "target": "pan6"
+    },
+    {
+      "predicate": "behind",
+      "source": "framed_picture1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "short dark hair, multicolored plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.2,0.0,0.8,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white fabric",
+        "size": "small"
+      },
+      "id": "cloth1",
+      "label": "cloth",
+      "location": "0.7,0.6,0.9,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "grey brick",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "brick wall",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "metal shelf",
+      "location": "0.0,0.1,0.6,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow lemons in wooden bowl",
+        "size": "small"
+      },
+      "id": "bowl_lemons1",
+      "label": "lemon bowl",
+      "location": "0.05,0.45,0.2,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass jar",
+        "size": "small"
+      },
+      "id": "jar1",
+      "label": "glass jar",
+      "location": "0.2,0.45,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal pot",
+        "size": "medium"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.3,0.2,0.4,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal pan",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "hanging pan",
+      "location": "0.5,0.0,0.7,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal pan",
+        "size": "medium"
+      },
+      "id": "pan2",
+      "label": "hanging pan",
+      "location": "0.6,0.0,0.8,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal pan",
+        "size": "medium"
+      },
+      "id": "pan3",
+      "label": "hanging pan",
+      "location": "0.5,0.3,0.7,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal pan",
+        "size": "medium"
+      },
+      "id": "pan4",
+      "label": "hanging pan",
+      "location": "0.6,0.3,0.8,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal pan",
+        "size": "medium"
+      },
+      "id": "pan5",
+      "label": "hanging pan",
+      "location": "0.5,0.5,0.7,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal pan",
+        "size": "medium"
+      },
+      "id": "pan6",
+      "label": "hanging pan",
+      "location": "0.6,0.5,0.8,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leaves in white bowl",
+        "size": "small"
+      },
+      "id": "plant1",
+      "label": "potted plant",
+      "location": "0.85,0.7,0.95,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden frame blackboard",
+        "size": "medium"
+      },
+      "id": "framed_picture1",
+      "label": "picture frame",
+      "location": "0.8,0.1,1.0,0.4,0.7"
+    }
+  ]
+}

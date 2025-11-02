@@ -1,0 +1,117 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "pot1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "in",
+      "source": "oil1",
+      "target": "pot1"
+    },
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "paper_towel1"
+    },
+    {
+      "predicate": "on",
+      "source": "paper_towel1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "includes",
+      "source": "tray1",
+      "target": "onion_rings1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tray1",
+      "target": "pot1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light blue shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.05,0.0,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "medium"
+      },
+      "id": "pot1",
+      "label": "cooking pot",
+      "location": "0.0,0.3,0.45,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "stove1",
+      "label": "stovetop burner",
+      "location": "0.0,0.75,0.4,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear liquid",
+        "size": "small"
+      },
+      "id": "oil1",
+      "label": "cooking oil",
+      "location": "0.05,0.35,0.4,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "tray1",
+      "label": "baking tray",
+      "location": "0.5,0.5,0.95,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "small"
+      },
+      "id": "onion_rings1",
+      "label": "fried onion rings",
+      "location": "0.55,0.55,0.9,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "medium"
+      },
+      "id": "paper_towel1",
+      "label": "paper towel",
+      "location": "0.45,0.1,0.9,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate",
+        "size": "small"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.45,0.1,0.9,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black white logo",
+        "size": "small"
+      },
+      "id": "logo1",
+      "label": "MasterChef logo",
+      "location": "0.75,0.0,1.0,0.2,0.9"
+    }
+  ]
+}

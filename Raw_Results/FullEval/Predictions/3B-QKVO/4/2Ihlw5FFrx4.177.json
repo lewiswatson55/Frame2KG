@@ -1,0 +1,140 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "lettuce"
+    },
+    {
+      "predicate": "holding",
+      "source": "person2",
+      "target": "sandwich"
+    },
+    {
+      "predicate": "on",
+      "source": "plate_of_salad",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_of_peppers",
+      "target": "table"
+    },
+    {
+      "predicate": "next_to",
+      "source": "vase_with_flower",
+      "target": "plate_of_salad"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "tv_screen",
+      "target": "wall"
+    },
+    {
+      "predicate": "behind",
+      "source": "people_in_background",
+      "target": "table"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "short brown hair turquoise shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.0,0.15,0.38,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "long dark hair green dress",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.6,0.1,1.0,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink purple gradient",
+        "size": "large"
+      },
+      "id": "tv_screen",
+      "label": "television screen",
+      "location": "0.2,0.0,0.7,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "table",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "lettuce",
+      "label": "lettuce",
+      "location": "0.1,0.4,0.3,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plate with red peppers",
+        "size": "small"
+      },
+      "id": "plate_of_salad",
+      "label": "salad plate",
+      "location": "0.3,0.6,0.5,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver bowl with red peppers",
+        "size": "small"
+      },
+      "id": "bowl_of_peppers",
+      "label": "pepper bowl",
+      "location": "0.35,0.6,0.45,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal vase with white flower",
+        "size": "small"
+      },
+      "id": "vase_with_flower",
+      "label": "flower vase",
+      "location": "0.45,0.6,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink text",
+        "size": "small"
+      },
+      "id": "text_between_bread",
+      "label": "text overlay",
+      "location": "0.0,0.7,0.4,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black text",
+        "size": "small"
+      },
+      "id": "text_sanfrancisco",
+      "label": "text overlay",
+      "location": "0.8,0.0,1.0,0.1,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black clothing",
+        "size": "small"
+      },
+      "id": "people_in_background",
+      "label": "people",
+      "location": "0.7,0.4,1.0,0.9,0.8"
+    }
+  ]
+}

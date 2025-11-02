@@ -1,0 +1,187 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "patties1",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cheese1",
+      "target": "patties1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "fryer1",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "rack1",
+      "target": "person1"
+    },
+    {
+      "predicate": "behind",
+      "source": "herbs1",
+      "target": "person1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "buns1",
+      "target": "tomatoes1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "tomatoes1",
+      "target": "nuts1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "shaker1",
+      "target": "tomatoes1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "mixing_bowl1",
+      "target": "scale1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spatula1",
+      "target": "mixing_bowl1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white chef coat",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "chef",
+      "location": "0.35,0.0,0.65,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "medium"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.4,0.7,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "raw pink",
+        "size": "small"
+      },
+      "id": "patties1",
+      "label": "burger patties",
+      "location": "0.5,0.75,0.6,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "cheese slices",
+      "location": "0.45,0.75,0.5,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "fryer1",
+      "label": "deep fryer",
+      "location": "0.0,0.3,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal shelves with jars",
+        "size": "large"
+      },
+      "id": "shelf1",
+      "label": "wall shelf",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "small"
+      },
+      "id": "herbs1",
+      "label": "herbs",
+      "location": "0.35,0.4,0.45,0.55,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "brown bread",
+        "size": "small"
+      },
+      "id": "buns1",
+      "label": "bread buns",
+      "location": "0.6,0.45,0.7,0.55,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "red round",
+        "size": "small"
+      },
+      "id": "tomatoes1",
+      "label": "tomatoes",
+      "location": "0.7,0.55,0.8,0.65,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "light brown wood",
+        "size": "small"
+      },
+      "id": "nuts1",
+      "label": "nuts",
+      "location": "0.8,0.55,0.9,0.65,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bowl with green handle",
+        "size": "small"
+      },
+      "id": "mixing_bowl1",
+      "label": "mixing bowl",
+      "location": "0.85,0.75,0.95,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "medium"
+      },
+      "id": "scale1",
+      "label": "digital scale",
+      "location": "0.9,0.75,1.0,0.9,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "shaker1",
+      "label": "salt shaker",
+      "location": "0.75,0.6,0.8,0.7,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal rack",
+        "size": "large"
+      },
+      "id": "rack1",
+      "label": "oven rack",
+      "location": "0.8,0.1,1.0,0.6,0.8"
+    }
+  ]
+}

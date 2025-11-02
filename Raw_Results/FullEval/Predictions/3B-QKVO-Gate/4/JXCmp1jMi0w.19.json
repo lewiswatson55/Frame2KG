@@ -1,0 +1,100 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "bag1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle1",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottle2",
+      "target": "board1"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl2",
+      "target": "board1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "bag1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bottle1",
+      "target": "bottle2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "bowl2",
+      "target": "bottle2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent plastic",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "plastic bag",
+      "location": "0.00,0.05,0.48,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red label glass",
+        "size": "medium"
+      },
+      "id": "bottle1",
+      "label": "hot sauce bottle",
+      "location": "0.36,0.05,0.48,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white green PET",
+        "size": "medium"
+      },
+      "id": "bottle2",
+      "label": "milk carton",
+      "location": "0.48,0.05,0.60,0.65,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic red sauce",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "sauce bowl",
+      "location": "0.35,0.60,0.60,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic onion pieces",
+        "size": "small"
+      },
+      "id": "bowl2",
+      "label": "onion bowl",
+      "location": "0.70,0.45,0.95,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "cutting board",
+      "location": "0.00,0.60,1.00,1.00,0.9"
+    }
+  ]
+}

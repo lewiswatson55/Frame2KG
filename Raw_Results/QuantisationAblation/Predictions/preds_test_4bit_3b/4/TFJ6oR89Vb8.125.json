@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "fork1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in",
+      "source": "eggs1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "toast1",
+      "target": "eggs1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "toast1"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "tablecloth1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.05,0.05,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow scrambled eggs with red pepper bits",
+        "size": "medium"
+      },
+      "id": "eggs1",
+      "label": "Scrambled Eggs",
+      "location": "0.3,0.2,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown toasted bread",
+        "size": "medium"
+      },
+      "id": "toast1",
+      "label": "Toast",
+      "location": "0.45,0.1,0.95,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "fork1",
+      "label": "Fork",
+      "location": "0.0,0.0,0.3,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.8,0.3,1.0,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red white checkered fabric",
+        "size": "large"
+      },
+      "id": "tablecloth1",
+      "label": "Tablecloth",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "spoon1"
+    },
+    {
+      "predicate": "in",
+      "source": "spoon1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "includes",
+      "source": "bowl1",
+      "target": "powder1"
+    },
+    {
+      "predicate": "on",
+      "source": "powder1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "brown_powder1",
+      "target": "powder1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.05,0.3,0.4,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "small"
+      },
+      "id": "spoon1",
+      "label": "Spoon",
+      "location": "0.1,0.2,0.6,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "Baking Dish",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white granular",
+        "size": "large"
+      },
+      "id": "powder1",
+      "label": "Flour",
+      "location": "0.0,0.2,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "orange granular",
+        "size": "small"
+      },
+      "id": "brown_powder1",
+      "label": "Brown Powder",
+      "location": "0.4,0.4,0.8,0.7,0.85"
+    }
+  ]
+}

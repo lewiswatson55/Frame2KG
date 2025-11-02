@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "in",
+      "source": "bowl1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "on",
+      "source": "drain1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "drain1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "bowl1",
+      "label": "measuring bowl",
+      "location": "0.05,0.3,0.6,0.7,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "large"
+      },
+      "id": "hand1",
+      "label": "hands",
+      "location": "0.4,0.0,0.8,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.0,0.0,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "small"
+      },
+      "id": "drain1",
+      "label": "sink drain",
+      "location": "0.75,0.5,0.95,0.75,0.8"
+    }
+  ]
+}

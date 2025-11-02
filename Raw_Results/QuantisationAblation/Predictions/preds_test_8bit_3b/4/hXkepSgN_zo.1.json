@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "fruit1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "in",
+      "source": "dip1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl1",
+      "target": "fruit1"
+    },
+    {
+      "predicate": "on",
+      "source": "meat1",
+      "target": "plate2"
+    },
+    {
+      "predicate": "on",
+      "source": "sauce1",
+      "target": "meat1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "plate1",
+      "target": "play_button"
+    },
+    {
+      "predicate": "right_of",
+      "source": "mason_jar1",
+      "target": "play_button"
+    },
+    {
+      "predicate": "right_of",
+      "source": "tortilla1",
+      "target": "play_button"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "fruit plate",
+      "location": "0.35,0.45,0.65,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red and green",
+        "size": "small"
+      },
+      "id": "fruit1",
+      "label": "apple slices",
+      "location": "0.38,0.5,0.62,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "bowl of dip",
+      "location": "0.45,0.45,0.55,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown creamy",
+        "size": "small"
+      },
+      "id": "dip1",
+      "label": "dip",
+      "location": "0.48,0.5,0.53,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "plate2",
+      "label": "steak plate",
+      "location": "0.25,0.75,0.75,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown grilled",
+        "size": "medium"
+      },
+      "id": "meat1",
+      "label": "grilled steak",
+      "location": "0.3,0.75,0.6,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red sauce",
+        "size": "small"
+      },
+      "id": "sauce1",
+      "label": "tomato sauce",
+      "location": "0.35,0.8,0.6,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jar with yellow contents",
+        "size": "medium"
+      },
+      "id": "mason_jar1",
+      "label": "jar of peaches",
+      "location": "0.75,0.45,0.95,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "small"
+      },
+      "id": "play_button",
+      "label": "play button",
+      "location": "0.45,0.75,0.55,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white tortilla with red sauce",
+        "size": "medium"
+      },
+      "id": "tortilla1",
+      "label": "tortilla stack",
+      "location": "0.75,0.75,0.95,0.95,0.9"
+    }
+  ]
+}

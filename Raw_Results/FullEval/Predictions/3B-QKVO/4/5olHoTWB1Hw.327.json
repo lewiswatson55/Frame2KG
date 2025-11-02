@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "dish1",
+      "target": "oven1"
+    },
+    {
+      "predicate": "on",
+      "source": "casserole1",
+      "target": "dish1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "oven1",
+      "label": "Oven Rack",
+      "location": "0.0,0.65,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "dish1",
+      "label": "Baking Dish",
+      "location": "0.0,0.4,1.0,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown cheesy",
+        "size": "large"
+      },
+      "id": "casserole1",
+      "label": "Macaroni and Cheese Casserole",
+      "location": "0.05,0.0,0.95,0.7,0.95"
+    }
+  ]
+}

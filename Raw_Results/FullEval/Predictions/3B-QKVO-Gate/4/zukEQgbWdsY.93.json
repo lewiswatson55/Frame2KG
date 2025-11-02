@@ -1,0 +1,305 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "knife"
+    },
+    {
+      "predicate": "on",
+      "source": "knife",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "meat_slices",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "stove"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "pan2",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "plate1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "board1",
+      "target": "countertop"
+    },
+    {
+      "predicate": "on",
+      "source": "utensils",
+      "target": "countertop"
+    },
+    {
+      "predicate": "behind",
+      "source": "oven",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "person2",
+      "target": "person1"
+    },
+    {
+      "predicate": "above",
+      "source": "cabinet",
+      "target": "oven"
+    },
+    {
+      "predicate": "left_of",
+      "source": "window",
+      "target": "oven"
+    },
+    {
+      "predicate": "supports",
+      "source": "shelf",
+      "target": "vases"
+    },
+    {
+      "predicate": "supports",
+      "source": "shelf",
+      "target": "kettle"
+    },
+    {
+      "predicate": "supports",
+      "source": "shelf",
+      "target": "bowls"
+    },
+    {
+      "predicate": "supports",
+      "source": "shelf",
+      "target": "jars"
+    },
+    {
+      "predicate": "supports",
+      "source": "shelf",
+      "target": "oil_bottles"
+    },
+    {
+      "predicate": "supports",
+      "source": "shelf",
+      "target": "wine_bottles"
+    },
+    {
+      "predicate": "supports",
+      "source": "shelf",
+      "target": "teapot"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.52,0.05,0.93,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.05,0.65,0.45,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.15,0.65,0.30,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "small"
+      },
+      "id": "meat_slices",
+      "label": "raw meat slices",
+      "location": "0.15,0.70,0.40,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.45,0.65,0.60,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black cast iron",
+        "size": "medium"
+      },
+      "id": "pan2",
+      "label": "frying pan",
+      "location": "0.60,0.65,0.85,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate1",
+      "label": "plate",
+      "location": "0.00,0.80,0.30,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bowl green salad",
+        "size": "small"
+      },
+      "id": "bowl1",
+      "label": "salad bowl",
+      "location": "0.75,0.60,0.90,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "kitchen cabinet",
+      "location": "0.00,0.00,0.60,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stainless steel",
+        "size": "large"
+      },
+      "id": "oven",
+      "label": "oven",
+      "location": "0.30,0.10,0.60,0.50,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottles",
+        "size": "small"
+      },
+      "id": "vases",
+      "label": "vases",
+      "location": "0.60,0.00,0.80,0.20,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "ceramic bowls",
+        "size": "small"
+      },
+      "id": "bowls",
+      "label": "bowls",
+      "location": "0.80,0.00,1.00,0.20,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottles",
+        "size": "small"
+      },
+      "id": "oil_bottles",
+      "label": "oil bottles",
+      "location": "0.60,0.20,0.70,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottles",
+        "size": "small"
+      },
+      "id": "wine_bottles",
+      "label": "wine bottles",
+      "location": "0.70,0.20,0.80,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "blue metal",
+        "size": "small"
+      },
+      "id": "teapot",
+      "label": "teapot",
+      "location": "0.80,0.00,0.90,0.10,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic",
+        "size": "small"
+      },
+      "id": "kettle",
+      "label": "electric kettle",
+      "location": "0.90,0.00,1.00,0.10,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "shelf",
+      "label": "wall shelf",
+      "location": "0.60,0.20,1.00,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "window",
+      "label": "window",
+      "location": "0.00,0.00,0.30,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.00,0.60,1.00,1.00,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal utensils",
+        "size": "small"
+      },
+      "id": "utensils",
+      "label": "utensils",
+      "location": "0.00,0.80,0.20,0.95,0.8"
+    }
+  ]
+}

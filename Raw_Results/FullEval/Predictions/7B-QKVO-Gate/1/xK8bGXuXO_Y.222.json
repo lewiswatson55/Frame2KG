@@ -1,0 +1,131 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "onion_rings"
+    },
+    {
+      "predicate": "on",
+      "source": "onion_rings",
+      "target": "paper_towel"
+    },
+    {
+      "predicate": "on",
+      "source": "paper_towel",
+      "target": "plate"
+    },
+    {
+      "predicate": "next_to",
+      "source": "plate",
+      "target": "baking_dish"
+    },
+    {
+      "predicate": "in",
+      "source": "oil",
+      "target": "pot"
+    },
+    {
+      "predicate": "on",
+      "source": "pot",
+      "target": "stove"
+    },
+    {
+      "predicate": "wearing",
+      "source": "person1",
+      "target": "watch"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "light blue shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "person",
+      "location": "0.05,0.0,0.95,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red metal",
+        "size": "medium"
+      },
+      "id": "pot",
+      "label": "cooking pot",
+      "location": "0.0,0.3,0.45,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "clear liquid",
+        "size": "small"
+      },
+      "id": "oil",
+      "label": "cooking oil",
+      "location": "0.05,0.4,0.4,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate",
+      "label": "plate",
+      "location": "0.45,0.2,0.75,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white paper",
+        "size": "small"
+      },
+      "id": "paper_towel",
+      "label": "paper towel",
+      "location": "0.45,0.2,0.75,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "onion_rings",
+      "label": "onion rings",
+      "location": "0.5,0.25,0.75,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "baking_dish",
+      "label": "baking dish",
+      "location": "0.5,0.5,0.9,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown",
+        "size": "small"
+      },
+      "id": "onion_rings_in_baking_dish",
+      "label": "onion rings",
+      "location": "0.55,0.55,0.9,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "watch",
+      "label": "wrist watch",
+      "location": "0.3,0.1,0.4,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove",
+      "label": "stove burner",
+      "location": "0.0,0.75,0.4,1.0,0.8"
+    }
+  ]
+}

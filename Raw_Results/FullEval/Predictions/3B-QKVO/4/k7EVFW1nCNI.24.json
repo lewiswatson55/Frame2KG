@@ -1,0 +1,216 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "cabinet1"
+    },
+    {
+      "predicate": "on",
+      "source": "sink1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "faucet1",
+      "target": "sink1"
+    },
+    {
+      "predicate": "on",
+      "source": "vase1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "pepper_mill1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "soap_bottle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "dish_rack1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "oil_bottle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "red_towel1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "stove1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "above",
+      "source": "microwave1",
+      "target": "stove1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "cabinet1",
+      "target": "wall1"
+    },
+    {
+      "predicate": "attached_to",
+      "source": "cabinet2",
+      "target": "wall1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "vase1",
+      "target": "pepper_mill1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "sink1",
+      "target": "stove1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blonde hair colorful patterned shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.35,0.1,0.65,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "large"
+      },
+      "id": "cabinet1",
+      "label": "kitchen cabinet",
+      "location": "0.0,0.0,0.4,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white wood",
+        "size": "large"
+      },
+      "id": "cabinet2",
+      "label": "kitchen cabinet",
+      "location": "0.4,0.0,1.0,0.3,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "microwave1",
+      "label": "microwave oven",
+      "location": "0.7,0.0,1.0,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "sink1",
+      "label": "sink",
+      "location": "0.2,0.4,0.4,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "faucet1",
+      "label": "faucet",
+      "location": "0.3,0.4,0.4,0.55,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass red flowers",
+        "size": "small"
+      },
+      "id": "vase1",
+      "label": "flower vase",
+      "location": "0.0,0.5,0.15,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "small"
+      },
+      "id": "pepper_mill1",
+      "label": "pepper mill",
+      "location": "0.15,0.5,0.2,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear plastic red liquid",
+        "size": "small"
+      },
+      "id": "soap_bottle1",
+      "label": "soap bottle",
+      "location": "0.25,0.5,0.3,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white metal",
+        "size": "small"
+      },
+      "id": "dish_rack1",
+      "label": "dish rack",
+      "location": "0.2,0.6,0.4,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark green glass",
+        "size": "small"
+      },
+      "id": "oil_bottle1",
+      "label": "olive oil bottle",
+      "location": "0.5,0.5,0.55,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red cloth",
+        "size": "small"
+      },
+      "id": "red_towel1",
+      "label": "towel",
+      "location": "0.3,0.7,0.4,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "stove1",
+      "label": "stove",
+      "location": "0.6,0.6,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "black granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "countertop",
+      "location": "0.0,0.4,1.0,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white painted",
+        "size": "large"
+      },
+      "id": "wall1",
+      "label": "wall",
+      "location": "0.0,0.0,1.0,0.3,0.7"
+    }
+  ]
+}

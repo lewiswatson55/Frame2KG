@@ -1,0 +1,123 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "scissors1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "scissors1",
+      "target": "ketchup_bottle1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "yellow_ketchup_bottle1",
+      "target": "red_ketchup_bottle1"
+    },
+    {
+      "predicate": "on",
+      "source": "yellow_ketchup_bottle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "red_ketchup_bottle1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "plastic_bag1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "box1",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "on",
+      "source": "box2",
+      "target": "countertop1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "yellow_ketchup_bottle1",
+      "target": "red_ketchup_bottle1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "red_ketchup_bottle1",
+      "label": "Ketchup Bottle",
+      "location": "0.00,0.35,0.28,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "large"
+      },
+      "id": "yellow_ketchup_bottle1",
+      "label": "Yellow Ketchup Bottle",
+      "location": "0.40,0.05,0.60,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink plastic",
+        "size": "small"
+      },
+      "id": "scissors1",
+      "label": "Scissors",
+      "location": "0.30,0.60,0.50,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.30,0.70,0.50,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic bag",
+        "size": "medium"
+      },
+      "id": "plastic_bag1",
+      "label": "Plastic Bag",
+      "location": "0.10,0.00,0.40,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown cardboard",
+        "size": "small"
+      },
+      "id": "box1",
+      "label": "Box",
+      "location": "0.60,0.00,0.70,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown cardboard",
+        "size": "small"
+      },
+      "id": "box2",
+      "label": "Box",
+      "location": "0.70,0.00,0.80,0.25,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "dark granite",
+        "size": "large"
+      },
+      "id": "countertop1",
+      "label": "Countertop",
+      "location": "0.00,0.00,1.00,1.00,0.9"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "edges": [
+    {
+      "predicate": "includes",
+      "source": "ingredients_list",
+      "target": "chaat_masala"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chaat_masala",
+      "target": "spice_tbsp"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink text on white background",
+        "size": "large"
+      },
+      "id": "ingredients_list",
+      "label": "Ingredients List Header",
+      "location": "0.05,0.0,0.48,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "red text on white background",
+        "size": "medium"
+      },
+      "id": "onion_rings_header",
+      "label": "Onion Rings Header",
+      "location": "0.6,0.0,0.95,0.3,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black text on green background",
+        "size": "small"
+      },
+      "id": "serving_text",
+      "label": "For Serving Text",
+      "location": "0.05,0.3,0.48,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "dark brown text",
+        "size": "small"
+      },
+      "id": "chaat_masala",
+      "label": "Chaat Masala",
+      "location": "0.05,0.45,0.48,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white text",
+        "size": "small"
+      },
+      "id": "spice_tbsp",
+      "label": "Spice Tbsp",
+      "location": "0.6,0.45,0.95,0.6,0.9"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "slice1",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "slice2",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "slice3",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "slice4",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "slice5",
+      "target": "board"
+    },
+    {
+      "predicate": "on",
+      "source": "slice6",
+      "target": "board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "slice1",
+      "target": "slice2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "slice2",
+      "target": "slice3"
+    },
+    {
+      "predicate": "next_to",
+      "source": "slice3",
+      "target": "slice4"
+    },
+    {
+      "predicate": "next_to",
+      "source": "slice4",
+      "target": "slice5"
+    },
+    {
+      "predicate": "next_to",
+      "source": "slice5",
+      "target": "slice6"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "pink translucent",
+        "size": "medium"
+      },
+      "id": "slice1",
+      "label": "sliced onion",
+      "location": "0.38,0.47,0.95,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink translucent",
+        "size": "medium"
+      },
+      "id": "slice2",
+      "label": "sliced onion",
+      "location": "0.05,0.55,0.45,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink translucent",
+        "size": "small"
+      },
+      "id": "slice3",
+      "label": "sliced onion",
+      "location": "0.05,0.65,0.45,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink translucent",
+        "size": "small"
+      },
+      "id": "slice4",
+      "label": "sliced onion",
+      "location": "0.15,0.65,0.50,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink translucent",
+        "size": "small"
+      },
+      "id": "slice5",
+      "label": "sliced onion",
+      "location": "0.25,0.65,0.60,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink translucent",
+        "size": "small"
+      },
+      "id": "slice6",
+      "label": "sliced onion",
+      "location": "0.30,0.65,0.70,0.90,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "cutting board",
+      "location": "0.00,0.80,1.00,1.00,0.8"
+    }
+  ]
+}

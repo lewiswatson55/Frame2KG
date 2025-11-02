@@ -1,0 +1,156 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "table"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person2",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "cutting_board",
+      "target": "table"
+    },
+    {
+      "predicate": "on",
+      "source": "knife",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_red",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl_white",
+      "target": "cutting_board"
+    },
+    {
+      "predicate": "on",
+      "source": "vase",
+      "target": "table"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "behind",
+      "source": "tv_screen",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "person1",
+      "target": "person2"
+    },
+    {
+      "predicate": "right_of",
+      "source": "person2",
+      "target": "person1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "background_pink"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "woman",
+      "location": "0.05,0.1,0.48,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green dress",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "woman",
+      "location": "0.52,0.1,0.95,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white surface",
+        "size": "large"
+      },
+      "id": "table",
+      "label": "table",
+      "location": "0.0,0.6,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.1,0.63,0.45,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal blade black handle",
+        "size": "small"
+      },
+      "id": "knife",
+      "label": "knife",
+      "location": "0.15,0.65,0.35,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red peppers",
+        "size": "small"
+      },
+      "id": "bowl_red",
+      "label": "bowl of red peppers",
+      "location": "0.25,0.65,0.4,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white lettuce",
+        "size": "small"
+      },
+      "id": "bowl_white",
+      "label": "bowl of white salad",
+      "location": "0.4,0.65,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metallic",
+        "size": "small"
+      },
+      "id": "vase",
+      "label": "flower vase",
+      "location": "0.5,0.6,0.55,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "pink background purple text",
+        "size": "medium"
+      },
+      "id": "tv_screen",
+      "label": "TV screen",
+      "location": "0.2,0.0,0.8,0.4,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink wall",
+        "size": "large"
+      },
+      "id": "background_pink",
+      "label": "pink wall",
+      "location": "0.0,0.0,1.0,0.4,0.7"
+    }
+  ]
+}

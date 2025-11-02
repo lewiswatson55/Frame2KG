@@ -1,0 +1,136 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "lettuce1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "bread2",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "lettuce1"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand1",
+      "target": "bread2"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_salt1",
+      "target": "board1"
+    },
+    {
+      "predicate": "behind",
+      "source": "jar1",
+      "target": "plate1"
+    },
+    {
+      "predicate": "behind",
+      "source": "jar2",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.05,0.4,0.75,0.98,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "lettuce1",
+      "label": "Lettuce Leaves",
+      "location": "0.05,0.45,0.65,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown toasted",
+        "size": "small"
+      },
+      "id": "bread1",
+      "label": "Bread Croutons",
+      "location": "0.3,0.55,0.45,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "golden brown toasted",
+        "size": "small"
+      },
+      "id": "bread2",
+      "label": "Bread Crouton",
+      "location": "0.45,0.5,0.6,0.7,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white grilled",
+        "size": "medium"
+      },
+      "id": "chicken1",
+      "label": "Grilled Chicken",
+      "location": "0.2,0.5,0.8,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "Hand",
+      "location": "0.3,0.0,0.7,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown wood",
+        "size": "large"
+      },
+      "id": "board1",
+      "label": "Cutting Board",
+      "location": "0.6,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden bowl white salt",
+        "size": "small"
+      },
+      "id": "bowl_salt1",
+      "label": "Salt Bowl",
+      "location": "0.8,0.6,1.0,0.9,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow plastic",
+        "size": "medium"
+      },
+      "id": "jar1",
+      "label": "Jar of Mustard",
+      "location": "0.75,0.0,0.9,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "clear glass",
+        "size": "medium"
+      },
+      "id": "jar2",
+      "label": "Glass Jar",
+      "location": "0.85,0.0,1.0,0.4,0.8"
+    }
+  ]
+}

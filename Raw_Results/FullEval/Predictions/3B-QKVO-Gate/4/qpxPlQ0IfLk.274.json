@@ -1,0 +1,173 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "blender1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "on",
+      "source": "utensil_holder1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "jars1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "on",
+      "source": "bottles1",
+      "target": "shelf1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "stove1",
+      "target": "pan1"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "behind",
+      "source": "lamp1",
+      "target": "person1"
+    },
+    {
+      "predicate": "left_of",
+      "source": "bar_stools1",
+      "target": "counter1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "book_stack1",
+      "target": "person1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue red plaid shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.45,0.15,0.78,0.93,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic glass container",
+        "size": "medium"
+      },
+      "id": "blender1",
+      "label": "blender",
+      "location": "0.36,0.45,0.48,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green vegetables on black pan",
+        "size": "small"
+      },
+      "id": "pan1",
+      "label": "salad pan",
+      "location": "0.55,0.65,0.75,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden surface",
+        "size": "large"
+      },
+      "id": "counter1",
+      "label": "kitchen counter",
+      "location": "0.0,0.6,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "small"
+      },
+      "id": "utensil_holder1",
+      "label": "utensil holder",
+      "location": "0.45,0.25,0.52,0.45,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "glass jars with colorful contents",
+        "size": "small"
+      },
+      "id": "jars1",
+      "label": "jars",
+      "location": "0.1,0.2,0.3,0.35,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "metal pots hanging",
+        "size": "medium"
+      },
+      "id": "hanging_pots1",
+      "label": "hanging pots",
+      "location": "0.55,0.0,0.75,0.3,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden shelf with jars",
+        "size": "medium"
+      },
+      "id": "shelf1",
+      "label": "shelf",
+      "location": "0.0,0.0,0.5,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow bottles",
+        "size": "small"
+      },
+      "id": "bottles1",
+      "label": "bottles",
+      "location": "0.1,0.15,0.3,0.25,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "medium"
+      },
+      "id": "stove1",
+      "label": "gas stove",
+      "location": "0.75,0.6,0.95,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden stool",
+        "size": "small"
+      },
+      "id": "bar_stools1",
+      "label": "bar stools",
+      "location": "0.1,0.4,0.3,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white lampshade wooden base",
+        "size": "medium"
+      },
+      "id": "lamp1",
+      "label": "floor lamp",
+      "location": "0.85,0.15,0.98,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "stack of books",
+        "size": "small"
+      },
+      "id": "book_stack1",
+      "label": "book stack",
+      "location": "0.75,0.2,0.85,0.6,0.7"
+    }
+  ]
+}

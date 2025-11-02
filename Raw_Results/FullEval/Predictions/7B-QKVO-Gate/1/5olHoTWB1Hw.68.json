@@ -1,0 +1,80 @@
+{
+  "edges": [
+    {
+      "predicate": "on",
+      "source": "dish1",
+      "target": "tray1"
+    },
+    {
+      "predicate": "in",
+      "source": "mixture1",
+      "target": "dish1"
+    },
+    {
+      "predicate": "sprinkling_on",
+      "source": "hand1",
+      "target": "mixture1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "spoon1",
+      "target": "dish1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "dish1",
+      "label": "glass baking dish",
+      "location": "0.05,0.05,0.98,0.76,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white creamy",
+        "size": "medium"
+      },
+      "id": "mixture1",
+      "label": "batter",
+      "location": "0.15,0.15,0.85,0.65,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange granular",
+        "size": "small"
+      },
+      "id": "seasoning1",
+      "label": "seasoning powder",
+      "location": "0.30,0.20,0.75,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin-toned",
+        "size": "medium"
+      },
+      "id": "hand1",
+      "label": "human hand",
+      "location": "0.60,0.00,1.00,0.60,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "medium"
+      },
+      "id": "spoon1",
+      "label": "metal spoon",
+      "location": "0.00,0.00,0.40,0.30,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "tray1",
+      "label": "aluminum tray",
+      "location": "0.00,0.60,1.00,1.00,0.8"
+    }
+  ]
+}

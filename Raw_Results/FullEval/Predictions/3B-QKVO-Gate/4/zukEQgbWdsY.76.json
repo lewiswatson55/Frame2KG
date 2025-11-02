@@ -1,0 +1,206 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person2",
+      "target": "spatula"
+    },
+    {
+      "predicate": "on",
+      "source": "pan1",
+      "target": "stove"
+    },
+    {
+      "predicate": "on",
+      "source": "pan2",
+      "target": "stove"
+    },
+    {
+      "predicate": "next_to",
+      "source": "cutting_board",
+      "target": "stove"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "person1",
+      "target": "oven"
+    },
+    {
+      "predicate": "behind",
+      "source": "cabinet",
+      "target": "person1"
+    },
+    {
+      "predicate": "right_of",
+      "source": "shelf",
+      "target": "person1"
+    },
+    {
+      "predicate": "supports",
+      "source": "shelf",
+      "target": "bottles"
+    },
+    {
+      "predicate": "supports",
+      "source": "shelf",
+      "target": "bowls"
+    },
+    {
+      "predicate": "supports",
+      "source": "shelf",
+      "target": "blender"
+    },
+    {
+      "predicate": "left_of",
+      "source": "window",
+      "target": "person1"
+    },
+    {
+      "predicate": "includes",
+      "source": "stove",
+      "target": "pan1"
+    },
+    {
+      "predicate": "includes",
+      "source": "stove",
+      "target": "pan2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black shirt",
+        "size": "medium"
+      },
+      "id": "person1",
+      "label": "man",
+      "location": "0.05,0.05,0.48,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black t-shirt",
+        "size": "medium"
+      },
+      "id": "person2",
+      "label": "man",
+      "location": "0.52,0.05,0.93,0.75,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "small"
+      },
+      "id": "cutting_board",
+      "label": "cutting board",
+      "location": "0.05,0.65,0.35,0.85,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metallic silver",
+        "size": "large"
+      },
+      "id": "stove",
+      "label": "gas stove",
+      "location": "0.30,0.60,0.70,0.90,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan1",
+      "label": "frying pan",
+      "location": "0.40,0.65,0.55,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "medium"
+      },
+      "id": "pan2",
+      "label": "frying pan",
+      "location": "0.55,0.65,0.70,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate_left",
+      "label": "plate",
+      "location": "0.00,0.80,0.30,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "medium"
+      },
+      "id": "plate_right",
+      "label": "plate",
+      "location": "0.70,0.80,0.95,0.95,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "glass bottles",
+        "size": "medium"
+      },
+      "id": "bottles",
+      "label": "bottles",
+      "location": "0.55,0.05,0.90,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "ceramic bowls",
+        "size": "small"
+      },
+      "id": "bowls",
+      "label": "bowls",
+      "location": "0.60,0.05,0.90,0.20,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "cabinet",
+      "label": "kitchen cabinet",
+      "location": "0.00,0.00,0.50,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "wooden",
+        "size": "large"
+      },
+      "id": "shelf",
+      "label": "wall shelf",
+      "location": "0.50,0.00,1.00,0.40,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "large"
+      },
+      "id": "window",
+      "label": "window",
+      "location": "0.00,0.00,0.30,0.60,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "plastic black",
+        "size": "medium"
+      },
+      "id": "blender",
+      "label": "blender",
+      "location": "0.90,0.50,1.00,0.80,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "metal spatula",
+        "size": "small"
+      },
+      "id": "spatula",
+      "label": "spatula",
+      "location": "0.60,0.50,0.75,0.70,0.8"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "flour1",
+      "target": "bowl1"
+    },
+    {
+      "predicate": "on",
+      "source": "chicken1",
+      "target": "flour1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "chicken2",
+      "target": "chicken1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "large"
+      },
+      "id": "bowl1",
+      "label": "metal bowl",
+      "location": "0.0,0.0,1.0,1.0,0.95"
+    },
+    {
+      "attributes": {
+        "appearance": "white powder",
+        "size": "medium"
+      },
+      "id": "flour1",
+      "label": "flour",
+      "location": "0.0,0.1,1.0,0.8,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "brown breaded",
+        "size": "small"
+      },
+      "id": "chicken1",
+      "label": "breaded chicken piece",
+      "location": "0.6,0.3,0.9,0.7,0.88"
+    },
+    {
+      "attributes": {
+        "appearance": "grey breaded",
+        "size": "small"
+      },
+      "id": "chicken2",
+      "label": "breaded chicken piece",
+      "location": "0.4,0.6,0.9,0.9,0.88"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "hand_left",
+      "target": "dish"
+    },
+    {
+      "predicate": "holding",
+      "source": "hand_right",
+      "target": "dish"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "dish",
+      "target": "spatula"
+    },
+    {
+      "predicate": "on",
+      "source": "dish",
+      "target": "countertop"
+    },
+    {
+      "predicate": "next_to",
+      "source": "towel",
+      "target": "dish"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "black metal",
+        "size": "large"
+      },
+      "id": "dish",
+      "label": "baking dish",
+      "location": "0.05,0.3,0.95,0.85,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "brown skin",
+        "size": "medium"
+      },
+      "id": "hand_left",
+      "label": "left hand",
+      "location": "0.0,0.4,0.6,0.75,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "brown skin",
+        "size": "medium"
+      },
+      "id": "hand_right",
+      "label": "right hand",
+      "location": "0.0,0.2,0.6,0.5,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "spatula",
+      "label": "spatula",
+      "location": "0.3,0.0,0.9,0.2,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white cloth",
+        "size": "medium"
+      },
+      "id": "towel",
+      "label": "kitchen towel",
+      "location": "0.75,0.2,1.0,0.6,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "grey surface",
+        "size": "large"
+      },
+      "id": "countertop",
+      "label": "countertop",
+      "location": "0.0,0.8,1.0,1.0,0.6"
+    }
+  ]
+}

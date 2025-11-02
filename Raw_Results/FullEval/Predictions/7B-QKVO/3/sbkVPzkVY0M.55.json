@@ -1,0 +1,85 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person1",
+      "target": "bowl_small"
+    },
+    {
+      "predicate": "in_front_of",
+      "source": "bowl_large",
+      "target": "bowl_small"
+    },
+    {
+      "predicate": "on",
+      "source": "meat_brisket",
+      "target": "bowl_large"
+    },
+    {
+      "predicate": "on",
+      "source": "spatula",
+      "target": "board"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bowl_small",
+      "target": "spatula"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "blue shirt",
+        "size": "large"
+      },
+      "id": "person1",
+      "label": "Person",
+      "location": "0.35,0.0,1.0,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "medium"
+      },
+      "id": "bowl_large",
+      "label": "Glass Bowl",
+      "location": "0.2,0.2,0.7,0.6,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "transparent glass",
+        "size": "small"
+      },
+      "id": "bowl_small",
+      "label": "Small Glass Bowl",
+      "location": "0.45,0.5,0.8,0.8,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "pink raw meat",
+        "size": "small"
+      },
+      "id": "meat_brisket",
+      "label": "Ground Brisket",
+      "location": "0.3,0.3,0.6,0.5,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "black plastic handle",
+        "size": "medium"
+      },
+      "id": "spatula",
+      "label": "Spatula",
+      "location": "0.8,0.6,1.0,0.9,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "light wood",
+        "size": "large"
+      },
+      "id": "board",
+      "label": "Cutting Board",
+      "location": "0.0,0.5,1.0,1.0,0.8"
+    }
+  ]
+}

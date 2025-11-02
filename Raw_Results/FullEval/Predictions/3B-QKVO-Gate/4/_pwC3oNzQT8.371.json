@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in",
+      "source": "chicken_wings",
+      "target": "tray"
+    },
+    {
+      "predicate": "on",
+      "source": "logo_text",
+      "target": "chicken_wings"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "golden brown crispy",
+        "size": "large"
+      },
+      "id": "chicken_wings",
+      "label": "fried chicken wings",
+      "location": "0.05,0.05,0.98,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "white plastic",
+        "size": "medium"
+      },
+      "id": "tray",
+      "label": "plastic tray",
+      "location": "0.0,0.0,1.0,1.0,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "black cursive font",
+        "size": "small"
+      },
+      "id": "logo_text",
+      "label": "Chef Ricardo logo",
+      "location": "0.6,0.7,0.95,0.95,0.8"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "includes",
+      "source": "logo1",
+      "target": "flame1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "flame1",
+      "target": "text3"
+    },
+    {
+      "predicate": "below",
+      "source": "text4",
+      "target": "text5"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green and red text on beige background",
+        "size": "large"
+      },
+      "id": "logo1",
+      "label": "DUDE FOOD logo",
+      "location": "0.1,0.2,0.9,0.4,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "orange flame graphic",
+        "size": "small"
+      },
+      "id": "flame1",
+      "label": "flame icon",
+      "location": "0.47,0.25,0.53,0.4,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "green cursive text",
+        "size": "medium"
+      },
+      "id": "text3",
+      "label": "Jeff Michaud & Brad Spence text",
+      "location": "0.1,0.6,0.9,0.8,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "green cursive text",
+        "size": "medium"
+      },
+      "id": "text4",
+      "label": "Dude Food text",
+      "location": "0.1,0.4,0.9,0.6,0.8"
+    }
+  ]
+}

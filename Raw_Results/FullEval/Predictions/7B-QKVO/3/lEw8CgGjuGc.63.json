@@ -1,0 +1,57 @@
+{
+  "edges": [
+    {
+      "predicate": "includes",
+      "source": "pile1",
+      "target": "herb1"
+    },
+    {
+      "predicate": "includes",
+      "source": "pile1",
+      "target": "cheese1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "pile1",
+      "target": "plate1"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "green leafy",
+        "size": "medium"
+      },
+      "id": "herb1",
+      "label": "Herbs",
+      "location": "0.05,0.4,0.95,0.85,0.7"
+    },
+    {
+      "attributes": {
+        "appearance": "white crumbly",
+        "size": "small"
+      },
+      "id": "cheese1",
+      "label": "Cheese Crumbs",
+      "location": "0.3,0.1,0.7,0.6,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "red ceramic",
+        "size": "large"
+      },
+      "id": "plate1",
+      "label": "Plate",
+      "location": "0.0,0.0,0.3,0.5,0.6"
+    },
+    {
+      "attributes": {
+        "appearance": "yellowish white",
+        "size": "medium"
+      },
+      "id": "pile1",
+      "label": "Pile of Herbs and Cheese",
+      "location": "0.2,0.1,0.8,0.9,0.9"
+    }
+  ]
+}

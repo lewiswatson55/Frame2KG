@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "predicate": "holding",
+      "source": "person_hand",
+      "target": "bowl"
+    },
+    {
+      "predicate": "in",
+      "source": "liquid",
+      "target": "bowl"
+    },
+    {
+      "predicate": "on",
+      "source": "bowl",
+      "target": "sink"
+    },
+    {
+      "predicate": "includes",
+      "source": "sink",
+      "target": "drain"
+    },
+    {
+      "predicate": "next_to",
+      "source": "person_hand",
+      "target": "sink"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "red plastic",
+        "size": "medium"
+      },
+      "id": "bowl",
+      "label": "mixing bowl",
+      "location": "0.35,0.0,0.65,0.45,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "yellow liquid",
+        "size": "small"
+      },
+      "id": "liquid",
+      "label": "sauce",
+      "location": "0.38,0.05,0.62,0.35,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "skin tone",
+        "size": "small"
+      },
+      "id": "person_hand",
+      "label": "hand",
+      "location": "0.75,0.2,0.98,0.6,0.85"
+    },
+    {
+      "attributes": {
+        "appearance": "white ceramic",
+        "size": "large"
+      },
+      "id": "sink",
+      "label": "sink",
+      "location": "0.0,0.4,1.0,1.0,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "silver metal",
+        "size": "small"
+      },
+      "id": "drain",
+      "label": "sink drain",
+      "location": "0.3,0.5,0.45,0.7,0.9"
+    }
+  ]
+}

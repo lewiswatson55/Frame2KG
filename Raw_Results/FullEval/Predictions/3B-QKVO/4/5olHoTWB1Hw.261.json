@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "predicate": "in_front_of",
+      "source": "bag1",
+      "target": "box1"
+    },
+    {
+      "predicate": "next_to",
+      "source": "bag1",
+      "target": "box2"
+    }
+  ],
+  "nodes": [
+    {
+      "attributes": {
+        "appearance": "yellow croutons in clear plastic packaging",
+        "size": "large"
+      },
+      "id": "bag1",
+      "label": "seasoned crouton bag",
+      "location": "0.05,0.05,0.98,0.95,0.9"
+    },
+    {
+      "attributes": {
+        "appearance": "green cardboard box with bold text",
+        "size": "medium"
+      },
+      "id": "box1",
+      "label": "cardboard box",
+      "location": "0.6,0.7,1.0,1.0,0.8"
+    },
+    {
+      "attributes": {
+        "appearance": "white cardboard box with green text",
+        "size": "small"
+      },
+      "id": "box2",
+      "label": "cardboard box",
+      "location": "0.3,0.0,0.6,0.4,0.7"
+    }
+  ]
+}
