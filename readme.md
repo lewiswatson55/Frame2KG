@@ -2,6 +2,8 @@
 
 Frame2KG aggregates the data, models, and tooling introduced in *Frame2KG-YC2: A Synthetic Dataset, LoRA Adapters, and an Evaluation Toolkit for Frame → Graph*. The goal is to provide a single launch point for reproducible frame-to-knowledge-graph research focused on interpretable, on-device robotics.
 
+![Frame2KG Example](./frame2kg_figure.png)
+
 ## Project Resources
 - Dataset: Frame2KG-YC2 synthetic corpus ([Anon Download (use password: Frame2KG)](https://drive.proton.me/urls/C8FY237TPM#ScjKwJdl4Xh1))
 - Synthetic Dataset Creation Scripts ([Dataset Generation (anon)](https://anonymous.4open.science/r/Frame2KG/DatasetGeneration/readme.md)) 
