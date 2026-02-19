@@ -15,7 +15,7 @@ Frame2KG aggregates the data, models, and tooling introduced in *Frame2KG-YC2: A
 - Appendix details ([Appendix.md](https://github.com/lewiswatson55/Frame2KG/blob/master/appendix.md))
 
 ## Citing
-If you use these resources, please cite the Frame2KG-YC2 paper (coming soon).
+If you use these resources, please cite the Frame2KG paper (coming soon).
 
 ## Contact
 For questions or collaboration inquiries, reach out to `l.watson@napier.ac.uk`.
