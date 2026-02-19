@@ -14,10 +14,8 @@ Frame2KG aggregates the data, models, and tooling introduced in *Frame2KG-YC2: A
 - Paper: Frame2KG baseline reports and comparison results ([coming soon](#))
 - Appendix details ([Appendix.md](https://github.com/lewiswatson55/Frame2KG/blob/master/appendix.md))
 
-> Note: All resources have been anonymised. Adapters and Dataset will be hosted on Huggingface but in order to anonymise we provide direct download links preserving author anonymisation. If asked for a password use `Frame2KG`.
-
 ## Citing
 If you use these resources, please cite the Frame2KG-YC2 paper (coming soon).
 
 ## Contact
-For questions or collaboration inquiries, reach out to the authors at `REDACTED`.
+For questions or collaboration inquiries, reach out to `l.watson@napier.ac.uk`.
