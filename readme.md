@@ -14,8 +14,17 @@ Frame2KG aggregates the data, models, and tooling introduced in *Frame2KG-YC2: A
 - Paper: Frame2KG baseline reports and comparison results ([coming soon](#))
 - Appendix details ([Appendix.md](https://github.com/lewiswatson55/Frame2KG/blob/master/appendix.md))
 
+## Update Log
+2026-04-13:
+- Improved evaluation efficiency (shared embedding model, reduced per-frame overhead)
+- Standardised evaluation defaults for node text fields (`label, attributes`)
+
+> **Note on evaluation:**  
+> The evaluation toolkit uses `label, attributes` as the default node text fields.  
+> For exact reproduction of the LREC 2026 paper results, please refer to the evaluation repository documentation.
 ## Citing
 If you use these resources, please cite the Frame2KG paper (coming soon).
 
 ## Contact
-For questions or collaboration inquiries, reach out to `l.watson@napier.ac.uk`.
+For questions or collaboration inquiries, reach out to `l.watson{at}napier.ac.uk`.
+> Replace {at} with @
